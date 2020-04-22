@@ -1,10 +1,8 @@
 # Sprint Challenge Instructions Template
 
-> Text like this that uses the `>` character (quoted block in Markdown) is commentary and instructions for you (the curriculum developer) to replace. They should not be left in your final result. Conversely, text not in a quote block is either a example for you to modify, or text that will usually be left as-is for most if not all sprint challenges.
-
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **`<Sprint Subject Here>`**. During this sprint, you studied **`<High-level sprint topics here>`**. In your challenge this week, you will demonstrate your mastery of these skills by creating **`<describe project here>`**.
+This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored user interface and git. During this sprint, you studied basic html and css, css layouts, and responsive design. In your challenge this week, you will demonstrate your mastery of these skills by creating a fully responsive website that has some missing HTML elements as well as CSS specificity problems that need to be solved.
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
@@ -15,9 +13,7 @@ _You have **three hours** to complete this challenge. Plan your time accordingly
 
 ## Introduction
 
-> In this section, introduce the challenge,  with a high level explanation of the components of the project.
-> 
-> This section should include examples in the form of screenshots, screen recording GIFs, and/or links to an example.
+In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and make your page responsive for mobile. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
 
 In meeting the minimum viable product (MVP) specifications listed below, your project should look like the solution examples below:
 
@@ -30,8 +26,6 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
 
 ## Interview Questions
-
-> List out the topics covered that students should study and review to be prepared for the questions asked in the TL interview. You can use the list of learning objectives that should be covered by the interview as a start.
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
@@ -51,8 +45,6 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-> This section should include instruction for the sprint challenge. These should only cover things that are _not_ being evaluated by the challenge itself, e.g. environment/project setup, link to a starter project, etc. In general, this will be the following Git fork, clone, branch, commit, push, create pull request flow, though may need to be adapted for some specific challenges.
-
 - [ ] Create a forked copy of this project
 - [ ] Add your team lead as collaborator on Github
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
@@ -62,11 +54,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 2: Project Requirements
 
-> This section should include requirements for the sprint challenge itself. The idea is to be explicit with the student about the things their project solution needs to implement, without telling them **how** to do any of these things. Be sure all learning objectives in your sprint challenge list are covered. 
-
 Your finished project must include all of the following requirements:
-
-> (The following is an example):
 
 #### Home Page
 
