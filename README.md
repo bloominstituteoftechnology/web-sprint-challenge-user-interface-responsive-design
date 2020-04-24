@@ -61,7 +61,6 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Uses Semantic HTML and CSS to create the missing navigation and header
-* [ ] The `About` navigation item must be linked to the [about.html](about.html) page
 * [ ] Your design must be responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe. This functionality must be implemented using flexbox.
 * [ ] Uses all box model properties so that margins, borders, and padding match the wireframes
 * [ ] You must add responsive breakpoints to your code by using media queries
