@@ -13,7 +13,7 @@ _You have **three hours** to complete this challenge. Plan your time accordingly
 
 ## Introduction
 
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and make your page responsive for mobile. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
+In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page. You will be working with a pre-existing web page, allowing you to get a taste of what it is like to inherit code from someone else, as will regularly happen on the job.
 
 In meeting the minimum viable product (MVP) specifications listed below, your project should look like the solution examples below:
 
