@@ -61,22 +61,19 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Uses Semantic HTML and CSS to create the missing navigation and header
-* [ ] Your design must be responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe. This functionality must be implemented using flexbox.
 * [ ] Uses all box model properties so that margins, borders, and padding match the wireframes
 * [ ] You must add responsive breakpoints to your code by using media queries
-* [ ] All 10 boxes on the home page are correctly styled with background colors using the guide below:
-
-
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ ] All 10 boxes on the home page are correctly styled with flexbox and background colors using the guide below:
+  * [ ] box1: `teal`
+  * [ ] box2: `gold`
+  * [ ] box3: `cadetblue`
+  * [ ] box4: `coral`
+  * [ ] box5: `crimson`
+  * [ ] box6: `forestgreen`
+  * [ ] box7: `darkorchid`
+  * [ ] box8: `hotpink`
+  * [ ] box9: `indigo`
+  * [ ] box10: `dodgerblue`
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
