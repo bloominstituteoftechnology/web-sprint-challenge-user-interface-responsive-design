@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+There is no immediate functional difference between sematic HTML and non-semantic HTML.
+
+Semantic HTML is what screen readers use to read the context of your screen. Think of it more like an outline. A bunch of <divs> is messy. <article><section> is tidy and more organized.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Block takes up a new line.
+Inline displays things on the same line.
+
 3. What are the 4 areas of the box model?
+Border
+Margin
+Padding
+Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
+Git allows you to track who made what changes and why.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
