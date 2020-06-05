@@ -63,6 +63,7 @@ footer, header, hgroup, menu, nav, section {
     justify-content: space-between;
     text-decoration: none;
     margin-right: 15%;
+    margin-top: 5%;
     padding: 1%;
     color: black;
 
@@ -76,14 +77,16 @@ footer, header, hgroup, menu, nav, section {
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap; 
-    margin: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     justify-content: center;
-    justify-content: space-around;
 
   }
-  .container2{
-
+  .middle-top{
+      margin: 5%;
   }
+
+  
   .about{
       border-bottom: dotted gray 3px;
     
@@ -92,15 +95,15 @@ footer, header, hgroup, menu, nav, section {
     text-align: center;
   }
   .How-we-work{
-    
+    border-bottom: dotted gray 3px;
   }
   .places-we-work{
-  
+    border-bottom: dotted gray 3px;
   }
   .collaboration{
- 
+    border-bottom: dotted gray 3px;
   }
   .footerlink{
-      display: flex;
+      
 
   }
