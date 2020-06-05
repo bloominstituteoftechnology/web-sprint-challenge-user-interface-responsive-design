@@ -33,7 +33,7 @@ header{
     justify-content: space-between;
     align-items: baseline;
     width: 800px;
-    margin: 3.5% auto;
+    margin: 2% auto;
 }
 nav{
     display:flex;
@@ -184,20 +184,22 @@ background-color: cadetblue;
 }
 #row1{
     display:flex;
+    justify-content: space-around;
 
 }
 #row2{
     display:flex;
+    justify-content: space-around;
 }
 .cube{
-    margin: 1%;
+    margin: 4%;
     border-bottom: 1px dashed black;
 }
 .cube div{
     margin:2%
 }
 .together{
-    margin: 5%;
+    margin: 3.5%;
 }
 button{
     margin:4%;
