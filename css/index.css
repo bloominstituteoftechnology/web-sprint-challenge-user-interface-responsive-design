@@ -194,7 +194,7 @@ h3 {
     display: inline-block;
     width: 32%;
     position: relative;
-    margin-top: 4%;;
+    margin-top: 4%;
     padding: 3%;
     border-radius: 8px 8px;
     
@@ -211,7 +211,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 30px;```
+    margin-bottom: 30px;
     padding: 2%;
     border-bottom: 1px dashed black;
 }
@@ -220,28 +220,22 @@ h3 {
 
 .about-middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed green;
+    /* border-bottom: 1px dashed green; */
+}
 
-    
-}
-`` .dottedline {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-    padding: 2%;
-    
-}
 
 
 .about-middle-content .text-container {
     
-    border-bottom: 1px dashed green;
-    background-color: lightcoral;
+    border-bottom: 1px dashed black;
     margin:2%;
-
+    padding-bottom: 3%;
     position: relative;
+
     
 }
+
+
 
 .about-bottom-content {
     display: flex;
@@ -259,14 +253,6 @@ h3 {
     padding-right: 0;
 }
 
-
-button{
-font-size: 16px;
-text-decoration: none;
-padding: 5px;
-margin: 3%;
-border-radius: 16%;
-}
 
 
 
