@@ -74,36 +74,51 @@ footer, header, hgroup, menu, nav, section {
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap; 
-    margin-left: 20%;
-    margin-right: 20%;
+    flex-direction: column;
+    margin-left: 28%;
+    margin-right: 28%;
     justify-content: center;
-
-  }
-  .middle-top{
-      margin: 5%;
   }
 
   
   .about{
       border-bottom: dotted gray 3px;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
         padding: 4%;
+        text-align: left;
+  }
+  .strategy{
+    border: 2px solid black;
+    border-bottom: dotted gray 3px;
+    text-align: left;
+    width: 50%;
+
   }
   .How-we-work{
+    border: 2px solid black;
     border-bottom: dotted gray 3px;
-    margin:5%;
-    padding: 4%;
+    text-align: left;
+    width: 50%;
   }
   .places-we-work{
+    border: 2px solid black;
     border-bottom: dotted gray 3px;
-    padding: 4%
+    width: 50%;
+    text-align: left;
   }
   .collaboration{
+    border: 2px solid black;
     border-bottom: dotted gray 3px;
-    padding: 4%
+    width: 50%;
+    text-align: left;
+  }
+  .work-together{
+    border: 2px solid black;
+    border-bottom: dotted gray 3px;
+    width: 50%;
+    text-align: left;
   }
   .footerlink{
-      Padding: 5%;
-      margin:3%;
+      text-align: left;
 
   }
