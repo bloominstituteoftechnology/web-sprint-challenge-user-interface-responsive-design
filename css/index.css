@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    max-width: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    max-width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -60,6 +62,27 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+header{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.headerimg{
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -111,7 +134,44 @@ p {
     align-items: center;
     justify-content: center;
 }
+#Box1{
+    background: teal;
+}
+#Box2{
+    background: gold;
+}
 
+#Box3{
+    background: cadetblue;
+}
+
+#Box4{
+    background: coral;
+}
+
+#Box5{
+    background: crimson;
+}
+
+#Box6{
+    background: forestgreen;
+}
+
+#Box7{
+    background: darkorchid;
+}
+
+#Box8{
+    background: hotpink;
+}
+
+#Box9{
+    background: indigo;
+}
+
+#Box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
