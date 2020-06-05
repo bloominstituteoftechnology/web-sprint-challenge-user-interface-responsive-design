@@ -51,12 +51,14 @@ table {
     box-sizing: border-box;
 }
 
+/* TIME TO STYLE BELOW */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -64,6 +66,24 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.logo {
+    display: inline-block;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 82%;
+}
+
+
+
+.road {
+    display:flex;
+    justify-content: center;
+    padding: 2%;
 }
 
 .container {
@@ -79,11 +99,15 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +125,29 @@ p {
     justify-content: space-evenly;
 }
 
+
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.one {background-color: teal;}
+.two {background-color:gold;}
+.three {background-color: cadetblue;}
+.four {background-color: coral;}
+.five {background-color: crimson;}
+.six {background-color: forestgreen;}
+.sevn {background-color: darkorchid;}
+.ate {background-color: hotpink;}
+.nine {background-color: indigo;}
+.ten {background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -119,10 +156,12 @@ p {
 }
 
 .bottom-content .text-container {
+    
     padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
+    
     padding-right: 0;
 }
 
@@ -144,3 +183,144 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE SECTION */
+
+
+
+
+h3 {
+    border: 1px solid black;
+    display: inline-block;
+    width: 32%;
+    position: relative;
+    margin-top: 4%;
+    padding: 3%;
+    border-radius: 8px 8px;
+    
+    
+}
+.about-bottom-content .text-content h3{
+    border-radius: 8px 8px ;
+    padding: 2%;
+    margin: 6%; 
+
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.about-middle-content {
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed green; */
+}
+
+
+
+.about-middle-content .text-container {
+    
+    border-bottom: 1px dashed black;
+    margin:2%;
+    padding-bottom: 3%;
+    position: relative;
+
+    
+}
+
+
+
+.about-bottom-content {
+    display: flex;
+    margin-left: 1rem;
+    padding: 2%;
+    justify-content: space-around;
+    align-content: flex-start;
+    
+}
+
+
+
+.about-bottom-content .text-container:last-child {
+    
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS NAV ANIMATIONS */
+
+.home {
+    transition: out;
+    transition: 1s ease;
+    }
+    .home:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
+    }
+    
+    .about {
+    transition: out;
+        transition: 1s ease;
+        }
+        .about:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
+    
+    .products {
+    transition: out;
+        transition: 1s ease;
+        }
+        .products:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
+    .blog {
+    transition: out;
+        transition: 1s ease;
+        }
+        .blog:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
+    
+    .contact {
+    transition: out;
+        transition: 1s ease;
+        }
+        .contact:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
