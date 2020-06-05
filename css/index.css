@@ -174,7 +174,38 @@ background-color: cadetblue;
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about div{
+    margin:2%;
+}
+#row1{
+    display:flex;
 
+}
+#row2{
+    display:flex;
+}
+.cube{
+    margin: 1%;
+    border-bottom: 1px dashed black;
+}
+.cube div{
+    margin:2%
+}
+.together{
+    margin: 2%;
+}
+button{
+    margin:4%;
+    padding:2.7% 5%;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bolder;
+}
 footer {
     width: 100%;
     background: black;
