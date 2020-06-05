@@ -69,6 +69,28 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
+}
+a{
+    color:black;
+    padding-top: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    width 70%;
+}
+
+.top1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .top-content {
@@ -127,8 +149,10 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 50%;
     background: black;
+    display: flex;
+    justify-content: center;
 }
 
 footer nav {
