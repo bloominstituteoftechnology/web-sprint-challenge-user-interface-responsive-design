@@ -21,12 +21,32 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2%;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width: 70vw;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.banner{
+    display:flex;
+    justify-content: center;
+    margin:1%;
 }
 body {
 	line-height: 1;
