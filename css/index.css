@@ -58,7 +58,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -77,59 +77,7 @@ p {
     align-items: flex-end;
     width: 82%;
 }
-.home {
-transition: out;
-transition: 1s ease;
-}
-.home:hover {
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
-transition: 1s ease;
-}
 
-.about {
-transition: out;
-    transition: 1s ease;
-    }
-    .about:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    transition: 1s ease;
-    }
-
-.products {
-transition: out;
-    transition: 1s ease;
-    }
-    .products:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    transition: 1s ease;
-    }
-.blog {
-transition: out;
-    transition: 1s ease;
-    }
-    .blog:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    transition: 1s ease;
-    }
-
-.contact {
-transition: out;
-    transition: 1s ease;
-    }
-    .contact:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    transition: 1s ease;
-    }
 
 
 .road {
@@ -159,10 +107,7 @@ transition: out;
     padding-bottom: 20px;  
 }
 
-.top-content .text-aboutcontainer {
-    line-height:8 rem ;
-    padding-bottom: 20px;
-}
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -181,15 +126,6 @@ transition: out;
 }
 
 
-h3 {
-border: 1px solid black;
-display:inline;
-border-radius: 5px 5px 5px 5px;
-padding: 1%;
-margin: 0%
-
- 
-}
 
 
 .middle-content .boxes .box {
@@ -220,10 +156,12 @@ margin: 0%
 }
 
 .bottom-content .text-container {
+    
     padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
+    
     padding-right: 0;
 }
 
@@ -246,3 +184,157 @@ footer nav a {
     text-decoration: none;
 }
 
+/* ABOUT PAGE SECTION */
+
+
+
+
+h3 {
+    border: 1px solid black;
+    display: inline-block;
+    width: 32%;
+    position: relative;
+    margin-top: 4%;;
+    padding: 3%;
+    border-radius: 8px 8px;
+    
+    
+}
+.about-bottom-content .text-content h3{
+    border-radius: 8px 8px ;
+    padding: 2%;
+    margin: 6%; 
+
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;```
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.about-middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed green;
+
+    
+}
+`` .dottedline {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    padding: 2%;
+    
+}
+
+
+.about-middle-content .text-container {
+    
+    border-bottom: 1px dashed green;
+    background-color: lightcoral;
+    margin:2%;
+
+    position: relative;
+    
+}
+
+.about-bottom-content {
+    display: flex;
+    margin-left: 1rem;
+    padding: 2%;
+    justify-content: space-around;
+    align-content: flex-start;
+    
+}
+
+
+
+.about-bottom-content .text-container:last-child {
+    
+    padding-right: 0;
+}
+
+
+button{
+font-size: 16px;
+text-decoration: none;
+padding: 5px;
+margin: 3%;
+border-radius: 16%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS NAV ANIMATIONS */
+
+.home {
+    transition: out;
+    transition: 1s ease;
+    }
+    .home:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
+    }
+    
+    .about {
+    transition: out;
+        transition: 1s ease;
+        }
+        .about:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
+    
+    .products {
+    transition: out;
+        transition: 1s ease;
+        }
+        .products:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
+    .blog {
+    transition: out;
+        transition: 1s ease;
+        }
+        .blog:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
+    
+    .contact {
+    transition: out;
+        transition: 1s ease;
+        }
+        .contact:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 1s ease;
+        }
