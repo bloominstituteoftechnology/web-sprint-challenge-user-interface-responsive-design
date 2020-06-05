@@ -43,7 +43,7 @@ footer, header, hgroup, menu, nav, section {
   .logo{
       display:flex;
       height: 90%;
-      margin-left: -42%;
+      margin-left: -41%;
       margin-right: 10%;
   }
   .links{

@@ -45,9 +45,8 @@ footer, header, hgroup, menu, nav, section {
 
   }
   .logo{
-      display:flex;
-      margin-left: -42%;
-      margin-right: 10%;
+      margin-left: -40%;
+      margin-right: 7%;
   }
   .links{
       display: flex;
@@ -55,7 +54,6 @@ footer, header, hgroup, menu, nav, section {
     text-decoration: none;
     margin: 2%;
     padding: 1%;
-
     color: black;
   }
   nav a{
@@ -66,7 +64,6 @@ footer, header, hgroup, menu, nav, section {
     margin-top: 5%;
     padding: 1%;
     color: black;
-
   }
   .skyline{
     display:flex;
@@ -89,21 +86,24 @@ footer, header, hgroup, menu, nav, section {
   
   .about{
       border-bottom: dotted gray 3px;
-    
-  }
-  .container-about-page{
-    text-align: center;
+        margin-bottom: 5%;
+        padding: 4%;
   }
   .How-we-work{
     border-bottom: dotted gray 3px;
+    margin:5%;
+    padding: 4%;
   }
   .places-we-work{
     border-bottom: dotted gray 3px;
+    padding: 4%
   }
   .collaboration{
     border-bottom: dotted gray 3px;
+    padding: 4%
   }
   .footerlink{
-      
+      Padding: 5%;
+      margin:3%;
 
   }
