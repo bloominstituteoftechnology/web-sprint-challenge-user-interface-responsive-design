@@ -69,6 +69,7 @@ footer, header, hgroup, menu, nav, section {
       display:flex;
       justify-content: center;
       margin: 2%;
+      width:100%;
   }
 body {
 	line-height: 1;
