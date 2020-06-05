@@ -56,6 +56,37 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 21px 0 21px 0;
+    margin: 0 auto;
+    width: 800px;
+}
+.logo {
+    justify-content: space-around;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.nav-links a:hover {
+    color: #c57021;
+    text-decoration: none;
+}
+.hero-image {
+    width: 100%;
+    margin-top: 1%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -67,6 +98,7 @@ p {
 }
 
 .container {
+    max-width: 900px;
     width: 800px;
     margin: 0 auto;
 }
@@ -111,7 +143,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
