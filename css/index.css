@@ -21,13 +21,40 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    
 }
+nav{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons{
+    width:800px;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+   
+    justify-content: space-between;
+}
+.buttons a{
+    color: black;
+    text-decoration: none;
+}
+.image{
+    margin:3% 0 ;
+    display: flex;
+    justify-content: center;
+}
+
 body {
 	line-height: 1;
 }
@@ -104,13 +131,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 }
+
+.box.one{
+    background:teal;
+}
+.box.two{
+    background:gold;
+}
+.box.three{
+    background-color:cadetblue;
+}
+.box.four{
+    background-color:coral;
+}
+.box.five{
+    background-color:crimson;
+}
+.box.six{
+        background-color:forestgreen;
+    }
+.box.seven{
+            background-color:darkorchid;
+        }
+.box.eight{
+                background-color:hotpink;
+            }
+.box.nine{
+    background-color:indigo;
+                }
+.box.ten{
+    background-color:dodgerblue;
+                }
+
 
 .bottom-content {
     display: flex;
