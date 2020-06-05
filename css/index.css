@@ -28,6 +28,46 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.headerparent{
+    display:flex;
+    justify-content: center;
+
+}
+.top{
+
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+
+  }
+  .logo{
+      display:flex;
+      margin-left: -42%;
+      margin-right: 10%;
+  }
+  .links{
+      display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 2%;
+    padding: 1%;
+
+    color: black;
+  }
+  nav a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 15%;
+    padding: 1%;
+    color: black;
+
+  }
+  .highway{
+      display:flex;
+      justify-content: center;
+      margin: 2%;
+  }
 body {
 	line-height: 1;
 }
