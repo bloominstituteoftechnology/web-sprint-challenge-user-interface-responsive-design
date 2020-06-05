@@ -88,6 +88,30 @@ nav a {
     width: 800px;
     margin: 0 auto;
 }
+.thisContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+.thisContainer section {
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.thisContainer div {
+    width: 50%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.thisContainer button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
 
 .top-content {
     display: flex;
@@ -162,4 +186,14 @@ footer nav a {
     color: white;
     text-decoration: none;
     margin-right: 60%;
+}
+.aboutFooter {
+    display: flex;
+    height: 50px;
+}
+.aboutFooter a {
+    margin-right: 25%;
+}
+.learn {
+    margin-bottom: 15px;
 }
