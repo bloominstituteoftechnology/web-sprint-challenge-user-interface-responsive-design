@@ -220,6 +220,18 @@ p {
     border-bottom: 1px dotted gray;
 }
 
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 footer {
     width: 100%;
     background: black;

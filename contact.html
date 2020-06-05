@@ -4,20 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Contact</title>
 
-</html>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<header>
+<div class ="header">
+    <img src = "assets/lambda-black.png">
+        <a href ="index.html">Home</a>
+        <a href = "about.html">About</a>
+        <a>Products</a>
+        <a>Blog</a>
+        <a href = "contact.html" rel="noopener noreferrer" target="_blank">Contact</a>
+</div>
+<div class = "headerimg">
+    <img src="img/jumbo-about.png">
+</div>
+</header>
 
 <body>
+    <div class ="form">
 
     <form action="mail.php" method="post">
+        <div class = "line">
         First Name: <input type="text" name="first_name"><br>
+    </div>
+        <div class ="line">
         Last Name: <input type="text" name="last_name"><br>
+        </div>
+        <div class="line">
         Email: <input type="text" name="email"><br>
+        </div>
+        <div class = "line">
         Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-        <input type="submit" name="submit" value="Submit">
+        </div>
+        <input class ="button" type="submit" name="submit" value="Submit">
         </form>
+        </div>
 
 <?php 
 if(isset($_POST['submit'])){
