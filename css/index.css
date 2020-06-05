@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
+
+    border: 1px solid grey
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,9 +32,10 @@ footer, header, hgroup, menu, nav, section {
 }
 header{
     display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 2%;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 800px;
+    margin: 3.5% auto;
 }
 nav{
     display:flex;
@@ -196,7 +199,7 @@ background-color: cadetblue;
     margin:2%
 }
 .together{
-    margin: 2%;
+    margin: 5%;
 }
 button{
     margin:4%;
