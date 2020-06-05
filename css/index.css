@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,9 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+body .main-page{
+    line-height: 1;
+    margin: 0 18%;  
 }
+
+*{
+    border: 1px dotted grey;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -56,6 +62,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*about-page style */
+body .about-page{
+    display: flex;
+    flex-direction: column;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -67,8 +79,76 @@ p {
 }
 
 .container {
-    width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .nav-bar{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.hero{
+    
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color:  black;
+}
+
+/*About-page style */
+
+/* div .nav-wrap{
+    display: flex;
+} */
+.about-logo{
+    width:95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 2%;
+}
+.container .about-nav-bar{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: 2% 0;
+    width: 95%;
+    border-bottom: 1px dashed black;
+}
+a{
+    text-decoration: none;
+    color:  black;
+}
+.gallery{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+.gallery div{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+.row-50{
+    width: 100%;
 }
 
 .top-content {
@@ -144,3 +224,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.boxes #box1{
+    background-color: teal;
+}
+.boxes #box2{
+    background-color :gold;
+}
+.boxes #box3{
+    background-color:cadetblue;
+}
+.boxes #box4{
+    background-color:coral;
+}
+.boxes #box5{
+    background-color: crimson;
+}
+.boxes #box6{
+    background-color: forestgreen;
+}
+.boxes #box7{
+    background-color: darkorchid;
+}
+.boxes #box8{
+    background-color: hotpink;
+}
+.boxes #box9{
+    background-color: indigo;
+}
+.boxes #box10{
+    background-color: dodgerblue;
+}
+/*STYLE FOR ABOUT PAGE*/
+
