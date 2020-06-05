@@ -208,6 +208,11 @@ button{
     border-radius: 8px;
     background-color: white;
     font-weight: bolder;
+    transition: 0.3s;
+}
+button:hover{
+background-color: dodgerblue;
+color: white;
 }
 footer {
     width: 100%;
