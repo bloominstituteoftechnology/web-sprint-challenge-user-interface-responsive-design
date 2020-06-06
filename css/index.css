@@ -147,18 +147,42 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #box1 {
     background: teal;
+    animation: color 10s ease infinite;
 }
 
-.boxes:nth-child(5)  {
+@keyframes color {
+    0% {
+        background: teal;
+    }
+    20% {
+        background: coral;
+    }
+    40% {
+        background: purple;
+    }
+    60%{
+        background: blue;
+    }
+    80%{
+        background: gold;
+    }
+    100%{
+        background: black;
+    }
+}
+
+#box2  {
     background: gold;
 }
 
 #box3 {
     background: cadetblue;
+    animation: color 10s ease infinite;
 }
 
 #box4 {
@@ -167,6 +191,7 @@ header {
 
 #box5 {
     background: crimson;
+    animation: color 10s ease infinite;
 }
 
 #box6 {
@@ -175,6 +200,7 @@ header {
 
 #box7 {
     background-color: darkorchid;
+    animation: color 10s ease infinite;
 }
 
 #box8 {
@@ -183,6 +209,7 @@ header {
 
 #box9 {
     background-color: indigo;
+    animation: color 10s ease infinite;
 }
 
 #box10 {
