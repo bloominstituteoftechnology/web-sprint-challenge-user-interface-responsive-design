@@ -64,7 +64,44 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-family: "Rubik", sans-serif;
 }
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.header-photo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .container {
     width: 800px;
@@ -112,6 +149,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+.boxes:nth-child(5)  {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +221,101 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* targets about page styling */
+
+.about-page {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+.work {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+.strategy {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.how-work {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+/*.work div {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}*/
+
+.bottom-work {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bottom-work div {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-work a {
+    color: black;
+    width: 35%;
+    border: 2.5px solid black;
+    margin-bottom: 10px;
+    font-size: 1.0rem;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.work a {
+    color: black;
+    width: 35%;
+    border: 2.5px solid black;
+    margin-bottom: 10px;
+    font-size: 1.0rem;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.bottom-container {
+    margin: 0 auto;
+    width:800px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin: 0 auto;
+    width:800px;
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    div, nav, .work, .bottom-work {
+      flex-direction: column;
+    }
+  }
