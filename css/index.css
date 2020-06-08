@@ -66,9 +66,20 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.long{
+    margin: 20px 5px;
 }
 
 .top-content {
@@ -77,6 +88,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.lambda:hover{
+    background-color:red;
 }
 
 .top-content .text-container {
@@ -111,6 +126,162 @@ p {
     align-items: center;
     justify-content: center;
 }
+.links, a{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#box1{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(190, 71, 71);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box1:hover{
+    background-image: url(https://media.giphy.com/media/l46CuKmWZMFirpzTW/giphy.gif);
+}
+
+#box2{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(35, 179, 119);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box2:hover{
+    background-image: url(https://media.giphy.com/media/IWD94j3XbpLTG/giphy.gif);
+}
+#box3{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box3:hover{
+    background-image: url(https://i.makeagif.com/media/5-29-2017/7-7dYY.gif);
+}
+
+#box4{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(114, 88, 199);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box4:hover{
+    background-image: url(https://media3.giphy.com/media/jsUIl8W67ohMXGx1V8/giphy.gif);
+}
+
+#box5{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(0, 174, 255);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box5:hover{
+    background-image: url(https://i.gifer.com/LPjp.gif);
+}
+
+#box6{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(255, 252, 101);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box6:hover{
+    background-image: url(https://thumbs.gfycat.com/AgonizingSameAnnelid-max-1mb.gif);
+}
+
+#box7{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(255, 57, 239);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box7:hover{
+    background-image: url(https://media.giphy.com/media/abt3O3BEwR6wg/giphy.gif);
+}
+
+#box8{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(25, 0, 255);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box8:hover{
+    background-image: url(https://media1.tenor.com/images/a6ff03c7947e8dca5dec30e796a8b651/tenor.gif?itemid=12575589);
+}
+
+#box9{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(123, 255, 0)5, 0, 0.335);
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:black solid 1px;
+}
+
+#box9:hover{
+    background-image: url(https://media1.giphy.com/media/l2Sqf1fbj1qrmaJ6E/source.gif);
+}
+
+#box10{
+    width: 12.5%;
+    height: 100px;
+    background: orange;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box10:hover{
+    background-image: url(https://media.tenor.com/images/6df5ae1e3c0be3d45e7d3df61c20d749/tenor.gif);
+}
 
 .bottom-content {
     display: flex;
@@ -125,6 +296,27 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lambda{
+    align-self: flex-start;
+}
+
+.links{
+    align-self: flex-end;
+    align-content: space-around;
+    
+}
+
+
+
+
+
 
 footer {
     width: 100%;
