@@ -268,6 +268,11 @@ nav{
     margin-left: 180px;
 }
 
+img{
+    display: inline-block;
+    margin: 25px 10px;
+}
+
 .middle-content-about-top .box1-about {
     width: 100%;
     height: 100%;
@@ -305,14 +310,14 @@ nav{
     width: 100%;
     height: 100%;
     margin: 20px 2.5%;
-    display: left;
-    align-items: center;
+    display: flex;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
     border-bottom: 1px dashed black;
 }
 
-.middle-content-about-top a{
+.learn-more{
     border-radius: 1rem;
     height: 3rem;
     text-align: center;
@@ -323,7 +328,7 @@ nav{
     border-color: black;
 }
 
-.middle-content-about-bottom a{
+/* .middle-content-about-bottom a{
     border-radius: 1rem;
     height: 3rem;
     text-align: center;
@@ -332,7 +337,7 @@ nav{
     width: 10%;
     font-size: 1.25rem;
     border-color: black;
-}
+} */
 
 .bottom-content-about{
     margin-right: 180px;
