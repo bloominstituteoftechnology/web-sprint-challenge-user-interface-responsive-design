@@ -174,11 +174,13 @@ a {
 
 p {
     line-height: 1.4;
+    text-align: justify;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    border-bottom: 1px dashed black;
 }
 
 .top-content {
@@ -208,13 +210,12 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    height: 50vh;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -262,9 +263,25 @@ p {
     background-color: dodgerblue;
 }
 
-.container-about-page {
+.container .about-page {
     display: flex;
+    /*flex-direction: column;*/
+}
+
+.column1 {
+    display: flex;
+    padding: 1em;
+    margin: 10px;
+    width: 100%;
+    border: 5px solid;
+    justify-content: space-between;
+}
+
+.column2 {
     flex-direction: column;
+    padding: 1em;
+    margin: .6em;
+    justify-content: space-between;
 }
 
 .container .bottom-content {
@@ -298,4 +315,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    background-color: white;
+    border-radius: 10%;
 }
