@@ -199,3 +199,6 @@ header nav a {
     background-color:dodgerblue;
 }
 
+.aboutsection{
+    display:flex;
+}
