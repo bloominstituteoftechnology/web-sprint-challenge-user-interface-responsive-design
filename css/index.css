@@ -191,6 +191,58 @@ p {
     padding-right: 0;
 }
 
+/* begin about styling */
+
+.about{
+	margin-bottom: 30px;
+	border-bottom: 1px dashed black;
+}
+
+.about div{
+	margin: 2%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.square {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 30px 20px;
+}
+
+.square img {
+    margin-bottom: 15px;
+}
+
+.square p {
+    margin-bottom: 10px;
+}
+
+.letsWork{
+	margin: 3%;
+}
+
+button {
+	margin:4%;
+  padding:3% 5%;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+}
+
+/*begin footer styling */
+
 footer {
     width: 100%;
     background: black;
