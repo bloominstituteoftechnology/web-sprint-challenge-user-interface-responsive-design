@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -95,16 +96,16 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .box .box__div {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: ;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +145,111 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*BOXES*/
+.box__div--teal {
+    background-color: teal;
+}
+
+.box__div--gold {
+    background-color: gold;
+}
+
+.box__div--cadetblue {
+    background-color: cadetblue;
+}
+
+.box__div--coral {
+    background-color: coral;
+}
+
+.box__div--crimson {
+    background-color: crimson;
+}
+
+.box__div--forestgreen {
+    background-color: forestgreen;
+}
+
+.box__div--darkorchid {
+    background-color: darkorchid;
+}
+
+.box__div--hotpink {
+    background-color: hotpink;
+}
+
+.box__div--indigo {
+    background-color: indigo;
+}
+
+.box__div--dodgerblue {
+    background-color: dodgerblue;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    
+    margin: 2rem 0.5rem;
+    justify-content: center;
+}
+
+.nav__ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav__li {
+    margin: 0 2rem;
+}
+
+.nav__img {
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.nav__a {
+    text-decoration: none;
+}
+
+
+.learn_more {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 9rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75rem;
+}
+
+.info__p {
+    width: 26.5rem;
+    
+    
+}
+
+.info__div {
+border-bottom: 1px dashed black;
+   margin: 2rem 0;
+   padding: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*temp*/
