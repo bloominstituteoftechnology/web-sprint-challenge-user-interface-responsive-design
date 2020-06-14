@@ -163,6 +163,11 @@ h5 {
     padding: 50px;
 }
 
+content {
+    max-width: 500px;
+    margin: auto;
+}
+
 a {
     padding: 20px;
     color: black
@@ -177,15 +182,31 @@ p {
     text-align: justify;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.about {
+    padding: 1em;
+    margin: 5px;
+    width: 100%;
     border-bottom: 1px dashed black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 10px;
+}
+
+div {
+    width: 800px;
+    margin: 10px;
+}
+
+.main-content {
+    display: flex;
 }
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -263,24 +284,25 @@ p {
     background-color: dodgerblue;
 }
 
-.container .about-page {
-    display: flex;
-    /*flex-direction: column;*/
+.about-page {
+    display: block;
+    margin: 10px;
+    padding: 10px;
 }
 
 .column1 {
-    display: flex;
     padding: 1em;
-    margin: 10px;
+    margin: 5px;
     width: 100%;
-    border: 5px solid;
+    border-bottom: 1px dashed black;
     justify-content: space-between;
 }
 
 .column2 {
-    flex-direction: column;
     padding: 1em;
-    margin: .6em;
+    margin: 5px;
+    width: 100%;
+    border-bottom: 1px dashed black;
     justify-content: space-between;
 }
 
@@ -320,4 +342,6 @@ footer nav a {
 button {
     background-color: white;
     border-radius: 10%;
+    padding: 5px;
+    margin: 10px;
 }
