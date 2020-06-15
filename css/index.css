@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -143,4 +143,109 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+}*/
+
+html {
+    font-family: sans-serif;
+  }
+  nav a {
+    
+    text-decoration: none;
+    padding: 1%;
+    font-size: 1rem;
+    color: black; 
+    /*display: flex;
+    flex-direction: row;*/
+  }
+  .text-container1.text-container2 {
+    
+    text-align: right;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .boxes
+  {
+    display: flex;
+  }
+  .box1 {
+    background: teal;
+    color: white;
+    padding: 2%;
+      margin: 4% 4% 4% 4%;
+    
+  }
+  
+  .box2 {
+    background: gold;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  
+  .box3 {
+    background: cadetblue;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .box4 {
+    background: coral;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .box5 {
+    background: green;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .boxes2
+  {
+    display: flex;
+  }
+  
+  .box6 {
+    background: forestgreen;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .box7 {
+    background: darkorchid;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .box8 {
+    background: hotpink;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .box9 {
+    background: indigo;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  .box10 {
+    background: dodgerblue;
+    color: white;
+    padding: 2%;
+    margin: 4% 4% 4% 4%;
+    
+  }
+  /*.head {
+    display: flex;
+  }*/
+  
