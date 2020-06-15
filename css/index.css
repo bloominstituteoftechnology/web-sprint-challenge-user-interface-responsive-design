@@ -219,10 +219,109 @@ nav .menu_item {
   justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box_1 {
   width: 12.5%;
   height: 100px;
-  background: black;
+  background: teal;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_2 {
+  width: 12.5%;
+  height: 100px;
+  background: gold;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_3 {
+  width: 12.5%;
+  height: 100px;
+  background: cadetblue;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_4 {
+  width: 12.5%;
+  height: 100px;
+  background: coral;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_5 {
+  width: 12.5%;
+  height: 100px;
+  background: crimson;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_6 {
+  width: 12.5%;
+  height: 100px;
+  background: forestgreen;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_7 {
+  width: 12.5%;
+  height: 100px;
+  background: darkorchid;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_8 {
+  width: 12.5%;
+  height: 100px;
+  background: hotpink;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_9 {
+  width: 12.5%;
+  height: 100px;
+  background: indigo;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box_10 {
+  width: 12.5%;
+  height: 100px;
+  background: dodgerblue;
   margin: 20px 2.5%;
   color: white;
   display: flex;
