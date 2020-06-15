@@ -79,11 +79,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-right: 30px;
 }
 
 .mainnav a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 .top-content {
@@ -198,4 +200,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page CSS*/
+
+.first-section {
+    padding: 15px;
+    margin: 30px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.first-section h2 {
+    font-weight: bold;
+}
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-section div {
+    width: 46%;
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.second-section img {
+    display: flex;
+    flex-shrink: inherit;
+}
+
+.second-section div h2 {
+    margin: 10px 0px;
+}
+
+.second-section div button {
+    width: 125px;
+    height: 40px;
+    margin: 15px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(87, 85, 85);
+}
+
+.third-section {
+    margin: 30px 0px;
 }
