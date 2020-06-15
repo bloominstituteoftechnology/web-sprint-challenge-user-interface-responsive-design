@@ -144,3 +144,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+   flex-direction: column;
+}
