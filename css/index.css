@@ -106,6 +106,12 @@ nav {
     padding-bottom: 20px;  
 }
 
+.about-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -131,6 +137,33 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.strategy-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+span {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+span a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.button-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .bottom-content {
@@ -164,4 +197,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
 }
