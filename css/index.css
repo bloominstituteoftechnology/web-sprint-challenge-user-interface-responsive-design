@@ -309,3 +309,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*******ABOUT ********/
+.about-middle-section .a-plan{
+	display:flex;
+	flex-wrap: wrap;
+}
+h2{
+	padding-top:10px;
+}
+p{
+	letter-spacing: 1.5px;
+	padding-top: 10px;
+
+}
+button{
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+.about-middle-section .a-work{
+	display:flex;
+	flex-wrap: wrap;
+}
+.about-middle-section{
+	display: flex;
+	align-items: center;
+}
+.about-low-section{
+	display: flex;
+}
+
+.about-low-section .a-office{
+	display:flex;
+	flex-wrap: wrap;
+}
+.about-low-section .a-meeting{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.about-menu nav{
+	color:white;
+}
