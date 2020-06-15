@@ -148,4 +148,5 @@ footer nav a {
 .links{
     display: flex;
     justify-content: space-evenly;
+    text-decoration: none;
 }
