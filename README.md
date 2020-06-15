@@ -34,22 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    It's meaningful tags and helps to develop a webpage in  a constructive way.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    -> Block element occupy the whole width of line space but inline element occupy only for it's content.
+    -> Inline element contain only data or other inline element, can't put block element inside the inline element.
 
 3. What are the 4 areas of the box model?
 
+    1. Content.
+    2. Padding.
+    3. Border.
+    4. Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross axis or Y-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git helps to work multiple developer in single project and developers can update their work with each other. Mainly it controls the version from each developer.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
