@@ -34,13 +34,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Those are the keywords that do not affect the code visualy but they do in the backend.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+the web browsers align the content in two differnt ways block is the same as column and inline is the same as row.
+
 
 3. What are the 4 areas of the box model?
-
+content,margin,padding,border
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Cross axis
 
 5. Explain why git is valuable to a team of developers.
+Because allows people to have more control over everyone work in the projects and also is team friendly.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +58,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
