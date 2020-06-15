@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
+    animation: reverse;
 }
 
 .top-content {
@@ -225,4 +227,93 @@ footer {
     /* float: left; */
     /* clear: both; */
 
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%,0,0);
+    }
+
+ 
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+ 
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-delay: 1s;
+    animation-duration: 7s;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%,0,0);
+    }
+
+ 
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+ 
+
+.fadeInRight {
+    animation-name: fadeInRight;
+    animation-delay: 1s;
+    animation-duration: 7s;
+}
+
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+
+ 
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+ 
+
+.fadeInBottom {
+    animation-name: fadeInBottom;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+}
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+
+ 
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+ 
+
+.fadeInTop {
+    animation-name: fadeInTop;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
 }
