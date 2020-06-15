@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    display: flex;
+  }
+  
+  li {
+    border: none;
+    margin: 3em;
+    padding: 1em;
+  }
+  
+  
+  nav {
+    text-decoration: none;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px;
+  }
+  
