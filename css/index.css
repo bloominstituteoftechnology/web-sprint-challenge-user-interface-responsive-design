@@ -147,13 +147,17 @@ footer nav a {
 
 html {
     font-family: sans-serif;
+    margin: 7%;
   }
-  nav a {
+  header nav a {
     
     text-decoration: none;
     padding: 1%;
     font-size: 1rem;
-    color: black; 
+    color: white;}
+  
+   
+    
     /*display: flex;
     flex-direction: row;*/
   }
@@ -245,6 +249,17 @@ html {
     margin: 4% 4% 4% 4%;
     
   }
+  
+  footer nav a{
+    backround: black;
+   color: white;
+      
+    text-decoration: none;
+    padding: 1%;
+    font-size: 1rem;
+  }
+  nav  {  background-color: black; color: white;
+  }  
   /*.head {
     display: flex;
   }*/
