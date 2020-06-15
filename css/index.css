@@ -245,8 +245,13 @@ nav .menu_item {
 }
 
 footer {
-  width: 100%;
+  width: 50%;
   background: black;
+  /* padding-left: 20%; */
+  display: flex;
+  justify-content: flex-start;
+
+  margin-left: 400px;
 }
 
 footer nav {
@@ -261,4 +266,44 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About Page CSS */
+
+.header_paragraph {
+  padding: 20px;
+  border-bottom: 1px dotted black;
+}
+
+.body_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body_container_box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 45%;
+  padding: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.body_container_box_text {
+  padding-top: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  background: white;
+  color: black;
+  border-radius: 15%;
+  margin-top: 10px;
+}
+
+.lower_body_container {
+  margin-bottom: 20px;
+  padding-left: 33px;
+  padding-right: 33px;
 }
