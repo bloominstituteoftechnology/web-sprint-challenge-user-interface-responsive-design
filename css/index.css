@@ -202,3 +202,12 @@ header nav a {
 .aboutsection{
     display:flex;
 }
+.aboutbutton{
+    border: 1px solid black;
+    border-radius: .5em;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
