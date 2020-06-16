@@ -343,31 +343,34 @@ nav .menu_item {
   padding-right: 0;
 }
 
-footer {
-  width: 50%;
+.footer_container {
+  width: 850px;
   background: black;
-  /* padding-left: 20%; */
   display: flex;
-  justify-content: flex-start;
-
-  margin-left: 400px;
+  justify-content: center;
+  margin-left: 450px;
 }
 
-footer nav {
-  width: 60%;
+.footer_nav_container {
+  width: 400px;
+  margin-right: 450px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
   font-size: 14px;
+  text-decoration: none;
 }
 
-footer nav a {
+.footer_nav_item {
   color: white;
   text-decoration: none;
 }
 
-/* About Page CSS */
+.lower_body_container_title {
+  padding-bottom: 20px;
+}
 
 .header_paragraph {
   padding: 20px;
