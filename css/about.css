@@ -63,6 +63,11 @@ h2 {
 
 p {
     line-height: 1.4;
+    width: 53%;
+}
+
+span {
+  line-height: 1.4;
 }
 
 .container {
@@ -137,4 +142,50 @@ nav {
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
+  margin-top:1em;
+}
+
+
+.home2 {
+  margin: 0 auto;
+  width: 49.7%;
+  display: inline-block;
+  height: 400px;
+}
+
+.home2 {
+  border-bottom: 1px dashed black;
+  border-bottom: 1em;
+}
+
+.home2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-color:black;
+  
+}
+
+.center {
+  width: 100%;
+}
+
+.home2_first img {
+  margin-top:5%;
+  padding: 0;
+}
+
+.home2_second img {
+  padding: 0;
+}
+
+.text-container2 {
+     width: 60%;
+    padding: 1em 1%;
+    padding-bottom: 20px;  
+    font-weight: bold;
+}
+
+.bottom {
+  margin-top:3em;
+  border-top: 1px dashed black;
 }
