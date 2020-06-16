@@ -60,9 +60,10 @@ html, body {
 }
 
 header{
-border: 1px  solid black;
-    width:100%;
-    height: 65vh;
+border-bottom: .05rem dashed black;
+    width:90%;
+    height: 55vh;
+    margin:1rem 1rem 1rem 1rem;
 
 
 }
@@ -70,6 +71,10 @@ header > nav{
     display:flex;
     justify-content:space-evenly;
     
+}
+header > nav > a {
+    color: black;
+    text-decoration: none;
 }
 header >  div{
 display: flex;
@@ -88,6 +93,11 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+button{
+    background-color: white;
+    padding: .3rem;
+    border-radius:  22% 22% ;
 }
 
 .container {
@@ -108,6 +118,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -125,6 +136,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 /*
 .middle-content h2 {
@@ -165,11 +177,14 @@ p {
 
 .bottom-content {
     display: flex;
+    
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
+    height: auto;
+    width:90%;
     padding-right: 4%;
 }
 
