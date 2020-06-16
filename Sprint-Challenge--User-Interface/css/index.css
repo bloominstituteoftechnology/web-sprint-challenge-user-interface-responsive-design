@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, header, hgroup, 
+figure, figcaption, hgroup, 
 menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
- header, hgroup, menu,  section {
+  hgroup, menu,  section {
 	display: block;
 }
 body {
@@ -51,10 +51,20 @@ table {
     box-sizing: border-box;
 }
 
+
+
+/* global*/
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+
+    width:100%;
+    height: 40vh;
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -71,6 +81,10 @@ p {
     margin: 0 auto;
 }
 
+
+
+
+/* Top*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +99,10 @@ p {
     padding-bottom: 20px;  
 }
 
+
+
+
+/*Middle*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +130,9 @@ p {
     justify-content: center;
 }
 
+
+/*bottom*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +146,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
 
 footer {
     width: 100%;
