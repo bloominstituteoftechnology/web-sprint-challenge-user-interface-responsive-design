@@ -160,17 +160,24 @@ html {
     
     /*display: flex;
     flex-direction: row;*/
+  
+  .top-content{
+      display:flex;
+      
   }
-  .text-container1.text-container2 {
-    
-    text-align: right;
+  .text-container1 {
+      width: 50%;
   }
+  .text-container2 {
+    width: 50%;
+}
   h2 {
     font-size: 1rem;
   }
   .boxes
   {
     display: flex;
+    flex-wrap: wrap;
   }
   .box1 {
     background: teal;
@@ -251,7 +258,7 @@ html {
   }
   
   footer nav a{
-    backround: black;
+    background: black;
    color: white;
       
     text-decoration: none;
