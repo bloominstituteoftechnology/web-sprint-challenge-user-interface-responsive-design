@@ -51,7 +51,7 @@ Your address: <?php echo $_POST["address"]; ?>
 <br>
 Your email address is: <?php echo $_POST["email"]; ?>
 <br>
-And you said: <?php echo $_POST["comment"] ?>
+And you said: <?php echo $_POST["comment"]; ?>
 </body>
 </html>
 
