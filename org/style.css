@@ -3,9 +3,9 @@
    License: none (public domain)
 */
 
- span, applet, object, iframe,
-     blockquote, pre,
- abbr, acronym, address, big, cite, code,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -13,8 +13,8 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, hgroup, 
-menu, output, ruby, section, summary,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-  hgroup, menu,  section {
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -51,33 +51,9 @@ table {
     box-sizing: border-box;
 }
 
-
-
-/* global*/
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-}
-
-header{
-border: 1px  solid black;
-    width:100%;
-    height: 65vh;
-
-
-}
-header > nav{
-    display:flex;
-    justify-content:space-evenly;
-    
-}
-header >  div{
-display: flex;
-flex-direction: column;
-justify-content:space-evenly;
-}
-header > div > img{
-    margin:1rem 4rem 1rem 4rem ;
 }
 
 h1, h2, h3, h4, h5 {
@@ -95,14 +71,9 @@ p {
     margin: 0 auto;
 }
 
-
-
-
-/* Top*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -114,35 +85,18 @@ p {
     padding-bottom: 20px;  
 }
 
-
-
-
-/*Middle*/
-/*Middle*/
 .middle-content {
-    width:40%;
-    height:50%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-/*
 .middle-content h2 {
-     
     padding: 0 2%;
     margin-bottom: 0;
 }
-.middle-content h3 {
-     
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-*/
 
 .middle-content .boxes {
     display: flex;
-    flex-direction: row;
-   
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -154,14 +108,9 @@ p {
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-
-
-/*bottom*/
 
 .bottom-content {
     display: flex;
@@ -176,9 +125,6 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-
-
 
 footer {
     width: 100%;
