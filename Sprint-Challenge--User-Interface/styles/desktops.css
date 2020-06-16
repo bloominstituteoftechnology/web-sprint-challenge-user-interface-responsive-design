@@ -65,7 +65,7 @@ html > body#layout > div.container > div.banner{
     height: 26.66vh;
     margin: 2.22vh 0vw;
     background-size: 100% 100%;
-    background-image: url('../../assets/jumbo.jpg');
+    background-image: url('../assets/jumbo.jpg');
     
     display: flex;
     flex-direction: row;
