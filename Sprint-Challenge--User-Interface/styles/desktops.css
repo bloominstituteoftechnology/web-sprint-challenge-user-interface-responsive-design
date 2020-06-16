@@ -22,7 +22,7 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo{
     width: 9.3vw;
     height: 4.4vh;
     background-size: 100% 100%;
-    background-image: url('../../assets/lambda-black.png');
+    background-image: url('../assets/lambda-black.png');
     flex-direction: row;
     display: flex;
 

@@ -41,7 +41,7 @@ html > body#layout > div.container > header#navHeader.mobLambda{
 html > body#layout > div.container > header#navHeader > div#lambdaLogo{
    
     background-size: 100% 100%;
-    background-image: url('../../assets/lambda-black.png');
+    background-image: url('../assets/lambda-black.png');
     width: 70.8vw;
     height: 50.4vh;
     margin-left:10px;
@@ -90,7 +90,7 @@ html > body#layout > div.container >  div.banner{
     height: 26.66vh;
     margin: 40vh 0vw 0vh 0vw;
     background-size: 100% 100%;
-    background-image: url('../../assets/jumbo.jpg');
+    background-image: url('../assets/jumbo.jpg');
     
     display:flex;
     flex-direction:column;
