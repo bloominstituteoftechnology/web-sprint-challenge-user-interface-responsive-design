@@ -1,0 +1,61 @@
+html {
+    font-family: sans-serif;
+    margin: 7%;
+    }
+
+
+    /*header nav a {   
+        display: flex; 
+        text-decoration: none;
+        padding: 1%;
+        padding-bottom: 2%;
+        font-size: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        color: black; 
+        background-color: white;
+        }
+    
+       /* .nav-header {
+         display: flex; 
+        text-decoration: none;
+        font-size: 1rem;
+        /*color: black;*/
+     */
+        header {
+          display: flex;
+          align-items: center;
+          /*flex-direction: row;*/
+          padding-bottom: 2%;
+         
+      }
+
+      /*.container header nav a {
+        margin: 0 10px;
+        border: 1px solid lightgray;
+        padding: 20px;
+        display: inline-block;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 20px;
+         /*======= create a background property. Set the value to #F87B99 */
+        
+      }*/
+
+    footer nav a {
+        color: white;  
+        text-decoration: none;
+        padding: 1%;
+        font-size: 1rem;
+        }
+    
+        /*header nav a {    
+            text-decoration: none;
+            padding: 1%;
+            font-size: 1rem;
+            color: white;
+        }*/
+      nav  {  
+          background-color: black; color: white;
+        }  

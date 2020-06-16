@@ -168,14 +168,15 @@ html {
     background-color: white;
     }
 
-   .nav-header {
+   /* .nav-header {
      display: flex; 
     text-decoration: none;
     font-size: 1rem;
     /*color: black;*/
-  }  
+    */
     header {
       display: flex;
+      align-items: center;
       /*flex-direction: row;*/
       padding-bottom: 2%;
      
