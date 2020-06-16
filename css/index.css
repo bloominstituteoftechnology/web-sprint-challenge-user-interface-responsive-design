@@ -193,7 +193,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 800px;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 div {
