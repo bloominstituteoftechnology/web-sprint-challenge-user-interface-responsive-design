@@ -34,13 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+
+Semantic HTML is used as building block for your page. With the right block or inline elements the page can be built from the ground up to serve as containers for other styling classes that give each element an appearance. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: inline means that the element is displayed inline, inside the current block on the same line. Such as span in a div ol in a li or p in a div can be. It will also have no line break after the elemtn 
+
+display: block means the elemtn is displayed as a block of such as paragraphs or a or button tags are. It will have a line break after it. 
+
+The two major differences is that an inline element can not have a configured width and height while a block element can. Inline elemtns do not return an extra line while block elements do.  Also inline must operate within another element while block elements do not always have to. 
+
+
+
+
 
 3. What are the 4 areas of the box model?
 
+padding
+margin
+width
+height
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The verticle or y axis while justify-items or justify-content operates on the x or cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+It helps rewrite code, return to previous versions, spot bugs, or extend development time. Its great to track the source code of a project and develop in teams where others can collaborate. If there are multiple versions of it or new patches that need to be released a revisioning program like git does it all by keeping the project organized, neat, and detailed. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
