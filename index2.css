@@ -65,6 +65,14 @@ a{
 	padding: 10px;
 }
 
+.container2{
+	display: flex; 
+}
+
+.container3{
+	display: flex;
+}
+
 h2{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -75,15 +83,32 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 	padding: 10px;
-	display: flex; 
-	column-count: 2;
 }
 
 .imgA{
-	display: flex;
-	float: right;
 	border-bottom: 1px dashed black;
+
 }
 
+.column {
+	/*width: 48%; */
+    padding: 0 1%;
+	padding-bottom: 20px; 
+	
+}
+
+button{
+		background-color: black; 
+        height: 3rem;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+		margin-right: 15rem;
+}
 
 
