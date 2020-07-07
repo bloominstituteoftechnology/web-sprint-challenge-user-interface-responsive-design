@@ -47,17 +47,17 @@ You are expected to be able to answer all these questions. Your responses contri
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- [ ] Add your Team Lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [ ] Add your Team Lead as a reviewer on the pull-request
+- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
 
@@ -95,6 +95,8 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+
+Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. 
 
 ## Stretch Problems
 
