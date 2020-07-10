@@ -3,5 +3,14 @@ About Page Additions
 ###################*/
 
 /*#################
-Header
+About Section
+###################*/
+
+.about {
+    padding: 25px 0;
+    border-bottom: 1px dotted black;
+}
+
+/*#################
+Middle Section
 ###################*/
