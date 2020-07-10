@@ -38,3 +38,11 @@ Virtues Section
     border-radius: 20%;
     font-weight: bold;
 }
+
+/*#################
+Bottom Section
+###################*/
+
+.bottom-section {
+    padding: 40px 0;
+}
