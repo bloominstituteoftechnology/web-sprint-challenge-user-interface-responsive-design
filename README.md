@@ -34,8 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    A semantic HTML tag is meangingful, meaning it is clear in its intentions. For example: <header> is to be the header of
-    the page. Semantic tags also provide styling options.
+    A semantic HTML tag is meangingful, meaning it is clear in its intentions. For example: <header> is the header of the page. Semantic tags also provide styling options.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 

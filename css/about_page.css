@@ -7,16 +7,15 @@ Dotted Border General Styling
 ###################*/
 
 .dotted-border {
-    border-bottom: 1px dotted black;
+  border-bottom: 1px dotted black;
 }
-
 
 /*#################
 About Section
 ###################*/
 
 .about {
-    padding: 25px 0;
+  padding: 25px 0;
 }
 
 /*#################
@@ -24,27 +23,29 @@ Virtues Section
 ###################*/
 
 .virtues-section {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.virtues-section img {
+    width: 100%;
 }
 
 .virtues-section div {
-    width: 400px;
-    padding: 25px 0;
+  width: 350px;
+  margin: 25px 25px;
 }
 
-
 .virtues-section h2 {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .virtues-section button {
-    background: white;
-    border: 3px solid black;
-    padding: 5px;
-    margin: 10px 0;
-    border-radius: 20%;
-    font-weight: bold;
+  background: white;
+  border: 1.5px solid black;
+  padding: 7.5px 12.5px;
+  margin: 10px 0;
+  border-radius: 5px;
 }
 
 /*#################
@@ -52,5 +53,6 @@ Bottom Section
 ###################*/
 
 .bottom-section {
-    padding: 40px 0;
+  padding: 15px;
+  margin-left: 9px;
 }
