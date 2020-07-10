@@ -167,6 +167,10 @@ header .nav-bar nav{
     margin: 25px 0;
 }
 
+header .nav-bar img {
+    margin-bottom: 15px;
+}
+
 /*############## 
 Top Content Section
 ################*/
