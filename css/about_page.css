@@ -3,12 +3,20 @@ About Page Additions
 ###################*/
 
 /*#################
+Dotted Border General Styling
+###################*/
+
+.dotted-border {
+    border-bottom: 1px dotted black;
+}
+
+
+/*#################
 About Section
 ###################*/
 
 .about {
     padding: 25px 0;
-    border-bottom: 1px dotted black;
 }
 
 /*#################
@@ -22,9 +30,9 @@ Virtues Section
 
 .virtues-section div {
     width: 400px;
-    border-bottom: 1px dotted black;
     padding: 25px 0;
 }
+
 
 .virtues-section h2 {
     margin: 5px 0;
