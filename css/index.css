@@ -101,7 +101,7 @@ p {
     padding: .3rem 2rem
 }
 
-.road {
+.main-image {
     margin-bottom: 2rem;
 }
 
@@ -235,12 +235,16 @@ footer nav a {
 
 /* About Page */
 
+/* About Text */
+
 .about-section {
     width: 100%;
     margin: 0 auto;
     padding-bottom: 1rem;
     border-bottom: 1px dashed black;
 }
+
+/* Main Content */
 
 .row1, .row2 {
     width: 100%;
@@ -261,6 +265,8 @@ button {
     border-radius: 7%;
     background-color: white;
 }
+
+/* End of Page */
 
 .work-together {
     width: 95%;
