@@ -26,6 +26,10 @@ Virtues Section
     padding: 25px 0;
 }
 
+.virtues-section h2 {
+    margin: 5px 0;
+}
+
 .virtues-section button {
     background: white;
     border: 3px solid black;
