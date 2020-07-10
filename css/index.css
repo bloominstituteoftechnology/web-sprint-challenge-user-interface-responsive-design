@@ -104,6 +104,11 @@ a {
 }
 
 .middle-content {
+        display:flex;
+        justify-content:space-between;
+        align-content: space-around;
+    }
+
     
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -178,6 +183,11 @@ footer nav a {
 }
 
 .linetwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
