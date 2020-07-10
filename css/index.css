@@ -227,7 +227,7 @@ footer nav a {
     padding-bottom: 20px;
 }
 
-.image-wraper {
+.image-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -259,7 +259,7 @@ footer nav a {
     margin: 3%;
     font-size: 18px;
     border-bottom: 1px dashed black;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 #How-text h2{
@@ -289,4 +289,20 @@ footer nav a {
     font-size: 18px;
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
+}
+
+a {
+    color: black;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+
+}
+
+ .learn-more:link {
+     border: 1.7px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 33px;
+    width: 40%;
 }
