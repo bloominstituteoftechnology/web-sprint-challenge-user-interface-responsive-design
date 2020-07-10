@@ -144,3 +144,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*############## 
+My Additions 
+################*/
+
+
+header .nav-bar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
