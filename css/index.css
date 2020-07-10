@@ -49,8 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
-    outline-offset: -1px;
+    /* outline: 1px solid red;
+    outline-offset: -1px; */
 }
 
 a {
@@ -229,4 +229,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+
+.about-section {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed black;
+}
+
+.row1, .row2 {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#stratagy, #howWeWork, #placesWeWork, #collaboration {
+    border-bottom: 1px dashed black;
+    margin: .5rem;
+    padding: .2rem;
+}
+
+button {
+    padding: .5rem 2rem;
+    margin: .5rem 0;
+    border-radius: 7%;
+    background-color: white;
 }
