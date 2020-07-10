@@ -70,7 +70,14 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.firstnav {
+    display:inline;
+}
+.carlights {
+    display:flex;
+    width: 800px;
+    justify-content:center;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -95,22 +102,6 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .box1 {
     background-color:teal;
 }
@@ -141,7 +132,22 @@ p {
 .box10{
     background-color:dodgerblue;
 }
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
