@@ -54,18 +54,36 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    color: black; 
 }
 
 p {
     line-height: 1.4;
 }
 
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    word-spacing: 10%;
+    margin-bottom: 20px;
+    color: black;
+    padding: 5%;
+}
+
+a {
+    color:black;
+    border-spacing: 5%;
+    text-decoration: none;
+
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -86,6 +104,7 @@ p {
 }
 
 .middle-content {
+    
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -94,11 +113,17 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+header {
+    .boxes {
+        display:flex;
+        justify-content:space-between;
+        align-content: space-around;
+    
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
@@ -144,61 +169,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+ 
 
-nav {
-    justify-content:flex-end;
-}
-
-#box1 {
-    width: 50px;
-    height: 50px;
-    background-color: teal;
-    
+.lineone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#box2 {
-    width: 50px;
-    height: 50px;
-    background-color: gold;
-}
-
-#box3 {
-    width: 50px;
-    height: 50px;
-    background-color: cadetblue;
-}
-#box4 {
-    width: 50px;
-    height: 50px;
-    background-color:coral;
-}
-#box5 {
-    width: 50px;
-    height: 50px;
-    background-color:crimson;
-}
-#box6 {
-    width: 50px;
-    height: 50px;
-    background-color:forestgreen;
-}
-#box7 {
-    width: 50px;
-    height: 50px;
-    background-color: darkorchid;
-}
-#box8 {
-    width: 50px;
-    height: 50px;
-    background-color:hotpink;
-}
-#box9 {
-    width: 50px;
-    height: 50px;
-    background-color:indigo;
-}
-#box10 {
-    width: 50px;
-    height: 50px;
-    background-color:dodgerblue;
+.linetwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
