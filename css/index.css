@@ -102,14 +102,21 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    box 1: teal;
+    box 2: gold;
+    box 3: cadetblue;
+    box 4: coral;
+    box 5: crimson;
+    box 6: forestgreen;
+    box 7: darkorchid;
+    box 8: hotpink;
+    box 9: indigo;
+    box 10: dodgerblue;
+}
+
 }
 
 .bottom-content {
