@@ -29,33 +29,30 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 header {
-    /*display: flex;*/
-}
-h1 {
-    font-size: 6rem;
-    font-weight: bolder;
-    margin: 3rem;
-}
-nav a {
-    width: 75%;
-    margin: 5%;
-    padding: 10px;
-    text-align: end;
-    
-}
-.home.html .about.html .products.html .blog.html .contact.html {
-    
+    width: 100%;
+    margin: center;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
    
-    font-family: 'Rubik', sans-serif; 
-    
+}    
+nav a {
+    width: 100%;
+    margin: center;
+}
+.lambda {
+
+    width: 15%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+      
 }
 img {
-    width: 80%;
-    margin-left: 7rem;
-    margin: 2rem;
-
+    width: 100%;
+    margin: center;
+    padding-top: 3%;
+    padding-bottom: 3%;;
+    
 }
 body {
 	line-height: 1;
