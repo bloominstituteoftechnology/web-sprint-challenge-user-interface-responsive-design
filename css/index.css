@@ -71,18 +71,27 @@ p {
     margin: 0 auto;
 
 }
-.lambdalogo {
+.aboutpage {
+    width: 800px;
     margin-left:20%;
+}
+.lambdalogo {
+    margin-left:0%;
 
 }
+.header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
 .firstnav {
-    margin-left:30%;
-    margin-right:17%;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     display:flex;
     flex-direction:row;
     justify-content:space-around;
-    align-items:flex-end
+    align-items:flex-end;
 }
 .lights {
     display:flex;
@@ -108,15 +117,16 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.text-container {
-    display:flex;
-    flex-direction: 
+.hometopcontent .hometextcontainer {
+    width: 45%;
+    padding-bottom: 20px;
 }
 
 .abouttopcontent {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 80;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -124,23 +134,31 @@ p {
 }
 .aboutabouttitle {
     text-align: left;
+    font-size: 150%;
 }
 
-.category {
+.aboutcategory {
     display:flex;
     flex-direction: column;
     width: 30%;
 }
-.middle-content {
+.homemiddlecontent {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.homemiddlecontent h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
+.boxes {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
 
+
+}
 .box1 {
     color:white;
     background-color:teal;
@@ -241,9 +259,10 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes {
+.homemiddlecontent .boxes {
     display: flex;
     flex-wrap: wrap;
+
     justify-content: space-evenly;
 }
 
@@ -252,39 +271,66 @@ p {
     margin-bottom: 3%;
     padding-bottom: 3%;
 }
-.bottom-content {
+.homebottomcontent {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.homebottomcontent .text-container {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.homebottomcontent .text-container:last-child {
     padding-right: 0;
 }
-
-.strategy {
+.aboutmiddlestuff {
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.strategy {
+    width:370px;
+    height:200px;
+    margin:20px 2.5%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-bottom: dotted black;
 }
 
 .howwework {
+    width:370px;
+    height:200px;
+    margin:20px 2.5%;
     display:flex;
     flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    border-bottom: dotted black;
 }
 
 .placeswework {
+    width:370px;
+    height:200px;
+    margin:20px 2.5%;
     display:flex;
     flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    border-bottom: dotted black;
 }
 
 .collaboration {
+    width:370px;
+    height:200px;
+    margin:20px 2.5%;
     display:flex;
     flex-direction: column;
-
+    align-items:center;
+    justify-content:center;
+    border-bottom: dotted black;
 }
 .letsworktogether {
     padding-top: 4%;
