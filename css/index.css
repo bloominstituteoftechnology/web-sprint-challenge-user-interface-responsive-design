@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 599;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,14 +63,23 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-/* Adding Nav bar Css here -Prince */
+/* Adding Nav bar Styling here -Prince */
 
 #nav-bar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin:4%;
-    
+    text-decoration: black;  
+}
+
+/* Heading Picture Styling */
+
+header img{
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 p {
@@ -85,6 +95,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -99,6 +110,51 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+/* Box color styling */
+
+#box1 {
+    background-color:#008080;
+}
+
+#box2 {
+    background-color:#ffd700;
+}
+
+
+#box3 {
+    background-color:#5f9ea0;
+}
+
+#box4 {
+    background-color:#ff7f50
+}
+
+#box5 {
+    background-color:#dc143c
+}
+
+#box6 {
+    background-color:#dc143c
+}
+
+#box7 {
+    background-color:#9932cc
+}
+
+#box8 {
+    background-color:#ff69b4
+}
+
+#box9 {
+    background-color:#4b0082
+}
+
+#box10 {
+    background-color:#1e90ff
+}
+
+
 
 .middle-content h2 {
     padding: 0 2%;
