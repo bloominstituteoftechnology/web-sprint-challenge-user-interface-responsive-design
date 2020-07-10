@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say? It helps reinforce the meaning of the web content on a web page and helps with accessibility and search engines to help determine the web content more easily. 
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```. display: block is an element that displays as a block whch has some whitespace above and below, it tolerates no HTML elements next to it except when ordered to. 
+2. Name two big differences between ```display: block;``` and ```display: inline;```. display: block is an element that displays as a block which has some whitespace above and below, it tolerates no HTML elements next to it except when ordered to. 
 display: inline is an element that display inside the current block on the same line. Only when it's between two blocks is when the element for a different block that has the smallest possible width. 
 
 
@@ -72,7 +72,7 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [x] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
