@@ -12,5 +12,25 @@ About Section
 }
 
 /*#################
-Middle Section
+Virtues Section
 ###################*/
+
+.virtues-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.virtues-section div {
+    width: 400px;
+    border-bottom: 1px dotted black;
+    padding: 25px 0;
+}
+
+.virtues-section button {
+    background: white;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 20%;
+    font-weight: bold;
+}
