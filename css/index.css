@@ -28,6 +28,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header {
+    /*display: flex;*/
+}
+h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    margin: 3rem;
+}
+nav a {
+    width: 75%;
+    margin: 5%;
+    padding: 10px;
+    text-align: end;
+    
+}
+.home.html .about.html .products.html .blog.html .contact.html {
+    
+    display: flex;
+    justify-content: space-between;
+   
+    font-family: 'Rubik', sans-serif; 
+    
+}
+img {
+    width: 80%;
+    margin-left: 7rem;
+    margin: 2rem;
+
+}
 body {
 	line-height: 1;
 }
@@ -104,7 +133,7 @@ p {
 .middle-content .boxes .box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10 {
     width: 12.5%;
     height: 100px;
-   
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -211,7 +240,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .bottom-content {
     display: flex;
