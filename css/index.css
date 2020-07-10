@@ -144,3 +144,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display:flex
+    justify-content:flex-end;
+}
