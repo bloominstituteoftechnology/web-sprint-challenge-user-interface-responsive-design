@@ -81,7 +81,7 @@ p {
     height: 50px;
 }
 
-.top-content{
+.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -99,6 +99,46 @@ p {
     width: 100%;
 }
 
-.middle-content{
+.middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: none;
+
+}
+
+.middle-content .strategy {
+    height: 450px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.middle-content img {
+    padding-bottom: 10px;
+}
+
+.middle-content p {
+    padding-bottom: 10px;
+}
+
+.middle-content button {
+    border: 2px solid;
+    font-size: 16px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    width: 35%;
+    padding-bottom: 10px;
+}
+
+.end-content {
     
+
 }
