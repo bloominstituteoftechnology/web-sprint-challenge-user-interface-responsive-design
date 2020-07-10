@@ -218,3 +218,13 @@ Middle Content Section
 .middle-content .boxes .box:nth-child(10) {
     background: #1E90FF;
 }
+
+
+/*############## 
+Bottom Content
+################*/
+
+footer nav a {
+    font-weight: normal;
+    color: #808080;
+}
