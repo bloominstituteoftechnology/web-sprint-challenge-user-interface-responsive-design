@@ -150,6 +150,15 @@ footer nav a {
 My Additions 
 ################*/
 
+/*############## 
+Header 
+################*/
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
 
 header .nav-bar nav{
     display: flex;
@@ -157,3 +166,15 @@ header .nav-bar nav{
     align-items: center;
     margin: 25px 0;
 }
+
+/*############## 
+Top Content Section
+################*/
+
+.top-content {
+    padding: 10px;
+}
+
+/*############## 
+Box Section
+################*/
