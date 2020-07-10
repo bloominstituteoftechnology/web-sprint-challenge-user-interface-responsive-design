@@ -157,43 +157,43 @@ p {
     justify-content: center;
 }
 
-.box1 {
+.middle-content .boxes .box1 {
     background-color: teal;
 }
 
-.box2 {
+.middle-content .boxes .box2 {
     background-color: gold;
 }
 
-.box3 {
+.middle-content .boxes .box3 {
     background-color: cadetblue;
 }
 
-.box4 {
+.middle-content .boxes .box4 {
     background-color: coral;
 }
 
-.box5 {
+.middle-content .boxes .box5 {
     background-color: crimson;
 }
 
-.box6 {
+.middle-content .boxes .box6 {
     background-color: forestgreen;
 }
 
-.box7 {
+.middle-content .boxes .box7 {
     background-color: darkorchid;
 }
 
-.box8 {
+.middle-content .boxes .box8 {
     background-color: hotpink;
 }
 
-.box9 {
+.middle-content .boxes .box9 {
     background-color: indigo;
 }
 
-.box10 {
+.middle-content .boxes .box10 {
     background-color: dodgerblue;
 }
 
