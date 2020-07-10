@@ -15,7 +15,7 @@ About Section
 ###################*/
 
 .about {
-  padding: 25px 0;
+  padding: 25px 25px;
 }
 
 /*#################
@@ -28,7 +28,7 @@ Virtues Section
 }
 
 .virtues-section img {
-    width: 100%;
+  width: 100%;
 }
 
 .virtues-section div {
