@@ -1,0 +1,11 @@
+.headContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+
