@@ -46,7 +46,7 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ## Project Set Up
 
-`<firstName-lastName>` branch, committing changes regularly.
+g`<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.

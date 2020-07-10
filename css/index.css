@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+   
+
 }
 ol, ul {
 	list-style: none;
@@ -49,6 +51,12 @@ table {
 
 * {
     box-sizing: border-box;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
 html, body {
@@ -64,6 +72,18 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.headerContainer{
+    width: 800px;
+    margin: 0 auto;
+}
+.parentHead{
+    display: flex;
+}
+nav{
+    justify-content:space-between;
+    display: flex;
 }
 
 .container {
@@ -144,6 +164,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.headerImage{
+    background-image:url("/img/jumbo.jpg");
+    background-repeat:no-repeat;
+    width: 100%;
+    height:40vh;
+    /* background-attachment:fixed; */
+    /* background-size:800px; */
+   
+}
 /* box colors*/
 #box1{ 
     background-color:teal ;
@@ -176,3 +206,13 @@ footer nav a {
     background-color:dodgerblue;
 }
 
+
+.headerImageAbout{
+    background-image:url("/img/jumbo-about.jpg");
+    background-repeat:no-repeat;
+    width: 100%;
+    height:40vh;
+    /* background-attachment:fixed; */
+    /* background-size:800px; */
+   
+}
