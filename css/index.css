@@ -424,36 +424,3 @@ a {
   height: 1px;
   width: 110%;
 }
-
-/* .topBox h2 {
-  padding: 0.5rem;
-  margin-right: 1rem;
-} */
-
-/* .topBox p {
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-  width: 320px;
-  margin: 35% 0% 0% 15%;
-} */
-
-/* .bottomBox img {
-  display: flex;
-  width: 300px;
-  height: 220px;
-}
-.bottomBox h2 {
-  padding: 0.5rem;
-  margin-right: 1rem;
-}
-.bottomBox p {
-  width: 320px;
-  height: 320px;
-} */
-
-/* .topText button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
