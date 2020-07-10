@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
     justify-content: space-evenly;
     align-items: center;
     margin:4%;
-    text-decoration: black;  
+    text-decoration: black; 
 }
 
 /* Heading Picture Styling */
@@ -210,3 +210,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page Body CSS starts here */
+
+
+#about-section {
+    /* margin: 3%; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#about-section p {
+    padding-bottom: 20px;
+}
+
+
