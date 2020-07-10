@@ -62,6 +62,16 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Adding Nav bar Css here -Prince */
+
+#nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:4%;
+    
+}
+
 p {
     line-height: 1.4;
 }
