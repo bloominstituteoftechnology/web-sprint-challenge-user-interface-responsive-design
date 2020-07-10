@@ -77,7 +77,7 @@ p {
 }
 .firstnav {
     margin-left:30%;
-    margin-right:10%;
+    margin-right:17%;
     margin-bottom: 10px;
     display:flex;
     flex-direction:row;
@@ -92,7 +92,16 @@ p {
     margin-left: 25%;
     padding:5%;
 }
-.top-content {
+.city{
+    display:flex;
+    flex-direction:row;
+    width: 50%;
+    justify-content:center;
+    margin-left: 25%;
+    padding:5%;
+}
+
+.hometopcontent {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -100,12 +109,19 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
+.abouttopcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.category {
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -222,15 +238,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.aboutabouttext {
+    border-bottom: dotted black;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
 }
 .bottom-content {
     display: flex;
@@ -246,21 +257,47 @@ p {
     padding-right: 0;
 }
 
+.strategy {
+    display:flex;
+    flex-direction: column;
+}
+
+.howwework {
+    display:flex;
+    flex-direction: column;
+}
+
+.placeswework {
+    display:flex;
+    flex-direction: column;
+}
+
+.collaboration {
+    display:flex;
+    flex-direction: column;
+
+}
+.letsworktogether {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.letsworktogethertitle {
+    font-size:160%
+}
 footer {
     width: 100%;
     background: black;
+    color: white;
+    text-decoration: none;
 }
 
-footer nav {
+.blackfooterboth {
+    color: white;
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    margin-bottom: 0%;
     font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
