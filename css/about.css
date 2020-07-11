@@ -72,12 +72,15 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
-
 .header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: none;
     padding: 30px;
     color: grey;
     text-decoration: none;
+
 }
 
 .logo {
@@ -109,13 +112,7 @@ p {
     border: none;
 
 }
-.middle{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
-        border: none;
-    
-    }
+
 }
 .middle-content .strategy {
     height: 450px;
@@ -137,7 +134,13 @@ p {
     padding-bottom: 10px;
     padding-top: 30px;
 }
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: none;
 
+}
 .middle .places-we-work {
     height: 450px;
     width: 380px;
@@ -189,27 +192,7 @@ p {
     width: 35%;
     padding-bottom: 10px;
 }
-.how-we-work button {
-    border: 2px solid;
-    font-size: 16px;
-    padding: 10px;
-    height: 40px;
-    width: 100px;
-    border-radius: 7px;
-    width: 35%;
-    padding-bottom: 10px;
-}
 
-.collaboration button {
-    border: 2px solid;
-    font-size: 16px;
-    padding: 10px;
-    height: 40px;
-    width: 100px;
-    border-radius: 7px;
-    width: 35%;
-    padding-bottom: 10px;
-}
 .end-content {
     padding-top: 20px;
     padding-bottom: 20px;
