@@ -52,8 +52,10 @@ table {
 }
 
 html, body {
+    width:600px;
     height: 100%;
     font-family: 'Roboto',sans-serif;
+    align-items: center;
 }
 
 h1, h2 {
@@ -71,10 +73,6 @@ p {
     margin: 0 auto;
 }
 
-/* . {
-    display: flex;
-    align-items: center;
-} */
 
 .header-content {
     padding: 30px;
@@ -106,13 +104,19 @@ p {
 
 .middle-content {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
     margin-bottom: 10px;
     border: none;
 
 }
-
+.middle{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        border: none;
+    
+    }
+}
 .middle-content .strategy {
     height: 450px;
     width: 380px;
@@ -123,7 +127,37 @@ p {
     padding-bottom: 10px;
     padding-top: 30px;
 }
+.middle-content .how-we-work {
+    height: 450px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
 
+.middle .places-we-work {
+    height: 450px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.middle .collaboration {
+    height: 450px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
 .middle-content img {
     padding-bottom: 10px;
 }
@@ -142,8 +176,19 @@ p {
     width: 35%;
     padding-bottom: 10px;
 }
-
-
+.middle p {
+    padding-bottom: 10px;
+}
+.middle button {
+    border: 2px solid;
+    font-size: 16px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    width: 35%;
+    padding-bottom: 10px;
+}
 .how-we-work button {
     border: 2px solid;
     font-size: 16px;
