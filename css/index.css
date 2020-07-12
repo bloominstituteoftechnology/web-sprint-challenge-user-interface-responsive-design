@@ -80,10 +80,20 @@ p {
 }
 .parentHead{
     display: flex;
+    /* align-items: flex-end; */
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0 2%;
+
 }
-nav{
-    justify-content:space-between;
+header nav {
+    width: 80%;
     display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* padding: 20px 2%; */
+    font-size: 14px;
 }
 
 .container {
@@ -147,12 +157,13 @@ nav{
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,11 +176,20 @@ footer nav a {
     text-decoration: none;
 }
 
+.headerImageAbout{
+    background-image:url("/img/jumbo-about.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    height:11rem;
+    /* background-attachment:fixed; */
+    /* background-size:800px; */
+   
+}
 .headerImage{
     background-image:url("/img/jumbo.jpg");
     background-repeat:no-repeat;
     width: 100%;
-    height:40vh;
+    height:11rem;
     /* background-attachment:fixed; */
     /* background-size:800px; */
    
@@ -207,12 +227,30 @@ footer nav a {
 }
 
 
-.headerImageAbout{
-    background-image:url("/img/jumbo-about.jpg");
-    background-repeat:no-repeat;
-    width: 100%;
-    height:40vh;
-    /* background-attachment:fixed; */
-    /* background-size:800px; */
+/* about.html styles*/
+
+.midContain{
+    display: flex;
+    border-top:1px dashed black;
+    margin-top: 2rem;
+    padding-top: 1rem;
    
 }
+
+.botContain{
+    display: flex;
+  
+    border-bottom:1px dashed black;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem; 
+    
+   
+
+}
+
+.midContain div{
+    width: 800px;
+    margin: 0 auto;
+
+}
+
