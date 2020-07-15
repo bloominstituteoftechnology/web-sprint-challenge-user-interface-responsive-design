@@ -28,23 +28,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header {
+body{
     width: 100%;
-    margin: center;
+}
+
+header {
+    width: 50rem;
+    margin: auto;
+
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-around;
    
 }    
-nav a {
+nav {
     width: 100%;
-    margin: center;
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
 }
+
 .lambda {
 
-    width: 15%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    width: 20%;
+    display: flex;
+    align-content: flex-start;
+    
       
 }
 img {
