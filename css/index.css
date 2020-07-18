@@ -320,8 +320,17 @@ footer nav a {
 
 .aboutsection .aboutimg .imgabout1 {
     width: 43.5%;
-    height: 337px;
+    height: 421px;
     margin: 25px 2.5%;
     align-items: center;
-    border-bottom: 1px dotted #000;
+    border-bottom: 1px dashed #000;
+}
+
+.aboutintro {
+    border-bottom: 1px dashed #000;
+    padding-bottom: 1rem;
+}
+
+.worktogether {
+    padding-bottom: 2rem;
 }
