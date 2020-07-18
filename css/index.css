@@ -144,3 +144,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* New code added by me */
+
+.container1 {
+    display:flex;
+    justify-content: space around;
+}
+
+
+.teal {
+    background: teal;
+}
+.gold {
+    background: gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+.crimson {
+    background: crimson;
+}
+.indigo {
+    background: indigo;
+}
+
+
