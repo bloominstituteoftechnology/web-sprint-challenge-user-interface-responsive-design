@@ -98,12 +98,49 @@ header {
     margin: 0 auto;
 }
 
-
+#header_img {
+    margin-bottom: 3%;
+}
 
 .top_section {
     border-bottom: 1px dashed black;
     padding-bottom: 4%;
     margin-bottom: 4%;
+}
+
+.learnmore_btn {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2% 6%;
+    border-radius: 11%;
+}
+
+.btn_container {
+    margin: 7% 0;
+}
+
+.middle_content {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+
+.middle_content2 {
+    display: inline-flex
+}
+
+.text-container {
+    border-bottom: 1px dashed black;
+    line-height: 150%;
+    margin: 0 2%;
+}
+
+.footer_content {
+    margin: 5% 2%;
 }
 
 footer {
