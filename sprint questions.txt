@@ -1,0 +1,5 @@
+1.	Answer:         I would  describe to my  coherts this:; Semantic HTML  "is" what gives meaning  to the Elements your using,    it  gives clairity to   to  the broswer and developer.
+2. 	Answer:         Two  big differences  are ,  inline will only fill the space needed, block will  fill what its given,   another differance  is seting   a with and  hieght. 
+3. 	Answer: 	Content ,  Padding,  Border, Margin .
+4. 	Answer:   	The Cross Axis  , Vertical.
+5.  	Answer:       	Git  is so valible because it gives  a time line of changes to projects, and  each time a something new is done it will save it , then we can go back and  pull the information together, in other words  "it is a memory system with   options".
