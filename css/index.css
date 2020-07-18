@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -152,7 +152,16 @@ footer nav a {
     justify-content: center;
 }
 
-
+.boxes {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .teal {
     background: teal;
 }
@@ -186,7 +195,38 @@ footer nav a {
 .learn {
     border: 2px solid black;
 }
+.main-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+.strategy {
+    border-bottom: 2px dashed black;
+    margin: 15px;
+}
+.Work {
+    border-bottom: 2px dashed black;
+    margin: 15px;
+}
+.Places {
+    border-bottom: 2px dashed black;
+    margin: 15px;
+}
+.collab {
+    border-bottom: 2px dashed black;
+    margin:15px;
+    padding:15px;
+}
+.invite {
+    margin:15px;
+    padding:15px;
+}
 #Lambdaimg:hover {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}button:hover{
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
@@ -201,4 +241,9 @@ footer nav a {
     }
 .main-container {
     display: flex;
+    flex-flow: row wrap;
+}
+.strategy {
+    margin:5px;
+    padding:5px;
 }
