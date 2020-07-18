@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -15,33 +15,36 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+time, mark, audio, video 
+
+	
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+footer, header, hgroup, menu, nav, section 
+
+
+
 body {
-	line-height: 1;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,   sans-serif;
+    
+
 }
+
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -54,11 +57,71 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.mainContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header img{ 
+    display: flex;
+    align-self: center;
+    justify-self: center;   
+}
+
+.directory{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    padding-top: 5%;
+    font-size: 21px;
+    color: black;
+    
+}
+
+.container-about-page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+
+    
+}
+
+h2.button{
+ border: 3px solid black;
+ border-radius: 3mm;
+ width: 15%;
+ margin: auto;
+ line-break: auto;
+}
+
+.box1{
+display: flex;
+flex-direction: row;
+justify-content: space-around; }
+
+.box2{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -101,6 +164,42 @@ p {
     justify-content: space-evenly;
 }
 
+.box{
+    display: flex;
+    background-color: teal;
+
+}
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(0){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,6 +210,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
