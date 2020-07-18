@@ -152,18 +152,18 @@ footer nav a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2%;
+    margin-right: 100px;
 }
 
 .nav-links ul {
-    margin: 0;
-    padding: 0;
+    /*  */
+    /* padding: 10px 1%; */
     display: flex;
 
 }
 .nav-links li {
-
     list-style: none;
-
+    padding: 10px 20px;
 }
 .nav-links li a {
     text-decoration: none;
@@ -212,4 +212,13 @@ footer nav a {
 }
 .boxes .box.ten {
     background-color: dodgerblue;
+}
+
+.des{
+    
+    width: 100%;
+}
+
+.flex-about{
+    display: flex;
 }
