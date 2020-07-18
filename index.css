@@ -66,6 +66,36 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5% 2.5%;
+    
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.navbar li a:hover {
+    color: gray;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
