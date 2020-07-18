@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -143,4 +144,72 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.nav-links li {
+
+    list-style: none;
+
+}
+.nav-links li a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: black;
+}
+
+.container{
+    margin-top: 2%;
+
+}
+
+.top-image{
+    margin-bottom: 2%;
+
+}
+
+.boxes .box.one {
+    background-color:teal ;
+}
+
+.boxes .box.two {
+    background-color:gold;
+}
+.boxes .box.three {
+    background-color:cadetblue;
+}
+.boxes .box.four {
+    background-color: coral;
+}
+.boxes .box.five {
+    background-color: crimson;
+}
+.boxes .box.six {
+    background-color: forestgreen;
+}
+.boxes .box.seven {
+    background-color: darkorchid;
+}
+.boxes .box.eight {
+    background-color: hotpink;
+}
+.boxes .box.nine {
+    background-color: indigo;
+}
+.boxes .box.ten {
+    background-color: dodgerblue;
 }
