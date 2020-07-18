@@ -58,20 +58,18 @@ html, body {
 
 .flexContainer{
     display:flex;
-    flex-wrap: wrap;
-    
+    justify-content:space-between;
 }
-
 
 
 .rightFlex{
-    flex:2;
-    margin-right:20%;
-
+    flex:1;
+    margin-right:16%;
 }
 
+
 .btnToolbar{
-    padding:2rem;
+    padding:1rem;
     display:flex;
     justify-content:space-between;
     color:black;
@@ -224,6 +222,14 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+#jumboAbout{
+   margin-left:20%;
+}
+
+.space{
+   margin-top:1rem; 
 }
 
 .bottom-content .text-container:last-child {
