@@ -67,26 +67,25 @@ html, body {
 
 header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 header img{ 
     display: flex;
-    align-self: center;
-    justify-self: center;   
+    justify-self: left;  
+    align-self: flex-end;
 }
 
 .directory{
     display: flex;
-    flex-flow: row;
     flex-direction: row;
-    justify-content: space-around;
-    width: 60%;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
     padding-top: 5%;
     font-size: 21px;
-    color: black;
-    
+    color: black;    
 }
 
 .container-about-page{
