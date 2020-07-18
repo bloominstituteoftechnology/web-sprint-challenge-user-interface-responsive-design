@@ -314,3 +314,97 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page*/
+
+.AboutP
+{
+    margin-left: 300px;
+    border-bottom: dotted;
+    width: 800px;
+}
+
+.AboutP p
+{
+    width: 800px;
+}
+
+.container-about-page1
+{
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: dotted;
+}
+
+.container-about-page2
+
+{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: dotted;
+}
+
+.container-about-pageA
+{
+    display: flex;
+}
+
+.container-about-page3
+
+{
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: dotted;
+}
+
+
+.container-about-page4
+{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: dotted;
+}
+
+.container-about-pageB
+{
+    display: flex;
+}
+
+footer
+{
+    margin-left: 300px;
+    width: 800px;
+}
+
+.footer1
+{
+    margin-left: 0px;
+    width: 800px;
+}
+
+.letsWorkT
+{
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+#learnMore
+{
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+
+}
