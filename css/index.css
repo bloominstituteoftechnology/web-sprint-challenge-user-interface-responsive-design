@@ -3,6 +3,69 @@
    License: none (public domain)
 */
 
+.headerB
+{
+    margin-left: 300px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+img
+{
+    margin-right: 40px;
+}
+
+#HomeB
+{
+    margin-right: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+
+}
+
+#AboutB
+{
+    margin-right: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+#ProductsB
+{
+    margin-right: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+#BlogB
+{
+    margin-right: 40px;
+    background-color: white;
+    border: none;
+     outline: none;
+}
+
+#ContactB
+{
+    
+     margin-right: 40px;
+     background-color: white;
+     border: none;
+     outline: none;
+
+}
+
+
+.AboutSect
+{
+    margin-left: 300px;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,7 +78,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -95,16 +158,123 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.middle-content .boxes1 .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes1 .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes1 .box3 {
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes1 .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes1 .box5 {
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes2 .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes2 .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes2 .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes2 .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes2 .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
