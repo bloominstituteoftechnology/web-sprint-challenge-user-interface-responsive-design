@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* Used flex-start to make sure the navbar started in the right side and not the left*/
+
 header {
     display: flex;
     justify-content: flex-start;
@@ -78,8 +80,10 @@ header {
     list-style: none;
 }
 
+/* Used inline-flex to layout the navbar horizontally */
+
 .navbar li {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 4rem;
     margin-top: 1rem;
     

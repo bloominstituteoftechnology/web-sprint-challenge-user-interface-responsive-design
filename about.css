@@ -63,6 +63,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Used flex-start to make sure the navbar started in the right side and not the left*/
+
 header {
     display: flex;
     justify-content: flex-start;
@@ -76,7 +78,7 @@ header {
 }
 
 .navbar li {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 4rem;
     margin-top: 1rem;
     
@@ -121,6 +123,8 @@ header {
 .btn_container {
     margin: 7% 0;
 }
+
+/* Used inline-flex to layout all the content horizontally */
 
 .middle_content {
     display: inline-flex;
