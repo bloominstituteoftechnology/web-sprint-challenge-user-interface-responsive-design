@@ -92,6 +92,7 @@ nav a{
     width: 800px;
     justify-content: center;
     margin: 0 auto;
+    padding: 0 0 20px 0;
 }
 
 .container {
@@ -172,6 +173,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.box1{
-    background-color: teal;
+.container .about-page{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
 }
+.reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+.reasons > div {
+    width: 380px;
+    margin: 10px;
+    padding: 20px;
+  }
+.reasons img{
+    width: 100%;
+}
+.line {
+    border-bottom: 1px solid black;
+    padding: 5px 0 20px 0;
+}
+.work_together {
+    padding: 20px 0 20px 0;
+}
+.button {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5px;
+ }
