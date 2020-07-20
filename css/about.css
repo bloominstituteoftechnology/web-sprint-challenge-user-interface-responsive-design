@@ -71,3 +71,20 @@ header a {
      justify-content: flex-start;
      
  }
+
+ .container-about-page{
+     height: auto;
+     width: auto;
+     border: 2px solid;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+     
+ }
+
+ .four-sections{
+     height: auto;
+     width: auto;
+     border: 2px solid;
+ }
