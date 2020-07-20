@@ -30,6 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
+p{
+    line-height: 1.4em;
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     width: 56%;
     height: auto;
@@ -57,18 +62,21 @@ header a {
 }
 
 .text-section{
-    width: 50%;
+    width: 55%;
     height: auto;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     text-align: left;
+    border-bottom: 1px dashed grey ;
 
 }
+
  h2 {
      display: flex;
      justify-content: flex-start;
+     font-size: 1.5em;
      
  }
 
@@ -90,8 +98,29 @@ header a {
  .four-sections{
      height: auto;
      width: 40%;
-    margin: 1%;
-     border-bottom: 2px dashed grey ;
+    margin: 2%;
+     border-bottom: 1px dashed grey ;
 
 
  }
+
+ footer {
+    width: 60%;
+    background: black;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
