@@ -66,31 +66,9 @@ p {
     line-height: 1.4;
 }
 
-header{
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    padding: 20px 0 20px 0;
-}
-
-#logo {
-    margin: 0;
-}
-
-header a {
-    font-family: 'Rubik', sans-serif;
-    text-decoration: none;
-    font-size: 1rem;
-    color: black;
-}
-
 .container {
     width: 800px;
     margin: 0 auto;
-}
-.container img {
-    margin: 20px 0 20px 0;
 }
 
 .top-content {
@@ -166,8 +144,30 @@ footer nav a {
     text-decoration: none;
 }
 
+/* My CSS Below */
+header{
+    width: 800px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
 
-/* My css */
+#logo {
+    margin: 0;
+}
+
+header a{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.container img {
+    margin: 20px 0 20px 0;
+}
+
 #box1 {
     background: teal;
 }
@@ -197,4 +197,36 @@ footer nav a {
 }
 #box10 {
     background: dodgerblue;
+}
+
+.about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-top p {
+    margin: 20px;
+}
+.about-middle{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-middle-content{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.learnmore {
+    width: 8rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.about-bottom {
+    padding: 20px 0 40px 0;
 }
