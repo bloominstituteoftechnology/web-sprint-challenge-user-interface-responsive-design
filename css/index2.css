@@ -75,6 +75,7 @@ p {
 }
 
 footer {
+    height:100%;
     width: 100%;
     background: black;
 }
@@ -90,7 +91,7 @@ footer nav {
 nav  a {
     text-decoration: none;
     font-size: 1.7rem;
-    margin: 0vh 7.5vw 0vh 0vw;
+    margin: 0vh 0vw 0vh 0vw;
     color: black;
 }
 
@@ -103,12 +104,50 @@ footer nav a {
 
 
 
+
+
+
+
+
+
+
+header nav a {
+   
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+header {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    border:2px solid black;
+    background: white;
+}
+
+header nav {
+    width: 100%;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+
+
+
+
+
 /*** 
 
         Classes *
             ((((****/
 .container {
-    width: 800px;
+    width: 98%;
     margin: 0 auto;
 }
 
@@ -228,14 +267,3 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myN
 /******** ********************
                            header 
                         ****************/
-
-nav{
-    display:flex;
-    align-items: space-between;
-}
-
-
-#lambdaLogo{
-    width:15%;
-    height:15%;
-}
