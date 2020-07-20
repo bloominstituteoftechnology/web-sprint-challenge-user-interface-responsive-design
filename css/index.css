@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* The Home Page starts here */
+
 html {
     box-sizing: border-box;
 }
@@ -173,15 +175,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* The About Page starts here */
+
 .container .about-page{
     display: flex;
     font-size: 20px;
-    justify-content: center;
 }
 .reasons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0 auto;
