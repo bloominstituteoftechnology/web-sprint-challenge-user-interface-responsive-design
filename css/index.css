@@ -66,10 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
+
 
 .top-content {
     display: flex;
@@ -112,6 +109,7 @@ p {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,7 +126,9 @@ p {
 
 footer {
     width: 100%;
+    display: flex;
     background: black;
+    justify-content: flex-start;
 }
 
 footer nav {
@@ -143,4 +143,96 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* RESET END */
+
+/* header - navigation bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+header nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* link about.html */
+header nav div a {
+    color: black;
+    text-decoration: none;
+}
+
+/* image - jumbo */
+
+#jumbo {
+    margin-bottom: 1rem;
+}
+
+/* box background color */
+
+#box1 {background-color: teal;}
+#box2 {background-color: gold;}
+#box3 {background-color: cadetblue;}
+#box4 {background-color: coral;}
+#box5 {background-color: crimson;}
+#box6 {background-color: forestgreen;}
+#box7 {background-color: darkorchid;}
+#box8 {background-color: hotpink;}
+#box9 {background-color: indigo;}
+#box10 {background-color: dodgerblue;}
+
+/* about pages starts */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: dotted 1px black;
+}
+
+#about div {
+    margin-bottom: 1rem;
+}
+
+.container, .container-about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 
+}
+
+.container-about-page section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem;
+    border-bottom: dotted 1px black; 
+}
+
+.title, .container-about-page img, .container-about-page p {
+    padding-bottom: 1rem;
+}
+
+.learn {
+    border: solid 2px black;
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    font-size: .9rem;
+}
+
+#lets-work-together {
+    padding-top: 3rem;;
+    width: 800px;
+    border-bottom: none;
 }
