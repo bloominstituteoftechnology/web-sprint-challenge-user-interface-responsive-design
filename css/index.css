@@ -164,14 +164,18 @@ html > body#layout > div.container > section.middle-content{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 11.11vh;
-    background: black;
     margin: 2.22vh 2.5%;
-    color: white;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+#b1{
+    background:' teal';
+}
+.middle-content .boxes .box#b2{
+    background-color: 'gold';
+}
 
 html > body#layout > div.container > section.top-content {
     width: 64vw;

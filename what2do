@@ -1,7 +1,6 @@
-
+***********************DONE ****************************
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
-
+*********************************************************************
 
 /*********************************
 **************888DONE*with**INLINE*STYLES****************
@@ -18,3 +17,9 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
 *****************************************************************
+
+
+
+
+* [ ] Link the `About` navigation item to the [about.html](about.html) page
+
