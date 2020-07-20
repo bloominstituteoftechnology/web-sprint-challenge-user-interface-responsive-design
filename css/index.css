@@ -28,6 +28,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main {
+    display: flex:
+    flex-direction: row;
+    justify-content: center;
+}
 body {
 	line-height: 1;
 }
@@ -61,6 +71,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+/*Added Box colors*/
 .box1 {
     background-color: teal;
 }
@@ -124,13 +135,13 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .flex-container .box {
     width: 12.5%;
     height: 100px;
     background: black;
