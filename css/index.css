@@ -145,6 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Start of my CSS for Home Page */
 nav {
     margin: 3%;
     padding-right: 3%;
@@ -211,6 +212,9 @@ nav {
     background-color: dodgerblue;
 }
 
+/* About Page Styling */
+
+/* Header Image */
 .skyline {
     display: flex;
     justify-content: center;
@@ -218,12 +222,14 @@ nav {
     margin-top: 2.5%;
 }
 
+/* About summary */
 .bio {
     border-bottom: 1px dashed black;
     margin-bottom: 4%;
     padding-bottom: 3%;
 }
 
+/* First section */
 .mid {
     display: flex;
     flex-direction: row;
@@ -231,6 +237,7 @@ nav {
     width: 100%;
 }
 
+/* Learn More buttons */
 button {
     border: 2px solid black;
     border-radius: .3rem;
@@ -257,12 +264,14 @@ button {
     margin-left: 3%;
 }
 
+/* Last section */
 .bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
 }
+
 
 h2 {
     margin-top: .5rem;
