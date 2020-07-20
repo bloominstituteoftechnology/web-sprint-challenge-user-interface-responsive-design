@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It is styling your HTML code in a way that is easy to edit by both yourself and fellow Lambda students. It should be concise, not repeat itself and convey all the information you need when reviewing the code.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The first difference is that display block displays HTML elements above and below, but not to the side. Whereas display inline displays then next to each other.
 
 3. What are the 4 areas of the box model?
 
+1. content edge
+2. padding edge
+3. border edge
+4. margin edge
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-axis. In math terms the Y-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It helps developers work on the same project all at the same time. It also helps them revert back to previous versions as needed. Finally it saves it in one secure location that can be referenced whenever needed. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
