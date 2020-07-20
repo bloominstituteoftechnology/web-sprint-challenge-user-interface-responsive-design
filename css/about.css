@@ -69,7 +69,7 @@ header a {
     flex-wrap: wrap;
     justify-content: flex-start;
     text-align: left;
-    border-bottom: 1px dashed grey ;
+
 
 }
 
@@ -78,6 +78,14 @@ header a {
      justify-content: flex-start;
      font-size: 1.5em;
      
+ }
+
+ h3 {
+     border: 2px solid black;
+     border-radius: 15%;
+     width: 20%;
+     margin: 1%;
+     padding: 2%;
  }
 
  .container-about-page{
@@ -89,6 +97,7 @@ header a {
      justify-content: center;
      text-align: left;
      margin: 0 auto;
+     border-top: 1px dashed black ;
      
 
 
@@ -99,7 +108,7 @@ header a {
      height: auto;
      width: 40%;
     margin: 2%;
-     border-bottom: 1px dashed grey ;
+     border-bottom: 1px dashed black ;
 
 
  }
