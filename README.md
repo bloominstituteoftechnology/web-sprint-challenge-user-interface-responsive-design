@@ -14,7 +14,7 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
 ## Description
 
@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is use as building blocks for a page. With it containers and children can be created and it makes the page much more organized. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block treats each elemtn as a block of code one right next to eachother while inline display is used for if you would like the elements to overlap eachother or appear within a order or position that block display does not do. 
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding, and content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The y axis which goes up and down also known as the Cross axis. 
+
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable for alot of reasons. The main ones being that it is easy for team members to use it for collaboration. Its also great and very valuable as a versioning system. If a new patch or some version of the app has bugs or a team memeber needs to revert to a different verision it is as easy as $ git reset --hard <hash-or-ref>. If the developer would rather stash their new changes first before decided on a commit  you can do this then use stash pop to bring back all the work. 
+
+$ git stash
+$ git reset --hard <hash-or-ref>
+$ git stash pop
+
+There are a lot of reason to use a verisioning system like git and it is a requirment within any IT company or business beacuse of it its efficiency 
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
