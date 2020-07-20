@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, hgroup, menu{
+ hgroup, menu{
 	display: block;
 }
 /* Addin 
@@ -60,7 +60,7 @@ table {
 /*Desktop Settings*  larger than 1024 */
 
  
-@media   (max-width: 4400px){
+
 
     html > body#layout{
     padding:1.25vh 8.8vw;
@@ -171,10 +171,17 @@ html > body#layout > div.container > section.middle-content{
     justify-content: center;
 }
 #b1{
-    background:' teal';
+    height: inherit;
+    width:inherit;
+    margin:inherit;
+    padding:inherit;
+    background: teal;
 }
 .middle-content .boxes .box#b2{
-    background-color: 'gold';
+    height: inherit;
+    width:inherit;
+    margin:inherit;
+    background-color: gold;
 }
 
 html > body#layout > div.container > section.top-content {
@@ -188,7 +195,7 @@ html > body#layout > div.container > section.top-content > div.text-container{
     height:22.22vh;
     padding: 1.11vh 0vw 1.11vh 4.375vw;
     margin: 2.22vh 1.25vw; 
-    display:block;
+    display:flex;
     font-size:1rem;
 }
 html > body#layout{
@@ -211,7 +218,7 @@ html > body#layout > div.container > section.bottom-content > div.text-container
     height:22.22vh;
     padding: 1.11vh 0vw 1.11vh 4.375vw;
     margin:2.22vh 1.25vw; 
-    display:block;
+    display:flex;
 }
 html > body#layout > div.container > section.bottom-content > div.text-container > h2{
     font-weight: bold;
@@ -284,4 +291,3 @@ html > body#layout > div.container > section.middle-content{
     
 }
 
-}
