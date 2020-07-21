@@ -24,8 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+/* removed NAV */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
 	display: block;
 }
 nav {
@@ -33,10 +35,16 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 }
-main {
-    display: flex:
-    flex-direction: row;
+/* Trying to center header image*/
+img .lambda-black {
+    display: flex;
     justify-content: center;
+}
+/* copied & pasted 3 lines below */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 body {
 	line-height: 1;
@@ -110,16 +118,18 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* removed flex-wrap: wrap;  added flex-direction: row */
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+/*Adding display + flex-direction */
 .top-content .text-container {
+    display: flex;
+    flex-direction: row-reverse;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -151,11 +161,12 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/* Added Flex-direction: row */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .bottom-content .text-container {
