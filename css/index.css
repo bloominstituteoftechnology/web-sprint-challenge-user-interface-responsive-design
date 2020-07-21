@@ -151,7 +151,7 @@ footer nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     margin-right: 100px;
 }
 
@@ -170,6 +170,12 @@ footer nav a {
     display: block;
     padding: 1rem;
     color: black;
+}
+
+.nav-links li a:hover{
+    color:white;
+    background-color: darkgray;
+    border-radius: 10px;
 }
 
 .container{
@@ -214,8 +220,69 @@ footer nav a {
     background-color: dodgerblue;
 }
 
-.des{
-    
-    width: 100%;
+
+/* About Section */
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.about-middle-content .about-box {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    /* margin-bottom: 70px; */
+}
+
+.about-box img {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.about-box button{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 15px 0;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    border: 2px solid black;
+}
+
+.about-box button h3{
+     text-align: center;
+     /* line-height: 0px; */
+}
+
+.about-box button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+
+.last-para{
+    /* margin-bottom: 40px; */
+    /* margin-top: 50px; */
+    margin: 50px 10px;
+}
+
+.top-image img{
+    margin-top: 10px;
+}
+
+.about-section{
+    /* width: 80%; */
+    padding: 0 20px;
+}
+footer nav a{
+    padding: 2px;
+}
+
+footer nav a:hover{
+    color: white;
+    background-color: darkgrey;
+
+    border-radius: 10px;
+}
