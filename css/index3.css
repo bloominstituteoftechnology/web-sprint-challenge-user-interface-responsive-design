@@ -157,3 +157,10 @@ div.text-container{
     width:80%;
     height:100%;
 }
+div.bottom-content > div.text-container > footer > nav {
+   background-color: black;
+}
+div.bottom-content > div.text-container > footer > nav > a{
+    font-size:2rem;
+    color:white;
+}
