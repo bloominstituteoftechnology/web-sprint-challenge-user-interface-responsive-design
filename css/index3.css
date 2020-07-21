@@ -173,6 +173,12 @@ div.bottom-content > div.text-container > footer > nav > a{
     color:white;
 }
 
+
+img{
+    padding:.5rem;
+    margin: 2rem .1rem 2rem .1rem;
+}
+
 button{
     padding:.6rem;
     margin: 0rem 0rem 2rem 0rem;
@@ -181,4 +187,13 @@ button{
     border-bottom-right-radius: 20% ; 
     border-top-right-radius: 20% ; 
     border-top-left-radius: 20% ; 
+}
+@media(max-width:890px){
+
+ div > img {
+    width:70%;
+    height: auto;
+    padding:.5rem;
+    margin: 2rem .1rem 2rem .1rem;
+}
 }
