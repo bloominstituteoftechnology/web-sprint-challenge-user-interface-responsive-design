@@ -63,78 +63,19 @@ table {
 }
 
 
-/* .img1{
-display: flex;
-text-align: center;
-width: 60%;
-justify-content: space-around;
-}
-
-
-.img2{
-text-align: center;
-}
-
-
-.img3{
-text-align: center;
-margin-left: 18%;
-}
-
-
-.img4{
-text-align: center;
-margin-left: 13%;
-margin-right: 6%;
-
-}
-
-
-.text1{
-border-bottom: 2px dotted;
-margin-left: 10%;
-margin-right: 15%;
-}
-
-
-.text2{
-    border-bottom: 2px dotted;
-    margin-left: 10%;
-    margin-right: 15%;
-}
-
-
-.text3{
-    border-bottom: 2px dotted;
-    justify-content: flex-start;
-    margin-left: 10%;
-    margin-right: 15%;
-}
-
-
-.text4{
-    border-bottom: 2px dotted;
-    justify-content: flex-start;
-   
-} */
-
 .main{
     display: flex;
     margin-left: 24%;
     width:50%;
     margin-right: 50rem;
-    border-bottom: 2px dashed;
+    border-bottom: 1px dashed;
+    padding: 10px;
 }
 
 p{
-    text-align: center;
+    text-align: left;
 }
 
-/* .main{
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 2px dotted;
-} */
 
 
 
@@ -174,11 +115,9 @@ p{
     width:8rem;
 }
 
-.letswork{
-    margin-top: 1%;
-    margin-left: 5%;
+
     
-}
+
 
 .head{
     display: flex;
@@ -238,5 +177,11 @@ h3{
 
 .textpic{
     margin: 20px 2%;
-    border-bottom: 2px dashed black;
+    border-bottom: 1px dashed black;
+    text-align-last: left;
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
 }
