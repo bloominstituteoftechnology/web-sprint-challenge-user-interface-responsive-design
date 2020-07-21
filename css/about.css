@@ -23,7 +23,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size: 15px;
+    font-family: 'Roboto';
+    height: 100%;
+
 }
 ol, ul {
 	list-style: none;
@@ -50,38 +54,87 @@ table {
     justify-content: center;
 }
 
-.containerabout-page{
+.everything{
+    width: 800px;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
 }
 
-.img1{
-width:50%;
+
+/* .img1{
+display: flex;
+text-align: center;
+width: 60%;
+justify-content: space-around;
 }
 
-.text1{
-width:50%;
-}
 
 .img2{
-width:50%;
+text-align: center;
 }
+
+
+.img3{
+text-align: center;
+margin-left: 18%;
+}
+
+
+.img4{
+text-align: center;
+margin-left: 13%;
+margin-right: 6%;
+
+}
+
+
+.text1{
+border-bottom: 2px dotted;
+margin-left: 10%;
+margin-right: 15%;
+}
+
 
 .text2{
-width:50%;
+    border-bottom: 2px dotted;
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
+
+.text3{
+    border-bottom: 2px dotted;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+
+.text4{
+    border-bottom: 2px dotted;
+    justify-content: flex-start;
+   
+} */
+
+.main{
+    display: flex;
+    margin-left: 24%;
+    width:50%;
+    margin-right: 50rem;
+    border-bottom: 2px dashed;
+}
 
 p{
     text-align: center;
 }
 
-.main{
+/* .main{
     display: flex;
     flex-wrap: wrap;
     border-bottom: 2px dotted;
-}
+} */
 
 
 
@@ -90,7 +143,7 @@ p{
     border-color: black;
     background-color: white;
     color:black;
-    height:3rem;
+    height:2rem;
     width:8rem;
 }
 
@@ -99,7 +152,7 @@ p{
     border-color: black;
     background-color: white;
     color:black;
-    height:3rem;
+    height:2rem;
     width:8rem;
 }
 
@@ -108,7 +161,7 @@ p{
     border-color: black;
     background-color: white;
     color:black;
-    height:3rem;
+    height:2rem;
     width:8rem;
 }
 
@@ -117,6 +170,73 @@ p{
     border-color: black;
     background-color: white;
     color:black;
-    height:3rem;
+    height:2rem;
     width:8rem;
+}
+
+.letswork{
+    margin-top: 1%;
+    margin-left: 5%;
+    
+}
+
+.head{
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.head a{
+    text-decoration: none;
+    color:black;
+    margin-right: 3.9rem;
+}
+
+.head img{
+    margin-right: 3.9rem;
+
+}
+
+footer {
+    width: 63%;
+    background: black;
+    display:flex;
+    margin-left: 22rem;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    margin-left: 22.5rem;
+}
+
+.end{
+    display: flex;
+    margin-left: 24%;
+    width:50%;
+    margin-right: 50rem;
+    font-family: 'Roboto';
+}
+
+h3{
+    margin-left: 22.5rem;
+    font-family: 'Roboto';
+}
+
+.textpic{
+    margin: 20px 2%;
+    border-bottom: 2px dashed black;
 }

@@ -151,23 +151,6 @@ footer nav a {
     
     }
     
-    .head{
-        display: flex;
-        color: black;
-        justify-content: center;
-        margin-bottom: 5rem;
-    }
-    
-    .head a{
-        text-decoration: none;
-        color:black;
-        margin-right: 3.9rem;
-    }
-    
-    .head img{
-        margin-right: 3.9rem;
-    
-    }
     
     .boxes .box1{
         width: 12.5%;
@@ -279,3 +262,20 @@ footer nav a {
         justify-content: center;
     }
     
+    .head{
+        display: flex;
+        color: black;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    
+    .head a{
+        text-decoration: none;
+        color:black;
+        margin-right: 3.9rem;
+    }
+    
+    .head img{
+        margin-right: 3.9rem;
+    
+    }
