@@ -95,19 +95,13 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
