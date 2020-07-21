@@ -132,34 +132,60 @@ table {
   box-sizing: border-box;
 }
 
-html,
 body {
   height: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
 }
 
-.navlinks ul {
-  text-align: center;
-  list-style-type: none;
+.containers {
+  width: 1600px;
+  margin-bottom: 35px;
+}
+
+.logo {
+  margin-left: 270px;
+  float: left;
+  margin-top: 10px;
+}
+
+.nav {
+  float: right;
+  width: 520px;
   display: flex;
-  list-style: none;
+  margin-top: 38px;
+  justify-content: space-between;
+  margin-right: 600px;
 }
 
-.navlinks li {
-  margin: 10px;
-  padding: 5px;
-  margin-bottom: 5px;
-  color: black;
-  width: 5%;
-  text-align: right;
-  cursor: pointer;
-}
-
-.navlinks a {
+.nav a {
   text-decoration: none;
   color: black;
-  flex-flow: row;
+}
+
+.containersabout {
+  width: 1600px;
+  margin-bottom: 35px;
+}
+
+.containersabout .logoabout {
+  float: left;
+  margin-top: 1px;
+  margin-left: 17%;
+}
+
+.containersabout .nav {
+  float: right;
+  width: 520px;
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  margin-right: 600px;
+}
+
+.containersabout .nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .center {
@@ -169,7 +195,24 @@ body {
   width: 60%;
   padding-bottom: 20px;
 }
+.centerabout {
+  margin-top: 20px;
+  margin-left: 20%;
+  width: 60%;
+  padding-bottom: 20px;
+}
+.justadiv h6 {
+  font-size: 16px;
+  margin-top: 1px;
+  padding-top: none;
+  margin-left: 2%;
+}
 
+.justadiv p {
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 2%;
+}
 h1,
 h2,
 h3,
@@ -203,6 +246,38 @@ p {
   padding-bottom: 20px;
 }
 
+.topabout-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.topabout-content h2 {
+  font-size: 16px;
+}
+.topabout-content .textabout-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+.textabout-container {
+  border-bottom: 1px dashed black;
+}
+
+.topabout-content button {
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 25%;
+  height: 9%;
+}
+
+.topabout-content h2 {
+  margin-top: 10px;
+}
+
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -211,6 +286,47 @@ p {
 .middle-content h2 {
   padding: 0 2%;
   margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.middleabout-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.middleabout-content h2 {
+  font-size: 16px;
+}
+
+.middleabout-content .textabout-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+.middleabout-content img {
+  margin-top: 20px;
+}
+
+.middleabout-content button {
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 25%;
+  height: 9%;
+}
+
+.middleabout-content h2 {
+  margin-top: 10px;
+}
+
+.middle-content .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .middle-content .boxes {
@@ -350,6 +466,10 @@ p {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+
+.LetsWork .textabout-container p {
+  margin-bottom: 3%;
 }
 
 footer {
