@@ -134,7 +134,26 @@ div.top-content > div.middle-content{
 div.top-content > div.middle-content{
     width:35%;
     height:100%;
+    border-bottom:2px dotted black;
 }
 
 
+/*******
+        Footer & bottom Section 
+                *****************************/
 
+
+div.bottom-content{
+    display:flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+div.text-container{
+    width:80%;
+    height:100%;
+}
