@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-it is a coding standard that is meaningful to the developer and browser
+It is a recommended standard way of creating the base structure of web pages. It is meaningful for the browser and developer
 
 2. Name two big differences between `display: block;` and `display: inline;`.
 
@@ -61,13 +61,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [ x] Push commits: git push -u origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
+- [ x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [ x] Add your Team Lead as a reviewer on the pull-request
+- [ x] Your Team Lead will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
 
