@@ -25,48 +25,49 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 
-/* removed NAV */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, section {
-	display: block;
+footer, header, hgroup, menu, nav, section {
+    line-height: 1;
+    background-color: white;
+    border-left: 30rem solid black;
+    border-right: 30rem solid black;
 }
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-/* Trying to center header image*/
-img .lambda-black {
+
+.header {
     display: flex;
     justify-content: center;
 }
-/* copied & pasted 3 lines below */
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.links {
+    padding: 25px
 }
+
+.big {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 html, body {
@@ -79,37 +80,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-/*Added Box colors*/
-.box1 {
-    background-color: teal;
-}
-.box2 {
-    background-color: gold:
-}
-.box3 {
-    background-color: cadetblue;
-}
-.box4 {
-    background-color: coral;
-}
-.box5 {
-    background-color: crimson;
-}
-.box6 {
-    background-color: forestgreen;
-}
-.box7 {
-    background-color: darkorchid;
-}
-.box8 {
-    background-color: hotpink;
-}
-.box9 {
-    background-color: indigo;
-}
-.box10 {
-    background-color: dodgerblue;
-}
+
 p {
     line-height: 1.4;
 }
@@ -118,18 +89,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-/* removed flex-wrap: wrap;  added flex-direction: row */
+
 .top-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-/*Adding display + flex-direction */
+
 .top-content .text-container {
-    display: flex;
-    flex-direction: row-reverse;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -145,13 +114,13 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .flex-container {
+.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .flex-container .box {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -161,12 +130,43 @@ p {
     align-items: center;
     justify-content: center;
 }
-/* Added Flex-direction: row */
+
+/*Added Box colors*/
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold:
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    flex-direction: row;
 }
 
 .bottom-content .text-container {
@@ -194,4 +194,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    border-botto: 1px dashed black;
+}
+
+.section1 , .section2 {
+    padding: 3rem
+}
+
+.learnmore {
+    box-sizing: content-box;
+    width: 25%;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.closing {
+    padding: 3rem;
 }
