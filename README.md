@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 -display: inline allow the lemenets next to each other while display:block has a line break that pushes other elements to the next line. 
 
--display: inline has a width that is related to its container and not the element inside and display;block width is related to the element or content inside.
+-display:inline height and width cannot be changed by css and display:block height and width can be change with css.
 
 3. What are the 4 areas of the box model?
 -Margin
