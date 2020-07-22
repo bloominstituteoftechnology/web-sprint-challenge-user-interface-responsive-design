@@ -91,19 +91,98 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: auto 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes .box1 {
+.boxes {
     display: flex;
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
     color: white;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    height: 100px;
+    width: 12.5%;
+    padding-top: 40px;
+    margin: 20px 2.5%;
+    background-color: teal;    
+    
+}
+
+.box2 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: gold;
+}
+.box3 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: cadetblue;
+}
+.box4 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: coral;
+}
+.box5 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: crimson;
+}
+.box6 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: forestgreen;
+}
+.box7 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: darkorchid;
+}
+.box8 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: hotpink;
+}
+.box9 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: indigo;
+}
+.box10 {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
