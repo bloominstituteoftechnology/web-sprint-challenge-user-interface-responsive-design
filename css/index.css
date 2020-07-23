@@ -1,3 +1,4 @@
+  
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,29 +47,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* reset ends */
-
 
 * {
     box-sizing: border-box;
 }
-div{
-    border: 5px solid gray;
-   
-}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    margin: auto;
-    width: 70%;
-    /* padding: 10px; */
-    font-size: 62.5%
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    width: 800px;
+    margin: auto;
+}
+
+.header-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav {
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.jumbo-img {
+    margin: 20px 0;
 }
 
 p {
@@ -110,106 +131,17 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .boxOne{
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .boxTwo{
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxThree{
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxFour{
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxFive{
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxSix{
-    width: 12.5%;
-    height: 100px;
-    background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxSeven{
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxEight{
-    width: 12.5%;
-    height: 100px;
-    background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxNine{
-    width: 12.5%;
-    height: 100px;
-    background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.middle-content .boxes .boxTen{
-    width: 12.5%;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -243,178 +175,82 @@ footer nav a {
     text-decoration: none;
 }
 
-/* About */
+ .boxes > .box:first-child {
+    background-color: teal;
+}
 
+.boxes > .box:nth-child(2) {
+    background-color: gold;
+}
 
+.boxes > .box:nth-child(3) {
+    background-color: cadetblue;
+}
 
-/* 
-html, body {
-    width:600px;
-    height: 100%;
-    font-family: 'Roboto',sans-serif;
-    align-items: center;
-} */
+.boxes > .box:nth-child(4) {
+    background-color: coral;
+}
 
-/* h1, h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-} */
+.boxes > .box:nth-child(5) {
+    background-color: crimson;
+}
 
-/* p {
-    line-height: 1.4;
-} */
+.boxes > .box:nth-child(6) {
+    background-color: forestgreen;
+}
 
-/* .about-page {
-    width: 800px;
-    margin: 0 auto;
-} */
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border: none;
-    padding: 30px;
-    color: grey;
+.boxes > .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes > .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes > .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes > .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+.about-page p {
+    margin-bottom: 20px;
+}
+
+.about-page .about h1, .about-page .about p {
+    margin-left: 20px;
+}
+
+.about-page img {
+    margin-bottom: 20px;
+}
+
+.about-page div a {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px;
     text-decoration: none;
-
+    color: black;
 }
 
-.logo {
-    height: 50px;
+.about-page hr {
+    border-style: dashed;
+    border-color: gray;
 }
 
-.top-content {
+.about-page .flex-container hr {
+    margin: 20px 35px 30px 0;
+}
+
+.about-page .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content-img{
-    padding-bottom: 20px;
-    width: 100%;
-}
-
-.top-content .text-container {
-    padding: 0 1%;
-    padding-bottom: 20px;
-    width: 100%;
-}
-
-.middle-content {
-    display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
-    border: none;
-
 }
 
-}
-.middle-content .strategy {
-    height: 450px;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-.middle-content .how-we-work {
-    height: 450px;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-.middle{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border: none;
-
-}
-.middle .places-we-work {
-    height: 450px;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-.middle .collaboration {
-    height: 450px;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-.middle-content img {
-    padding-bottom: 10px;
-}
-
-.middle-content p {
-    padding-bottom: 10px;
-}
-
-.middle-content button {
-    border: 2px solid;
-    font-size: 16px;
-    padding: 10px;
-    height: 40px;
-    width: 100px;
-    border-radius: 7px;
-    width: 35%;
-    padding-bottom: 10px;
-}
-.middle p {
-    padding-bottom: 10px;
-}
-.middle button {
-    border: 2px solid;
-    font-size: 16px;
-    padding: 10px;
-    height: 40px;
-    width: 100px;
-    border-radius: 7px;
-    width: 35%;
-    padding-bottom: 10px;
-}
-
-.end-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-
-
-footer {
-    width: 100%;
-    background: black;
-
-}
-
-footer nav{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-
-}
-
-footer nav a{
-    color: white;
-    text-decoration: none;
+.about-page .flex-container section {
+    width: 400px;
+    margin-top: 20px;
 }
