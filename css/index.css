@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+  v2.0 | 20110126
+  License: none (public domain)
 */
 
 html,
@@ -253,4 +253,34 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+.buttbutt {
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+  width: 125px;
+  height: 7px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 105px;
+}
+.buttbutt {
+  display: flex;
+  align-self: center;
+  padding-top: 10px;
+}
+.divflex {
+  border-bottom: dotted;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+h4 {
+  padding-top: 10px;
 }
