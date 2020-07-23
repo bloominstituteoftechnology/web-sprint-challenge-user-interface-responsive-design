@@ -121,15 +121,45 @@ p {
     margin: center;
     border: 3px solid black;
 }*/
-h3 {
-    width: 10%;
+.strat, .box1a, .strategy, .box1 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+.places, .box2, .box2a {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.box3, .box3a, .wework {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.collab, .box4, .box4a {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+h3  {
+    width: 18%;
     height: 2%;
     padding: .5rem;
     border: 2px solid black;
     border-radius: 9%;
-    margin: 2% 0%;
+    margin: 2% 1%;
     display: flex;
     
+}
+.boxes {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 .work, .work2{
     width: 100%;
