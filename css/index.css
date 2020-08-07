@@ -328,7 +328,7 @@ footer nav a {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    /* max-width:40%; */
+    /* max-width:40%; dont do*/
     justify-content:space-evenly;
     
     
@@ -373,4 +373,9 @@ footer nav a {
     padding-bottom:1rem;
     padding-top: 3rem;
 
+}
+
+.containerbody{
+    width:800px;
+    margin: 0 auto;
 }
