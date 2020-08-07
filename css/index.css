@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +148,156 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .box:nth-child(1){
+    background-color: #008080;
+}
+
+.middle-content .box:nth-child(2){
+    background-color: #ffd700;
+}
+
+.middle-content .box:nth-child(3){
+    background-color: #5f9ea0;
+}
+
+.middle-content .box:nth-child(4){
+    background-color: #ff7f50;
+}
+
+.middle-content .box:nth-child(5){
+    background-color: #dc143c;
+}
+
+.middle-content .box:nth-child(6){
+    background-color: #228b22;
+}
+
+.middle-content .box:nth-child(7){
+    background-color: #9932cc;
+}
+
+.middle-content .box:nth-child(8){
+    background-color: #ff69b4;
+}
+
+.middle-content .box:nth-child(9){
+    background-color: #4b0082;
+}
+
+.middle-content .box:nth-child(10){
+    background-color: #1e90ff;
+}
+
+.banner-img{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+    background-image: url(/assets/AdobeStock_149790265.jpeg);
+    width: 100%;
+    height: 150px;
+}
+
+.logo-top {
+    width: 20%;
+    padding: 0px;
+}
+
+.logo-top img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.top-menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.top-nav nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.top-nav{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-nav nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.aboutchunk1{
+    display:flex;
+    justify-content: space-between;
+    border-top: black dotted 3px;
+    padding-top: 30px;
+}
+
+.chunk1left{
+    border-bottom: black dotted 3px;
+    margin-bottom: 10px;
+}
+
+.chunk1right{
+    border-bottom: black dotted 3px;
+    margin-bottom: 10px;
+}
+
+.aboutchunk2{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.chunk2left{
+    border-bottom: black dotted 3px;
+    margin-bottom: 10px;
+}
+
+.chunk2right{
+    border-bottom: black dotted 3px;
+    margin-bottom: 10px;
+}
+
+.aboutchunk1 h1{
+    padding-top: 10px;
+}
+
+.aboutchunk2 h1{
+    padding-top: 10px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-top{
+    padding-bottom: 30px;
+}
+
+.closer{
+    padding: 20px;
+}
+
+button{
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
 }
