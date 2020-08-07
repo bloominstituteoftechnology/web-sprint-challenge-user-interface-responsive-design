@@ -4,8 +4,18 @@
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section 
 
+  
+
 {
-	display: block;
+    display: flex;
+
+}
+img {
+    border-radius: 20%;
+}
+    
+    
+
 }
 body {
 	line-height: 1;
@@ -28,6 +38,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -87,9 +98,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box  {
+.middle-content .boxes  {
 
-    margin: 20px 2.5%;background-color:teal;
+    margin: 20px 2.5%;
     width:25%;
     height:100px;
 	padding:5%;
@@ -97,14 +108,39 @@ p {
   	padding:4% 10% 2%;
   	padding:3% 10% 6% 8%;
    	margin:5%;
-    border: 10px double gold;
+    
     
 }
+.middle-content .boxes .box1 {
+    color: teal;
+}
+.middle-content .boxes .box2 {
+    color: gold;
+}
+.middle-content .boxes .box3 {
+    color: cadetblue;
 
+}.middle-content .boxes .box4 {
+    color: coral;
+}
+.middle-content .boxes .box5 {
+    color: crimson;
+}
+.middle-content .boxes .box6 {
+    color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    color: hotpink;
+}
+.middle-content .boxes .box9 {
+    color: indigo;
+}
+.middle-content .boxes .box10 {
+    color: dodgerblue;
 
-
-
-    
 }
 .bottom-content {
     display: flex;
@@ -122,7 +158,8 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background: purple;
+    border: 10px dotted teal;
 }
 
 footer nav {
