@@ -101,7 +101,7 @@ nav img{
 }
 .nav{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-grow:2;
     align-items: center;
     
@@ -303,7 +303,7 @@ nav img{
 }
 
 footer {
-    width: 90%;
+    width: 100%;
     margin:0 auto;
     background: black;
 }
