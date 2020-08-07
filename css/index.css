@@ -23,6 +23,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1% 25%;
+    
+}
+
+.first{
+    justify-content: center;
+    display:flex;
+    padding:3%;
+}
+
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,11 +60,57 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.middle-content{
+    justify-content: space-evenly;
+}
 
+
+}
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 * {
     box-sizing: border-box;
 }
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1% 25%;
+    
+}
 
+.about{
+    justify-content: center;
+    display:flex;
+    padding:3%;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +124,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding:3% 5%;
 }
 
 .container {
