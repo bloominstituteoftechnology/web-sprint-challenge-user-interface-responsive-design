@@ -7,13 +7,35 @@ footer, header, hgroup, menu, nav, section
   
 
 {
-    display: flex;
+    
+{
+    flex-wrap: 
+    margin-inline-start: ;
+}
+ nav  {
+      margin: 10px;
+}
+
+      }
+ nav a:hover {
+  
+          color: wite;
+          background-color: lightcoral;
+      }
+img {
+        border-radius: 20px;
+        
+      }
+      
+      about {
+        margin-top: 20px;
+        padding 30%;
+        color:
+      }
+      
 
 }
-img {
-    border-radius: 20%;
-}
-    
+  
     
 
 }
@@ -92,14 +114,12 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes  {
-
+.middle-content .box .box1 {
     margin: 20px 2.5%;
     width:25%;
     height:100px;
@@ -108,38 +128,39 @@ p {
   	padding:4% 10% 2%;
   	padding:3% 10% 6% 8%;
    	margin:5%;
-    
-    
-}
-.middle-content .boxes .box1 {
     color: teal;
 }
-.middle-content .boxes .box2 {
+.middle-content .box .box2 {
     color: gold;
 }
-.middle-content .boxes .box3 {
+.middle-content .box .box3 {
     color: cadetblue;
 
-}.middle-content .boxes .box4 {
+}.middle-content .box .box4 {
     color: coral;
 }
-.middle-content .boxes .box5 {
+.middle-content .box .box5 {
     color: crimson;
 }
-.middle-content .boxes .box6 {
+.middle-content .box .box6 {
     color: forestgreen;
 }
-.middle-content .boxes .box7 {
+.middle-content .box .box7 {
     color: darkorchid;
 }
-.middle-content .boxes .box8 {
+.middle-content .box .box8 {
     color: hotpink;
 }
-.middle-content .boxes .box9 {
+.middle-content .box .box9 {
     color: indigo;
 }
-.middle-content .boxes .box10 {
+.middle-content .box .box10 {
     color: dodgerblue;
+
+    
+
+    
+}
 
 }
 .bottom-content {
