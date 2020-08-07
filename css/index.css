@@ -65,6 +65,46 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 599;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Adding Nav bar Styling here -Prince */
+.nav-bar{
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+  
+.nav-bar > li > a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 0 2.5rem;
+  }
+  
+/* Heading Picture Styling */
+
+header img{
+    display: flex;
+    align-items: center;
+    margin: 2% auto;
+}
+
 
 .container {
     width: 800px;
