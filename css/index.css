@@ -203,10 +203,39 @@ footer nav a {
     margin: 2%;
 }
 .big-box {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .small-box {
-    width: 50%;
+    width: 46%;
+    /* border: 1px solid black; */
+    margin: 1% auto;
+}
+.big-box p {
+    /* border: 1px solid black; */
+    margin: 1% 0 0 0;
+}
+.big-box h2 {
+    margin-top: 3%;
+}
+.big-box h3 {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 3% 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+.big-box .border {
+    border-top: 1px dashed black;
+    padding-top: 10%;
+}
+.about-page .work {
+    border-top: 1px dashed black;
+    width: 95%;
+    margin: 1% auto;
+    padding: 4%;
 }
