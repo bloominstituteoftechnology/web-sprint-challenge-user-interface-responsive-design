@@ -24,6 +24,21 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+.oneline{
+    display:flex;
+    justify-content:space-evenly;
+    padding:4% 0;
+    margin:5%;
+}
+.hero-image{
+    background-image:url('jumbo.jpg');
+    background-size:cover;
+    background-position:top;
+    height:20vh; 
+    margin:5%;
+
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -101,15 +116,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color:white;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box one{
+    color:teal;
+}
+.box two{
+    color:gold;
+}
+.box three{
+    color:cadetblue;
+}
+.box four{
+    color:coral;
+}
+.box five{
+    color:crimson;
+}
+.box six{
+    color:forestgreen;
+}
+.box seven{
+    color:darkorchid;
+}
+.box eight{
+    color:hotpink;
+}
+.box nine{
+    color:indigo;
+}
+.box ten{
+    color:dodgerblue;
 }
 
 .bottom-content {
