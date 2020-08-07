@@ -26,10 +26,7 @@
       vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure, 
-  footer, header, hgroup, menu, nav, section {
-  ;
-  }
+ 
   body {
       line-height: 1;
   }
@@ -48,9 +45,16 @@
     
   }
   header {
-    color: black;
-    margin: 3%;
+    padding: 5%;
+    
   }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
   ol, ul {
       list-style: none;
   }
@@ -139,7 +143,7 @@
    .boxes .box {
       width: 12.5%;
       height: 100px;
-      background: black;
+    
       margin: 20px 2.5%;
       color: white;
       display: flex;
