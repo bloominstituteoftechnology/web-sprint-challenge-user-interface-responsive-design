@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/*
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    */
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -180,7 +180,8 @@ nav img{
 }
 
 footer {
-    width: 100%;
+    width: 90%;
+    margin:0 auto;
     background: black;
 }
 
@@ -210,14 +211,17 @@ footer nav a {
     
 
 }
+.containerab h3{
+    padding-top:1rem;
+}
 .strategy{
     display:flex;
     flex-direction:column;
     max-width:40%;
     margin-top:2rem;
     margin-bottom:1rem;
-    border-bottom:dotted black;
-    padding-bottom:1rem;
+    border-bottom:dashed 1px black;
+    padding-bottom:2rem;
 }
 .morebutton a{
     padding:.5rem 1rem;
@@ -232,8 +236,21 @@ footer nav a {
 
 .aboutit{
     width: 90%;
-    margin-right:10%;
+    margin:0 auto;
     display:flex;
     flex-direction:column;
-    
+    padding-bottom:1rem;
+    border-bottom:dashed 1px black;
+}
+.together{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:1rem;
+    padding-top: 5rem:
+
+}
+.together h3{
+    padding-top:3rem;
 }
