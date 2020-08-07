@@ -103,6 +103,9 @@ header {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content p {
+    margin-left: 0;
+}
 
 .top-content .text-container {
     width: 48%;
