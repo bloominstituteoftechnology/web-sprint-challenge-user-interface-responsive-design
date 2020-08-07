@@ -92,6 +92,10 @@ header nav a {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    width: 800px;
+    margin: 0 auto;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,47 +114,15 @@ header nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-/* .box1 {
-
-}
-.box2 {
-
-}
-.box3 {
-
-}
-.box4 {
-
-}
-.box5 {
-
-}
-.box6 {
-
-}
-.box7 {
-
-}
-.box8 {
-
-}
-.box9 {
-
-}
-.box10 {
-
-} */
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
@@ -221,4 +193,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About styles */
+.about-page .about {
+    border-bottom: 1px dashed black;
+    margin: 2% auto;
+}
+.about-page h1, p {
+    margin: 2%;
+}
+.big-box {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-box {
+    width: 50%;
 }
