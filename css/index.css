@@ -31,7 +31,7 @@ time, mark, audio, video {
     padding:4% 0;
     margin:5%;
 }
-.hero-image{
+.hero-image img home{
     background-image:url('jumbo.jpg');
     background-size:cover;
     background-position:top;
@@ -39,6 +39,7 @@ time, mark, audio, video {
     margin:5%;
 
 }
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -189,3 +190,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*about page specific styles*/
+
+.hero-image img about{
+    background-image:url('jumbo-about.png');
+    background-size:cover;
+    background-position:top;
+    height:20vh; 
+    margin:5%;
+
+}
+.all lines{
+    border: 1 px dashed #000;
+}
+
+.container about-page {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0 2% 20px;
+}
+
+.boxes {
+    flex-wrap: wrap;
+    align-content:space-around;
+
+}
+.box{
+    align-items:right;
+}
+
+.final text {
+    align-content:right;
+    margin: 0 2% 20px;
+}
+
