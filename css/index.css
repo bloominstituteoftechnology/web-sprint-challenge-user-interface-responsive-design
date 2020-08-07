@@ -135,6 +135,49 @@ header img{
     margin-bottom: 0;
 }
 
+/* box styling */
+
+#box1 {
+    background-color:#008080;
+}
+
+#box2 {
+    background-color:#ffd700;
+}
+
+
+#box3 {
+    background-color:#5f9ea0;
+}
+
+#box4 {
+    background-color:#ff7f50
+}
+
+#box5 {
+    background-color:#dc143c
+}
+
+#box6 {
+    background-color:#dc143c
+}
+
+#box7 {
+    background-color:#9932cc
+}
+
+#box8 {
+    background-color:#ff69b4
+}
+
+#box9 {
+    background-color:#4b0082
+}
+
+#box10 {
+    background-color:#1e90ff
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +194,7 @@ header img{
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
