@@ -1,0 +1,19 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Name two big differences between display: block; and display: inline;.
+
+1. block can have a height and width and inline cannot
+
+2. block can have a vertical margin and inline cannot
+
+What are the 4 areas of the box model?
+
+Content, Padding, Border, Margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+The cross axis.
+
+Explain why git is valuable to a team of developers.
+
+To track individual progress as well as break code into approachable pieces in case there are bugs to fix later on.

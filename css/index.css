@@ -32,7 +32,7 @@ time, mark, audio, video {
     margin:5%;
 }
 .hero-image img home{
-    background-image:url('jumbo.jpg');
+    background-image:url('img/jumbo.jpg');
     background-size:cover;
     background-position:top;
     height:20vh; 
@@ -193,7 +193,7 @@ footer nav a {
 /*about page specific styles*/
 
 .hero-image img about{
-    background-image:url('jumbo-about.png');
+    background-image:url('img/jumbo-about.png');
     background-size:cover;
     background-position:top;
     height:20vh; 
