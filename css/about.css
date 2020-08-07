@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    margin: 0 30%;
+    margin:0 30%
 }
 ol, ul {
 	list-style: none;
@@ -45,7 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -59,16 +58,23 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header a{
+body header a{
     text-decoration: none;
     color: black;
+    border:none;
 }
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+body a{
+    text-decoration: none;
+    color: black;
+    border:1px solid black;
+    border-radius: 17.5%;
+    padding: .75% 1%;
+}
 p {
     line-height: 1.4;
 }
@@ -77,7 +83,6 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -107,50 +112,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box{
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box#b1{
-    background-color: teal;
-}
-
-.box#b2{
-    background-color: gold; ;
-}
-.box#b3{
-    background-color:  cadetblue;
-}
-.box#b4{
-    background-color: coral ;
-}
-.box#b5{
-    background-color: crimson ;
-}
-.box#b6{
-    background-color: forestgreen ;
-}
-.box#b7{
-    background-color: darkorchid ;
-}
-.box#b8{
-    background-color: hotpink ;
-}
-.box#b9{
-    background-color: indigo ;
-}
-.box#b10{
-    background-color: dodgerblue ;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -182,4 +143,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+body .picsec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sec img{
+    max-height: 55%;
+    max-width: 100%;
+    height:100;
+    width:100%;
+}
+.sec{
+    width:45%;
+    border-bottom: 1px black dashed;
+    margin-bottom: 5%;
+}
+.mainsec{
+    padding: 2.5%;
+    border-bottom: 1px black dashed;
+    margin-bottom:2.5%;
+}
+.sec p{
+    margin: 5% 0;
+}
+.mainsec2{
+    padding: 2.5%;
+    margin-bottom:2.5%;
 }
