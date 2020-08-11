@@ -3,41 +3,53 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%; 
 }
+
 /* HTML5 display-role reset for older browsers */
+
+header{
+    display:flex;
+    background-color:red;
+    height:60vh;
+    opacity:0.7;
+}
+.oneline h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+.oneline .h1:hover{
+    color:yellow;
+}
 
 .oneline{
     display:flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding:4% 0;
     margin:5%;
 }
-.hero-image img home{
-    background-image:url('img/jumbo.jpg');
-    background-size:cover;
-    background-position:top;
-    height:20vh; 
+
+.oneline nav{
+    justify-content:space-around;
+    font-size:2rem;
+
+}
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+    height:10vh; 
     margin:5%;
 
+}
+
+.container, .container a{
+  padding:4% 0;
+  margin-top:2%;
 }
 
 article, aside, details, figcaption, figure, 
@@ -53,6 +65,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -82,7 +95,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container a{
     width: 800px;
     margin: 0 auto;
 }
@@ -111,51 +124,49 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content .boxes .box{
+    display: flex;  
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
-.middle-content {
+.box .boxone, .boxtwo, .boxthree,.boxfour,.boxfive, .boxsix, .boxseven,.boxeight,.boxnine,.boxten{
     width: 12.5%;
-    height: 100px;
-    background-color:white;
+    height: 15vh;
     margin: 20px 2.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align:center;
+    
 }
 
-.box one{
-    color:teal;
+.boxone{
+    background-color:teal;
 }
-.box two{
-    color:gold;
+.boxtwo{
+    background-color:gold;
 }
-.box three{
-    color:cadetblue;
+.boxthree{
+    background-color:cadetblue;
 }
-.box four{
-    color:coral;
+.boxfour{
+    background-color:coral;
 }
-.box five{
-    color:crimson;
+.boxfive{
+    background-color:crimson;
 }
-.box six{
-    color:forestgreen;
+.boxsix{
+    background-color:forestgreen;
 }
-.box seven{
-    color:darkorchid;
+.boxseven{
+    background-color:darkorchid;
 }
-.box eight{
-    color:hotpink;
+.boxeight{
+    background-color:hotpink;
 }
-.box nine{
-    color:indigo;
+.boxnine{
+    background-color:indigo;
 }
-.box ten{
-    color:dodgerblue;
+.boxten{
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -192,35 +203,31 @@ footer nav a {
 }
 /*about page specific styles*/
 
-.hero-image img about{
-    background-image:url('img/jumbo-about.png');
-    background-size:cover;
-    background-position:top;
-    height:20vh; 
-    margin:5%;
-
-}
 .all lines{
     border: 1 px dashed #000;
 }
 
-.container about-page {
+.container a{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 2% 20px;
 }
 
-.boxes {
-    flex-wrap: wrap;
-    align-content:space-around;
-
+.aabox{
+    display: flex;  
+    flex-wrap:wrap;
+    justify-content:center;
 }
-.box{
+
+.abox{
     align-items:right;
+    height:55vh;
+    width:50%;
+    padding:4% 0;
 }
 
 .final text {
     align-content:right;
     margin: 0 2% 20px;
 }
-
