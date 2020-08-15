@@ -267,12 +267,12 @@ footer nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     padding: 5%;
+    border-top: 1px dashed black;
 }
 .StrategyandWork .text-container {
     width: 48%;
     padding: 5%;
     padding-bottom: 20px;
-    border-top: 1px dashed black;  
 }
 .PlacesandCollaboration {
     display: flex;
@@ -280,10 +280,11 @@ footer nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     padding: 5%;
+    
 }
 .PlacesandCollaboration .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 5%;
     padding-bottom: 20px;
     border-top: 1px dashed black;  
 }
