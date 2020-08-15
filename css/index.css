@@ -211,9 +211,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.about-page {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
     
+
+.about-page .image34 {
+    display: flex;
+    flex-direction: column;
+      
 }
