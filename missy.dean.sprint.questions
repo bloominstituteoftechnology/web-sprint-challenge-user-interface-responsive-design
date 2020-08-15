@@ -1,0 +1,14 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+*I would say a semantic HTML is a tag in which you know what it is referencing or doing rather then something vague for example div...vs. <section> with div you do not know exactly what is referencing where as with section, it is clear that your dealing with a section of content 
+ 
+Name two big differences between display: block; and display: inline;.
+*display-block does not add a break so the element can sit next to other elements, and 2nd. And block elements take up the full width available while inline elements can be set to their own width properties 
+What are the 4 areas of the box model? 
+**Content, padding, border, margin
+ 
+While using flexbox, what axis does the following property work on: align-items: center?
+*it aligns items on the center of the cross axis as apposed to the main axis 
+ 
+Explain why git is valuable to a team of developers.
+*Git is valuable to a team of developers because it creates a universal code that is easy to understand and adapt and make changes to by the means of several developers, so multiple people can work on the same project and understand what is going on without duplicating items or causing errors if it was to be just passed on to the next person. 
+
