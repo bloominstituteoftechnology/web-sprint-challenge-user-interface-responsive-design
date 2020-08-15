@@ -343,6 +343,8 @@ button {
 .pulse:focus {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(#e49e58, 0);
+  color: #e49e58;
+  border-color: #e49e58;
 }
 
 @keyframes pulse {
