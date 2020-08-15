@@ -266,10 +266,11 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding: 5%;
 }
 .StrategyandWork .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 5%;
     padding-bottom: 20px;
     border-top: 1px dashed black;  
 }
@@ -278,6 +279,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding: 5%;
 }
 .PlacesandCollaboration .text-container {
     width: 48%;
@@ -288,5 +290,8 @@ footer nav a {
 .learn-more{
     position: bottom;
     display: flex;
+    border-radius: 12px;
+    height: 10%;
+    padding: 3%;
 
 }
