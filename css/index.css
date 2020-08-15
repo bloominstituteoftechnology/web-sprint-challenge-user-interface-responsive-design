@@ -3,144 +3,386 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+/* Sets header properties with Flex */
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 3rem;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+/* set flex on the navigation  and other styling*/
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* decorate nav menu*/
+a {
+  text-decoration: none;
+  margin-top: 2rem;
+  color: black;
+}
+
+/* Animates nav */
+a:hover,
+a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #252525;
+}
+
+/* nav color and transition time */
+a {
+  color: black;
+  transition: 0.25s;
+}
+
+/* position the image */
+#freeway {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.2rem;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
 }
 
 p {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+  padding: 0 2%;
+  margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content .boxes .box:first-of-type {
+  background: teal;
+}
+.middle-content .boxes .box:nth-of-type(2) {
+  background: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+  background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4) {
+  background: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+  background: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6) {
+  background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+  background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8) {
+  background: hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9) {
+  background: indigo;
+}
+
+.middle-content .boxes .box:last-of-type {
+  background: dodgerblue;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+  padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 footer {
-    width: 100%;
-    background: black;
+  width: 100%;
+  background: black;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  margin-top: -0.5rem;
+}
+
+.about {
+  padding-bottom: 1rem;
+  border-bottom: 2px dotted black;
+}
+
+/* Creating a button with animation that will be used throughout the about page. */
+/* this button SHOULD have worked. Unless I am missing something. Please review this*/
+/* button look */
+button {
+  background: none;
+  border: 2px solid;
+  line-height: 1;
+  margin-top: 1.3rem;
+  padding: 0.7em 1.8em;
+  border-radius: 10px;
+  width: 10rem;
+  color: #e45858;
+  transition: 0.25s;
+}
+
+/* setting the pulse animation for the button */
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#e49e58, 0);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #e49e58;
+  }
+}
+
+/* styling all of our h2's */
+#row h2 {
+  padding-top: 1rem;
+}
+
+/* styling all our column divs at once with Flexbox */
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 370px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px dotted grey;
+}
+
+/* putting all our collumn elements into a flexbox row */
+#row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* adding padding to the bottom element so it looks like the example*/
+#after {
+  padding: 3rem 1.5rem;
+}
+
+/* BONUS! Adding a grow animation to the images in the about page 
+(because My Button No worky) */
+
+#row img:hover {
+  transform: scale(1.1);
 }
