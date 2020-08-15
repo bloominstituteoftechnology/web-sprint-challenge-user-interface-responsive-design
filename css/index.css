@@ -211,9 +211,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-div .container .about-page {
+.about-page {
     display: flex;
     flex-direction: row;
-    
     flex-wrap: wrap;
+    
 }
