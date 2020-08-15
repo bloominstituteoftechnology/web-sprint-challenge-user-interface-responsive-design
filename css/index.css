@@ -70,7 +70,36 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+#headt{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.headerimg{
+    display: inline-block;
+    margin-right: 5%;
+}
+.topmenu{
+    display: inline-block;
+    margin-top: 4%;
+    
+}
+.home{
+    margin-right: 30%;
+}
+.about{
+    margin-right: 30%;
+}
+.products{
+    margin-right: 30%;
+}
+.blog{
+    margin-right: 30%;
+}
+.contact{
+    margin-right: 30%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +112,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20%;
 }
 
 .middle-content {
@@ -110,6 +140,56 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box2{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box3{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box4{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box5{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box6{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box7{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box8{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box9{
+    background: teal;
+    width: 75px;
+    height: 75px;
+}
+.box10{
+    background: teal;
+    width: 75px;
+    height: 75px;
 }
 
 .bottom-content {
