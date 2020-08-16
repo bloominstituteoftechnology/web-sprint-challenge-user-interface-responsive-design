@@ -144,3 +144,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.topnav {
+    display: inline-block;
+}
+
+.menuItem {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.headImage {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#one {
+    background-color: teal;
+}
+
+#two {
+    background-color: gold;
+}
+
+#three {
+    background-color: cadetblue;
+}
+
+#four {
+    background-color: coral;
+}
+
+#five {
+    background-color: Crimson;
+}
+
+#six {
+    background-color: forestgreen;
+}
+
+#seven {
+    background-color: darkorchid;
+}
+
+#eight {
+    background-color: hotpink;
+}
+
+#nine {
+    background-color: indigo;
+}
+
+#ten {
+    background-color: dodgerblue;
+}
