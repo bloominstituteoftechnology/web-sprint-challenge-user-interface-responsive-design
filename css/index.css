@@ -203,3 +203,44 @@ footer nav a {
 #ten {
     background-color: dodgerblue;
 }
+
+.topSection {
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.top-content-about .text-container-about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    ;
+}
+
+.text-container-about p {
+    padding-bottom: 20px;
+}
+
+button {
+    border-radius: 8px;
+    align-items: center;
+    padding: 2% 6%;
+    background-color: white;
+
+}
+
+
+.bottomSection {
+    padding-bottom: 25px;
+    padding-top: 40px;
+    
