@@ -216,6 +216,30 @@ footer nav a {
 
 .about-page .image34 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin: 20px;
       
+}
+
+.about-page .img {
+    padding: 30px;
+    margin: 30px;
+}
+
+.about-page .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: space-between ;
+    width:
+    margin-left: 20px;
+}
+
+.about-page .text1 .button {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:10px;
+    flex-shrink: 50%;
 }
