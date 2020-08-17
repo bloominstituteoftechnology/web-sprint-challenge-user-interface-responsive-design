@@ -66,6 +66,77 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.Home {
+    display: flex;
+    /* padding-left: 1rem;
+    flex: right;
+    margin: 0 10px;
+    padding: 20px; */
+    display: inline-block;
+    color: black;
+    border: none;
+    Background-color: white;
+}
+
+.About {
+    display: flex;
+    padding-left: 1rem;
+    flex: right;
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    color: black;
+    border: none;
+    Background-color: white;
+}
+
+.Products {
+    display: flex;
+    padding-left: 1rem;
+    flex: right;
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    color: black;
+    border: none;
+    Background-color: white;
+}
+
+.Blog {
+    display: flex;
+    padding-left: 1rem;
+    flex: right;
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    color: black;
+    border: none;
+    Background-color: white;
+}
+
+.Contact {
+    display: flex;
+    padding-left: 1rem;
+    flex: right;
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    color: black;
+    border: none;
+    Background-color: white;
+}
+
+img .strategy {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,10 +172,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .teal {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .gold {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .cadetblue {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .coral {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .crimson {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .forestgreen {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .darkorchid {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .hotpink {
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .indigo {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .dodgerblue {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +296,26 @@ p {
     padding-right: 0;
 }
 
+.About {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Stretegy {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Work {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Places {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -143,4 +333,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    width: 60%;
+    display: flex;
+    justify-content: center;
 }
