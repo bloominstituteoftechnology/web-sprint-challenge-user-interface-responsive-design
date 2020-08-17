@@ -56,9 +56,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    margin:0 auto;    
+    
 }
-
 
 header nav{
     display: flex;
@@ -71,14 +70,15 @@ header nav{
 
 .links {
     display: flex;
-    justify-content: space-around;
-    width:80%;
+    justify-content: space-evenly;
+    width:60%;
     align-items: flex-end;
     
 }
 
 nav div a{
     text-decoration: none;
+    
   
    
 }
