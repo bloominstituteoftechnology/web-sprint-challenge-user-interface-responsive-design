@@ -1,0 +1,24 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Elements such as <header>, <footer> and <article> are all considered semantic because they 
+accurately describe the purpose of the element and the type of content that is inside them.
+
+
+Name two big differences between display: block; and display: inline;.
+Block
+
+Takes up the full width available, with a new line before and after (display:block;)
+
+Inline
+
+Takes up only as much width as it needs, and does not force new lines (display:inline;)
+
+What are the 4 areas of the box model?
+Content edge, padding edge, border edge, margin edge
+
+While using flexbox, what axis does the following property work on: align-items: center?
+By default, it would be vertical
+
+
+Explain why git is valuable to a team of developers.
+Git offers the type of performance, functionality, security, and flexibility that most developers and teams need to develop their projects. 
+When compared to other VCS Git is the most widely accepted system owing to its universally accepted usability and performance standards.
