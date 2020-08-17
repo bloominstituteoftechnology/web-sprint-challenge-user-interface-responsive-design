@@ -47,14 +47,42 @@ table {
 	border-spacing: 0;
 }
 
+
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin:0 auto;    
 }
+
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    padding: 1% 25% 0 23.5%
+
+ 
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    align-items: flex-end;
+    
+}
+
+nav div a{
+    text-decoration: none;
+  
+   
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -69,7 +97,9 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 3% 3% 3% 3%;
 }
+
 
 .top-content {
     display: flex;
