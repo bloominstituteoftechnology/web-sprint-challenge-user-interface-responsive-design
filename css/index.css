@@ -243,4 +243,33 @@ button {
 .bottomSection {
     padding-bottom: 25px;
     padding-top: 40px;
+}
+
+
+
+    .visibleBorderLeftRight {
+        display: inline-block;
+        color: hsl(222, 25%, 14%);
+        position: relative;
+    }
+    
+    .visibleBorderLeftRight:hover::after {
+         content: '';
+         position: absolute;
+         width: 100%;
+         transform: scaleX(1);
+         height: 2px;
+         bottom: 0;
+         left: 0;
+         background-color: black;
+         transform-origin: bottom right;
+    }
+    
+    .visibleBorderLeftRight::after {
+         transform: scaleX(0);
+         
+         transform-origin: bottom left;
+         transition: transform .3s ease-in-out;
+     }
+    
     
