@@ -107,8 +107,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .stat1 .text-strategy1 {
@@ -132,8 +130,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .stat2 .text-strategy2 {
@@ -142,6 +138,25 @@ p {
     padding-bottom: 20px;  
     margin-top: 30px;
 }
+
+.learn1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.learn1 .text-learn1 {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    padding-right: 50px; 
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
 
 
 .stat3{
