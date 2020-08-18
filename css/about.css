@@ -46,3 +46,61 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+*{
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.6rem;
+}
+
+header nav{
+    padding: 0 0 0 5%;
+	width: 100%;
+	
+    
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav div a{
+	text-decoration: none;
+}
+	
+.picture {
+	padding: 3% 5% 3% 5%;
+}
+.picture img {
+	width:100%;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	padding: 3% 5% 3% 5%;
+	font-size: 1.6rem;
+	border-bottom: 1px dotted black;
+}
+
+.content{
+	display: flex;
+	padding: 2% 5%;
+	border:dotted 1px black
+	}
+
+	#bottom{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
