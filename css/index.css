@@ -296,24 +296,59 @@ img .strategy {
     padding-right: 0;
 }
 
-.About {
+section .container1 { 
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
-.Stretegy {
+/* .wrap { 
+    flex-wrap: wrap; */
+}  
+
+
+.About {
+    border: none;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline block;
+    flex-direction: row;
+    justify-content: center;
+
+} 
+
+.Stretegy {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* display: inline block;
+    flex-direction: row;
+    justify-content: center; */
 }
 
 .Work {
+    border: none;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* display: inline block;
+    flex-direction: row;
+    justify-content: center; */
 }
 
 .Places {
+    border: none;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* display: inline block;
+    flex-direction: row;
+    justify-content: center; */
 }
 
 footer {
