@@ -337,6 +337,11 @@ section .container1 {
     justify-content: center;
 } 
 
+/* .button1 {
+    color: black;
+    border: 2px solid black;
+} */
+
 .top {
     display: flex;
 }
