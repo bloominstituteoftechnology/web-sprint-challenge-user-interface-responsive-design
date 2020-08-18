@@ -66,22 +66,39 @@ p {
     line-height: 1.4;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 25px;
+.main-container {
+    width: 800px;
+    margin: 0 auto;
 }
 
-.Home {
+header {
     display: flex;
-    /* padding-left: 1rem;
-    flex: right;
-    margin: 0 10px;
-    padding: 20px; */
-    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    /* flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    padding-bottom: 25px;
+    padding-left: 35px; */
+}
+
+header .img {
+    padding-bottom: 20%;
+}
+
+nav {
+    font-family: 'Rubik', sans-serif;
     color: black;
-    border: none;
-    Background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 5%;
+}
+
+nav a {
+    padding-left: 40px;
+    padding-right: 60px;
+    color: black;
 }
 
 .About {
@@ -131,6 +148,10 @@ nav {
     border: none;
     Background-color: white;
 }
+
+/* .banner{
+    box-sizing: border-box;
+} */
 
 img .strategy {
     width: 800px;
@@ -298,63 +319,72 @@ img .strategy {
 
 section .container1 { 
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: flex-start;
+    /* flex-flow: column;  */
+    /* justify-content: flex-start; 
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    align-content: flex-start; */
 }
 
 /* .wrap { 
-    flex-wrap: wrap; */
-}  
+    flex-wrap: wrap; 
+} */
 
-
-.About {
-    border: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    display: inline block;
-    flex-direction: row;
+.about {
+    border-bottom: black dotted 3px;
+    margin-bottom: 3%;
+    margin-top: 3%;
     justify-content: center;
-
 } 
 
-.Stretegy {
-    border: none;
+.top {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* display: inline block;
-    flex-direction: row;
-    justify-content: center; */
 }
 
-.Work {
-    border: none;
+.bottom {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* display: inline block;
-    flex-direction: row;
-    justify-content: center; */
 }
 
-.Places {
-    border: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* display: inline block;
-    flex-direction: row;
-    justify-content: center; */
+.plan {
+    border-bottom: black dotted 3px;
+    /* padding-right: 50%; */
+    width: 400px;
+    /* float: left; */
+    margin-bottom: 5%;
+}
+
+.work {
+    border-bottom: black dotted 3px;
+    /* padding-right: 50%; */
+    width: 400px;
+    /* float: left; */
+    margin-bottom: 5%;
+}
+
+.places {
+    border-bottom: black dotted 3px;
+    /* padding-left: 50%; */
+    width: 400px;
+    /* float: right; */
+    margin-bottom: 5%;
+}
+
+.collaboration {
+    border-bottom: black dotted 3px;
+    /* padding-left: 50%; */
+    width: 400px;
+    /* float: right; */
+    margin-bottom: 5%;
 }
 
 footer {
     width: 100%;
     background: black;
 }
+
+/* h3 {
+    margin-top: 15%;
+} */
 
 footer nav {
     width: 60%;
@@ -363,6 +393,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 5%;
 }
 
 footer nav a {
