@@ -96,8 +96,8 @@ nav {
 }
 
 nav a {
-    padding-left: 40px;
-    padding-right: 60px;
+    padding-left: 60px;
+    /* padding-right: 60px; */
     color: black;
 }
 
@@ -330,7 +330,7 @@ section .container1 {
     flex-wrap: wrap; 
 } */
 
-.about {
+.about1 {
     border-bottom: black dotted 3px;
     margin-bottom: 3%;
     margin-top: 3%;
