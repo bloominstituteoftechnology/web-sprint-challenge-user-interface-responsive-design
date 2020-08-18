@@ -212,34 +212,83 @@ footer nav a {
     text-decoration: none;
 }
 
+.about {
+    border-bottom: 1px dashed black;
+    margin:30px;
+    padding: 20px;
+    align-content: center;
+}
+
+.fourBoxes .img {
+    padding: 50px;
+   
     
+    border: 3px solid red
+}
+.twoBoxes1 {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 
-.about-page .image34 {
+}
+.twoBoxes2 {
+    
     display: flex;
-    flex-direction: row ;
-    justify-content: space-between;
-    margin: 20px;
-      
+    flex-direction: row;
+justify-content: space-around;
+
+    
 }
 
-.about-page .img {
-    padding: 30px;
-    margin: 30px;
+.image3{
+    margin: auto;
+   width: 425px;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 1px dashed black;
 }
 
-.about-page .text1 {
+.image4{
+    margin: auto;
+   width: 425px;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 1px dashed black;
+}
+.image5{
+    margin: auto;
+    width: 425px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    align-items: space-between ;
-    width:
-    margin-left: 20px;
+    border-bottom: 1px dashed black;
+
+}
+.image6 {
+    margin: auto;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+button {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 20px;
 }
 
-.about-page .text1 .button {
-    display:flex;
+
+.image2 {
+    margin: 30px;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    width:10px;
-    flex-shrink: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1,.text2,.text3,.text4 {
+margin: 10px;
+}
+ .bottom-content .h3 {
+    margin:20px;
+    padding-top: 10px;
 }
