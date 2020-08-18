@@ -21,8 +21,15 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: center;
 }
+ 
+.nav {
+       marker-start: center;
+   }
+   img {
+       margin: center;
+   }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -105,12 +112,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box-one {
+    background: teal;
+
+}
+.middle-content .boxes .box-two {
+    background: gold;
+
+}.middle-content .boxes .box-three {
+    background: cadetblue;
+
+}.middle-content .boxes .box-four {
+    background: coral;
+
+}.middle-content .boxes .box-five {
+    background: crimson;
+
+}.middle-content .boxes .box-six {
+    background: forestgreen;
+
+}.middle-content .boxes .box-seven {
+    background: darkorchid;
+
+}.middle-content .boxes .box-eight {
+    background: hotpink;
+
+}.middle-content .boxes .box-nine {
+    background: indigo;
+
+}.middle-content .boxes .box-ten {
+    background: dodgerblue;
+
 }
 
 .bottom-content {
