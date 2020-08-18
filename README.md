@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML is our ability to markup a page with 
 code that allows us to visualize what we are writing.
-2. Name two big differences between ```display: block;``` and ```display: inline;```. with inline-block we have height, width, margins, and padding. With block we do not.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. with inline we have height, width, margins, and padding. With block we do not.
 
 3. What are the 4 areas of the box model? content, padding, border, and margin
 
