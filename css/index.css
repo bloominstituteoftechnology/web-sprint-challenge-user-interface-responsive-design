@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -25,10 +25,14 @@ time, mark, audio, video {
 }
  
 .nav {
-       marker-start: center;
+       marker-start: auto;
    }
-   img {
-       margin: center;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
    }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -71,6 +75,21 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+content {
+    display: flex;
+}
+.first-section{
+    width: 50%
+    }
+.second-section{
+    width: 50%;
+}
+.third-section{
+    column-width: 50%;
+}
+.fourth-section{
+    width: 50%
 }
 
 .container {
