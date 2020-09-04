@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+/*Starting all the CSS design for the header and missing pictures*/
+
+.topbarhome{/*made it so the logo and links are tied together*/
+    width:100%;
+    margin:3% auto;
+    display:flex;
+    align-items:center;
+}
+
+header nav {/*created a consistent spacing between the links*/
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    font-size: 14px;
+    margin: 3% 0 0 0;
+}
+
+header nav a{/*made each link the same styling*/
+    color: black;
+    text-decoration: none;
+    font-weight:900;
+    margin: 0 5%;
+}
+
+.homeheaderpicture{/*styled the picture for the header*/
+    width:100%;
+    margin:1% auto;
+    align-items:center;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,7 +142,46 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*here is the styling for each individual box*/
+.middle-content .boxes .box1{
+    background:teal;
+}
 
+.middle-content .boxes .box2{
+    background:gold;
+}
+
+.middle-content .boxes .box3{
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background:coral;
+}
+
+.middle-content .boxes .box5{
+    background:crimson;
+}
+
+.middle-content .boxes .box6{
+    background:forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background:darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background:hotpink;
+}
+
+.middle-content .boxes .box9{
+    background:indigo;
+}
+
+.middle-content .boxes .box10{
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
