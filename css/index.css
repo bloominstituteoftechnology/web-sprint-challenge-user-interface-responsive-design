@@ -170,7 +170,6 @@ a{
     color: black;
 }
 
-/* Custom links class created to handle the top navbar.*/
 .links{
     display:flex;
     flex-wrap: wrap;
@@ -179,13 +178,12 @@ a{
     margin: 0 5%;
 }
 
-/* Styling the links inside the top navbar. The original image had the link text slightly smaller than the rest,
-so also modified that. */
+
 .links a{
     font-size:.9rem;
 }
 
-/* Adjusting the top nav */
+
 .top_menu{
     display: flex;
     align-items: flex-end;
@@ -273,7 +271,7 @@ so also modified that. */
     padding: 2% 5%;
 }
 
-/* ------ BEAUTIFICATION/SIMPLIFICATION STYLES */
+
 
 /* Added extra breathing room for the top text in the index page + the items on the about page. */
 .index h2, .item h2{
