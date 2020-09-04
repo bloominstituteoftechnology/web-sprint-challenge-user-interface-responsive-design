@@ -90,6 +90,7 @@ a {
     margin: 2% 2%;
 
 }
+/* Navbar*/
 .navbar nav a {
     display: inline-block;
    
@@ -164,7 +165,7 @@ a {
 .middle-content .boxes .box1 {
     background: teal;
 }
-
+/* Bottom content*/
 
 .bottom-content {
     display: flex;
@@ -179,6 +180,7 @@ a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* Footer*/
 
 footer {
     width: 100%;
@@ -199,10 +201,11 @@ footer nav a {
     text-decoration: none;
 }
 
+
+/* Box Colors*/
 .box1 {
     background: teal;
 }
-
 .middle-content .boxes .box2 {
     background: gold;
 }

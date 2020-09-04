@@ -37,8 +37,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 block elements fill up as much area as they want in the container, can have margins and padding.
+They will also nest into the same line on a webpage 
 
-inline elemnts will only fill up the bare minimum
+inline elemnts will only fill up the bare minimum and start a new line everytime.
 
 3. What are the 4 areas of the box model?
 Content, Padding, Border Margin.
@@ -47,7 +48,7 @@ Content, Padding, Border Margin.
  Vertical Axis
 
 5. Explain why git is valuable to a team of developers.
-    Everyone can ollaborate on their own "branch" and work simultaniously on a prjoect without deleting other people work and causing code conflicts. It is very practical to then merge with the main branch if the changes are agreed upon.
+    Everyone can collaborate on their own "branch" and work simultaniously on a prjoect without deleting other people work and causing code conflicts. It is very practical to then merge with the main branch if the changes are agreed upon.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
