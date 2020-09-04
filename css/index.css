@@ -197,12 +197,24 @@ header nav a{/*made each link the same styling*/
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+div .aboutsection{
+    border-bottom:1px dashed black;
+    padding:2%;
+}
 
 section .learningdiv{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin:2% 0;
 }
+section .learningdiv2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:2% 0;
+}
+
 section .linkto{
     width:40%;
     
@@ -220,6 +232,20 @@ section .linkto{
 
 .letsworktogether{
     margin:3% 0;
+}
+
+section div .linksstuff{
+    width:35%;
+    padding:2%;
+    margin:3% 0;
+    border: 2px solid black;
+    border-radius:10px;
+    text-align:center;
+}
+section div a{
+    text-decoration:none;
+    color:black;
+    text-align:center;
 }
 
 footer {
