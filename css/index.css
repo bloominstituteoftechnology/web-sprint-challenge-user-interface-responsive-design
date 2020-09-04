@@ -71,6 +71,38 @@ p {
     margin: 0 auto;
 }
 
+/*HOME PAGE CSS*/
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+
+
+.nav {
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    font-size: 14px;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +175,27 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*END HOME SCREEN CSS*/
+/*START ABOUT SCREEN CSS*/
+
+.AB {
+  margin: 4% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.AB div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+    margin: 10;
+}
+
+.txt {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
 }
