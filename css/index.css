@@ -226,6 +226,7 @@ section .linkto{
     padding: 2% 0;
 }
 /*end of adding borders to the elements*/
+/*makes the image the size of each of the sections in the grid*/
 .linkto img{
     width:100%;
 }
@@ -233,7 +234,7 @@ section .linkto{
 .letsworktogether{
     margin:3% 0;
 }
-
+/*adding styling to the 'learn more' links such as a border and centering it*/
 section div .linksstuff{
     width:35%;
     padding:2%;
