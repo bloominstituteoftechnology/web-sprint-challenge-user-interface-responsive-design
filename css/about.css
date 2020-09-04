@@ -1,0 +1,76 @@
+/*CSS Reset*/
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+     border:1px solid grey; 
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:2rem;
+    line-height:1.8;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#4d4d4d;
+    background-color:#FBFFFB;
+}
+a, button{
+    font-size:2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#4d4d4d;
+}
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+    color:#4d4d4d;
+    margin:4% 0;
+    text-align:center;
+    font-size:4.8rem;
+}
+h1{
+    color:#FBFFFB;
+    font-size:6rem;
+}
+a{
+    text-decoration:none;
+    letter-spacing:2px;
+}
+section{
+    padding:4% 0;
+}
+/*Header*/
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30%;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color:black;
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+footer nav a {
+    color: black;
+    text-decoration: none;
+}
