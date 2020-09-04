@@ -198,22 +198,25 @@ header nav a{/*made each link the same styling*/
     padding-right: 0;
 }
 
-section .aboutlearn{
+section .learningdiv{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 section .linkto{
-    width:30%;
+    width:40%;
     
 }
 /*adding borders to the bottom of the different sections*/
 
 .linkto{
     border-bottom:1px dashed black;
-    padding: 2%;
+    padding: 2% 0;
 }
 /*end of adding borders to the elements*/
+.linkto img{
+    width:100%;
+}
 
 .letsworktogether{
     margin:3% 0;
