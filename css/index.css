@@ -81,8 +81,19 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 1% 1%;
     padding-bottom: 20px;  
+}
+
+.top-content.about{
+    justify-content: space-around;
+    justify-items: center;
+    border-bottom: none;
+}
+
+.bottom-content.about{
+    display: block;
+    padding-bottom: 4%;
 }
 
 .middle-content {
@@ -143,4 +154,128 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ------------------------------
+---------------------------------
+MY MODIFICATIONS BEGIN HERE
+---------------------------------
+---------------------------------
+*/
+
+/* ------ GENERAL + INDEX PAGE*/
+/* Removing the underline from all the links + making the color black*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Custom links class created to handle the top navbar.*/
+.links{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    margin: 0 5%;
+}
+
+/* Styling the links inside the top navbar. The original image had the link text slightly smaller than the rest,
+so also modified that. */
+.links a{
+    font-size:.9rem;
+}
+
+/* Adjusting the top nav */
+.top_menu{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2.5%;
+    justify-content: space-between;
+}
+
+/* The image at the top of the pages. */
+.hero-image{
+    /* Height is static in px to ensure the image will never overflow out of the page. */
+    height:15px;
+    margin-top: 4%;
+    background: url(/img/jumbo.jpg);
+    background-size: cover;
+    
+}
+
+/* All the boxes on the index page. Using ID selectors since they have the most specificity. */
+#one{
+    background:teal;
+}
+
+#two{
+    background:gold;
+}
+
+#three{
+    background: cadetblue;
+}
+
+#four{
+    background: coral;
+}
+
+#five{
+    background: crimson;
+}
+
+#six{
+    background: forestgreen;
+}
+
+#seven{
+    background: darkorchid;
+}
+
+#eight{
+    background: hotpink;
+}
+
+#nine{
+    background: indigo;
+}
+
+#ten{
+    background: dodgerblue;
+}
+
+/* ------ ABOUT PAGE */
+
+/* Custom item class: Modified selectively to ensure it is not overwritten. */
+.top-content .text-container.item{
+    border-bottom: 1px dashed black;
+    margin-bottom:4%;
+}
+
+/* Changing the image for the about page */
+.hero-image.about{
+    background: url(/img/jumbo-about.png);
+}
+
+/* Adjusting the values of the top text container for the about section. */
+.text-container.about{
+    margin-top: 2%;
+    width: 97%;
+}
+
+/* Styling the links inside the About class items. */
+.text-container a{
+    display: flex;
+    width: 34%;
+    border: 2px solid black;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+
+/* ------ BEAUTIFICATION/SIMPLIFICATION STYLES */
+
+/* Added extra breathing room for the top text in the index page + the items on the about page. */
+.index h2, .item h2{
+    margin-top: 4%;
 }
