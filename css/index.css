@@ -70,7 +70,14 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
