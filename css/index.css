@@ -422,3 +422,8 @@ footer nav a {
   display: flex;
   flex-direction: column-reverse;
 }
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
