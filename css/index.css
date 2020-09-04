@@ -156,11 +156,15 @@ a {
     height: 100px;
     background: black;
     margin: 20px 2.5%;
-    color: white;
+    color:white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
 
 .bottom-content {
     display: flex;
@@ -193,4 +197,97 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+.middle-content .boxes .box10 {
+    background:dodgerblue;
+}
+
+/* About Css */
+.strategy .containerbox {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: flex-start;
+}
+.how-we-work .containerbox {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: flex-start;
+}
+
+.part1 {
+    display: flex;
+    margin: 3%;
+    padding: 1%;
+   
+
+}
+.places-we-work .containerbox {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: flex-start;
+    
+
+}
+.collaboration .containerbox {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: flex-start;
+}
+.part2 {
+    display: flex;
+    margin: 3%;
+    padding: 1%;
+}
+button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3%;
+    width: 100px;
+    height: 50px;
+
+}
+hr {
+    border: 1px dotted black;
+    height: 1px;
 }
