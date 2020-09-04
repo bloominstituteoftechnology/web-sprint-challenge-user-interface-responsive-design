@@ -180,22 +180,63 @@ footer nav a {
 /*END HOME SCREEN CSS*/
 /*START ABOUT SCREEN CSS*/
 
+.container {
+    
+}
+
 .AB {
-  margin: 4% 4%;
+  margin: 4% auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
+    width: 100%;
 }
 
 .AB div {
     display: flex;
     flex-wrap: wrap;
     width: 40%;
-    justify-content: center;
-    margin: 10;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    
+    
+
+}
+
+.AB div img {
+    width: 100%;
+}
+
+.AB h3 {
+    margin-top: 13px;
 }
 
 .txt {
     border-bottom: 1px dashed black;
     padding-bottom: 2%;
+}
+
+.button {
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    padding: 2%;
+    width: 40%;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.bottom-text {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bottom-text footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
 }
