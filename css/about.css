@@ -1,0 +1,90 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+nav{
+    width: 90%;  
+    display:flex;
+	justify-content: space-evenly;
+	margin-bottom: 25px;
+}
+
+.first{
+    background:url('https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/358/2019/05/Hero_rs-1024x683.jpg');
+	height: 40vh;
+	width: 800px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.about{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.strategy{
+	width: 50%;
+	float: left;
+}
+.how{
+	width: 50%;
+	float: left;
+}
+.places{
+	width: 50%;
+	float: left;
+}
+.colab{
+	width: 50%;
+	float: left;
+}
+.pics{
+	background: url('https://facilityexecutive.com/wp-content/uploads/2019/09/38391858_ml-800x418-1.jpg');
+	height: 20vh;
+	width: 90%;
+}
+.pich{
+	background: url('https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg');
+	height: 20vh;
+	width: 90%;
+}
+.picp{
+	background: url('https://miro.medium.com/max/1620/1*8GDFUEsd0z8SidRfg9IljA.png');
+	height: 20vh;
+	width: 90%;
+}
+.picc{
+	background: url('https://images.theconversation.com/files/109822/original/image-20160201-32240-8oqf5e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+	height: 20vh;
+	width: 90%;
+}
