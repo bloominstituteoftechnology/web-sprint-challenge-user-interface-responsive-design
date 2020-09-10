@@ -39,10 +39,10 @@ Edit this document to include your answers after each question. Make sure to lea
  one displays them on top of each other the other it net to each other in a line.
 
 3. What are the 4 areas of the box model?
-margin>border>padding>content
+ margin,border,padding, and content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-    the x axis
+    the y axis
 
 5. Explain why git is valuable to a team of developers.
     it allow multiple people to make changes to code with minimal over write.

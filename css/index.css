@@ -1,7 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain) */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -72,6 +71,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:2px solid black;
 }
 
 html, body {
@@ -124,17 +124,106 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box2{
+    width:12.5%;
+    height: 100px;
+    background-color: gold;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width:12.5%;
+    height: 100px;
+    background-color:cadetblue;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width:12.5%;
+    height: 100px;
+    background-color:coral;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width:12.5%;
+    height: 100px;
+    background-color:crimson;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width:12.5%;
+    height: 100px;
+    background-color:forestgreen;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width:12.5%;
+    height: 100px;
+    background-color: darkorchid;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width:12.5%;
+    height: 100px;
+    background-color:hotpink;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width:12.5%;
+    height: 100px;
+    background-color:indigo;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width:12.5%;
+    height: 100px;
+    background-color:dodgerblue;
+    margin: 20px 2.5% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -171,45 +260,67 @@ footer nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* about page boxes nav  */
 .midcontent {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.midcontent a{
+.midcontent button{
     text-decoration:none;
     color:black;
+    padding:10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid black;
+    width:120px;
 }
-.midcontent a:hover{
-    text-decoration:underline;
+.button{
+    padding:20px;
 }
+/* about page boxes */
 .boxes1{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows:repeat(2,1fr);
-    grid-gap: 1px;
-    padding: 0px;
-}
-.box1{
     display: flex;
-    width:10% ;   
+    padding:20px;
+    justify-content:space-evenly;
 }
-:first-child{
-    grid-column:1/2;
+.boxes2{
+    display: flex;
+    padding:20px;
+    justify-content: space-evenly;
 }
-:nth-child(2){
-    grid-column:2/3;
+.box11{
+    width:300px;
+    display: inline-block;
+    
 }
-:nth-child(3){
-    grid-column:2,2;
-    grid-row:2,1 ;
+.box11 img{
+    max-width:100%;
 }
-:nth-child(4){
-    grid-column:2,3 ;
-    grid-row:2,2 ;
+.box11:nth-child(1){
+    width:300px;
+    display: inline-block;
+    
+}
+.box11:nth-child(2){
+    width:300px;
+    display: inline-block;
+}
+.box11:nth-child(3){
+    width:300px;
+    display: inline-block;
+}
+.box11:nth-child(4){
+    width:300px;
+    display: inline-block;
+}
+.box11 h3{
+    padding-top:20px;
+}
+hr{
+    border-top: 2px dotted;
+}
+.about-text hr{
+    width:370px;
+   
 }
 
-/* .midcontent .boxes1 .box1 {
-    width: 30%;
-    display: flex;
-    border:1px solid black;
-} */
