@@ -163,11 +163,6 @@
         line-height: 1.4;
     }
     
-    .flex-items {
-        display: flex;
-        flex-direction: row;
-    }
-    
     .container {
         width: 800px;
         margin: 0 auto;
@@ -179,6 +174,17 @@
         justify-content: space-evenly;
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .boxes {
+        display: flex;
+        flex-direction: row;
     }
     
     .top-content .text-container {
