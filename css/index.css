@@ -107,6 +107,11 @@
         display: block;
     }
     
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    
     body {
         line-height: 1;
     }
@@ -156,6 +161,11 @@
     
     p {
         line-height: 1.4;
+    }
+    
+    .flex-items {
+        display: flex;
+        flex-direction: row;
     }
     
     .container {
