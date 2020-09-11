@@ -23,16 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
- 
-.nav {
-       marker-start: auto;
-   }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -198,3 +189,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding: 3%;
+}
+ 
+.nav {
+       marker-start: auto;
+   }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
