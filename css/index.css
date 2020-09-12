@@ -27,8 +27,6 @@ footer, header, hgroup, menu, nav, section
 body {
     line-height: 1.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,   sans-serif;
-    
-
 }
 
 ol, ul {
@@ -79,7 +77,6 @@ header a{
     padding-right: 2.5em;
     padding-left: 2.5em;
     width: auto;
-
 }
 
 
@@ -140,7 +137,7 @@ p {
 }
 
 
-/*---------------------(TOP TXT)-------------------------*/
+/*---------------------()-------------------------*/
 
 
 
@@ -158,8 +155,6 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
-
 
 
 /*---------------------MIDDLE CONTENT (BOXES)-------------------------*/

@@ -34,6 +34,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
@@ -67,21 +70,21 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+[X] Build the HTML and CSS to create the missing navigation and header.
+[X] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+[X] box1: `teal`
+[X] box2: `gold`
+[X] box3: `cadetblue`
+[X] box4: `coral`
+[X] box5: `crimson`
+[X] box6: `forestgreen`
+[X] box7: `darkorchid`
+[X] box8: `hotpink`
+[X] box9: `indigo`
+[X] box10: `dodgerblue`
 
 ### About Page
  
@@ -102,4 +105,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [X] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [X] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property.
+* [X] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property.
