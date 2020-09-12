@@ -213,6 +213,10 @@ footer nav a {
     margin-top: 20px;
 }
 
+#middleSection h2 {
+    margin-top: 10px;
+}
+
 button {
     border: 1px black solid;
     border-radius: 5px;
