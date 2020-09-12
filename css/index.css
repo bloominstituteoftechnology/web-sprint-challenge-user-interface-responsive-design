@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -88,7 +89,7 @@ nav{
     justify-content: space-evenly;
 }
 .banner{
-    margin-bottom: 5%;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -156,6 +157,44 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*About Page*/
+.about{
+    width:95%;
+    border-bottom: 1px dashed black;
+    padding-bottom:5%;
+    margin:0 2.5% 5%;
+}
+
+.strategy-gallery{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.strategy{
+    width:45%;
+    border-bottom: 1px dashed black;
+    padding-bottom:5%;
+    margin-bottom:5%;
+}
+
+.strategy h4, p{
+    margin: 2% 0;
+}
+p.button{
+    width:35%;
+    padding: 2% 3%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align:center;
+}
+.work-together{
+    width:95%;
+    margin: 0 2.5% 5%;
+}
+/*About Section End*/
 
 footer {
     width: 100%;
