@@ -59,9 +59,6 @@ Follow these steps for completing your project.
 - [X]  Add your Team Lead as a reviewer on the pull-request
 - [ ]  Your Team Lead will count the project as complete by merging the branch back into master.
  
-
-
-
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
