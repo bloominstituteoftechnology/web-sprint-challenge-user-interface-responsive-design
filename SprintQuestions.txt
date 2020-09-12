@@ -1,0 +1,22 @@
+SPRINT CHALLENGE 1 QUESTIONS
+
+
+1.	If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+HTML is the Hypertext Markup Language, it's essentially the building block of any website. It tells computers what content to display and in what manner.
+
+2.	Name two big differences between display: block; and display: inline;.
+
+Display inline only takes up the space of said element, block ignores width and height and allows nothing next to it.  Display inline is for text.
+
+3.	What are the 4 areas of the box model?
+
+Content, padding, border, margin.
+
+4.	While using flexbox, what axis does the following property work on: align-items: center?
+
+X axis
+
+5.	Explain why git is valuable to a team of developers.
+
+Git is great for version control, so anyone can see the changes you've made in previous iterations.

@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 15%;
+    margin-top: 3%;
 }
 ol, ul {
 	list-style: none;
@@ -64,6 +66,28 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+} 
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 100%;
+    margin: 5% 0;
 }
 
 .container {
@@ -101,6 +125,46 @@ p {
     justify-content: space-evenly;
 }
 
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,11 +176,54 @@ p {
     justify-content: center;
 }
 
+.about-top {
+    padding-bottom: 3%;
+    border-bottom: dashed 1px;
+    margin-bottom: 3%;
+    line-height: 175%;
+}
+
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-main div {
+    width: 42%;
+    margin: 3%;
+    line-height: 175%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    border-bottom: dashed 1px;
+    text-align: left;
+}
+
+.about-main div h2 {
+    text-align: left;
+    width: 100%;
+}
+
+.about-main div button {
+    text-align: left;
+    justify-content: left;
+    margin: 3% 0;
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: solid black 2px;
+    background-color: white;
+    font-weight: 600;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+
+
 
 .bottom-content .text-container {
     padding-right: 4%;
@@ -124,6 +231,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.work-together {
+    line-height: 175%;
 }
 
 footer {
@@ -143,4 +254,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-footer {
+    margin-top: 5%;
+    width: 100%;
+    line-height: 175%;
 }
