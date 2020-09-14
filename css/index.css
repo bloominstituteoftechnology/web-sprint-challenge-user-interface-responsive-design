@@ -53,23 +53,29 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    width: 1400px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
 }
 
 header {
     background: white;
     height: 1.5vh;
     border: transparent;
+    padding: 1%;
     height: 80px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     text-align: center;
+}
+
+.nav-header {
+    border: 2px solid transparent;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
 }
 
 nav button {
@@ -84,17 +90,23 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    text-align: left;
 }
 
 p {
     line-height: 1.4;
+    text-align: left;
 }
 
 .top img {
+    display: inline-block;
     width: 100%;
+    padding: 2%;
 }
 
 .container {
+    display: block;
+    text-align: center;
     width: 800px;
     margin: 0 auto;
 }
