@@ -112,9 +112,46 @@ p {
     justify-content: center;
 }
 
-.b1 {
-    color: teal;
+#b1 {
+    background-color: teal;
 }
+
+#b2 {
+    background-color: gold;
+}
+
+#b3 {
+    background-color: cadetblue;
+}
+
+#b4 {
+    background-color: coral;
+}
+
+#b5 {
+    background-color: crimson;
+}
+
+#b6 {
+    background-color: forestgreen;
+}
+
+#b7 {
+    background-color: darkorchid;
+}
+
+#b8 {
+    background-color: hotpink;
+}
+
+#b9 {
+    background-color: indigo;
+}
+
+#b10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -180,6 +217,7 @@ footer nav a {
 
 .body-container {
     display: flex;
+    
 }
 
 .about {
