@@ -86,7 +86,7 @@ nav button {
     border-radius: 0px;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -287,3 +287,32 @@ footer nav a {
 
 /*Start Css for About*/
 
+.middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10%;
+    border-top: 1px dashed black;
+}
+
+
+
+.middle-info {
+    font-size: 1rem;
+    width: 50%;
+    border: transparent 2px solid;
+    margin: 1px 0;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+
+}
+
+.middle-info img {
+    width: 100%;
+}
+
+.middle-info {
+    text-align: left;
+}
