@@ -63,8 +63,8 @@ header {
 
 header nav {
     display: flex;
-    width: 66%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 2%;
     font-size: 16px;
