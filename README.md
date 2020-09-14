@@ -76,9 +76,9 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
+- [X ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [Awaiting Reply ] Add your Team Lead as a reviewer on the pull-request
+- [Awaiting Reply ] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
 
