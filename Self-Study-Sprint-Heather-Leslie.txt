@@ -1,0 +1,23 @@
+1.  If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is a type of hypertext markup language in which elements, or pieces of computer code placed between a less than and greater than symbol, have a definable meaning that can be ascertained quickly in computer coding language, and this is in contrast to types of HTML elements which simply just hold place values and do not specifically describe a meaning.
+
+
+2.  Name two big differences between display: block; and display: inline;
+
+A block element stretches to fill out the line it is on and an inline element just takes up the space it needs to display the data it has.
+
+
+3.  What are the 4 areas of the box model?
+
+Content, padding, border, and margin, with the content being in the middle and then progressing toward the margin on the outside.
+
+
+4.  While using flexbox, what axis does the following property work on: align-items: center?
+
+This particular property would place the items on the cross axis.
+
+
+5.  Explain why git is valuable to a team of developers.
+
+Git allows collaboration between multiple participants on projects and takes in input from many sources on an open basis with people working asynchronously from a remote location into a central repository with feedback available by other members of the Git community.
