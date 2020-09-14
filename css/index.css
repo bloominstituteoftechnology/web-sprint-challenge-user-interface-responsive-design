@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background: white;
+    height: 1.5vh;
+    border: transparent;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav button {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: transparent solid 2px;
+    border-radius: 0px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +88,10 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.top img {
+    width: 100%;
 }
 
 .container {
