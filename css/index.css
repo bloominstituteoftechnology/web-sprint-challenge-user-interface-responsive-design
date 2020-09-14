@@ -217,7 +217,9 @@ footer nav a {
 
 .body-container {
     display: flex;
-    
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: 80%;
 }
 
 .about {
@@ -225,6 +227,7 @@ footer nav a {
     border-bottom: 1px dashed black;
     margin: 20px;
     padding:20px;
+    
 }
 
 .strategy {
@@ -253,4 +256,9 @@ footer nav a {
     border-bottom: 1px dashed black;
     margin: 20px;
     padding:20px;
+}
+
+.lwt {
+    margin: 30px;
+    display: flex;
 }
