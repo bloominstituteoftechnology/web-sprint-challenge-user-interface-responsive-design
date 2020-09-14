@@ -284,6 +284,9 @@ footer nav a {
     text-decoration: none;
 }
 
+.Sprint-Questions {
+    border-bottom: 1px dashed black;
+}
 
 /*Start Css for About*/
 
