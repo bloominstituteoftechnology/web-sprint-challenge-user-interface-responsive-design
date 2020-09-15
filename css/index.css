@@ -217,9 +217,9 @@ footer nav a {
 
 .body-container {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    border: 1px solid red;
-    width: 80%;
+    margin: 0 25%;
 }
 
 .about {
@@ -230,33 +230,42 @@ footer nav a {
     
 }
 
+.box {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+#section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .strategy {
-    justify-content: center;
     border-bottom: 1px dashed black;
-    margin: 20px;
-    padding:20px;
+    text-align: left;
 }
 
 .hww {
-    justify-content: center;
     border-bottom: 1px dashed black;
-    margin: 20px;
-    padding:20px;
 }
 
 .pww {
-    justify-content: center;
     border-bottom: 1px dashed black;
-    margin: 20px;
-    padding:20px;
 }
 
 .collab {
-    justify-content: center;
     border-bottom: 1px dashed black;
-    margin: 20px;
-    padding:20px;
 }
+ button{
+     margin-top: 3%;
+     padding: 10px;
+     border-radius: 15%;
+     background-color: white;
+ }
 
 .lwt {
     margin: 30px;
