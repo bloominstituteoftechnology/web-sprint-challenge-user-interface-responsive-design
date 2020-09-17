@@ -195,14 +195,17 @@ button {
     
 }
 
-.big{
+.big {
     margin: auto;
-    padding: 20px 20px 20px 160px;
+    padding: 50px 30px 50px 80px;
+    text-align: center;
+
+   
 }
 
-.logo{
+.logo {
     margin: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 100px 100px 10px 10px;
 }
 
 

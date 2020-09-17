@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +111,46 @@ p {
     justify-content: center;
 }
 
+.one {
+    background-color: teal;
+
+}
+
+.two {
+    background-color: gold;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.four {
+    background-color: coral;
+}
+
+.five {
+    background-color: crimson;
+}
+
+.six {
+    background-color: forestgreen;
+}
+
+.seven {
+    background-color: darkorchid;
+}
+
+.eight {
+    background-color: hotpink;
+}
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +183,83 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 30px 24px;
+}
+
+.big {
+    margin: auto;
+    padding: 50px 30px 50px 80px;
+    text-align: center;
+}
+
+
+.logo {
+    margin: auto;
+    display: inline-block;
+}
+
+.ok {
+    text-align: center;
+}
+
+.cool {
+    display: inline-block;
+}
+
+
+.cont {
+    width: 300px;
+    border-bottom: dashed 2px black;
+    height: 400px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contimg {
+    width: 100%;
+}
+
+.mainok {
+    text-align: center;
+}
+
+.jumbomain {
+    margin: auto;
+    padding: 50px 30px 50px 80px;
+    text-align: center;
+}
+
+.logomain {
+    margin: auto;
+    display: inline-block;
+}
+
+.btn {
+    background-color: white;
+    border-color: black;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30%; 
+    
+}
+
+.bottom-content {
+        display: flex;
+        margin: 0 2% 20px;
+        justify-content: space-around;
+}
+
