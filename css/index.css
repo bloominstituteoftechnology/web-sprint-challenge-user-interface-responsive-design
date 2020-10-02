@@ -70,7 +70,42 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.btn{
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+/* header */
+header{
+    width: 100%;
+    padding: 30px 0;
 
+}
+header #main-nav{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+header #main-nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#main-nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+header .hero{
+    width: 100%;
+    height: 150px;
+}
+
+/* top content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +119,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* middle content  */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,14 +139,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box-1{
+    background-color: teal;
+}
+.box-2{
+    background-color: gold;
+}
+.box-3{
+    background-color: cadetblue;
+}
+.box-4{
+    background-color: coral;
+}
+.box-5{
+    background-color: crimson ;
+}
+.box-6{
+    background-color: forestgreen;
+}
+.box-7{
+    background-color: darkorchid;
+}
+.box-8{
+    background-color: hotpink;
+}
+.box-9{
+    background-color: indigo;
+}
+.box-10{
+    background-color: dodgerblue;
+}
 
+/* bottome content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +192,43 @@ p {
     padding-right: 0;
 }
 
+/* =====================   About Page ======================= */
+#about-section{
+    padding: 10px;
+    border-bottom: 1px dotted black;
+}
+#article-section{
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#article-section article{
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+    margin-right: 10px;
+}
+#article-section article h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#article-section article p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#article-section article img{
+    width: 340px;
+}
+
+/* contact */
+#contact{
+    padding: 10px 10px 30px 10px;
+}
+
+
+/* foooter */
 footer {
     width: 100%;
     background: black;
