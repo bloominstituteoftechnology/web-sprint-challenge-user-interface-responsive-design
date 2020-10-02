@@ -257,3 +257,115 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*about page*/
+
+body {
+    width: 100%;
+}
+.header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header .top-header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 2%;
+    align-items: baseline;
+    margin-bottom:1%;
+    
+} /*work more here*/
+
+.top-header .nav {
+    width:100%;
+}
+.header .top-header a{
+    width:100%;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left:8%;
+    margin-right:3%;
+    color:black;
+  
+}
+
+.about {
+    width:100%;
+    border-bottom: 1px dashed black;
+    margin-bottom:2%;
+}
+
+.about p {
+    margin-bottom: 2%;
+}
+
+.info-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom:5px;
+}
+
+.info-boxes a {
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding: 2%;;
+    border-radius: 10px;
+    margin: 2% 0%;
+    text-align:center;
+    
+}
+
+.info-boxes p {
+margin: 2% 0%;
+}
+
+.strategy {
+    width:45%;
+    padding: 5px;
+    padding-bottom:3%;
+    margin: auto;
+    border-bottom: 1px dashed black;
+}
+.how-we-work {
+    width:50%;
+    padding: 5px;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+.places {
+    margin-top:4%;
+    padding: 5px;
+    width:45%;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+.collaboration {
+    margin-top:4%;
+    padding: 5px;
+    width:50%;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+
+.lets-work{
+    
+    width:50%;
+}
+
+.lets-work img{
+    padding: 5px;
+    width:90%;
+} 
+
+.bottom-text {
+    width:100%;
+    padding:10px;
+margin-top:4%;
+}
