@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +144,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.button{
+    background-color: transparent;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    
+    
+    
+
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    
+}
+.banim{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    width:100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.boxes .box:nth-of-type(1){
+    background-color: teal;
+}
+.boxes .box:nth-of-type(2){
+    background-color: gold;
+}
+.boxes .box:nth-of-type(3){
+    background-color: cadetblue;
+}
+.boxes .box:nth-of-type(4){
+    background-color: coral;
+}
+.boxes .box:nth-of-type(5){
+    background-color: crimson;
+
+}
+.boxes .box:nth-of-type(6){
+    background-color: forestgreen;
+}
+.boxes .box:nth-of-type(7){
+    background-color: darkorchid;
+}
+.boxes .box:nth-of-type(8){
+    background-color: hotpink;
+}
+.boxes .box:nth-of-type(9){
+    background-color: indigo;
+}
+.boxes .box:nth-of-type(10){
+    background-color: dodgerblue;
+}
+.banab{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    width:100%;
+    
+}
+.about-wrap{
+    display: flex;
+    flex-wrap: wrap;
 }
