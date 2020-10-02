@@ -1,0 +1,125 @@
+*{
+    border: 1px solid black;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+p {
+    line-height: 1.4;
+}
+body{
+    font-family: sans-serif;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+/* HEADER STYLING */
+header{
+    display: flex;
+}
+header .lambdaLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header nav{
+    display:flex;
+    width:70%;
+    margin-left:30px;
+    margin-top:15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav a{
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+}
+header img{
+    padding: 20px 0px;
+}
+/* ABOUT SECTION STYLING */
+.containerAboutPage .aboutSection{
+    padding:5px 15px;
+    border-bottom: dashed black 1px;
+}
+/* IMG SECTION STYLING */
+.containerAboutPage .imgSection{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+}
+.imgSection .contentBlock{
+    padding-bottom:15px;
+    border-bottom: black dashed 1px;
+}
+.imgSection .contentBlock a{
+    width:25%;
+    text-align:left;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:10px;
+}
+.imgSection .contentBlock h3{
+    width:50%;
+    text-align:left;
+}
+.imgSection :nth-child(1){
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:361px;
+}
+.imgSection :nth-child(2){
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:361px;
+}
+.imgSection :nth-child(3){
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:361px;
+}
+.imgSection :nth-child(4){
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:361px;
+}
+
+/* FOOTER STYLING */
+footer {
+    width: 100%;
+    background: black;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
