@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin 20px 0;
+}
+
+header nav a {
+    padding: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+#jumbo {
+    margin-bottom: 15px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +130,47 @@ p {
     justify-content: center;
 }
 
+/* box coloring */
+.middle-content .boxes .box:nth-child(1){
+    background-color:teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color:gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color:coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color:crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box:nth-child(91){
+    background-color:indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +202,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about styling */
+
+.aboutHeader {
+    padding: 20px;
+    border-bottom: dashed 1px black;
+}
+
+.aboutMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    padding-top: 30px;
+    padding-bottom: 30px
+
+}
+
+.aboutMain > div {
+    width: 380px;
+    padding: 20px 20px 30px 20px;
+    border-bottom: dashed 1px black;
+}
+
+.aboutMain > div img {
+    max-width:100%;
+    max-height:100%;
+    padding-bottom: 10px;
+}
+
+.aboutMain > div p {
+    padding-bottom: 20px;
+}
+
+.aboutMain > div a {
+    padding: 10px 25px 10px 25px;
+    background: white;
+    border-radius: 6px;
+    width: 130px;
+    border: 2px solid black;
+    font-size: unset;
+    color: black;
+    text-align: center;
+    text-decoration:none;
+}
+
+.aboutMain > div a:hover{
+    background: black;
+    color: white;
+}
+
+.letsWorkTogether {
+    padding: 10px 20px 30px 20px;
 }
