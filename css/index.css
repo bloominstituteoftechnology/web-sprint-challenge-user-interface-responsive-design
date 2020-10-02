@@ -301,16 +301,16 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-/* .container-about-page .about-content {
-    width:750px;
+
+.t{
+    width:98%;
     margin:0 auto;
-    margin-bottom:20px;
-} */
+}
 
 .container-about-page .container4 {
     width:800px;
     margin:0 auto;
-    border:2px solid black;
+    /* border:2px solid black; */
     display:flex;
     /* flex-direction:row; */
     justify-content: space-evenly;
@@ -334,16 +334,11 @@ footer nav a {
     border:2px solid black;
     border-radius:10%;
 }
-    
 
-/* .container-about-page .container4 .strategy .p {
-    width:390px;
+.together{
+    width:96%;
+    margin:0 auto;
+    margin-bottom:20px;
     display:flex;
     flex-direction:column;
 }
-
-.container-about-page .container4 .how .p {
-    width:390px;
-    display:flex;
-    flex-direction:column;
-} */
