@@ -103,48 +103,44 @@ nav a {
 /* Middle Content */ 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    margin-top: 15px;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
+    width: 95%;
     margin: auto;
     justify-content: space-between;
 }
 
 .middle-content .boxes .box {
-    border: 2px solid blue;
-    height: 300px;
-    width: 300px;
-    margin: 20px 2.5%;
+    border-bottom: 1px dashed black;
+    height: 425px;
+    width: 350px;
     color: black;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
+    margin-bottom: 30px;
 }
-/* .middle-content .boxes .box img {
-    height: 200px;
-    width: 200px;
-} */
+
 .middle-content .boxes .box button {
     width: 100px;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 10px 5px 10px;
     background-color: white;
     border-radius: 8px;
     border: 2px solid black;
+    margin-top: 20px;
 }
 
 /* Bottom Content */
 .bottom-content .text-container {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 95%;
     padding: 0 1%;
     padding-bottom: 20px;  
