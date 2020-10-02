@@ -234,6 +234,9 @@ nav a {
     height: 30px;
     background-color: white;
 }
-.aboutImg {
-    
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
