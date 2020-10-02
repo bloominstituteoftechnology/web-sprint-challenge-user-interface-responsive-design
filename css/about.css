@@ -96,7 +96,6 @@ nav a {
 .top-content .text-container {
     margin-top: 20px;
     width: 95%;
-    padding: 0 1%;
     padding-bottom: 20px;  
 }
 
@@ -140,9 +139,10 @@ nav a {
 
 /* Bottom Content */
 .bottom-content .text-container {
+    margin: auto;
     margin-top: 10px;
     width: 95%;
-    padding: 0 1%;
+    /* padding: 0 1%; */
     padding-bottom: 20px;  
 }
 
@@ -151,7 +151,6 @@ footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -160,7 +159,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: lightgrey;
     text-decoration: none;
