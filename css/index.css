@@ -239,6 +239,12 @@ footer nav a {
     text-decoration: none;
 }
 
+
+/* Above here is from source */
+
+
+/* My changes start below */
+
 a {
     vertical-align: baseline;
     color: black;
@@ -248,7 +254,9 @@ a {
     display: inline-block;
 }
 
-h2 {}
+footer nav {
+    padding: 0 0 1em 0;
+}
 
 .header-nav {
     max-width: 800px;
@@ -305,10 +313,6 @@ h2 {}
     background-color: dodgerblue;
 }
 
-footer nav {
-    padding: 0 0 1em 0;
-}
-
 .about-top-content {
     display: flex;
     flex-wrap: wrap;
@@ -352,6 +356,9 @@ footer nav {
 .about-content-text {
     max-width: 90%;
 }
+
+
+/* Used flex on button to vertically align text */
 
 .learn-button {
     color: black;
