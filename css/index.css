@@ -222,25 +222,29 @@ footer nav a {
 
 #strategy {
     width: 40%;
-    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-bottom: 1px dashed black;
 }
 
 #how {
     width: 40%;
-    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-bottom: 1px dashed black;
 }
 
 #places {
     width: 40%;
-    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-bottom: 1px dashed black;
 }
 
 #collaboration {
     width: 40%;
-    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-bottom: 1px dashed black;
 }
 
