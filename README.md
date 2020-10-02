@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML means naming elements so that they are easily identifiable within the design of the page. This
+    makes selecting elements with CSS much easier and also makes the file easier to read by the next person. The
+    best example is naming the header content div <header>, as opposed to just placing it in a <div>.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    One difference is that ```display: block;``` will create a div that stretches across the entire page. Nothing can
+    come after or before on the sides of the div.  
+    Another difference is that elements that are ```display: inline;``` can be manipulated within a larger without
+    affecting the larger (parent) div. The best example of this is changing a <span> element's font style to bold or 
+    italicized, without doing so to the rest of the div. 
 
 3. What are the 4 areas of the box model?
 
+    Content, Padding, Border, and Margin!
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross axis! 
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable to a team of developers primarily because it allows multiple people to work on the same code
+    in their own text editor, make their own changes, and then compare each other's code before it is merged into
+    the master branch. This avoids confusion. Other reasons Git is valuable are that it enables you to not keep a 
+    ton of files because all of them can be found on the cloud-based repository, it allows you to see the history
+    of changes made, and you can easily include comments with any commits you make to the repository. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
