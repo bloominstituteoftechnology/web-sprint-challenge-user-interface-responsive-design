@@ -200,4 +200,21 @@ nav a {
 .middle-content .boxes .box:nth-of-type(10) {
     background-color: dodgerblue;
 }
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container #con1 {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+#con1 p{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
