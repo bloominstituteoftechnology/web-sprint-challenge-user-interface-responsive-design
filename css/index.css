@@ -136,11 +136,37 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 18px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+nav  {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 90%;
+}
+.headLogo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.top-content img {
+    margin-top: 20px;
+    margin-bottom: 18px;
 }
