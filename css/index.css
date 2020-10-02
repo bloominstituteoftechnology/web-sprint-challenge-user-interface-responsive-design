@@ -200,21 +200,40 @@ nav a {
 .middle-content .boxes .box:nth-of-type(10) {
     background-color: dodgerblue;
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.container #con1 {
+.container1, .about-page{
     display: flex;
     flex-flow: row;
-    flex-wrap: nowrap;
-    padding: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 2%;
 }
-#con1 p{
+.container1 p {
+    width:90%;
+    border-bottom: 1px dashed black;
+    text-align: left;
+}
+.container2 {
     display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+}
+.plan, .working, .office, .meeting {
+    width: 48%;
+    margin-top: 30px;
+    margin-bottom:30px;
+    align-content: center;
+    padding-left: 30px;
+}
+.plan p, .working p, .office p, .meeting p {
+    width: 48%;
+}
+.plan button, .working button, .office button, .meeting button {
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 16%;
+    height: 30px;
+    background-color: white;
+}
+.aboutImg {
+    
 }
