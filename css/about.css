@@ -95,7 +95,34 @@ nav a {
 }
 .top-content .text-container {
     margin-top: 20px;
-    width: 48%;
+    width: 95%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/* Middle Content */ 
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
