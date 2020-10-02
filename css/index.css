@@ -100,6 +100,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -135,43 +136,43 @@ p {
     justify-content: center;
 }
 
-.box:nth-last-of-type(1){
+.box:nth-of-type(1){
     background-color: teal;
 }
 
-.box:nth-last-of-type(2){
+.box:nth-of-type(2){
     background-color: gold;
 }
 
-.box:nth-last-of-type(3){
+.box:nth-of-type(3){
     background-color: cadetblue;
 }
 
-.box:nth-last-of-type(4){
+.box:nth-of-type(4){
     background-color: coral;
 }
 
-.box:nth-last-of-type(5){
+.box:nth-of-type(5){
     background-color: crimson;
 }
 
-.box:nth-last-of-type(6){
+.box:nth-of-type(6){
     background-color: forestgreen;
 }
 
-.box:nth-last-of-type(7){
+.box:nth-of-type(7){
     background-color: darkorchid;
 }
 
-.box:nth-last-of-type(8){
+.box:nth-of-type(8){
     background-color: hotpink;
 }
 
-.box:nth-last-of-type(9){
+.box:nth-of-type(9){
     background-color: indigo;
 }
 
-.box:nth-last-of-type(10){
+.box:nth-of-type(10){
     background-color: dodgerblue;
 }
 
@@ -215,6 +216,7 @@ footer nav a {
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 20px;
     border-top: 1px dashed black;
 }
 
@@ -255,6 +257,7 @@ button {
     background: transparent;
     border: 2px solid black;
     border-radius: 15%;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -291,4 +294,8 @@ h1 {
     width: 75%;
     display: flex;
     justify-content: space-between;
+}
+
+#foursections img {
+    width: auto;
 }
