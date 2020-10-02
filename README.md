@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+turn back whilst you still can! HTML speaks but it does not do so lightly and semantic HTML is the media through which it speaks!
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+One has absolute space (display block) and one does not! secondly one will forcibly move any and all and be treated with caution, the other will just be ignored!
 
 3. What are the 4 areas of the box model?
 
+The content edge,padding edge, margin edge, and border edge. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The main axis, usually the horizontal
+
 5. Explain why git is valuable to a team of developers.
+
+git is valuable for keeping track of version changes and to share your work with other developers!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,8 +76,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ x] Build the HTML and CSS to create the missing navigation and header.
+* [x ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -86,10 +96,10 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x ] Copy and paste your home page navigation and header into the about page
+* [x ] Update the header image with the about page image
+* [x ] Link the `Home` navigation item back to the `index.html` page.
+* [x ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

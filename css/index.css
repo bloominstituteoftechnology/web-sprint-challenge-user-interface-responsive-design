@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+.boilerplate,nav,article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,10 +46,57 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a { color: inherit; } 
 
 * {
     box-sizing: border-box;
+    text-decoration:none;
 }
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+nav img{
+height:30px;
+width:100px;    
+}
+.firstbox{
+
+display:flex;
+flex-direction: column;
+padding:10px;
+border-bottom:2px black dotted;
+}
+.firstpicture{
+display:flex;
+flex-direction:column;    
+}
+.secondpicture{
+display:flex;
+flex-direction:column;    
+}
+
+.firstrow{
+display:flex;
+flex-direction:row;
+flex-wrap:nowrap;
+border-bottom:2px dotted black;    
+}  
+
+.secondrow{
+display:flex;
+flex-direction:row;
+flex-wrap:nowrap;
+border-bottom:2px dotted black;    
+}
+.fourthpicture{
+display:flex;
+flex-direction:column;
+}
+.endblurb{
+    padding:15px}
+
 
 html, body {
     height: 100%;
@@ -111,6 +158,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
