@@ -227,6 +227,7 @@ footer nav a {
 
 }
 
+/* trick to get bottom border to shrink a bit */
 .aboutMain > div:after {
     content: "";
     display: block;
