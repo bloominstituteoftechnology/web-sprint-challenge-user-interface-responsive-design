@@ -297,6 +297,9 @@ body {
     color:black;
   
 }
+div.container.about-page {
+    width:800px;
+}
 
 .about {
     width:100%;
@@ -308,11 +311,10 @@ body {
 }
 
 .info-boxes {
-    width: 100%;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom:5px;
 
 }
@@ -335,29 +337,30 @@ margin: 2% 0%;
     width: 100%;
 }
 .strategy {
-    width:45%;
+    margin-top:4%;
+    width:48%;
     padding: 5px;
     padding-bottom:3%;
-    margin: auto;
     border-bottom: 1px dashed black;
 }
 .how-we-work {
-    width:45%;
+    margin-top: 4%;
+    width:48%;
     padding: 5px;
     padding-bottom:3%;
     border-bottom: 1px dashed black;
 }
 .places {
-    margin-top:4%;
+    margin-top:5%;
     padding: 5px;
-    width:45%;
+    width:48%;
     padding-bottom:3%;
     border-bottom: 1px dashed black;
 }
 .collaboration {
-    margin-top:4%;
+    margin-top:5%;
     padding: 5px;
-    width:45%;
+    width:48%;
     padding-bottom:3%;
     border-bottom: 1px dashed black;
 }
