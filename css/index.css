@@ -144,3 +144,74 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+header {
+display: flex;
+width: 90%;
+height:10vh;
+margin: auto;
+align-items: center;
+
+
+}
+.container{
+  
+}
+.logo-container, .nav-links{
+    display: flex;
+
+    }
+
+
+.logo{
+    font-weight: 500;
+    margin: 10px;
+}
+
+.logo-container {
+
+flex: 1;
+}
+
+nav{
+
+flex: 2;
+
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    
+
+}
+.nav-link{
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+.jumbo, .img{
+    width: 50%;
+    justify-content: space-around;
+    image-rendering: auto;
+    -webkit-animation-iteration-count: initial;
+
+}
+
+.boxes, .box {
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-container{
+    display: flex;
+   
+}
