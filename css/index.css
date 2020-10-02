@@ -51,6 +51,37 @@ table {
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 50%;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+header img {
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -104,12 +135,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-last-of-type(1){
+    background-color: teal;
+}
+
+.box:nth-last-of-type(2){
+    background-color: gold;
+}
+
+.box:nth-last-of-type(3){
+    background-color: cadetblue;
+}
+
+.box:nth-last-of-type(4){
+    background-color: coral;
+}
+
+.box:nth-last-of-type(5){
+    background-color: crimson;
+}
+
+.box:nth-last-of-type(6){
+    background-color: forestgreen;
+}
+
+.box:nth-last-of-type(7){
+    background-color: darkorchid;
+}
+
+.box:nth-last-of-type(8){
+    background-color: hotpink;
+}
+
+.box:nth-last-of-type(9){
+    background-color: indigo;
+}
+
+.box:nth-last-of-type(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +213,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#foursections{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#strategy {
+    width: 40%;
+}
+
+#how {
+    width: 40%;
+}
+
+#places {
+    width: 40%;
+}
+
+#collaboration {
+    width: 40%;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
