@@ -2,8 +2,26 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<body>
+ 
+<div class="container">
+<header>
+<nav>
+<a href="index.html">Home></a>
+<a href="about.html">About</a>
+<a href="#">Products</a>
+<a href="#">Blog</a>
+<a href="#">Contact</a>
+</header>
+</nav>
+</div></body></html>
 
-html, body, div, span, applet, object, iframe,
+
+
+/* span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -15,7 +33,9 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video */
+
+.container header nav a {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,6 +43,86 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+.conatiner header nav a: hover{
+    background-property: white;
+}
+
+.box 1{
+
+    background-color: teal;
+    width: 200px;
+    padding: 25px;
+    border: 25px solid navy;
+    }
+
+.box 2{
+
+    background-color: gold;
+    width: 200px;
+    padding: 25px;
+    border: 25px gold;
+     }
+    
+.box 3{
+
+    background-color: cadetblue;
+    width: 200px;
+    padding: 25px;
+    border: 25px cadetblue;
+    }
+
+.box 4{
+
+    background-color: coral;
+    width: 200px;
+    padding: 25px;
+    border: 25px coral;
+    }
+
+ .box 5{
+
+    background-color: crimson;
+    width: 200px;
+    padding: 25px;
+    border: 25px crimson;
+    }
+.box 6{
+    background-color: forestgreen;
+    width:200px;
+    padding: 25px;
+    border: 25px forestgreen;
+}
+
+.box 7{
+    background-color: darkorchid;
+    width:200px;
+    padding:25px;
+    border: 25px darkorchid;
+
+}
+
+.box 8{
+    background-color:hotpink;
+    width:200px;
+    padding:25px;
+    border:25px hotpink;
+}
+
+.box 9{
+    background-color:indigo;
+    width:200px;
+    padding:25px;
+    border:25px indigo;
+}
+
+.box 10{
+    background-color:dodgerblue;
+    width:200px;
+    padding;25px
+    border:25px dodgerblue;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
