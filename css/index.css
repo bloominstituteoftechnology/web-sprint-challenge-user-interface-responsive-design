@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid red;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -287,7 +287,7 @@ h1 {
     justify-content: space-between;
     margin-bottom: 20px;
     align-items: center;
-    width: 50%;
+    width: 100%
 }
 #jumboabout {
     display: flex;
@@ -295,7 +295,7 @@ h1 {
 }
 
 #aboutNav {
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
