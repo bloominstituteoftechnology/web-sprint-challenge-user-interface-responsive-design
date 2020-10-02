@@ -28,6 +28,39 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.heading{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:30px;
+}
+ul{
+    /* list-style-type:none; */
+    display:flex;
+    width:100%;
+    justify-content:space-evenly;
+    text-decoration:none;
+}
+nav{
+    width:100%;
+    text-decoration:none;
+}
+
+li a{
+    text-decoration:none;
+    color:black;
+}
+
+.image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -80,28 +113,28 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middle-content1 {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle-content1 h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content1 .boxes1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content1 .boxes1 .box1 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,7 +144,51 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 10px;
 
+}
+
+.middle-content .box {
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+} 
+
+.middle-content .box .boxes {
+    width: 100%;
+    height:150px;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-direction:column;
+    /* justify-content:space-between; */
+    /* align-items: left;
+    justify-content:flex-start;
+    justify-content: left; */
+    border-bottom: 1px dashed black;
+
+}
+
+button{
+    background-color:transparent;
+    border-radius:8px;
+    padding:6px;
+    margin-top:10px;
+    width:30%;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
