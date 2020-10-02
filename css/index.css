@@ -144,3 +144,93 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.box:nth-last-of-type(1){
+color:teal;
+}
+.box:nth-last-of-type(2){
+    color:gold;
+}
+.box:nth-last-of-type(3){
+    color:cadetblue;
+}
+.box:nth-last-of-type(4){
+    color:coral;
+}
+.box:nth-last-of-type(5){
+    color:crimson;
+}
+.box:nth-last-of-type(6){
+    color:forestgreen;
+}
+.box:nth-last-of-type(7){
+    color:darkorchid;
+}
+.box:nth-last-of-type(8){
+    color:hotpink;
+}
+.box:nth-last-of-type(9){
+    color:indigo;
+}
+.box:nth-last-of-type(10){
+    color:dodgerblue;
+}
+header nav{
+    justify-content: space-between;
+    align-items:center;
+    font-size:14px;
+    display: flex;
+    width:60%;
+    padding: 20px 2%;
+}
+#sections{
+    width: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#strategy{
+    width:40%;
+}
+
+#How{
+    width:40%;
+}
+#Places{
+    width:40%;
+}
+#Collaboration{
+    width:40%;
+}
+
+#top{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.bottom-content .text-container{
+    padding-right:5%;
+}
+.bottom-content .text-container:last-child{
+    padding-right: 0%;
+}
+
+footer {
+    width:100%;
+    background: black;
+}
+
+footer nav{
+    width:60%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20%;
+    font-size:1.4em;
+}
+
+footer nav a{
+    color:white;
+    text-decoration: none;
+}
