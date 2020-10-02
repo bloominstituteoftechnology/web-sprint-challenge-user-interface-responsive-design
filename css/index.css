@@ -71,12 +71,13 @@ p {
     margin: 0 auto;
 }
 
+/* header styling */
+
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin 20px 0;
 }
 
 header nav a {
