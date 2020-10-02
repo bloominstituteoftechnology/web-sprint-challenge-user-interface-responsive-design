@@ -59,13 +59,6 @@ header {
     width: 50%;
 }
 
-header div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -220,22 +213,33 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px dashed black;
 }
 
 #strategy {
     width: 40%;
+    margin: 5px;
+    border-bottom: 1px dashed black;
 }
 
 #how {
     width: 40%;
+    margin: 5px;
+    border-bottom: 1px dashed black;
 }
 
 #places {
     width: 40%;
+    margin: 5px;
+    border-bottom: 1px dashed black;
 }
 
 #collaboration {
     width: 40%;
+    margin: 5px;
+    border-bottom: 1px dashed black;
 }
 
 #top {
@@ -243,4 +247,48 @@ footer nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+button {
+    padding: 10px 15px 10px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 15%;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+#aboutheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#aboutinro {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#abouttop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 50%;
+}
+#jumboabout {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutNav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
 }
