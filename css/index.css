@@ -248,6 +248,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -259,8 +260,14 @@ footer nav a {
 }
 
 
+
+
 /*about page*/
 
+*{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
 body {
     width: 100%;
 }
@@ -275,9 +282,8 @@ body {
     flex-wrap: nowrap;
     padding: 2%;
     align-items: baseline;
-    margin-bottom:1%;
-    
-} /*work more here*/
+    margin-bottom:1%;  
+} 
 
 .top-header .nav {
     width:100%;
@@ -295,7 +301,6 @@ body {
 .about {
     width:100%;
     border-bottom: 1px dashed black;
-    margin-bottom:2%;
 }
 
 .about p {
@@ -307,8 +312,9 @@ body {
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom:5px;
+
 }
 
 .info-boxes a {
@@ -317,7 +323,6 @@ body {
     border: 2px solid black;
     padding: 2%;;
     border-radius: 10px;
-    margin: 2% 0%;
     text-align:center;
     
 }
@@ -326,6 +331,9 @@ body {
 margin: 2% 0%;
 }
 
+.info-boxes img {
+    width: 100%;
+}
 .strategy {
     width:45%;
     padding: 5px;
@@ -334,7 +342,7 @@ margin: 2% 0%;
     border-bottom: 1px dashed black;
 }
 .how-we-work {
-    width:50%;
+    width:45%;
     padding: 5px;
     padding-bottom:3%;
     border-bottom: 1px dashed black;
@@ -349,7 +357,7 @@ margin: 2% 0%;
 .collaboration {
     margin-top:4%;
     padding: 5px;
-    width:50%;
+    width:45%;
     padding-bottom:3%;
     border-bottom: 1px dashed black;
 }
