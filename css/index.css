@@ -70,7 +70,32 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* HEADER STYLING */
+header{
+    display: flex;
+}
+header .lambdaLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header nav{
+    display:flex;
+    width:70%;
+    margin-left:30px;
+    margin-top:15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav a{
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+}
+header img{
+    padding: 20px 0px;
+}
+/* TOP CONTENT STYLING */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,59 +103,146 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img{
+    padding:20px;
+    margin:auto 0;  
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* MIDDLE CONTENT STYLING */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box:nth-child(1){
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box:nth-child(2){
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(3){
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(4){
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(5){
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(6){
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(7){
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(8){
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(9){
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box:nth-child(10){
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* BOTTOM CONTENT STYLING */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* FOOTER STYLING */
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,7 +251,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
