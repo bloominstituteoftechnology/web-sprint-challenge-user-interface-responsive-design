@@ -144,3 +144,115 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Nav */
+
+nav {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 3em;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero Image */
+
+.hero-image {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Boxes */
+
+.boxes .box:nth-child(1) {
+    background-color: #008080;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: #FFD700;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: #5F9EA0;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: #FF7F50;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: #DC143C;
+}
+
+.boxes .box:nth-child(6) {
+    background-color: #228B22;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: #9932CC;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: #FF69B4;
+}
+
+.boxes .box:nth-child(9) {
+    background-color: #4B0082;
+}
+
+.boxes .box:nth-child(10) {
+    background-color: #1E90FF;
+}
+
+
+/* About Page */
+
+.about-section {
+    border-bottom: 1px dotted black;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.bottom-row,
+.top-row {
+    display: flex;
+    width: 100%;
+    padding: 1em;
+}
+
+.content-box {
+    border-bottom: 1px dotted black;
+    padding-bottom: 1em;
+}
+
+button {
+    background-color: white;
+    border-radius: 4px;
+    padding: .5em 1.5em;
+    border-color: black;
+}
+
+.work-together {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 2em;
+}
+
+img {
+    padding-bottom: 1em;
+}
