@@ -87,7 +87,8 @@ span {
 }
 .section-box {
 	max-width: 50%;
-	margin: 20px 0;
+	margin-top: 15px;
+	margin-bottom: 20px;
 	border-bottom: 1px dashed black;
 	padding: 10px 20px;
 	align-content: space-around;
