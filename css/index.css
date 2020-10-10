@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+/* CSS Reset */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +25,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -47,6 +50,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Element Styles */
+
 * {
     box-sizing: border-box;
 }
@@ -58,6 +63,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    font-weight: bold;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -66,15 +72,36 @@ p {
     line-height: 1.4;
 }
 
+a {
+    margin: 20px 0;
+}
+
+/* Header Styles */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+/* Top Section */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -82,8 +109,10 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 10px;  
 }
+
+/* Middle Content Styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +133,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.b1 {
+    background-color: teal;
+}
+
+.b2 {
+    background-color: gold;
+}
+
+.b3 {
+    background-color: cadetblue;
+}
+
+.b4 {
+    background-color: coral;
+}
+
+.b5 {
+    background-color: crimson;
+}
+
+.b6 {
+    background-color: forestgreen;
+}
+
+.b7 {
+    background-color: darkorchid;
+}
+
+.b8 {
+    background-color: hotpink;
+}
+
+.b9 {
+    background-color: indigo;
+}
+
+.b10 {
+    background-color: dodgerblue;
+}
+
+/* Bottom Content Styles */
 
 .bottom-content {
     display: flex;
@@ -125,6 +195,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styles */
 
 footer {
     width: 100%;
@@ -143,4 +215,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE */
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-item-top {
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: 2px dashed gray;
+}
+
+.about-item {
+    width: 370px;
+    border-bottom: 2px dashed gray;
+    margin: 30px 10px 0 10px;
+}
+
+.about-item img {
+    margin: 10px 0;
+}
+
+.about-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-item-bottom {
+    width: 100%;
+    height: 200px;
+    padding: 0 20px;
 }
