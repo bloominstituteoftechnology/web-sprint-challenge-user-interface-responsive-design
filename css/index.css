@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -160,4 +160,32 @@ footer nav a {
 }
 .top-image {
     padding-bottom: 25px;
-}    
+}
+
+.middle-content .boxes .box + div {
+    background: gold;
+}
+.middle-content .boxes .box + div +div {
+    background: cadetblue;
+}
+.middle-content .boxes .box + div +div +div {
+    background: coral;
+}
+.middle-content .boxes .box + div +div +div +div{
+    background: crimson;
+}
+.middle-content .boxes .box + div +div +div +div +div {
+    background: forestgreen;
+}
+.middle-content .boxes .box + div +div +div +div +div + div{
+    background: darkorchid;
+}
+.middle-content .boxes .box + div +div +div +div +div +div +div{
+    background: hotpink;
+}
+.middle-content .boxes .box + div +div +div +div +div +div +div +div{
+    background: indigo;
+}
+.middle-content .boxes .box + div +div +div +div +div +div +div +div +div{
+    background: dodgerblue;
+}
