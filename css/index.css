@@ -28,6 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* element adjusters */
 body {
 	line-height: 1;
 }
@@ -65,10 +67,17 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* Containers */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+section-container {
+	display: flex;
+	flex-flow: row wrap;
+}
+section-box {
+	width: 50%;
 }
 
 .top-content {
