@@ -67,6 +67,12 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+span {
+	border: 2px solid black;
+	border-radius: 25%;
+}
+
 /* Containers */
 .container {
     width: 800px;
@@ -78,7 +84,8 @@ p {
 }
 .section-box {
 	max-width: 50%;
-	background: gray;
+	margin: 20px 0;
+	border-bottom: 1px dashed black;
 }
 
 .top-content {
