@@ -71,6 +71,7 @@ p {
 span {
 	border: 2px solid black;
 	border-radius: 25%;
+	padding: 10px 20px;
 }
 
 /* Containers */
