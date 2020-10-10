@@ -68,9 +68,12 @@ p {
     line-height: 1.4;
 }
 
+br { 
+    height: 20px;
+}
 span {
 	border: 2px solid black;
-	border-radius: 5%;
+	border-radius: 2.5%;
 	padding: 5px 15px;
 	margin-top: 40px;
 	margin-bottom: 30px;
