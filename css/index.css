@@ -176,25 +176,36 @@ nav {
 
 button.about {
     display: block;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    margin:10px;
+    margin:15px;
 }
 
 div.flex-containerabout{
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    margin: 5px;
+    justify-content: space-around;
+    
 } 
 
 .flex-containerabout>div {
-     border-bottom: dotted 2px black; 
-    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+     border-bottom: dashed 1px black;  
+     border-right: 500px;
+     width: 50%;
+    justify-content: space-between;
+    margin-bottom: 20px;
  
 }
 
 section {
-    border-bottom: black dotted 2px;
+    border-bottom: black dashed 2px;
+    padding-bottom: 20px;
+}
+
+h3 {
     padding: 10px;
 }
