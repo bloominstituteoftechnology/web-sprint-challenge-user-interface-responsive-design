@@ -83,7 +83,7 @@ p {
 .header {
     display: flex;
     flex-flow: row wrap;
-    padding-bottom: 1.5em;
+    padding-bottom: .5em;
     padding-top: 1.5em;
     width: 800px;
     align-self: center;
@@ -203,6 +203,7 @@ ABOUT PAGE CSS STARTS HERE */
     height: 7em;
     padding: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .about-section h2 {
