@@ -113,36 +113,38 @@ p {
 }
 
 /*box color ids */
-
+.box {
+	color: white;
+}
 #tealBox {
-	color: teal;
+	background: teal;
 }
 #goldBox {
-	color: gold;
+	background: gold;
 }
 #cadetBlueBox {
-	color: cadetblue;
+	background: cadetblue;
 }
 #coralBox {
-	color: coral;
+	background: coral;
 }
 #crimsonBox {
-	color: crimson;
+	background: crimson;
 }
 #forestGreenBox {
-	color: forestgreen;
+	background: forestgreen;
 }
 #darkOrchidBox {
-	color: darkorchid;
+	background: darkorchid;
 }
 #hotpinkBox {
-	color: hotpink;
+	background: hotpink;
 }
 #indigoBox {
-	color: indigo
+	background: indigo
 }
 #dodgerBlueBox {
-	color: dodgerblue;
+	background: dodgerblue;
 }
 	
 /*color box id section above*/
