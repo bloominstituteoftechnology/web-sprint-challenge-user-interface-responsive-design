@@ -72,11 +72,11 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-section-container {
+.section-container {
 	display: flex;
 	flex-flow: row wrap;
 }
-section-box {
+.section-box {
 	max-width: 50%;
 }
 
