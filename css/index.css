@@ -86,6 +86,7 @@ span {
 	max-width: 50%;
 	margin: 20px 0;
 	border-bottom: 1px dashed black;
+	padding: 10px 20px;
 }
 
 .top-content {
