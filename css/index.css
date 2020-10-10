@@ -181,3 +181,20 @@ button.about {
     border-radius: 5px;
     margin:10px;
 }
+
+div.flex-containerabout{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+} 
+
+.flex-containerabout>div {
+     border-bottom: dotted 2px black; 
+    width: 50%;
+ 
+}
+
+section {
+    border-bottom: black dotted 2px;
+    padding: 10px;
+}
