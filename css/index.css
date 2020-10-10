@@ -190,20 +190,43 @@ footer nav a {
 .middle-content .boxes .box + div +div +div +div +div +div +div +div +div{
     background: dodgerblue;
 }
+
+/* Starting of styling for about page */
+
 .about-top-content {
     margin-bottom: 20px;
     padding: 0 10px 20px 10px;
     border-bottom: 1px dashed black;
 
 }.mid-top-row-flex-container {
-    display: flex;
+    display: flex;    
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 .mid-bottom-row-flex-container {
-    display: flex;
+    display: flex; 
     margin-bottom: 20px;
     padding-bottom: 20px;
+    
+}
+.about-bottom-content {
+    padding: 20px 10px 30px 10px;
+}
+.image-padding {
+    padding-bottom: 8px;
+}
+.learn-more-link {
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 6px 15px 6px 15px;   
+    border: solid black 2px;
+    border-radius: 9px;
+    color: black;
+    font-size: 16px;
+}
+.bottom-border-styling {
+    padding-bottom: 25px;
     border-bottom: 1px dashed black;
+    margin-right: 30px;
 }
