@@ -334,7 +334,12 @@ footer nav a {
 
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
 }
