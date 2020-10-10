@@ -109,9 +109,6 @@ body {
   line-height: 1;
 }
 
-.container {
-  min-height: 2000px;
-}
 ol,
 ul {
   list-style: none;
@@ -159,6 +156,7 @@ p {
 .container {
   width: 800px;
   margin: 0 auto;
+  min-height: 1000px;
 }
 
 .top-content {
@@ -332,4 +330,11 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
