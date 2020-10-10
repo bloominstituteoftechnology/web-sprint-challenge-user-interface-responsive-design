@@ -90,6 +90,7 @@ span {
 	margin: 20px 0;
 	border-bottom: 1px dashed black;
 	padding: 10px 20px;
+	align-content: space-around;
 }
 
 .top-content {
