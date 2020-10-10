@@ -71,6 +71,46 @@ p {
     margin: 0 auto;
 }
 
+/* ------------- START HERE ------------- */
+
+.header-section {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    justify-content: space-between;
+}
+
+.lambda-logo {
+    width: 25%;
+}
+
+.header-nav {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+    padding: 2em;
+}
+
+.header-nav a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.header-banner {
+    padding: 1.5em 0em;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +151,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
