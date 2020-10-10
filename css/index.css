@@ -77,7 +77,7 @@ section-container {
 	flex-flow: row wrap;
 }
 section-box {
-	width: 50%;
+	max-width: 50%;
 }
 
 .top-content {
