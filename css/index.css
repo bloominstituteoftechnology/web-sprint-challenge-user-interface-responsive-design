@@ -78,6 +78,7 @@ p {
 }
 .section-box {
 	max-width: 50%;
+	background: gray;
 }
 
 .top-content {
