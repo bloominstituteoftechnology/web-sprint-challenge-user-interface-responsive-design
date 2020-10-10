@@ -343,3 +343,21 @@ header nav a {
   text-decoration: none;
   color: black;
 }
+
+.container-about-page {
+  min-height: 2000px;
+}
+
+.about-body {
+  text-align: center;
+}
+
+.about-body header nav {
+  width: 730px;
+  margin-left: 220px;
+}
+
+.about-body header nav a {
+  display: flex;
+  align-items: flex-end;
+}
