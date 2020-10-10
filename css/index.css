@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 16px;
 }
 
 .container {
@@ -188,4 +189,21 @@ footer nav a {
 }
 .middle-content .boxes .box + div +div +div +div +div +div +div +div +div{
     background: dodgerblue;
+}
+.about-top-content {
+    margin-bottom: 20px;
+    padding: 0 10px 20px 10px;
+    border-bottom: 1px dashed black;
+
+}.mid-top-row-flex-container {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.mid-bottom-row-flex-container {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
