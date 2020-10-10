@@ -182,7 +182,11 @@ span {
 
 .section-box span {
 	margin: 10px 0;
-}	
+}
+section p {
+	margin-bottom: 30px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
