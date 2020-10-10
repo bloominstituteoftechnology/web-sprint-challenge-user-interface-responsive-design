@@ -112,6 +112,40 @@ p {
     justify-content: center;
 }
 
+/*box color ids */
+
+#tealBox {
+	color: teal;
+}
+#goldBox {
+	color: gold;
+}
+#cadetBlueBox {
+	color: cadetblue;
+}
+#coralBox {
+	color: coral;
+}
+#crimsonBox {
+	color: crimson;
+}
+#forestGreenBox {
+	color: forestgreen;
+}
+#darkOrchidBox {
+	color: darkorchid;
+}
+#hotpinkBox {
+	color: hotpink;
+}
+#indigoBox {
+	color: indigo
+}
+#dodgerBlueBox {
+	color: dodgerblue;
+}
+	
+/*color box id section above*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
