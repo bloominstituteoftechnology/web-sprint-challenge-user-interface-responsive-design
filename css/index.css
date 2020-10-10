@@ -89,11 +89,10 @@ span {
 	flex-flow: row wrap;
 }
 .section-box {
-	width: 400px;
+	width: 375px;
 	max-width: 50%;
 	margin-top: 15px;
 	margin-bottom: 20px;
-	margin-right: 10px;
 	border-bottom: 1px dashed black;
 	padding: 10px 20px;
 	align-content: space-around;
