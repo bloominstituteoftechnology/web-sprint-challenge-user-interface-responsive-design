@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 800px;
+    padding: 10px 10px 20px;
+    margin: 0 auto;
+}
+
+.header-container img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-container a {
+    padding: 10px 30px 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
