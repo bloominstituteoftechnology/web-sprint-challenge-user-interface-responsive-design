@@ -87,8 +87,10 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+
 }
+
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -140,7 +142,74 @@ footer nav {
     font-size: 14px;
 }
 
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    padding-right: 45px;
+    font-size: 14px;
+}
+
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav a {
+    color:black;
+    text-decoration: none;
+}
+
+#header-image-div{
+    padding: 15px;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+}
+
+#box-1{
+ background-color: teal;
+}
+#box-2{
+    background-color: gold;
+}
+#box-3{
+    background-color: cadetblue;
+}
+#box-4{
+    background-color: coral;
+}
+#box-5{
+    background-color: crimson;
+}
+#box-6{
+    background-color: forestgreen;
+}
+#box-7{
+    background-color: darkorchid ;
+}
+#box-8{
+    background-color: hotpink ;
+}
+#box-9{
+    background-color: indigo;
+}
+#box-10{
+    background-color: dodgerblue;
+}
+
+p {
+    
+    padding: 20px
+}
+
+h2 {
+    padding: 20px
 }
