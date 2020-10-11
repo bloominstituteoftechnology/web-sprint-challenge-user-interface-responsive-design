@@ -46,6 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* RESET */
+
+
 
 * {
     box-sizing: border-box;
@@ -54,6 +57,31 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+header img {
+}
+
+nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin: 20px 0px;
 }
 
 h1, h2, h3, h4, h5 {
