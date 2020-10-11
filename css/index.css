@@ -167,3 +167,83 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*This is for the about page*/
+
+.body{font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;}
+
+.containerabout-page{width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+
+    .aboutsection{display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px dashed black;}
+    
+    .strategytext{display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width:50%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        }
+
+    .howwework{display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width:50%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        }
+
+    .placeswework{display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width:50%;
+        padding-right: 15px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;}
+
+    .collaboration{display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width:50%;
+        padding-left: 15px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;}
+
+        .learnmore{font-weight: bold;
+            font-size: 15px;
+            border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        width:30%;
+        border-style: solid;
+        border-color: #0a0a0a;
+        border-width: 3px;}
+
+        .h2{padding-top: 20px;
+        padding-bottom: 5px;}
+
+        .p{padding-top: 10px;
+            padding-bottom: 10px;}
+
+    .letsworktogether{padding-top: 30px;
+        padding-bottom: 30px;}
+
