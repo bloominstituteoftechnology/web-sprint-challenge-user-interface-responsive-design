@@ -348,16 +348,42 @@ header nav a {
   min-height: 2000px;
 }
 
-.about-body {
-  text-align: center;
-}
-
 .about-body header nav {
-  width: 730px;
-  margin-left: 220px;
+  width: 900px;
 }
 
 .about-body header nav a {
   display: flex;
   align-items: flex-end;
+}
+
+.container-about-page p {
+  margin-top: 30px;
+  margin-left: 220px;
+}
+
+.about-body header img {
+  margin-left: 220px;
+}
+
+.one {
+  margin-right: 230px;
+}
+
+.horizontal_dotted_line {
+  border-bottom: 1px dotted black;
+  width: 820px;
+  margin-left: 220px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-about-page section {
+  display: flex;
+}
+
+.about-section img,
+p,
+button {
+  display: flex;
 }
