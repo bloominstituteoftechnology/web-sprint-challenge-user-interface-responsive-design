@@ -57,7 +57,12 @@ html, body {
 }
 
 
-
+.container header nav img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    
+  }
 .container header nav a {
     margin: 20px 10px;
     padding: 20px;
@@ -69,7 +74,9 @@ html, body {
   }
 
 .container header nav img {
-    margin: 20px 0 0 10px;
+    margin: 20px 20px 0 20px;
+    width: 100%;
+    height: auto;
 }
 
 .header-img {
@@ -79,12 +86,17 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin-left: 10px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
+    margin-left: 10px;
     line-height: 1.4;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+   
 }
 
 .container {
@@ -138,7 +150,7 @@ p {
 }
 
 .footer-para{
-    margin-bottom: 20px;
+    margin-bottom:  40px;
 }
 
 footer {
@@ -159,4 +171,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* mobile devie styles */
+@media screen and (max-width: 600px)
+{
+
+
+    .container header nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column ;
+         justify-content: center;  
+      }
+    
+
+      p {
+        font-size: 15px;
+    }
+    
+    
 }
