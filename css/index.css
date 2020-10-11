@@ -167,6 +167,7 @@ header nav {
 
 nav a {
     font-family: 'Rubik', sans-serif;
+    font-size: 15px;
     text-decoration: none;
     color: black;
     margin: 10px;
