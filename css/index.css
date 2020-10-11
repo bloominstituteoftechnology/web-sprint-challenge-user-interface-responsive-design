@@ -169,7 +169,6 @@ p {
     background: dodgerblue;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -201,4 +200,30 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS for page-specific styling on About page */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#about-head-content {
+    border-bottom: 2px dotted  black;
+    padding: 0 0 15px 15px;
+    margin: 0 0 20px 0;
+}
+
+.about-content-1 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+}
+
+.about-content-2 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
 }
