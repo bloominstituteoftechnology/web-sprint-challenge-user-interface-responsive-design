@@ -144,3 +144,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    padding: 40px 0;
+}
+
+header nav {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+
+
+}
+
+.stuff {
+    display:flex;
+    margin-bottom: 32px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav a {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.Lambda {
+    padding: 10px;
+}
+    
+
+
+
+
