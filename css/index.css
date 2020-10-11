@@ -345,10 +345,7 @@ header nav a {
 }
 
 .container-about-page {
-  min-height: 2000px;
-}
-
-.about-body header nav {
+  min-height: 4000px;
   width: 900px;
 }
 
@@ -368,6 +365,7 @@ header nav a {
 
 .one {
   margin-right: 230px;
+  width: 800px;
 }
 
 .horizontal_dotted_line {
@@ -378,12 +376,23 @@ header nav a {
   margin-bottom: 30px;
 }
 
-.container-about-page section {
-  display: flex;
+#items-container img,
+p {
+  width: 200px;
 }
 
-.about-section img,
-p,
-button {
+#items-container {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.img1,
+.button1 {
+  margin-left: 220px;
+}
+
+.img2,
+.button2 {
+  margin-left: 220px;
 }
