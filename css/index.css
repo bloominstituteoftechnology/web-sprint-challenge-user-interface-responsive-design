@@ -259,5 +259,10 @@ button.learn-more {
     
 }
 
-
+.finish {
+    width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 15px 0;
+}
 
