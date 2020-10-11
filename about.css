@@ -101,17 +101,53 @@ a:hover, a:active { text-decoration: none; }
 
 .imgboxes{
     display: flex;
-    /* flex-wrap: wrap; */
-    align-content: flex-start;
+    
+    
 }
 
 .imgboxes2{
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
 }
 
+/* STRATEGY BOX */
+
 .box1 {
-    display: flex;
-    flex-direction: column;
+   width: 370px;
+   margin:0 0 0 2%;
 }
+
+.subBox1 > section{
+    margin: 2% 0 2% 0;
+}
+
+.subBox1 > p{
+    margin: 2% 0 2% 0;
+    
+}
+
+.subBox1 {
+    border-bottom: dashed 1px;
+}
+
+button{
+    margin: 2% 0 3% 0;
+    border-radius: 10%;
+    padding: 1%;
+    
+}
+
+.subBox2 > section{
+    margin: 2% 0 2% 0; 
+}
+
+.subBox2 > p{
+    margin: 2% 0 2% 0;
+}
+
+.box2 {
+    width: 370px;
+    margin:0 0 0 3%;
+}
+
+.subBox2 {
+    border-bottom: dashed 1px;
