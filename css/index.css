@@ -212,7 +212,9 @@ nav a {
     flex-direction: column;
     flex-grow: 1;
     text-align: justify;
-    
+    padding-bottom: 10px;
+    border-bottom: black dashed;
+    margin: 1%;
     
 }
 
@@ -235,5 +237,27 @@ button.learn-more {
     font-size: 16px;
     margin: 2%;
 }
+
+.collab  {
+    display: flex;
+    flex-direction: row;
+}
+
+.collab h3 {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.collab .item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: justify;
+    padding-bottom: 10px;
+    border-bottom: black dashed;
+    margin: 1%;
+    
+}
+
 
 
