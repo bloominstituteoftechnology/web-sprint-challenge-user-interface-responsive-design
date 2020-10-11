@@ -72,7 +72,7 @@ p {
 }
 
 .first {
-    padding: 20px 0;
+    padding: 10px 0;
     
     
 }
@@ -86,6 +86,8 @@ p {
 .first h2 {
     padding: 20px 0;
 }
+
+
 
 .top-content {
     display: flex;
@@ -194,8 +196,44 @@ nav a {
 .Lambda {
     padding: 10px;
 }
+   
+.strats {
+    display: flex;
+    flex-direction: row;
+
+}
+.strats h3 {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.strats .item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: justify;
     
+    
+}
 
+.item p {
+    padding: 10px;
+}
 
+.item img {
+    padding: 30px 10px;
+
+    
+}
+
+button.learn-more {
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    margin: 2%;
+}
 
 
