@@ -62,9 +62,9 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-* {
+/* * {
     border:1px solid black !important;
-}
+} */
 
 p {
     line-height: 1.4;
@@ -73,7 +73,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 header {
@@ -223,4 +223,37 @@ footer nav a {
 }
 
 /* BELOW IS ABOUT STYLING */
+.about-page div .ap, .strats, .hwwdiv, .pww, .collab  {
+    border-bottom:dotted 2px;
+    padding-bottom:2%
+}
 
+.strats, .pww {
+    margin-right:2%;
+}
+
+.hwwdiv, .collab {
+    margin-left:2%
+}
+.strategyhww {
+    display:flex;
+    margin: 5% 0;
+}
+
+.pwwcollab {
+    display:flex;
+    margin: 5% 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.learnmore {
+    border-radius: 15%;
+    background-color: white;
+    border:solid black 2px;
+    padding: 2% 6%;
+    font-weight:bold;
+}
