@@ -15,8 +15,9 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	/* font: inherit; */
+    vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -107,6 +108,7 @@ a:hover, a:active { text-decoration: none; }
 
 .imgboxes2{
     display: flex;
+    margin-top: 5%;
 }
 
 /* STRATEGY BOX */
@@ -129,12 +131,16 @@ a:hover, a:active { text-decoration: none; }
     border-bottom: dashed 1px;
 }
 
+/* LEARN MORE BUTTONS */
+
 button{
-    margin: 2% 0 3% 0;
-    border-radius: 10%;
-    padding: 1%;
+    margin: 2% 0 6% 0;
+    border-radius: 6px;
+    padding: 2% 3%;
     
 }
+
+/* HOW WE WORK */
 
 .subBox2 > section{
     margin: 2% 0 2% 0; 
@@ -151,3 +157,60 @@ button{
 
 .subBox2 {
     border-bottom: dashed 1px;
+}
+
+/* PLACES WE WORK */
+
+.box3 {
+    width: 370px;
+    margin:0 0 0 2%;
+}
+     
+.subBox3 > section{
+    margin: 2% 0 2% 0;
+}
+     
+.subBox3 > p{
+    margin: 2% 0 2% 0;
+}
+     
+.subBox3 {
+    border-bottom: dashed 1px;
+}
+
+/*  COLLABORATION  */
+
+.subBox4 > section{
+    margin: 2% 0 2% 0; 
+}
+     
+.subBox4 > p{
+    margin: 2% 0 2% 0;
+}
+     
+.box4 {
+    width: 370px;
+    margin:0 0 0 3%;
+}
+     
+.subBox4 {
+    border-bottom: dashed 1px;
+}
+
+/* FOOOOOOOOOOTER */
+
+.footerAbout {
+    margin-top: 7%;
+}
+
+.footerAbout > p{
+    margin: 2% 0 5% 0
+}
+
+footer > nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    padding: 2% 45% 2% 2%;
+}
