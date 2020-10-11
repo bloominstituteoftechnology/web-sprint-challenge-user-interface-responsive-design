@@ -237,7 +237,7 @@ footer nav a {
     display: flex;
     flex-direction: column;
     border-bottom: 2px dotted black;
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
 }
 
 .about-content-3 {
@@ -251,9 +251,18 @@ footer nav a {
     display: flex;
     flex-direction: column;
     border-bottom: 2px dotted black;
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
 }
 
+button {
+    font-size: 0.9em;
+    border-radius: 8px;
+    background: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    margin: 20px auto 0 0;
+}
 .footer-section {
     padding: 50px 10px 30px 10px;
 }
