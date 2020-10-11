@@ -207,7 +207,17 @@ footer nav a {
 .about-page {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
 
+.about-row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-row2 {
+    display: flex;
+    flex-direction: row;
 }
 
 #about-head-content {
@@ -218,12 +228,32 @@ footer nav a {
 
 .about-content-1 {
     display: flex;
-    flex-direction: row;
-    flex-flow: nowrap;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 0 30px 0 0;
 }
 
 .about-content-2 {
     display: flex;
-    flex-direction: row;
-    flex-flow: nowrap;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 0 0 30px 0;
+}
+
+.about-content-3 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 0 30px 0 0;
+}
+
+.about-content-4 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 0 0 30px 0;
+}
+
+.footer-section {
+    padding: 50px 10px 30px 10px;
 }
