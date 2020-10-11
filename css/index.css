@@ -207,18 +207,18 @@ footer nav a {
 .about-page {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .about-row1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .about-row2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #about-head-content {
