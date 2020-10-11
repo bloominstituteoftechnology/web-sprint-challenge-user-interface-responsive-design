@@ -170,7 +170,7 @@ footer nav a {
 /*This is for the about page*/
 
 .body{font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;}
+    font-weight: bold;}
 
 .containerabout-page{width: 800px;
     margin: 0 auto;
@@ -229,14 +229,14 @@ font-weight: bold;}
         border-bottom: 1px dashed black;}
 
         .learnmore{font-weight: bold;
-            font-size: 15px;
-            border-radius: 10px;
-        background-color: white;
-        padding: 10px;
-        width:30%;
-        border-style: solid;
-        border-color: #0a0a0a;
-        border-width: 3px;}
+                   font-size: 15px;
+                   border-radius: 10px;
+                   background-color: white;
+                   padding: 10px;
+                   width:30%;
+                   border-style: solid;
+                   border-color: #0a0a0a;
+                   border-width: 3px;}
 
         .h2{padding-top: 20px;
         padding-bottom: 5px;}
