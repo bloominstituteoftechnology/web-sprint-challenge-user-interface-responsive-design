@@ -354,6 +354,10 @@ header nav a {
   align-items: flex-end;
 }
 
+.about-body header nav {
+  width: 1000px;
+}
+
 .container-about-page p {
   margin-top: 30px;
   margin-left: 220px;
@@ -395,4 +399,29 @@ p {
 .img2,
 .button2 {
   margin-left: 220px;
+}
+
+.dotted-line-one {
+  border-bottom: 1px dotted black;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dotted-line-two {
+  border-bottom: 1px dotted black;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bottom-one {
+  width: ;
+}
+
+.about-body footer {
+  margin-left: 220px;
+  width: 800px;
 }
