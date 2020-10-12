@@ -1,0 +1,28 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+  -- I would simply just say that when you see semantic elements, you can say and guess their meaning. With non-semantic elements, like <span>, you would not be able to do this.
+
+
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+  -- In Inline display any any height and width properties will have no effect. Block display starts on a new line and takes up the whole width. 
+
+
+
+3. What are the 4 areas of the box model?
+
+  -- They are, starting from the most inner area: content, padding, border and margin. 
+
+
+
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+  -- The cross axis
+
+
+
+5. Explain why git is valuable to a team of developers.
+
+  -- It is valuable, because there are many independent versions of a single project. Everyone makes commits, so changes are marked and also it is possible to come back to a specific step; there is a history of the steps. By making own branches, the main code is not changed, but there are many versions of work. 
