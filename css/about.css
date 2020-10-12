@@ -66,17 +66,19 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+button {
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+    border: 2px solid black;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.container{
+    width: 800px;
+    margin: 0 auto;
 }
 
 header {
@@ -86,63 +88,55 @@ header {
 
 .top-nav-bar {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
     justify-content: space-around;
     width: 100%;
-    align-items: flex-end;
-    font-weight: bold;
-    font-size: 14px;
-    color: black;
 }
 
 .top-nav {
     text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
+.top-content {
     border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.text-container {
+    padding: 0 2%;
+    padding-bottom: 20px;
+
+}
+
+.middle-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.content-holder {
+    border-bottom: 1px dashed black;
+    margin: 15px;
+    max-width: 46%;
+}
+.content-holder p {
+    max-width: 90%;
+
+}.middle-text-container * {
+    margin: 12px 0px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottom-content{
+    padding: 25px;
+    margin: 10px 0px;
 }
 
 footer {
