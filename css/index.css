@@ -79,6 +79,24 @@ p {
     border-bottom: 1px dashed black;
 }
 
+header {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.top-nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.top-nav {
+    text-decoration: none;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -138,6 +156,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {
