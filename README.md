@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is basically a bunch of attribues in HTML that tell what the content inside of the attributes will be about.
+    For example, a <p> will always contain a paragraph of text. Nothing more. <nav> will be a navigation bar.
+    <div> on the other hand, can be a slew of things; it is not semantic
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    Display: block causes the child elements to display one after the other as if there was a line break in between all children.
+    Display: inline causes the child elements to display all on the same line, one after the other.
 
 3. What are the 4 areas of the box model?
+    From inside out: content, padding, border, margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    align-items: center; will center items on the vertical axis, or on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
+    git is valuable to a team of developers because it allows the team as a whole to see who made what changes to the code and when. Also, git will allow the code to be reverted back to a previous state, as it is inherently version control.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -71,25 +79,25 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [*] box1: `teal`
+* [*] box2: `gold`
+* [*] box3: `cadetblue`
+* [*] box4: `coral`
+* [*] box5: `crimson`
+* [*] box6: `forestgreen`
+* [*] box7: `darkorchid`
+* [*] box8: `hotpink`
+* [*] box9: `indigo`
+* [*] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [*] Copy and paste your home page navigation and header into the about page
+* [*] Update the header image with the about page image
+* [*] Link the `Home` navigation item back to the `index.html` page.
+* [*] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
