@@ -115,16 +115,23 @@ ul {
 .header nav {
   width: 60%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-end;
   padding: 20px 2%;
   font-size: 14px;
   float: right;
   text-decoration: none;
 }
-.header a {
-  text-decoration: none;
+.black {
+  display: flex;
+  width: 100%;
+  margin: 100px;
 }
+
+button {
+  margin: 10px;
+}
+
 .header blockquote,
 q {
   quotes: none;
@@ -139,6 +146,53 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.border {
+  /* border-bottom-style: 6px; */
+  /* border-bottom: dotted 3px;
+  margin: 30px; */
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px dashed black;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.about p {
+  margin: 20px;
+}
+
+.strategy {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.work {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.place {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.collabration {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.text {
+  margin: 30px;
+  box-sizing: border-box;
+  padding-top: 50px;
 }
 
 * {
