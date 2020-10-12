@@ -66,9 +66,17 @@ p {
     line-height: 1.4;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex {
+    flex-wrap: wrap;
+}
+
 .header-nav {
     width: 800px;
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
@@ -91,6 +99,11 @@ nav a {
 .container {
     width: 800px;
     margin: 0 auto;
+    
+}
+
+.container .half {
+    width: 50%;
 }
 
 .top-content {
@@ -172,6 +185,17 @@ nav a {
     background: dodgerblue;
 }
 
+button {
+    display: block;
+    padding: 5px 18px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.border {
+    border-bottom: 4px dotted black;
+}
 
 
 .bottom-content {
