@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav #lambda{
+    align-content: center;
+    margin-left: 500px;
+}
+nav .buttons a {
+    align-content: center;
+    margin-left: 500px;
+}
+#container {
+    width: 100%;
+    height: 500%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#item {
+    height: 300px;
+    width: 300px;
+    align-items: stretch;
+    align-content: space-around;
+    flex-basis: 30%;
+}

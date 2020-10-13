@@ -46,6 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.aurora {
+    border: 1500px;
+    padding: 50px;
+}
 
 * {
     box-sizing: border-box;
@@ -60,6 +64,21 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav .buttons a  {
+    align-content: space-between;
+    align-content: flex-end;
+    width: 100%;
+    
+    }
+#about, #products, #contact, #blog, #home {
+    font-size: 20px;
+    margin-left: 85px;
 }
 
 p {
@@ -111,6 +130,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes #box1{
+    background-color: teal;
+}
+.boxes #box2{
+    background-color: gold;
+}
+.boxes #box3 {
+    background-color: cadetblue;
+}
+.boxes #box4 {
+    background-color: coral;
+}
+.boxes #box5{
+    background-color: crimson;
+}
+.boxes #box6 {
+    background-color: forestgreen;
+}
+.boxes #box7 {
+    background-color: darkorchid;
+}
+.boxes #box8 {
+    background-color: hotpink;
+}
+.boxes #box9 {
+    background-color: indigo;
+}
+.boxes #box10 {
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +192,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav #lambda{
+    align-content: center;
+    margin-left: 400px;
+}
+nav .buttons a {
+    align-content: center;
+    margin-left: 500px;
+    margin-left: 50px;
+}
+img .skyline {
+    margin-left: 50px;
+}
+.dotted {
+    border: none;
+    border-top: 1px dashed;
+    color: #000;
+    width: 65%;
+}
+
+.container-about-page {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    flex: wrap 2;
+    margin-left: 10px;
+}
+.item1 .item2 .item3 .item4{
+    flex: 1;
+    margin: 25px;
+}
+.item2 {
+    margin-left: 25px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.item1 {
+    margin-top: 10px;
+}
+.dot2{
+    border: none;
+    border-bottom: 2px dashed;
+    color: #000;
+    width: 40%
+}
+.item2 {
+    margin-top: 10px;
+}
+.item3 {
+    margin-top: 15px;
+}
+.item4 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.item2 .dot3 {
+    border: none;
+    border-bottom: 2px dashed;
+    color: #000;
+    width: 40%
+}
+.dot4 {
+    border: none;
+    border-bottom: 2px dashed;
+    color: #000;
+    width: 40%
+}
+.dot5 {
+    border: none;
+    border-bottom: 2px dashed;
+    color: #000;
+    width: 40%
+
+}
+.foot1 {
+    width: 75%;
+    height: 50px;
+}
+.navbar1 {
+    margin-top: 100px;
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
 }
