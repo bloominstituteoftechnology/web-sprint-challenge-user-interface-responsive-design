@@ -207,18 +207,26 @@ footer nav a {
 .about-page {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .about-row1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .about-row2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #about-head-content {
@@ -231,7 +239,9 @@ footer nav a {
     display: flex;
     flex-direction: column;
     border-bottom: 2px dotted black;
-    padding: 0 30px 0 0;
+    padding: 0 0 20px 0;
+    width: calc(50% - 1.2em);
+
 }
 
 .about-content-2 {
@@ -239,13 +249,17 @@ footer nav a {
     flex-direction: column;
     border-bottom: 2px dotted black;
     padding: 0 0 20px 0;
+    width: calc(50% - 1.2em);
+
 }
 
 .about-content-3 {
     display: flex;
     flex-direction: column;
     border-bottom: 2px dotted black;
-    padding: 50px 30px 0 0;
+    padding: 50px 0 20px 0;
+    width: calc(50% - 1.2em);
+
 }
 
 .about-content-4 {
@@ -253,6 +267,8 @@ footer nav a {
     flex-direction: column;
     border-bottom: 2px dotted black;
     padding: 50px 0 20px 0;
+    width: calc(50% - 1.2em);
+
 }
 
 button {
