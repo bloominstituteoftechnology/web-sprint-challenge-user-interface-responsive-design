@@ -144,3 +144,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* styles */
+.headerNav {
+    display: flex;
+    border:1px solid red;
+    margin-top: 5%;
+}
+
+.headerNav nav {
+    border:2px solid green;
+    display:flex;
+    align-items: flex-end; 
+}
+
+.headerNav nav a {
+    border:1px solid purple;
+    margin: 0 16%;
+    color:#232323;
+}
+
+.imgLogo {
+    margin: 5% 0;
+}
