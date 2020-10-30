@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -147,33 +147,34 @@ footer nav a {
 
 /* =============BOX COLOR HTML PAGE============= */
 .one {
-    color: teal;
+    background-color: teal;
 }
 .two {
-    color: gold; 
+    background-color: gold; 
 }
 .three {
-    color: cadetblue;
+    background-color: cadetblue;
 }
 .four {
-    color: coral;
+    background-color: coral;
 }
 .five {
-    color: crimson;
+    background-color: crimson;
 }
 .six {
-    color: forestgreen;
+    background-color: forestgreen;
 }
 .seven {
-    color: darkorchid;
+    background-color: darkorchid;
 }
 .eight {
-    color: hotpink;
+    background-color: hotpink;
 }
 .nine {
-    color: indigo;
+    background-color: indigo;
 }
 .ten {
-    color: dodgerblue;
+    background-color: dodgerblue;
 }
 /* ============================================== */
+
