@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is using tags that are both functional and descriptive. Not everyone immediately understands what a "div" is, but if you use the word "section" (when appropriate), your code will be much easier to understand.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Items that have display: block start a new line and take up the entire width of the section they are in.
+    Items that have display: inline will stay on the current line and take up only the width they need.
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    It works on the cross axis of the flex direction.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable for many reasons! First, it allows the storage of all their work in a remote repository (such as Github), versus being stored locally. By being stored remotely, it can be accessible to other collaborators anywhere in the world. For open source projects, it allows people to help with the project. And if you have a cool program (and your licensing allows it), people can build on top of it and the possibilities are endless! It allows for version control and code can be easily reverted to prior versions if necessary (ie if a bug pops up). It also helps bug tracking because they can go back through previous versions and see when the bug appeared and what was being worked on at that time. Another benefit is that it allows multiple people to work on the same code all at once, and then it can all be merged together easily.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
