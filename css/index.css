@@ -192,3 +192,14 @@ nav a{
 
 /* ABOUT PAGE CSS */
 
+.about-boxes {
+ display: flex; 
+ flex-wrap: wrap; 
+ /* border: red 1px solid;  */
+ max-width: 100%;
+ justify-content: space-evenly;
+}
+
+.about-box {
+    width: 35%;
+}
