@@ -206,6 +206,9 @@ header nav a{
 .topImg{
     margin-top: 20px;
 }
+.topAbout{
+    border-bottom: 1px dashed black;
+}
 
 .topAbout .textBox{
     margin-top: 20px;
@@ -225,7 +228,9 @@ button{
     background-color: white;
     border-radius: 10px;
     align-self: flex-start;
-    height:25px;
+    height:35px;
+    width:100px;
+    margin-bottom: 4%;
 }
 
 
@@ -235,10 +240,6 @@ button{
     flex-wrap:wrap;
 }
 
-.itemBox{
-    flex-wrap:wrap;
-    border-bottom: 1px dashed black;    
-}
 
 .midAbout .box{
     border-bottom: 1px dashed black;
@@ -246,5 +247,9 @@ button{
     margin-bottom: 5%;
     justify-content: space-around;
 
+}
+
+.midAbout .box p{
+    margin:4%;
 }
 
