@@ -46,15 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Universal styles*/
 
-* {
+*{
     box-sizing: border-box;
+    border: 2px solid black;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;    
+}    
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -65,6 +67,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* Header/ Navbar Contents Styles */
+
+.headerContainer{
+    width: 100vw;
+    height: 10vh;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.navbar a{
+    display: inline-flex;
+}
+
+/* thought i needed this as bg to header
+.bg-header-img{
+    background-image:url("img\jumbo.jpg");
+
+}
+*/
+
+
+
+
+/* top content styles */
 
 .container {
     width: 800px;
@@ -84,6 +120,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content Styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +150,8 @@ p {
     justify-content: center;
 }
 
+/* bottom content styles */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +165,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer content styles */
 
 footer {
     width: 100%;
