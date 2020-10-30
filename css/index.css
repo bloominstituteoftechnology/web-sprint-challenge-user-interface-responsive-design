@@ -149,28 +149,33 @@ footer nav a {
 /* Header Style*/
 
 header{
-    width:90%;
-    margin: 2% 20%;
-    display:flex;
-    /* justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-left: 17%;
+    
 }
 header .lambdaImg{
     display:flex;
     align-items: baseline;
     flex-wrap:wrap;
-    /* align-content: center;
-    justify-content: space-between; */
+    margin: 0 auto;
+
 }
 header .lambdaImg a{
-    margin:4%;
+    margin: 4%;
     text-decoration: none;
     color: black;
 }
 
 header .headerImg{
     align-content: center;
-
 }
+
+
+/* Box colors*/
+
 .middle-content .boxes .box1{
     background-color: teal;
 }
@@ -201,3 +206,35 @@ header .headerImg{
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
+
+/*about page styles*/
+
+
+.about-page{
+    width:90%;
+    height:auto;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content:space-around;
+    margin:2% 0;
+    border-bottom: 1px dashed black;
+    
+   
+}
+
+button{
+    background-color: white;
+    width:5rem;
+    height:2rem;
+    border-radius: 10px;
+}
+
+.itemBox{
+    display:flex;
+    align-items: center;
+    width:40%
+}
+
+
