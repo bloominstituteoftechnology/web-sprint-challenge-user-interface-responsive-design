@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes #box1 #box2 #box3 #box4 #box5 #box6 #box7 #box8 #box9 #box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,7 +111,98 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1 {background: teal; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#box2 {background: gold; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box3 {background:cadetblue; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box4 {background: coral; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box5 {background: crimson; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box6 {background: forestgreen; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box7 {background: darkorchid; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box8 {background: hotpink; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box9 {background: indigo; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box10 {background: dodgerblue; width: 12.5%;
+    height: 100px;
+   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +235,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
