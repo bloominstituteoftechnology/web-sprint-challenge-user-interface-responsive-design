@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, hgroup, 
 menu, output, ruby, section, summary,
 time, mark, audio, video {
 	/* margin: 0; */
@@ -154,40 +154,38 @@ footer nav a {
 .ten {
     background-color: dodgerblue;
 }
-/* ===================HEADER AREA ABOUT-FOCUS================== */
+/* ===================HEADER AREA================ */
 
 header nav {
-    margin: 0 auto; 
-}
-
-nav {
     display: flex;
     flex-wrap: wrap;
-    align-items: center; 
     justify-content: center;
+    margin: 0 auto;
+    width:65%;
+    /* border: 1px solid blue; */
 }
 
-.header-top {
-    display: flex; 
-    justify-content: space-between;
-    align-items: flex-end;
-    width:60%;
-    padding: 2%;
-}
-
-.top-right {
-    display:flex;
-    max-width: 100%;
-    box-sizing: border-box;
-    justify-content: space-around;
-}
-
-nav a{
+header nav .top-right a{
     text-decoration: none;
+    flex-wrap: none;
+}
+
+nav .header-top {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 1px green dashed; 
+    width: 87%;
+
+}
+
+nav .header-top .top-left {
+border: 1px green solid; 
+
 }
 
 .header-bottom {
-    max-width: 100%;
+border: 1px red solid; 
 }
 
 /* ABOUT PAGE CSS */
@@ -200,7 +198,6 @@ nav a{
 .about-boxes {
  display: flex; 
  flex-wrap: wrap; 
- /* border: red 1px solid;  */
  max-width: 100%;
  justify-content: space-evenly;
 }
