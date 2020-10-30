@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -70,6 +70,18 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav{
+    max-width: ;
+    display: flex;
+    flex: auto;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 25%;
+}
+.jumboContainer{
+    margin: 5%;
+}
 
 .top-content {
     display: flex;
@@ -104,12 +116,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -132,7 +174,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +186,82 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.jumboAbout{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+.about-page{
+    
+    
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px grey dashed;
+    border-top: 1px grey dashed;
+}
+.about{
+ padding-bottom: 2%;
+ text-justify: left;
+ 
+ border-top: 1px grey dashed;
+}
+.Middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px grey dashed;
+}
+h2{
+    margin-top: 5%;
+}
+.strategy{
+width: 20vw;
+height: 20vw;
+margin: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: left;
+}
+.howWeWork{
+    width: 20vw;
+    height: 20vw;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.placesWeWork{
+    width: 20vw;
+    height: 20vw;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.collaboration{
+    width: 20vw;
+    height: 20vw;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.LearnMore{
+    margin-top: 5%;
+    text-align: left;
+    background-color: white;
+    outline: black 2px;
+    border-radius: 50%;
+}
+.workTogether{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5%;
+}
+
