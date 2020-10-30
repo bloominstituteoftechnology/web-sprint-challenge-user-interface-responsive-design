@@ -193,7 +193,11 @@ nav {
     display: flex;
     justify-content: center;
 }
-    
+
+.corporateImgs {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
