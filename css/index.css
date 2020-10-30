@@ -47,7 +47,6 @@ table {
 }
 
 * {
-    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -169,15 +168,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-.container-about-page{
-
-    margin: 2% 2%;
-    font-size: 24px;
-}
-
 .about-image{
     width: 100%;
     margin: 0 auto;
 }
+.about-topics{
+    margin: 2%;
+}
+.container-about-page{
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
 
