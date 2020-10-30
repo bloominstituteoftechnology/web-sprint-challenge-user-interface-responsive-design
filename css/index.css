@@ -48,9 +48,9 @@ table {
 }
 /* Universal styles*/
 
-*{
-    box-sizing: border-box;
-    border: 2px solid black;
+*{  box-sizing: border-box;
+    max-width:100%;
+    border: 5px solid black;
 }
 
 html, body {
@@ -69,36 +69,48 @@ p {
 }
 
 /* Header/ Navbar Contents Styles */
-
+header{
+    width:100vw;
+    height:40vh;
+    border: 2 px solid red;
+}
 .headerContainer{
-    width: 100vw;
-    height: 10vh;
-
-    display:flex;
+    width: 90vw;
+    height: auto;
+    display:inline-block;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+    margin:0% auto;
+    padding:2% 2% 2% 2%;
+    border: 2px solid black;
 
 }
 
-.navbar{
+.headerNav{
     display:flex;
     flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
     
 }
 
-.navbar a{
+.headerNav a{
     display: inline-flex;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border:1px solid black; /* helps highlight my working area*/
 }
 
 /* thought i needed this as bg to header
 .bg-header-img{
     background-image:url("img\jumbo.jpg");
-
 }
 */
-
-
-
 
 /* top content styles */
 
@@ -121,7 +133,7 @@ p {
     padding-bottom: 20px;  
 }
 
-/* Middle Content Styles */
+/* Middle Content Styles/ BOXES */
 
 .middle-content {
     margin-bottom: 20px;
@@ -149,6 +161,10 @@ p {
     align-items: center;
     justify-content: center;
 }
+.box .b1{
+    background: teal;
+}
+
 
 /* bottom content styles */
 
