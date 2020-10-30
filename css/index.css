@@ -56,6 +56,138 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+    
+    
+    
+
+}
+#navlist{
+    display: flex;
+    margin-right: 30%;
+}
+#navlist li{
+    margin: 20% 15% 0 3%;
+    font-size: 1.5rem;
+}
+#navlist li a{
+    text-decoration: none;
+    color: black;
+
+}
+#nav img{
+    margin: 3% 0 0 10%;
+}
+#navdiv{
+    margin-bottom: 3%;
+}
+#road{
+    display: flex;
+    margin: auto auto 3%;
+
+}
+#sky{
+    display: flex;
+    margin: auto auto 3%;
+
+}
+#b1{
+    background-color: teal;
+}
+#b2{
+    background-color: gold;
+}
+#b3{
+    background-color: cadetblue;
+}
+#b4{
+    background-color: coral;
+}
+#b5{
+    background-color: crimson;
+}
+#b6{
+    background-color: forestgreen;
+}
+#b7{
+    background-color: darkorchid;
+}
+#b8{
+    background-color: hotpink;
+}
+#b9{
+    background-color: indigo;
+}
+#b10{
+    background-color: dodgerblue;
+}
+
+hr{
+    border: dotted;
+    margin: 5% 0 0 0;
+
+}
+#r1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#strat, #work{
+    width: 50%;
+    margin: 5% 5%;
+}
+#r2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#place, #coll{
+    width: 50%;
+    margin: 5% 5%;
+
+}
+#strat h1, p, button{
+    margin: 5% 0;
+}
+
+#work h1, p, button{
+  
+        margin: 5% 0;
+}
+
+#place h1, p, button{
+  
+    margin: 5% 0;
+}
+#coll h1, p, button{
+  
+    margin: 5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
