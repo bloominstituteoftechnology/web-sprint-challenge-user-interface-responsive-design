@@ -53,13 +53,14 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -236,3 +237,44 @@ footer nav a {
     text-decoration: none;
 }
 
+header {width: 100%;background-color: white; }
+
+header nav {width: 60%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 2%;
+font-size: 14px;}
+
+
+
+#banner{display: flex; justify-content: center;}
+
+.learn{ margin: 0 10px;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color:black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: white;}
+
+    .about{
+        display: inline;
+        background-position: left;
+    }
+
+    .content{
+        display: flex;
+        flex-flow: wrap-row;
+    }
+    .contain{
+        display: flex;
+    flex-flow: wrap-row;
+    align-items: center;
+    justify-content: center;
+    }
+
+     a {display:inline-flex; color:black; text-decoration: none ;
+    }
