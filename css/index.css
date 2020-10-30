@@ -144,3 +144,65 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My new code below this point */
+
+/*top level general code */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.top-text {
+    display: flex;
+    margin: 2.5% auto;
+}
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+header nav a {
+    padding: 3%;
+    font-size: 14px;
+}
+.header-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2.5%;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
