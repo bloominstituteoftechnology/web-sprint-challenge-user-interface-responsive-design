@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,6 +47,7 @@ table {
 }
 
 * {
+    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -55,6 +55,21 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 2%;
+    margin: 2% 2%;
+}
+
+.about{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
