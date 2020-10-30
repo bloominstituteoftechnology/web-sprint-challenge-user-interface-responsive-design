@@ -48,16 +48,14 @@ table {
 }
 
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 
 .header {
     display:flex;
     justify-content:center;
     justify-content: space-evenly;
-    padding: 20px 50px;
-    
+    padding: 20px 50px;    
 }
 
 .jumbo {
@@ -66,8 +64,12 @@ table {
     display:flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 20px 100px; 
-    
+    margin: 20px 100px;         
+}
+
+.sectionAboutA{
+    border-bottom: 1px dashed black;
+    padding: 5px;
 }
 
 html, body {
@@ -201,8 +203,9 @@ footer nav a {
 }
 
 .learnMore {
-    text-align: center;
+    text-align: left;
     border: solid 2px black;
     border-radius: 10%;
-    padding: 3px;
+    padding: 5px;
+    margin: 5px;
 }
