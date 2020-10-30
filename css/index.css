@@ -71,13 +71,19 @@ p {
     margin: 0 auto;
 }
 nav{
-    max-width: ;
+    width: 70%;
     display: flex;
     flex: auto;
     text-decoration: none;
-    justify-content: space-around;
+    color: black;
+    justify-content: space-between;
     align-items: center;
-    margin: 2% 25%;
+    margin:5% 0 3% 13%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    
 }
 .jumboContainer{
     margin: 5%;
@@ -216,8 +222,8 @@ h2{
     margin-top: 5%;
 }
 .strategy{
-width: 20vw;
-height: 20vw;
+width: 40%;
+height: 20%;
 margin: 5%;
 display: flex;
 flex-direction: column;
@@ -225,8 +231,8 @@ align-items: center;
 text-align: left;
 }
 .howWeWork{
-    width: 20vw;
-    height: 20vw;
+    width: 40%;
+    height: 20%;
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -234,8 +240,8 @@ text-align: left;
     text-align: left;
 }
 .placesWeWork{
-    width: 20vw;
-    height: 20vw;
+    width: 40%;
+    height: 20%;
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -243,8 +249,8 @@ text-align: left;
     text-align: left;
 }
 .collaboration{
-    width: 20vw;
-    height: 20vw;
+    width: 40%;
+    height: 20%;
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -255,13 +261,27 @@ text-align: left;
     margin-top: 5%;
     text-align: left;
     background-color: white;
-    outline: black 2px;
-    border-radius: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:2.5% 5%;
+    text-decoration: none;
+    color: black;
+    margin-right:60%;
 }
 .workTogether{
     display: flex;
     flex-direction: column;
     text-align: left;
     margin: 5%;
+}
+.footy{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    
+}
+.footy a{
+    margin: 0 5%;
 }
 
