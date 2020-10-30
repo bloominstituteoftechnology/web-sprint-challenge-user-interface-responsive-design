@@ -154,33 +154,38 @@ footer nav a {
 .ten {
     background-color: dodgerblue;
 }
-/* ===================HEADER AREA================== */
+/* ===================HEADER AREA ABOUT-FOCUS================== */
 
-header {
-    width: 100%;
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
+header nav {
+    margin: 0 auto; 
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+}
+
+.header-top {
     display: flex; 
-    flex-wrap: wrap; 
-    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:60%;
+    padding: 2%;
+}
+
+.top-right {
     display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.nav-links {
-    width: 40%; 
-}
-
-.header-image {
-    max-width: 100%; 
-}
-
-.nav-top {
-    display:flex; 
+    max-width: 100%;
+    box-sizing: border-box;
     justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.header-bottom {
+    max-width: 100%;
 }
