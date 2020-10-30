@@ -27,7 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body{
 	line-height: 1;
 }
 ol, ul {
@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin:2% 2%;
 }
 
 header{
@@ -67,10 +68,15 @@ header{
 .about{
     display: flex;
     width: 75%;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
+    
 }
-
-
+.about a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -81,9 +87,13 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
+.container img{
+    width: 100%;
     margin: 0 auto;
+}
+
+.container{
+    font-weight: 600;
 }
 
 .top-content {
@@ -159,3 +169,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page{
+
+    margin: 2% 2%;
+    font-size: 24px;
+}
+
+.about-image{
+    width: 100%;
+    margin: 0 auto;
+}
+
