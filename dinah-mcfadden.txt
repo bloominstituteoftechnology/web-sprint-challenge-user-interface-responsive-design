@@ -1,0 +1,15 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+The use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications.
+Name two big differences between display: block; and display: inline;.
+
+inline-block the top and bottom margins/paddings are respected, but display: inline they are not. Another difference is that display:inline-block does not add a line-break after the element.
+What are the 4 areas of the box model?
+
+The content edge, padding edge, border edge, and margin edge.
+While using flexbox, what axis does the following property work on: align-items: center?
+
+Cross-axis
+Explain why git is valuable to a team of developers.
+
+Git offers the type of performance, functionality, security, and flexibilty that most developers and teams need to develop their projects.
