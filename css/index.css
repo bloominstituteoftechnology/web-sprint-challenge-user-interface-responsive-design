@@ -213,5 +213,7 @@ nav a{
 h4 {
     border: 2px solid black; 
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1em;
+    padding: 2% 4%;
+    border-radius: 10%; 
 }
