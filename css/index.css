@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,23 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+.header{
+    display:flex;
+    justify-content:space-around;
+    padding: 20px 40px;
+}
+
+.jumbo{
+    
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 100px; 
+    
 }
 
 html, body {
@@ -144,3 +161,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
