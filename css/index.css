@@ -161,9 +161,94 @@ header{
     align-items: center;
     justify-content: center;
 }
-.box .b1{
+.b1{
     background: teal;
 }
+.b2{
+    background: gold;
+}
+.b3{
+    background: cadetblue;
+}
+.b4{
+    background: coral;
+}
+.b5{
+    background: crimson;
+}
+.b6{
+    background: forestgreen;
+}
+.b7{
+    background: darkorchid;
+}
+.b8{
+    background: hotpink;
+}
+.b9{
+    background: indigo;
+}
+.b10{
+    background: dodgerblue;
+}
+/*this is a bit fustrating, I get the gist of whatever element you change on the parent,in this case boxes, it trickles down to the child. i'm stumped on when all the child are on the same plane of relation so i made another sub class to modify them but nope. I was looking over this specific parent/child tree from a classwork yesterday but its not clicking for me on what my next step is. b/c the each div is actually inside of each other i messed around with this structure but messed up the current code.
+<div class="parent">
+  <!-- red -->
+  <p>Jane</p>
+  
+  <div class="child">
+    <!-- blue -->
+    <p>Jim</p>
+    
+    <div class="grandchild">
+      <!-- green -->
+      <p>Aaron</p>
+      
+      <div class="greatgrandchild">
+        <!-- pink -->
+        <p>Victoria</p>
+      </div>
+      
+      <div class="greatgrandchild greatgrandchild2">
+         <!-- purple -->
+         <p>Devin</p>
+      </div><!-- grandchild2 -->
+      
+    </div><!-- grandchild -->
+    
+  </div><!-- child -->
+  
+  <div class="child child2">
+    <!-- coral -->
+    <p>Susan</p>
+    
+    <div class="grandchild">
+      <!-- aqua -->
+      <p>George</p>
+      
+      <div class="greatgrandchild">
+        <!-- rosybrown -->
+        <p>Julie</p>
+        
+      </div>
+      
+    </div>
+    
+    <div class="grandchild grandchild2">
+      <!-- sienna -->
+      <p>Nancy</p>
+      
+      <div class="greatgrandchild">
+        <!-- tomato -->
+        <p>Bob</p>
+      </div>
+      
+    </div><!-- grandchild -->
+    
+  </div>
+  
+</div><!-- parent -->*/
+
 
 
 /* bottom content styles */
