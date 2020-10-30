@@ -130,13 +130,13 @@ table {
 }
 
 /* creates a box around each div for viewing purposes. */
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   max-width: 100%;
 
-  border: 1px solid grey;
+  border: 1px solid grey; */
 }
 
 /* GENERAL STYLES */
@@ -271,31 +271,31 @@ p {
   background-color: teal;
 }
 .box2 {
-  background: yellow;
+  background: gold;
 }
 .box3 {
-  background: grey;
+  background: cadetblue;
 }
 .box4 {
-  background: orange;
+  background: coral;
 }
 .box5 {
-  background: red;
+  background: crimson;
 }
 .box6 {
-  background: green;
+  background: forestgreen;
 }
 .box7 {
-  background: purple;
+  background: darkorchid;
 }
 .box8 {
-  background: pink;
+  background: hotpink;
 }
 .box9 {
-  background: darkmagenta;
+  background: indigo;
 }
 .box10 {
-  background: lightblue;
+  background: dodgerblue;
 }
 .bottom-content {
   display: flex;
@@ -329,4 +329,3 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
-
