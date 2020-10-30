@@ -97,7 +97,13 @@ header{
     width: 800px;
     margin: 0 auto;
 }
-
+.top-contentmid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +111,34 @@ header{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    box-sizing:
+    ;
+}
+.top-content1images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 20px;}
+    .top-content2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 3%;
+}
+.prolink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
