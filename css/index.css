@@ -183,6 +183,11 @@ footer nav a {
 .box10 {
     background-color: dodgerblue;
 }
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
     
 
 
