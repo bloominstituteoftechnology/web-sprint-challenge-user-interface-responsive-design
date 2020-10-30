@@ -61,25 +61,23 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-.navbar {
+nav {
     margin-top: 2%;
-    margin-left: .8%;
-    margin-right: 20%;
-    padding: 0% 0 2% 0;
     display:flex;
     justify-content: space-around;
 }
-.jumbo-about{
+.jumbo{
     display: flex;
     justify-content: center;
-      
+     width:90%;
+     padding-bottom: 1%; 
 }
 p {
     line-height: 1.4;
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -116,14 +114,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
     margin: 20px 2.5%;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     }
-
+.box1 {
+    background: teal;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background:cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background:forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background:hotpink;
+}
+.box9{
+    background:indigo;
+}
+.box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
