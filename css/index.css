@@ -150,29 +150,24 @@ footer nav a {
 
 header{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 2%;
-    margin-left: 17%;
-    
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items:baseline;
 }
-header .lambdaImg{
-    display:flex;
-    align-items: baseline;
-    flex-wrap:wrap;
-    margin: 0 auto;
 
+header nav{
+    display:flex;
+    width:75%;
+    justify-content: space-between;
+    align-items: flex-end;
 }
-header .lambdaImg a{
-    margin: 4%;
+header nav a{
     text-decoration: none;
     color: black;
 }
-
-header .headerImg{
-    align-content: center;
+.topImg{
+    margin-bottom:5%
 }
-
 
 /* Box colors*/
 
@@ -208,15 +203,33 @@ header .headerImg{
 }
 
 /*about page styles*/
+.topImg{
+    margin-top: 20px;
+}
+
+.topAbout .textBox{
+    margin-top: 20px;
+    padding-bottom:20px;
+}
+
+.midAbout{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    }
+.botAbout{
+    margin: 30px 0;
+}
 button{
     background-color: white;
-    width:5rem;
-    height:2rem;
     border-radius: 10px;
+    align-self: flex-start;
+    height:25px;
 }
 
 
-.about-page{
+ .about-page{
     display:flex;
     justify-content: space-around;
     flex-wrap:wrap;
@@ -225,5 +238,13 @@ button{
 .itemBox{
     flex-wrap:wrap;
     border-bottom: 1px dashed black;    
+}
+
+.midAbout .box{
+    border-bottom: 1px dashed black;
+    width:40%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+
 }
 
