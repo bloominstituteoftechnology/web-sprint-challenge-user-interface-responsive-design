@@ -34,22 +34,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic tags have meaning. You can tell by reading a semantic tag where in the document you might be and what type of content might  be in that part of the document.
+Non-semantic tags like div and span are block or line elements that have no specific meaning. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block makes the image come in with it's own size parameters leading the sizing logic. This means the block could be smaller, the same size as, or larger than the line it sits on, but that it won't be changed by the height of the line itself. 
+
+Display inline does respect these parameters. So padding, border and margin would all be a part of the limited line height imposed by the line itself. Added up, all elements of the box will be inline with the line height.
 
 3. What are the 4 areas of the box model?
 
+margin
+border
+padding
+content
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is the best way to manage the code in a cloud based format. This allows for regular branching of the code and a version control process that ensures all changes to the code base are incorporated appropriately. This is like the Google Docs for web dev.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [done ] Create a forked copy of this project.
+- [done ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [done ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [done ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -66,29 +83,29 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [X ] Build the HTML and CSS to create the missing navigation and header.
+* [X ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [done] box1: `teal`
+* [done ] box2: `gold`
+* [done ] box3: `cadetblue`
+* [done ] box4: `coral`
+* [done] box5: `crimson`
+* [done ] box6: `forestgreen`
+* [done ] box7: `darkorchid`
+* [done ] box8: `hotpink`
+* [done] box9: `indigo`
+* [done] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [ X ] Copy and paste your home page navigation and header into the about page
+* [ X ] Update the header image with the about page image
+* [ x ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
