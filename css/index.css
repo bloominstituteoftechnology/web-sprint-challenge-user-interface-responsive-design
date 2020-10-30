@@ -203,31 +203,33 @@ footer nav a {
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: flex-start;
-    margin: 2%;
 }
 
-div.container.about-page{
-    margin:0;
-    width:100%;
+.about-div{
+    width:46%;
+    margin:6% 2%;
+    border-bottom:2px dotted black;
+
 }
 
-div.about-div p{
-    width: 50%;
+.lets{
+    margin-bottom:4%;
+    margin-left: 1%;
 }
 
-.second-footer{
-    width:40%;
-    margin:0 auto;
+.button{
+    font-size: 0.8rem;
+    padding: 2% 8%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    margin-top: 4%;
+    background-color: white;
 }
 
 .about-top{
-    width: 50%;
-    margin:0 auto;
+    border-bottom:2px dotted black;
+    padding-bottom:2%;
 }
-
-div.about-div{
-    margin-bottom: 2%;
-}
-
