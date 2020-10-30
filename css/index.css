@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* =============BOX COLOR HTML PAGE============= */
+.one {
+    color: teal;
+}
+.two {
+    color: gold; 
+}
+.three {
+    color: cadetblue;
+}
+.four {
+    color: coral;
+}
+.five {
+    color: crimson;
+}
+.six {
+    color: forestgreen;
+}
+.seven {
+    color: darkorchid;
+}
+.eight {
+    color: hotpink;
+}
+.nine {
+    color: indigo;
+}
+.ten {
+    color: dodgerblue;
+}
+/* ============================================== */
