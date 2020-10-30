@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -69,7 +69,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    /* padding: 0 2%; */
     margin-bottom: 0;
 }
 
@@ -192,6 +192,11 @@ nav a{
 
 /* ABOUT PAGE CSS */
 
+.about-section {
+    margin: 0 auto; 
+}
+/* ABOUT SECTION */
+
 .about-boxes {
  display: flex; 
  flex-wrap: wrap; 
@@ -201,5 +206,12 @@ nav a{
 }
 
 .about-box {
-    width: 35%;
+    width: 50%;
+}
+
+/* BUTTONS */
+h4 {
+    border: 2px solid black; 
+    display: inline-block;
+    font-size: 1rem;
 }
