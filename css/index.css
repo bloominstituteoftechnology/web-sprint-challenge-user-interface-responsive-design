@@ -154,7 +154,7 @@ a {
     color: inherit;
 }
 
-
+/* style for the header */
 .top-text {
     display: flex;
     margin: 2.5% auto;
@@ -176,6 +176,7 @@ header nav a {
     margin-bottom: 2.5%;
 }
 
+/*color the boxes on the index page */
 .middle-content .boxes .box1 {
     background-color: teal;
 }
@@ -205,4 +206,39 @@ header nav a {
 }
 .middle-content .boxes .box10{
     background-color: dodgerblue;
+}
+
+/* Adjust the about page top text to be 100% of div */
+.top-content .about-top {
+    width: 99%;
+}
+.about-middle {
+    margin: 3% auto;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: none;
+}
+.about-detail-section {
+    width: 48%;
+    border-bottom: 1px black dashed;
+    margin-bottom: 5%;
+}
+.about-detail-section img {
+    width: 100%;
+}
+.about-detail-section h2 {
+    padding: 3% 0 4% 0;
+}
+.about-detail-section a {
+    display: inline-block;
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 4% 0;
+}
+.about-bottom {
+    display: block;
+    margin-bottom: 5%;
 }
