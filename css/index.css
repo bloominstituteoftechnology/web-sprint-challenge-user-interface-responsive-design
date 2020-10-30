@@ -156,3 +156,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {display: flex;}
