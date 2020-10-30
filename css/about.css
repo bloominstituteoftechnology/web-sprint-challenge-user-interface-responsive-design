@@ -130,14 +130,14 @@ table {
 }
 
 /* creates a box around each div for viewing purposes. */
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   max-width: 100%;
 
   border: 1px solid grey;
-}
+} */
 
 /* GENERAL STYLES */
 html,
@@ -207,7 +207,12 @@ h5 {
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
-
+.container1 {
+  display: flex;
+}
+p1{
+    
+}
 p {
   line-height: 1.4;
 }
@@ -218,7 +223,7 @@ p {
   margin-top: 1%;
 }
 
-.top-content {
+/* .top-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -296,7 +301,7 @@ p {
 }
 .box10 {
   background: lightblue;
-}
+} */
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -329,4 +334,3 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
-
