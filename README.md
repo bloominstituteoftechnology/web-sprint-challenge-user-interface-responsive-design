@@ -102,3 +102,14 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+
+If you were to describe semantic HTML to the next cohort of students, what would you say? important for readability. You can alwasy add a class, but div should only be used if needed.
+
+Name two big differences between display: block; and display: inline; blocl displays everything as a block and in-line is inside the current block on the same line.
+
+What are the 4 areas of the box model? content/padding/border/margin
+
+While using flexbox, what axis does the following property work on: align-items: center? x
+
+Explain why git is valuable to a team of developers. This is so you can fork the entire repo, then clone it on your local machine and work without worry you will damage the product. You can push your work back for review and the entire team can make sure things look good before the merge. This is helpeful so everyone can work on the entire project while not overwriting anyones work. 
