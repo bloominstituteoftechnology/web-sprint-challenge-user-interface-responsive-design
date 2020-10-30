@@ -50,13 +50,16 @@ table {
 * {
     font-size: 62.5%;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* border: 1px solid red;   My tool for sizing */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Added code */
+
 header{
   margin-bottom: 2%;
 }
@@ -88,6 +91,8 @@ header nav a{
     display: flex;
     margin: 0 auto
 }
+
+/* Added code */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -178,9 +183,9 @@ footer nav a {
     text-decoration: none;
 }
 
-#box1{
-    background-color: teal;
-}
+/* Home page box colors */
+
+#box1{background-color: teal;}
 
 #box2{background-color: gold;}
 
@@ -200,6 +205,8 @@ footer nav a {
 
 #box10{background-color: dodgerblue ;}
 
+/* Home page box colors */
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -214,10 +221,13 @@ footer nav a {
 
 }
 
+/* Lets work together css */
+
 .lets{
     margin-bottom:4%;
     margin-left: 1%;
 }
+/* Lets work together css */
 
 .button{
     font-size: 0.8rem;
