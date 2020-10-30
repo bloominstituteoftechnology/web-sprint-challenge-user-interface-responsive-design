@@ -140,8 +140,10 @@ footer nav {
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    align-items: center;
 }
 
 .box1 {
@@ -187,6 +189,7 @@ footer nav a {
 nav {
     display: flex;
     justify-content: space-evenly;
+    align-content: center;
 }
 
 .aboutHeader {
@@ -197,6 +200,7 @@ nav {
 .corporateImgs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: left;
 }
 
 .corporateContainer1 {
@@ -205,6 +209,7 @@ nav {
 
 .corporateImg2 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 button {
