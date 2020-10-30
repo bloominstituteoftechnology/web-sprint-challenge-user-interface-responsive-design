@@ -61,15 +61,18 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-nav {
-    margin-left: .5%;
-    padding:2% 0;
+.navbar {
+    margin-top: 2%;
+    margin-left: .8%;
+    margin-right: 20%;
+    padding: 0% 0 2% 0;
     display:flex;
     justify-content: space-around;
 }
-.jumbo{
+.jumbo-about{
     display: flex;
-    justify-content: Center;
+    justify-content: center;
+      
 }
 p {
     line-height: 1.4;
@@ -113,15 +116,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    background: teal;
     margin: 20px 2.5%;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.box1{
-    background-color: teal;
-}
+    }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
