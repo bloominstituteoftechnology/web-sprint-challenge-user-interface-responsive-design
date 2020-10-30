@@ -208,22 +208,6 @@ header .headerImg{
 }
 
 /*about page styles*/
-
-
-.about-page{
-    width:90%;
-    height:auto;
-    display: flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    align-items: flex-start;
-    justify-content:space-around;
-    margin:2% 0;
-    border-bottom: 1px dashed black;
-    
-   
-}
-
 button{
     background-color: white;
     width:5rem;
@@ -231,10 +215,15 @@ button{
     border-radius: 10px;
 }
 
-.itemBox{
+
+.about-page{
     display:flex;
-    align-items: center;
-    width:40%
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 
+.itemBox{
+    flex-wrap:wrap;
+    border-bottom: 1px dashed black;    
+}
 
