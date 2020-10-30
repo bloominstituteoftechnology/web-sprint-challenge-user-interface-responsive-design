@@ -101,10 +101,100 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1{
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +233,120 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* added header */
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    margin: 0 23% 0 23%;
+ 
+    justify-content: space-evenly;
+    justify-content: flex-start;
+       /* border: 1px solid red; */
+}
+.headerImg{
+    display: flex;
+    background-image: url(/img/jumbo.jpg);
+    background-size: cover;
+    height: 20vh;
+    margin: 0 23% 2rem 23%;
+}
+.links{
+    /* border: 1px solid red; */
+    
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.links a{
+    margin: 2rem 2.75rem 0rem 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    /* border: 1px solid red; */
+    margin: .5rem 0 0 0;
+}
+.topImg{
+    display: flex;
+    background-image: url(/img/jumbo-about.png);
+    background-size: cover;
+    height: 20vh;
+    margin: 0 23% 2rem 23%;
+}
+
+/* about.html */
+
+.about{
+    padding: 0 0 2rem 1rem;
+    border-bottom: 2px solid black;
+    border-style: dotted;
+    
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: .25rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    
+    
+}
+.gallery img{
+    height: 25vh;
+    width: 23vw;
+    margin-bottom: 1rem;
+}
+
+.strategy{
+    width: 45%;
+    border-bottom: 1px dotted black;
+    border-width: 2px;
+    margin-bottom: 1rem;
+}
+.working{
+    width: 45%;
+    border-bottom: 1px dotted black;
+    border-width: 2px;
+    margin-bottom: 1rem;
+}
+.where{
+    width: 45%;
+    border-bottom: 1px dotted black;
+    border-width: 2px;
+    margin-bottom: 1rem;
+}
+.meeting{
+    width: 45%;
+    border-bottom: 1px dotted black;
+    border-width: 2px;
+    margin-bottom: 1rem;
+}
+button{
+    padding: .5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+button:hover{
+    padding: .5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    background-color: lightgray;
+}
+.gallery p{
+    margin-bottom: 1rem;;
+}
+.container div.together{
+    border: 1px solid red;
+}
+footer{
+    margin-top: 2rem;
+    
 }
