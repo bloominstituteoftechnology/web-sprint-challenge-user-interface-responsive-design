@@ -50,7 +50,7 @@ table {
 
 *{  box-sizing: border-box;
     max-width:100%;
-    border: 5px solid black;
+    border: 5px solid black; /*is there something blocking this line of code, i couldn't apply this border to see whats going on the page, you'll see more copies applied to diff elements*/
 }
 
 html, body {
@@ -103,9 +103,9 @@ header{
     color: black;
     background-color: white;
     text-decoration: none;
-    border:1px solid black; /* helps highlight my working area*/
+    border:1px solid black; 
+    /* really is genius to highlight my working area / i know my nav is offset but i just ran outta time. its a fix in the headerContainer but ugh*/
 }
-
 /* thought i needed this as bg to header
 .bg-header-img{
     background-image:url("img\jumbo.jpg");
@@ -161,37 +161,45 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/* i know whats below is incorrect, there's a mini wall of text for you further below*/
 .b1{
-    background: teal;
+    background-color: teal;
 }
 .b2{
-    background: gold;
+    background-color: gold;
 }
 .b3{
-    background: cadetblue;
+    background-color: cadetblue;
 }
 .b4{
-    background: coral;
+    background-color: coral;
 }
 .b5{
-    background: crimson;
+    background-color: crimson;
 }
 .b6{
-    background: forestgreen;
+    background-color: forestgreen;
 }
 .b7{
-    background: darkorchid;
+    background-color: darkorchid;
 }
 .b8{
-    background: hotpink;
+    background-color: hotpink;
 }
 .b9{
-    background: indigo;
+    background-color: indigo;
 }
 .b10{
-    background: dodgerblue;
+    background-color: dodgerblue;
 }
-/*this is a bit fustrating, I get the gist of whatever element you change on the parent,in this case boxes, it trickles down to the child. i'm stumped on when all the child are on the same plane of relation so i made another sub class to modify them but nope. I was looking over this specific parent/child tree from a classwork yesterday but its not clicking for me on what my next step is. b/c the each div is actually inside of each other i messed around with this structure but messed up the current code.
+/*this is a bit fustrating, I get the gist of whatever element you change on the parent,in this case boxes, it trickles down to the child. 
+i'm stumped on when all the child are on the same plane of relation so i made another sub class to modify them but nope. 
+
+I was looking over this specific parent/child tree from a classwork yesterday but its not clicking for me on what my next step is. b/c the each div is actually inside of each other (like a waterfall) i messed around with this structure but messed up the current code.
+
+##This is a reference guide!## 
+
 <div class="parent">
   <!-- red -->
   <p>Jane</p>
@@ -247,7 +255,10 @@ header{
     
   </div>
   
-</div><!-- parent -->*/
+</div><!-- parent -->
+
+
+##You are now leaving the reference notes## */
 
 
 
