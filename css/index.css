@@ -164,3 +164,39 @@ footer nav a {
     text-decoration: none;
 }
 
+.sectionAboutB{
+    display: flex;
+    }
+
+.sectionAboutC{
+    display: flex;
+}
+
+.sectionAbout1{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.sectionAbout2{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.sectionAbout3{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.sectionAbout4{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.learnMore{
+    border: solid 2px black;
+    display: flex;
+}
