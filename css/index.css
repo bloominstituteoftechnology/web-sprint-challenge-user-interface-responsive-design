@@ -79,6 +79,19 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .banner_img{
+    background-image: url("/img/jumbo.jpg");
+    height:30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    width:100%;
+    margin-bottom: 2%;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,12 +117,11 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:black;
 }
 
 .bottom-content {
@@ -143,4 +155,126 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color:teal;
+}
+
+.box2 {
+    background-color:gold;
+}
+
+.box3 {
+    background-color:cadetblue;
+}
+
+.box4 {
+    background-color:coral;
+}
+
+.box5 {
+    background-color:crimson;
+}
+
+.box6 {
+    background-color:forestgreen;
+}
+
+.box7 {
+    background-color:darkorchid;
+}
+
+.box8{
+    background-color:hotpink;
+}
+
+.box9{
+    background-color:indigo;
+}
+
+.box10{
+    background-color:dodgerblue;
+}
+
+header{
+    display:flex;
+    justify-content: space-evenly;
+    width:80%;
+    margin:2% auto;
+}
+
+.logo{
+    background-image: url("/img/lambda-black.png");
+    display:flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 30%;
+    padding: 2% auto;
+    margin-right:10px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+    vertical-align: text-bottom;
+}
+
+.top-content2 .banner_img2{
+    background-image: url("/img/jumbo-about.png");
+    height:30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+    width:100%;
+    margin-bottom: 2%;
+}
+
+.text-container2{
+    margin-bottom: 2%;
+}
+
+.middle_container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width:40%;
+    border-bottom: 2px dotted black;
+    margin: 4% 0;
+}
+
+
+.middle_container h2{
+    margin:2%;
+}
+
+.middle_container p{
+    margin:2%;
+}
+
+.middle_container button{
+    margin:2%;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid black;
+    width: 50%;
+}
+
+.middle_container button h3{
+    margin:2%;
+}
+
+.middle-content2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
