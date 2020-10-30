@@ -64,12 +64,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5%;
+    margin-bottom: 0.5%;
     margin-top: 0.8%;
     width: 100%;
 }
 .lambda-logo{
     margin-left: 9%;
+    margin-bottom: 0.5%;
 }
 
 header nav{
@@ -198,3 +199,35 @@ footer nav a {
 #box9{background-color: indigo;}
 
 #box10{background-color: dodgerblue ;}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 2%;
+}
+
+div.container.about-page{
+    margin:0;
+    width:100%;
+}
+
+div.about-div p{
+    width: 50%;
+}
+
+.second-footer{
+    width:40%;
+    margin:0 auto;
+}
+
+.about-top{
+    width: 50%;
+    margin:0 auto;
+}
+
+div.about-div{
+    margin-bottom: 2%;
+}
+
