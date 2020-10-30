@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* My new code below this point */
+/* ---My new code below this point--- */
 
 /*top level general code */
 
@@ -208,7 +208,7 @@ header nav a {
     background-color: dodgerblue;
 }
 
-/* Adjust the about page top text to be 100% of div */
+/* About page styling */
 .top-content .about-top {
     width: 99%;
 }
