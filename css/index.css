@@ -51,6 +51,18 @@ table {
     box-sizing: border-box;
 }
 
+.box box1 {color:teal;}
+.box box2 {color:gold;}
+.box box3 {color:cadetblue;}
+.box box4 {color:coral;}
+.box box5 {color:crimson;}
+.box box6 {color:forestgreen;}
+.box box7 {color:darkorchid;}
+.box box8 {color:hotpink;}
+.box box9 {color:indigo;}
+.box box10 {color:dodgerblue;}
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
