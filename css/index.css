@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid black;
 }
 
 html, body {
@@ -56,6 +57,37 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration:none;
+    text-align: justify;
+    letter-spacing: 2px;
+    width: 10%;
+    height: auto;
+    padding: 2px;
+    display: inline-block
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+h1{
+    font-display: bold;
+    font-style: italic;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.Places{
+    text-align: center;
+    margin: 0%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
