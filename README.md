@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  I would say semantic HTML is similiar using transitional words in a essay because they give the code meaning like transitional words give meaning paragraphs. Sematic HTML is useful for accessibilty. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display block takes up the entire row and block and respects width. display inline doesn't respect width and only takes up the amount of space needed. 
 
 3. What are the 4 areas of the box model?
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    Margin - outermost part surrounds the border
+    border 
+    padding - surrounds the content
+    content - the element
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? cross axis
 
 5. Explain why git is valuable to a team of developers.
+    Gits helps teams collaborate better, helps write cleaner code
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
