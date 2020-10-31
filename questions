@@ -1,0 +1,22 @@
+Nic Leach - Self Study Q Answers (10.30.2020) Web38
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+It's the code that's written in mostly plain text that describes the structure of your code in html. The words have a common meaning and make the flow of your code easy to understand.
+
+Name two big differences between display: block; and display: inline;.
+
+block elements take up their own line 
+inline elements like span can be inserted anywhere without affecting the structure of the code and they don't kick other elements off the line they're occupying. 
+
+What are the 4 areas of the box model?
+
+margin, border, padding, content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+vertical.
+
+Explain why git is valuable to a team of developers.
+
+it allows people to create individual branches of a larger whole that everyone can be working on at once without overwriting each other. It also creates a perfect system of checks where new branches are reviewed prior to their being merged into the main branch or whole which prevents corruption, code being overwritten and keeps malicious content, intentional or unintentional, from entering the project. 
