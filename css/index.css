@@ -178,13 +178,30 @@ nav ul{
     width: 60%;
 }
 
+#about-closing{
+    font-size: 16px;
+padding:10px;
+margin-left: 100px;
+margin-right: 100px;
+}
 
-#about-body{
+#flex-top{
    
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    margin: 100px;
+    flex-flow: row nowrap;
+    justify-content:center;
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#flex-bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #about-body div img{
@@ -196,10 +213,17 @@ padding-bottom: 15px;
 
 #about-body div p{
     float: left;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-#about-closing{
-    font-size: 16px;
-padding:10px;
+button{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+    margin: 20px 0px 20px 0px;
+    font-size: 1em;
 }
