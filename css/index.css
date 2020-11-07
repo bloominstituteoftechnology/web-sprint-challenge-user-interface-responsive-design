@@ -240,6 +240,7 @@ h2 {
     max-width: 800px;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .tile-img {
@@ -249,7 +250,7 @@ h2 {
 
 .tile-img img {
     max-width: 320px;
-
+    cursor: pointer;
 }
 
 .tile {
@@ -270,4 +271,10 @@ h2 {
     border-radius: .3em;
     padding: .5em;
     margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(228, 228, 228);
 }
