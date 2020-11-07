@@ -144,3 +144,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ===== Header Section ===== */
+.main-header {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 4em;
+    margin-top: 5em;
+}
+
+.hero-img {
+    margin-bottom: 1em;
+}
