@@ -80,7 +80,7 @@ header nav.headernav {display:flex;
 header nav.headernav a {text-decoration: none;
     font-size: 1.1rem;
     color:black;
-    padding-left:30%;
+    padding-left:10%;
     padding-bottom: 10%;
     border: 0px;
 
@@ -221,4 +221,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#bigbody .set1 {display:flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
