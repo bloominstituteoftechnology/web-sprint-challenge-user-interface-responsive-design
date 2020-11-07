@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Tags that clearly define what section is which for the common consumer
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+ Block elements take up the full width available while the inline elements take the required width to display the contents of the elements.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, and Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+So individual programers can look at and edit code, and leave messages for edited and/or updated code
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -89,7 +99,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x ] Copy and paste your home page navigation and header into the about page
 * [ x] Update the header image with the about page image
 * [x ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [ x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
