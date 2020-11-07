@@ -144,3 +144,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    margin:0;
+    padding: 0;
+    background: brown;
+}
+
+
+header nav {
+    background-color:green; 
+    display: block;
+    justify-content: space-between;
+    text-align: center; 
+    width: 100%;
+    overflow: auto;
+    padding: 25px;
+    margin-left: 200px;
+}
+
+header li{
+    float: left;
+
+
+}
+#logo-left{
+position: absolute;
+margin-top: 15px;
+margin-left: 10px;
+}
+
