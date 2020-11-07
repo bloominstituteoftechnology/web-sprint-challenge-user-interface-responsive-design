@@ -66,6 +66,25 @@ p {
     line-height: 1.4;
 }
 
+.nav-top, .link-top{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    padding: 1.5rem;
+    background: black;
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
