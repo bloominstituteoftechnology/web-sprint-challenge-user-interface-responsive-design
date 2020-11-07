@@ -1,0 +1,5 @@
+If I was to describe semantic HTML to another cohort of students, I would say that it is the structure of a website that keeps it together and able to navigate easily.
+A display block always starts a new line and takes up the full width available while an inline doesn't start a new line and only takes up needed width.
+Margin, Border, Padding, and Content
+A cross-axis.
+Git is valuable for a team of developers because it allows developers to help each other on fixing codes that contain errors.
