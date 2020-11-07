@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 It is a recommended standard way of creating the base structure of web pages. It is meaningful for the browser and developer
 
-2. Name two big differences between `display: block;` and `display: inline;`.
+2. Name two big differences between `display: block;` and `display: inline;`. -----
 
 block stacks inline spans
 
