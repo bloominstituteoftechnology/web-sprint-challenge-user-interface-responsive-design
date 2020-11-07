@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/**/
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -97,21 +99,71 @@ p {
 
 .middle-content .boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-align:center;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+background:black;
+padding-left: 5%;
+padding-right:5%;
 }
-
+.middle-content .box1 {background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+}
+.middle-content .box2 {background:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;}
+.middle-content .box3 {background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+.middle-content .box4{background:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+ .middle-content .box5 {background:crimson;
+     width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+ .middle-content .box6 {background:forestgreen;
+     width: 12.5%;
+      height: 100px;
+       margin: 20px 2.5%;
+    }
+.middle-content .box7 {background:darkorchid;
+        width: 12.5%;
+       height: 100px;
+       margin: 20px 2.5%;
+    }
+.middle-content .box8 {background:hotpink;
+        width: 12.5%;
+       height: 100px;
+       margin: 20px 2.5%;
+    }
+ .middle-content .box9 {background:indigo;
+        width: 12.5%;
+       height: 100px;
+       margin: 20px 2.5%;
+    }
+.middle-content .box10 {background:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
