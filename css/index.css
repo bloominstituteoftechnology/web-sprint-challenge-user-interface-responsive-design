@@ -238,19 +238,22 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 800px;
-    margin-bottom: 2em;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .tile-img {
-    display: block;
-    max-width: 40%;
     object-fit: contain;
     margin-bottom: 1em;
-    height: auto;
+}
+
+.tile-img img {
+    max-width: 320px;
+
 }
 
 .tile {
-    max-width: 40%;
+    max-width: 45%;
     min-width: auto;
     margin: 1em;
     border-bottom: dotted 1px black;
