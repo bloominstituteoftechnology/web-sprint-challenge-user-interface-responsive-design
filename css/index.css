@@ -145,32 +145,61 @@ footer nav a {
     text-decoration: none;
 }
 
-header{
-    margin:0;
-    padding: 0;
-    background: brown;
-}
-
-
-header nav {
-    background-color:green; 
-    display: block;
-    justify-content: space-between;
-    text-align: center; 
-    width: 100%;
-    overflow: auto;
-    padding: 25px;
-    margin-left: 200px;
-}
-
-header li{
-    float: left;
-
-
-}
 #logo-left{
-position: absolute;
-margin-top: 15px;
-margin-left: 10px;
+float: left;
+margin-left: 80px;
+
 }
 
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ padding-top: 25px;
+ padding-bottom: 10px;
+ margin: 20px;
+ font-weight: bold;
+ font-size: 12px;
+}
+
+#header-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+#about-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+
+#about-body{
+   
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 100px;
+}
+
+#about-body div img{
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+padding-bottom: 15px;
+}
+
+#about-body div p{
+    float: left;
+    font-size: 1.2em;
+}
+
+#about-closing{
+    font-size: 16px;
+padding:10px;
+}
