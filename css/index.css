@@ -212,3 +212,59 @@ footer nav a {
 .box10 {
     background-color: dodgerblue !important;
 }
+
+/* ======= About Page ====== */
+
+
+h2 {
+    font-weight: bold;
+}
+
+.text-box {
+    padding-left:.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px dotted black;
+    margin-bottom: 1.5em;
+}
+
+.text-box-2 {
+    padding-left:.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-bottom: 2em;
+}
+
+.tile-img {
+    display: block;
+    max-width: 40%;
+    object-fit: contain;
+    margin-bottom: 1em;
+    height: auto;
+}
+
+.tile {
+    max-width: 40%;
+    min-width: auto;
+    margin: 1em;
+    border-bottom: dotted 1px black;
+}
+
+.tile p {
+    margin-bottom: 1em;
+}
+
+.btn {
+    border: none;
+    background: none;
+    border: 1px solid black;
+    border-radius: .3em;
+    padding: .5em;
+    margin-bottom: 1em;
+}
