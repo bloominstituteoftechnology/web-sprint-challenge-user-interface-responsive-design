@@ -57,7 +57,7 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-header {height:20%;
+header {height:15%;
 display:flex;
 flex-direction: row;
 padding-left: 5%;
@@ -81,10 +81,14 @@ header nav.headernav a {text-decoration: none;
     font-size: 1.1rem;
     color:black;
     padding-left:10%;
-    padding-bottom: 10%;
     border: 0px;
-
+height:20px;
  }
+div.homeimage img {display: flex;
+margin-left:30%;
+margin-bottom:2%;
+margin-right:30%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -222,8 +226,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.aboutimage {display: flex;
+    margin-left:30%;
+    margin-bottom:2%;
+    margin-right:30%;
+}
+.about {border-bottom:1px dashed black;
+margin-left:25%;
+margin-right:25%;
+margin-bottom:2%;
+padding-bottom:1%;
+padding-top:3%;
+}
+#bigbody{display:flex;
+    flex-flow: row wrap;
+padding-left:25%;
+}
+.image1 { 
+border-bottom: 1px dashed black;
+margin-right:5%;
+margin-bottom:4%;
+}
+.image2 {
+border-bottom: 1px dashed black;
+margin-left:2%;
+margin-bottom:4%;
+margin-right:17%;
+}
+.image3 {margin-right:7%;
 
-#bigbody .set1 {display:flex;
-flex-direction: row;
-flex-wrap: wrap;
+ }
+button {border:1px solid black;
+padding:7px;
+border-radius:10px;
+margin:20px;
+}
+.set3 { padding-bottom:5%;
+
 }
