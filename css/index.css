@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    text-align: left;
 }
 
 .container {
@@ -92,30 +93,30 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 20;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-align: center;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
+.middle-content .boxes .box{
+    width: 5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 25px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .bottom-content .text-container {
@@ -132,10 +133,10 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: left;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +144,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a {
+    text-align: right;
+}
+
+.learnmore {
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
