@@ -63,12 +63,24 @@ header{
     display: flex wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
+   
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    align
+    align-items: flex-end;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
