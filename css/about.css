@@ -89,6 +89,11 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+.intro{
+    border-bottom: 1px dashed blac20
+}
+
 .boxes{
     display: flex;
     flex-direction: row;
@@ -99,28 +104,36 @@ p {
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: 150px;
+    flex-basis: auto;
+    padding: 1rem;
 }
 
 .box2{
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: 150px;
+    flex-basis: auto;
+    padding: 1rem;
 }
  
 .box3{ 
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: 150px;
+    flex-basis: auto;
+    padding: 1rem;
 } 
  
 .box4{ 
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: 150px;
+    flex-basis: auto;
+    padding: 1rem;
+}
+
+.buttons{
+    display: flex;
 }
 /* This is my footer */
 
