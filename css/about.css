@@ -91,45 +91,47 @@ p {
 }
 
 .intro{
-    border-bottom: 1px dashed blac20
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
 }
 
 .boxes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box1{
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: auto;
-    padding: 1rem;
+    flex-basis: 1rem;
+    margin: 10px;
 }
 
 .box2{
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: auto;
-    padding: 1rem;
+    flex-basis: 1rem;
+    margin: 10px;
 }
  
 .box3{ 
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: auto;
-    padding: 1rem;
+    flex-basis: 1rem;
+    margin: 10px;
 } 
  
 .box4{ 
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    flex-basis: auto;
-    padding: 1rem;
+    flex-basis: 1rem;
+    margin: 10px;
 }
 
 .buttons{
