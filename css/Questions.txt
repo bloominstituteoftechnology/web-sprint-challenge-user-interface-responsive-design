@@ -1,0 +1,22 @@
+1. if you were to describe semantic HTML to the next cohort of students, what would you say?
+
+I would tell them that Semantic HTML is going to help you look and feel alot more professional,
+this is a way to style your HTML tags so that they are easily readable and identifiable by both 
+human beings and computers. Computers and web crawlers will search for 'content' based on your tags!
+In this way we can help to optimize our search ranking and indexing.
+
+2. Name two big difference between display block and display inline.
+
+display block will display as block meaning 'typical pararaphing'.
+display inline means that this will be displayed on the same line as other conntent.
+
+3. what are the 4 areas of the box model? 
+content, padding, margin and border.
+
+4. what axis does align-items:center work on when using box model?
+cross axis.
+
+5. why is GIT valuable between teams of developers?
+
+because this is how we can share files directly from our computer, with each other and also
+within the github types of communities and team areas.
