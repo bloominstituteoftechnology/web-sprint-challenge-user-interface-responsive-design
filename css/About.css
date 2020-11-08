@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h4, h5 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 25px 0px;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+p {
+    line-height: 1.4;
+    font-size: 23px;
+    
+    
+}
+
+
+
+.wrapper {
+    margin-top: 40px;
+    margin-right: 175px;
+    margin-left:  175px;
+}
+
+.header-content-bar {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.lambdalogo img {
+    zoom:175%
+}
+
+.header-content-bar nav a {
+    font-size: 1.6rem;
+    max-width: 140px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    
+}
+
+.jumboaboutimg img {
+    width: 1330px;
+    margin: 75px 0 50px
+}
+
+.top-content {
+   
+    border-bottom: 1px dashed black;
+    padding: 0px 100px 50px 35px;
+    margin-bottom: 50px;
+}
+
+.middle-content-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-content-top img {
+    width: 500px;
+    height: 350px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
+}
+
+.text-container1 {
+    margin-top: 20px;
+    
+}
+
+.howwework {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
+}
+
+.text-container2 {
+    margin-top: 20px;
+}
+.middle-content-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-content-bottom img{
+    width: 500px;
+    height: 350px;
+}
+
+.placeswework {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
+}
+
+.text-container3 {
+    margin-top: 20px;
+}
+
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
+}
+
+.text-container4 {
+    margin-top: 20px;
+}
+
+
+
+
+.bottom-content {
+
+
+}
+
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
