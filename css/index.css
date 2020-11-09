@@ -248,3 +248,64 @@ header {
  .middle-content .boxes .box:nth-child(10) {
     background-color: dodgerblue;
  }
+
+ #about-header-pic {
+    float: center;
+    padding: none;
+    margin-left: 330px;
+}
+
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .about-text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.mid-content {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.mid-content .mid-text {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.mid-bot-content {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.mid-bot-content .mid-bot-text {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+#button1, #button2, #button3, #button4 {
+    border: solid;
+    display: inline;
+}
