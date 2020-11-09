@@ -34,21 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is the proper way to design websites. There are other ways of coding that will display everything accordingly, but they're
+    not how HTML was intended to be used.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Display block has whitespace above and will not allow other HTML elements to be next to it.
+    Display inline block direction margins are ignored and height and width
 
 3. What are the 4 areas of the box model?
 
+ border, padding, margin, and content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+main axis
+
 5. Explain why git is valuable to a team of developers.
+
+From everything I have learned from Lambda I found git to be useful in by being an efficent way to pass commits to a project. This 
+will make it so much easier for developers to collaborate on a project together and see what changes have been made and past changes.. etc.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x]git  Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
