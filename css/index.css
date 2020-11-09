@@ -58,8 +58,8 @@ html, body {
 }
 
 header{
-    padding-left: 30%;
-    padding-right: 30%;
+    width: 800px;
+    margin: 0 auto;
     display: flex wrap;
     justify-content: center;
     align-items: center;
@@ -201,4 +201,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+.strategy, .how, .places, .collab, .lw{
+    width: 50%;
 }
