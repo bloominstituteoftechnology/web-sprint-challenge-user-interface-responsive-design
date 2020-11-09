@@ -87,9 +87,8 @@ p {
     text-decoration: none;
     color:black;
     margin: 0 105px 0 3px;
-    
+   
 }
-
 .jumboimg img {
     width: 60%;
     margin: 75px 3000px 50px 0;
@@ -99,7 +98,6 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
