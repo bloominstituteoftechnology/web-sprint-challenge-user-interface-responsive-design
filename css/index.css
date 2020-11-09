@@ -101,9 +101,15 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container-about-page {
     width: 800px;
     margin: 0 auto;
+}
+
+.about-info {
+  border-bottom: 1px dashed black;
+  padding-bottom: 10px;
+  margin-bottom: 20px
 }
 
 .top-content {
@@ -118,6 +124,31 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-box {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 20px;
+}
+
+.about-locations {
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.about-locations a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid;
+  width: 30%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .middle-content {
@@ -198,6 +229,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.foot-p p{
+  margin-bottom: 30px;
 }
 
 footer {
