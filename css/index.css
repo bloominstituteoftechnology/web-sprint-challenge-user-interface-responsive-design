@@ -242,8 +242,10 @@ footer nav a {
 }
 .lw{
     
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 0px 20px;
 }
+
 .middle-sections button{
     font-size: 18px;
     padding: 5px 15px;
