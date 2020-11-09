@@ -211,19 +211,27 @@ footer nav a {
     
     
 }
+
+.about{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
 .strategy, .how, .places, .collab{
-    width: 50%;
+    width: 46%;
     
     align-content: center;
-    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    
+    padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 20px;
+    
 }
 .middle-sections{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     
     padding-bottom: 10px;
     
@@ -233,8 +241,7 @@ footer nav a {
     margin-top: 20px;
 }
 .lw{
-    border-top: 1px dashed black;
-    padding-top: 20px;
+    
     margin-bottom: 20px;
 }
 .middle-sections button{
