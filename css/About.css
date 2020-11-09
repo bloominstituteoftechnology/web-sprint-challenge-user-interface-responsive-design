@@ -91,11 +91,15 @@ p {
 .header-content-bar {
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.lambdalogo img {
+.navbar-brand img {
     zoom:175%
+}
+
+.header-content-bar .buttondiv a {
+    margin: 0 500px 10px 500px;
 }
 
 .header-content-bar nav a {
@@ -104,6 +108,7 @@ p {
     font-weight: bold;
     text-decoration: none;
     color:black;
+    margin: 0 105px 0 3px;
     
 }
 
@@ -191,12 +196,9 @@ p {
 
 
 .bottom-content {
-
-
-}
-
-
-
+    margin: -10px 0 50px 300px;
+    }
+    
 footer {
     width: 100%;
     background: black;
@@ -208,7 +210,9 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 23px;
+    height: 105px;
+    margin: 30px 100px 0 300px;
 }
 
 footer nav a {
