@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/* Home Page CSS starts here */
 * {
     box-sizing: border-box;
     
@@ -203,6 +204,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About page CSS below */
 .container-about-page{
     width: 800px;
     margin: 0 auto;
@@ -212,9 +214,8 @@ footer nav a {
 .strategy, .how, .places, .collab{
     width: 50%;
     
-    border: 1px solid red;
     align-content: center;
-    border-top: 2px dotted black;
+    border-top: 1px dashed black;
     padding-top: 20px;
     margin-top: 20px;
 }
@@ -223,7 +224,7 @@ footer nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid green;
+    
     padding-bottom: 10px;
     
 }
@@ -232,7 +233,13 @@ footer nav a {
     margin-top: 20px;
 }
 .lw{
-    border-top: 2px dotted black;
+    border-top: 1px dashed black;
     padding-top: 20px;
     margin-bottom: 20px;
+}
+.middle-sections button{
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: white;
 }
