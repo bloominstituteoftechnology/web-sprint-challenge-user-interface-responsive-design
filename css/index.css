@@ -206,7 +206,20 @@ footer nav a {
 .container-about-page{
     width: 800px;
     margin: 0 auto;
+    
 }
-.strategy, .how, .places, .collab, .lw{
+.strategy, .how, .places, .collab{
     width: 50%;
+    border: 1px solid red;
+    align-content: center;
+}
+.middle-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    border-top: 2px dotted black;
+    
+   
+   
 }
