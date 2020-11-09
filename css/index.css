@@ -207,19 +207,32 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
     
+    
 }
 .strategy, .how, .places, .collab{
     width: 50%;
+    
     border: 1px solid red;
     align-content: center;
+    border-top: 2px dotted black;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 .middle-sections{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     border: 1px solid green;
-    border-top: 2px dotted black;
+    padding-bottom: 10px;
     
-   
-   
+}
+
+.middle-sections button, .middle-sections h2, .lw{
+    margin-top: 20px;
+}
+.lw{
+    border-top: 2px dotted black;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
