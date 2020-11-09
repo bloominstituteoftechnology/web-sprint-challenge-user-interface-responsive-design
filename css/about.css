@@ -135,7 +135,13 @@ p {
 }
 
 .buttons{
-    display: flex;
+    max-width: 110px;
+    height: 35px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 4px;
 }
 /* This is my footer */
 
@@ -156,4 +162,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.footer{
+    padding: 10px;
 }
