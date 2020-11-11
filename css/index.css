@@ -65,13 +65,6 @@ h1, h2, h3, h4, h5 {
 p1 {
   display:flex;
  
-.photobox {
-  
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-  
 }
 ul {
   width:60%;
@@ -134,7 +127,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom:1px dashed black;
 }
 
 .middle-content h2 {
@@ -293,6 +286,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    display:flex;
+    justify-content:center;
     
     
 }
@@ -300,7 +295,6 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    align-content: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
