@@ -90,6 +90,7 @@ header{
 }
 #lambda{
   height:40px;
+  position:center;
 }
 header nav{
   display:flex;
