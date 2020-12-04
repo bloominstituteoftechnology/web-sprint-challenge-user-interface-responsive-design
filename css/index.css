@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 2px solid gray;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,6 +64,13 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.heroContainer img{
+    background-size:cover;
+    width: 70%;
+    height:25vh;
+    margin: 3% 4% 2% 14%;
 }
 
 .container {
@@ -189,7 +196,13 @@ footer nav a {
 nav {
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
+    align-items: center;
+    margin:2% 0% 0% 0%;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
 }
 
 .aboutHeader {
