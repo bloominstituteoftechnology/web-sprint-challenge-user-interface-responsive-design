@@ -132,18 +132,13 @@ header {
   display: flex;
   padding-bottom: 2rem;
 }
-.navigate {
-  
-}
+
 header nav {
-  
   padding-top: 1.5rem;
   padding-left: 3rem;
   padding-right: 20rem;
-  
 }
 img {
-  
   padding-left: 7rem;
   padding-bottom: 1rem;
 }
@@ -156,10 +151,10 @@ header nav {
   font-size: 14px;
 }
 a.one {
-    color:black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-}
+
 * {
   box-sizing: border-box;
 }
@@ -261,4 +256,38 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+.boxes {
+  border: 1px solid black;
+}
+
+#first {
+  background-color: teal;
+}
+#sec {
+  background-color: gold;
+}
+#third {
+  background-color: cadetblue;
+}
+#fourth {
+  background-color: coral;
+}
+#fifth {
+  background-color: crimson;
+}
+#sixth {
+  background-color: forestgreen;
+}
+#seventh {
+  background-color: darkorchid;
+}
+#eigth {
+  background-color: hotpink;
+}
+#ninth {
+  background-color: indigo;
+}
+#tenth {
+  background-color: dodgerblue;
 }
