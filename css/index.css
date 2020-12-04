@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 35px 0;
+    
+
+}
+.topBox{
+    /* background-color: green; */
+    align-content: center;
+}
+.topNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 28vw;
+    margin-left: 50px;
+    align-items: center;
+}
+.topNav a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    margin-bottom: 20px;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +115,23 @@ p {
     padding-bottom: 20px;  
 }
 
+.contentabout {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.contentLetsWork {
+    margin: 20px 0;
+    ;
+}
+.text-about{
+    width: 800px;
+    padding-bottom: 20px;  
+}
+
+.text-aboutbot{
+    width: 45vw;
+    padding-bottom: 20px;  
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,12 +151,72 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.gallery-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.caption-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 380px;
+    height: 500px;
+    border-bottom: 1px dashed black;
+
+}
+.caption-about h1{
+
+}
+.caption-about p{
+    width: 400px;
+    height: 90px;
+    
+}
+.learnMore{
+    border: solid  black .1rem;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: black;
+
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
