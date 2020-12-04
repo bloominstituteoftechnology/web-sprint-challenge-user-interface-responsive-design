@@ -60,18 +60,29 @@ html, body {
 }
 
 header{
- 
-    text-align: center;
+    width: 100%;
+   text-align: center;
 
 
 }
+
+
+
 .head{
     margin-top:40px ;
     width:95%;
     height:100px;
   display:flex;
   justify-content: center;
-  
+ 
+}
+nav{
+  /* width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;*/
 }
 .lambda-black{ 
     text-align:left ;
@@ -88,8 +99,8 @@ nav{
     align-items:center;
     height:30px;
     width:70%;
-   /* margin-top:40px;
-    margin-left:70px;*/
+    margin-top:40px;
+    margin-left:70px;
     text-align:center;
 }
 nav a{
@@ -219,4 +230,13 @@ footer nav a {
     border-bottom:2px dotted black;
     display:flex;
     flex-direction: column;
+ }
+ a{
+     padding:5px;
+     border-radius:6px ;
+     color:black ;
+     height:20px;
+     width:80px;
+     border:1px solid black ;
+     text-decoration: none;
  }
