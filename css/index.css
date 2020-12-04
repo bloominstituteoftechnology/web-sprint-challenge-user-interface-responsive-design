@@ -85,6 +85,11 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about{
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -99,6 +104,46 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes .box {
@@ -144,3 +189,79 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Styles that I added to the Sprint Challenge */
+/* Styles that I added to the Sprint Challenge */
+/* Styles that I added to the Sprint Challenge */
+
+/* Header Styles */
+header {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header .header-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+header .header-img {
+    padding-left: 2.5%;
+}
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+header nav a:hover button{
+    color: white;
+    background-color: black;
+}
+header nav a {
+    text-decoration: none;
+    transition: .3s;
+}
+header nav a button {
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* About Middle Section */
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-box{
+    width: 47%;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box h2 {
+    padding-top: 10px;
+}
+
+.about-box img {
+    width: 100%;
+}
+
+.about-box a button{
+    border-color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    padding: 7px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
