@@ -208,6 +208,7 @@ nav a {
 .aboutHeader {
     display: flex;
     justify-content: center;
+    margin:2% 0% 2% 0%;
 }
 
 .corporateImgs {
@@ -238,24 +239,33 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin:2%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .corporateImg2 {
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .corporateImg3 {
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .corporateImg4 {
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 button {
@@ -267,6 +277,21 @@ button {
     transition: 2s;
 }
 
+.aboutContainer{
+    margin:0% 18% 0% 18%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
+.insideAboutContainer{
+    margin:2%;
+}
 
+.insideLetsWork{
+    margin:3% 18% 3% 18%;
+}
 
+.aboutFooter{
+    margin:0% 18% 0% 18%;
+    width:65%;
+}
