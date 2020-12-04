@@ -127,7 +127,6 @@ header nav a{
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
   display:flex;
   width:95%;
   flex-wrap:wrap;
@@ -135,7 +134,8 @@ header nav a{
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    margin-top:1%;
+  margin-bottom:1%;
     margin-bottom: 0;
 }
 .middle-content a{
@@ -146,24 +146,30 @@ header nav a{
 }
 
 .middle-box{
-/*     width: 12.5%; */
-/*     height: 100px; */
-/*     background: black; */
-/*     margin: 20px 2.5%; */
-/*     color: white; */
-    display: flex;
+  display: flex;
   flex-flow:column;
   margin:2%;
   justify-content:space-evenly;
   bottom-border:1px dashed black;
-/*     align-items: center; */
-/*     justify-content: center; */
+  padding:1%;
+  margin:2%;
 }
 .middle-box a{
   width:25%;
   height:30px;
   border-radius:7px;
   text-align:center;
+  margin:1% 0 5% 0;
+  bottom-border:1px solid black;
+}
+.middle-box img{
+  width:100%;
+  border-radius:7px;
+  text-align:center;
+  margin:2% 0;
+}
+.middle-box p{
+  margin:1% 0;
 }
 .bottom-content {
     display: flex;
