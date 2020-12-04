@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+h3{
+    display: flex;
+    align-items: center;
+}
 
 p {
     line-height: 1.4;
@@ -111,9 +115,9 @@ section{
 }
 .container2{
     width: 100%;
+    padding:5px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1px dashed black;
 }   
 .image{
@@ -123,7 +127,13 @@ section{
  
 
 }
-
+.container3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
