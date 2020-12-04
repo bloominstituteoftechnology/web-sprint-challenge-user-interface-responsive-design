@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+
+header nav{ 
+    width:80%; 
+    top:0%; 
+    display:flex; 
+    align-items:baseline;
+    justify-content:space-evenly; 
+    height:10vh;
+}
+
+.logo { 
+    width:20%; 
+    display:flex; 
+    justify-content:space-evenly; 
+    align-items:baseline;
+}
+
+.links {
+    width: 80%;
+    display:flex; 
+    justify-content:space-evenly; 
+    align-items:baseline;
+}
+
+.jumbo img{
+    width: 100%; 
+    display: flex;
+    justify-content:center;
+    align-items: stretch;
+    align-content: center;
+    padding: 20px 2%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
