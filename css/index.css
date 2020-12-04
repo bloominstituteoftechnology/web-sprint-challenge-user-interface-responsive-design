@@ -102,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1 {
+.middle-content .boxes .box:first-child  {
     width: 12.5%;
     height: 100px;
     background:teal;
@@ -112,7 +112,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box2 {
+.middle-content .boxes .box:nth-child(2) {
     width: 12.5%;
     height: 100px;
     background: gold;
@@ -123,7 +123,7 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box3 {
+.middle-content .boxes .box:nth-child(3) {
     width: 12.5%;
     height: 100px;
     background: cadetblue;
@@ -133,7 +133,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box4 {
+.middle-content .boxes .box:nth-child(4) {
     width: 12.5%;
     height: 100px;
     background: coral;
@@ -143,7 +143,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box5 {
+.middle-content .boxes .box:nth-child(5) {
     width: 12.5%;
     height: 100px;
     background: crimson;
@@ -153,7 +153,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box6 {
+.middle-content .boxes .box:nth-child(6) {
     width: 12.5%;
     height: 100px;
     background: forestgreen;
@@ -163,7 +163,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box7 {
+.middle-content .boxes .box:nth-child(7) {
     width: 12.5%;
     height: 100px;
     background: darkorchid;
@@ -173,7 +173,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box8 {
+.middle-content .boxes .box:nth-child(8) {
     width: 12.5%;
     height: 100px;
     background: hotpink;
@@ -183,7 +183,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box9 {
+.middle-content .boxes .box:nth-child(9) {
     width: 12.5%;
     height: 100px;
     background: indigo;
@@ -193,7 +193,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box10 {
+.middle-content .boxes .box:nth-child(10) {
     width: 12.5%;
     height: 100px;
     background: dodgerblue;
@@ -236,22 +236,96 @@ footer nav a {
     text-decoration: none;
 }
 
-.top{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2%;
-}
 
-.toplinks{
+/* .toplinks{
     font-size: 25px;
     margin-top:20px;
    margin-bottom:20px;
    border-radius: 35px;
    font-family: 'Roboto Mono', monospace;
+} */
+
+
+
+/* Header Style */
+header {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header .top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
 }
 
 .jumbopic{
-    margin-top: 2%;
-    margin-left: 32%;
+    margin-top: 3%;
+    padding-left: 2.5%;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+header nav a:hover button{
+    color: white;
+    background-color: black;
+}
+
+header nav a {
+    text-decoration: none;
+    transition: .3s;
+}
+header nav a button {
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.text-container-about{
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+/* Middle Section for about */
+
+button{
+    border-color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    padding: 7px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-box h2{
+    padding-top: 10px;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-box{
+    width: 47%;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box img {
+    width: 100%;
 }
 
