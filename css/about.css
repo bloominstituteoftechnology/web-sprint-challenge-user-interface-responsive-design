@@ -89,7 +89,7 @@ header{
   width:100%;
 }
 #lambda{
-  height:auto;
+  height:40px;
 }
 header nav{
   display:flex;
