@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,8 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS Universal Selectors */
+
+
+
 * {
     box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid black;
+    text-decoration: none;
 }
 
 html, body {
@@ -65,6 +72,31 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* Header Section */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+}
+.head-bar{
+    display: flex;
+    width:55%;
+    justify-content: space-between;
+}
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+}
+.link{
+    padding:10px;
+}
+.head-banner{
+    display: flex;
+    justify-content: center;
+}
+/* Top Section */
 
 .container {
     width: 800px;
@@ -84,7 +116,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Middle Section */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,6 +143,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* Bottem Selection */
 
 .bottom-content {
     display: flex;
@@ -125,6 +158,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* Footer Selection */
 
 footer {
     width: 100%;
