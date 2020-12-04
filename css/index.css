@@ -185,3 +185,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* this is the about page*/
+
+.box-top{
+ 
+    padding-top: 25px;
+    border-top: 2px dotted black;
+    display:flex;
+    justify-content: space-evenly;
+}
+.box1{
+    border-bottom:2px dotted black;
+    display:flex;
+    flex-direction: column;
+}
+.box2{
+    border-bottom:2px dotted black;
+    display:flex;
+    flex-direction: column;
+
+}
+.box-bottom{
+    padding-top: 25px;
+    display:flex;
+}
+ .box3{
+    border-bottom:2px dotted black;
+    display:flex;
+    flex-direction: column;
+ }
+ .box4{
+    border-bottom:2px dotted black;
+    display:flex;
+    flex-direction: column;
+ }
