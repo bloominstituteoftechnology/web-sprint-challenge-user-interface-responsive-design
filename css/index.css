@@ -212,6 +212,35 @@ footer nav a {
     text-decoration: none;
 }
 
-/* ABOUT CSS */
+/* ABOUT CSS TAGS */
 
-.
+
+
+
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+}
+.mainBodyInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.top-info{
+    display: flex;
+    flex-wrap: wrap;
+    width:60%;
+
+}
+.strategy{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottomInfo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
