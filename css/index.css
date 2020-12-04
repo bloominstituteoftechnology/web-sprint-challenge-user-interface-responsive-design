@@ -231,7 +231,7 @@ footer nav a {
     display:flex;
     flex-direction: column;
  }
- a{
+ .LM4{
      padding:5px;
      border-radius:6px ;
      color:black ;
