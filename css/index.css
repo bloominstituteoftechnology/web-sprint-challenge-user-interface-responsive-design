@@ -226,29 +226,44 @@ footer nav a {
 }
 
 .aboutchildren {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
-.plan .working {
-    display: flex;
-    flex-direction: row;
-    align-content: left;
-    align-items: left;
-    border-bottom: 1px dashed black;
-    width: 400px;
-    max-width: 400px;
+.aboutchildren img{
+    margin-bottom: 15px;
 }
 
-.office .meeting {
-    display: flex;
-    flex-direction: row;
-    align-content: left;
-    align-items: left;
-    border-bottom: 1px dashed black;
-    width: 400px;
+.plan {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 2px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.working {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 2px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.office {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 2px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.meeting {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 2px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .aboutbottom {
