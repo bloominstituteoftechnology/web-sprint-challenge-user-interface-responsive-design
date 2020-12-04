@@ -150,7 +150,7 @@ header nav a{
   flex-flow:column;
   margin:2%;
   justify-content:space-evenly;
-  bottom-border:1px dashed black;
+  border-bottom:1px dashed black;
   padding:1%;
   margin:2%;
 }
