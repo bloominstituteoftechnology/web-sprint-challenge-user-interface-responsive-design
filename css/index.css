@@ -48,6 +48,7 @@ table {
 }
 
 * {
+    border: 2px solid black;
     box-sizing: border-box;
 }
 
