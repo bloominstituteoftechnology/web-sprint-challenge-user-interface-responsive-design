@@ -254,3 +254,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*------------------about css starts here---------------*/
+
+h3 {
+    margin-top:4%;
+}
+
+p {
+    margin-bottom:4%;
+}
+
+button {
+    background-color:white;
+    padding:3%;
+    margin-bottom:4%;
+    transition:.5s
+}
+button:hover {
+    font-size:110%;
+    color:white;
+    background-color:orangered;
+    cursor:pointer;
+}
+
+.flex-box {
+    
+    display:flex;
+    margin-bottom:5%;
+}
