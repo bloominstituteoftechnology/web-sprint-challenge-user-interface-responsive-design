@@ -257,6 +257,10 @@ footer nav a {
 
 /*------------------about css starts here---------------*/
 
+.dotted-line {
+    overflow:hidden;
+}
+
 h3 {
     margin-top:4%;
 }
