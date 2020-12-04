@@ -65,12 +65,25 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.container {
-    width: 800px;
-    margin: 0 auto;
+header {
+    width: 60%;
+    background: white ;
 }
 
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -86,19 +99,25 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin:0 auto;
+    margin-bottom: 10%;
     border-bottom: 1px dashed black;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 10%;
 }
 
 .middle-content .boxes {
     display: flex;
+    margin-bottom: 10%;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 
 .middle-content .boxes .box {
@@ -110,6 +129,71 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.box1{
+    background-color:teal;
+    height: 100px;
+    width:100px;
+    color:white;
+   
+   
+}
+.box2{
+    background-color:gold;
+    height: 100px;
+    width:100px;
+    color:white;
+}
+.box3{
+    background-color:cadetblue;
+    height: 100px;
+    width:100px;
+    color:white;
+}
+.box4{
+    background-color:coral;
+    height: 100px;
+    width:100px;
+    color:white;
+    }
+.box5{background-color:crimson;
+    height: 100px;
+    width:100px;
+    color:white;
+    }     
+.box6{
+    background-color:forestgreen;
+    height: 100px;
+    width:100px;
+    color:white;
+}
+.box7{
+    background-color:darkorchid;
+    height: 100px;
+    width:100px;
+    color:white;
+}
+.box8{
+    background-color:hotpink;
+    height: 100px;
+    width:100px;
+    color:white;
+
+}
+.box9{
+    background-color:indigo;
+    height: 100px;
+    width:100px;
+    color:white;
+}
+.box10{
+    background-color:dodgerblue;
+    height: 100px;
+    width:100px;
+    color:white;
 }
 
 .bottom-content {
@@ -127,7 +211,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 60%;
     background: black;
 }
 
@@ -143,4 +227,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.container-about-page{
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.container-about-page.about-top{
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10%;
+    padding:10%;
+}
+#about-top{
+padding-top: 5%;
+padding-bottom: 5%;
+}
+#strategy{
+padding-left:10%;
+padding-bottom: 5%;
+}
+#how-we-work{
+padding-left:10%;
+padding-bottom: 5%;
+}
+#places-we-work{
+padding-left:10%;
+padding-bottom: 5%;
+}
+#collaboration
+{
+padding-left:10%;
+padding-bottom: 5%;
+}
+#work-together{
+    padding-top:5%;
+    padding-bottom: 5%;
 }
