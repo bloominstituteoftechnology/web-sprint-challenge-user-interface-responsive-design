@@ -69,8 +69,32 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    flex-flow:column;
 }
 
+header{
+  display:flex;
+  flex-flow:column;
+  background-color:white;
+  justify-content:space-evenly;
+  width:100%;  
+  }
+header nav{
+  display:flex;
+  justify-content:space-evenly;
+  contain:content;
+  width:80%;
+}
+header nav a{
+  padding:2%;
+  margin:1%;
+}
+#jumbo{
+  height:153px;
+  width:100%;
+}
+  
 .top-content {
     display: flex;
     flex-wrap: wrap;
