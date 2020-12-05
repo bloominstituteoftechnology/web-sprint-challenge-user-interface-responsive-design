@@ -65,21 +65,20 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
-    height:100px;
     width:100%;
-    justify-content:space-evenly;
-    align-items:center;
+    display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
 }
 
 .logo{
-    width:80px;
-    height:90px;
-    display:flex;
+
+    text-align: center;
 }
 
 .logo img{
-    width:80px;
+
 }
 
 nav{
@@ -89,7 +88,7 @@ nav{
     height:30px;
     background-color: white;
     width:100%;
-    text-align:center;
+    text-align:flex-start;
 }
 
 nav a{
@@ -190,8 +189,4 @@ footer nav a {
     background-color: black;
     color: white;
     text-decoration: none;
-}
-
-.box1 {
-    background: teal;
 }
