@@ -37,8 +37,9 @@ body {
 }
 header{
     margin: auto;
+    width: 104%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 h1{
@@ -56,7 +57,7 @@ nav a{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
-.headingimg{
+.headingimg{ 
 display: flex;
 justify-content: center;
 padding: 3%;
@@ -104,29 +105,45 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.text-container{
+.img-container{
+    width: 392px;
+    height: 161px;
     display: flex;
     justify-content: center;
-    padding: 2%;
+    
 }
 section{
     width: 100%;
     height: 100%;
 }
 .container2{
-    width: 100%;
+    width: 50%;
+    height: auto;
     padding:5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 1px dashed black;
 }   
-.image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
+
+
+.text-container2{
+    width:50%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
 
 }
+#box1{
+    display: flex;
+    flex-direction: row;
+}
+#box2{
+    display: flex;
+    flex-direction: row;
+}
+
 .container3{
     width: 100%;
     display: flex;
