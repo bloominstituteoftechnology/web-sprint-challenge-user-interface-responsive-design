@@ -127,8 +127,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width:800px;
     background: black;
+    margin: auto;
 }
 
 footer nav {
@@ -148,14 +149,14 @@ footer nav a {
 .nav img{
     width:160px;
     height:60px;
-    padding: 10px 2%;
+    padding: 10px;
+    margin-left: -30px;
 }
 
 .nav {
-    border: 1px solid black;
     display:flex;   
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
     height:30px;
     background-color:white;
@@ -163,7 +164,7 @@ footer nav a {
     margin-top:25px;
     text-align:center;
     padding: 20px 2%;
-    font-size: 16px;
+    font-size: 14px;
     margin: auto;
     margin-bottom:25px;
 }
@@ -177,20 +178,18 @@ footer nav a {
 }
 
 .about-nav{
-    border: 1px solid black;
     display:flex;   
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
     height:30px;
     background-color:white;
     width:800px;
-    margin-top:25px;
-    text-align:center;
     padding: 20px 2%;
-    font-size: 16px;
+    font-size: 14px;
     margin: auto;
     margin-bottom:25px;
+    margin-top:25px;
 }
 
 .about-header-img img {    
@@ -199,4 +198,63 @@ footer nav a {
     display: flex;
     flex-direction: row;
     margin-bottom: 25px;
+}
+
+.about-nav img{
+    width:160px;
+    height:60px;
+    padding: 10px;
+    margin-left: -30px;
+}
+
+.flex-box{
+    display: flex;
+    width: 800px;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.flex-items{
+    width: 370px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.flex-box img {
+    width: 370px;
+}
+
+.about-head {
+    margin-bottom: 25px;
+    width: 770px;
+    margin-left: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.flex-items img, p, button {
+    margin-bottom: 25px;
+}
+
+.flex-items button {
+    padding:10px 15px;
+    background-color: white;
+    border-radius:12%;
+    border: 3px solid black;
+    font-size: 16px;
+    transition-duration: .3s;
+}
+
+.flex-items button:hover {
+    background-color: rgb(125, 174, 210);
+    color: white;
+}
+
+.end {
+    width: 770px;
 }
