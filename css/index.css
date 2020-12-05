@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,8 +30,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -50,6 +54,27 @@ table {
 * {
     box-sizing: border-box;
 }
+.header {
+    display:flex;
+    width: 100%;
+    background: white;
+}
+
+.header nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.header nav a {
+    color: black;
+    background:white;
+    text-decoration: none;
+}
 
 html, body {
     height: 100%;
@@ -66,11 +91,17 @@ p {
     line-height: 1.4;
 }
 
+.backgroundImage img {
+    width:100%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.header .logo {
+    padding-right:40px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -174,4 +205,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.button {
+   
+    background:white;
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius:5px;
+    padding: 5px 20px;
+    
+}
+
+.thumbnails {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.thumbnails div {
+    width: 50%;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.thumbnails p {
+    margin: 20px 0;
+}
+.closer{
+    margin: 20px 0;
 }
