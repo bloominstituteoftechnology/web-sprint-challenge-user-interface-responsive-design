@@ -154,18 +154,13 @@ section.headerNav {
     display:flex;
     justify-content: space-evenly;
     align-content: center;
-    margin-top:1rem;
-    margin-bottom:2rem;
+    margin:1rem 3rem;
 }
 
 .headerNav a{
     margin:auto 0;
     text-decoration: none;
     color:black;
-}
-
-.image {
-    justify-content: flex-start;
 }
 
 img {
