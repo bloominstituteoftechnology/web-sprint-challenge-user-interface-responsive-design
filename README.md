@@ -1,3 +1,4 @@
+
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 Semantic HTML is a way to use element tags that convey information about the content.
@@ -21,7 +22,6 @@ git is valuable and important to teams of developers so each dev can work on the
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -30,9 +30,7 @@ git is valuable and important to teams of developers so each dev can work on the
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
