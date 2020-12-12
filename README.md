@@ -46,10 +46,10 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Create a forked copy of this project. - ok
+- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!). -ok
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`. -ok
+- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly. - starting...
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -64,12 +64,12 @@ Your finished project must include all of the following requirements:
 
 ### Home Page
 
-[Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
+[Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing. - OK!
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ ] Build the HTML and CSS to create the missing navigation and header. - I DID IT!!
+* [ ] Link the `About` navigation item to the [about.html](about.html) page - EASY!
 
-You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
+You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box: DONE!!
 
 * [ ] box1: `teal`
 * [ ] box2: `gold`
