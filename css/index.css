@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,8 +28,28 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
+
+nav {
+display: flex;
+justify-content: space-around;
+padding:40px
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.lambda img{
+    width:100px
+
+}
+
+
+
 ol, ul {
 	list-style: none;
 }
@@ -69,6 +88,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    ;
 }
 
 .top-content {
