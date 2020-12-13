@@ -67,6 +67,7 @@ p {
 }
 
 .container {
+    padding-top: 2%;
     width: 800px;
     margin: 0 auto;
 }
@@ -92,24 +93,61 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.boxes {
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color: white;
+    padding: 2%;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box {
+    height: auto;
+    width: 100px;
+    padding: 5%;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +181,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.segment{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+
+}
+
+.segment h2{
+    padding: 2%;
+}
+
+button{
+    margin: 2%;
+}
+
+.top-nav{
+    width: 100%;
+    background: none;
+}
+
+.top-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.top-nav nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.aboutNav{
+    width: 100%;
+    background: none;
+}
+
+.aboutNav a{
+    color: black;
+    text-decoration: none;
+}
+
+.aboutNav nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
