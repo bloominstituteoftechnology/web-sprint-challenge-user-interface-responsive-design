@@ -104,8 +104,8 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -143,4 +143,127 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zoom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-container{
+    margin-top: 2%;
+    align-content: space-between;
+}
+.top{
+    justify-content: space-between;
+}
+.first{
+    text-decoration: none;
+    color:black;
+    margin-top: 2%;
+}
+.box1{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 200%;
+    height: 100px;
+    margin: 25px 0%;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skyline{
+    display: block;
+    margin-left: auto;       
+    margin-right: auto;
 }
