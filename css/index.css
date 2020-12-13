@@ -73,27 +73,25 @@ p {
 }
 
 
-
-
-.topimg {
+.mainsection{
     display: flex;
-    justify-content: center;
-    margin-top: 17px;
-    margin-bottom: 17px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.box1 .box2  .box3 .box4 {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
 }
 
-.container p{
-    margin-bottom: 40px;
-}
 
-.container p:nth-child(2) {
-    margin-bottom: 15px;
-}
+
+
+
+
 
 .top-content {
     display: flex;
