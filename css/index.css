@@ -54,6 +54,32 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav, a, img{
+    display: flex;    
+    justify-content: space-around; 
+    margin-top: auto;
+    text-decoration: none;
+    color: #000000;
+}
+
+.aboutImg{
+    display: flex;
+}
+
+.toppingPicture{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -78,6 +104,14 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+ 
+.top-content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
 .top-content .text-container {
     width: 48%;
@@ -85,6 +119,19 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content1 .text-container1 {    
+    padding-bottom: 20px;  
+}
+
+.button{
+    width: 125px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,12 +151,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1){
+    background: teal;
+}
+
+.box:nth-child(2){
+    background: gold;
+}
+
+.box:nth-child(3){
+    background: cadetblue;
+}
+
+.box:nth-child(4){
+    background: coral;
+}
+
+.box:nth-child(5){
+    background: crimson;
+}
+
+.box:nth-child(6){
+    background: forestgreen;
+}
+
+.box:nth-child(7){
+    background: darkorchid;
+}
+
+.box:nth-child(8){
+    background: hotpink;
+}
+
+.box:nth-child(9){
+    background: indigo;
+}
+
+.box:nth-child(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -129,18 +215,21 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
 }
 
 footer nav {
-    width: 60%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
+    margin-right: 60px;
     text-decoration: none;
 }
