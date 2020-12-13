@@ -87,6 +87,14 @@ p {
     margin: 0 auto;
 }
 
+.container p{
+    margin-bottom: 40px;
+}
+
+.container p:nth-child(2) {
+    margin-bottom: 15px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
