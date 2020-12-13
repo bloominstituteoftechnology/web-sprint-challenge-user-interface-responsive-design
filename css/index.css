@@ -49,12 +49,27 @@ ol, ul {
     margin-top: 40px;
     text-decoration: none;
 }
+.top-nav img{
+    object-fit: fill;
+    margin-top: 20px;
+}
 a {
 color: black;
 }
 
 a:hover{
     color: green;
+}
+
+.jumbotron{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.jumbotron img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 105%;
 }
 
 blockquote, q {
@@ -72,6 +87,10 @@ table {
 
 * {
     box-sizing: border-box;
+}
+
+#box1{
+    background-color: #118080;
 }
 
 html, body {
