@@ -52,6 +52,11 @@ table {
     box-sizing: border-box;
     border:1px solid black;
 }
+second
+ {
+    display: flex;
+    justify-content: center;
+}
 
 html, body {
     height: 100%;
