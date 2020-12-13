@@ -66,6 +66,13 @@ p {
     line-height: 1.4;
 }
 
+
+.topimg{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .topbar {
     display: flex;
     justify-content: space-evenly;
@@ -77,7 +84,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -86,6 +93,8 @@ p {
     flex-direction: column;
     width: min-content;
 }
+
+
 
 
 
