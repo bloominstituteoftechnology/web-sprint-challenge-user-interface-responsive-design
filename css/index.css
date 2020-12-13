@@ -24,6 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -34,6 +36,26 @@ body {
 ol, ul {
 	list-style: none;
 }
+
+.top-nav{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.top-nav a {
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+
+a:visited{
+
+}
+
+
 blockquote, q {
 	quotes: none;
 }
