@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is HTML Mark-up with descriptive tags to help you and others know what the content will be. It also helps with SEO - this helps search engines find your content. Exaamples of semantic HTML tags would be <section><header><footer><nav>. Examples of non-semantic HTML would be <div><span>.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Display block displays content in a block format, you can set a height and width on the property. Display inline keeps the information inline like <span> to add special properites to some text - like bold or strong. - it does not go to the next line, you cannot place height and width on inline elements. 
 
 3. What are the 4 areas of the box model?
+The 4 areas of the box model starting with the inner most box are 1.content 2.padding 3.border 4.margin. 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+All of align-items and content display on the cross-axis which runs from top to bottom. Justify properties display on the main-axis which runs from left to right.
 
 5. Explain why git is valuable to a team of developers.
+Git is crucial to a team of developers because it keeps track of all of their progress and allows a project to be updated by different developers locally and then uploaded or 'pushed' to a remote cloud. The project can be merged and edited by the team collectively and individually allowing for multiple team members to collaborate on one project simultaneously!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -86,14 +91,14 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [ ] Copy and paste your home page navigation and header into the about page - DONE!
+* [ ] Update the header image with the about page image - OK!
+* [ ] Link the `Home` navigation item back to the `index.html` page. - DONE!
+* [ ] Build the rest of the about page layout to match the design - WIP!!
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
-Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. 
+Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. - OK
 
 ## Stretch Problems
 
