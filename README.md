@@ -34,23 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If I were to describe semantic HTML to the next cohort of students, I would tell them that this is where you structure your page. This is where you make the headers, the body, paragraphs, galleries/images, the footer, and any other pertinent structural areas that your page must have.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The first difference between diplay: inline, and display: block is that with inline, it is just as it suggests, it is within the element line whereas the block element is on its own line. The other difference is that height and width has no bearing on an inline display, but the block display will take up the whole width.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are the margin, border, padding, and content (in that order from the outside in).
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items: center works along the center of the cross axis, while using flexbox.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is an important tool to developers because it allows for multiple developers to contrbute to a project without editing the remote file, but still being able to merge their work on the file to create a new, improved version of the remote.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
