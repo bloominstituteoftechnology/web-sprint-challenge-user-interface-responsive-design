@@ -27,7 +27,7 @@ html, body {
 }
 
 a:hover{
-    color: green;
+    color: #F3B063;
 }
 
 a {
@@ -75,6 +75,10 @@ p {
 button{
   padding: 10px 25px;
   border-radius: 15px;
+}
+
+button:hover{
+    background: #BBC6C9;
 }
 
 .tile{
