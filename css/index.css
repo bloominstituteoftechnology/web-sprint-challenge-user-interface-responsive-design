@@ -154,7 +154,7 @@ section.headerNav {
     display:flex;
     justify-content: space-evenly;
     align-content: center;
-    margin:1rem 3rem;
+    margin:1rem 26%;
 }
 
 .headerNav a{
