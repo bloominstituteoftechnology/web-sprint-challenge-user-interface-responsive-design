@@ -32,8 +32,14 @@ body {
     line-height: 1;
     margin-right: 750px auto;
     margin-left: 750px auto;
+    margin-top: 600px auto;
+    margin-bottom: 600px auto;
     padding: 125px;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 ol, ul {
 	list-style: none;
@@ -53,6 +59,8 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html, body {
@@ -71,10 +79,23 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     padding: 75px;
+    max-height: 1000px;
+    display: inline-block;
+    position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    align-content: center;
+    display: inline;
+    justify-content: center;
+    max width: 45%;
+    padding: 25px;
 }
 
 .top-content {
@@ -107,8 +128,6 @@ p {
     justify-content: space-evenly;
     position: sticky;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 300px;
 }
 
 .middle-content .boxes .box {
@@ -136,9 +155,43 @@ p {
     padding-right: 0;
 }
 
+.secondcontainer {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.secondcontainer .text-container {
+    padding-right: 4%;
+}
+
+.secondcontainer .text-container:last-child {
+    padding-right: 0;
+}
+
+.topcontainers {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.topcontainers .text-container {
+    padding-right: 4%;
+}
+
+.topcontainers .text-container:last-child {
+    padding-right: 0;
+}
+
 footer {
     width: 100%;
     background: black;
+    position: bottom relative;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 footer nav {
@@ -156,49 +209,50 @@ footer nav a {
 }
 
 #box1 {
-    background-color: black;
+    background-color: teal;
     padding: 50px;
     text-align: center;
+    height: 110px;
 }
 
 #box2 {
-    background-color: yellow;
+    background-color: gold;
     padding: 50px;
     text-align: center;
 }
 
 #box3 {
-    background-color: teal;
+    background-color: cadetblue;
     padding: 50px;
     text-align: center;
 }
 
 #box4 {
-    background-color: chocolate;
+    background-color: coral;
     padding: 50px;
     text-align: center;
 }
 
 #box5 {
-    background-color: red;
+    background-color: crimson;
     padding: 50px;
     text-align: center;
 }
 
 #box6 {
-    background-color: green;
+    background-color: forestgreen;
     padding: 50px;
     text-align: center;
 }
 
 #box7 {
-    background-color: purple;
+    background-color: darkorchid;
     padding: 50px;
     text-align: center;
 }
 
 #box8 {
-    background-color: pink;
+    background-color: hotpink;
     padding: 50px;
     text-align: center;
 }
@@ -210,8 +264,53 @@ footer nav a {
 }
 
 #box10 {
-    background-color: royalblue;
+    background-color: dodgerblue;
     padding: 50px;
     text-align: center;
 }
 
+.box {
+    font-size: 20px;
+    text-align: center;
+    text-overflow: inherit;
+    font-weight: 500;
+}
+
+header {
+    position: top relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav {
+    width: 60%;
+    font-size: 14px;
+    position: relative right;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#tophome {
+    padding: 27px;
+}
+
+#topabout {
+    padding: 27px;
+}
+
+#topproducts {
+    padding: 27px;
+}
+
+#topblog {
+    padding: 27px;
+}
+
+#topcontacts {
+    padding: 27px;
+}
