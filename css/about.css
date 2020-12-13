@@ -72,15 +72,9 @@ p {
     justify-content: space-evenly;
 }
 
-.tiles-container :nth-child(3),
-.tiles-container :nth-child(4){
-    padding-top: 45px;
-}
-
-.btn{
-    height: 8px;
-    width: 120px;
-    border-radius: 15px;
+button{
+  padding: 10px 25px;
+  border-radius: 15px;
 }
 
 .tile{
