@@ -1,8 +1,10 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+*
 
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -49,9 +52,16 @@ table {
 
 * {
     box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
 }
 
-html, body {
+.box1{
+    background-color:teal;
+}
+.box2
+.html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -101,16 +111,18 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes .box { 
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +156,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
