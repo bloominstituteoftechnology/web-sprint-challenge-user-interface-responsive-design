@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,31 +45,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,59 +71,78 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
+.middle-content .boxes .box1, .box2, .box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10      {
+    width: 200px;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background :coral;
+}
+.middle-content .boxes .box5{
+    background:crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background : darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,8 +151,108 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
 }
+body {
+    margin: 2% 5%;
+}
+.main-nav nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 3%;
+} 
+nav a{
+    color: black;
+    text-decoration: none;
+}
+.top-media img{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 70%;
+    margin:  2% 15%;
+}
+.about-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-options div{
+    width: 30%;
+    margin: 3%;
+}
+.about-about{
+    display: flex;
+    justify-content: center; /*never works!!!!*/
+    margin: 0 13%;
+    width: 70%;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.about-options h3{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-style: solid;
+    background-size: 1px;
+    border-width: 2px;
+    border-color: black;
+}
+.about-lets{
+    margin: 0 12%;
+}
+/*Products*/
+.Products{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightcyan;
+    flex-wrap: wrap;
+}
+.Products div{
+    margin: 5%;
+    width: 250px;
+}
+.Products .Webdev{
+  background-color: lightsteelblue;
+  padding: 1%;
+  border-radius: 5%;
+}
+.Products .Android{
+  background-color: linen;
+  padding: 1%;
+  border-radius: 5%;
+}
+.Products .IOS{
+    background-color: paleturquoise;
+    padding: 1%;
+    border-radius: 5%;
+}
+.Products .Data{
+    background-color: rgb(172, 163, 182);
+    padding: 1%;
+    border-radius: 5%;
+}
+.Products div:hover {
+    background-color: rgb(53, 127, 170);
+  }
+  .contactcontent{
+      display: flex;
+      justify-content: space-evenly;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(168, 154, 143);
+      border-radius: 1%;
+  }
+  .contactcontent div{
+        background-color: sandybrown;
+        margin: 5%;
+        width: 500px;
+        padding: 1%;
+        border-radius: 5%;
+    }
+
