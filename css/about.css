@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    line-height: 1;
 }
 
 .container {
@@ -14,7 +15,6 @@ html, body {
     width: 800px;
     margin: 0 auto;
     justify-content: space-between;
-    
 }
 
 .top-nav a {
