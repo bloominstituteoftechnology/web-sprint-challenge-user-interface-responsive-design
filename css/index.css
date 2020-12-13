@@ -29,7 +29,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-right: 750px auto;
+    margin-left: 750px auto;
+    padding: 125px;
+    background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +73,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color: white;
+    padding: 75px;
 }
 
 .top-content {
@@ -99,6 +105,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: sticky;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
 }
 
 .middle-content .boxes .box {
@@ -144,3 +154,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#box1 {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+#box2 {
+    background-color: yellow;
+    padding: 50px;
+    text-align: center;
+}
+
+#box3 {
+    background-color: teal;
+    padding: 50px;
+    text-align: center;
+}
+
+#box4 {
+    background-color: chocolate;
+    padding: 50px;
+    text-align: center;
+}
+
+#box5 {
+    background-color: red;
+    padding: 50px;
+    text-align: center;
+}
+
+#box6 {
+    background-color: green;
+    padding: 50px;
+    text-align: center;
+}
+
+#box7 {
+    background-color: purple;
+    padding: 50px;
+    text-align: center;
+}
+
+#box8 {
+    background-color: pink;
+    padding: 50px;
+    text-align: center;
+}
+
+#box9 {
+    background-color: indigo;
+    padding: 50px;
+    text-align: center;
+}
+
+#box10 {
+    background-color: royalblue;
+    padding: 50px;
+    text-align: center;
+}
+
