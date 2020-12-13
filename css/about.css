@@ -4,14 +4,14 @@ html, body {
 }
 
 .container {
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
 }
 
 .top-nav{
     display: flex;
     margin: auto;
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
     justify-content: space-between;
     
@@ -35,7 +35,7 @@ a {
 }
 
 .jumbotron{
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -66,11 +66,22 @@ p {
     margin-bottom: 20px;
 }
 
+.tiles-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+
+.tile{
+    width: 370px;
+    margin-top: 20px;
+    border-bottom: 1px black dashed;
+}
 
 footer {
     width: 100%;
-    background: black;
+    background: black
 }
 
 footer nav {
