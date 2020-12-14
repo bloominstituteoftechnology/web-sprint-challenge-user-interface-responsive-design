@@ -28,6 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header nav a{
+    font-family: 'Roboto';
+    color: black;
+    text-decoration: none;
+}
+.hdrimg{
+    margin-left: 50px;
+    
+    
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+.mainimg{
+display:flex;
+justify-content: center;
+padding: 20px;
+}
+
 body {
 	line-height: 1;
 }
@@ -143,4 +169,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.toppic{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+.middle-stuff .midstuff{
+    border: 5px solid blue;
+    display:flex;
+    flex-flow: wrap row;
 }
