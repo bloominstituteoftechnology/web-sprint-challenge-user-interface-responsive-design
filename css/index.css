@@ -51,20 +51,48 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, header{
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 .header {
-    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding:30px;
+    color: black;
+   
 }
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header h1 {
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    height: 200px;
+    margin-bottom: 30px;
+    width:80%;
+    margin-left: 10%;
+}
+
+
 p {
     line-height: 1.4;
 }
