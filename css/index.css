@@ -68,10 +68,11 @@ p {
 
 
 .topimg{
-    display: flex;
-    justify-content: center;
-    
-}
+    text-align: center;
+    }
+
+
+
 
 .topbar {
     display: flex;
@@ -79,17 +80,43 @@ p {
     margin-top: 20px;
 }
 
+.topbar a{
+    text-decoration: none;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+
+
+
+
 
 .mainsection{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: center;
+    border: none;
+    border-top: dotted black;
+    border-bottom: dotted black;
+    
+    
 }
 
-.box1 .box2  .box3 .box4 {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+.mainsection div {
+    width: 35%;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /* border: 1px solid black;   */
 }
 
 
