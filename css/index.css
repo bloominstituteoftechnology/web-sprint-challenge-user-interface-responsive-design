@@ -112,6 +112,116 @@ p {
     justify-content: center;
 }
 
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+width: 12.5%;
+height: 100px;
+background: gold;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .box4{
+        width: 12.5%;
+        height: 100px;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .box5{
+            width: 12.5%;
+            height: 100px;
+            background: crimson;
+            margin: 20px 2.5%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+            .box6{
+                width: 12.5%;
+                height: 100px;
+                background: forestgreen;
+                margin: 20px 2.5%;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+
+                .box7{
+                    width: 12.5%;
+                    height: 100px;
+                    background: darkorchid;
+                    margin: 20px 2.5%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    }
+
+                    .box8{
+                        width: 12.5%;
+                        height: 100px;
+                        background: hotpink;
+                        margin: 20px 2.5%;
+                        color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        }
+
+                        .box9{
+                            width: 12.5%;
+                            height: 100px;
+                            background: indigo;
+                            margin: 20px 2.5%;
+                            color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            }
+
+                            .box10{
+                                width: 12.5%;
+                                height: 100px;
+                                background: dodgerblue;
+                                margin: 20px 2.5%;
+                                color: white;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +253,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+img img/jumbo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
