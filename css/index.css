@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,6 +101,8 @@ p {
     justify-content: space-evenly;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,6 +112,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.teal{
+	background: teal !important;
+}
+
+.gold{
+	background: gold !important;
+}
+
+.cadetblue{
+	background: cadetblue !important;
+}
+
+.coral{
+	background: coral !important;
+}
+
+.crimson{
+	background: crimson !important;
+}
+
+.forestgreen{
+	background: forestgreen !important;
+}
+
+.darkorchid{
+	background: darkorchid !important;
+}
+
+.hotpink{
+	background: hotpink !important;
+}
+
+.indigo{
+	background: indigo !important;
+}
+
+.dodgerblue{
+	background: dodgerblue !important;
 }
 
 .bottom-content {
@@ -143,4 +185,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.img-content{
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.nav-links{
+	list-style: none;
+}
+.nav-links li{
+	display: inline-block;
+	padding: 0 30px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.grid-container-images{
+	margin: 0 auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 2px dashed black;
+	border-bottom: 2px dashed black;
+}
+
+.learn-more{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.learn-more div{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 10px;
+	padding: 10px;
+	width: 125px;
+	text-align: center;
+}
+.grid-item-content h2{
+	padding-top: 25px;
+}
+
+.bottom-text{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.about-container{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.grit-item-content h2{
+	padding-top: 25px
 }
