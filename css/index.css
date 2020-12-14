@@ -83,16 +83,16 @@ p {
 .mainsection{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .box1 .box2  .box3 .box4 {
     display: flex;
     flex-direction: column;
-    width: min-content;
+    width: 20%;
 }
+
+
 
 
 
