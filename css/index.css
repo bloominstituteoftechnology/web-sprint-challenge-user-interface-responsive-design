@@ -32,7 +32,7 @@ body {
     line-height: 1;
     margin-right: 750px auto;
     margin-left: 750px auto;
-    margin-top: 600px auto;
+    margin-top: 750px auto;
     margin-bottom: 600px auto;
     padding: 125px;
     background-color: black;
@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -85,6 +86,23 @@ p {
     padding: 75px;
     max-height: 1000px;
     display: inline-block;
+    position: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.container-about-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    max-height: 1610px;
+    display: flex;
+    flex-direction: column;
     position: center;
     justify-content: center;
     align-items: center;
@@ -110,6 +128,14 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container2 {
+    width: 350px;
+    text-align: center;
+    padding:20px;
+    margin: 0;
+    display: inline-block;
 }
 
 .middle-content {
@@ -158,8 +184,8 @@ p {
 .secondcontainer {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .secondcontainer .text-container {
@@ -173,8 +199,8 @@ p {
 .topcontainers {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .topcontainers .text-container {
@@ -289,6 +315,14 @@ header nav {
     position: relative right;
 }
 
+.aboutheader {
+    padding-top: 45px;
+    margin:45px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
 header nav a {
     color: black;
     text-decoration: none;
@@ -313,4 +347,36 @@ header nav a {
 
 #topcontacts {
     padding: 27px;
+}
+
+.bodyimages {
+    max-width: 350px;
+}
+
+.learnbuttons {
+    padding: 10px 24px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-radius: 18px;
+}
+
+#strategy {
+    padding: 35px;
+    margin: 30px;
+}
+
+#howwework {
+    padding: 35px;
+    margin: 30px;
+}
+
+#placeswework {
+    padding: 35px;
+    margin: 30px;
+}
+
+#collaboration {
+    padding: 35px;
+    margin: 30px;
 }
