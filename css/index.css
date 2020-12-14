@@ -69,6 +69,7 @@ p {
 
 .topimg{
     text-align: center;
+    
     }
 
 
@@ -88,17 +89,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    
-    
 }
 
 
 
-
-
-
-
-.mainsection{
+ 
+ .mainsection{
     display: flex;
     flex-wrap: wrap;
     flex-flow: wrap;
@@ -107,19 +103,30 @@ p {
     border: none;
     border-top: dotted black;
     border-bottom: dotted black;
-    
-    
 }
 
-.mainsection div {
-    width: 35%;
+ .mainsection div {
+    width: 35%; 
     height: 350px;
     margin: 0 auto;
     margin-bottom: 30px;
-    /* border: 1px solid black;   */
-}
+}  
 
 
+/* .mainsection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+} */
+
+/* .mainsection div{
+    width: 50%;
+    padding-bottom: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: auto;
+}  */
 
 
 
