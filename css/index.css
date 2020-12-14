@@ -114,7 +114,11 @@ p {
 }
 
 .abouttext {
-    margin-bottom: 3%;
+    margin: 2% 2%;
+}
+
+h3 {
+    margin: 2% 0;
 }
 
 .middle-content {
@@ -132,6 +136,7 @@ p {
     border-top: 2px dashed black;
     border-bottom: 2px dashed black;
 }
+
 
 .topbody div {
     margin: 3% 0;
@@ -194,6 +199,21 @@ p {
     background: dodgerblue;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button {
+    font-weight: bold;
+    width: 25%;
+    padding: 1.5%;
+    margin: 2% 0;
+    background: white;
+    border-radius: 8px;
+    font-size: .75rem;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -208,9 +228,14 @@ p {
     padding-right: 0;
 }
 
+.bottomsection {
+    margin-top: 4%;
+}
+
 footer {
     width: 100%;
     background: black;
+    margin: 3% 0;
 }
 
 footer nav {
