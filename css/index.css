@@ -144,3 +144,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+    flex-direction: row;
+
+}
+
+.lambda {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between ;
+    
+}
+
+.navigation {
+    flex-grow: 2;
+}
+
+.image {
+    flex-grow: 1;
+    padding-top: 5px;
+}
+a {
+    padding: 5px 40px 5px 40px;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+.streak {
+    padding-bottom: 20px;
+}
+.content-top {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.content-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button-style {
+    background-color: white;
+    border: solid black 3px;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+
