@@ -144,3 +144,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+header > nav{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 60%;
+	margin: 30px 30px 30px -30px;
+	
+}
+
+nav > a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	padding: 30px 35px 5px 12px;
+	
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+.box#first{
+	background: teal;	
+}
+.box#second{
+	background: gold;	
+}
+.box#third{
+	background: cadetblue;	
+}
+.box#fouth{
+	background: coral;	
+}
+.box#fith{
+	background: crimson;	
+}
+.box#sixth{
+	background: forestgreen;	
+}	
+.box#seventh{
+	background: darkorchid;	
+}
+
+.box#eight{
+	background: hotpink;	
+}
+.box#ninth{
+	background: indigo;	
+}
+.box#tenth{
+	background: dodgerblue;	
+}
