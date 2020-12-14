@@ -1,0 +1,29 @@
+Self-Study Questions
+
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML makes HTML easier to read. It formats the existing HTML and makes it "prettier". 
+
+Name two big differences between display: block; and display: inline;.
+
+display: block - element displayed as a block or paragraph. Whitespace above and below it
+display: inline - element displayed inline, on the same line
+
+What are the 4 areas of the box model?
+
+Content, Padding, Border, Margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+the vertical axis
+
+Explain why git is valuable to a team of developers.
+
+git is the language that allows developers to work on their portion of a project, or the project itself on their own computer and then upload their branch, their copy of code changes, to the GitHub server or whatever server of git that's being used - so everyone can work on the same project without mass confusion taking place.
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section will prevent you from passing this challenge.
+
