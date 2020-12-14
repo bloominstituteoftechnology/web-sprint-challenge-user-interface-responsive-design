@@ -267,3 +267,99 @@ header nav {
     margin-left: auto;       
     margin-right: auto;
 }
+.about1{
+    display: block;
+    margin: 2% 10% 0 23.3%;
+}
+.about2{
+    display: block;
+    margin: 1% 20% 0 23.3%
+}
+.hr1{
+    border-top: 1px dotted;
+    margin: 1% 22%;
+}
+.hr2{
+    border-top: 1px dotted;
+    margin: 1% 50% 0 22%;
+}
+.hr3{
+    border-top: 1px dotted;
+    margin: 1% 22% 0 52%;
+}
+.girl{
+    display: block;
+    margin-top: -28%;
+    margin-left: 52%;       
+    margin-right: auto;
+}
+.strat{
+    text-align: left;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+.foster{
+    text-align: left;
+    margin-left: 23%;
+    flex-wrap: wrap;
+    margin-right: 50%;
+    margin-top: 1%;
+}
+.finger{
+    display: block;
+    margin-top: 2%;
+    margin-left: 23%;       
+    margin-right: auto;
+}
+.work{
+    text-align: left;
+    margin-left: 52%;
+    margin-top: 1%;
+}
+.foster2{
+    text-align: left;
+    margin-left: 52%;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+.b1{
+    margin-left: 23%;
+    margin-top: 1%;
+    border-radius: 8px;
+    padding: 10px 24px;
+    background-color: white;
+    color: black;
+}
+.b2{
+    margin-left: 52%;
+    margin-top: 1%;
+    border-radius: 8px;
+    padding: 10px 24px;
+    background-color: white;
+    color: black;
+}
+.b3{
+    border-radius: 8px;
+    padding: 10px 24px;
+    background-color: white;
+    color: black;
+}
+.b4{
+    border-radius: 8px;
+    padding: 10px 24px;
+    background-color: white;
+    color: black;
+}
+.office{
+    display: block;
+    margin-top: 2%;
+    margin-left: 23%;       
+    margin-right: auto;
+}
+.meeting{
+    display: block;
+    margin-top: -22%;
+    margin-left: 52%;       
+    margin-right: auto;
+}
