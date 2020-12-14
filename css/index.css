@@ -127,7 +127,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    margin-top: 3%;
+    margin-left: 21%;
+    width: 58%;
     background: black;
 }
 
@@ -276,15 +278,23 @@ header nav {
     margin: 1% 20% 0 23.3%
 }
 .hr1{
-    border-top: 1px dotted;
+    border-top: 1px dashed;
     margin: 1% 22%;
 }
 .hr2{
-    border-top: 1px dotted;
+    border-top: 1px dashed;
     margin: 1% 50% 0 22%;
 }
 .hr3{
-    border-top: 1px dotted;
+    border-top: 1px dashed;
+    margin: 1% 22% 0 52%;
+}
+.hr4{
+    border-top: 1px dashed;
+    margin: 1% 50% 0 22%;
+}
+.hr5{
+    border-top: 1px dashed;
     margin: 1% 22% 0 52%;
 }
 .girl{
@@ -340,12 +350,16 @@ header nav {
     color: black;
 }
 .b3{
+    margin-left: 23%;
+    margin-top: 1%;
     border-radius: 8px;
     padding: 10px 24px;
     background-color: white;
     color: black;
 }
 .b4{
+    margin-left: 52%;
+    margin-top: 1%;
     border-radius: 8px;
     padding: 10px 24px;
     background-color: white;
@@ -359,7 +373,43 @@ header nav {
 }
 .meeting{
     display: block;
-    margin-top: -22%;
+    margin-top: -28%;
     margin-left: 52%;       
     margin-right: auto;
+}
+.places{
+    text-align: left;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+.collab{
+    text-align: left;
+    margin-left: 52%;
+    margin-top: 1%;
+}
+.foster3{
+    text-align: left;
+    margin-left: 23%;
+    flex-wrap: wrap;
+    margin-right: 50%;
+    margin-top: 1%;
+}
+.foster4{
+    text-align: left;
+    margin-left: 52%;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-top: 1%; 
+}
+.together{
+    text-align: left;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+.framework{
+    text-align: left;
+    margin-left: 23%;
+    flex-wrap: wrap;
+    margin-right: 20.5%;
+    margin-top: 1%;
 }
