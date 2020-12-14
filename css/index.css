@@ -24,12 +24,41 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+/* Using one stylesheet for both about and index but probably
+better to normally use different ones, not sure. Will so
+for convenience here until I know more */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+}
+header {
+    width: 100%;
+    background: white;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 0%;
+    font-size: 14px;
+}
+
+.left {
+    float:left;
+    position: absolute left;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
 }
 ol, ul {
 	list-style: none;
@@ -56,9 +85,15 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 15px 0px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -66,6 +101,14 @@ p {
     line-height: 1.4;
 }
 
+.button {
+    background-color: white;
+    padding: 5px 15px;
+    border-width: 2.35px;
+    border-radius: 5px;
+    margin: 10px 0px 0px;
+    display:flex;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -73,16 +116,61 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display:flex;
+    flex-flow: column wrap;
+    padding:20px 20px 40px 20px;
+}
+.line {
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about {
+    padding-bottom: 0px;  
+}
+
+.top-content .text-container2 {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+    display:flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.top-content-about .text-container2 {
+    width: 48%;
+    padding: 0% 1% 2%;
+    margin: 0% 1%;
+    border-bottom: 1px dashed black;
+    display:flex;
+    flex-flow: column wrap;
+    align-content: space-between;
 }
 
 .middle-content {
@@ -104,13 +192,32 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {background-color:teal;}
+.box2 {background-color:gold;}
+.box3 {background-color:cadetblue;}
+.box4 {background-color:coral;}
+.box5 {background-color:crimson;}
+.box6 {background-color:forestgreen;}
+.box7 {background-color:darkorchid;}
+.box8 {background-color:hotpink;}
+.box9 {background-color:indigo;}
+.box10 {background-color:dodgerblue;}
+
+/* I figured since all I'm doing is change the background color,
+it would be better to assign a second class and neatly give each a #&1 line */
+
+.box6:hover {background-size: cover; background-image: url("data:image/jpeg;base64,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 ");}
+.box9:hover {background-size: cover; background-image: url("https://i.kym-cdn.com/photos/images/newsfeed/000/635/691/249.gif");}
+
+/* Using one line format to cut down on lenght, seems more
+neat to me for 1 thing only classes. Let me know if bad */
 
 .bottom-content {
     display: flex;
