@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* Css reset ending */
 * {
     box-sizing: border-box;
 }
@@ -70,7 +70,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.nav {
+    padding: 1.4rem 0 2.4rem 0;
+}
+.nav a {
+    text-decoration: none;
+    padding: 0 2.6rem;
+    color: black;
+    font-weight: bold;
+    font-size: .85rem;
+}
+.banner {
+    padding: 0 0 1.6rem 0;
+}
+.about-banner {
+    padding: 0 0 1.6rem 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,17 +116,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box0 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box0 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +168,43 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* about */
+.strategy,.how-we-work,.places-we-work,.collaboration {
+    width: 45%;
+    border-bottom: dashed black 1px;
+    padding: 2rem 1rem 2rem 0;
+}
+.how-we-work,.collaboration {
+    
+}
+.about-paragraph {
+    border-bottom: black dashed 1.5px;
+    padding: 0 0 2rem 1rem;
+}
 
+.about-mid {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lets-work-together {
+   
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.mid-button {
+    text-decoration: none;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color:black;
+    
+}
+.mid-container p {
+    padding-bottom: 2.2rem;
+}
+/* about end */
 footer {
     width: 100%;
     background: black;
