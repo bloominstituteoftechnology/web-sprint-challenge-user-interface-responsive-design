@@ -34,13 +34,17 @@ body {
 
 nav {
 display: flex;
-justify-content: space-around;
-padding:40px
+justify-content: space-between;
+padding:40px;
+
 }
 
 nav a{
+    display: flex;
     text-decoration: none;
     color: black;
+    justify-content:space-around;
+
 
 }
 ol, ul {
@@ -80,13 +84,19 @@ p {
 }
 
 .container {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     
 }
 
 .lambda img{
-    width:25%;
+    width:100px;
+    height: ;
+}
+
+.big-pic{
+    display: flex;
+    100%
 }
 
 
@@ -120,6 +130,38 @@ p {
     justify-content: space-evenly;
 
 }
+
+.pics-all{
+    display: flex;
+    /* margin: 20%; */
+    /* flex-wrap: wrap; */
+    /* padding:20%; */
+    flex-direction: column;
+
+
+}
+.pic12{
+    display: flex;
+    flex-direction:row;
+    border-top: 1px dotted grey;
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px;
+    border-bottom: 1px dotted grey;
+    
+}
+
+
+
+.pic34{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 1px dotted grey;
+    width:100%;
+}
+
+
+
 
 .middle-content .boxes .box {
     width: 12.5%;
