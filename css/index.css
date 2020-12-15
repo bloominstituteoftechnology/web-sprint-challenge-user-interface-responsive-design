@@ -74,12 +74,14 @@ p {
 .logo-links-container nav {
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
+    margin: 15px;
     
 }
 
 .logo-links-container nav a {
     color: black;
+    text-decoration: none;
 }
 
 .top-content {
@@ -121,7 +123,7 @@ p {
    
 }
 
-.middle-content .boxes .box1 {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: teal;
@@ -132,7 +134,8 @@ p {
     justify-content: center;
    
 }
-.middle-content .boxes .box2 {
+
+.middle-content .boxes div + div {
     width: 12.5%;
     height: 100px;
     background: gold;
@@ -143,7 +146,8 @@ p {
     justify-content: center;
    
 }
-.middle-content .boxes .box3 {
+
+.middle-content .boxes div + div + div {
     width: 12.5%;
     height: 100px;
     background: cadetblue;
@@ -154,6 +158,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box4 {
     width: 12.5%;
     height: 100px;
@@ -165,6 +170,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box5 {
     width: 12.5%;
     height: 100px;
@@ -176,6 +182,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box6 {
     width: 12.5%;
     height: 100px;
@@ -187,6 +194,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
@@ -198,6 +206,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
@@ -209,6 +218,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
@@ -220,6 +230,7 @@ p {
     justify-content: center;
    
 }
+
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
@@ -233,22 +244,29 @@ p {
 }
 
 .block-container {
-    width: 500px;
-    margin-left: 275px;
+    width: 800px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .block {
-    width: 200px;
+    width: 385px;
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0;
 }
 
+.block h1 {
+    margin-top: 10px;
+}
 
-
-
+.block button {
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}
 .bottom-content {
     display: flex;
     margin: 20px 275px;
