@@ -50,7 +50,8 @@ table {
 * {
     box-sizing: border-box;
 }
-
+#teal
+{
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
