@@ -50,8 +50,19 @@ table {
 * {
     box-sizing: border-box;
 }
-#teal
-{
+
+{ 
+	background-color:"#" id="teal"
+                             id="gold"
+                             id="cadetblue"
+                             id="coral"
+                             id="crimson"
+                             id="forestgreeen"
+                             id="darkorchid"
+                             id= "hotpink"
+                             id= "indigo"
+                             id= "dodgerblue"
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
