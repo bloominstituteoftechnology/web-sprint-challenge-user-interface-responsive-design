@@ -33,23 +33,36 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+- Semantic HTML describes the MEANING of various parts of a webpage's structure. Such as a Table, the Main body, the Footer, Header, Etc. It describes the area information is presented (header, footer) the way it is presented (table, article), which also inadvertintly will describe WHERE it is presented as well, such as the top (header) side (article, depending on layout) or a table (a chart, centered or to the side)
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+- Block display gives content its OWN LINE or "block" to display in. Above or below another section. In-line display makes content appear on the same line as other content. Such as putting text next to a picture within the same <div> you would have to detail the text content to {display: inline-block;} to force it out of it's normal block display condition.
 
 3. What are the 4 areas of the box model?
+From outside, to inside: Margin, border, padding, content.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? horizontally, up or down a Y axis (top to bottom) - I think of it as "put them in 'a line' at the top, center, or bottom. [align-items:center] will make the row go from left to right, in the "middle" or "center" height, of the box.
+
+----------
+Top
+|
+Center  <---Here
+|
+Bottom
+----------
+
 
 5. Explain why git is valuable to a team of developers.
+It allows everyone to work indipendantly, on their own branches versions, for version control. They then  upload their contributions for review to be merged into the main working body of code for the project. Version control is essential to prevent breaks, release clean versions, and give due credit to those who contributed all whilst not working on outdated code - because updated versions are released after merges for everyone to expand on from there. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
