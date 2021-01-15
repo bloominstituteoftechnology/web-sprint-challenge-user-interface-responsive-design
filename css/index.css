@@ -100,6 +100,9 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.boxes#first{
+    background:teal;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
