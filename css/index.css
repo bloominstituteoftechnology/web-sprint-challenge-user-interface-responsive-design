@@ -212,3 +212,9 @@ footer nav a {
 }
 
 /* ABOUT PAGE */
+.top-content .text-container a {
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid black;
+    padding: 20px */
+}
