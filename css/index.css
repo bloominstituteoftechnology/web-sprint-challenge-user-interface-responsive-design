@@ -250,13 +250,23 @@ header img{
 
 .jumboAbout img{
     width: 100%;
-    padding: 0% 0% 4% 12%;
+    padding: 0% 5% 2% 5%;
 }
 
-.topOfContainer
+.topOfContainer{
+    border-bottom: 1px dashed black;
+    padding: 0% 0% 2% 0%;
+}
+
+.topOfContainer h1{
+    padding: 0% 0% 0% 20%;
+}
+
+.topOfContainer p{
+    padding: 0% 20%;
+}
 
 .container-about-page a{
     background-color: white;
-    border: 2px solid black;
-    border-radius: round;
+    border: 1px solid black;
 }
