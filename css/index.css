@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -144,3 +144,93 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    width:100%;
+    background-color: white;
+}
+
+header nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 14px;
+    margin-left:35%;
+    padding-bottom: 90px;
+    margin-top:15px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.lambda-logo
+{
+    display: flex;
+    margin-left: 20%;
+    margin-top:80px;
+}
+
+.topimg {
+    margin-left: 20.5%;
+    
+}
+.main-img{
+    margin-bottom:40px;
+    margin-top:-50px
+}
+
+.middle-content .boxes .box[alt="box1"]{
+    background-color:teal;
+}
+
+.middle-content .boxes .box[alt="box2"]{
+    background-color: gold;
+}
+
+.middle-content .boxes .box[alt="box3"]{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box[alt="box4"]{
+    background-color: coral;
+}
+
+.middle-content .boxes .box[alt="box5"]{
+    background-color: crimson;
+}
+.middle-content .boxes .box[alt="box6"]{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box[alt="box7"]{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box[alt="box8"]{
+    background-color: hotpink;
+}
+.middle-content .boxes .box[alt="box9"]{
+    background-color: indigo;
+}
+.middle-content .boxes .box[alt="box10"]{
+    background-color: dodgerblue;
+}
+
+.about-text-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 15px;
+    }
+
+    .about-text-one{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        flex-direction: row;
+    }
