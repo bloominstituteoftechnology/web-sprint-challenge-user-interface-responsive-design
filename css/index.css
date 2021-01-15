@@ -166,42 +166,61 @@ a{
     color:black;
 }
 
+.top-content{
+    padding: 4% 0% 0% 0%;
+}
+
+.boxes{
+    display: flex;
+    justify-content:space-around;
+}
+
 .box1{
-    color:teal;
+    background-color:teal;
+    padding: 5% 4%;
 }
 
 .box2{
-    color:gold;
+    background-color:gold;
+    padding: 5% 4%;
 }
 
 .box3{
-    color:cadetblue;
+    background-color:cadetblue;
+    padding: 5% 4%;
 }
 
 .box4{
-    color:coral;
+    background-color:coral;
+    padding: 5% 4%;
 }
 
 .box5{
-    color:crimson;
+    background-color:crimson;
+    padding: 5% 4%;
 }
 
 .box6{
-    color:forestgreen;
+    background-color:forestgreen;
+    padding: 5% 4%;
 }
 
 .box7{
-    color:darkorchid;
+    background-color:darkorchid;
+    padding: 5% 4%;
 }
 
 .box8{
-    color:hotpink;
+    background-color:hotpink;
+    padding: 5% 4%;
 }
 
 .box9{
-    color:indigo;
+    background-color:indigo;
+    padding: 5% 4%;
 }
 
 .box10{
-    color:dodgerblue;
+    background-color:dodgerblue;
+    padding: 5% 4%;
 }
