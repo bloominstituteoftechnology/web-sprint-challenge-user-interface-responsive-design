@@ -151,19 +151,23 @@ footer nav a {
 header{
     display: flex;
     justify-content: space-evenly;
-    padding: 0% 0% 2% 0%;
-    margin: 0% 10%;
+    padding: 2% 22% 2% 0%;
 }
 
 header nav {
     display: flex;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
-a{
+header nav a{
     text-decoration: none;
     color:black;
-    padding: 0% 15%;
+    padding: 0% 20%;
+}
+
+header img{
+    width: 20%;
 }
 
 .jumboPic{
