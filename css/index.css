@@ -47,36 +47,31 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-/* font-family: 'Open Sans', sans-serif; */
-
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+
 }
 
 header {
-    display:flex;
     padding:3%;
 }
 
-/* Come back to edit later */
-
 header nav {
-    margin:0 auto;
     display:flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: baseline;
     font-size: 30px;
-    text-decoration: none;
+
 }
 
-/* Come back to edit later */
+header nav a{
+    text-decoration: none;
+    color:black;
+    transition:.3s;
+}
 
-header .main_img {
-    display:flex;
-    flex-direction:column;
-
+a:hover {
+    background-color:rgba(75, 59, 6, 0.938);
 }
 
 html, body {
@@ -210,4 +205,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*Selectors Below For The About Page*/
+
+.aboutcontainer {
+    border-bottom: 2px black solid;
+
+    
+}
+
+#main {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom:black dotted 1px;
+    margin:2%;
+    margin-bottom:2%
+}
+
+#main div {
+    width: 49%;
+}
+
+button {
+    border:black solid 2px;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.end {
+    margin-top:2%;
 }
