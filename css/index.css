@@ -149,21 +149,28 @@ footer nav a {
 /* My CSS coding */
 
 header{
+    display: flex;
+    justify-content: space-evenly;
     padding: 0% 0% 2% 0%;
+    margin: 0% 10%;
 }
 
 header nav {
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
 }
 
 a{
     text-decoration: none;
     color:black;
+    padding: 0% 15%;
 }
 
 .jumboPic{
+    padding: 0% 0% 0% 15%;
+}
+
+.jumboPic img{
     width: 80%;
 }
 
