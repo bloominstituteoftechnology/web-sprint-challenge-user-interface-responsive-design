@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+/* NAV */
+nav{
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a {
+    padding: 40px;
+    color: black;
+}
+
+nav ul a:link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+header .banner {
+    margin-bottom: 20px;
+}
+
+/* BOXES */
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
