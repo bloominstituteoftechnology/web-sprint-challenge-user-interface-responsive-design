@@ -121,14 +121,42 @@ header .upmostImage#upmost-about {
 
 /*-------------------------------------------------------ABOUT CONTENT */
 
+
+.aboutLabel {
+
+}
+
 section.imagesWithInfo {
-    border:1px solid blue;
+    /* border:1px solid blue; */
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:space-around;
+    align-content:space-between;
+    
+
 }
 
 section.imagesWithInfo .aboutContent {
-    border:1px solid red;
+    display:flex;
+    justify-content:flex-start;
+    flex-flow:column wrap;
+    /* border:1px solid red; */
+    align-content:space-between;
+
+    /* margin:1%; */
 }
 
+section.imagesWithInfo .aboutContent a#aboutLearnMore {
+    text-decoration:none;
+    border:2px solid black;
+    width:30%;
+    padding:3%;
+    border-radius:10px;
+    /* margin:10vh auto; */
+}
+
+/*-------------------------------------------ABOUT CONTENT END */
 .container {
     width: 800px;
     margin: 0 auto;
