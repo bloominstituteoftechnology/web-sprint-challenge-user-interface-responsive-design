@@ -144,7 +144,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/* HTML5 Reset End */
 
 /* My CSS coding */
 
@@ -171,7 +170,8 @@ header img{
 }
 
 .jumboPic{
-    padding: 0% 0% 0% 15%;
+    display: flex;
+    justify-content: center;
 }
 
 .jumboPic img{
@@ -179,60 +179,84 @@ header img{
 }
 
 .top-content{
+    display: flex;
+    justify-content: space-between;
     padding: 4% 0% 0% 0%;
 }
 
 .boxes{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-evenly;
+    padding: 2% 0%;
 }
 
 .box1{
     background-color:teal;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box2{
     background-color:gold;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box3{
     background-color:cadetblue;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box4{
     background-color:coral;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box5{
     background-color:crimson;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box6{
     background-color:forestgreen;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box7{
     background-color:darkorchid;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box8{
     background-color:hotpink;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box9{
     background-color:indigo;
-    padding: 5% 4%;
+    padding: 5% 6%;
 }
 
 .box10{
     background-color:dodgerblue;
-    padding: 5% 4%;
+    padding: 5% 6%;
+}
+
+/* About.CSS */
+
+
+.jumboAbout{
+    display: flex;
+    justify-content: center;
+}
+
+.jumboAbout img{
+    width: 100%;
+    padding: 0% 0% 4% 12%;
+}
+
+.topOfContainer
+
+.container-about-page a{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: round;
 }
