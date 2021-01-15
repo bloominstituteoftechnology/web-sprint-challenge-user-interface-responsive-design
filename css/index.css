@@ -28,6 +28,28 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.top nav .navigation{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding:0p 0px;
+    margin: 0% 25%;
+    margin-top: 1%;
+}
+
+
+.links {
+    align-items: center;
+}
+
 body {
 	line-height: 1;
 }
@@ -101,6 +123,46 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -143,4 +205,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+body {
+    line-height: 1.6
+}
+
+.topAbout {
+    border-bottom: dotted black;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+
+
+
+.topFrame {
+    padding: 20px 200px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.topLeft {
+    padding: 20px 200px;
+    border-bottom: dotted black;
+}
+
+.topRight {
+    padding: 20px 00px;
 }
