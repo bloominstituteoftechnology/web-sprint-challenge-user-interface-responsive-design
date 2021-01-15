@@ -34,27 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML decribes what it is- examples include <header> <nav> and <p>. You knw exactly what is contained in those elements because they describe their contents. The opposite of this would be something like <div> in which you have no idea whats contained in that tag.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block means that the the contents will start on a new line, display: inline means they wont (they will be IN LINE with the rest of the design)
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Borders, Margins
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+On the cross axis (justify = main axis)
+
 5. Explain why git is valuable to a team of developers.
+
+It allows multiple users to alter code without interdereing with one another or forever altering the source code. It also allows developers to go back to previous versions in case mistakes are made.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
