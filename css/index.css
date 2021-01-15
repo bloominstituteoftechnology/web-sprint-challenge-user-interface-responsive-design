@@ -144,3 +144,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* HTML5 Reset End */
+
+/* My CSS coding */
+
+header{
+    display: flex;
+    background-color: rgb(255, 251, 0);
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.box1{
+    color:teal;
+}
+
+.box2{
+    color:gold;
+}
+
+.box3{
+    color:cadetblue;
+}
+
+.box4{
+    color:coral;
+}
+
+.box5{
+    color:crimson;
+}
+
+.box6{
+    color:forestgreen;
+}
+
+.box7{
+    color:darkorchid;
+}
+
+.box8{
+    color:hotpink;
+}
+
+.box9{
+    color:indigo;
+}
+
+.box10{
+    color:dodgerblue;
+}
