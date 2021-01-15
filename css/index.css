@@ -210,3 +210,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+#attributes {
+    height: 500px;
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+.qualityBox {
+
+}
