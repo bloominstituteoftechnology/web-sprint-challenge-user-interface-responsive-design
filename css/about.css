@@ -100,22 +100,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
+}
+.container2{
+    display: flex;
+    flex-wrap:wrap;
+    
 }
 
+.container2 .text-container{
+    margin: 1%;
+    width: 45%;
+    
+
+}
+.collabResize{
+    max-width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
-    width: 98%;
+    
     padding: 0 1%;
-    padding-bottom: 40px;  
+    padding-bottom: 40px;
+    
 }
 
 .learnMoreButton{
