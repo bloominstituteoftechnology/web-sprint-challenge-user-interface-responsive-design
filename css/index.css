@@ -150,15 +150,12 @@ footer nav a {
 
 header{
     display: flex;
-    background-color: rgb(255, 251, 0);
-    
+    justify-content: center;
 }
 
 header nav {
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
-
 }
 
 a{
