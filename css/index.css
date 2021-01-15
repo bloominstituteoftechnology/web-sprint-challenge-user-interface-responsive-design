@@ -113,7 +113,21 @@ header .upmostImage {
     background-position: 100%;
 }
 
+/*--------------------------------------------------------ABOUT JUMBO IMAGE */
 
+header .upmostImage#upmost-about {
+    background-image:url('../img/jumbo-about.png');
+}
+
+/*-------------------------------------------------------ABOUT CONTENT */
+
+section.imagesWithInfo {
+    border:1px solid blue;
+}
+
+section.imagesWithInfo .aboutContent {
+    border:1px solid red;
+}
 
 .container {
     width: 800px;
