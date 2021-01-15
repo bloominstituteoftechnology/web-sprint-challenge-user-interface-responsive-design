@@ -240,6 +240,10 @@ footer nav a {
     margin: 20px 0;
 }
 
+.frame img{ 
+    width: 100%;
+}
+
 .frame a{
     text-decoration: none;
     background: white;
