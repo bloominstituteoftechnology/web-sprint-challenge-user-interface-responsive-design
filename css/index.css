@@ -66,6 +66,10 @@ header{
     padding-left:100px;
     
 }
+.links a{
+    color:black;
+    font-weight:bold;
+}
 .crossimg{
     display:flex;
     background:url(../img/jumbo.jpg);
@@ -149,18 +153,22 @@ p {
     align-items:space-evenly;
     border:1px solid black;
     margin-bottom:20px;
+    
 }
 
 .middle-content .boxes .box{
     width: 100px;
     height: 100px;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     border:1px solid black;
 }
+
+
+
 .aboutcross{
     background:url(../img/jumbo-about.png);
     display:flex;
@@ -180,6 +188,9 @@ p {
     display:flex;
     flex-flow:row wrap;
     justify-content:space-evenly;
+}
+.color1{
+    background:teal;
 }
 
 
@@ -228,6 +239,18 @@ body img{
 }
 .brtext{
     margin-left:20px;
+}
+.bottom-section{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:center;
+    
+}
+.bstext{
+    margin-top:20px;
+    width:700px;
+    margin-bottom:20px;
 }
 
 
