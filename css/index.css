@@ -85,6 +85,10 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-abt{
+    padding: 2%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -134,7 +138,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +147,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    margin: 5% 0;
+    justify-content: space-between;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 5%;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.middle-abt{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-flow: wrap;
+    margin: 2% 1%;
+    justify-content: space-evenly;
+    margin: 2%;
+    }
+
+.middle-abt .middle{
+    width: 45%;
+    height:50%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.middle-abt div .button a{
+    padding: 1.5% 5%;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+.bottom-abt{
+    width: 100%;
+    padding: 5%;
+}
+#b1{
+    background-color: teal ;
+}
+#b2{
+    background-color: gold;
+}
+#b3{
+    background-color: cadetblue;
+}
+#b4{
+    background-color: coral;
+}
+#b5{
+    background-color: crimson;
+}
+#b6{
+    background-color: forestgreen;
+}
+#b7{
+    background-color: darkorchid;
+}
+#b8{
+    background-color: hotpink;
+}
+#b9{
+    background-color: indigo;
+}
+#b10{
+    background-color: dodgerblue;
 }
