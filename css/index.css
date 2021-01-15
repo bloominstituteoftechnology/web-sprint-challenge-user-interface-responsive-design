@@ -247,9 +247,6 @@ footer nav a {
 
 /* my code starts here */
 
-header{
-    text-align:center;
-}
 
 
 
@@ -257,14 +254,13 @@ header{
 .navigation{
     display:flex;
     padding:1%;
-    justify-content: center;
+    justify-content:space-between;
     align-items:baseline;
     
 }
 .navigation a{
-padding:1%;
+padding:4%;
 text-decoration: none;
-margin-left:3.5%;
 color:black	;
 }
 
