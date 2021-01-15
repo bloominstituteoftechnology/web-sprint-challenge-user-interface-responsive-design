@@ -91,6 +91,10 @@ header nav a{
     margin: 0 auto;
 }
 
+.panorama img{
+    margin-bottom: 2rem;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -205,4 +209,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+
+#heading{
+    padding: 1rem;
+    border-bottom: 1px dashed black;
+    margin: 1rem;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.frame{
+    
+    width: 40%;
+    padding: 1rem;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.frame p{
+    margin: 10px 0;
+}
+
+.frame a{
+    text-decoration: none;
+    background: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 20px;
+    color: black;
+}
+
+#outro{
+    margin: 2rem ;
 }
