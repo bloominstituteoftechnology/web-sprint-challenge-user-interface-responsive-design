@@ -101,10 +101,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +112,34 @@ p {
     justify-content: center;
 }
 
+.box2 {
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +171,83 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: -2vw;
+    width: 100%;
+}
+.navigation img {
+    height: 5vh;
+        
+    
+}
+
+nav {
+    
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav a{
+    width: 0%;
+    margin: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    padding: 5px 10px 10px 10px;
+    margin-bottom: 5%;
+}
+
+.firstsection {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    height: 50vh;
+
+}
+
+.firstsection img{
+    width: 90%;
+}
+
+.strategy{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+
+}
+
+.how {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+    margin-left: 1vw;
+}
+
+.firstsection nav {
+    display: inline;
+    padding: 1vw 0;
+    margin: 1vw 1vw 1vw 0vw;
+    border: 3px solid black;
+    border-radius: 30%;
+    text-align: center;
+    width: 8vw;
+}
+
+.strategytext{
+
 }
