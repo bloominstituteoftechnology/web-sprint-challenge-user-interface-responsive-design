@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,96 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding:20px 0px;
+}
+header nav a{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+}
+.jumbo{
+    margin-bottom:30px;
+}
+
+/*Index box gallery styling*/
+
+.box:nth-child(1){
+    background-color:teal;
+}
+.box:nth-child(2){
+    background-color:gold;
+}
+.box:nth-child(3){
+    background-color:cadetblue;
+}
+.box:nth-child(4){
+    background-color:coral;
+}
+.box:nth-child(5){
+    background-color:crimson;
+}
+.box:nth-child(6){
+    background-color:forestgreen;
+}
+.box:nth-child(7){
+    background-color:darkorchid;
+}
+.box:nth-child(8){
+    background-color:hotpink;
+}
+.box:nth-child(9){
+    background-color:indigo;
+}
+.box:nth-child(10){
+    background-color:dodgerblue;
+}
+
+/* About Page Stylings */
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .about-content {
+    padding:0 20px 20px 20px;
+}
+
+.about-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.gallery-item{
+    width:48%;
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
+}
+.gallery-item h3{
+    margin-top:10px;
+}
+.gallery-item *{
+    display:block;
+}
+.gallery-item a {
+    text-decoration: none;
+    color:black;
+    padding:10px 20px;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:10px !important;
+    width: 125px;
+}
+
+.about-finish{
+    padding:40px;
 }
