@@ -225,18 +225,19 @@ footer nav a {
     flex-direction: row;
     justify-content: space-around; 
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .frame{
-    
-    width: 40%;
+    height: 800 px;
+    width: 45%;
     padding: 1rem;
     border-bottom: 1px dashed black;
-    margin: 10px;
+    margin: 1rem;
 }
 
 .frame p{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .frame a{
