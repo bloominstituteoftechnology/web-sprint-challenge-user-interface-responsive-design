@@ -149,17 +149,22 @@ footer nav a {
 /* My CSS coding */
 
 header{
+    padding: 0% 0% 2% 0%;
 }
 
 header nav {
     display: flex;
     align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 a{
     text-decoration: none;
     color:black;
-    padding: 0% 10%;
+}
+
+.jumboPic{
+    width: 80%;
 }
 
 .top-content{
