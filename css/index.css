@@ -149,8 +149,6 @@ footer nav a {
 /* My CSS coding */
 
 header{
-    display: flex;
-    justify-content: center;
 }
 
 header nav {
@@ -161,6 +159,7 @@ header nav {
 a{
     text-decoration: none;
     color:black;
+    padding: 0% 10%;
 }
 
 .top-content{
