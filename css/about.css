@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 *{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 body {
     line-height: 1;
