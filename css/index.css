@@ -144,3 +144,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav{
+    max-width:100%;
+    display: flex;
+    justify-content:flex-end;
+    justify-content:space-evenly;
+    margin-left:35%;
+    margin-right:28%;
+}
+
+header nav a{
+    text-decoration:none;
+    font-family:'Rubik';
+    display:flex;
+    justify-content:flex-end;
+    flex-flow:row wrap;
+    margin-top:-20px;
+    color:black;
+}
+.lambdalogo{
+    display:flex;
+    margin-left:29%;
+}
+
+.headerimage{
+    display:flex;
+    justify-content:center;
+    margin-top:0;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+header{
+    padding-top:20px;
+}
