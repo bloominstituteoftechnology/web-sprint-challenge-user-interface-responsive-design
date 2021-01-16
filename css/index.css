@@ -270,3 +270,25 @@ header img{
     background-color: white;
     border: 1px solid black;
 }
+
+.bottomOfContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.strategy{
+    margin: 0% 50%;
+}
+
+.howWeWork{
+    margin: 0% 50%;
+}
+
+.placesWeWork{
+    margin: 0% 50%;
+}
+
+.collaboration{
+    margin: 0% 50%;
+}
