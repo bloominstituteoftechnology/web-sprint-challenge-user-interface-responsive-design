@@ -279,16 +279,29 @@ header img{
 
 .strategy{
     margin: 0% 50%;
+    padding: 2% 0%;
 }
 
 .howWeWork{
     margin: 0% 50%;
+    padding: 2% 0%;
 }
 
 .placesWeWork{
     margin: 0% 50%;
+    padding: 2% 0%;
 }
 
 .collaboration{
     margin: 0% 50%;
+    padding: 2% 0%;
+}
+
+.letsWork{
+    margin: 0% 25%;
+    padding: 2% 0%;
+}
+
+footer{
+    padding: 0% 25%;
 }
