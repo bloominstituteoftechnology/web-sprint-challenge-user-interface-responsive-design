@@ -151,7 +151,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items:space-evenly;
-    border:1px solid black;
+    
     margin-bottom:20px;
     
 }
@@ -182,7 +182,8 @@ p {
     justify-content:center;
     align-items:center;
     width:800px;
-    margin-left:100px;
+    margin-left:5px;
+    border-bottom:dashed;
 }
 .main-container{
     display:flex;
