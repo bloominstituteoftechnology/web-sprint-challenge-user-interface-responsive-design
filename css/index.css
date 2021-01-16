@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+
+.header{
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    display:flex;
+}
+
+.header div{
+    margin:20px 0px;
+}
+
+.headernav{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -149,21 +170,7 @@ a{
     text-decoration: none;
     color:black;
 }
-.title{
-    display:flex;
-    margin: 20px;
-}
 
-.headernav{
-    display:flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-.topimage{
-    margin:20px;
-}
 
 .middle-content .boxes .box1{
     background-color: teal;
@@ -203,4 +210,41 @@ a{
 
 .middle-content .boxes .box10{
     background-color: dodgerblue;
+}
+
+
+.about-top{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle div{
+    border: 3px solid red;
+    width: 45%;
+    height: 100%
+    display:flex;
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle{
+    display:flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.about-middle button{
+    width:100px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.bottom{
+    padding: 20px;
 }
