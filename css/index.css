@@ -66,10 +66,43 @@ p {
     line-height: 1.4;
 }
 
+
+header {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: baseline;
+    
+}
+
+header nav {
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-content: bottom;
+    width: 80%;
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+    border: 1px solid black;
+    align-content: center;
 }
+
+.container aboutpage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.container img{
+    /* padding: 10px; */
+}
+
 
 .top-content {
     display: flex;
@@ -77,6 +110,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font: bolder
 }
 
 .top-content .text-container {
