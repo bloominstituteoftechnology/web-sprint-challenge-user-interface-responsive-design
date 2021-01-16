@@ -36,15 +36,12 @@ a {
 
 .top nav .navigation{
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: flex-end;
-    padding:0p 0px;
+    padding: 0p 0px;
     margin: 0% 25%;
     margin-top: 1%;
 }
-
 
 .links {
     align-items: center;
@@ -220,19 +217,44 @@ body {
 
 
 
-.topFrame {
-    padding: 20px 200px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+
+.Frame {
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;    
 }
 
-.topLeft {
-    padding: 20px 200px;
+.Left {
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    margin: 0% 20px;
+    padding-bottom: 20px;
     border-bottom: dotted black;
 }
 
-.topRight {
-    padding: 20px 00px;
+.Right {
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    margin: 0% 20px;
+    border-bottom: dotted black;
 }
+
+.learnMore {
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    padding: 2% 0%;
+    border-radius: 10px;
+}
+
+.work {
+    
+    border: 1px solid black;
+    width: 800px;
+    flex-direction: row;
+    align-items: center;
+}
+
+
