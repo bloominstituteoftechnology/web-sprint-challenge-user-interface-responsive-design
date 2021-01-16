@@ -192,6 +192,36 @@ p {
 .color1{
     background:teal;
 }
+.box1{
+    background:aqua;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background:cadetblue;
+}
+.box4{
+    background:coral;
+}
+.box5{
+    background:crimson;
+}
+.box6{
+    background:forestgreen;
+}
+.box7{
+    background:darkorchid;
+}
+.box8{
+    background:hotpink;
+}
+.box9{
+    background:indigo;
+}
+.box10{
+    background:dodgerblue;
+}
 
 
 body img{
@@ -284,7 +314,20 @@ footer nav {
     font-size: 14px;
 }
 
+
 footer nav a {
     color: white;
     text-decoration: none;
+    padding:4px;
+    
+    
+}
+.main-container a{
+    color:black;
+    border:1px solid black;
+    border-radius:4px;
+    background:white;
+    font-size:.8em;
+    padding:2px 8px;
+    font-weight:bold;
 }
