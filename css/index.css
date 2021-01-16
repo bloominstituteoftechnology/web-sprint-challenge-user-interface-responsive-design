@@ -208,10 +208,11 @@ body img {
     flex-wrap: wrap;
 }
 
-.flexbox .window {
+.flexbox .flexItem {
+    background: transparent;
+    padding: 20px;
+    }
 
-}
-
-.flexbox .window img {
+.flexbox .flexitem img {
     width: 50%;
 }
