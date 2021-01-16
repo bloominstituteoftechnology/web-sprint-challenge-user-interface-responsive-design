@@ -1,0 +1,179 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, hgroup, menu, nav, section 
+
+{
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1;
+}.aboutmainImg{
+    margin-left: 24%;
+    margin-top:2%;
+
+}
+
+.aboutmainimg{
+    display: flex;
+    margin-left: 24%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.aboutLambda{
+   display: flex;
+   margin-left: 24%;
+   width: 50%;
+   justify-content: space-between;
+   
+}
+
+.aboutLambda a {
+    margin-top: 3%;
+    text-decoration: none;
+    
+}
+
+.aboutLambda a:hover{
+    color: white;
+
+}
+
+.aboutmainimg {
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutcontainer{
+    margin-left: 24%;
+    margin-right: 24%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+        margin: 2%;
+        width:50%;
+        border-bottom:1px dashed black;
+        margin-bottom: 2%;
+    }
+.about p{
+   margin-bottom: 5%;
+}
+
+.middlecon{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   flex-basis: auto;
+}
+
+.middle1{
+   width: 25%;
+   margin-left: 2%;
+   margin-bottom: 2%;
+   margin-right: 2%;
+   border-bottom: 1px dashed black;
+}
+
+.middle1 p{
+   margin-bottom: ;
+}
+.middle1 a {
+   border:2px solid black;
+   text-decoration: none;
+   border-radius:15%;
+   padding: 2%;
+
+}
+.middle2{
+   margin-left: 2%;
+   width:25%;
+   margin-bottom: 2%;
+   margin-right: 2%;
+
+}
+.middle2 a {
+   border:2px solid black;
+   text-decoration: none;
+   border-radius: 15%;
+   padding: 2%;
+}
+
+.middle3{
+   margin-left: 2%;
+   width:25%;
+   margin-bottom: 2%;
+   margin-right: 2%;
+   border-bottom: 1px dashed black;
+   padding:2%;
+
+}
+
+.middle3 a {
+   border:2px solid black;
+   text-decoration: none;
+   border-radius: 15%;
+   padding: 2%;
+}
+
+.middle4 {
+   margin-left:2%;
+   width: 25%;
+   margin-bottom: 2%;
+   margin-right:2%;
+   padding:2%;
+}
+
+.middle4 p {
+   margin-bottom: 4%;
+}
+.middle4 a {
+   border:2px solid black;
+   text-decoration: none;
+   border-radius: 15%;
+   padding: 2%;
+}
+
+.bottom {
+   display: flex;
+}
+
+.worktog {
+   margin-left: 24%;
+   margin-bottom:2%;
+   width:50%
+}

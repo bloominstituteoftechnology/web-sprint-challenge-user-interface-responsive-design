@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    width: ;
 }
 ol, ul {
 	list-style: none;
@@ -145,7 +146,45 @@ footer nav a {
     text-decoration: none;
 }
 
-header{
+/*.headerimage{
+    margin-left: 24%;
+    margin-right: 175%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    */
+
+
+ 
+.logo {
+    display: flex;
+    margin-left: 24%;
+    width:50%;
+    justify-content: space-between;
+}
+
+.logo a {
+    margin-top: 11%;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color:white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*header{
     width:100%;
     background-color: white;
 }
@@ -159,6 +198,7 @@ header nav{
     margin-left:35%;
     padding-bottom: 90px;
     margin-top:15px;
+    
 }
 
 header nav a{
@@ -166,7 +206,7 @@ header nav a{
     color: black;
 }
 
-.lambda-logo
+/*.lambda-logo
 {
     display: flex;
     margin-left: 20%;
@@ -177,10 +217,20 @@ header nav a{
     margin-left: 20.5%;
     
 }
-.main-img{
+.headerimage{
     margin-bottom:40px;
     margin-top:-50px
+} */
+
+.main-img{
+    margin-bottom:40px;
+    margin-top:50px;
+    margin-left: -40px;
+    margin-right: 2;
+
 }
+
+
 
 .middle-content .boxes .box[alt="box1"]{
     background-color:teal;
@@ -216,21 +266,170 @@ header nav a{
 .middle-content .boxes .box[alt="box10"]{
     background-color: dodgerblue;
 }
+/* about start*/
+ .aboutmainImg{
+     margin-left: 24%;
+     margin-top:2%;
 
-.about-text-main{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-bottom: 20px;
-        border-bottom: 1px dashed black;
-        padding-bottom: 15px;
-    }
+ }
 
-    .about-text-one{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-bottom: 20px;
-        border-bottom: 1px dashed black;
-        flex-direction: row;
-    }
+ .aboutmainimg{
+     display: flex;
+     margin-left: 24%;
+     width: 50%;
+     justify-content: space-between;
+ }
+
+ .aboutlambda{
+     display: flex;
+    margin-left: 24%;
+    width: 50%;
+    justify-content: space-between;
+    
+ }
+
+ .aboutLambda a {
+     margin-top: 3%;
+     text-decoration: none;
+     
+ }
+
+ .aboutLambda a:hover{
+     color: white;
+
+ }
+
+ .aboutmainimg {
+     margin-left: 24%;
+     margin-right: 24%;
+     margin-top: 2%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .about-container{
+     margin-left:24%;
+     margin-right: 24%;
+     width: 40%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+.about{
+        justify-content: center;
+        align-content: center;
+        ;
+        border-bottom:1px dashed black;
+}
+.about p{
+    margin-bottom: 1%;
+}
+
+.middlecon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px dotted black;
+
+}
+
+.middle1{
+    width: 45%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: -10%;
+    margin-top: 5%;
+}
+
+.middle1 a {
+    border:2px solid black;
+    text-decoration: none;
+    border-radius:15%;
+    padding: 2%;
+    margin-bottom: -5px;
+
+}
+.middle2{
+    margin-left: 10%;
+    width:45%;
+    margin-bottom: 2%;
+    margin-right: -20%;
+    margin-top: 5%;
+
+
+}
+.middle2 a {
+    border:2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.middle3 {
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    padding:2%;
+
+}
+
+.middlecon2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 2px dotted black;
+
+}
+
+
+.middle3 a {
+    border:2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%;
+}
+
+.middle4 {
+    margin-left:2%;
+    width:15px;
+    margin-bottom: %;
+    margin-right:10%;
+    padding:2%;
+}
+
+.middle4 p {
+    justify-content: center;
+}
+.middle4 a {
+    border:2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%;
+}
+
+.bottom {
+    display: flex;
+}
+
+.worktog {
+    margin-left: 24%;
+    margin-bottom:2%;
+    width:50%
+}
+
+.middlesec {
+    box-sizing: border-box;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap:20px;
+    padding: 20px;
+    border-radius: 10px;
+}
