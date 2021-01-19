@@ -168,6 +168,8 @@ footer nav a {
 .logo a {
     margin-top: 11%;
     text-decoration: none;
+    justify-content: space-between;
+
 }
 
 .logo a:hover{
@@ -271,24 +273,22 @@ header nav a{
     background-color: dodgerblue;
 }
 /* about start*/
- .aboutmainImg{
-     margin-left: 24%;
-     margin-top:2%;
+ 
 
  }
 
  .aboutmainimg{
      display: flex;
-     margin-left: 24%;
+     margin-left: %;
      width: 50%;
      justify-content: space-between;
  }
 
  .aboutlambda{
-     display: flex;
-    margin-left: 24%;
+    display: flex;
+    margin-top: -300px;
     width: 50%;
-    justify-content: space-between;
+    justify-content: center;
     
  }
 
@@ -306,7 +306,7 @@ header nav a{
  .aboutmainimg {
      margin-left: 24%;
      margin-right: 24%;
-     margin-top: 2%;
+     margin-top: 5%;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -315,6 +315,7 @@ header nav a{
  .about-container{
      margin-left:24%;
      margin-right: 24%;
+     margin-top: 10%;
      width: 40%;
      display: flex;
      flex-direction: row;
