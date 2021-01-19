@@ -355,7 +355,7 @@ header nav a{
     border:2px solid black;
     text-decoration: none;
     border-radius:15%;
-    padding: 2%;
+    padding: 1px;
     margin-bottom: -5px;
 
 }
@@ -372,7 +372,7 @@ header nav a{
     border:2px solid black;
     text-decoration: none;
     border-radius: 15%;
-    padding: 2%;
+    padding: 1px;
     justify-content: space-between;
 }
 
@@ -391,6 +391,7 @@ header nav a{
     justify-content: space-evenly;
     width: 100%;
     border-bottom: 2px dotted black;
+    margin-right: 100px;
 
 }
 
@@ -399,25 +400,27 @@ header nav a{
     border:2px solid black;
     text-decoration: none;
     border-radius: 15%;
-    padding: 2%;
+    padding: 1px;
+
 }
 
 .middle4 {
-    margin-left:2%;
     width:15px;
     margin-bottom: %;
     margin-right:10%;
     padding:2%;
 }
 
-.middle4 p {
+/*.middle4 p {
     justify-content: center;
+    text-align: right;
+    margin-bottom: 4;*/
 }
 .middle4 a {
-    border:2px solid black;
+    border:1px solid black;
     text-decoration: none;
     border-radius: 15%;
-    padding: 2%;
+    padding: 1%;
 }
 
 .bottom {
