@@ -222,11 +222,15 @@ header nav a{
     margin-top:-50px
 } */
 
-.main-img{
-    margin-bottom:40px;
-    margin-top:50px;
-    margin-left: -40px;
-    margin-right: 2;
+.headerimage{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+
 
 }
 
