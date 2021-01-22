@@ -98,7 +98,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
  line-height: 1;
- background-color: #feebe9;
 
 }
 header {
@@ -150,15 +149,13 @@ p {
 .container {
  width: 800px;
  margin: 0 auto;
- border: 1px solid rgb(197, 197, 197);
- background-color: #FFF;
  margin-top: 20px;
 }
 
 .navbar {
  display: flex;
  margin: 0 auto;
- background: lightcoral;
+ background: rgb(0, 0, 0);
  justify-content: flex-end;
  margin-bottom: 40px;
 }
@@ -302,7 +299,7 @@ img {
 }
 .heading {
 padding-top: 10px;   
-color: gray;
+color: black;
 padding-left: 20px;
 }
 .about-section {
