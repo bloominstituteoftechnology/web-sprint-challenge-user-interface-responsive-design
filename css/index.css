@@ -106,45 +106,6 @@ section {
   display: block;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ############### CSS BELOW  ################## */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-.div-width-container {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.nav-container {
-  /* border: 2px solid red; */
-  margin: 20px 0px 30px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-/* Nav links/text */
-.nav-container a {
-  /* border: 2px solid green; */
-  color: black;
-  padding-top: 23px;
-  text-decoration: none;
-}
-
-.nav-image {
-  /* border: 2px solid green; */
-  margin-left: -63px;
-}
-
-/* header image */
-header {
-  margin: 30px 0px 30px 0px;
-  border: 2px solid grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 body {
   line-height: 1;
 }
@@ -194,8 +155,62 @@ p {
 
 .container {
   width: 800px;
+  margin: 0 auto;0
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ############### CSS BELOW  ################## */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/* ~~~~~~~ header / nav ~~~~~~~ */
+
+
+.div-width-container {
+  width: 800px;
   margin: 0 auto;
 }
+
+.nav-container {
+  /* border: 2px solid red; */
+  margin: 20px 0px 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Nav links/text */
+.nav-container a {
+  /* border: 2px solid green; */
+  color: black;
+  padding-top: 23px;
+  text-decoration: none;
+}
+
+.nav-image {
+  /* border: 2px solid green; */
+  margin-left: -63px;
+}
+
+/* header image */
+header {
+  margin: 30px 0px 30px 0px;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+/* ~~~~~~ top content ~~~~~~~ */
 
 .top-content {
   display: flex;
@@ -211,7 +226,7 @@ p {
   padding-bottom: 20px;
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* ~~~~~~ middle content ~~~~~~~~ */
 
 .middle-content {
   margin-bottom: 20px;
@@ -271,7 +286,7 @@ p {
   background-color: dodgerblue;
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* ~~~~~ bottom content ~~~~~~~ */
 
 .bottom-content {
   display: flex;
@@ -286,6 +301,9 @@ p {
 .bottom-content .text-container:last-child {
   padding-right: 0;
 }
+
+
+/* ~~~~~ footer ~~~~~~~ */
 
 footer {
   width: 100%;
