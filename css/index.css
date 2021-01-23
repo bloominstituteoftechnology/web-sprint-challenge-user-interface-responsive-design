@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,16 +24,63 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
+header{
+	padding:20px;
+}
+nav{
+	display:flex;
+}
+a{
+	font-size:.9em;
+	text-decoration:none;
+	color:black;
+}
+.flexbox{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+	align-items:baseline;
+}
+.about-section-flexbox{
+	display:flex;
+	flex-direction:row;
+}
+.about-div-flexbox{
+	display:flex;
+	padding:10px 20px;
+	margin:10px;
+	flex-direction:column;
+	border-bottom:1px dashed black;
+	align-content:space-between;
+}
+
+
 ol, ul {
 	list-style: none;
+	display:flex;
+	padding:1em;
+	font-weight:bold;
 }
+#nav-list{
+	margin-left:0;
+	padding-left: 0;
+}
+#lambdaLogo{
+	padding-left:0;
+}
+li{
+	padding:30px;
+	margin:5px;
+}
+li
 blockquote, q {
 	quotes: none;
 }
@@ -70,7 +117,17 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.about-page-top, .about-page-middle{
+	margin:10px;
+	padding:10px 30px;
+}
+button{
+	border:3px solid black;
+	border-radius:10px;
+	padding:10px;
+	flex-basis:0;
+	width:50%;;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,9 +139,12 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
+hr{
+	border-top: 1px dashed black;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -110,6 +170,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#box1{
+	background-color:teal;
+}
+#box2{
+	background-color:gold;
+}
+#box3{
+	background-color:cadetblue;
+}
+#box4{
+	background-color:coral;
+}
+#box5{
+	background-color:crimson;
+}
+#box6{
+	background-color:forestgreen;
+}
+#box7{
+	background-color:darkorchid;
+}
+#box8{
+	background-color:hotpink;
+}
+#box9{
+	background-color:indigo;
+}
+#box10{
+	background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +233,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+h3{
+	padding:10px 5px;
+}
+#work{
+	padding-top: 10px;
+	border: none;
+}
+#about{
+	border-bottom:1px dashed black;
+}
+#about p{
+	padding-bottom: 15px;
+}
+
+/* index.css | file:///home/thefemaledannyglover/Documents/LambdaProjects/web-Sprint-Challenge-User-Interface-and-Git/css/index.css */
+
+.about-div-flexbox {
+  /* padding: 10px 20px; */
+  /* padding: 10\[ 20px; */
+  /* padding: 10\[p 20px; */
+  /* padding: 10\[px 20px; */
+  /* padding: 10ox 20px 30px 10px; */
+  /* margin: 24\]px; */
+  /* margin: 10px; */
+  /* align-content: space-between; */
+  padding: 10px 0 30px 0;
+  margin: 25px;
+}
+
+.about-section-flexbox {
+  align-items: center;
+  justify-content: center;
+}
+
+.about-page-top, .about-page-middle {
+  /* margin: 10px; */
+  /* padding: 10px 30px; */
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+
+#work {
+  /* padding-top: 10px; */
+  padding-top: 0;
+  margin: 0;
 }
