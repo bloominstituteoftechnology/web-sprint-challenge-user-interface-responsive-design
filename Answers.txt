@@ -1,0 +1,14 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is used to break the page into sections such as columns, middles, and bottoms.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Display: Inline does not respect top and bottom margins/paddings. Display: Block does not add a line-break after the element, so that the element sits next to other elements.
+
+3. What are the 4 areas of the box model?
+Content, Padding, Border, and Margin
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+A cross-axis.
+
+5. Explain why git is valuable to a team of developers.
+Git is valuable for a team of developers because it allows developers to help each other on fixing codes that contain errors.
