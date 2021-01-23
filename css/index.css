@@ -37,9 +37,11 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {
+	content: "";
 	content: none;
 }
 table {
@@ -51,12 +53,17 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, 
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -64,6 +71,29 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+img,
+.text-container a {
+    display: block;
+}
+
+header nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    flex: 1;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 .container {
@@ -85,6 +115,25 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-page .top-content {
+    justify-content: flex-start;
+}
+
+.about-page .top-content .text-container {
+    flex: 1;
+}
+
+.jumbo,
+.jumbo-about {
+    background: url(/Users/macbook/Lambda/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo.jpg);
+    height: 153px;
+    margin-bottom: 20px;
+}
+
+.jumbo-about {
+    background: url(/Users/macbook/Lambda/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo-about.png);
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -99,6 +148,44 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container p,
+.img-container h2,
+.img-container a,
+.img-container div {
+    padding: 0;
+    width: 370px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+img-container div {
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.img-container a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: black solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: 15px;
 }
 
 .middle-content .boxes .box {
@@ -143,4 +230,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .boxes  .box:nth-of-type(1) {
+    background: teal;
+}
+
+.middle-content .boxes  .box:nth-of-type(2) {
+    background: gold;
+}
+
+.middle-content .boxes  .box:nth-of-type(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes  .box:nth-of-type(4) {
+    background: coral;
+}
+
+.middle-content .boxes  .box:nth-of-type(5) {
+    background: crimson;
+}
+
+.middle-content .boxes  .box:nth-of-type(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes  .box:nth-of-type(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes  .box:nth-of-type(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes  .box:nth-of-type(9) {
+    background: indigo;
+}
+
+.middle-content .boxes  .box:nth-of-type(10) {
+    background: dodgerblue;
 }
