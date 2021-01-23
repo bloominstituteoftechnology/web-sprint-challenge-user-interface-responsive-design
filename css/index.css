@@ -56,7 +56,15 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+/* 
+ * design doesn't have an h1 but it is required for SEO to my understanding.
+ *I added a hidden h1 to ensure SEO compliance
+ */
+h1 {
+  display: none;
+}
+
+h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
