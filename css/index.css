@@ -104,12 +104,50 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes :nth-child(1n) {
+  background-color: teal;
+}
+
+.boxes :nth-child(2n) {
+  background-color: gold;
+}
+
+.boxes :nth-child(3n) {
+  background-color: cadetblue;
+}
+
+.boxes :nth-child(4n) {
+  background-color: coral;
+}
+
+.boxes :nth-child(5n) {
+  background-color: crimson;
+}
+
+.boxes :nth-child(6n) {
+  background-color: forestgreen;
+}
+ .boxes :nth-child(7n) {
+  background-color: darkorchid;
+}
+
+.boxes :nth-child(8n) {
+  background-color: hotpink;
+}
+
+.boxes :nth-child(9n) {
+  background-color: indigo;
+}
+
+.boxes :nth-child(10n) {
+  background-color: dodgerblue;
 }
 
 .bottom-content {
