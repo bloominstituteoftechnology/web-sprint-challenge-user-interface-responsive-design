@@ -190,3 +190,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* 
+ *start of about.html style 
+ */
+.container > main {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+main h2,
+figcaption {
+  padding: .5% 0%;
+}
+
+.make-rows-of-2 {
+  display: flex;
+}
