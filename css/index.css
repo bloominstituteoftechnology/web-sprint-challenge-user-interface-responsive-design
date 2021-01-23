@@ -123,6 +123,7 @@ section {
   justify-content: space-evenly;
 }
 
+/* Nav links/text */
 .nav-container a {
   /* border: 2px solid green; */
   color: black;
@@ -210,6 +211,8 @@ p {
   padding-bottom: 20px;
 }
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -236,6 +239,39 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+#teal {
+  background-color: teal;
+}
+#gold {
+  background-color: gold;
+}
+#cadetblue {
+  background-color: cadetblue;
+}
+#coral {
+  background-color: coral;
+}
+#crimson {
+  background-color: crimson;
+}
+#forestgreen {
+  background-color: forestgreen;
+}
+#darkorchid {
+  background-color: darkorchid;
+}
+#hotpink {
+  background-color: hotpink;
+}
+#indigo {
+  background-color: indigo;
+}
+#dodgerblue {
+  background-color: dodgerblue;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .bottom-content {
   display: flex;
