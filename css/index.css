@@ -154,44 +154,9 @@ p {
     justify-content: center;
 }
 
-.box#tealBox {
-    background-color: teal;
-}
-
-.box#goldBox {
-    background-color: gold;
-}
-
-.box#cadetBlueBox {
-    background-color: cadetblue;
-}
-
-.box#coralBox {
-    background-color: coral;
-}
-
-.box#crimsonBox {
-    background-color: crimson;
-}
-
-.box#forestGreenBox {
-    background-color: forestgreen;
-}
-
-.box#darkOrchidBox {
-    background-color: darkorchid;
-}
-
-.box#hotPinkBox {
-    background-color: hotpink;
-}
-
-.box#indigoBox {
-    background-color: indigo;
-}
-
-.box#dodgerBlueBox {
-    background-color: dodgerblue;
+.box {
+    display: flex;
+    background-color: black;
 }
 
 .bottom-content {
