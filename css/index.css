@@ -56,10 +56,35 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header a:hover {
+    background-color: red;
+    opacity: .5;
+  }
+
+body header a {
+    color:black;
+    text-decoration: none;
+    border: none;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 1% 1.5%;
 }
 
 p {
@@ -69,6 +94,11 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.jumboImg {
+    padding: 30px 0 30px 0;
+    max-width: 100%;
 }
 
 .top-content {
@@ -112,6 +142,46 @@ p {
     justify-content: center;
 }
 
+.box#tealBox {
+    background-color: teal;
+}
+
+.box#goldBox {
+    background-color: gold;
+}
+
+.box#cadetBlueBox {
+    background-color: cadetblue;
+}
+
+.box#coralBox {
+    background-color: coral;
+}
+
+.box#crimsonBox {
+    background-color: crimson;
+}
+
+.box#forestGreenBox {
+    background-color: forestgreen;
+}
+
+.box#darkOrchidBox {
+    background-color: darkorchid;
+}
+
+.box#hotPinkBox {
+    background-color: hotpink;
+}
+
+.box#indigoBox {
+    background-color: indigo;
+}
+
+.box#dodgerBlueBox {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +214,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    background-color: red;
+    opacity: .5;
+  }
