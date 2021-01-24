@@ -59,100 +59,6 @@ table {
     flex-wrap: wrap;
 }
 
-.ending-content {
-    margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
-.learning {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.flex-container {
-    width: 370px;
-    border-bottom: 1px dashed black;
-    margin-bottom: 40px;
-}
-
-.flex-container button {
-    border-radius: 8px;
-    background-color: white;
-    padding: 6px 15px;
-    margin: 15px 0 15px 0;
-}
-
-.flex-container h2 {
-    margin-top: 10px;
-}
-
-.flex-container image {
-    padding: 20px;
-}
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -207,6 +113,44 @@ p {
     background-color: dodgerblue;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.ending-content {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learning {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.flex-container button {
+    border-radius: 8px;
+    background-color: white;
+    padding: 6px 15px;
+    margin: 15px 0 15px 0;
+}
+
+.flex-container h2 {
+    margin-top: 10px;
+}
+
+.flex-container image {
+    padding: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -226,17 +170,27 @@ footer nav a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
 header {
     width: 100%;
 }
 
-header nav{
+header nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 20px 30px 20px 0;
-    font-size: 16px; 
+    font-size: 16px;
     color: black;
 }
 
@@ -246,6 +200,57 @@ header nav a {
     font-weight: bolder;
 }
 
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
 .image {
     padding: 20px 0;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    line-height: 1.4;
 }
