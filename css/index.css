@@ -53,7 +53,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,18 +62,22 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-p {
+p, a {
     line-height: 1.4;
+    font-family: "Rubik";
 }
 
-.container {
+.container{
     width: 800px;
     margin: 0 auto;
 }
 
-.nav{
-    display: inline-block;
+.about-page{
+    width: 800px;
 }
+/* .nav{
+    display: inline-block;
+} */
 
 .top-nav {
     display: flex;
@@ -170,6 +174,7 @@ p {
 #box10{
     background-color: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -182,6 +187,14 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.four-sections{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    width: 
+
 }
 
 footer {
