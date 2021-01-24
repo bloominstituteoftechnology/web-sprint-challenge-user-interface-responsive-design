@@ -67,7 +67,7 @@ p {
 }
 
 
-/* Header CSS */
+/* Header CSS starts here*/
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -84,13 +84,17 @@ header {
     justify-content: space-around;
     align-items: flex-end;
 }
+header nav a{
+    text-decoration: none;
+    color:black;
+}
 header nav a img {
     padding: 0%;
 }
 header img {
     padding: 2%;
 }
-/* Header CSS */
+/* Header CSS ends here */
 
 .container {
     width: 800px;
@@ -137,6 +141,39 @@ header img {
     align-items: center;
     justify-content: center;
 }
+
+/* Boxes CSS starts here */
+#box1 {
+    background-color:teal;
+}
+#box2 {
+    background-color:gold;
+}
+#box3 {
+    background-color:cadetblue;
+}
+#box4 {
+    background-color:coral;
+}
+#box5 {
+    background-color:crimson;
+}
+#box6 {
+    background-color:forestgreen;
+}
+#box7 {
+    background-color:darkorchid;
+}
+#box8 {
+    background-color:hotpink;
+}
+#box9 {
+    background-color:indigo;
+}
+#box10 {
+    background-color:dodgerblue;
+}
+/* Boxes CSS ends here */
 
 .bottom-content {
     display: flex;
