@@ -28,6 +28,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/* end resets */
+* {
+    box-sizing:border-box;
+}
+
+#navigation {
+    align-items: center;
+    align-self: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 2.5em;
+ 
+}
+#navigation a {
+    border: 1em solid white;
+    color:black;
+    padding: 0em 1em;
+    text-decoration: none;
+}
+#logo {
+    align-self:flex-start;
+    margin-right:3em;
+}
+#jumbo {
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 2em;
+}
 body {
 	line-height: 1;
 }
@@ -47,19 +77,15 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
 }
 
 p {
@@ -72,11 +98,11 @@ p {
 }
 
 .top-content {
+    border-bottom: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -102,14 +128,45 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    align-items: center;
     background: black;
-    margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
+    height: 100px;
     justify-content: center;
+    margin: 20px 2.5%;
+    width: 12.5%;
+}
+
+#box1 {
+    background-color:teal;
+}
+#box2 {
+    background-color:gold;
+}
+#box3 {
+    background-color:cadetblue;
+}
+#box4 { 
+    background-color:coral;
+}
+#box5 {
+    background-color:crimson;
+}
+#box6 {
+    background-color:forestgreen;
+}
+#box7 { 
+    background-color:darkorchid;
+}
+#box8 { 
+    background-color:hotpink;
+}
+#box9 { 
+    background-color:indigo;
+}
+#box10 { 
+    background-color:dodgerblue;
 }
 
 .bottom-content {
