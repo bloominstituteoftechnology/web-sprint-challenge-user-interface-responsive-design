@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+
+/* Header CSS */
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 800px;
+    justify-items: center;
+}
+.headernav {
+    padding: 2%;
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+header nav a img {
+    padding: 0%;
+}
+header img {
+    padding: 2%;
+}
+/* Header CSS */
+
 .container {
     width: 800px;
     margin: 0 auto;
