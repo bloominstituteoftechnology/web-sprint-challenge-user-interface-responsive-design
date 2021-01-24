@@ -147,6 +147,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
             
                 .boxes .box:nth-child(1){
