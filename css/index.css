@@ -51,6 +51,20 @@ table {
     box-sizing: border-box;
 }
 
+.about-page {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ending-content {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +83,33 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.learning {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.flex-container button {
+    border-radius: 8px;
+    background-color: white;
+    padding: 6px 15px;
+    margin: 15px 0 15px 0;
+}
+
+.flex-container h2 {
+    margin-top: 10px;
+}
+
+.flex-container image {
+    padding: 20px;
 }
 
 .top-content {
