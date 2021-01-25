@@ -60,11 +60,13 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    color: #3f3f3f
 }
 
 p, a {
     line-height: 1.4;
     font-family: "Rubik";
+    color: #3f3f3f
 }
 
 .container{
@@ -72,17 +74,17 @@ p, a {
     margin: 0 auto;
 }
 
-.about-page{
-    width: 800px;
-}
+
 /* .nav{
     display: inline-block;
 } */
 
 .top-nav {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
+    align-items: baseline;
+    width: 92%;
+    margin-top: 1em;
 }
 
 .top-nav a{
@@ -93,6 +95,15 @@ p, a {
     margin-bottom: 2em;
     font-size: 12px;
 }
+
+.top-pic{
+    margin-top: 1.5em;
+}
+
+.about-text{
+    padding: 1.1em 1.1em;
+    border-bottom: 2px dotted black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -100,12 +111,21 @@ p, a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding-top: 1.5em;
+    margin-top: 1.1em;
+}
+.text-container img{
+    padding-top: 1.5em;
+    margin-top: 1.5em;
 }
 
+.text-container p{
+    padding-bottom: 1.1em;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
 }
 
 .middle-content {
@@ -191,12 +211,25 @@ p, a {
 
 .four-sections{
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 
-
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-top: 1.5em;
 }
 
+.text-container a{ 
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 7px 25px;
+    margin: 1.1em;
+}
+
+.together{
+    margin: 2em 0em;
+}
 footer {
     width: 100%;
     background: black;
