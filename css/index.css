@@ -142,6 +142,7 @@ header nav {
 .logo {
   width: 30%;
   margin: 15px 200px;
+  margin-right: 30px;
 }
 .logo img {
   max-width: 100%;
@@ -178,7 +179,7 @@ header nav {
     
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-around;
     align-items: center;
     color: black;
@@ -186,7 +187,6 @@ header nav {
     border-bottom: 10px dotted black'
 }
 .bigContainer div{
-    width: 50%;
     text-align: left;
     padding:8px 10px;
     border-bottom: 10px dotted black'
@@ -208,7 +208,6 @@ header nav {
     width:65%;
     margin: 0 auto;
     padding: 50px 10px;
-    border-top: 2px dotted black;
 }
 
 .top-content {
@@ -217,6 +216,19 @@ header nav {
   justify-content: space-evenly;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+}
+
+.strategy,
+.howWeWork,
+.workPlace,
+.Collaboration {
+    border-bottom: 2px dotted black;
+    width: 46%;
+}
+
+.strategy,
+.workPlace{
+
 }
 
 .top-content .text-container {
