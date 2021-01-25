@@ -218,8 +218,9 @@ p, a {
     padding-top: 1.5em;
 }
 
-.text-container a{ 
+.text-container button{ 
     color: black;
+    background-color: white;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 15%;
