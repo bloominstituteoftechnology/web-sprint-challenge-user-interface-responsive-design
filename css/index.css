@@ -137,14 +137,27 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle-content {
     display: flex;
-    flex-wrap: wrap;
-    max-height: 20px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.boxes {
+.middle-content h2 {
+    padding-right: 525px;
+}
+
+.boxesItem {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 5% 0 5%;
+}
+
+
+.boxes {
+    display: inline-flex;
     flex-flow: row wrap;
     width: 100%;
     align-items: center;
@@ -319,7 +332,7 @@ footer nav a:hover {
     justify-content: space-around;
 }
 
-li.cardsItem {
+.cardsItem {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
