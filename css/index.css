@@ -70,7 +70,7 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
+    content: none;
 }
 table {
 	border-collapse: collapse;
@@ -108,7 +108,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
 }
 
 .middle-content {
@@ -195,9 +195,15 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top:1em;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.aboutwork {
+margin-bottom:1em;
+margin-left:1em;
 }
