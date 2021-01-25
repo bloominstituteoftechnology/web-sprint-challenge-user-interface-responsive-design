@@ -56,6 +56,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -86,8 +87,8 @@ body header a {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-bottom: 15px;
 }
 
 body a {
@@ -122,76 +123,153 @@ p {
 }
 
 .top-content .text-container {
+    display: flex;
+    flex-wrap: wrap;
     width: 48%;
     padding: 0 1%;
     padding: 20px 0 20px 0;  
 }
 
 .middle-content {
+    display: flex;
+    flex-flow: row wrap;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    max-height: 20px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.boxes {
     display: flex;
+    flex-flow: row wrap;
+    width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    color: white;
 }
 
 .box#tealBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: teal;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#goldBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: gold;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#cadetBlueBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#coralBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: coral;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#crimsonBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: crimson;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#forestGreenBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#darkOrchidBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#hotPinkBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: hotpink;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#indigoBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: indigo;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .box#dodgerBlueBox {
+    display: flex;
+    flex-flow: row wrap;
     background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .bottom-content {
@@ -296,4 +374,3 @@ ul.cards {
 .letsWorkTogetherContainer {
     padding: 0 5% 0 5%;
 }
-
