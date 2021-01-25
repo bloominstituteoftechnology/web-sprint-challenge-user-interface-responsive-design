@@ -153,24 +153,21 @@ p {
   line-height: 1.4;
 }
 
-.container {
-  width: 800px;
-  margin: 0 auto;0
-}
-
-
-
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ############### CSS BELOW  ################## */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @@@@@@@@@@@@@ ABOUT PAGE BELOW @@@@@@@@@@@@@@@@ */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+  /* border: 2px solid purple; */
+}
 
-
-/* ~~~~~~~ header / nav ~~~~~~~ */
-
-
+/* ~~~ header / nav ~~~ */
 .div-width-container {
   width: 800px;
   margin: 0 auto;
@@ -200,110 +197,62 @@ p {
 /* header image */
 header {
   margin: 30px 0px 30px 0px;
-  border: 2px solid grey;
+  /* border: 2px solid rgb(255, 0, 0); */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-
-
-
-/* ~~~~~~ top content ~~~~~~~ */
-
-.top-content {
+/*  About section on About page */
+.about-page-flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
   border-bottom: 1px dashed black;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ */
+/* content (imgs text buttons) */
+
+/* button */
+.content-container .img-container button {
+  border: 3px solid;
+  margin-top: 25px;
+  font-size: 19px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px 20px 5px 20px;
 }
 
-/* ~~~~~~ middle content ~~~~~~~~ */
-
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.content-container {
+  border: 3px solid fuchsia;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.content-container .img-container {
+  /* justify-content: space-evenly; */
+  border: 4px solid green;
+  margin: 20px 0px 0px 20px;
+  padding: 0px;
+  width: 50%;
 }
 
-#teal {
-  background-color: teal;
-}
-#gold {
-  background-color: gold;
-}
-#cadetblue {
-  background-color: cadetblue;
-}
-#coral {
-  background-color: coral;
-}
-#crimson {
-  background-color: crimson;
-}
-#forestgreen {
-  background-color: forestgreen;
-}
-#darkorchid {
-  background-color: darkorchid;
-}
-#hotpink {
-  background-color: hotpink;
-}
-#indigo {
-  background-color: indigo;
-}
-#dodgerblue {
-  background-color: dodgerblue;
+.content-container h2 {
+  margin-top: 12px;
 }
 
-/* ~~~~~ bottom content ~~~~~~~ */
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
+.content-container .headphones-img {
+  border: 3px solid blue;
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+  margin-top: 20px;
 }
 
-.bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
-}
-
-
-/* ~~~~~ footer ~~~~~~~ */
+/* ~~~~~ footer ~~~~~~ */
+/*  used on home and about page */
 
 footer {
   width: 100%;
