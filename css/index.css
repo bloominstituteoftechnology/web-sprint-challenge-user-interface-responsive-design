@@ -133,15 +133,10 @@ p {
 .middle-content {
     display: flex;
     flex-flow: row wrap;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content {
-    display: flex;
-    flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -157,7 +152,7 @@ p {
 
 
 .boxes {
-    display: inline-flex;
+    display: flex;
     flex-flow: row wrap;
     width: 100%;
     align-items: center;
