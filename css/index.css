@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+.header-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 3%;
+}
+.header-img {
+    padding: 3% 0%;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
