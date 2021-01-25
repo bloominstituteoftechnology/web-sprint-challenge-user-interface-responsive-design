@@ -204,6 +204,22 @@ footer nav a {
 }
 
 .aboutwork {
-margin-bottom:1em;
-margin-left:1em;
+    margin-bottom:1em;
+    margin-left:1em;
 }
+
+.LearnMore {
+    background:white;
+    border-radius:.5em;
+    border: .2em solid black;
+    color:black;
+    display:flex;
+    margin:.5em .5em;
+    max-width:60%;
+    text-decoration: none;
+    padding: .5em 2.5em .5em 2.5em;
+}
+.LearnMore a {
+    color:black;
+    font-size:15px;
+    text-decoration:none;
