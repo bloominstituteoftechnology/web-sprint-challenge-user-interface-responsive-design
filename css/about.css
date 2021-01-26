@@ -39,7 +39,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 ul {
     width: 60%;
     display: flex;
@@ -82,7 +81,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
@@ -92,19 +90,19 @@ p {
     margin: 0 auto;
 }
 
-.intro {
+.intro{
     border-bottom: 1px dashed black;
     padding-bottom: 5px;
 }
 
-.boxes {
+.boxes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.box1 {
+.box1{
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
@@ -112,7 +110,23 @@ p {
     margin: 10px;
 }
 
-.box2 {
+.box2{
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1rem;
+    margin: 10px;
+}
+ 
+.box3{ 
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1rem;
+    margin: 10px;
+} 
+ 
+.box4{ 
     border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
@@ -120,23 +134,7 @@ p {
     margin: 10px;
 }
 
-.box3 {
-    border-bottom: 1px dashed black;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 1rem;
-    margin: 10px;
-}
-
-.box4 {
-    border-bottom: 1px dashed black;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 1rem;
-    margin: 10px;
-}
-
-.buttons {
+.buttons{
     max-width: 110px;
     height: 35px;
     background: white;
@@ -145,7 +143,6 @@ p {
     border-radius: 4px;
     margin-bottom: 4px;
 }
-
 /* This is my footer */
 
 footer {
@@ -166,7 +163,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-.footer {
+.footer{
     padding: 10px;
 }
