@@ -3,48 +3,49 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 2%;
+    font-size: 14px;
 }
 
 * {
@@ -54,6 +55,26 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.navigation {
+    width: 80%;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.jumbo {
+    padding-bottom: 2rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -82,8 +103,10 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
+
+/* This is my middle content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +135,120 @@ p {
     justify-content: center;
 }
 
+/* This is box section */
+
+.box1 {
+    background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    background: #ffd700;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box3 {
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box4 {
+    background: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box5 {
+    background: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box6 {
+    background: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box7 {
+    background: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box8 {
+    background: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box9 {
+    background: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box10 {
+    background: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*This is my bottom content  */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +262,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* This is my footer */
 
 footer {
     width: 100%;
