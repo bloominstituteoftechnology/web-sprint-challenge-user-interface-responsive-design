@@ -64,6 +64,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* index.html below - about.html starts on line 325 */
+
 header {
     display: flex;
     flex-wrap: wrap;
