@@ -144,3 +144,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* CSS for about.html */
+header{
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+.header a {
+    margin: 36px;
+    color: black;
+}
+.jumbo-about {
+    margin-bottom: 2%;
+}
+.about {
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.first-section {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.first-section h2 {
+    margin-top: 3%;
+}
+.first-section button {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding: 2.5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 18px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 11%;
+}
+
+.second-section {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.second-section h2 {
+    margin-top: 3%;
+}
+.second-section button {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding: 2.5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 18px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 11%;
+}
+
+.last-section p {
+    margin-bottom: 5%;
+}
