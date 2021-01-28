@@ -192,8 +192,8 @@ nav.top {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin top: 4rems;
-  margin bottom: 4rems;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 /* nav.top {
   flex-direction: row;
@@ -242,7 +242,7 @@ nav.top {
 .ten {
   background-color: dodgerblue;
 }
-]
+
 
 .bottom-content {
   display: flex;
