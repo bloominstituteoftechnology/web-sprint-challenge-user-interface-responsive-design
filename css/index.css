@@ -274,13 +274,13 @@ p{
 
 .tileThree{
     border-bottom: 1px dashed black;
-    padding 2% 0 0 0;
+    padding: 2% 0 2% 0;
     margin: 2% 0 0 0;
 }
 
 .tileFour{
     border-bottom: 1px dashed black;
-    padding 2% 0 0 0;
+    padding: 2% 0 2% 0;
     margin: 2% 0 0 0;
 }
     
