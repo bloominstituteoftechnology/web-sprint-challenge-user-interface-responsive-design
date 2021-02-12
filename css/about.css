@@ -60,25 +60,18 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-header .head{
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-
-}
-.header{
-
-}
-.header img{
-    padding-top:2
-}
-nav {
+.head1{
     display:flex;
-    justify-content:space-evenly;
-
-}
+    justify-content:center;
+    padding: 1%
     
 
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    width:60%;
+}
 .headerImg{
    display: flex;
    justify-content: center;
@@ -86,12 +79,13 @@ nav {
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 .about{
     margin-bottom: 4%;
     border-bottom: 1px dashed black;
+    padding-bottom: 2%;
 }
 .middle-content1, .middle-content2{
     display:flex;
@@ -103,13 +97,17 @@ nav {
    
    
 }
-.middle-content1 .contxt{
-    width:48%;
+.middle-content1 .conTxt{
+    width:50%;
     padding: 0 1%;
 } 
 
 .middle-content2 .conTxt{
-   
+    width: 50%;
+    padding-bottom: 2%;
+}
+.bottom{
+    padding-bottom: 2%;
 }
 footer {
     width: 100%;
