@@ -89,6 +89,7 @@ h1 {
 p {
     font-weight: 600;
     font-size: large;
+    margin-bottom: 2%;
 }
 .about {
     display: flex;
@@ -109,11 +110,12 @@ p {
     margin: 1%;
 }
 button {
-    padding: .5% 1.5%;
+    padding: 1% 4%;
     background-color: white;
     border-radius: 10px;
     font-weight: 600;
     font-size:large;
+    border: 3px solid black;
 }
 .top2 {
     display: flex;
@@ -141,4 +143,17 @@ button {
 }
 .middle img {
     width: 70%;
+}
+
+h2 {
+    font-size:x-large;
+}
+
+footer nav a {
+    background-color: black;
+    color: white;
+}
+footer {
+    background-color: black;
+    align-items: left;
 }
