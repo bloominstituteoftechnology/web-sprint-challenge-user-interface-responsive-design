@@ -242,3 +242,45 @@ footer nav a {
 p{
     font-size:1.5rem;
 }
+
+
+
+.text-containerTwo{
+    padding:0 0 2% 0;
+}
+
+.middle-content .tiles {
+    
+    
+}
+
+.middle-content .tiles div{
+    
+    
+    
+}
+
+.tileOne, .tileTwo, .tileThree, .tileFour{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.tiles button{
+    border-radius:18%;
+    padding:1% 2%;
+    text-align:center;
+    background-color:white;
+}
+    
+.bottom-about{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    font-size:3.5rem;
+    width: 800px;
+    margin: 0 auto;
+    padding:0 2% 0 2%;
+}
+.bottom-about p{
+    padding:0 0 3% 0;
+}
