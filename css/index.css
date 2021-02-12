@@ -58,7 +58,7 @@ div.bigimg{
     
     div.lambda-black{
         display: flex;
-        justify-content:;
+        
         padding:2%;
         
     }
@@ -66,11 +66,11 @@ div.bigimg{
         display: flex;
         justify-content:space-evenly;
         padding:2%;
-        
-    }
-    div.links{
-        text-color:black;
-    }
+        }
+        div.links{
+            text-decoration: none;
+        }
+    
 
 
 html, body {
@@ -132,7 +132,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    }
+    div.boxes.box{
+        color:teal
+    }
+    
+
+
 
 .bottom-content {
     display: flex;
