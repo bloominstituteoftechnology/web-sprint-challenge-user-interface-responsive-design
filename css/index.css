@@ -253,21 +253,37 @@ p{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
-    
-    
-    
 }
 
 .middle-contentTwo .tiles div{
-    
+    width:45%;
     
     
 }
 
-.tileOne, .tileTwo, .tileThree, .tileFour{
-    margin-bottom: 20px;
+.tileOne{
     border-bottom: 1px dashed black;
+    padding:0 0 2% 0;
 }
+
+.tileTwo{
+    border-bottom: 1px dashed black;
+    padding: 0 0 2% 0;
+}
+
+.tileThree{
+    border-bottom: 1px dashed black;
+    padding 2% 0 0 0;
+    margin: 2% 0 0 0;
+}
+
+.tileFour{
+    border-bottom: 1px dashed black;
+    padding 2% 0 0 0;
+    margin: 2% 0 0 0;
+}
+    
+
 
 .tiles p{
     padding:0 0 2% 0;
@@ -285,7 +301,7 @@ p{
     justify-content: space-around;
     font-size:3.5rem;
     width: 800px;
-    margin: 0 auto;
+    margin: 5% 0 0 0;
     padding:0 2% 0 2%;
 }
 .bottom-about p{
