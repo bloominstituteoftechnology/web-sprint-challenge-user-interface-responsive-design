@@ -124,6 +124,43 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+} 
+
+.bg-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 60%;
+    height: 250px;
+}
+
+.lambda-logo {
+    display: flex;
+}
+
+.header-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.box{
+    background-color: teal;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0% 0% 0% 0%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
@@ -144,3 +181,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
