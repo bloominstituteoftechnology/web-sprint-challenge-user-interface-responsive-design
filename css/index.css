@@ -64,20 +64,24 @@ html, body {
 header{
     display:flex;
     flex-direction:row;
+    align-items:baseline;
+    margin:0% 0% 2% 0;
 
     
     
 }
 .icon{
-    width:48%;
-    margin:3% 0 1.5% 29.1%;
+    width:10%;
+    margin:3% 0 0 29%
+    
 }
 .links{
-    width:70%;
+    width:90%;
     display:flex;
     justify-content:space-around;
     flex-direction:row;
-    padding:5% 30% 0 0;
+    font-size:3rem;
+    margin:0 28% 0 0
     
 }
 a:visited{
