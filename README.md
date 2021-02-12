@@ -33,14 +33,33 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    
+    - Semantic HTML is how the browser reads and how the developer sets up the page. It's the "framework" of the web page. Therefore users with accissibiility tools will know the page's layout and developers know how to edit it. Header, Body, footer, sections, etc. all describe the placement and layout of the page. NOT how it is styled, thats CSS. Remember the house anaology. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    - Display block will force elements to display one on top of the other. Like building blocks for a house. Displaying Inline will make them sit side by side. You can tell an element to display either way in CSS if you want to over-ride their default setting. Such as when making a nav bar with a logo side by side, you have to tell it to display inline. 
 
 3. What are the 4 areas of the box model?
+    - Margin, border, padding, content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    - the "verticle" axis, top to bottom/up and down, because "align" is a term used for COLUMNS. if it was the main axis, left to right/side to side/ it would be justify-content. This will make the content align in the middle of the page
+
+                justify-content: left;
+                align-content: center;
+
+                Would look like this: 
+
+    -----Top------
+    --------------
+    --------------
+    [Here]--------
+    --------------
+    --------------
+    ----Bottom----
 
 5. Explain why git is valuable to a team of developers.
+    -GitHub is an Open Source Version Control Collaboration Repository Database - It allows teams to work on project sindipendantly, upload their changes for review, then once approved, add them to the "master" branch (the approved, working parts of the project) for everyone else to work off of. it prevents overlapping, "wet" code and not D.R.Y., bugs, lots of issues. "version control" is the main part to remember. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

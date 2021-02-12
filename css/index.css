@@ -66,9 +66,34 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header nav {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+/* header nav .logo {
+    border: 1px solid red;
+} */
+
+header nav a {
+    /* border: 1px solid blue; */
+    width: 70%;
+    color: black;
+    justify-content: center;
+    justify-content:;
+    padding: 15px 36px;
 }
 
 .top-content {
@@ -104,12 +129,16 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box .box1 {
+    background-color: teal;
 }
 
 .bottom-content {
