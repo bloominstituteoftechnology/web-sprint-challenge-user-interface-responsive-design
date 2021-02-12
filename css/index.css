@@ -28,65 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-/* 
-HERE LIES THE header
-HERE LIES THE header
-HERE LIES THE HEADER */
-.logo {
-    display: flex;
-    flex-direction: column;
-}
-
-.head-contain {
-    display: flex;
-    background-color: white;
-    height: 70px;
-    margin: 0% 0% 0% 0%;
-    padding: 2% 2% 2% 2%;
-}
-
-header nav {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-    margin: 0% 2% 2% 3%;    
-}
-
-.container-block {
-    color: black;
-
-}
-
-
-
-
-.lambda-logo {
-    background-color: white
-    /* margin: 2% 2% 3% 4%;
-    /* height: 50px; */
-    /* height: 2.2em; */
-    /* width: 120px; */
-    /* width: 8.2em; */
-}
-
-.head-image {
-    /* background-color: limegreen; */
-    display: flex;
-    flex-direction: row;
-    /* background: gold; */
-    padding: 2% 10% 2% 10%%;
-    border: 1px solid pink;
-    margin: 2% 10% 2% 10%;
-    height: 9em;
-    width: 100px;
-    /* width: 55em; */
-}
-
-/* ???????????????????????????????? */
 
 body {
 	line-height: 1;
@@ -94,17 +35,21 @@ body {
     width: 800px;
     margin: 0% 20% 50% 5%;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -133,16 +78,74 @@ p {
     line-height: 1.4;
 }
 
-/* ????????????????????????????????? */
-
 .container {
     width: 800px;
     margin: 0 auto;
+    background: white;
+    border: 100% solid white;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
-/* .container.new{
-    padding: 0% 30px;
-} */
+
+/* 
+HERE LIES THE header
+HERE LIES THE header
+HERE LIES THE HEADER */
+
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    /* padding: 2% 2% 2% 10%;
+    margin: 2% 2% 2% 2%; */
+}
+
+.head-contain {
+    display: flex;
+    background-color: white;
+    height: 70px;
+    margin: 0% 0% 0% 0%;
+    padding: 2% 2% 2% 2%;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin: 0% 2% 2% 3%;    
+}
+
+.container-block {
+    color: black;
+
+}
+
+.lambda-logo {
+    background-color: white
+    /* margin: 2% 2% 3% 4%;
+    /* height: 50px; */
+    /* height: 2.2em; */
+    /* width: 120px; */
+    /* width: 8.2em; */
+}
+
+.head-image {
+    /* background-color: limegreen; */
+    display: flex;
+    flex-direction: row;
+    /* background: gold; */
+    padding: 2% 10% 2% 10%;
+    margin: 2% 2% 2% 2%;
+    height: 9em;
+    width: 55em;
+}
+
 
 /* TOP CONNNNN
 TOP CONNNNN
@@ -156,12 +159,38 @@ TOP CONNNNN */
     border-bottom: 1px dashed black;
 }
 
+.image-size {
+    width: 20em;
+    /* aspect-ratio: auto 1000 / 1587; */
+    height: 14em;
+}
+
+.learn-link {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.text {
+    margin: 1em;
+    padding: 1em;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 5% 1%;
     padding-bottom: 20px;  
 }
 
+/* about.content {
+
+} */
+
+.about-container {
+    padding-left: 2em;
+}
 
 /* MIDDLE CONNNNNN
 MIDDLE CONNNNNN
@@ -187,7 +216,7 @@ MIDDLE CONNNNNN */
     width: 12.5%;
     height: 100px;
     /* background: black; */
-    margin: 10px 2%;
+    margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -243,7 +272,7 @@ MIDDLE CONNNNNN */
 
 .bottom-content {
     display: flex;
-    /* margin: 0 2% 20px; */
+    margin: 0 2% 20px;
     justify-content: space-around;
     color: black;
     background: white;
@@ -273,7 +302,6 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*  */
     padding: 20px 10%;
     font-size: 14px;
 }
