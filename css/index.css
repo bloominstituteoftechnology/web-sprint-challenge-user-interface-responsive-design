@@ -297,5 +297,18 @@ footer nav a {
     padding-top:4%;
     width:45%;
     border-bottom: 1px dashed black;
-
+}
+.gallery h2{
+    margin-top:3%;
+}
+.gallery button{
+    padding:3% 10%;
+    font-weight: bold;
+    margin:5% 0%;
+    text-align:center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.last{
+    padding:5% 3%;
 }
