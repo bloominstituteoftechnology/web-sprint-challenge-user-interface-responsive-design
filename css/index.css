@@ -196,6 +196,7 @@ img {
 .container .about-page {
     display:flex;
     flex-wrap: wrap;
+
 }
 
 .button {
@@ -203,6 +204,37 @@ img {
     border-radius: 10px;
 }
 
+.top-section {
+    line-height: 5%;
+    border-bottom: 3px dotted black;
+    margin-bottom: 2%;
+}
+
+.boxOne{
+    border-bottom: 2px dotted black;
+}
+
+.boxTwo {
+    border-bottom: 2px dotted black;
+}
+
+.boxThree {
+    border-bottom: 2px dotted black;
+}
+
+.boxFour {
+    border-bottom: 2px dotted black;
+}
+
+.bottom-section {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 header nav{
     display: flex;
