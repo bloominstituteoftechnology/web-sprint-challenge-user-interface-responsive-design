@@ -111,10 +111,10 @@ header nav a{
     border-bottom: 1px dashed black;
     margin-bottom:2vh;
 }
-.gallery {
+.gallery {width:100%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .strategy {width:45%;
     padding:1vh;
@@ -124,11 +124,12 @@ header nav a{
     padding:1vh;
     border-bottom: 1px dashed black;
 }
-.places {width:45%;
+.places {margin-top:5vh;
+    width:45%;
     padding:1vh;
     border-bottom: 1px dashed black;
 }
-.collab {
+.collab {margin-top:5vh;
     width:50%;
     padding:1vh;
     border-bottom: 1px dashed black;
