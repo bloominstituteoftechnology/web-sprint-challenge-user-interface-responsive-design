@@ -28,8 +28,66 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/* 
+HERE LIES THE header
+HERE LIES THE header
+HERE LIES THE HEADER */
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-contain {
+    display: flex;
+    background-color: white;
+    height: 70px;
+    margin: 0% 0% 0% 0%;
+    padding: 2% 2% 2% 2%;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin: 0% 2% 2% 3%;    
+}
+
+.container-block {
+    color: black;
+
+}
+
+    
+
+
+.lambda-logo {
+    background-color: white
+    /* margin: 2% 2% 3% 4%;
+    /* height: 50px; */
+    /* height: 2.2em; */
+    /* width: 120px; */
+    /* width: 8.2em; */
+}
+
+.head-image {
+    /* background-color: limegreen; */
+    margin: 0% 0% 0% 0%;
+    height: 9em;
+    width: 100px;
+    /* width: 55em; */
+}
+
+/* ???????????????????????????????? */
+
 body {
 	line-height: 1;
+    background: white;
+    width: 800px;
+    margin: 0% 2% 2% 5%;
 }
 ol, ul {
 	list-style: none;
@@ -51,6 +109,10 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    background: black;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -66,10 +128,17 @@ p {
     line-height: 1.4;
 }
 
+/* ????????????????????????????????? */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+
+/* TOP CONNNNN
+TOP CONNNNN
+TOP CONNNNN */
 
 .top-content {
     display: flex;
@@ -81,9 +150,14 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 5% 1%;
     padding-bottom: 20px;  
 }
+
+
+/* MIDDLE CONNNNNN
+MIDDLE CONNNNNN
+MIDDLE CONNNNNN */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +178,60 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.boxOne {
+    background: teal;
+}
+
+.boxTwo {
+    background: gold;
+}
+
+.boxThree {
+    background-color: cadetblue;
+}
+
+.boxFour {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+
+
+        /* BOTT CONNNNNNN
+        BOTT CONNNNNNN
+        BOTT CONNNNNNN */
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +246,11 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+            /* FOOOOOTTTTTT
+            FOOOOOTTTTTT
+            FOOOOOTTTTTT */
+
 
 footer {
     width: 100%;
