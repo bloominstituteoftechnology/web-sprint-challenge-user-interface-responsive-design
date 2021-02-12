@@ -10,7 +10,6 @@ This is an individual assessment. All work must be your own. Your challenge scor
 
 You are not allowed to collaborate during the Sprint Challenge. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
 
-You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
