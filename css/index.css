@@ -74,24 +74,30 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-left:25%;
+    margin-right:25%;
     margin-bottom: 20px;
-    margin-top:2%
+    margin-top:2%;
+ 
 }
 .logo {
-    width: 15%;
-    margin-left:15%;
+    width:20%;
     margin-bottom:2%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+ 
 }
 .topnav{
     display:flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 75%;
+    margin-left:1%;
     margin-top:1.8%;
-    margin-right: 20%;
-    justify-content: space-between;  
+    margin-bottom:1%;
+    justify-content: space-evenly;  
+    
+    
 }
     .top nav a{
         color:black;
@@ -104,7 +110,7 @@ p {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    width:85%
+    
 }
 
 .top-content {
