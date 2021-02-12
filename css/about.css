@@ -84,3 +84,45 @@ nav {
    justify-content: center;
     padding: 2%;
 }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.about{
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+.middle-content{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+   
+   
+}
+.middle-content .conTxt{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-aroun;
+    width: 50%;
+
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
