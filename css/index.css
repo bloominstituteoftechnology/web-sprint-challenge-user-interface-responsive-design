@@ -80,11 +80,11 @@ header{
     display:flex;
     justify-content:space-around;
     flex-direction:row;
-    font-size:3rem;
+    font-size:3.5rem;
     margin:0 28% 0 0
     
 }
-a:visited{
+header a:visited{
     color:black;
 }
 a:link{
@@ -97,10 +97,14 @@ a:link{
     background-repeat:no-repeat;
     background-size:cover;
     padding:0 0 1% 0;
-    
-    
-    
-    
+}
+
+.bg-imgTwo{
+    display:flex;
+    justify-content:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:0 0 1% 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -221,8 +225,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 2%;
     font-size: 14px;
+    color:white;
 }
 
 footer nav a {
@@ -234,4 +239,6 @@ footer nav a {
 /*START OF ABOUT STYLING*/
 
 
-
+p{
+    font-size:1.5rem;
+}
