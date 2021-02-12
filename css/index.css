@@ -70,10 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
-.topNav{
+header{
     display:flex;
+    margin-top: 3%;
+}
+.logo{
+}
+
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.topImage{
+    margin:3% auto;
 }
 
 .top-content {
@@ -109,13 +123,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
