@@ -249,12 +249,16 @@ p{
     padding:0 0 2% 0;
 }
 
-.middle-content .tiles {
+.middle-contentTwo .tiles {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:50%;
     
     
 }
 
-.middle-content .tiles div{
+.middle-contentTwo .tiles div{
     
     
     
@@ -265,6 +269,9 @@ p{
     border-bottom: 1px dashed black;
 }
 
+.tiles p{
+    padding:0 0 2% 0;
+}
 .tiles button{
     border-radius:18%;
     padding:1% 2%;
