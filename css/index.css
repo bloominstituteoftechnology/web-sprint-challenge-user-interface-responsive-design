@@ -71,13 +71,9 @@ header{
     max-width: 100%;
 }
 .header{
-  
+    
 }
 .header img{
-    display:fle;
-    flex-direction: ;
-    
-     
 }
 nav {
     display:flex;
@@ -85,7 +81,7 @@ nav {
 
 }
     
-}
+
 .headerImg{
    
     padding: 2%;
