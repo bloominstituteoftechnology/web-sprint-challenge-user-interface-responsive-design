@@ -28,6 +28,28 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.Top{display:flex;
+      justify-content:center;
+      align-items:baseline;
+      margin-top:2rem;
+}
+.Navi{display:flex;
+      justify-content:space-around;
+}
+#H{margin-left:4rem;
+}
+.A{margin-left:2rem;
+}
+#P{margin-left:2rem;
+}
+#B{margin-left:2rem;
+}
+#C{margin-left:2rem;
+}
+.Jumbo{display:flex;
+       justify-content:center;
+       margin:1rem;
+}
 body {
 	line-height: 1;
 }
@@ -94,24 +116,109 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+h2 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
-
+.boxes{display:flex;
+       flex-direction:row;
+       justify-content:center;
+}
+.box1{width:12.5%;
+      height:100px;
+      margin:20px 2.5%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      background-color:teal;
+}
+.box2{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:gold;
+}
+.box3{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:cadetblue;
+}
+.box4{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:coral;
+}
+.box5{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:crimson;
+}
+.boxes2{display:flex;
+        flex-direction:row;
+        justify-content:center;
+}
+.box6{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:forestgreen;
+}
+.box7{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:darkorchid;
+}
+.box8{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:hotpink;
+}
+.box9{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:indigo;
+}
+.box10{width:12.5%;
+    height:100px;
+    margin:20px 2.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +250,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*About Page*/
+.Leverage{border-bottom: 1px dashed black;
+}
+.Row1{display:flex;
+      justify-content:center;
+}
+.Row2{display:flex;
+      justify-content:center;
+}
+.Column1{display:flex;
+         width:350px;
+         flex-flow:column nowrap;
+         margin:1%
+}
+.HStrategy{margin:2rem;
+}
+.Column2{display:flex;
+         width:350px;
+         flex-flow:column nowrap;
+         margin:1%;
+}
+.Ba{display:flex;
+    justify-content:center;
+}
+.Bt{width:720px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.Bs{display:flex;
+    flex-direction:column;
+}
+.Feet{display:flex;
+      justify-content:center;
+}
+#PG2{display:flex;
+     justify-content:center;
+     width:800px;
+}
+button{background-color:white;
+       border-radius:5px;
+       width:90px;
 }
