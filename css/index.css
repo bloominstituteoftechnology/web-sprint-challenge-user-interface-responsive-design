@@ -135,6 +135,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: teal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box2{
     width: 12.5%;
@@ -142,6 +146,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: gold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box3{
     width: 12.5%;
@@ -149,6 +157,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: cadetblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box4{
     width: 12.5%;
@@ -156,6 +168,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: coral;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box5{
     width: 12.5%;
@@ -163,6 +179,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: crimson;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box6{
     width: 12.5%;
@@ -170,6 +190,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: forestgreen;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box7{
     width: 12.5%;
@@ -177,6 +201,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: darkorchid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box8{
     width: 12.5%;
@@ -184,6 +212,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: hotpink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box9{
     width: 12.5%;
@@ -191,6 +223,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: indigo;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box10{
     width: 12.5%;
@@ -198,6 +234,10 @@ header{
     margin: 20px 2.5%;
     color:white;
     background-color: dodgerblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bottom-content {

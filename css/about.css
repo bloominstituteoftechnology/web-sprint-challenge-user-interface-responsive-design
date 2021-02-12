@@ -66,26 +66,138 @@ p {
     line-height: 1.4;
 }
 *{
-    border: 1px solid black;
-}
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 header{
-    width: auto;
-}
-.bucket nav{
     width: 100%;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 0 2%;
+}
+.links a{
+    font-size: 1.3rem;
+    width: 50%;
+}
+.pic{
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.about-info{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+h1{
+    font-size: 2rem;
+    width: 50%;
+    padding-left: 3%;
+}
+
+.about-info p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.more{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.more h2{
+    padding: 1%;
+    font-size: 1.5rem;
+}
+.more p{
+    padding: 1%;
+}
+.strategy{
+    padding:3%;
+    max-width: fit-content;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.how{
+    padding:3%;
+    max-width: fit-content;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+.places{
+    padding: 3%;
+    max-width: fit-content;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+.collab{
+    padding: 3%;
+    max-width: fit-content;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.lwt{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.lwt h2{
+    font-size: 1.5rem;
+    width: 75%;
+    padding-left: 6%;
+}
+.lwt p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 4%;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+footer nav{
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     padding: 2%;
 }
-.links a{
-    font-size: 1.3rem;
-}
-.pic{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
