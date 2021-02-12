@@ -28,8 +28,48 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.logo img {
+    width: 200px;
+    display: inline-block
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 60%;
+    text-align: center;
+    height: 40px;
+    padding: 20px 2%;
+    margin-top:1%
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: 14px;
+    padding: 13px 30px;
+    transition:.3s;
+
+}
+
+.headImg {
+    display: flex;
+    justify-content: center;
+
+}
+
 body {
-	line-height: 1;
+    line-height: 1;
+    padding: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -101,10 +141,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +282,27 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about {
+border-bottom: 1px dotted black;
+padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#strat, #how-we-work, #places, #where-we-work  {
+    width: 30%;
+    height: 400px;
+    border-bottom: 1px dotted black;
+    padding: 10px;
+}
+
+#strat img, #how-we-work img, #places img, #where-we-work img {
+    width: 100%;
 }
