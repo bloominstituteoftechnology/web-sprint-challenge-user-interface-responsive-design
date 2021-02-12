@@ -154,16 +154,24 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box{
+.middle-content .boxes div{
     width: 12.5%;
     height: 100px;
-    background-color:black;
+    /*background-color:black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.boxOne{
+    background-color:teal;
+}
+.boxTwo{
+    background-color:gold;
+}
+.box
 
 .bottom-content {
     display: flex;
