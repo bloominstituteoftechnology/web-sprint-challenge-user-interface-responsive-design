@@ -22,8 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    max-width:100%;
-    font-size:62.5%;
+    max-width: 100%;
+    font-size: 62.5%;
    
 }
 /* HTML5 display-role reset for older browsers */
@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.5;
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
 ol, ul {
 	list-style: none;
@@ -62,49 +62,50 @@ html, body {
 }
 
 header{
-    display:flex;
-    flex-direction:row;
-    align-items:baseline;
-    margin:0% 0% 1.5% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0% 0% 1.5% 0;
 
     
     
 }
 .icon{
-    width:20%;
-    margin:3% 0 0 29%
-    
+    width: 20%;
+    margin: 3% 0 0 29%
 }
+
 .links{
-    width:80%;
-    display:flex;
-    justify-content:space-around;
-    flex-direction:row;
-    font-size:3.5rem;
-    margin:0 28% 0 0
-    
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 3.5rem;
+    margin: 0 28% 0 0
 }
+
 header a:visited{
-    color:black;
+    color: black;
 }
+
 a:link{
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .bg-img{
-    display:flex;
-    justify-content:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    padding:0 0 1% 0;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 1% 0;
 }
 
 .bg-imgTwo{
-    display:flex;
-    justify-content:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    padding:0 0 1% 0;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 1% 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -137,7 +138,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    font-size:2.5rem;
+    font-size: 2.5rem;
     
 }
 
@@ -204,7 +205,7 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    font-size:3.5rem;
+    font-size: 3.5rem;
 }
 
 .bottom-content .text-container {
@@ -240,31 +241,26 @@ footer nav a {
 
 
 p{
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
-
-
 .text-containerTwo{
-    padding:0 0 2% 0;
+    padding: 0 0 2% 0;
 }
 
 .middle-contentTwo .tiles {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .middle-contentTwo .tiles div{
-    width:45%;
-    
-    
-    
+    width: 45%;
 }
 
 .tileOne{
     border-bottom: 1px dashed black;
-    padding:0 0 2% 0;
+    padding: 0 0 2% 0;
 }
 
 .tileTwo{
@@ -284,27 +280,26 @@ p{
     margin: 2% 0 0 0;
 }
     
-
-
 .tiles p{
-    padding:0 0 2% 0;
+    padding: 0 0 2% 0;
 }
 .tiles button{
-    border-radius:18%;
-    padding:1% 2%;
-    text-align:center;
-    background-color:white;
+    border-radius: 18%;
+    padding: 1% 2%;
+    text-align: center;
+    background-color: white;
 }
     
 .bottom-about{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-around;
-    font-size:3.5rem;
+    font-size: 3.5rem;
     width: 800px;
     margin: 5% 0 0 0;
-    padding:0 2% 0 2%;
+    padding: 0 2% 0 2%;
 }
+
 .bottom-about p{
     padding:0 0 3% 0;
 }
