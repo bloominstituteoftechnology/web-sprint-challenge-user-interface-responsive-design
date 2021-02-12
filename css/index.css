@@ -65,18 +65,18 @@ header{
     display:flex;
     flex-direction:row;
     align-items:baseline;
-    margin:0% 0% 2% 0;
+    margin:0% 0% 1.5% 0;
 
     
     
 }
 .icon{
-    width:10%;
+    width:20%;
     margin:3% 0 0 29%
     
 }
 .links{
-    width:90%;
+    width:80%;
     display:flex;
     justify-content:space-around;
     flex-direction:row;
@@ -133,6 +133,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    font-size:2.5rem;
     
 }
 
@@ -156,7 +157,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
