@@ -71,7 +71,8 @@ p {
     margin: 0 auto;
 }
 header{
-    width: 100%;
+    width: auto;
+	margin-bottom: 2%;
 }
 
 header nav{
@@ -81,8 +82,12 @@ header nav{
     align-items: center;
 }
 .logo{
-    width: 20%;
+    margin-right: 5%;
     
+}
+.topNav{
+	display:flex;
+	align-items:baseline;
 }
 nav a{
     color: black;
