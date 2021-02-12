@@ -63,20 +63,22 @@ html, body {
 
 header{
     display:flex;
-    max-width:100%;
+    flex-direction:row;
+
+    
     
 }
 .icon{
-    width:10%;
-    margin:4% 0 0 7%;
+    width:48%;
+    margin:3% 0 1.5% 29.1%;
 }
 .links{
-    width:90%;
+    width:70%;
     display:flex;
     justify-content:space-around;
     flex-direction:row;
-    padding:4.9% 2% 1.5% 0%;
-    font-size:3rem;
+    padding:5% 30% 0 0;
+    
 }
 a:visited{
     color:black;
@@ -86,9 +88,11 @@ a:link{
 }
 
 .bg-img{
-    background-image:url('jumbo.jpg');
+    display:flex;
+    justify-content:center;
     background-repeat:no-repeat;
     background-size:cover;
+    padding:0 0 1% 0;
     
     
     
@@ -116,13 +120,18 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
+    
 }
+
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
+
 
 .middle-content {
     margin-bottom: 20px;
