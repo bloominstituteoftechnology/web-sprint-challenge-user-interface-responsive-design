@@ -74,14 +74,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left:25%;
-    margin-right:25%;
-    margin-bottom: 20px;
-    margin-top:2%;
- 
+    margin-bottom:3%;
 }
 .logo {
-    width:20%;
+    width:10%;
     margin-bottom:2%;
     display:flex;
     flex-wrap: wrap;
@@ -92,9 +88,7 @@ p {
     display:flex;
     flex-wrap: wrap;
     width: 75%;
-    margin-left:1%;
-    margin-top:1.8%;
-    margin-bottom:1%;
+    margin-top:3%;
     justify-content: space-evenly;  
     
     
@@ -105,11 +99,13 @@ p {
         display: flex;
         flex-wrap:wrap;
         justify-content: space-evenly;
+        margin-bottom:2%;
     }
 .picture{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
+    margin-top:2%;
     
 }
 
