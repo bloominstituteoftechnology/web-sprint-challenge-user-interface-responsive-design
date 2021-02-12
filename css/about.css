@@ -109,7 +109,7 @@ header nav{
 h1{
     font-size: 2rem;
     width: 50%;
-    padding-left: 3%;
+    padding-left: 4%;
 }
 
 .about-info p{
@@ -117,6 +117,7 @@ h1{
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+   width: 700px;
 }
 .more{
     padding: 1%;
@@ -173,16 +174,18 @@ h1{
     margin-bottom: 20px;
 }
 .lwt h2{
+    display: flex;
+    justify-content: right;
     font-size: 1.5rem;
-    width: 75%;
-    padding-left: 6%;
+    width: 55%;
+    padding-left: 4%;
 }
 .lwt p{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
-    padding-left: 4%;
+   width: 700px;
 }
 footer{
     width: 100%;
