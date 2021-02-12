@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.Navigation {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2%;
+}
+p {
+    font-weight: 600;
+    font-size: large;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+}
+ body {
+     margin: 0 10%;
+     
+ }
+ header img {
+     width: 17%;
+     margin-bottom: 4%;
+ }
+ 
+.middle {
+    margin: 1%;
+}
+button {
+    padding: .5% 1.5%;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size:large;
+}
+.top2 {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.bottom2 {
+    display: flex;
+}
+.area1 {
+    border-bottom: 1px dashed black;
+    margin-right: 4%;
+}
+.area2 {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.area3 {
+    border-bottom: 1px dashed black;
+    margin-right: 4%;
+}
+.area4 {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.middle img {
+    width: 70%;
+}

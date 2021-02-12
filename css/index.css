@@ -65,16 +65,19 @@ nav {
     display: flex;
     justify-content: center;
     padding: 1%;
-    width: 33.2%;
+    width: 32.2%;
     justify-content: space-between;
 
 }
 nav a {
     text-decoration: none;
-    display: flex;
-    width: auto;
     color: black;
-    justify-content: space-between;
+    font-weight: 600;
+}
+.Navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -163,4 +166,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#box1 { 
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
