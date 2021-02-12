@@ -288,3 +288,14 @@ footer nav a {
     margin-left:2%;
     margin-bottom:3%;
 }
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery{
+    padding-top:4%;
+    width:45%;
+    border-bottom: 1px dashed black;
+
+}
