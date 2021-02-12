@@ -46,27 +46,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     margin-top:15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
+    margin-bottom:2vh;
 }
-
 header {width:100%;
 }
 header nav {display:flex;
@@ -88,7 +84,6 @@ header nav a{
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -96,13 +91,11 @@ header nav a{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .headerimg {margin-top:2vh;
     margin-bottom:2vh;
     max-width:100%;
@@ -142,13 +135,12 @@ header nav a{
     margin-top:2vh;
     margin-bottom:1vh;
 }
-.work {margin: 3vh;
+.work {margin: 4vh;
 }
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -157,7 +149,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
