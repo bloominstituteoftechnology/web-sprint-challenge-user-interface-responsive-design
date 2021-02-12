@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -49,6 +50,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -67,16 +69,34 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 65%;
     margin: 0 auto;
 }
+.nava nav{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content:space-around;
+  
+    margin-left: -4.7%;
+    
 
+}
+nav a{
+    text-decoration:none;
+    color: black
+}
+.headerimg{
+    padding-bottom: 19%;
+    background-image: url("../img/jumbo.jpg");
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 3%;
 }
 
 .top-content .text-container {
@@ -101,10 +121,50 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +172,56 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +253,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about page specific css */
+.container-about-page{
+    width: 65%;
+    margin: 0 auto;
+
+}
+.about-section{
+    border-width:1px;  
+    border-bottom-style:dotted;
+    width: 95%;
+    margin: 0 auto;
+    padding-top:2%
+
+}
+.imgcont{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content:space-around;
+    max-width:100%;
+    padding-bottom:5%
+}
+
+.fbox{
+    max-width:48%;
+    margin-top:5%;
+    border-width:1px;  
+    border-bottom-style:dotted;
+    padding-bottom:3% ;
+}
+.fbox img{
+    max-width:100%;
+}
+.fbox p{
+    padding-bottom:5%
+}
+.fbox a{
+    text-decoration: none;
+    Padding:1%;
+    border:2px solid black;
+    color:black;
+    border-radius:10%
+}
+.last{
+    padding-bottom:5%;
+    width: 95%;
+    margin: 0 auto;
 }

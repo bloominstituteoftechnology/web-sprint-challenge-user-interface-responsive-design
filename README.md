@@ -32,18 +32,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
+
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+A semantic tag is a tag that tells search engines what is on a page, and allows for screenreader accessibility
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Block syle gives elements the nature of block nature meaning it pushes the next line below the block element, inline allows elements to be displayed beside each other
+
 3. What are the 4 areas of the box model?
+
+margin,boarder,padding,content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-5. Explain why git is valuable to a team of developers.
-
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
-
+It aligns items on the vertical or cross axis
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
@@ -66,30 +73,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [d ] Build the HTML and CSS to create the missing navigation and header.
+* [ d] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [d ] box1: `teal`
+* [ d] box2: `gold`
+* [ d] box3: `cadetblue`
+* [ d] box4: `coral`
+* [ d] box5: `crimson`
+* [ d] box6: `forestgreen`
+* [ d] box7: `darkorchid`
+* [ d] box8: `hotpink`
+* [ d] box9: `indigo`
+* [ d] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [d ] Copy and paste your home page navigation and header into the about page
+* [ d] Update the header image with the about page image
+* [d ] Link the `Home` navigation item back to the `index.html` page.
+* [d ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
