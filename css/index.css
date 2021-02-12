@@ -23,8 +23,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
     max-width:100%;
-    box-sizing:border-box;
     font-size:62.5%;
+   
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -53,12 +53,39 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    display:flex;
+    max-width:100%;
+    
+}
+.icon{
+    max-width:20%;
+    margin:3% 0 0 10%;
+}
+.links{
+    width:80%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    align-items:center;
+    padding:3.6% 2% 2% 0%;
+    font-size:4rem;
+}
+a:visited{
+    color:black;
+}
+a:link{
+    text-decoration:none;
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
