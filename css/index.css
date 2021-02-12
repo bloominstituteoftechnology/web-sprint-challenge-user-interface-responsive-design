@@ -57,6 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
+    margin: 2% 0% 0% 0%;
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -73,6 +74,9 @@ img {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 800px;
     margin: 0 auto;
 }
@@ -202,6 +206,7 @@ img {
 .button {
     border: 1px solid black;
     border-radius: 10px;
+    margin-bottom: 3%;
 }
 
 .top-section {
@@ -211,10 +216,12 @@ img {
 }
 
 .boxOne{
+    margin-top: 2%;
     border-bottom: 2px dotted black;
 }
 
 .boxTwo {
+    margin-top: 3%;
     border-bottom: 2px dotted black;
 }
 
@@ -233,8 +240,10 @@ img {
 
 .images {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
+
 
 header nav{
     display: flex;
