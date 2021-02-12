@@ -66,6 +66,12 @@ p {
     line-height: 1.4;
 }
 
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    /* image-rendering: pixelated; */
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -196,6 +202,7 @@ p {
     border: 1px solid black;
     border-radius: 10px;
 }
+
 
 header nav{
     display: flex;
