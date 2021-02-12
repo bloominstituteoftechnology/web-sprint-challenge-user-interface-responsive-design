@@ -50,6 +50,28 @@ table {
 * {
     box-sizing: border-box;
 }
+div.bigimg{
+    display: flex;
+    padding:2%;
+    justify-content: center;
+    }
+    
+    div.lambda-black{
+        display: flex;
+        justify-content:;
+        padding:2%;
+        
+    }
+    div.links{
+        display: flex;
+        justify-content:space-evenly;
+        padding:2%;
+        
+    }
+    div.links{
+        text-color:black;
+    }
+
 
 html, body {
     height: 100%;
