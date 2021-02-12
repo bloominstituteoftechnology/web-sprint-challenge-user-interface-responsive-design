@@ -67,17 +67,16 @@ header{
     
 }
 .icon{
-    width:8%;
-    margin:3% 0 0 10%;
+    width:10%;
+    margin:4% 0 0 7%;
 }
 .links{
-    width:80%;
+    width:90%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-direction:row;
-    align-items:center;
-    padding:3.5% 2% 2% 0%;
-    font-size:4rem;
+    padding:4.9% 2% 1.5% 0%;
+    font-size:3rem;
 }
 a:visited{
     color:black;
@@ -87,9 +86,13 @@ a:link{
 }
 
 .bg-img{
-    width:100%;
-    display:flex;
-    justify-content:center;
+    background-image:url('jumbo.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    
+    
+    
 }
 
 h1, h2, h3, h4, h5 {
