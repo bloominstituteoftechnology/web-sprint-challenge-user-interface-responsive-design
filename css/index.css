@@ -28,6 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.container{
+    height:300px;
+    width:100%;
+  }
+
+.logo{
+    width:120px;
+    height:50px;
+    display:inline-block;
+  }
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+nav a {
+    color: rgb(2, 0, 0);
+    text-decoration: none;
+}
+
 body {
 	line-height: 1;
 }
@@ -101,15 +127,72 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxOne{
+    background-color: teal;
+}
+
+.boxTwo{
+    background-color: gold;
+}
+
+.boxThree{
+    background-color: cadetblue;
+}
+
+.boxFour{
+    background-color: coral;
+}
+
+.boxFive{
+    background-color: crimson;
+}
+
+.boxSix{
+    background-color: forestgreen;
+}
+
+.boxSeven{
+    background-color: darkorchid;
+}
+
+.boxEight{
+    background-color: hotpink;
+}
+
+.boxNine{
+    background-color: indigo;
+}
+
+.boxTen{
+    background-color: dodgerblue;
+}
+
+.mid-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mid-container{ 
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	padding: 1.5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .bottom-content {
