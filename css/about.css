@@ -59,6 +59,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    margin-top:15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -106,136 +107,42 @@ header nav a{
     margin-bottom:2vh;
     max-width:100%;
 }
-.middle-content {
-    margin-bottom: 20px;
+.about {padding:1vh;
+    border-bottom: 1px dashed black;
+    margin-bottom:2vh;
+}
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.strategy {width:45%;
+    padding:1vh;
     border-bottom: 1px dashed black;
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.how {width:50%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.places {width:45%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.collab {
+    width:50%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
 }
-.box1 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:teal;
+.learn {border:2px solid black;
+    border-radius:15px;
+    text-align:center;
+    display:inline-block;
+    padding: 10px 30px;
+    margin-top:2vh;
+    margin-bottom:1vh;
 }
-.box2 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:gold;
+.work {margin: 3vh;
 }
-.box3 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:cadetblue;
-}
-.box4 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:coral;
-}
-.box5 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:crimson;
-}
-.box6 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:forestgreen;
-}
-.box7 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:darkorchid;
-}
-.box8 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:hotpink;
-}
-.box9 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:indigo;
-}
-.box10 {width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:dodgerblue;
-}
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 footer {
     width: 100%;
     background: black;
