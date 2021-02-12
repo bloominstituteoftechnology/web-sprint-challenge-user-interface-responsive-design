@@ -251,7 +251,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/*About Page*/
+
+
+/*About Page:*/
+
 .Leverage{border-bottom: 1px dashed black;
 }
 .Row1{display:flex;
@@ -265,29 +268,37 @@ footer nav a {
          flex-flow:column nowrap;
          margin:1%
 }
-.HStrategy{margin:2rem;
-}
 .Column2{display:flex;
          width:350px;
          flex-flow:column nowrap;
          margin:1%;
 }
-.Ba{display:flex;
+/*Subtitle Margins:*/
+.HStrategy{margin-top:2rem;
+}
+.HHow{margin-top:2rem;
+}
+.HPlaces{margin-top:2rem;
+}
+.HCollaboration{margin-top:2rem;
+}
+/*Bottom Containers, Div Experimenting*/
+.DivExperimentalContainer1{display:flex;
     justify-content:center;
 }
-.Bt{width:720px;
+.DivExperimentalContainer2{width:720px;
     display:flex;
     flex-direction:row;
     justify-content:center;
 }
-.Bs{display:flex;
+.DivExperimentalContainer3{display:flex;
     flex-direction:column;
 }
 .Feet{display:flex;
       justify-content:center;
+      margin-top: 1%;
 }
 #PG2{display:flex;
-     justify-content:center;
      width:800px;
 }
 button{background-color:white;
