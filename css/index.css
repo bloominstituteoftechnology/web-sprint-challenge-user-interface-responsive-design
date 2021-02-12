@@ -171,7 +171,30 @@ p {
 .boxTwo{
     background-color:gold;
 }
-.box
+.boxThree{
+    background-color:cadetblue;
+}
+.boxFour{
+    background-color: coral;
+}
+.boxFive{
+    background-color: crimson;
+}
+.boxSix{
+    background-color:forestgreen;
+}
+.boxSeven{
+    background-color: darkorchid;
+}
+.boxEight{
+    background-color: hotpink;
+}
+.boxNine{
+    background-color: indigo;
+}
+.boxTen{
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -206,3 +229,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*START OF ABOUT STYLING*/
+
+
+
