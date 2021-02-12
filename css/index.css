@@ -65,15 +65,17 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-header{
+header .head{
     display: flex;
     justify-content: center;
     max-width: 100%;
+
 }
 .header{
 
 }
 .header img{
+    padding-top:2
 }
 nav {
     display:flex;
@@ -83,7 +85,8 @@ nav {
     
 
 .headerImg{
-   
+   display: flex;
+   justify-content: center;
     padding: 2%;
 }
 
