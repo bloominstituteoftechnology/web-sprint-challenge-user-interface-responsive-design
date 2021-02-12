@@ -85,9 +85,9 @@ header nav {
 
 body {
 	line-height: 1;
-    background: white;
+    background-color: white;
     width: 800px;
-    margin: 0% 2% 2% 5%;
+    margin: 0% 20% 50% 5%;
 }
 ol, ul {
 	list-style: none;
@@ -179,7 +179,7 @@ MIDDLE CONNNNNN */
     width: 12.5%;
     height: 100px;
     /* background: black; */
-    margin: 20px 2.5%;
+    margin: 10px 2%;
     color: white;
     display: flex;
     align-items: center;
@@ -235,8 +235,10 @@ MIDDLE CONNNNNN */
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    /* margin: 0 2% 20px; */
     justify-content: space-around;
+    color: black;
+    background: white;
 }
 
 .bottom-content .text-container {
@@ -255,6 +257,7 @@ MIDDLE CONNNNNN */
 footer {
     width: 100%;
     background: black;
+ 
 }
 
 footer nav {
@@ -262,7 +265,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    /*  */
+    padding: 20px 10%;
     font-size: 14px;
 }
 
