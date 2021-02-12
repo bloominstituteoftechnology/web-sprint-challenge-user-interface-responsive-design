@@ -67,9 +67,7 @@ div.bigimg{
         justify-content:space-evenly;
         padding:2%;
         }
-        div.links{
-            text-decoration: none;
-        }
+        
     
 
 
@@ -126,18 +124,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     }
-    div.boxes.box{
-        color:teal
+
+    .boxes .teal {
+        background-color:teal;
     }
     
-
+    .boxes .gold {
+        background-color:gold;
+    }
+    .boxes .blue {
+        background-color:cadetblue;
+    }
+    .boxes .coral {
+        background-color:coral;
+    }
+    .boxes .crimson {
+        background-color:crimson;
+    }
+    .boxes .green {
+        background-color:forestgreen;
+    }
+    .boxes .orchid {
+        background-color:darkorchid;
+    }
+    .boxes .hotpink {
+        background-color: hotpink;
+    }
+    .boxes .indigo {
+        background-color:indigo;
+    }
+    .boxes .dodgerblue {
+        background-color:dodgerblue;
+    }
 
 
 .bottom-content {
@@ -171,4 +196,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+ {
+    display: flex;
 }
