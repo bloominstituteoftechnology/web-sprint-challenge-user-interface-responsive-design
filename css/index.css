@@ -251,9 +251,9 @@ p{
 
 .middle-contentTwo .tiles {
     display:flex;
-    flex-direction:row;
     flex-wrap:wrap;
-    width:50%;
+    justify-content:space-evenly;
+    
     
     
 }
