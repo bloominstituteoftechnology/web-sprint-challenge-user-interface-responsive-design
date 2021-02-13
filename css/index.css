@@ -197,6 +197,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
- {
+.middle-section .text-container {
     display: flex;
+    
+}
+.bottom-section .text-container {
+    display: flex;
+}
+.top-content .text-container {
+    display: flex;
+    
 }
