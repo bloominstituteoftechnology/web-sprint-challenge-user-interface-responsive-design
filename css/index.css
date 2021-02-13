@@ -185,37 +185,43 @@ footer nav a {
 
 .about {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
+    border-bottom: dashed black;
 }
 
 .gallery {
     display: flex;
+    flex-direction: wrap;
     width: 100%;
+    padding: 15px;
 }
 
-.gallery div img {
+.gallery .article {
     display: flex;
+    display: block;
     width: 45%;
-
+    margin: space-around;
+    border-bottom: dashed black;
 }
 
-/* .gallery img {
-
+.gallery .article img {
+    width: 100%;
     justify-content: center;
-    align-content: center;
-} */
+    padding: 10px;
+}
 
-.galley .info {
+.gallery .article h3, p {
+    justify-content: left;
+    align-content: center;
+    padding: 5px;
+}
+
+/* .gallery .info {
     display: flex;
     width: 40%;
     border: 1px red;
     justify-content: left;
-}
-
-
-.workTogether {
-
-}
+} */
 
 .button {
     margin: 0 10px;
@@ -227,3 +233,10 @@ footer nav a {
     text-decoration: none;
     margin-bottom: 20px;
     background: white;
+}
+
+
+.workTogether {
+
+}
+
