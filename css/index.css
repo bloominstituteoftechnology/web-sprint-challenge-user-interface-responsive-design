@@ -67,6 +67,10 @@ p {
 }
 
 
+
+
+/* Student Home Page Work */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -92,8 +96,8 @@ header nav a {
     width: 70%;
     color: black;
     justify-content: center;
-    justify-content:;
     padding: 15px 36px;
+    text-decoration: none;
 }
 
 .top-content {
@@ -176,7 +180,7 @@ footer nav a {
 
 
 
-/* About Page */
+/* Student About Page Work */
 
 .containerAboutPage {
     width: 800px;
@@ -185,36 +189,51 @@ footer nav a {
 
 .about {
     width: 100%;
-    padding: 15px;
+    padding-bottom: 2%;
+    justify-content: left;
     border-bottom: dashed black;
+}
+
+.about h2 {
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 .gallery {
     display: flex;
-    flex-direction: wrap;
     width: 100%;
-    padding: 15px;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
 }
 
 .gallery .article {
     display: flex;
     display: block;
-    width: 45%;
-    margin: space-around;
+    width: 48%;
+    padding: 2%;
     border-bottom: dashed black;
 }
 
 .gallery .article img {
     width: 100%;
     justify-content: center;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
-.gallery .article h3, p {
+.gallery .article .text {
     justify-content: left;
     align-content: center;
-    padding: 5px;
+    line-height: 1.2;
 }
+
+/* .gallery .article text {
+    justify-content: left;
+    padding-bottom: 20px;
+} */
+
+/* .gallery .article a {
+    padding-top: 10px;
+} */
 
 /* .gallery .info {
     display: flex;
@@ -223,20 +242,25 @@ footer nav a {
     justify-content: left;
 } */
 
+/* .gallery .article div a {
+    border: 1px yellow;
+} */
+
 .button {
-    margin: 0 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 10px;
     color: black;
     text-decoration: none;
-    margin-bottom: 20px;
     background: white;
+    margin-top: 10px;
 }
-
 
 .workTogether {
-
+    justify-content: left;
+    align-content: center;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
-
