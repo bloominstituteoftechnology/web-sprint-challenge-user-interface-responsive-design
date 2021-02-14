@@ -65,13 +65,12 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-header .head{
+.head{
     display: flex;
     justify-content: center;
     max-width: 100%;
+    align-items: baseline;
 
-}
-.header{
 
 }
 .header img{
@@ -80,6 +79,7 @@ header .head{
 nav {
     display:flex;
     justify-content:space-evenly;
+    width: 60%;
 
 }
     
