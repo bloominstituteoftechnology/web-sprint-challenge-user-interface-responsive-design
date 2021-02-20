@@ -332,3 +332,59 @@ footer nav a {
 }
 
 /* CSS for the About Page Starts Here */
+
+.about-top {
+	border-bottom: 3px dotted black;
+	margin-bottom: 2%;
+}
+
+.about-top h2 {
+	font-size: 1.8rem;
+}
+
+.about-top p {
+	padding: 1% 0;
+	margin-bottom: 1%;
+}
+
+.company-info-boxes {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.company-info-boxes div {
+	width: 48%;
+	margin: 1%;
+	padding: 1%;
+	border-bottom: 3px dotted black;
+}
+
+.company-info-boxes div h2 {
+	font-size: 1.4rem;
+	margin-top: 1%;
+}
+
+.company-info-boxes div p {
+	width: 100%;
+	margin: 2% 0;
+}
+
+.company-info-boxes div button {
+	margin: 2% 0;
+	padding: 3%;
+	background-color: white;
+	border-color: black;
+	border-radius: 10px;
+	width: 30%;
+}
+
+.letsWork {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.letsWork h2 {
+	font-size: 1.5rem;
+	margin-top: 5%;
+}
