@@ -56,7 +56,37 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 800px;
+    margin: 20px auto;
+    /* margin-bottom: 50px; */
+}
+header #logo{
+    justify-self: flex-start;
+    width: 150%;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+nav a {
+    padding: 0 40px;
+    justify-content: space-evenly;
+    text-decoration:none;
+    color:black
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 20px auto;
+}
+
+
+h1, h2, h3, h4, h5, button {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -111,6 +141,82 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.boxes #one{
+    background-color: teal;
+}
+.boxes #two{
+    background-color: gold;
+}
+.boxes #three{
+    background-color: cadetblue;
+}
+.boxes #four{
+    background-color: coral;
+}
+.boxes #five{
+    background-color: crimson;
+}
+.boxes #six{
+    background-color: forestgreen;
+}
+.boxes #seven{
+    background-color: darkorchid;
+}
+.boxes #eight{
+    background-color: hotpink;
+}
+.boxes #nine{
+    background-color: indigo;
+}
+.boxes #ten{
+    background-color: dodgerblue;
+}
+
+.about-section1{
+    margin: 20px auto;
+    padding: 0 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.strat-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:40px auto;
+    /* flex-flow:row wrap; */
+    /* margin:0 auto; */
+    /* width:50% */
+}
+.infoBox{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-evenly;
+    margin:0 auto;
+    width: 375px;
+    height:450px;
+    /* padding-bottom: 40px; */
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.infoBox img{
+    margin:auto;
+}
+button{
+    display: block;
+    margin: auto 0;
+    padding: 10px;
+    width:150px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.more-bottom-content{
+    margin: 20px auto;
+    padding: 0 15px;
+    padding-bottom: 20px;
+}
+
 
 .bottom-content {
     display: flex;
