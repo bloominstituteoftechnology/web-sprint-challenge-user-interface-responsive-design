@@ -152,6 +152,7 @@ p {
 	line-height: 1.4;
 }
 
+/* Header for both the Home and About Pages */
 header {
 	display: flex;
 	flex-direction: row;
@@ -190,6 +191,7 @@ header nav a:hover {
 	padding: 3%;
 }
 
+/* CSS for the Home Page Starts Here */
 .container {
 	width: 800px;
 	margin: 0 auto;
@@ -309,6 +311,7 @@ header nav a:hover {
 	padding-right: 0;
 }
 
+/* Footer CSS for both Home and About page Here */
 footer {
 	width: 100%;
 	background: black;
@@ -327,3 +330,5 @@ footer nav a {
 	color: white;
 	text-decoration: none;
 }
+
+/* CSS for the About Page Starts Here */
