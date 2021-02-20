@@ -155,6 +155,39 @@ p {
 header {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
+	padding: 0 3%;
+	padding-top: 1%;
+}
+
+header img {
+	width: 15%;
+	margin: 1%;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 85%;
+	margin: 1%;
+}
+
+header nav a {
+	text-decoration: none;
+	color: black;
+	padding: 1%;
+}
+
+header nav a:hover {
+	background-color: black;
+	color: white;
+}
+
+.streetImage img {
+	width: 100%;
+	padding: 3%;
 }
 
 .container {
@@ -190,9 +223,68 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	padding: 1%;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
+	background-color: teal;
+	padding: 5%;
+	margin: 2%;
+}
+.middle-content .boxes .box2 {
+	background-color: gold;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box3 {
+	background-color: cadetblue;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box4 {
+	background-color: coral;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box5 {
+	background-color: crimson;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box6 {
+	background-color: forestgreen;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box7 {
+	background-color: darkorchid;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box8 {
+	background-color: hotpink;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box9 {
+	background-color: indigo;
+	padding: 5%;
+	margin: 2%;
+}
+
+.middle-content .boxes .box10 {
+	background-color: dodgerblue;
+	padding: 5%;
+	margin: 2%;
+}
+/* .middle-content .boxes .box {
 	width: 12.5%;
 	height: 100px;
 	background: black;
@@ -201,7 +293,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
 .bottom-content {
 	display: flex;
