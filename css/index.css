@@ -152,6 +152,12 @@ header nav a{
     padding-right: 0;
 }
 
+.box_text{
+    flex-direction: inline;
+    width: 50%;
+    
+}
+
 footer {
     width: 100%;
     background: black;
@@ -184,4 +190,45 @@ footer nav a {
     border-bottom: 2px dotted black;
     margin: 20px 5px;
     padding-bottom: 20px;
+    
+}
+
+#top-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+#top-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+}
+
+#bottom_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#bottom_row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+}
+
+#learn_more_button {
+
+}
+
+#bottom: {
+    display: flex;
+    margin 0 auto;
+
+
 }
