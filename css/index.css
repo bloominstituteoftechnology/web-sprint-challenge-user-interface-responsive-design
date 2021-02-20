@@ -179,3 +179,9 @@ footer nav a {
     margin-top: 35px;
     margin-bottom: 20px;
 }
+
+#about_section {
+    border-bottom: 2px dotted black;
+    margin: 20px 5px;
+    padding-bottom: 20px;
+}
