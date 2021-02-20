@@ -66,9 +66,34 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 4vh;
+    align-items: flex-end;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -100,6 +125,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -143,4 +169,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#navbar {
+    width: 100%
+}
+
+#header_photo {
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
