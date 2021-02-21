@@ -101,11 +101,12 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
@@ -144,3 +145,65 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display:flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-flow: row wrap;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+}
+
+header .header-image {
+    width: 115%;
+}
+
+div#one.box {
+    background: #008080;
+}
+
+div#two.box {
+    background: #ffd700;
+}
+
+div#three.box {
+    background: #5f9ea0;
+}
+
+div#four.box {
+    background: #ff7f50;
+}
+
+div#five.box {
+    background: #dc143c;
+}
+
+div#six.box {
+    background: #228b22;
+}
+
+div#seven.box {
+    background: #9932cc;
+}
+
+div#eight.box {
+    background: #ff69b4;
+}
+
+div#nine.box {
+    background: #4b0082;
+}
+
+div#ten.box {
+    background: #1e90ff;
+}
+
+
+
