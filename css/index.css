@@ -195,7 +195,44 @@ a:visited {
     background-color: dodgerblue;
 }
 
+.about {
+   display: flex;
+   flex-direction: column;
+   padding: 2%;
+}
 
+
+
+.dotted-line {
+    border: 1px dashed black;
+    width: 800px;
+}
+
+.section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.clicks {
+    display: flex;
+    flex-flow: column wrap;
+    height: 400px;
+    width: 400px;
+    
+}
+
+
+.clicks2 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 400px;
+    width: 400px;
+}
+
+.dotted-line2 {
+    border: 1px dashed black;
+    width: 400px;
+}
 
 footer {
     width: 100%;
