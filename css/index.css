@@ -124,6 +124,7 @@ header nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -131,11 +132,12 @@ header nav a{
     width: 12.5%;
     height: 100px;
     background: black;
-    
+
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 22px 20px 22px;
 }
 
 .bottom-content {
@@ -156,6 +158,13 @@ header nav a{
     flex-direction: inline;
     width: 50%;
     
+}
+
+.learn_more_button {
+    padding: 5px 10px;
+    border-radius: 10%;
+    border: 2px solid black;
+    font-size: .85rem;
 }
 
 footer {
@@ -198,6 +207,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
+    margin-top: 30px;
     
 }
 
@@ -222,7 +232,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
 
@@ -236,6 +246,7 @@ footer nav a {
     border-bottom: 2px dotted black; 
     padding-bottom: 20px;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 #bottom_row1 div{
@@ -247,9 +258,12 @@ footer nav a {
 
 
 
-#bottom: {
+#bottom p: {
     display: flex;
-    margin 0 auto;
+    padding-bottom: 
+}
 
+#bottom_nav {
+    margin-top: 5%;
 }
 
