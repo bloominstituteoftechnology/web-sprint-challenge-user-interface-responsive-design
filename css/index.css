@@ -128,8 +128,9 @@ header a {
 }
 .aboutcontent div {
     width: 350px;
-    padding: 50px 0;
+    padding: 25px 0;
     border-bottom: 1px dashed black;
+    font-weight: bold;
 }
 .aboutcontent img {
     width: 350px;
@@ -146,7 +147,12 @@ header a {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 800px;
-    padding: 20px 1%;
+    padding: 0px 1%;
+}
+.aboutbottomtext {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 10px 0 10px;
 }
 
 /* .middle-content .boxes .box {
@@ -276,7 +282,8 @@ header a {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
     background: black;
 }
 
