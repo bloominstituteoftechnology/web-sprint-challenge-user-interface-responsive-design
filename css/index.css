@@ -155,44 +155,44 @@ a:visited {
     padding-right: 0;
 }
 
-.box1 {
+#box1 {
     background-color: teal;
 }
 
-.box2 {
+#box2 {
     background-color: gold;
 }
 
-.box3 {
+#box3 {
     background-color: cadetblue;
 }
 
-.box4 {
+#box4 {
     background-color: coral;
 }
 
-.box5 {
+#box5 {
     background-color: crimson;
 }
 
-.box6 {
+#box6 {
     background-color: forestgreen;
 }
 
-.box7 {
+#box7 {
     background-color: darkorchid;
 }
 
-.box8 {
+#box8 {
     background-color: hotpink;
 }
 
-.box9 {
+#box9 {
     background-color: indigo;
 }
 
-.box10 {
-    background-color: dogerblue;
+#box10 {
+    background-color: dodgerblue;
 }
 
 
