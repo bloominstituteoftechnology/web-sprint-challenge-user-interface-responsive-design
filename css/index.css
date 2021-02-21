@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,124 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* --------------------------------------------------- */
+
+nav{
+    display:flex;
+   justify-content: space-around;
+   margin-bottom: 4rem;
+   padding-left: 28rem;
+   padding-right: 28rem;
+   
+}
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header-container .header-img{
+    display:flex;
+    justify-content: center;
+    padding-left: 28rem;
+    padding-right: 28rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    
+}
+
+section.top-content{
+    display:flex;
+    
+    
+}
+
+.box-about{
+    border-bottom: 2px dotted black;
+    width: 50%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.middle-about{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.about-jumbo{
+    padding-left: 30rem;
+    padding-bottom: 3rem;
+    width: 70%;
+}
+
+button{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .8rem;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+
+.about-about{
+    border-bottom: 2px dotted black;
+    padding-bottom: 2rem;
+}
+
+.box:nth-child(1){
+    background-color: teal;
+}
+
+.box:nth-child(2){
+    background-color: gold;
+}
+
+
+.box:nth-child(3){
+    background-color: cadetblue;
+}
+
+
+.box:nth-child(4){
+    background-color: coral;
+}
+
+
+.box:nth-child(5){
+    background-color: crimson;
+}
+
+
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+
+
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+
+
+.box:nth-child(8){
+    background-color: hotpink;
+}
+
+
+.box:nth-child(9){
+    background-color: indigo;
+}
+
+
+.box:nth-child(10){
+    background-color: dodgerblue;
 }
