@@ -205,5 +205,52 @@ div#ten.box {
     background: #1e90ff;
 }
 
+.header-content {
+    padding: 2%;
+    border-bottom: 3px dotted black;
+    margin-bottom: 3%;
+}
 
+.img-container {
+    display: flex;
+    width: 800px;
+    flex-flow: row wrap;
+    justify-content: space-around;
 
+}
+
+.img-container div {
+    width: 375px;
+    padding-bottom: 3%;
+    border-bottom: 3px dotted black;
+    margin-bottom: 5%;
+}
+
+.img-container img {
+    width: 375px;
+}
+.img-container h1, .img-container p {
+    padding: 2%;
+}
+
+.img-container a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.img-container p {
+    padding-bottom: 10%;
+}
+
+.content-below {
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
