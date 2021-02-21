@@ -55,11 +55,19 @@ table {
     box-sizing: border-box;
 }
 
+#lambda-logo {
+    display: inline;
+    margin: 2% 0% 0% 29%;
+}
+
 .header-nav {
     display: flex;
+    /* display: inline; */
     justify-content: center;
     justify-content: space-evenly;
-    margin: 2% 0% 4% 0%;
+    flex-direction: row;
+    margin: 2% 25% 4% 35%;
+    /* padding: 100%; */
 }
 
 .header-nav a {
