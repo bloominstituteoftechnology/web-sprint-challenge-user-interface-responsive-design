@@ -153,6 +153,28 @@ table {
     margin-bottom: 20px;
 }
 
+.buttons {
+    background: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 20px 0px 10px 0px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons a:hover {
+    color: red;
+}
+
+.buttons a:visited {
+    color: black;
+}
+
 
 
 .top-content {
