@@ -154,6 +154,9 @@ header a {
     margin: 0 auto;
     padding: 30px 10px 0 10px;
 }
+.abouttopimages {
+    margin-bottom: 25px;
+}
 
 /* .middle-content .boxes .box {
     width: 12.5%;
