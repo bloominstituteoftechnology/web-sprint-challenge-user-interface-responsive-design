@@ -78,10 +78,20 @@ imagelamda, nav a{
 }
 nav{
     display: inline;
+    
+}
+.space{
+    
     justify-content: space-between;
 }
-imagelamda{
-    ;
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    display:flex;
+    justify-content: space-between;
+    
 }
 .testmargin{
     margin:2% 15% 0 15%;
@@ -101,6 +111,7 @@ imagelamda{
     display:flex;
     justify-content: center;
     width: 100%;
+    margin-bottom:5%
 }
 
 .top-content {
