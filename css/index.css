@@ -75,11 +75,26 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    margin: 2% 0 5% 0;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
     border-bottom: 1px dashed black;
 }
 
