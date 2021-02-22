@@ -102,3 +102,40 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+Self-Study Questions
+
+1.) If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look. Semantic HTML is processed by traditional web browsers as well as by many other user agents.
+
+2.)Name two big differences between display: block; and display: inline;.
+
+display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
+
+display: inline means that the element is displayed inline, inside the current block on the same line. Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
+
+Inline elements:
+
+respect left & right margins and padding, but not top & bottom
+cannot have a width and height set
+allow other elements to sit to their left and right.
+
+Block elements:
+
+respect all of those
+force a line break after the block element
+acquires full-width if width not defined
+
+3.) What are the 4 areas of the box model?
+
+Margin
+Border
+Padding
+Content
+
+4.) While using flexbox, what axis does the following property work on: align-items: center?
+cross-axis 
+
+5.) Explain why git is valuable to a team of developers.
+Git is useful to anyone who writes code or tracks changes to files. Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. 

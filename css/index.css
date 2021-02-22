@@ -269,3 +269,39 @@ footer nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.middle-about .about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 40px;  
+}
+.button {
+    text-align: center;
+    text-decoration: none;
+    border: solid black;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+.middle-about2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.middle-about2 .about2 {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 40px;  
+}
+.aboutbottom {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: flex-start;
+}
+.aboutbottom {
+    padding-right: 4%;
+}
+
+.bottom-content {
+    padding-right: 0;
