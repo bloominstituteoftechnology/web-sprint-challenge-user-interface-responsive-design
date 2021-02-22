@@ -198,6 +198,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
 }
 .about-page .middle-content{
     border: 1px solid white;
@@ -215,9 +216,12 @@ footer nav a {
     
 }
 .about-page .middle-content .text-container button{
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 5px 15px;
     margin: 10px 0;
+    background: white;
+    border-radius: 10px;
+    font-weight: bold;
 
 
 }
