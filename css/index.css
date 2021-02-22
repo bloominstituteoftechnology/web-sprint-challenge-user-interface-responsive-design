@@ -167,3 +167,26 @@ img.headerImg{
     display: block;
     margin: 10px 0 20px 0;
 }
+section.top-text{
+    margin: 0 0 10px 0;
+}
+.infosection{
+    display:flex;
+}
+.info{
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+.info .learnButton{
+    padding: 5px 12px 5px 12px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+}
+.info .learnButton a{
+    color: black;
+    text-decoration: none;
+}
