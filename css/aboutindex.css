@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding: 15px;
 }
 
 .container {
@@ -171,21 +172,29 @@ footer nav a {
 .topgroup {
     display:flex;
     flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
 
 .midgroup {
     display:flex;
     flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
 
 .btmgroupone {
     display:flex;
     flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
 
 .btmgrouptwo {
     display:flex;
     flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
 
 .midimg {
@@ -195,6 +204,7 @@ footer nav a {
 
 .bigone {
     display:flex;
+    
 }
 
 .bigtwo {
@@ -203,5 +213,19 @@ footer nav a {
 
 .toptext {
     padding:10px;
-    border-bottom: 1px solid black;
+    margin-left: 6px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width:100px;
+    padding:6px;
+    margin-top: 15px;
+    border-radius: 10%;
+
+}
+
+.bottomtext {
+    margin-bottom:40px;
+    margin-left: 16px;
 }
