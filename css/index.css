@@ -66,9 +66,41 @@ p {
     line-height: 1.4;
 }
 
+    
+}
+
+imagelamda, nav a{
+
+    display:flex;
+    justify-content: space-between;
+    width:0 auto;
+    
+}
+nav{
+    display: inline;
+    justify-content: space-between;
+}
+imagelamda{
+    ;
+}
+.testmargin{
+    margin:2% 15% 0 15%;
+}
+
+/*header nav a {
+    display: flex;
+    color: rgb(53, 15, 15);
+    text-decoration: none;*/
+;
+}
 .container {
     width: 800px;
-    margin: 0 auto;
+    
+}
+.bodyimg img{
+    display:flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .top-content {
