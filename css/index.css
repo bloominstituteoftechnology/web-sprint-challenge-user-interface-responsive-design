@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+.streaks, .city {
+    text-align: center;
+    margin: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +117,36 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+ }
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink; 
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue; 
+}          
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +178,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#about {
+    text-align: center;
+}
+
+
+#flex  {
+    width: 50%;
+}
+
+.navigation  {
+    text-align: center;
+  
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px 21%;
+    align-items: baseline;
+
+}
+
+
+#flex  {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 100%;
+  
+}
+.insideBoxes {
+ width: 48%;
+ margin: auto;
+ border-bottom: 2px dotted grey;
+ padding-bottom: 2px;
+ margin-bottom: 2px;
+}
+    
+.button {
+    border-radius: 25px;
 }
