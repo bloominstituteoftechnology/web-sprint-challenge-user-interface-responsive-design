@@ -23,12 +23,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers - change made*/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    display: flex;
 	line-height: 1;
 }
 ol, ul {
@@ -70,12 +71,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* top-content */
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 3%
+}
+.nav-top nav a {
+    color: black;
+    padding: 10px 35px;
+    text-decoration: none;
+    align-self: center;
+}
+ .lights {
+    margin: 20px 0;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -84,7 +103,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+ /* middle- content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,14 +123,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+#one {
+    background: teal;
+}
+#two {
+    background: gold;
+}
+#three {
+    background: cadetblue;
+}
+#four {
+    background: coral;
+}
+#five {
+    background: crimson;
+}
+#six {
+    background: forestgreen;
+}
+#seven {
+    background: darkorchid;
+}
+#eight {
+    background: hotpink;
+}
+#nine {
+    background: indigo;
+}
+#ten {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +190,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page*/
+
+.container .about-page .middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-page .middle-content{
+    border: 1px solid white;
+}
+
+.about-page .middle-content .text-container {
+    width: 370px;
+    padding: 10px 0 10px;
+    margin: 0 10px;
+    display: inline-block;
+    border-bottom: 1px dashed black;
+}
+.about-page .middle-content .text-container img{
+    margin: 10px 0;
+    
+}
+.about-page .middle-content .text-container button{
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin: 10px 0;
+
+
 }
