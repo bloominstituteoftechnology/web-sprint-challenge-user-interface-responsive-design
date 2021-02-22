@@ -65,7 +65,17 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+ul {
+    margin: 0;
+    padding 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 100px;
+    justify-content: space-between;
+    text-align: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
