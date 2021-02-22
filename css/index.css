@@ -79,6 +79,17 @@ li {
     display: inline-block;
     margin-right: 100px;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
+.logo a{
+  background-image: url(img\lambda-black.png);
+ 
+}
+.jumbo {
+    margin: 50px 0px 0px 0px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
