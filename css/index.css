@@ -198,7 +198,10 @@ background-color: dodgerblue;
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+*{
+    max-width: 100*;
+    margin:
+}
 footer {
 
     width: 100%;
