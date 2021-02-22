@@ -136,14 +136,44 @@ imagelamda{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.boxes .teal{
+    background-color: teal;
+}
+.boxes .gold{
+background-color: gold;
 
+}
+.boxes .cadetblue{
+ background-color: cadetblue;
+}
+.boxes .coral{
+background-color: coral;
+
+} 
+.boxes .crimson{
+background-color: crimson;
+} 
+.boxes .forestgreen{
+ background-color: forestgreen;
+}
+ .boxes .darkorchid{
+background-color: darkorchid;
+ }
+.boxes .hotpink{
+ background-color: hotpink;
+}
+.boxes .indigo{
+background-color: indigo;
+}
+.boxes .dodgerblue{
+background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -159,6 +189,7 @@ imagelamda{
 }
 
 footer {
+
     width: 100%;
     background: black;
 }
