@@ -110,8 +110,8 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
+     
 }
 
 .middle-content h2 {
@@ -121,127 +121,42 @@ p {
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-evenly;
     
     flex-direction: row;
-    color: white;
-    padding: 20px;
+    
+   
     
     
 }
 
-.box1 {
+.middle-content .boxes1 {
+    display: flex;
     
-background-color:  teal;
-border: 20px solid teal;
-height: 100px;
-width: 110px;
-padding: 15px;
-text-align: center;
-padding-top: 20px;
-
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
     
-}
-
-.box2 {
-background-color:gold ;
-border: 20px solid gold;
-height: 100px;
-width: 110px;
-padding: 15px;
-text-align: center;
-padding-top: 20px;
-}
-
-.box3{
-background-color: cadetblue;
-border: 20px solid cadetblue;
-height: 100px;
-width: 110px;
-padding: 15px;
-text-align: center;
-padding-top: 20px;
-}
-.box4 {
-    background-color: coral;
-    border: 20px solid coral;
-    height: 100px;
-    width: 110px;
-    padding: 15px;
-    text-align: center;
-    padding-top: 20px;
     
-
-}
-.box5 {
-    background-color:crimson;
-    border: 20px solid crimson;
-    height: 100px;
-    width: 110px;
-    padding: 15px;
-    text-align: center;
-    padding-top: 20px;
-}
-.box6 {
-    background-color:forestgreen;
-    border: 20px solid forestgreen;
-    height: 100px;
-    width: 110px;
-    padding: 15px;
-    text-align: center;
-    padding-top: 20px;
-}
-.box7 {
-    background-color:darkorchid;
-    border: 20px solid darkorchid;
-    height: 100px;
-    width: 110px;
-    padding: 15px;
-    text-align: center;
-    padding-top: 20px;
-}
-.box8 {
-    background-color:hotpink;
-    border: 20px solid hotpink;
-    height: 100px;
-    width: 110px;
-    padding: 15px;
-    text-align: center;
-    padding-top: 20px;
-}
-.box9 {
-    background-color:indigo;
-    border: 20px solid indigo;
-    height: 100px;
-    width: 110px;
-    padding: 15px;
-    text-align: center;
-    padding-top: 20px;
-}
-.box10 {
-    background-color:dodgerblue;
-    border: 20px solid dodgerblue;
-    height: 100px;
-    width: 110px;
-    padding: 10px;
-    text-align: center;
-    padding-top: 20px;
+   
+    
     
 }
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+   text-align: left;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
+
 
 
 
@@ -264,7 +179,7 @@ footer .footer-content {
     margin-left: 10px;
     
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     
     flex-direction: row;
     
@@ -280,4 +195,25 @@ footer .footer-content {
     color: white;
     text-decoration: none;
     
+}
+    
+.Leverage {
+    
+  line-height: 1.6;  
+    
+}
+
+.dottedline  {
+    border-bottom: 1px dashed black;
+}
+
+.box1 {
+    text-align: left;
+}
+
+.button {
+    border-radius: 12px;
+    height: 40px;
+    width: 130px;
+    background-color: white;
 }
