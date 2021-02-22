@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+ 
+.topstuff {
+    display:inline-flex;
+    padding: 20px;
+}
+
+
+.logo {
+    height: 45px;
+}
+.topnav {
+    padding: 15px;
+	margin-left: 680px;
+
+}
+
+.anav {
+    padding: 10px;
+}
+
+#two {
+    background-color:gold;
+}
+#three {
+    background-color: cadetblue;
+}
+#four {
+    background-color: coral;
+}
+#five {
+    background-color:crimson;
+}
+#six {
+    background-color:forestgreen;
+}
+#seven {
+    background-color:darkorchid;
+}
+#eight {
+    background-color:hotpink;
+}
+#nine {
+    background-color:indigo;
+}
+#ten {
+    background-color:dodgerblue;
 }
