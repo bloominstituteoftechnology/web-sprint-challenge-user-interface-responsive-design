@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
 ul {
     margin: 0;
     padding 0;
@@ -73,8 +78,7 @@ ul {
 li {
     display: inline-block;
     margin-right: 100px;
-    justify-content: space-between;
-    text-align: center;
+    
 }
 .container {
     width: 800px;
