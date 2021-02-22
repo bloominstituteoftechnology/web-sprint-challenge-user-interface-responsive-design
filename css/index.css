@@ -70,14 +70,9 @@ p {
     width: 800px;
     margin: 0 auto;
 } 
-.about{
-    display:flex;
-    margin-top:5px;
 
-}
-.container-about-page p{
-    margin-bottom:20px;
-}
+
+
 
 button{
     border-radius: 12%;;
@@ -90,15 +85,55 @@ button{
 
 .container-about-page{
     display: flex;
-    flex-direction: row;
+    flex-direction:row; 
     flex-wrap: wrap;
-    justify-content: center;
-    border-bottom: 1px dotted;
+    justify-content: space-between;
     
     
 
 }
- 
+.about {
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dotted;
+}
+
+.strategy{
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+     border-bottom: 1px dotted;
+}
+
+.worK{
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+   justify-content: space-between; 
+   width:50%;
+     border-bottom: 1px dotted;
+
+}
+
+.work2{
+   display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dotted; 
+}
+
+.collaboration{
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dotted;
+}
+
 header a {
     display: inline;
     flex-direction:row;
