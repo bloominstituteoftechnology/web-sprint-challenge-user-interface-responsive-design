@@ -190,3 +190,6 @@ section.top-text{
     color: black;
     text-decoration: none;
 }
+.bottom-text{
+    padding: 20px;
+}
