@@ -66,6 +66,29 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    width: 100%;
+    display: flex;
+    margin: 6% 3%;
+    align-items: flex-end;   
+}
+
+.links {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: 'Rubik' , sans-serif;
+    color: black;
+}
+
+.topimg img{
+    margin-bottom: 3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#teal {
+    background: teal;
+}
+
+#gold {
+    background: gold;
+}
+
+#cadetblue {
+    background: cadetblue;
+}
+
+#coral {
+    background: coral;
+}
+
+#crimson {
+    background: crimson;
+}
+
+#forestgreen {
+    background: forestgreen;
+}
+
+#darkorchid {
+    background: darkorchid;
+}
+
+#hotpink {
+    background: hotpink;
+}
+
+#indigo {
+    background: indigo;
+}
+
+#dogerblue {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +205,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.topa {
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.topa p {
+    margin-bottom: 3%;
+}
+
+.acontainers1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.acontainers2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.examples img {
+    width: 100%;
+}
+
+.examples {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+
+.acontainerstext {
+    margin-top: 3%;
+}
+
+.acontainerstext p {
+    margin-bottom: 8%;
+}
+
+.LM {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: .7rem;
+    padding: 2% 5%;
+    color: black;
+}
+
+.abottom {
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
