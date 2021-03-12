@@ -28,6 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+body nav{
+    display:flex;
+    justify-content:center;
+    background-color: white;
+    overflow: hidden;
+    margin: 0 0 25px 0;
+}
+nav img{
+    margin: 10px;
+    padding: 10px;
+}
+nav a{
+    float: left;
+  color: black;
+  margin: 0 40px; /*margin still need tinkering after I figure out how to add the logo*/
+  padding: 14px 1px;
+  text-decoration: none;
+  font-size: 17px;
+}
 body {
 	line-height: 1;
 }
