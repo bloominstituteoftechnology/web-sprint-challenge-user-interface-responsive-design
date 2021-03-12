@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -64,6 +65,33 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/*header styles  goes here*/
+.top-header{
+    border: 1px solid lightblue;
+    width: 800px;
+    margin: 20px auto;
+    padding: 1%;
+}
+
+.nav-header{
+    display: flex;
+    margin: 0 2% 0px 1%;
+    justify-content: flex-start;
+}
+.inside-nav{
+    margin-top: 3%;
+    margin-left: 70px;
+    padding-right: 30px;
+}
+.inside-nav a{
+    padding-right: 45px;
+}
+
+.lamdapng{
+    width: 25%;
+    
 }
 
 .container {
@@ -102,6 +130,26 @@ p {
 }
 
 .middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
     background: black;
