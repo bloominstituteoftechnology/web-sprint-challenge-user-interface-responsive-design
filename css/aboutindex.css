@@ -44,3 +44,11 @@ nav a{
 .jumbo{
    margin-left: 4px;
 }
+.first2box{
+    display: flex;
+    flex-direction: row;
+}
+.secondboxes{
+    display: flex;
+    flex-direction row;
+}
