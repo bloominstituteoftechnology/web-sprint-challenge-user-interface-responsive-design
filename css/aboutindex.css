@@ -27,14 +27,16 @@ body nav{
     margin: 0 0 25px 0;
 }
 nav img{
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
 }
-nav a{
+.adjusting a{
     float: left;
   color: black;
-  margin: 0 40px; /*margin still need tinkering after I figure out how to add the logo*/
-  padding: 14px 1px;
+  padding-top: 40px;
+  /* margin: 0 40px;
+  padding-top: 5%;
+  padding: 14px 1px; */
   text-decoration: none;
   font-size: 17px;
 }
@@ -50,14 +52,6 @@ nav a{
 }
 .lets, .imgandabout{
     margin: 0 24% 0 24%;
-}
-footer{
-    display:flex;
-    justify-content:center;
-    background-color: white;
-    overflow: hidden;
-    margin: 0 0 25px 0;
-    
 }
 .about, .strategy, .hww, .pww, .collab{
     margin: 2% 0;
@@ -83,6 +77,23 @@ button{
     margin-top:.25%;
     margin-right:.25%;
     margin-bottom:1%;
+}
+footer {
+    display:flex;
+    justify-content:flex-start;
+    background-color: black;
+    padding: 10px 0;
+    margin-left:23%;
+    width:auto;
+    
+}
+.nav a{
+    margin: 20px;
+    color:white;
+    
+}   
+nav a:hover, .nav a:hover{
+    color:grey;
 }
 
 

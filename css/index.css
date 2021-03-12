@@ -43,7 +43,7 @@ nav a{
     float: left;
   color: black;
   margin: 0 40px; /*margin still need tinkering after I figure out how to add the logo*/
-  padding: 14px 1px;
+  padding: 30px 1px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -152,21 +152,35 @@ p {
     padding-right: 0;
 }
 
-footer {
+/* footer {
     width: 100%;
     background: black;
-}
+} */
 
-footer nav {
+/* footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-}
+} */
+/* footer{
+display:flex;
+justify-content:flex-start;
+background-color: black;
+padding: 10px 0;
+margin-left:23%;
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+} */
+footer a{
+    color:white;
+    padding-right: 50px;
+}
+footer{
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+    align-content: center;
 }
