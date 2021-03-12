@@ -24,9 +24,11 @@ body nav{
     justify-content:center;
     background-color: white;
     overflow: hidden;
+    margin: 0 0 25px 0;
 }
 nav img{
     margin: 10px;
+    padding: 10px;
 }
 nav a{
     float: left;
@@ -37,6 +39,8 @@ nav a{
   font-size: 17px;
 }
 .adjusting{
-    padding-top: 15px;
-    
+    padding-top: 30px;
+}
+.jumbo{
+   margin-left: 4px;
 }
