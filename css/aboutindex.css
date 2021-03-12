@@ -38,7 +38,39 @@ nav a{
   text-decoration: none;
   font-size: 17px;
 }
-.adjusting{
+.firstpair, .secondpair{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    margin: 0 24% 0 24%;
+
+}
+ .pww .strategy{
+    padding-right:1em;
+}
+.lets, .imgandabout{
+    margin: 0 24% 0 24%;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    background-color: white;
+    overflow: hidden;
+    margin: 0 0 25px 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .adjusting{
     padding-top: 30px;
 }
 .jumbo{
@@ -51,4 +83,4 @@ nav a{
 .secondboxes{
     display: flex;
     flex-direction row;
-}
+} */
