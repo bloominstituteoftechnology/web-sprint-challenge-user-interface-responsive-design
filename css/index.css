@@ -49,13 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    align-items: center;
 }
 
-
-
-  
-   
-}
 
 header nav{
     position:fixed;
@@ -66,7 +62,7 @@ header nav{
     height:10vh;
     z-index: 999;
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .links{
@@ -76,7 +72,10 @@ header nav{
   justify-content:space-around;
   margin:50px;
 }
-
+.links a{
+    text-decoration: none;
+    color: black;
+}
 
 
 html, body {
@@ -92,6 +91,11 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+#toppic{
+    position: relative;
+    margin-top: 100px;
 }
 
 .container {
