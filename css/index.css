@@ -50,6 +50,13 @@ nav a{
 body {
 	line-height: 1;
 }
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:23%;
+    padding-bottom: 2%;
+
+}
 ol, ul {
 	list-style: none;
 }

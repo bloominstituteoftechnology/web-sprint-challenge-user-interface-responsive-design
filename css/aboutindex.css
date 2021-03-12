@@ -59,6 +59,31 @@ footer{
     margin: 0 0 25px 0;
     
 }
+.about, .strategy, .hww, .pww, .collab{
+    margin: 2% 0;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+.hww, .collab{
+    margin-left:1%;
+}
+h2{
+    margin-top:.25%;
+    margin-right:.25%;
+    margin-bottom:1%;
+    font-weight: bold;
+}
+p{
+    padding-bottom:2%;
+}
+button{
+    background: white;
+    border-radius: 10px;
+    padding:3%;
+    margin-top:.25%;
+    margin-right:.25%;
+    margin-bottom:1%;
+}
 
 
 
