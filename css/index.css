@@ -51,6 +51,34 @@ table {
     box-sizing: border-box;
 }
 
+
+
+  
+   
+}
+
+header nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color:rgba(255, 255, 255, 0.8);
+    align-items:center;
+    height:10vh;
+    z-index: 999;
+  display:flex;
+  justify-content: space-between;
+}
+
+.links{
+    width:50%;
+    align-items:center;
+  display:flex;
+  justify-content:space-around;
+  margin:50px;
+}
+
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -75,6 +103,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -111,6 +140,110 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: green;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: blue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background:red;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(221, 10, 203);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(0, 255, 179);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(230, 134, 9);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(6, 146, 240);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(92, 4, 233);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: rgb(243, 219, 5);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 .bottom-content {
     display: flex;
