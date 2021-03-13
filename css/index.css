@@ -69,7 +69,7 @@ p {
 
 /*header styles  goes here*/
 .top-header{
-    border: 1px solid lightblue;
+    border: 0px solid lightblue;
     width: 800px;
     margin: 20px auto;
     padding: 1%;
@@ -129,16 +129,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
@@ -152,14 +143,93 @@ p {
 .middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: gold;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -177,6 +247,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -191,4 +262,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.first-div{
+    display: flex;
+   padding-bottom: 20px;
+}
+.second-div{
+    display: flex;
+    margin: 2% auto;
+    padding-bottom: 20px;
+}
+.aboutclass{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.child1{
+    border-bottom: 1px dashed black;  
+    margin-bottom: 10px;
+}
+.child2{
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.child3{
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+}
+.child4{
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+button{
+    padding:5px;
+    border-radius: 10px;
 }
