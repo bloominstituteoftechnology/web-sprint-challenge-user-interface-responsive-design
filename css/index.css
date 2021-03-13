@@ -1,3 +1,33 @@
+/*
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is the marking of pieces of information with tags or titles that can be used to easily distingushed the content included. The semantic tags or titles are very intuitive and straight forward with their meaning.
+
+2. Name two big differences between display: block; and display: inline;.
+
+Display:block means that the element will be displayed as a block and inline the element takes up as much space needed to show element in line.
+
+3. What are the 4 areas of the box model?
+
+Content, padding, border and margin
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+the cross axis
+
+
+5.Explain why git is valuable to a team of developers.
+
+It can help track any changes or updates without affecting the main branch. You can always go back to previous versions in your branch if something happens. You can update or bug fixes without affecting the main branch and then push up for review when done without directly affecting the remote branch.
+
+*/
+
+
+
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
