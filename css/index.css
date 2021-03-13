@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-* {
+{
     box-sizing: border-box;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
-}
+} 
 
 p {
     line-height: 1.4;
@@ -125,6 +125,86 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
+/* My code */
+ /* .top-bar{
+    margin-bottom: 1%;
+    margin-top:2%;
+ }
+  .top-bar .lambda-black{
+    display:inline-flex;
+  }
+.header-city{
+width: 88.5%;
+}  */
+
+.navlist{
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 4%;
+    
+
+}
+.navitem{
+    margin-right: auto;
+    margin-left: auto;
+}
+/* nav img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-bottom: 4%;   
+} */
+.navitem a{
+    text-decoration: none;
+    color: black;
+}
+.navitem:first-child{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* My code */
+
+
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* About page */
+
+.aboutpic{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 2em;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul img{
+    display: flex;
+    
+}
+.container.gallary img{
+    vertical-align: bottom;
+}
+
 
 footer {
     width: 100%;
