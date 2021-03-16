@@ -19,27 +19,40 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-body nav{
+
+.header{
+display: flex;
+justify-content: space-between;
+/* align-items: baseline; */
+margin: 0 23.5%;
+padding: 15px 0;
+}
+.header nav a{
+    margin-right: 70px;
+    text-decoration: none;
+    color:black;
+
+}
+.header nav{
     display:flex;
-    justify-content:center;
-    background-color: white;
-    overflow: hidden;
-    margin: 0 0 25px 0;
+    align-items:flex-end;
+    
+
 }
-nav img{
-    /* margin: 5px; */
-    padding: 10px;
+.logo{
+    margin-left:5px;
+
+   
+   
 }
-.adjusting a{
-    float: left;
-  color: black;
-  padding-top: 40px;
-  /* margin: 0 40px;
-  padding-top: 5%;
-  padding: 14px 1px; */
-  text-decoration: none;
-  font-size: 17px;
-}
+
+
+
+
+
+
+
+
 .firstpair, .secondpair{
     display: flex;
     flex-direction: row;
@@ -83,19 +96,21 @@ footer {
     justify-content:flex-start;
     background-color: black;
     padding: 10px 0;
-    margin-left:23%;
+    /* margin-left:23%; */
+    margin: 0 23.5%;
     width:auto;
+    
     
 }
 .nav a{
     margin: 20px;
     color:white;
+    text-decoration: none;
     
 }   
 nav a:hover, .nav a:hover{
     color:grey;
 }
-
 
 
 
