@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
  - There are so many different HTML tags and it can be confusing at first to know where and how to place them all. Learning semantic HTML is more than just defining the way a website looks. It helps reinforce the meaning of the content. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-display: block means that the element is displayed as a block and display: inline is displayed inline.
+ - display: block means that the element is displayed as a block and display: inline is displayed inline.
 display: inline does not respect height/width when specified
 
 3. What are the 4 areas of the box model?
