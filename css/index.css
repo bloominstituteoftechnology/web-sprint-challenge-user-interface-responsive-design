@@ -95,6 +95,7 @@ header section nav a{
   
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +110,24 @@ header section nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.services {
+    display: inline-block;
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin: 0px 0px 0px 13px;
+}
+.text-container-about {
+    width: 90%;
+    margin-bottom: 20px;
+}
+.LM-Button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
