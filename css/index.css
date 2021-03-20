@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer,  hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -65,10 +65,34 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+nav {
+    display: inline-block;
+    position: center;
+    text-align: justify;
+    width: 78%;
+   }
+header {
+    display: block;
+}
+header section {
+    height: 80px;
+   
+}
+header section img {
+    margin-top: 10px;
+   
+}
+header section nav a{
+    text-decoration: none; 
+    margin-right: 35px;
+    margin-left: 35px;
+    color: black;
+    
+ }
 .container {
     width: 800px;
     margin: 0 auto;
+  
 }
 
 .top-content {
@@ -77,6 +101,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
