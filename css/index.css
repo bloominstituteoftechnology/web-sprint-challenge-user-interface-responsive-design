@@ -108,15 +108,19 @@ header section nav a{
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 .services {
-   
+    margin-top: 60px;
     border-bottom: 1px dashed black;
-    width: 40%;
+    width: 48%;
    
+   
+}
+.services img {
+    width: 100%;
 }
 .text-container-about {
     width: 95%;
@@ -127,22 +131,24 @@ header section nav a{
 .LM-Button {
     border: 2px solid black;
     border-radius: 5px;
-    width: 25%;
+    width: 30%;
     text-align: center;
     padding: 5px 10px;
     font-size: 13px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
 }
 
 .myFlex-Container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
     
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
 }
 
