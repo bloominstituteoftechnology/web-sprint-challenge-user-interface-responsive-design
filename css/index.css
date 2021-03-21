@@ -66,20 +66,24 @@ p {
     line-height: 1.4;
 }
 nav {
-    display: inline-block;
+    display: flex;
     position: center;
-    text-align: justify;
+    flex-direction: row;
+    align-content: space-between;
     width: 78%;
+    align-items: baseline;
    }
+
 header {
     display: block;
 }
 header section {
     height: 80px;
+    margin-bottom: 40px;
    
 }
 header section img {
-    margin-top: 10px;
+    margin-top: 20px;
    
 }
 header section nav a{
@@ -109,15 +113,15 @@ header section nav a{
     padding-bottom: 20px;  
 }
 .services {
-    display: inline-block;
+   
     border-bottom: 1px dashed black;
-    width: 48%;
-    margin: 20px 0px 20px 13px;
-    padding: 10px 0px 25px 0px;
+    width: 40%;
+   
 }
 .text-container-about {
     width: 95%;
     margin-bottom: 20px;
+   
 }
 
 .LM-Button {
@@ -127,9 +131,15 @@ header section nav a{
     text-align: center;
     padding: 5px 10px;
     font-size: 13px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
+.myFlex-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 
 .middle-content {
     margin-bottom: 20px;
