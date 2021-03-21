@@ -138,6 +138,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-weight: bold;
 }
 
 footer nav a {
@@ -156,8 +157,7 @@ footer nav a {
 .nav-bar a {
     text-decoration: none;
     padding: 10px;
-    color: black;
-   
+    color: black; 
 
 }
 .nav-bar a:hover {
@@ -169,11 +169,16 @@ footer nav a {
     margin-top: 10px;
 }
 .lambda-logo h1::first-letter{
-    font-size: 30px;
+    font-size: 45px;
+    padding:0 10px;
     background-color: black;
     color: white;
+    text-align: center;
 }
-
+.lambda-logo h1:before {
+    content: '\03BB';
+     
+}
 .box1 {
     background-color: teal !important;
     
