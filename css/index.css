@@ -74,7 +74,7 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -144,3 +144,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.nav-bar a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.lambda-logo {
+    padding: 15px;
+    margin-top: 10px;
+}
+.lambda-logo h1::first-letter{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
