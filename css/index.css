@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+a{
+    color: inherit;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -108,7 +110,7 @@ p {
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
@@ -143,4 +145,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* box color */
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+/* nav header*/
+a{
+    text-decoration: none;
+}
+div nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+div nav a {
+    margin-top: 5px;
+}
+
+div nav img {
+    margin-bottom: 20px;
+}
+
+header img {
+    margin-bottom: 20px;
 }
