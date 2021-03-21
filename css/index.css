@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.side content{
+    padding: 0 2%;
+
+}
 
 .container {
     width: 800px;
@@ -100,18 +104,45 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+div.boxes .box1{
+    background-color: teal;
+}
+div.boxes .box2{
+    background-color: gold;
+}
+div.boxes .box3{
+    background-color: cadetblue;
+}
+div.boxes .box4{
+    background-color: coral;
+}
+div.boxes .box5{
+    background-color: crimson;
+}
+div.boxes .box6{
+    background-color: forestgreen;
+}
+div.boxes .box7{
+    background-color: darkorchid;
+}
+div.boxes .box8{
+    background-color: hotpink;
+}
+div.boxes .box9{
+    background-color: indigo;
+}
+div.boxes .box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
