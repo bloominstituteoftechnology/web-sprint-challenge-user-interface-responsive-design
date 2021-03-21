@@ -54,40 +54,120 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    background-color: #0e0e0e;
+ 
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 3em;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 2.5em;
 }
 
 .container {
-    width: 800px;
+    width: 69.5%;
     margin: 0 auto;
+    background-color: white; 
+    padding: 0 7% 0 7%;   
+}
+
+header nav {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+header {
+    padding-top: 19px;
+    padding-bottom: 27px;
+}
+
+header img {
+    
+    padding-top: 1px;
+}
+
+header a {
+    font-size: 2.2em;
+    padding: 2em 5.45% 0 5.45%;
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    padding: 2em 0 3em 0;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.flex-button {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0 0 20px 0;
+    padding: 16px 0 0 0;
+}
+
+.top-content-single {
+    justify-content: space-between;
+    padding: 0 3em 3em 3em;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 1.5%;
+    padding-bottom: 16px;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 16px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    padding-left: 16px;
+    padding-right: 8px;
+    width: 50%;
+}
+
+.middle-content-about .text-container {
+    padding: 12px 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.text-container button {
+    padding: 8px 22px 8px 22px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    font-size: 2.5em;
+    background-color: white;
+}
+
+.middle-content-about img {
+    padding: 0px;
+}
+
+.middle-content-about p {
+    
 }
 
 .middle-content h2 {
@@ -105,17 +185,63 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 18px 2.5%;
     color: white;
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 18px;
     justify-content: space-around;
+}
+
+.bottom-content-about {
+    margin: 16px 18px;
+    padding: 16px 0;
 }
 
 .bottom-content .text-container {
@@ -123,7 +249,7 @@ p {
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding-right: 2%;
 }
 
 footer {
@@ -137,7 +263,7 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 2.2em;
 }
 
 footer nav a {
