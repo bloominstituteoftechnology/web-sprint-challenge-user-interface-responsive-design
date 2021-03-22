@@ -31,6 +31,32 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav img {
+    padding-top: 17px;
+}
+
+nav p {
+    padding-top: 36px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px;
+}
+
+#heroImage {
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -64,11 +90,20 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding: 2% 2%;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 5px 18px;
+    margin-bottom: 1vh;
 }
 
 .top-content {
@@ -83,6 +118,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.learnBoxes {
+    display: flex;
+    justify-content: space-between;
 }
 
 .middle-content {
@@ -112,6 +152,46 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +204,11 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+#prefooter h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
 }
 
 footer {
