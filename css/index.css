@@ -95,6 +95,7 @@ p {
     margin-bottom: 0;
 }
 
+/* Boxes */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -170,11 +171,11 @@ header {
   margin: 50px;
   display: flex;
   justify-content: center;
-  align-items: baseline;  
+  align-items: baseline; 
 }
 
 .topimg {
-
+    margin-left: 310px;
 }
 
 .topnav {
@@ -182,12 +183,14 @@ header {
     background: white;
     display: flex;
     justify-content: space-evenly;
+    margin-right: 230px;
 }
 
 .topnav a {
     color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .midimg {
