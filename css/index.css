@@ -200,8 +200,9 @@ header {
 }
 
 footer {
-    width: 100%;
+    width: 60%;
     background: black;
+    margin: 0 350px;
 }
 
 footer nav {
@@ -223,13 +224,17 @@ footer nav a {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 25%;
+    line-height: 20px;
+    font-weight: bold;
 }
 
 .about {
     justify-content: center;
     border-bottom: 1px dashed black;
-    margin: 20px;
-    padding:20px;
+    margin: 0 370px 0 370px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    line-height: 20px;
     
 }
 
@@ -266,11 +271,13 @@ footer nav a {
  button{
      margin-top: 3%;
      padding: 10px;
-     border-radius: 15%;
+     border-radius: 10px;
      background-color: white;
+     font-weight: bold;
  }
 
 .lwt {
-    margin: 30px;
-    display: flex;
+    margin: 50px 370px 50px 370px;
+    font-weight: bold;
+    line-height: 20px;
 }
