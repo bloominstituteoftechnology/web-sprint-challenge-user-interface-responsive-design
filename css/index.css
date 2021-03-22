@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    padding-bottom: 30px;
     
 }
 header{
@@ -76,12 +78,11 @@ header{
 }
 
 header nav {
-    width: 60%;
+    width:100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding-top: 20px;
 }
 header nav a{
     color:black
@@ -92,31 +93,8 @@ header nav a{
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding:12px;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding:  2%;
-    padding-bottom: 20px;  
-}
-.top-content2{
-    padding:3% ;
-}
-.text-container3,.text-container4,.text-container5,.text-container6{  
-    padding-block-start: 1%;
-    padding-left: 3%;
- }
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -165,6 +143,7 @@ div.boxes .box10{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    padding-left:90px;
 }
 
 .bottom-content .text-container {
@@ -185,23 +164,36 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 20px 2% ;
+    font-size: 14;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding-left:90px;
 }
-.images,.images2{
+#section{
     display: flex;
-    flex-flow: row nowrap;
-  }
-  .item,.item2{
+    flex-flow: row wrap;
+    padding-left:60px;
+    justify-content: space-evenly;
+}
+#section2{
     display: flex;
-    flex-flow: column wrap; 
-    align-items: flex-start;
-    justify-content: space-evenly; 
-    padding: 2px;
-  }
+    flex-flow: row wrap;
+    padding-left:2px;
+    justify-content: space-evenly;
+}
+#section3{
+    padding-top: 40px;
+    padding-right: 60px;
+}
+h2{
+    padding-top:10px;
+}
+
+ 
+
+
  
