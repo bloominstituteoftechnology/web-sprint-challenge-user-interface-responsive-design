@@ -224,5 +224,19 @@ footer nav a {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.child-about {
+    border-bottom: 2px dotted black;
+    flex-basis: 30%;
     
+}
+header {
+    border-bottom: 2px dotted black;
+    margin:2%;
+}
+button{
+    padding:5px;
 }
