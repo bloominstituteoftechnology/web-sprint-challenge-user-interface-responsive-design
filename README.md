@@ -102,3 +102,28 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+## Self-Study Questions 
+### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
+
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is used to describe tags that have meaning like paragraph <p> or <header>. It basically introduces meaning to the code we are writing.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    Display:block uses all margins and padding and Display:inline sticks with left and right only. Inline also will not accept height and width and block accepts it.
+
+3. What are the 4 areas of the box model?
+    content, padding, border, margin
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    Cross Axis
+
+5. Explain why git is valuable to a team of developers.
+    Git is valuable to developers because when they create something and are constantly making changes to their code,Git keeps what they have added or changed to their code.  
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
