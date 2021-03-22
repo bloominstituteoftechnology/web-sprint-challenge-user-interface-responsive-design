@@ -219,3 +219,10 @@ footer nav a {
     background-color: dodgerblue  !important;
     
 }
+/* about */
+.about-page {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    
+}
