@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would describe semantic elements as elements that the computer and humans can clearly read for example that of (<header>) would be semantic and it is obvious what its purpose serves but a (<div>) is an example of a non-semantic element because it doesn't have an exact purpose.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two big differences between block and inline is that blocks stack up on each other and reservea an entire line of space whereas inline elements write horizontally along without reserving an entire line. Another difference is taht a block level element has a top and a bottom margin.
+
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are the content, padding, border, and margin.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items: center: is a cross access property.
+
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valueable to a team of developers because it allows them to divide the work amounst themselves in an organized fashion and upload and pull pieces of the code base remotely without changing the main code base. If you would like to change the full code base you have the option to but always have a record of every change that was made. This saves a lot of time, allows the programmers to work remotely if they wish or upload from wherever they are and ultimately makes for a tight knit, organized team.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

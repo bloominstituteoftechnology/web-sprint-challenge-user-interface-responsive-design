@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +102,110 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -191,12 +292,12 @@ footer nav a {
 }
 
 .longpicture {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .firstimg {
     margin-top: 20px;
-    width: 120px;
+    width: 150px;
     margin-left: 95px;
 }
 
@@ -210,11 +311,13 @@ footer nav a {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 50px;
+    
 }
 
 .aboutpara {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 175px;
+    margin-right: 175px;
     margin-bottom: 50px;
     padding-bottom: 50px;
     border-bottom: black dashed;
@@ -229,20 +332,25 @@ footer nav a {
     margin-right: 200px;
     margin-left: 200px;
     margin-bottom: 50px;
+    border-top: black dashed;
     
     
 }
 
 .phototext1 {
     display: flex;
-    margin: 75px;
-    border-bottom: black dashed;
+    justify-content: center;
+    margin-right: 110px;
+    margin-left: 170px;
+    
 }
 
 .phototext2 {
     display: flex;
-    margin: 75px;
-    border-bottom: black dashed;
+    justify-content: center;
+    margin-right: 110px;
+    margin-left: 170px;
+   
 
 }
 
@@ -257,38 +365,86 @@ footer nav a {
 
 .picture3 {
     margin-right: 30px;
+    margin-top: 50px;
 }
 
 .picture4 {
     margin-left: 30px;
+    margin-top: 50px;
 }
 
 
-
-
-
-/* .container {
+.captions1 {
     display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-  }
-  
-  .photos{
-     display:flex;
-     justify-content:center;
-     flex-direction: column;
-     flex-grow: 1;
-  }
-  
-  .image{
-      display:block;
-      width:30%;
-  }
-  
-  .word{
-      display:block;
-      width: 100%;
-      text-align:center;
-  
-  } */
-  
+    justify-content: center;
+}
+
+.strategy {
+    margin-right: 620px;
+}
+
+.captions2 {
+    display: flex;
+    justify-content: center;
+}
+
+.placestowork {
+    margin-right: 575px;
+}
+
+.para1 {
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.para3 {
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.buttons1 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.strategybutton {
+    margin-right: 630px;
+    margin-bottom: 50px;
+    
+}
+
+.howweworkbutton {
+    margin-bottom: 50px;
+}
+
+.placestoworkbutton {
+    margin-right: 630px;
+    margin-bottom: 50px;
+    
+}
+
+.collaborationbutton {
+    margin-bottom: 50px;
+}
+
+
+.lasttitle {
+    margin-top: 50px;
+}
+
+.text-container {
+    margin-top: 50px;
+}
+
+.whitetext {
+    color: white;
+    display: none;
+}
