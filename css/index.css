@@ -149,21 +149,22 @@ footer nav a {
 .navigation-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   
-    
-    
+    justify-content: space-around;
+    align-items: center;    
 }
 .nav-bar a {
     text-decoration: none;
     padding: 10px;
     color: black; 
+    display: block;
 
+}
+.nav-bar {
+    display: flex;
 }
 .nav-bar a:hover {
     color:blue;
-    transform: rotate(20);
+    transform: rotate(10deg);
 }
 .lambda-logo {
     padding: 15px;
