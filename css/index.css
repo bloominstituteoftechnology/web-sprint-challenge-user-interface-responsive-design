@@ -68,37 +68,41 @@ p {
 
 /*header*/
 
-header{
+.header{
     display:flex;
     width: 800px;
     margin: 0 auto;
     flex-wrap: wrap;
 }
 
-header img{
+.header-logo{
     margin:20px 0 0;
 }
 
-header nav{
+.header-nav{
     display:flex;
     width:75%;
     justify-content:space-around;
     align-items: flex-end;
 }
 
-header nav a{
+.header-nav-options{
     text-decoration:none;
     color:black;
 }
 
 
-header img:nth-child(3){
+.header-img{
     margin:50px 0;
 }
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/*top content*/
 
 .top-content {
     display: flex;
@@ -113,6 +117,28 @@ header img:nth-child(3){
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*about page top content*/
+.about-page{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.about-page h1{
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.about-page p{
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+}
+
+/*boxes*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -181,6 +207,35 @@ header img:nth-child(3){
     background-color:dodgerblue;
 }
 
+/*about page middle content*/
+
+.about-page div{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page div h2{
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.about-page div p{
+    border-bottom: none;
+    padding: 0;
+}
+
+.about-page div button{
+    border: 2px solid black;
+    background: white;
+    width: 25%;
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+/*bottom content*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -194,6 +249,21 @@ header img:nth-child(3){
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*about-page bottom content*/
+
+.about-page h2{
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.container-bottom p{
+    border-bottom:none;
+}
+
+/*footer*/
 
 footer {
     width: 100%;
