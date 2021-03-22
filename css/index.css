@@ -27,6 +27,8 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+    display: flex;
+    flex-wrap: flex;
 }
 body {
 	line-height: 1;
@@ -57,6 +59,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
+    margin: 20px 0;
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -77,6 +80,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    height: 400px;
 }
 
 .top-content .text-container {
@@ -137,10 +141,24 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 14px;    
+    
 }
-
+header footer nav a{
+    display: flex-inline;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 20px 2%;
+    font-size: 14px; 
+    margin: 0 15% 0 0; 
+}
 footer nav a {
     color: white;
-    text-decoration: none;
+    }
+hr {
+    border-bottom-style: dotted;
 }
