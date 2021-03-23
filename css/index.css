@@ -53,74 +53,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;   
 }
-
-
-
-.navbar {
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+div nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    }
-
-    nav a {
-        color: black;
-        text-decoration: none;
-    }
-
-
-
-       nav img {
-        display: flex;
-           width: 150px;
-           height: 45px;
-       }
-
-       .container {
-           margin: 0 auto;
-           
-       }
-
-       
-
-
-
-
-
-
-
-
-    
-    
-
-    
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    h2 {
-        margin: 25px 50px;
-    }
-
-    
-
-    .boxes{
+    margin: 20px 0;
+}
+.img_logo {
+    margin-bottom: 20px;
+}
+.nav_links {
+    margin-top: 5px;
+}
+       .boxes{
         display: flex;
         flex-direction: column;
     }
-
-    
-        
 
     .box1 {
         background-color: teal;
@@ -152,14 +109,6 @@ html, body {
     .box10 {
         background-color: dodgerblue;
     }
-
-
-
-
-
-    
-    
-
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -218,26 +167,7 @@ p {
     
 }
 
-    
-
-    
-    
-    
-    
-    
-   
-    
-
-
-
-
-    
-    
-    
-
-
-
-.bottom-content {
+    .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
