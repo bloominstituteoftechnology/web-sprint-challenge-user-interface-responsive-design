@@ -54,21 +54,51 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-bottom: 18px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
 }
 
 .container {
-    width: 800px;
+    width: 42%;
     margin: 0 auto;
+}
+
+header{
+    margin-left: 29%;
+}
+
+header img{
+    width: 10%;
+}
+
+header nav{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.jumbo{
+    width: 59.5%;
+}
+
+a{
+    font-size: 1.5rem;
+    margin-top: 1.4%;
+    margin-left: 6%;
+    color:black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
 }
 
 .top-content {
@@ -143,4 +173,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.under{
+    border: dashed black thin;
+}
+
+.link{
+    border-bottom: dashed black thin;
+    width: 48.5%;
+    margin: 0.7%;
+    padding-bottom: 5%;
+}
+
+.link img{
+    width:100%;
+}
+
+.tab{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.learn{
+    margin-top: 7%;
+}
+
+.tab a{
+    margin: 0;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.text{
+    border-bottom: dashed black thin;
+    width: 59%;
+    padding: 2.5%;
+}
+
+.foot{
+    width: 95%;
+    padding: 2.5%;
 }
