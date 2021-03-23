@@ -203,7 +203,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
- /*.middle-content .boxes {
+ .middle-content .boxes {
     display: flex;
     flex-flow: wrap;
     height: 100px;
