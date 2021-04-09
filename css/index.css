@@ -68,8 +68,8 @@ p {
 
 .container {
     width: 800px;
+    padding: 0;
     margin: 0 auto;
-    background-color: red;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -148,7 +148,7 @@ section {
 footer {
     width: 100%;
     background: black;
-    bottom:0;
+    margin-bottom: -10%;
 }
 
 footer nav {
@@ -165,6 +165,11 @@ footer nav a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 500px) {
+  * {
+    margin-bottom: 20%;
+  }
+}
 header {
     width: 100%;
     display: flex;
@@ -176,6 +181,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     width: 60%;
+    margin-top: 7.5%;
 }
 
 header nav a {
@@ -196,13 +202,38 @@ header nav a:hover {
 }
 
 .grid {
-    padding: 10%;
-    border-bottom: 1px black dashed;
     text-align: left;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+
+}
+
+.grid::after {
+    content: '';
+    border-bottom: 1px black dashed;
+    width: 100%;
+    margin-top: 10%;
+    align-self: center;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.grid-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.grid-controller {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -210,11 +241,12 @@ header nav a:hover {
 div.learn-more {
     display: flex;
     justify-content: center;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .about-about {
     border-bottom: 1px black dashed;
+    width: 95%;
 }
 
 .about-section {
