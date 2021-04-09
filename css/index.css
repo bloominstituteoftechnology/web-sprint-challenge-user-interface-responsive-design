@@ -195,6 +195,10 @@ footer nav a {
 
 /*About Page Styles*/
 
+.aboutText{
+    margin-top:20px;
+}
+
 .building{
     display:flex;
     justify-content:center;
@@ -230,16 +234,7 @@ footer nav a {
        padding-top:20px;
    }
 
-   .twotexts span{
-       color:blue;
-       border-style: 2px solid black;
-       
-       
-   }
-
-   .bottomtexts span{
-       color:blue;
-   }
+  
 
    .worktogether{
        margin-top:30px;
@@ -258,4 +253,15 @@ footer nav a {
     padding-bottom:50px;
 
    }
+   span{
+    width: 20%;
+    height: 60px;
+    background:white;
+    margin: 50px 2.5%;
+    color:black;
+    border:solid;
+    border-radius:0.7rem;
+    padding:2%;
+   }
+
 
