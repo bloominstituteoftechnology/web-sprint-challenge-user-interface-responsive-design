@@ -89,7 +89,11 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.about-top {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -101,10 +105,40 @@ p {
     justify-content: space-evenly;
 }
 
+.teal {
+    background: teal;
+}
+.gold {
+    background: gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.crimson {
+    background: crimson;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.indigo {
+    background: indigo;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +177,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 800px;
+    padding: 2%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}
+.topImg {
+    width: 800px;
+    margin: 2% auto;
 }
