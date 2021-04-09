@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
     background-color: red;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
@@ -92,6 +93,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {
@@ -128,10 +130,6 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
-
-hr {
-    border: 2px dotted black;
 }
 
 /*****Lift******/
@@ -245,5 +243,4 @@ div.learn-more {
     display: flex;
     justify-content: left;
     align-items: flex-start;
-    
 }
