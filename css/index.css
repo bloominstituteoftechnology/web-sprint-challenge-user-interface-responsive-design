@@ -143,4 +143,123 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+   
+}
+
+.parent{
+    display:flex;
+    flex-flow:row wrap;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding:% 0%;
+  justify-content: space-evenly;
+  margin: 4% 7%;
+  margin=bottom:50px;
+
+  }
+.Image{
+    margin-left: -70px;
+    margin-bottom: 0;
+    margin-top: -20px;
+}
+.main-image{
+    margin: 1% 0;
+    margin-bottom: 50px;
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+}
+#teal{
+    background-color: teal;
+}
+#gold{
+    background-color: gold;
+}
+#cadetblue{
+    background-color: cadetblue;
+}
+#coral{
+    background-color: coral;
+}
+#crimson{
+    background-color: crimson;
+}
+#forestgreen{
+    background-color: forestgreen;
+}
+#darkorchid{
+    background-color: darkorchid;
+}
+#hotpink{
+    background-color: hotpink;
+}
+#indigo{
+    background-color: indigo;
+}
+#dodgerblue{
+    background-color: dodgerblue;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.text{
+    margin-bottom: 30px;
+}
+.about-section-one{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dashed black ;
+
+   
+}
+.about-section-two{
+    display: flex;
+}
+.button{
+    border: 1px groove black;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 15%;
+    padding-left:7%;
+    width: 10%;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.strategy{
+    border-bottom: 1.5px dashed black ;
+    margin:2%;
+}
+.how-we-work{
+    border-bottom: 1.5px dashed black ;
+    margin:2%;
+}
+.image-size{
+    width: 24rem;
+    margin-top:40px;
+    margin-bottom:15px;
+}
+.title{
+font-size: 18px;
+font-weight: 400;
+}
+.text{
+    font-size:16px;
+}
+.button{
+    margin-bottom:20px;
+}
+.places-we-work{
+margin: 2%;
+border-bottom: 1.5px dashed black ;
+}
+.collaboration{
+margin: 2%;
+border-bottom: 1.5px dashed black ;
+}
+.last{
+    margin:4%;
+   
 }
