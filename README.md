@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would describe semantic HTML as the the true building blocks for any website since it can be styled plenty of different ways. Knowing how to use semantic HTML might be the most important thing learned in week 1 of Lambda School.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display:block means the element is displayed as a block itself whereas display:inline means the element can be displayed in a block on the same line rather than creating a whole new block.
+That also means that display:block has a line break before and after the element whereas display:inline does not.
 
 3. What are the 4 areas of the box model?
 
+Starting from the inside going out. Content, Padding, Border, Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable in many ways including easy accessibility to clone/create repositories, create your own branches, and merge those branches. Because of these thing, teams of developers can work on numerous projects together and all submit work at different times on the same project all without changing it at all without looking at the work and finalizing the product.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
