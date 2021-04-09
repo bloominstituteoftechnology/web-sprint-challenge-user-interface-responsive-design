@@ -197,3 +197,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*About page */
+
+.toptxt{
+    padding-bottom: 3%;
+    border-bottom:1px dashed black;
+}
+
+.middlesection{
+    padding-top: 3%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-basis:auto;
+    width: 100%;
+}
+.middlesection .imgContainer{
+    width: 48%;
+    padding: 1%;
+    align-items: center;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+    
+}
+.middlesection .imgContainer img{
+    width:100%
+}
