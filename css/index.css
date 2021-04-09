@@ -66,6 +66,9 @@ p {
     line-height: 1.4;
 }
 
+.mid-header{
+    margin-bottom: 100px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -76,14 +79,14 @@ p {
     display: flex;
     flex-wrap: nowrap;
 }
-. navbar {
+. nav-bar {
     padding: 1% 0;
     border-radius: 5px;
     width:100%;
     text-align: center;
     color: ;
-    text-decoration: none;
-    background-color: ;
+    /*text-decoration: none;
+    background-color: ;*/
 
 }
 /*CODE BETWEEN THIS TWO COMMENTS I AM NOT SURE! I WANTED TO CENTER THE NAV ITEMS AND LOGO 
@@ -99,19 +102,37 @@ navbar logo img added*/
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue `*/
 
-.container-wrapper {
-   width:100%;
-   max-width:960px;
-   margin: 0 auto;
+.container-wrapper{
+   display: flex;
+   flex-flow:row wrap;
+   align-items: space-around;
+   justify-content: space-around; 
 }
+
+.container-wrapper div{
+   margin-top: 3%;
+    width:  12%;
+   margin-bottom: 3%;
+   margin-right: 6%;
+   height: 100px;
+
+   ;
+}
+
 .flex-container {
     display: flex;
-    flex-wrap:wrap;
+    flex-flow:row wrap;
+}
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
 }
 .box {
+    display: flex;
     justify-content: space-between;
-    height: 400px;
-    min-width:  400px; 
+    height: 100px;
+    width:  1000px; 
     flex-grow: 1;
 } 
 .box1{
@@ -149,8 +170,6 @@ width: 48%;
 padding: 0 1%;
 padding-bottom: 20px;
 }
-
-}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +181,8 @@ padding-bottom: 20px;
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 3%;  
 }
 
 .middle-content {
