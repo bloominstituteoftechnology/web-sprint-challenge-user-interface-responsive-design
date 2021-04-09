@@ -71,20 +71,25 @@ p {
     margin: 0 auto;
 }
 header{
+    width: 100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
- header nav{
+nav{
+    padding-top: 2%;
+    width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
+    color: black;
 }
-header nav a{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+header a{
+padding:2%;
+color:black;
+text-decoration:none;
 }
+ 
 
 .headerimg{
    width:100%;
