@@ -10,7 +10,6 @@ This is an individual assessment. All work must be your own. Your challenge scor
 
 You are not allowed to collaborate during the Sprint Challenge. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
 
-
 ## Commits
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons)
@@ -26,37 +25,120 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
 ## Self-Study Questions 
+
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+## Self-Study Questions 
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+## Answer the following free-form questions.
 
-3. What are the 4 areas of the box model?
+_Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read._
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+<span style="color:red; ">1. If you were to describe semantic HTML to the next cohort of students, what would you say?</span>
 
-5. Explain why git is valuable to a team of developers.
+> When optimizing a webpage to be easily accessed and indexed by a search engine we use HTML tags to tell browsers something qualatative about the contents of the element to the human end user, while still maintaning a syntax that the computer will eventually interpret as ones and zeros. Rather than just serving as the proverbial scaffolding of  content to be rendered on a web page, the tags serve the dual purpose of conveying both meaning of individual components and thus their utility to a human entering a paticular search queuery.. In the absence of this discipline every webpage would be a meaningless soup of div's span's, images and iframes ... etc.. without giving the browser any inclination of whether or not the content stored within the media is relivant to the user. Some examples are the **\<section>** tag which has no MIME-type specific purpose other than to break content up into logical subdevisions based on the subject matter  contained within and it's distinction from the other sections ... or the \<h1> tag; which while syntactically permissible to reuse throughout a webpage, defeats the purpose of titling your page so that it can be found by those who seek it out.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+---
+<span style="color:red; ">2. Name two big differences between ` ` ` display: block; ` `  ` and `  ` ` display : inline; ` ` `.</span>
+
+> display **block**:
+
+* means that the element is in chuncks simalar to paragraphs.  A block has some whitespace above and below it and will not tollerate horizontally adjacent elements with the exception of an explicit css rule. For instance, one exception to this _heueristic_ rule is if one of it's directly adjcent upper or lower neighbours was captured by a float declaration.
+
+![block](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/block. PNG)
+
+> display **inline**:
+
+* Denotes the near opisite of display block in terms of it's tollerent horizontal disposition to it's neighbours inside of the current block (on the same line). Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
+
+![block](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/inline. PNG)
+
+---
+<span style="color:red; ">3. What are the 4 areas of the box model?</span>
+
+>
+
+---
+<span style="color:red; ">4. While using flexbox, what axis does the following property work on: ` ` ` align-items: center ` ` `?</span>
+
+#### [When laying out a document, the browser's rendering engine represents each element as a rectangular box.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+
+> Source: MDN
+
+> Every box is composed of four parts:
+> ⦾→→→          **defined by their respective edges**: 
+>  
+
+* [ ] > **the content edge**
+* [ ] > **padding edge**
+* [ ] > **border edge**
+* [ ] > **margin edge**
+
+> The margin edge surrounds the box's 'personal space'.
+
+* If the margin has 0 width, →→→ the margin edge synonymus with border edge. The four margin edges define the box's margin box . Each edge may be broken down into a top, right, bottom, and left edge.
+
+<div align="center">
+
+![bicknborty](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/margin-border-edges. PNG)
+
+</div>
+
+#####  I like to think of padding, as a someone (_on halloween_) riding the bus with a very bulky costume on... say for instance a kissing booth. The content the person inside, but when if you have no choice but to try to sit on the fraction of a seat beside them despite your now  abnormally contricted personal space, 
+
+![ricknmorty](https://i.redd.it/x3j47w3ywqb31.jpg)
+
+ you'll likley give them even more clearance as a sudden jolt of the bus could result in an awkward collision. If the outside of a costume is the border, the margin is then how far away is how much clearance that buffer of space demands. Margin takes social distancing seriously... be like margin.
+
+  + `padding` - the innermost part of the box model -- creating space around an element's content before its border.
+
+   - `margin` - the space between one html element and another html element
+
+  + One thing to note is that margins will collapse. If I'm comfortable with being 10 pixels away from my neighbor but my neighbor wants to be 15 pixels away from everyone, overall we are going to be 15 pixels away. I don't need an extra 10 pixels for myself, 15 pixels satisfy both of our requests.
+
+<div align="center">
+
+![bicknborty](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/oC5cxyw.gif)
+
+</div>
+
+---
+<span style="color:red; ">5. Explain why git is valuable to a team of developers.</span>
+
+## Suffice it to say that despite it being partially culpiable the ever so slight balding that has begun for me this year, I feel so passionatly about the utility and potential for GIT-~~HUB~~ and what it stands for that I wrote a '37 minute read long' article on Medium about it.
+
+[my medium article](https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107)
+ 
+>Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes.  --GitHub Docs
+
+> I know that in the context of a team there are certainly more important features than the one I am about to mention ... but I think the notion of storing version history as a series of diffs rather than standalone snapshots of the entire repository at every commit is brilliantly efficient. Software development is a complex, tedious, and luckily for us costly affair. Hours up to years worth of work can be severely damaged or destroyed in less time than a synapse can fire off from the optic nerve to the brain, and I imagine that during the primordial time that ostensibly predated version control, that  such situations did arise.. and some programmers did stare questioning every decision they ever made while staring up at the sky in a defeated gaze. Today we live in a world where teams can come together to work on a shared goal from any corner of the globe. Without version control, team members are subject to redundant tasks, slower timelines, and multiple copies of a single project. To eliminate unnecessary work, Git and other VCSs give each contributor a unified and consistent view of a project, surfacing work that's already in progress. According to the latest Stack Overflow developer survey, more than 70 percent of developers use Git, making it the most-used VCS in the world.
+
+
+>Finally, I'd like to touch on what I consider to be There's a "Golden Rule of Git" you should know that directly relates to both git reset and git rebase:
+# Never change the history of a branch that's shared with others.
+
+![harry-potter-and-the-chamber-of-bad-decisions](https://nerdist.com/wp-content/uploads/2017/10/TimeTravMinute_FEAT.jpg)
+
+
+>Git's most prolific feature is the ability to work with virtually infinite parallel histories that can be used to explore a potential feature or work out a bug and than provides a reliable way to merge them together on an enterprise scale.
+
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+* [ ] Create a forked copy of this project.
+* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [ ] Push commits: git push -u origin `<firstName-lastName>`.
+
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
-
+* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 ## Minimum Viable Product
 
