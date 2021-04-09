@@ -71,6 +71,80 @@ p {
     margin: 0 auto;
 }
 
+/*NOT SURE ABOUT THIS PART*/
+.logo img {
+    display: flex;
+    flex-wrap: nowrap;
+}
+. navbar {
+    display:inline-block;
+    padding: 1% 0;
+    border-radius: 5px;
+    width:100%;
+    text-align: center;
+    color: ;
+    text-decoration: none;
+    background-color: ;
+
+}
+/*CODE BETWEEN THIS TWO COMMENTS I AM NOT SURE! I WANTED TO CENTER THE NAV ITEMS AND LOGO 
+navbar logo img added*/
+/*box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue `*/
+
+.container-wrapper {
+   width:100%;
+   max-width:960px;
+   margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+}
+.box {
+    height: 400px;
+    min-width:  400px; 
+    float:left;
+    flex-grow: 1;
+} 
+.box1{
+    background-color: teal;
+}
+.box2 {
+    background-color:gold ;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
