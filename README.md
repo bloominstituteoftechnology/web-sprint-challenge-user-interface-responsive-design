@@ -1,5 +1,50 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
+# ✅=== ORIGINAL DIRECTORY STRUCTURE
+```
+tree
+.
+├── ✅README.md
+├── UserInterfaceandGit-Multi-PageWebsite
+│   ├── documentation-notes
+│   │   ├── notes.css
+│   │   ├── notes.md
+│   │   ├── screencapture-127-0-0-1-5500-UserInterfaceandGit-Multi-PageWebsite-web-Sprint-Challenge-User-Interface-and-Git-index-html-2021-04-09-13_44_49.png
+│   │   ├── screenshots
+│   │   │   ├── block.PNG
+│   │   │   ├── inline.PNG
+│   │   │   ├── margin-border-edges.PNG
+│   │   │   ├── micro.PNG
+│   │   │   ├── oC5cxyw.gif
+│   │   │   └── shishkabob.PNG
+│   │   └── sprint-challenge-ui-home-example.png
+│   ├── notes.html
+│   └── web-Sprint-Challenge-User-Interface-and-Git
+│       ├── ✅LICENSE
+│       ├── ✅about.html
+│       ├── css
+│       │   └──✅ **index.css**
+│       ├── design-files
+│       │   ├── ✅**about.png**
+│       │   └──✅ **home.png**
+│       ├── img
+│       │   ├──✅ about-meeting.png
+│       │   ├──✅ about-office.png
+│       │   ├── ✅about-plan.png
+│       │   ├── ✅about-working.png
+│       │   ├── ✅jumbo-about.png
+│       │   ├── ✅jumbo.jpg
+│       │   ├──✅ lambda-black.png
+│       │   └── ✅pair-program.png
+│       └── ✅index.html
+├── index.html
+└── makefile
+
+
+
+
+
+```
 
 ![wireframe](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screencapture-127-0-0-1-5500-UserInterfaceandGit-Multi-PageWebsite-web-Sprint-Challenge-User-Interface-and-Git-index-html-2021-04-09-13_44_49.png)
 

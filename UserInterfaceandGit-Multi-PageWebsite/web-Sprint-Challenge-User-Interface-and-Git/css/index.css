@@ -120,6 +120,7 @@ blockquote,
 q {
   quotes: none;
 }
+
 /* Selector Specificity: (0, 0, 2) */
 blockquote:before,
 blockquote:after,
