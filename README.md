@@ -109,7 +109,7 @@ _Edit this document to include your answers after each question. Make sure to le
 ---
 <span style="color:red; ">5. Explain why git is valuable to a team of developers.</span>
 
-## Suffice it to say that despite it being partially culpiable the ever so slight balding that has begun for me this year, I feel so passionatly about the utility and potential for GIT-~~HUB~~ and what it stands for that I wrote a '37 minute read long' article on Medium about it.
+## Suffice it to say that despite it being partially culpiable the ever so slight balding that has begun for me this year, I feel so passionatly about the utility and potential for GIT-~~HUB~~ and what it stands for that I wrote a '37 minute long  read ' Medium article about it.
 
 [my medium article](https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107)
  
