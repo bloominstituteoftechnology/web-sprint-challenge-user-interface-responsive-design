@@ -202,3 +202,38 @@ header nav a {
     width: 800px;
     margin: 2% auto;
 }
+.about-content {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.aboutSection img {
+    margin-bottom: 2%;
+}
+.learnButton{
+    width: 50%;
+    height: 35%;
+    text-align: center;
+    border: 3px solid black;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.aboutBottom {
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
