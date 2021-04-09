@@ -84,7 +84,7 @@ _Edit this document to include your answers after each question. Make sure to le
 
 <div align="center">
 
-![bicknborty](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/margin-border-edges. PNG)
+![bicknborty](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/margin-border-edges.PNG)
 
 </div>
 
@@ -115,7 +115,10 @@ _Edit this document to include your answers after each question. Make sure to le
  
 >Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes.  --GitHub Docs
 
-> I know that in the context of a team there are certainly more important features than the one I am about to mention ... but I think the notion of storing version history as a series of diffs rather than standalone snapshots of the entire repository at every commit is brilliantly efficient. Software development is a complex, tedious, and luckily for us costly affair. Hours up to years worth of work can be severely damaged or destroyed in less time than a synapse can fire off from the optic nerve to the brain, and I imagine that during the primordial time that ostensibly predated version control, that  such situations did arise.. and some programmers did stare questioning every decision they ever made while staring up at the sky in a defeated gaze. Today we live in a world where teams can come together to work on a shared goal from any corner of the globe. Without version control, team members are subject to redundant tasks, slower timelines, and multiple copies of a single project. To eliminate unnecessary work, Git and other VCSs give each contributor a unified and consistent view of a project, surfacing work that's already in progress. According to the latest Stack Overflow developer survey, more than 70 percent of developers use Git, making it the most-used VCS in the world.
+> I know that in the context of a team there are certainly more important features than the one I am about to mention ... but I think the notion of storing version history as a series of diffs rather than standalone snapshots of the entire repository at every commit is brilliantly efficient. Software development is a complex, tedious, and ...luckily for us, costly affair. Hours up to years worth of work, can be severely damaged or destroyed in less time than a synapse can fire  from the optic nerve to the brain. I imagine that during the primordial time that ostensibly predated modern version control, such situations did arise.. and some unfortunate programmers did stare up into the sky, questioning every decision they ever made wearing a defeated gaze. Today we live in a world where teams can come together to work on a shared goal from any corner of the globe. Without version control, team members are subject to redundant tasks, slower timelines, and multiple copies of a single project. To eliminate unnecessary work, Git and other VCSs give each contributor a unified and consistent view of a project, surfacing work that's already in progress. According to the latest Stack Overflow developer survey, more than 70 percent of developers use Git, making it the most-used VCS in the world. I don't even have a clue what came before it....
+
+![micro](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/micro.PNG)
+
 
 
 >Finally, I'd like to touch on what I consider to be There's a "Golden Rule of Git" you should know that directly relates to both git reset and git rebase:
@@ -126,10 +129,14 @@ _Edit this document to include your answers after each question. Make sure to le
 
 >Git's most prolific feature is the ability to work with virtually infinite parallel histories that can be used to explore a potential feature or work out a bug and than provides a reliable way to merge them together on an enterprise scale.
 
+---
+---
+---
 
-## Project Set Up
 
-* [ ] Create a forked copy of this project.
+# Project Set Up
+
+* [ ✅] Create a forked copy of this project.
 * [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 * [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
