@@ -151,6 +151,33 @@ footer nav a {
     background-color:teal;,
 }
 
+#boxtwo{
+    background-color:gold;
+}
+#boxthree{
+    background-color:cadetblue;
+}
+#boxfour{
+    background-color:coral;
+}
+#boxfive{
+    background-color:crimson;
+}
+#boxsix{
+    background-color:forestgreen;
+}
+#boxseven{
+    background-color:darkorchid;
+}
+#boxeight{
+    background-color:hotpink;
+}
+#boxnine{
+    background-color:indigo;
+}
+#boxten{
+    background-color:dodgerblue;
+}
 .topNav nav{
     display:flex;
     flex-direction:row;
