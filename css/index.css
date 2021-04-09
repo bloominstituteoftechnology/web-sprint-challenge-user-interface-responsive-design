@@ -184,9 +184,20 @@ footer nav a {
     display:flex;
     justify-content:center;
     padding-bottom:50px;
-    width:100%;
+  
 
 }
 .itemContain img{
-    width:100%;
+    
 }
+
+/*About Page Styles*/
+.building{
+    display:flex;
+    justify-content:center;
+   }
+
+   .firstTwo{
+       display:flex;
+       justify-content:space-between;
+   }
