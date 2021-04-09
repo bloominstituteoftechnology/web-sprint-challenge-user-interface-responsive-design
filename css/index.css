@@ -202,9 +202,11 @@ footer nav a {
 .imgL{
  display:flex;
  align-items:baseline;
- padding-left:6%;
- padding-top:4%;
- margin-top:10px;
+ padding-left:23%;
+ padding-top:8%;
+ margin-top:-100px;
+
+;
 }
 
 .itemContain{
@@ -224,6 +226,7 @@ footer nav a {
 
 .aboutText{
     margin-top:20px;
+    line-height:1.2;
 }
 
 .building{
@@ -231,64 +234,67 @@ footer nav a {
     justify-content:center;
    }
 
+  
+  /*image styling*/
+  
    .firstblock{
        display:flex;
        justify-content:space-between;
        align-items:stretch;
        margin-top:60px;
-      
-    
-   }
-   .secondBlocks{
+       }
+   
+    .secondBlocks{
        display:flex;
        justify-content:space-between;
        margin-top:20px;
        margin-bottom:20px
    }
 
+    /*Text styling */
    .twotexts{
        display:flex;
        margin-top:20px;
        margin-bottom:20px;
       
    }
-   
- 
+
    .bottomtexts{
        display:flex;
    }
+
    .worktogether{
        padding-top:20px;
    }
 
-  
-
    .worktogether{
-       margin-top:30px;
+       margin-top:20px;
        margin-bottom:30px;
    }
 
    .twotexts{
     border-bottom-style:dotted;
     border-width:2px;
-    padding-bottom:50px;
+    padding-bottom:25px;
 
    }
    .bottomtexts{
     border-bottom-style:dotted;
     border-width:2px;
-    padding-bottom:50px;
+    padding-bottom:20px;
 
    }
-   span{
-    width: 20%;
-    height: 60px;
-    background:white;
-    margin: 50px 2.5%;
+  h4{
+    width: 30%;
+    height: 30px;
     color:black;
-    border:solid;
-    border-radius:0.7rem;
-    padding:2%;
+    border:2.5px solid;
+    border-radius:1.5rem;
+    margin-top:20px;
+    margin-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-bottom:10px;
    }
 
 
