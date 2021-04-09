@@ -47,10 +47,12 @@ table {
 	border-spacing: 0;
 }
 
-* {
+*{
     box-sizing: border-box;
+    
+    
 }
-
+/* General Styles */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +71,40 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.container img{
+    margin-left: 32%;
+    width: 10rem
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 1%
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    margin: 0 auto;
+    
+}
+header nav a{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 -19%;
+    width:100%
+}
+.jumbo{
+    background-image: url('../img/jumbo.jpg');
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 5rem;
+    margin-bottom: rem
 }
 
 .top-content {
@@ -101,7 +137,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +146,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +209,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.jumbo-about{
+    background-image:url('../img/jumbo-about.png');
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
 }
