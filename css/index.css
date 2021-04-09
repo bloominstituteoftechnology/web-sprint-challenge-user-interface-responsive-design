@@ -70,7 +70,7 @@ p {
 
 .container {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -91,10 +91,10 @@ a {
 }
 
 header {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .headerPhoto {
@@ -219,12 +219,19 @@ footer nav a {
 
 /* about page */
 
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
 .content {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: row wrap;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 .about {
@@ -233,24 +240,31 @@ footer nav a {
     padding: 2%;
 }
 
+.strategy, .work, .places, .collab {
+    width: 370px;
+}
+
 .bottomPage {
     padding: 5%;
 }
 
-button {
+.dotted {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    padding: 2%;
+    padding: 1%;
+    /* width: 100%; */
 }
 
-/* .content {
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
-}
 
-.bottomSection div img {
-    width: 60%;
-    border-radius: 60%;
-    margin: 5%;
-} */
+button {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    border-width: 3px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5% 0;
+}
