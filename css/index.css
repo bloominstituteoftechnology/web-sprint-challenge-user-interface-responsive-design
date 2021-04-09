@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid grey;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -70,7 +70,26 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+ header nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header nav a{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
+.headerimg{
+   width:100%;
+   padding: 2% 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,15 +120,44 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box1{
+    background:teal;
+}
+.middle-content .boxes .box2{
+    background:gold;
+}
+.middle-content .boxes .box3{
+    background:cadetblue;
+}
+.middle-content .boxes .box4{
+    background:coral;
+}
+.middle-content .boxes .box5{
+    background:crimson;
+}
+.middle-content .boxes .box6{
+    background:forestgreen;
+}
+.middle-content .boxes .box7{
+    background:darkorchid;
+}
+.middle-content .boxes .box8{
+    background:hotpink;
+}
+.middle-content .boxes .box9{
+    background:indigo;
+}
+.middle-content .boxes .box10{
+    background:dodgerblue;
 }
 
 .bottom-content {
