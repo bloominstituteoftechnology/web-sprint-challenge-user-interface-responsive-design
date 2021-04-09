@@ -242,11 +242,13 @@ div.learn-more {
     border-bottom: 1px black dashed;
     width: 95%;
     line-height: 2;
-    padding: 2%;
+    padding: 4%;
+    margin-top: -2%
 }
 
 .about-section {
     background-color: red;
+    padding: 2%;
 }
 
 .jumbo-about{
