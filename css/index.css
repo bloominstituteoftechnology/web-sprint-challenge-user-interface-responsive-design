@@ -69,6 +69,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-content {
@@ -126,9 +130,27 @@ p {
     padding-right: 0;
 }
 
+hr {
+    border: 2px dotted black;
+}
+
+/*****Lift******/
+
+div {
+    padding: 2%;
+
+}
+
+section {
+    padding: 2%;
+}
+
+/***************/
+  
 footer {
     width: 100%;
     background: black;
+    bottom:0;
 }
 
 footer nav {
@@ -143,4 +165,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+header nav a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.about-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    padding: 10%;
+    border-bottom: 1px black dashed;
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+div.learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.about-about {
+    border-bottom: 1px black dashed;
+}
+
+.about-section {
+    background-color: red;
+}
+
+.jumbo-about img{
+    width: 100%;
+}
+
+#teamwork {
+    border-bottom: 1px black dashed;
+    padding: 2%;
+}
+
+.learn-more {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 75%;
+    line-height: 2;
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    
 }
