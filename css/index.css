@@ -145,6 +145,13 @@ navbar logo img added*/
 .box10 {
     background-color: dodgerblue;
 }
+.container-about-page {
+width: 48%;
+padding: 0 1%;
+padding-bottom: 20px;
+}
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
