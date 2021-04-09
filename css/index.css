@@ -77,7 +77,6 @@ p {
     flex-wrap: nowrap;
 }
 . navbar {
-    display:inline-block;
     padding: 1% 0;
     border-radius: 5px;
     width:100%;
@@ -110,9 +109,9 @@ navbar logo img added*/
     flex-wrap:wrap;
 }
 .box {
+    justify-content: space-between;
     height: 400px;
     min-width:  400px; 
-    float:left;
     flex-grow: 1;
 } 
 .box1{

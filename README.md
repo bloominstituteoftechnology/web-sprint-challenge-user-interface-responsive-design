@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the correct use of HTML to reinforce the meaning of content on a web page, rather than merely define its appearance. Semantically correct HTML helps search engines, screen readers, and other user devices determine the significance and context of web content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block; creates a block-level element, whereas display: inline; creates an inline-level element.
+Some examples of block level elements include: div, h1, p, and hr HTML tags.
+Some examples of inline level elements include: a, span, strong, em, b, and i HTML tags.
 
 3. What are the 4 areas of the box model?
 
+In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items property defines the default behavior for how items are laid out along the cross axis (perpendicular to the main axis).For align:items: center; items are centered in the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.Git offers the type of performance, functionality, security, and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is the most widely accepted system owing to its universally accepted usability and performance standards.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
