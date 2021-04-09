@@ -112,6 +112,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +145,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .boxes .box:first-child{
+    background-color:teal;,
+}
+
+.topNav nav{
+    display:flex;
+    flex-direction:row;
+    font-size:1rem;
+    justify-content:center;
+    align-items:flex-end;
+   
+
+}
+
+.navA{
+    text-decoration:none;
+    color:black;
+    border-color:darkblue;
+    width:10%;
+    height:2%;
+    padding-left:150px;
+    padding-bottom:20px;
+    
+    
+}
+.imgL{
+ display:flex;
+ align-items:baseline;
+ padding-left:6%;
+ padding-top:4%;
+ margin-top:10px;
+}
+
+.itemContain{
+    display:flex;
+    justify-content:center;
+    padding-bottom:50px;
+    width:100%;
+
+}
+.itemContain img{
+    width:100%;
 }
