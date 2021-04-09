@@ -165,11 +165,6 @@ footer nav a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 500px) {
-  * {
-    margin-bottom: 20%;
-  }
-}
 header {
     width: 100%;
     display: flex;
@@ -181,7 +176,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 header nav a {
@@ -218,8 +213,9 @@ header nav a:hover {
     align-self: center;
 }
 
-.grid img {
-    width: 100%;
+
+.grid h2 {
+    margin-top: 5%;
 }
 
 .grid-flex {
@@ -236,8 +232,6 @@ header nav a:hover {
     align-items: center;
 }
 
-
-
 div.learn-more {
     display: flex;
     justify-content: center;
@@ -247,13 +241,14 @@ div.learn-more {
 .about-about {
     border-bottom: 1px black dashed;
     width: 95%;
+    line-height: 2;
 }
 
 .about-section {
     background-color: red;
 }
 
-.jumbo-about img{
+.jumbo-about{
     width: 100%;
 }
 
@@ -262,8 +257,12 @@ div.learn-more {
 }
 
 #teamwork {
-    border-bottom: 1px black dashed;
-    padding: 2%;
+    line-height: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: left;
+    padding: 4%;
 }
 
 .learn-more {
