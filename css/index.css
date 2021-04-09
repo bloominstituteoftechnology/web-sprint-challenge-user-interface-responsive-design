@@ -55,7 +55,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header{ width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content:right;
+     padding: 20px 2%; 
+    font-size: 14px;}
+  
+    
+header nav{ width: 40%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+     padding: 20px 4%;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;}
+ 
+header nav a{
+    padding-left:20%;
+    text-decoration:none;
+color: black;
+}
 
+.logo{ padding-left: 40%;}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -104,14 +128,46 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box[alt="box1"]{
+    background-color:teal;
+}
+.middle-content .boxes .box[alt="box2"]{
+    background-color: gold;
+}
 
+.middle-content .boxes .box[alt="box3"]{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box[alt="box4"]{
+    background-color: coral;
+}
+
+.middle-content .boxes .box[alt="box5"]{
+    background-color: crimson;
+}
+.middle-content .boxes .box[alt="box6"]{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box[alt="box7"]{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box[alt="box8"]{
+    background-color: hotpink;
+}
+.middle-content .boxes .box[alt="box9"]{
+    background-color: indigo;
+}
+.middle-content .boxes .box[alt="box10"]{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +199,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+ 
+
+ .middle-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    padding-top: 3%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 2%;
+    
+}
+
+.bottompart {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 4%;
+}
+
+.p2 {
+    padding-bottom: 3%;
+}
+
+button {
+    border-radius: 6px;
+    border: solid 1px black;
+    background-color: white;
+    padding: 10px;
+}
+
+.top-content2 {
+    border-bottom: 1px dotted;
+    padding-bottom: 2%;
 }
