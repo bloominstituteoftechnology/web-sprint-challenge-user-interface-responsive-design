@@ -66,8 +66,7 @@ _Edit this document to include your answers after each question. Make sure to le
 
 >
 
----
-<span style="color:red; ">4. While using flexbox, what axis does the following property work on: ` ` ` align-items: center ` ` `?</span>
+
 
 #### [When laying out a document, the browser's rendering engine represents each element as a rectangular box.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
@@ -109,6 +108,24 @@ _Edit this document to include your answers after each question. Make sure to le
 ![bicknborty](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/oC5cxyw.gif)
 
 </div>
+
+---
+
+<span style="color:red; ">4. While using flexbox, what axis does the following property work on: ` ` ` align-items: center ` ` `?</span>
+
+
+>align-items is essentially the equivalent to  justify-content but perpendicular in their respective axis.
+- align-items:
+> Defines how flexbox items are aligned according to the cross axis, within a row of a flexbox container.
+- The flexbox items are aligned at the center of the cross axis (verticle or y-axis).
+
+### This means the flexbox items will be centered vertically( like a shishkabob held orthagonally to the face of a very hungry Lambda student)
+
+i.e.:
+
+![shish](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screenshots/shishkabob.PNG)
+
+
 
 ---
 <span style="color:red; ">5. Explain why git is valuable to a team of developers.</span>
