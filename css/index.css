@@ -2,6 +2,64 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+.links{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+header nav{
+    width: 100%;
+    top: 0;
+    background-color:rgba(255, 255, 255, 0.8);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:10vh;
+    z-index: 999;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.logo{
+   margin-left: 8%;
+}
+#box1{
+   background-color: teal; 
+}
+#box2{
+  background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
