@@ -74,12 +74,29 @@ p {
     margin: 0 auto;
 }
 
+.container about-page {
+   display: flex;
+   flex-flow:row wrap;
+   align-items: space-around;
+}
+.container-about-page div{
+   margin-top: 30%;
+   width:  50%;
+   margin-bottom: 300px;
+   margin-right: 6%;
+}
+
+
+
 /*NOT SURE ABOUT THIS PART*/
 .logo img {
     display: flex;
     flex-wrap: nowrap;
 }
-. nav-bar {
+.logo {
+    margin-right: 3em;
+}
+.nav-bar {
     padding: 1% 0;
     border-radius: 5px;
     width:100%;
@@ -89,6 +106,33 @@ p {
     background-color: ;*/
 
 }
+
+.mb1{
+    margin-bottom: 1em;
+}
+
+.mt1{
+    margin-top: 1em;
+}
+
+.w50p{
+    width: 50%;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justify-content-center{
+    justify-content: space-between;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
 /*CODE BETWEEN THIS TWO COMMENTS I AM NOT SURE! I WANTED TO CENTER THE NAV ITEMS AND LOGO 
 navbar logo img added*/
 /*box1: `teal`
@@ -111,12 +155,9 @@ navbar logo img added*/
 
 .container-wrapper div{
    margin-top: 3%;
-    width:  12%;
    margin-bottom: 3%;
    margin-right: 6%;
-   height: 100px;
 
-   ;
 }
 
 .flex-container {
@@ -129,11 +170,13 @@ navbar logo img added*/
   margin:0;
 }
 .box {
-    display: flex;
-    justify-content: space-between;
+
     height: 100px;
-    width:  1000px; 
+    width:  100px; 
     flex-grow: 1;
+    line-height: 100px;
+    text-align: center;
+    color:#fff
 } 
 .box1{
     background-color: teal;
@@ -165,11 +208,8 @@ navbar logo img added*/
 .box10 {
     background-color: dodgerblue;
 }
-.container-about-page {
-width: 48%;
-padding: 0 1%;
-padding-bottom: 20px;
-}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
