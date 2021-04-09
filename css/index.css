@@ -99,6 +99,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .middle-content .boxes .box {
@@ -110,6 +111,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .bottom-content {
@@ -143,4 +145,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    font-size: 40px;
 }
