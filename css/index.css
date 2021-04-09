@@ -135,12 +135,12 @@ p {
 /*****Lift******/
 
 div {
-    padding: 2%;
+    padding: 1%;
 
 }
 
 section {
-    padding: 2%;
+    padding: 1%;
 }
 
 /***************/
@@ -181,7 +181,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    margin-top: 7.5%;
+    margin-top: 7%;
 }
 
 header nav a {
@@ -254,6 +254,10 @@ div.learn-more {
 }
 
 .jumbo-about img{
+    width: 100%;
+}
+
+.jumbo {
     width: 100%;
 }
 
