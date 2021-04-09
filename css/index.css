@@ -242,6 +242,7 @@ div.learn-more {
     border-bottom: 1px black dashed;
     width: 95%;
     line-height: 2;
+    padding: 2%;
 }
 
 .about-section {
@@ -270,8 +271,15 @@ div.learn-more {
     background-color: white;
     color: black;
     border: 2px solid black;
-    width: 75%;
+    width: 50%;
     line-height: 2;
+    margin-top: 4%;
+}
+
+.learn-more:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .button {
