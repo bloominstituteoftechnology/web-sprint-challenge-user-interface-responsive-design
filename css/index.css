@@ -187,3 +187,63 @@ footer nav a {
     justify-content: space-around;
     margin-bottom:2%;
 }
+h1{
+    font-size:1.5rem;
+}
+h2{
+    font-size:1.5rem;
+}
+.top-about{
+    margin-bottom:20px;
+    border-bottom:1px dashed black;
+    padding-bottom:2%;
+}
+.middle-about{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-bottom:20px;
+    border-bottom:1px dashed black;
+    padding-bottom:1%;
+}
+.middle-images{
+    display:flex;
+    justify-content:space-between;
+}
+.middle-about .middle-text{
+    width:30%;
+    margin-right:17%;
+    padding:1%; 
+}
+.middle-text p{
+    padding-bottom:5%;
+}
+.button{
+    background:white;
+    border-radius:8px;
+    padding:5% 10%;
+    font-weight:bold;
+}
+.bottom-about{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-bottom:20px;
+    border-bottom:1px dashed black;
+    padding-bottom:1%;
+}
+.bottom-images{
+    display:flex;
+    justify-content:space-between;
+}
+.bottom-about .bottom-text{
+    width:30%;
+    margin-right:17%;
+    padding:1%; 
+}
+.bottom-text p{
+    padding-bottom:5%;
+}
+.pitch{
+    margin:5% auto;
+}
