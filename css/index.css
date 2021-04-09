@@ -133,6 +133,11 @@ p {
     align-items: flex-end;
 }
 
+.learn-more {
+    border: radius;
+    border-radius: 5px;
+}
+
 /*CODE BETWEEN THIS TWO COMMENTS I AM NOT SURE! I WANTED TO CENTER THE NAV ITEMS AND LOGO 
 navbar logo img added*/
 /*box1: `teal`
