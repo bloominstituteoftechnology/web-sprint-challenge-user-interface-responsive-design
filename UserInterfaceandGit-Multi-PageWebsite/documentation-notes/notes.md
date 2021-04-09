@@ -53,8 +53,8 @@ _Edit this document to include your answers after each question. Make sure to le
 
  - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo)
 
-|                                                  |   |
-|---|---|
+|     |     |
+| --- | --- |
 
 
   # <span style="color:blue; "> Please don't merge your own pull request  </span>

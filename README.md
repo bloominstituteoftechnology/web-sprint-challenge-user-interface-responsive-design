@@ -1,5 +1,9 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
+
+![wireframe](./UserInterfaceandGit-Multi-PageWebsite/documentation-notes/screencapture-127-0-0-1-5500-UserInterfaceandGit-Multi-PageWebsite-web-Sprint-Challenge-User-Interface-and-Git-index-html-2021-04-09-13_44_49.png)
+
+
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
 ## Instructions
@@ -170,6 +174,51 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
+
+```css
+
+.box-1 {
+  background-color: teal;
+}
+
+.box-2 {
+  background-color: gold;
+}
+
+.box-3 {
+  background-color: cadetblue;
+}
+
+.box-4 {
+  background-color: coral;
+}
+
+.box-5 {
+  background-color: crimson;
+}
+
+.box-6 {
+  background-color: forestgreen;
+}
+
+.box-7 {
+  background-color: darkorchid;
+}
+
+.box-8 {
+  background-color: hotpink;
+}
+
+.box-9 {
+  background-color: indigo;
+}
+
+.box-10 {
+  background-color: dodgerblue;
+}
+
+
+```
 
 ### About Page
 
