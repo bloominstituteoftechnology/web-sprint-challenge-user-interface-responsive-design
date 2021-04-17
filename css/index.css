@@ -68,25 +68,21 @@ nav {
     justify-content: center;
 }
 .container-alpha{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: block;
+    padding-left: 5%;
 }
 .container-bravo{
-    display: flex;
-    flex-direction: row;
-    align-items: space-around;
+    display:block;
 }
+
 .container-charlie{
-    display: flex;
-    flex-direction: row;
-    align-items: space-around;
+    padding-left: 3%;
 }
+
 .container-delta{
-    display: flex;
-    flex-direction: row;
-    align-items: space-around;
+    padding-left: 5%;
 }
+
 .mid-container {
     display:flex;
     justify-content: center;
@@ -131,6 +127,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+
 }
 
 .middle-content h2 {
