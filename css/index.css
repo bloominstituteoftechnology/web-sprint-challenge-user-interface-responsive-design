@@ -281,9 +281,18 @@ footer nav a {
     text-decoration: none;
 }
 
+.entire-about-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 button {
     border: solid black 2px;
     text-decoration: none;
     background-color: white;
     border-radius: 20px;
+}
+
+.about-section {
+    display: flex;
 }
