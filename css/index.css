@@ -3,78 +3,160 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-/* CSS RESET ABOVE *//* CSS RESET ABOVE *//* CSS RESET ABOVE *//* CSS RESET ABOVE */
+/* CSS RESET ABOVE */ /* CSS RESET ABOVE */ /* CSS RESET ABOVE */ /* CSS RESET ABOVE */
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-header{
+header {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
     width: 100%;
-    padding-left:0%;
+    padding-left: 0%;
 }
-header ul{
+header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 30%;
 }
-header div{
+header div {
     padding: 1% 1% 1% 3%;
-    margin: 0%; 
+    margin: 0%;
 }
-header ul a{
+header ul a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -82,17 +164,21 @@ header ul a{
     padding: 6%;
     padding-bottom: 2%;
 }
-ul a{
+ul a {
     text-decoration: none;
     text-align: center;
     color: black;
     font-size: 70%;
     padding: 3%;
 }
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 p {
     line-height: 1.4;
@@ -114,9 +200,9 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
-.top-content img{
+.top-content img {
     padding-bottom: 3%;
 }
 
@@ -136,7 +222,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes > div{
+.middle-content .boxes > div {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -145,34 +231,34 @@ p {
     align-items: center;
     justify-content: center;
 }
-.box1{
+.box1 {
     background: teal;
 }
-.box2{
+.box2 {
     background: gold;
 }
-.box3{
+.box3 {
     background: cadetblue;
 }
-.box4{
+.box4 {
     background: coral;
 }
-.box5{
+.box5 {
     background: crimson;
 }
-.box6{
+.box6 {
     background: forestgreen;
 }
-.box7{
+.box7 {
     background: darkorchid;
 }
-.box8{
+.box8 {
     background: hotpink;
 }
-.box9{
+.box9 {
     background: indigo;
 }
-.box10{
+.box10 {
     background: dodgerblue;
 }
 
