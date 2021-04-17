@@ -46,7 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.top-contents h1{
+    text-align: left;
+}
+.container alpha{
+    display: flex;
+    flex-direction: row;
+}
 * {
     box-sizing: border-box;
 }
