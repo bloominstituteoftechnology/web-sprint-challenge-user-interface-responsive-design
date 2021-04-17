@@ -144,3 +144,122 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display:flex;
+    justify-content: center; 
+    width: 53%;
+    margin: auto;  
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+.jumbo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 100%;
+}
+
+
+/* about css */
+.jumbo-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 100%;
+}
+
+h3{
+    border: 2px solid red;
+    border-radius: 5px;}
+
+    .about{
+        width: 100%;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right:20px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .section1, .section2{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    
+    .unit{
+        padding-left: 20px;
+        padding-right: 20px;
+    
+        border-bottom: 1px dashed black;
+        border-width: 20%;
+    }
+    
+    .section3{
+        width: 100%;
+        padding: 10px 10px 30px 10px;
+    }
+    .section1 p, .section2 p{
+        padding-bottom: 20px;
+    }
+    
+
+
+
+
+
+
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
