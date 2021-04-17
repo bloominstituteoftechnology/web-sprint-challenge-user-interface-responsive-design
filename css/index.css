@@ -279,3 +279,75 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
+.line {
+    border-bottom: 2px dotted black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.container1 h2 {
+    margin-top: 20px;
+}
+
+.container1 p {
+    margin-top: 25px;
+}
+
+.container1 button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+}
+
+.line2 {
+    border-bottom: 2px dotted black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container2 h2 {
+    margin-top: 20px;
+}
+
+.container2 p {
+    margin-top: 25px;
+}
+
+.container2 button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+}
+
+.line3 {
+    border-bottom: 2px dotted black;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container3 p {
+    margin-bottom: 50px;
+}
