@@ -64,22 +64,30 @@ h1, h2, h3, h4, h5 {
 
 header {
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
     margin: 10px;
     padding: 10px;
 }
 
-.top-nav {
+header img {
     display: flex;
-    justify-content: space-between;
+    justify-self: flex-end;
+}
+
+header nav a {
+    display: inline-flex;
+    text-decoration: none;
     color: black;
-    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
 }
 
 .top-img {
     display: flex;
     justify-content: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 
