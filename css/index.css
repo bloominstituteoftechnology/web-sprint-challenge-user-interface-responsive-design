@@ -55,7 +55,27 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+nav {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items:baseline;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+}
+.topnav{
+    color:black;
+    text-decoration: none;
+}
+.high{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
