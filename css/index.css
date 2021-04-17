@@ -71,7 +71,6 @@ header {
 
 header img {
     display: flex;
-    justify-self: flex-end;
 }
 
 header nav a {
@@ -80,7 +79,6 @@ header nav a {
     color: black;
     margin: 10px;
     padding: 10px;
-    justify-self: flex-start;
 }
 
 .top-img {
@@ -281,4 +279,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    border: solid black 2px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
 }
