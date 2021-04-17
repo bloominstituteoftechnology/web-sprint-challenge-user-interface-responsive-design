@@ -62,6 +62,27 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+}
+
+.top-img {
+    display: flex;
+    justify-content: center;
+}
+
+
 p {
     line-height: 1.4;
 }
@@ -101,15 +122,124 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: rgb(158, 148, 148);
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    background-color: teal;
+}
+
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: gold;
+}
+
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: coral;
+}
+
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
