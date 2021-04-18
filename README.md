@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is HTML Mark-up with descriptive tags to help you and others know what the content will be. It helps with accessibility and SEO (Search Engine Optimization) - this helps search engines find your content. Examples of semantic HTML tags would be <section><header><footer><nav>. Examples of non-semantic HTML would be <div><span>. Non semantic code is useful for styling and structure but not order.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Display block displays content in a block format, you can set a height and width on the property. Display inline keeps the information inline like <span> to add special properties to some text - like bold or strong. - it does not go to the next line, you cannot place height and width on inline elements.
 
 3. What are the 4 areas of the box model?
+The 4 areas of the box model starting with the innermost box are 1.content 2.padding 3.border 4.margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+All of the align-items and content display on the cross-axis which runs from top to bottom. Justify properties display on the main-axis which runs from left to right.
 
 5. Explain why git is valuable to a team of developers.
+Git is crucial to a team of developers because it keeps track of all of their progress and allows a project to be updated by different developers locally and then uploaded or 'pushed' to a remote cloud. The project can be merged and edited by the team collectively and individually allowing for multiple team members to collaborate on one project simultaneously!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -49,12 +54,12 @@ You are expected to be able to answer all these questions. Your responses contri
 - [x] Create a forked copy of this project.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
