@@ -71,6 +71,46 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+       
+}
+.logo-nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+nav {
+    /* background-color: crimson; */
+    width: 75%;
+    height: 25px;
+    display: flex;
+   
+}
+
+header nav a {
+   /* border: 1px solid black; */
+   text-decoration: none;
+   color: #302f2f;
+   padding: 3px 2%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+  width: 60%;
+   
+   
+}
+header nav a:hover {
+    border-bottom: 3px solid #302f2f;
+    color: rgb(244, 0, 0);
+    font-size: large;
+    transition: .5s; 
+}
+.main-img {
+    margin: 5% 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +183,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    border-bottom: 3px solid #ffffff;
+    color: rgb(244, 0, 0);
+    font-size: large;
+    transition: .5s; 
 }
