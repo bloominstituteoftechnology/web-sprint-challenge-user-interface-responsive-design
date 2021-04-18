@@ -144,3 +144,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*^^^added css reset^^^*/
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    align-items: baseline;    
+}
+
+li {padding: 2.5rem;
+}
+
+.container{
+    padding-top: ;
+    padding-bottom: ;
+}
+
+
+
+
+
+
