@@ -56,8 +56,6 @@ nav li{
     display: flex;
     flex-direction: row;
     flex: 1 1 100%;
-
-
 }
 ol, ul {
 	list-style: none;
@@ -137,11 +135,42 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 
-.middle-content .boxes .box {
+
+.middle-content .boxes {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: white;
     margin: 20px 2.5%;
     color: white;
     display: flex;
