@@ -170,6 +170,10 @@ ul a {
     font-size: 70%;
     padding: 3%;
 }
+ul a:hover{
+    background: black;
+    color: white;
+}
 h1,
 h2,
 h3,
