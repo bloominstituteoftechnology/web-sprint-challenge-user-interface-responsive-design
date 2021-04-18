@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +70,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 header {
@@ -82,11 +84,13 @@ header {
     align-items: flex-end;
     justify-content: space-between;
 }
-nav {
+header nav {
     /* background-color: crimson; */
     width: 75%;
     height: 25px;
     display: flex;
+    justify-content: space-between;
+    font-size: 14px;
    
 }
 
@@ -98,8 +102,6 @@ header nav a {
    display: flex;
    align-items: flex-end;
    justify-content: space-between;
-  width: 60%;
-   
    
 }
 header nav a:hover {
@@ -109,8 +111,9 @@ header nav a:hover {
     transition: .5s; 
 }
 .main-img {
-    margin: 5% 0;
+    margin: 3% 0;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,13 +147,46 @@ header nav a:hover {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box.box-1{
+    background: #97e3f4;
+}
+.box.box-2{
+    background-color: #85b6c1;
+}
+.box.box-3{
+    background-color: #fa61b5;
+}
+.box.box-4{
+    background-color: #2ba953;
+}
+.box.box-5{
+    background-color: #ffba08; 
+}
+.box.box-6{
+    background-color: #e85d04;
+}
+.box.box-7{
+    background-color: #dc2f02 ;
+}
+.box.box-8{
+    background-color:#9d0208 ;
+}
+.box.box-9{
+    background-color: #6a040f;
+}
+.box.box-10{
+    background-color: #370617 ;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -190,4 +226,68 @@ footer nav a:hover {
     color: rgb(244, 0, 0);
     font-size: large;
     transition: .5s; 
+}
+
+/* about styles */
+
+.about-content {
+   
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.about-content .about-text-container {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px; 
+}
+
+
+.about-middle-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    /* contains top 2 boxes */
+}
+
+.about-middle-section .about-box {
+    width: 45%;
+   
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    /* puts image and content in a column */
+}
+
+.about-box h2{
+    margin-top: 3%;
+}
+
+
+button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px 0;
+    background-color: white; 
+    width: 150px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+.about-bottom {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5% 0;
+    
+
 }
