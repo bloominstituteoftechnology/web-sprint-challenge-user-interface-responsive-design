@@ -71,6 +71,40 @@ p {
     margin: 0 auto;
 }
 
+#topHeader {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    margin-top: 22px;
+}
+
+#lambda {
+    align-self:center;
+    margin-bottom: 28px;
+    margin-right: -14rem;
+}
+
+#navBar {
+    display:flex;
+    margin-left: 15rem;
+}
+
+.navBox {
+    color: black;
+    padding: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navBox a {
+    text-decoration: none;
+}
+
+#jumbo {
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +146,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +217,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#aboutMidContent {
+    display: flex;
+
+}
+
+#aboutBotContent {
+    display: flex;
+}
+
+.contentBlock {
+    max-width:26rem;
+    margin:2rem auto;
+}
+
+#closingSection {
+	margin-bottom:2rem;
 }
