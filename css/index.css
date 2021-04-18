@@ -164,3 +164,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.strat{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
