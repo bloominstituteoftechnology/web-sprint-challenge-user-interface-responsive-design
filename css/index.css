@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
 }
@@ -129,6 +130,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    position: bottom;
 }
 
 footer nav {
@@ -143,4 +145,93 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background-color: #10999c;
+}
+
+#box2 {
+    background-color: #e3dd32;
+}
+
+#box3 {
+    background-color: #79c9af;
+}
+
+#box4 {
+    background-color: #f79d0c;
+}
+
+#box5 {
+    background-color: #e80e0e;
+}
+
+#box6 {
+    background-color: #1adb09;
+}
+
+#box7 {
+    background-color: #be51ed;
+}
+
+#box8 {
+    background-color: #f257fa;
+}
+
+#box9 {
+    background-color: #6b11ba;
+}
+
+#box10 {
+    background-color: #0d95b8;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+
+}
+
+header img {
+    padding-bottom: 20px;
+}
+
+nav a {
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 25px;
+}
+
+.about-page .middle-content {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-page .middle-content p {
+    text-align: left;
+    padding: 5px;
+}
+
+.about-page .text-container {
+    width: 47%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content img {
+    width: 100%;
+    padding: 10px;
+}
+
+.about-page button {
+    border: 24px 8px solid black;
+    border-radius: 6px;
+    background: white;
+    color: black;
 }
