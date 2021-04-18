@@ -140,6 +140,7 @@ body {
 }
 header {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     justify-content: center;
     width: 100%;
@@ -147,6 +148,7 @@ header {
 }
 header ul {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     justify-content: center;
     width: 30%;
@@ -157,6 +159,7 @@ header div {
 }
 header ul a {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     justify-content: center;
     align-items: center;

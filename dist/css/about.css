@@ -142,6 +142,7 @@ body {
 }
 header {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     justify-content: center;
     width: 100%;
@@ -149,6 +150,7 @@ header {
 }
 header ul {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     justify-content: center;
     width: 50%;
@@ -159,6 +161,7 @@ header div {
 }
 header ul a {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -197,6 +200,7 @@ text-align: center;
 }
 .container-about-page .box1 {
     display: flex;
+    /* Put items up and down */
     flex-direction: column;
     width: 100%;
     text-align: left;
@@ -211,6 +215,7 @@ h3 {
 }
 .grid-1 {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     width: 100%;
     padding-top: 2%;
@@ -219,6 +224,7 @@ h3 {
 }
 .grid-1 div {
     display: flex;
+    /* Put items up and down */
     flex-direction: column;
     justify-items: center;
     text-align: left;
@@ -243,6 +249,7 @@ h3 {
 }
 .grid-2 {
     display: flex;
+    /* Put items left to right */
     flex-direction: row;
     width: 100%;
     padding-top: 2%;
@@ -251,6 +258,7 @@ h3 {
 }
 .grid-2 div {
     display: flex;
+    /* Put items up and down */
     flex-direction: column;
     justify-items: center;
     text-align: left;
