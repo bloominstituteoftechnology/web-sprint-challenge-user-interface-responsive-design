@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+*{
+    outline: 1px solid red;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -35,9 +37,21 @@ body {
 float: left;
 }
 nav{
-    float: right;
+    margin: 1%;
+    padding-left: 2%;
+    display: inline-block;
 }
-
+nav ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+align-content: space-between;
+}
+nav li{
+    display: inline-block;
+    margin: left: 0px;
+    padding-top: 15px;
+}
 .middle-content{
     display: flex;
     flex-direction: row;
@@ -98,6 +112,15 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-buttons {
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+}
+.top-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -156,5 +179,6 @@ footer nav {
 
 footer nav a {
     color: white;
+    background-color: black;
     text-decoration: none;
 }
