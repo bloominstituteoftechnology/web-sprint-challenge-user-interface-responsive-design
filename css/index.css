@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS Reset Above */
+
 * {
     box-sizing: border-box;
 }
@@ -65,10 +67,28 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+a{
+    text-decoration: none;
+}
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: black;
+    padding-top: 2rem;
+}
+
+.headerImage{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .top-content {
@@ -104,14 +124,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.teal{
+   background-color: teal;
+}
+.gold{
+    background-color: gold;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+.coral{
+    background-color: coral;
+}
+.crimson{
+    background-color: crimson;
+}
+.forestgreen{
+    background-color: forestgreen;
+}
+.darkorchid{
+    background-color: darkorchid;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.indigo{
+    background-color: indigo;
+}
+.dodgerblue{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -132,15 +181,19 @@ footer {
 }
 
 footer nav {
+    height: 3.5rem;
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: .5rem 2rem;
     font-size: 14px;
 }
 
 footer nav a {
+    margin: 0 1.5rem;
     color: white;
     text-decoration: none;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem;
 }
