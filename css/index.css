@@ -56,6 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -65,6 +66,39 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+header {
+    display: block;
+}
+
+header section {
+    height: 60px;
+    margin-bottom: 40px;  
+}
+
+header section img {
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    position: center;
+    flex-direction: row;
+    align-content: space-between;
+    width: 78%;
+    align-items: baseline;
+
+}
+
+header section nav a {
+    text-decoration: none;
+    margin-right: 45px;
+    margin-left: 45px;
+    color: black;
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+}
+
 
 .container {
     width: 800px;
@@ -76,13 +110,63 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 15px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+
+.top-container {
+    border-bottom: 1px dashed black;
+
+}
+
+.text-container-about {
+    height: 40%;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    
+}
+.myFlexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services {
+    margin-top: 60px;
+    border-bottom: 1px dashed black;
+    width: 48%;
+}
+
+.services img {
+    width: 100%;
+}
+
+.LMButton {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 13px;
+    margin: 10px 0px 20px 0px;
+}
+
+.bottom-content-ab {
+    margin: 30px 10px 30px 10px;
+}
+
+.Bot-Cont {
+    font-family: 'Roboto', sans-serif;
 }
 
 .middle-content {
@@ -111,6 +195,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#box1 {background-color: teal;}
+#box2 {background-color: gold;}
+#box3 {background-color: cadetblue;}
+#box4 { background-color: coral;}
+#box5 { background-color: crimson;}
+#box6 { background-color: forestgreen;}
+#box7 {background-color: darkorchid;}
+#box8 {background-color: hotpink;}
+#box9 {background-color: indigo;}
+#box10 {background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
