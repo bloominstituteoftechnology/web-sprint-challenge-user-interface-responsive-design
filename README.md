@@ -38,8 +38,8 @@ Semantic HTML elements are those that clearly discribe their meaning in a readab
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-display: block= element is displayed as a block and has a line break before and after the element.
-display: inline- inside the current block on the same line with no line breaks before or after the element
+display: block= element is displayed as a block and has a line break before and after the element. Also, allows height and width and top/bottom margins to be set
+display: inline- inside the current block on the same line with no line breaks before or after the element and only takes up as much width as possible
 
 3. What are the 4 areas of the box model?
 
@@ -48,6 +48,7 @@ content, padding, border, margin
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 cross-axis
+
 5. Explain why git is valuable to a team of developers.
 
 Git tracks the changes you make to files.  It is a record of that has been done and can be reverted to specific versions if necessary.  Git makes collaberation easier and allows changes from multiple pople to be merged into the same source.
