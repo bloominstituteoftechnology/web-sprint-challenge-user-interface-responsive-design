@@ -102,6 +102,10 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container h2  {
+    margin-left: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -137,6 +141,10 @@ header nav a {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container h2 {
+    margin-left: 20px;
 }
 
 .bottom-content .text-container:last-child {
@@ -200,4 +208,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about h1, p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+
+.middle-content-about .text-container-about {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 375px;
+    border-bottom: 1px dashed black;
+    text-align: left;
+}
+
+.middle-content-about h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+ }
+
+.middle-content-about p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+ }
+
+.middle-content-about .text-container-about a {
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bottom-content-about {
+    margin-bottom: 20px;
+}
+
+.bottom-content-about h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bottom-content-about p {
+    margin-left: 20px;
 }
