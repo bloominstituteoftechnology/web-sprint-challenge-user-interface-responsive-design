@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+/*  Styles BEGIN here */
+
+
 * {
     box-sizing: border-box;
 }
@@ -62,6 +65,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h2 {
+  font-weight: 900;
+  margin-bottom: 3%;
+}
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +77,28 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2% auto;
+}
+
+header nav ul li a {
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a:hover {
+  color: crimson;
+}
+
+header img {
+  margin-top: 1.838%;
+  margin-bottom: 5.577%;
 }
 
 .top-content {
