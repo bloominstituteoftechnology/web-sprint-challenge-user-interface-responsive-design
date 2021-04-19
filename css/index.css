@@ -101,14 +101,15 @@ nav a{
     width: 800px;
     margin: 0 auto;
 }
-
-#jumbo-about{
-   margin: 15px;
-   background-size: cover;
-   background-position: center center;
-   background-image: url(imageUrl);
+.head-photo{
+    width:100%;
+    display:flex;
+    justify-content: center;;
 }
-
+#jumbo-about{
+    width: 85%;
+   margin: 15px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +137,15 @@ nav a{
 #jumbo{
     margin: 15px;
 }
-
+.about {
+    width: 100%;
+    padding:20px;
+    border-bottom: 2px dotted black;
+}
+.top-section {
+    display: inline;
+    border: 1px solid black;
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -266,8 +275,7 @@ footer {
     height:100px;
     background: black;
     display:flex;
-    justify-content: left;
-    
+    justify-content: left;   
 }
 
 footer nav {
