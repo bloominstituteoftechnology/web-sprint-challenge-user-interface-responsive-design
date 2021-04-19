@@ -64,11 +64,14 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+  
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width:800px;
+    margin-left:500px;
+  
+    
 }
 
 .top-content {
@@ -129,30 +132,32 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
-    width: 60%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
-#head-img{
-    display:inline;
+div .head-img{
+    display:inline-block;
+  
+   
 }
 header nav a{
     text-decoration:none;
     color: black;
     margin-left:30px;
     display: inline-flex;
-    flex-direction: row;
     justify-content: center;
 } 
 div #box-1{
@@ -185,14 +190,74 @@ div #box-9{
 div #box-10{
     background-color:dodgerblue ;
 }
-div .section{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
  a {
      text-decoration: none;
      color: black;
      border:10px;
      padding: grey;
+    }
+ .flex-container{
+   width:80%;
+   
+}
+.about-header{
+    margin-left:700px;
+}
+.top-img{
+    margin-left:550px;
+}
+.row-1{
+    display: inline-flex;
+    margin:40px 0 50px 400px;
+}
+.row-2{
+    display: inline-flex;
+    margin: 30px 0 50px 400px
+}
+.p-style{
+    margin-left: 80px;
+}
+.top-content2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    border-bottom: 1px dashed black;
+}
+.border-bottom{
+    border-bottom: 2px dashed black;
+    margin-right:150px;
+}
+.border-bot2{
+    border-bottom: 2px dashed black;
+    margin-right:150px;
+}
+.border-row{
+    border-bottom: 2px dashed black;
+    margin-right:150px;
+}
+.border-line{
+    border-bottom: 2px dashed black;
+    margin-right:150px;
+}
+.learn-more{
+    margin-top:20px;
+    border:3px solid black;
+    width:70px;
+    background-color:white;
+    font-style: italic;
+}
+h6{
+    font-size: 20px;
+    margin-bottom:20px;
+}
+.let-work{
+    margin-left:80px;
+    margin-bottom: 20px;
+}
+ .footer{
+    width: 100%;
+    background: black;
+    margin-left:70px;
  }
