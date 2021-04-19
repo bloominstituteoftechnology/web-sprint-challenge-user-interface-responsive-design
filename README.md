@@ -38,7 +38,7 @@ Semantic HTML is used to define more meaning and gives a better understanding on
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-```display: block;``` is 
+```display: block;``` is able to take up several lines and ```display: inline;``` is within one single line
 
 3. What are the 4 areas of the box model?
 
