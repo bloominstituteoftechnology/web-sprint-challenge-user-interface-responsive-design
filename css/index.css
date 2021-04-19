@@ -65,7 +65,84 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    display: block;
+}
+header section{
+    height: 60px;
+    margin-bottom: 40px; 
+}
+#lambda{
+    margin-top: 20px;
 
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    margin-left: 160px;
+    margin-top: -35px;
+    
+}
+header nav a {
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+header img{
+    margin-bottom: 20px;
+}
+
+#about{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -55px;
+    margin-left: 20px;
+    
+    
+}
+.infobox{
+    margin-top: 60px;
+    border-bottom: 1px dashed black;
+    width:47.5%;
+    padding-bottom: 20px;
+    
+    
+}
+.learn{
+    text-decoration: none;
+    color:black;
+}
+.flexcontainer h2{
+    margin-top: 12px;
+}
+.flexcontainer p{
+    margin-bottom: 20px;
+
+}
+.bottominfo{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.infobox a {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 7px 23px;
+    font-size: 13px;
+    margin: 10px 0px 20px 0px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,6 +178,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,7 +189,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#first{
+    background-color: teal;
+}
+#second{
+    background-color: gold;
+}
+#third{
+    background-color: cadetblue;
+}
+#fourth{
+    background-color: coral;
+}
+#fifth{
+    background-color: crimson;
+}
+#sixth{
+    background-color: forestgreen;
+}
+#seventh{
+    background-color: darkorchid;
+}
+#eighth{
+    background-color: hotpink;
+}
+#ninth{
+    background-color: indigo;
+}
+#tenth{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
