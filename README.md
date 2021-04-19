@@ -34,27 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way of organizing your HTML code so that it is more legible for yourself, other coders, and even screen readers in order to determine the different secitons of your web page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block allows for a line break for each element on an HTML web page, while inline allows elements to sit directly next to each other when rendered on the screen.
 
 3. What are the 4 areas of the box model?
 
+The four elements of the block model would be the content, then padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items: center works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows for version management. Git allows people to see what stage a project's in, changes that were made, and merge their code with others. If at some point something breaks, you could always refer back to a prior commitment on a project to reset back to what works. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -89,7 +99,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x] Copy and paste your home page navigation and header into the about page
 * [x] Update the header image with the about page image
 * [x] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
