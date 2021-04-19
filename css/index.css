@@ -305,17 +305,16 @@ button {
 }
 
 .all-content {
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
-    margin: 10px 10px 10px 160px;
+    margin: 10px 0px 10px 160px;
     padding: 10px;
 }
 
 .strat-how {
     display: flex;
-    flex-flow: row wrap;
-    margin: 10px;
-    padding: 10px;
+    flex-flow: row;
+
 }
 
 .strategy {
@@ -324,13 +323,30 @@ button {
     padding: 10px;
 }
 
+.strat-title {
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
 .how-section {
     border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.how-title{
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
 }
 
 .places-collab {
-    display: inline-flex;
-    flex-flow: row wrap;
+    display: flex;
+    flex-flow: row;
     margin: 10px;
     padding: 10px;
 }
@@ -341,10 +357,24 @@ button {
     padding: 10px;
 }
 
+.places-title {
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
 .collab {
     border-bottom: dotted black 3px;
     margin: 10px;
     padding: 10px;
+}
+
+.collab-title {
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
 }
 
 
