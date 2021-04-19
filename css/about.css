@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header .logo {
+    border-width: 10%;
+    border: 1px solid red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-top: -3%;
+    margin-left: 6%;
+    color: red;
+}
+
+.aboutjumbo {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 100%;
+}
+
+.headerabout {
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%
+}
+
+.aboutpage h2 {
+    /* border: 1px solid red; */
+    font-size: 50px;
+    color: sienna;
+}
+
+button {
+    /* border: 1px solid red; */
+    padding: 1%;
+    color: red;
+    font-size: 25px;
+}
+
+.aboutpage p {
+    /* border: 1px solid red; */
+    font-size: 35px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.picturesection {
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.lwt {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer nav a {
+    color: red;
+    text-decoration: none;
+    margin-left: -30;
+    font-size: 40px;
+    margin-top: 7%;
+}
+
+.lwt {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+}
