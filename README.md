@@ -32,15 +32,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1.	If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic elements tell the browser and developer its content. Such as the semantic element <header> describes its position and purpose which is to display the page’s header.
 
-3. What are the 4 areas of the box model?
+2.	Name two big differences between display: block; and display: inline;.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The display property defines how a box and any boxes inside of it behaves. Display:block; tells the browser to render the inline element in a block box rather than an inline box. Then using display:inline; tells the browser to display in an inline box not on a new line.
 
-5. Explain why git is valuable to a team of developers.
+Elements in a block formatting display as boxes laid out one after the other, vertically, beginning at the top of a containing block. In an inline formatting boxes are laid out horizontally, one after the other beginning at the top of a containing block.
+
+3.	What are the 4 areas of the box model?
+
+Every box has four parts defined by their respective edges: content are bounded by the content edge, padding area bounded by padding edge, border area bounded by the border edge, and margin area bounded by the margin edge. 
+
+4.	While using flexbox, what axis does the following property work on: align-items: center?
+
+This works on the cross axis on the current the current line.
+
+5.	Explain why git is valuable to a team of developers.
+
+Git is designed to handle big or small projects. Teams can collaborate and work on multiple branches independently.  Merging and creating lines of code is made easy by Git. Git allows the staging of projects where changes can be reviewed before completing commits to the repository. Git also allows users to share and change ideas easy and fast because all operations are performed locally. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
