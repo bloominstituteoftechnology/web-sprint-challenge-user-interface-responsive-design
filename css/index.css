@@ -112,6 +112,42 @@ p {
     justify-content: center;
 }
 
+
+
+.boxes .box.box1{
+    background:teal;
+}
+.boxes .box.box2{
+    background:gold;
+}
+.boxes .box.box3{
+    background:cadetblue;
+}
+.boxes .box.box4{
+    background:coral;
+}
+.boxes .box.box5{
+    background:crimson;
+}
+.boxes .box.box6{
+    background:forestgreen;
+}
+.boxes .box.box7{
+    background:darkorchid;
+}
+.boxes .box.box8{
+    background:hotpink;
+}
+.boxes .box.box9{
+    background:indigo;
+}
+.boxes .box.box10{
+    background:dodgerblue;
+}
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -132,15 +168,43 @@ footer {
 }
 
 footer nav {
+    
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    height:150px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    
+}
+
+header {
+    padding:30px;
+    height:100px;
+    width:90%;
+    display:flex;
+    
+}
+
+.logo{
+    margin-left:250px;
+}
+
+a{
+    margin:40px;
+    text-decoration:none;
+    color:black;
+    padding-top:6rem;
+    font-size:13px;
+    
+}
+
+.image-container{
+        margin-bottom:20px;
 }
