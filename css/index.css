@@ -102,6 +102,13 @@ nav a{
     margin: 0 auto;
 }
 
+#jumbo-about{
+   margin: 15px;
+   background-size: cover;
+   background-position: center center;
+   background-image: url(imageUrl);
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
