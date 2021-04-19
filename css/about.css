@@ -64,10 +64,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 2%;
+    padding: 15px 2%;
     font-size: 14px;
     margin:10px;
-  
 }
 
 footer nav a {
@@ -86,7 +85,7 @@ header {
 }
 
 .logo{
-    margin-left:19%;
+    margin-left:25.5%;
 }
 
 .topnav{
@@ -107,10 +106,16 @@ nav{
 }
 /*Header and Footer navs*/
 
+.opening{
+    margin-left:20px;
+    margin-right:20px;
+    border-bottom: 1px dashed black;
+}
 
 .section{
     display:flex;
     justify-content:space-between;  
+    
 }
 
 p {
@@ -122,7 +127,7 @@ p {
 .middle-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -148,4 +153,8 @@ h2{
     background:white;
 }
 
+.closing{
+    margin-left:20px;
+    margin-right:20px;
+}
 
