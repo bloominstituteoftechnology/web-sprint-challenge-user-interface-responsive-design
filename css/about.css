@@ -49,5 +49,21 @@ table {
 
 /*^^^implemted css reset^^^*/
 
+.image-container{
+	border: 1px solid red;
+}
+
+.container-about-page{
+	}
+
+.top-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.bottom-row{
+	display: flex;
+	flex-direction: row;
+}
 
 
