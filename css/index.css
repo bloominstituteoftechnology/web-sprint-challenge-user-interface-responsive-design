@@ -96,7 +96,15 @@ nav a{
 	font-size: 20px;
 	color: black;
 }
+.learn-more{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 35% ;
+    padding:5px;
+    color:black;
+    text-decoration: none;
 
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +119,7 @@ nav a{
    margin: 15px;
 }
 .top-content {
+    width: 1600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -143,8 +152,19 @@ nav a{
     border-bottom: 2px dotted black;
 }
 .top-section {
-    display: inline;
-    border: 1px solid black;
+    display: inline-flex;
+    padding-top:25px;
+    padding-bottom: 50px;
+
+}
+.mid-section {
+    display: inline-flex;
+    padding-top:25px;
+    padding-bottom: 50px;
+}
+.plan{
+    border-bottom: 2px dotted black;
+    
 }
 .middle-content .boxes {
     display: flex;
