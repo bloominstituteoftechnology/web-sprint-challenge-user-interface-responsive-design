@@ -80,13 +80,13 @@ p {
 }
 
 #lambda {
-    align-self:center;
+    align-self: center;
     margin-bottom: 28px;
     margin-right: -14rem;
 }
 
 #navBar {
-    display:flex;
+    display: flex;
     margin-left: 15rem;
 }
 
@@ -99,6 +99,7 @@ p {
 
 .navBox a {
     text-decoration: none;
+    color: black;
 }
 
 #jumbo {
@@ -219,6 +220,11 @@ footer nav a {
     text-decoration: none;
 }
 
+#aboutTopContent {
+    border-bottom: black dashed 1px;
+    margin-left: 1rem;
+}
+
 #aboutMidContent {
     display: flex;
 
@@ -229,10 +235,26 @@ footer nav a {
 }
 
 .contentBlock {
-    max-width:26rem;
+    padding-bottom: 2rem;
+    max-width:23rem;
     margin:2rem auto;
+    border-bottom: black dashed 1px;
+    position: relative;
+}
+
+.navButton {
+    text-decoration: none;
+    border: black solid 2px;
+    padding: 8px 25px;
+    border-radius: .75em;
+    color: black;
 }
 
 #closingSection {
-	margin-bottom:2rem;
+	margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.aboutP {
+    margin-bottom: 2rem;
 }
