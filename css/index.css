@@ -286,6 +286,8 @@ button {
     text-decoration: none;
     background-color: white;
     border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .about-section {
@@ -302,6 +304,13 @@ button {
     align-self: flex-start;
 }
 
+.all-content {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 10px 10px 160px;
+    padding: 10px;
+}
+
 .strat-how {
     display: flex;
     flex-flow: row wrap;
@@ -310,13 +319,34 @@ button {
 }
 
 .strategy {
-    display: flex;
-    flex-flow: column wrap;
     border-bottom: dotted black 3px;
     margin: 10px;
     padding: 10px;
-    justify-self: flex-start;
 }
+
+.how-section {
+    border-bottom: dotted black 3px;
+}
+
+.places-collab {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+.places{
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.collab {
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
 
 .work-together {
     display: flex;
