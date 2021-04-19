@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header img {
+    margin-top: 0%;
+    margin-left: 15%;
+   
+}   
+
+.top_nav {
+    float: right;
+    word-spacing: 150px;
+    padding-bottom: 5%;
+    margin-right: 15%;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    width: 200px;
+    height: 60px;
+    border: 3px solid black;
+    background: white;
+    color: black;
+    margin: 10px; 
+    text-align: center;
+    border-radius: 25px;
+    
+}
+
+.header_img img{
+    width: 82%;
+    object-fit: contain;
+    margin-left: 9%;
+    image-rendering: 100%;
+
+}
+.container_about_page{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3%;
+    
+}
+
+.top_container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 10%;
+    font-size: large;
+   
+}
+.top_container img{
+    width: 80%;
+}
+
+.Strategy_text{
+    text-align: left;
+    width: 80%;
+}
+
+.How_text{
+    text-align: left;
+    width: 80%;
+}
+.Places_text{
+    text-align: left;
+    width: 80%;
+}
+.Collaboration_text{
+    text-align: left;
+    width: 80%;
+}
+.bottom_container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 10%;
+    font-size: large;
+}
+.bottom_container img{
+    width: 80%;
+}
+.bottom_p{
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  
+}
+footer {
+    width: 80%;
+    background: black;
+    margin: auto;
+    
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
