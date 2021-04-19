@@ -144,3 +144,126 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .middle-content .boxes #box1 {
+    background-color:teal;
+}
+.container .middle-content .boxes #box2 {
+    background-color:gold;
+}
+.container .middle-content .boxes #box3 {
+    background-color:cadetblue;
+}
+.container .middle-content .boxes #box4 {
+    background-color:coral;
+}
+.container .middle-content .boxes #box5 {
+    background-color:crimson;
+}
+.container .middle-content .boxes #box6 {
+    background-color:forestgreen;
+}
+.container .middle-content .boxes #box7 {
+    background-color:darkorchid;
+}
+.container .middle-content .boxes #box8 {
+    background-color:hotpink;
+}
+.container .middle-content .boxes #box9 {
+    background-color:indigo;
+}
+.container .middle-content .boxes #box10 {
+    background-color:dodgerblue;
+}
+
+.container-about-page h2 {
+    margin:0.5rem;
+}
+
+.container-about-page .about-p {
+    border-bottom: 1px dashed;
+    margin: 10px;
+    padding: 15px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+
+.body-container a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    border: black solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.body-container img {
+    width: 320px;
+}
+
+.body-container p {
+    margin: 15px;
+}
+
+.body-container .body-container1 {
+    border-bottom: 1px dashed;
+    margin: 10px;
+    padding: 15px;
+    width: 40%;
+    
+}
+
+.body-container .body-container2 {
+    border-bottom: 1px dashed;
+    margin: 10px;
+    padding: 15px;
+    width: 40%;
+}
+
+.body-container .body-container3 {
+    border-bottom: 1px dashed;
+    margin: 10px;
+    padding: 15px;
+    width: 40%;
+}
+
+.body-container .body-container4 {
+    border-bottom: 1px dashed;
+    margin: 10px;
+    padding: 15px;
+    width: 40%;
+}
+
+.closer p {
+    margin: 40px;
+}
+
+.closer h2 {
+    margin: 40px;
+}
+
