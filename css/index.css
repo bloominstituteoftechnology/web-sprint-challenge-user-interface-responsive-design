@@ -49,22 +49,41 @@ table {
 
 * {
     box-sizing: border-box;
-    
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 header {
-    width: 100%;
-    
+    width: 100%;  
+}
+.about {
+    border-bottom: thin dashed;
+    padding: 2%;
+    margin: 2%;
+}
+.top-middle {
+    display: flex;
+    flex-direction: row;
+    border-bottom: thin dashed;
+    padding: 2%;
+    margin: 2%;
+}
+.bottom-middle {
+    display: flex;
+    flex-direction: row;
+    border-bottom: thin dashed;
+    padding: 2%;
+    margin: 2%;  
+}
+.item {
+    width: 50%;
+    text-align: center;        
 }
 .logo img {
     width: 100%;
@@ -75,8 +94,8 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    width: 63%;
-    margin-left: auto;
+    width: 60%;
+    margin-left: 19%;
     margin-right: 20%;
     padding: 20px 2%;    
 }
@@ -86,21 +105,33 @@ nav a{
     font-size: 14px;  
 }
 .jumbo {
-    width: 55%;
+    width: 50%;
     padding: 20px 2%;
-    margin-left: auto;
+    margin-left: 24%;
     margin-right: auto;    
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.aboutImageContainer {
+    display: column;   
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.button {
+    border-radius: 15px;
+    background: transparent;
+    padding: 15px;
+    padding-bottom: 30px;
+    width: 150px;
+    height: 10px;
+    font-size: 18px;   
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -108,29 +139,24 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -178,19 +204,19 @@ p {
     padding-right: 0;
 }
 footer {
-    width: 100%;
-    background: black;
+    width: 100%;   
+    margin-left: -20%;
 }
 footer nav {
-    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
+    background: black;
+    width: 100%; 
+    color: white;
 }
 footer nav a {
     color: white;
-    text-decoration: none;
+    margin-left: -20%;
+    margin-right: 10%;
 }
