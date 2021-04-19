@@ -3,7 +3,10 @@
    License: none (public domain)
 */
 *{
-    outline: 1px solid red;
+    box-sizing: border-box;
+    max-width: 950px;
+    padding: 10% 10% 10% 10%;
+
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,11 +36,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.logo{
-float: left;
-}
-nav{
-    margin: 0%;
+nav a{
+    margin: 20px;
     padding-left: 0%;
     display: inline-block;
 }
@@ -49,7 +49,7 @@ align-content: space-between;
 }
 nav li{
     display: inline-block;
-    margin: left: 0px;
+    margin-left: 0px;
     padding-top: 15px;
 }
 ol, ul {
@@ -66,10 +66,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 html, body {
@@ -109,16 +105,28 @@ li {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-.top-buttons {
-        margin-bottom: 20px;
-        border-bottom: 1px dashed black;
+.top-container1{
+    margin: 10px;
+}
+.top-container2{
+    margin: 10px;
 }
 .break{
-    margin-top: 2%;
+    display: flex;
+    max-width: 100%;
     align-content: center;
 }
 .top-paragraphs {
     display: flex;
+    border-bottom: 1px dashed black;
+}
+.box{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 7%;
+padding-bottom: 5%;
 }
 
 .middle-content {
@@ -128,44 +136,8 @@ li {
 
 .middle-content h2 {
     padding: 3 2%;
-    margin-bottom: 0;
+    margin-bottom: 0 auto 0 10px;
     align-content: center;
-}
-
-.boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.box1{
-    background-color: teal;
-}
-.box2{
-    background-color: gold;
-}
-.box3{
-    background-color: cadetblue;
-}
-.box4{
-    background-color: coral;
-}
-.box5{
-    background-color: crimson;
-}
-.box6{
-    background-color: forestgreen;
-}
-.box7{
-    background-color: darkorchid;
-}
-.box8{
-    background-color: hotpink;
-}
-.box9{
-    background-color: indigo;
-}
-.box10{
-    background-color: dodgerblue;
 }
 
 .middle-content .boxes {
@@ -174,6 +146,9 @@ li {
     background: white;
     margin: 20px 0%;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .bottom-content {
@@ -201,12 +176,12 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer nav a {
     color: white;
     background-color: black;
     text-decoration: none;
-    margin: 22px;
+    margin: 12px;
 }
