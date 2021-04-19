@@ -64,6 +64,24 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+} 
+
+.header {
+    width: 100%;
+    border:1px solid black;
+
+   
+}
+
+.header nav {
+    border:1px solid black;
+    list-style: none; 
+   
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
 }
 
 .container {
