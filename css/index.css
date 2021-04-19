@@ -281,11 +281,6 @@ footer nav a {
     text-decoration: none;
 }
 
-.entire-about-page {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 button {
     border: solid black 2px;
     text-decoration: none;
@@ -295,4 +290,43 @@ button {
 
 .about-section {
     display: flex;
+    flex-flow: column wrap;
+    margin: 10px 100px 10px 100px;
+    padding: 10px 100px 10px 100px;
+    align-items: center;
+    border-bottom: dotted black 3px;
+}
+
+.about-title {
+    margin: 10px 10px 10px 0px;
+    align-self: flex-start;
+}
+
+.strat-how {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+.strategy {
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+}
+
+.work-together {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 100px 10px 100px;
+    padding: 10px 100px 10px 100px;
+    align-items: center;
+}
+
+.work-together-title {
+    margin: 10px 10px 10px 0px;
+    align-self: flex-start;
 }
