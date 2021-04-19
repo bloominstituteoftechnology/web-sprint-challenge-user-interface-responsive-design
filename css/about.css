@@ -1,0 +1,126 @@
+.container.about-page {
+    width: 800px;
+    margin: auto;
+    header {
+      align-items: center;
+      width: 100%;
+      nav {
+        display: flex;
+        align-items: center;
+        img {
+          height: 40px;
+          width: 157px;
+          margin: 0px;
+        }
+
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          padding-top: 20px;
+          width: 100%;
+  
+          li {
+            list-style-type: none;
+  
+            a {
+              text-decoration: none;
+              color: black;
+              &:hover {
+                color: #c08243;
+              }
+            }
+          }
+        }
+      }
+      img {
+        margin-top: 1.838%;
+        width: 100%;
+      }
+    }
+    .test {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .top-sect {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1.2px dotted black;
+        margin: 0 auto 25px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h2 {
+        margin-bottom: 3%;
+        width: 93%;
+        font-weight: 900; 
+          }
+      }
+
+      p {
+        width: 93%;
+        margin-bottom: 20px;
+      }
+    }
+    .middle-sect {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+  
+      .four-div {
+        width: 45%;
+        margin: 12px 7px;
+        border-bottom: 1px dotted black;
+        img {
+          width: 100%;
+        }
+        h2 {
+          margin: 5px auto;
+        }
+        p {
+          margin: 4px auto 15px;
+        }
+        button {
+          padding: 7px 15px;
+          margin-bottom: 15px;
+          border: 1px solid black;
+          border-radius: 12px;
+          font-size: 1.07rem;
+          &:hover {
+            background-color: peachpuff;
+            color: maroon;
+          }
+        }
+      }
+  
+      .places-work,
+      .collab {
+        margin-top: 35px;
+      }
+    }
+  
+    .btm-sect {
+      width: 96%;
+      margin: 25px auto;
+    }
+    footer {
+      nav {
+        background-color: black;
+        padding: 17px;
+        margin-bottom: 0px;
+        a {
+          margin: auto 20px;
+          color: white;
+          text-decoration: none;
+          &:hover {
+            color: burlywood;
+          }
+        }
+      }
+    }
+  }
