@@ -75,45 +75,53 @@ header li {padding: 2.5rem;
 .container-about-page{
 	display: flex;
 	justify-content: center;
-	padding: 2rem;
+	align-items:center;
 }
 
 .image-container{
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-top:1px dotted;
+	border-top:1px dotted black;
+}	
 	
-}
-
 .image-section1{
-	display: flex;
-	flex-direction: row;
-	justify-content:center;
-	border-bottom:1px solid black dotted;
-	padding: 1rem;
+	border-bottom:1px dotted black dotted;
+	
 }
 
 .image-section2{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	border-top:1px dotted solid black;
-	padding: 1rem;
-
+	border-top:1px dotted black;
 }
 
 
-	
+
+.pic1{
+	border:1rem solid brown;
+	display: flex;
+	justify-content: center;
+}
+
+.pic2{
+	display:flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.pic3{
+	display: flex;
+	justify-content: center;
+	padding: 2rem
+}
+
+.pic4{
+	display:flex;
+	justify-content: center;
+	padding: 2rem;
+}
 
 .container-work-together{
 	display: flex;
 	justify-content: center;
-	padding: 2rem;
-	
+	align-items:center;
 }
-
-
 
 footer {
     background: black;
