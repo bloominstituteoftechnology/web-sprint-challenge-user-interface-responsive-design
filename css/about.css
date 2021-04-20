@@ -49,11 +49,7 @@ table {
 
 /*^^^implemted css reset^^^*/
 
-.top-banner{
-	display: flex;
-	justify-content: center;
 
-}
 
 
 
@@ -71,21 +67,22 @@ header ul {
 header li {padding: 2.5rem;
 }
 
-
-
-
- .container-about-page{
-	display:flex;
+.top-banner{
+	display: flex;
 	justify-content: center;
-	padding: 2rem;
-	margin-left: 10rem;
 }
 
+.container-about-page{
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
 
 .image-container{
 	flex-direction: column;
 	justify-content: center;
-	width: 100%;
+	border-top:1px dotted;
+	padding: 2rem;
 }
 
 .image-section1{
@@ -93,7 +90,6 @@ header li {padding: 2.5rem;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-
 	width: 100%;
 }
 
@@ -103,44 +99,24 @@ header li {padding: 2.5rem;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	img
 }
 
-.image-container img{
-	align-items: center;
-	width: 100%;
-}
-
-section{
+.container-work-together{
 	display: flex;
+	justify-content: center;
 	padding: 2rem;
-	justify-content: center;
 }
 
-footer{
+
+.footer-nav{
 	display: flex;
 	justify-content: center;
+
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-	border: 1rem solid red;
-}
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
 
-.footer-container{
-	display: flex;
-	justify-content: center;
-	background: black;
-	border: solid salmon;
-}
+
+
+
 
