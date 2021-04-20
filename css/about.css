@@ -51,9 +51,7 @@ table {
 
 
 
-header{
-	
-}
+
 
 .header-container{
     display: flex;
@@ -78,7 +76,7 @@ li {padding: 2.5rem;
 .container-about-page{
 	display:flex;
 	justify-content: center;
-	text-align:center;
+	background-color: palevioletred;
 
 	}
 
