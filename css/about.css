@@ -81,25 +81,33 @@ header li {padding: 2.5rem;
 .image-container{
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	border-top:1px dotted;
-	padding: 2rem;
+	
 }
 
 .image-section1{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	justify-content:center;
 	border-bottom:1px solid black dotted;
+	padding: 1rem;
 }
 
 .image-section2{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 	border-top:1px dotted solid black;
+	padding: 1rem;
+
 }
+
+.image-container p{
+	margin-right:30rem;
+
+}
+	
 
 .container-work-together{
 	display: flex;
@@ -127,6 +135,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
 
 
 
