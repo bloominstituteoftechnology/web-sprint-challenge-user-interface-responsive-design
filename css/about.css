@@ -90,7 +90,7 @@ header li {padding: 2.5rem;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	border-bottom:1px solid black dotted;
 }
 
 .image-section2{
@@ -98,20 +98,34 @@ header li {padding: 2.5rem;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	border-top:1px dotted solid black;
 }
 
 .container-work-together{
 	display: flex;
 	justify-content: center;
 	padding: 2rem;
+	
 }
 
 
-.footer-nav{
-	display: flex;
-	justify-content: center;
 
+footer {
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem ;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
 
 
