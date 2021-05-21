@@ -121,6 +121,20 @@ a{
     margin: 0 2% 4% 2%;
 }
 
+/* Boxes Color */
+.boxes:nth-child(1){
+    background-color: teal;
+    /* background-color: gold;
+    background-color: cadetblue;
+    background-color: coral;
+    background-color: crimson;
+    background-color: forestgreen;
+    background-color: darkorchid;
+    background-color: hotpink;
+    background-color: indigo;
+    background-color: dodgerblue; */
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -162,6 +176,36 @@ a{
     justify-content: center;
 }
 
+/* Boxes Color */
+.middle-content .boxes :nth-child(2){
+    background-color: gold;
+    }
+.middle-content .boxes :nth-child(3){
+    background-color: cadetblue;
+    }
+.middle-content .boxes :nth-child(4){
+    background-color: coral;
+    }
+.middle-content .boxes :nth-child(5){
+    background-color: crimson;
+    }
+.middle-content .boxes :nth-child(6){
+    background-color: forestgreen;
+    }
+.middle-content .boxes :nth-child(7){
+    background-color: darkorchid;
+    }
+.middle-content .boxes :nth-child(8){
+    background-color: hotpink;
+    }
+.middle-content .boxes :nth-child(9){
+    background-color: indigo;
+    }
+.middle-content .boxes :nth-child(10){
+    background-color: dodgerblue;
+    }
+
+    
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
