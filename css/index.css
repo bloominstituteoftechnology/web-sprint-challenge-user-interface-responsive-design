@@ -71,6 +71,56 @@ p {
     margin: 0 auto;
 }
 
+/* My Heading Work and Picture */
+header{
+    display: flex;
+    padding: 3%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items:flex-end;
+}
+a{
+    text-decoration: none;
+}
+.top-img{
+    margin-bottom: 2%;
+}
+
+/* About Page Top Text */
+.top-text{
+    padding: 0 2% 2% 2%;
+    border-bottom: dotted black 1.5px;
+    margin-bottom: 3%;
+}
+
+/* Middle Gallery */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block{
+    width: 48%;
+    padding-bottom: 2%;
+    border-bottom: dotted black 1.5px;
+    margin-bottom: 5%;
+}
+.block button{
+    margin-top: 4%;
+    padding: 2% 6%;
+    border-radius: 7px;
+    background-color: white;
+}
+.block h2{
+    margin-top: 3%;
+}
+.bottom-text{
+    margin: 0 2% 4% 2%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
