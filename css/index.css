@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,8 +46,12 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
+*{
+    box-sizing:border-box;
+    max-width:100%;
+
+    margin:0;
+    padding:0;
 }
 
 html, body {
@@ -142,5 +145,35 @@ footer nav {
 
 footer nav a {
     color: white;
+}
+a{
     text-decoration: none;
+}
+header{
+    width: 800px;
+    margin: 2.5% auto;
+    
+}
+header nav .linkbar{
+    width:800px;
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+
+.linkbar .links a{
+    color:black;
+    font-size: 14px;
+    /* margin: 0 0 0 12.5% */
+}
+.links{
+    width:600px;
+    display:flex;
+    justify-content:space-around;
+}
+.bg-img{
+    background-image: url(../img/jumbo.jpg);
+    height:153px;
+    width:800px;
+    margin:2.5% auto;
 }
