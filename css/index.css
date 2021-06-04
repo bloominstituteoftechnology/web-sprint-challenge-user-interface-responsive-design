@@ -128,7 +128,7 @@ p {
 
 /*Fill the boxes*/
 .box1,.box2,.box3,.box4,.box5,.box6,.boxy7,.box8,.box9,.box10{
-    justify-self: auto;
+    justify-self: center;
     flex-wrap: wrap;
 }
 
@@ -173,7 +173,7 @@ p {
     background-color: #1e90ff;
 }
 
-
+/* struggling with reshaping and sorting of boxes after coloring*/
 
 
 
@@ -213,15 +213,14 @@ header nav a{
 }
 
 /*ABOUT SECTION*/
-
-.containerAboutPage{
+/*section background image won't post. Trying to figure out why*/
+.heroImg{
     height: 50vh;
     background-image: url("img/jumbo-about.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    
-}
+ }
 
 .main{
     display: flex;
