@@ -37,13 +37,16 @@
 header {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
     justify-content: space-around;
 }
-.logo {
-    background-image: url(../img/lambda-black.png);
-    background-position: top center;
-    background-repeat: none;
-    background-size: cover;
-    width: 10%;
-    height: 10%;
+a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
 }
