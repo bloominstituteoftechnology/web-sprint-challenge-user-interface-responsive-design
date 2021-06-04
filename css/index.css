@@ -126,6 +126,42 @@ p {
     padding-right: 0;
 }
 
+
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+header nav a{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+/*ABOUT SECTION*/
+.containeraboutpage{
+    width: 80%;
+    height: 10%;
+    padding: 10px;
+    background-image: url("img/jumbo-about.png");
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
 footer {
     width: 100%;
     background: black;
