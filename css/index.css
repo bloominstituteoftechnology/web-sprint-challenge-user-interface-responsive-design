@@ -146,13 +146,11 @@ footer nav a {
 }
 header{
     width: 100%;
+    margin:4%;
     background: black;
 }
 header nav{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -169,6 +167,43 @@ header nav{
 .image-container{
     width:100%;
     height:200px;
-    border: 1px solid black;
+    margin: 4%;
+    padding: 20px;
     background-image: url(https://images.unsplash.com/photo-1608402772686-2d1726f45d7c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1066&q=80);
 }
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+.nav links{
+    display:flex;
+}
+ul li a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
