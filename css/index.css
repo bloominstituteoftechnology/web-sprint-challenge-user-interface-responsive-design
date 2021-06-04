@@ -314,6 +314,13 @@ footer nav a {
     margin-bottom: 3%;
 }   
 
+.container2{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
 .topAbout {
     display: flex;
     flex-wrap: wrap;
@@ -321,38 +328,46 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding-bottom: 3%;
+    margin-left: 2%;
 }
 
-/*divider*/
-.TwoBoxTop {
+/* Middle section with four boxes*/
+
+.aboutImg {
+    width: 100%;
+}
+
+.FourBoxAbout {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: center;
+    width: 800px;
+
+    
 }
 
 .aboutBox1 {
-   
+    
+    width: 49%;
     border-bottom: 1px dotted black;
     padding: 2%;
+    
 }
 .aboutBox2 {
-    
+    width: 49%;
     border-bottom: 1px dotted black;
     padding: 2%;
 }
 
-/*divider*/
-.TwoBoxBottom {
-    display: flex;
-    justify-content: space-between;  
-}
+
 .aboutBox3 {
-   
+    width: 49%;
     border-bottom: 1px dotted black;
     padding: 2%;
 }
 .aboutBox4 {
-    
+    width: 49%;
     border-bottom: 1px dotted black;
     padding: 2%;
 }
@@ -363,6 +378,16 @@ footer nav a {
 
 .AboutBottom {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 3%;
+    margin-left: 2%;
+    padding-top: 4%;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 2%;
 }
