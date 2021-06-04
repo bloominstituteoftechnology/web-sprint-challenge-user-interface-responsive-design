@@ -51,11 +51,13 @@ table {
 /*#region*/
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -79,29 +81,36 @@ p {
 /*#region*/
 
 header {
+    width: 800px;
+    margin: 1% auto;
+}
+
+.navbar {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    align-items: stretch;
 }
 
-header div {
+.navbar a {
+    text-decoration: none;
+    width: 20%;
+    font-size: .9rem;
+}
+
+.header-top {
     display: flex;
     align-items: baseline;
-}
-
-header nav {
+    
+    justify-content: space-around;
+    margin: 0 0 5% 0;
     
 }
-
-header nav a {
-    text-decoration: none;
+.header-top img {
+    margin: 0 8% 0 0;
 }
 
-
-
 .header-img {
-      
+      margin: 2% auto;
 }
 /*#endregion*/
 
@@ -152,6 +161,48 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
+
+/* BOX COLORS */
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+  }
+
+  .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+  }
+
+  .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+  }
+
+  .middle-content .boxes .box:nth-child(4) {
+    background: coral;
+  }
+
+  .middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+  }
+
+  .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+  }
+
+  .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+  }
+
+  .middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+  }
+
+  .middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+  }
+
+  .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+  }
 
 /*#endregion*/
 
