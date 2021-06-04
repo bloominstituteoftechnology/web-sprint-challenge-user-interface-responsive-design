@@ -132,6 +132,10 @@ table {
 
 /* General Page Settings*/
 
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -147,22 +151,25 @@ h6 {
 
 p {
   line-height: 1.4;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  font-family: "Rubik", sans-serif;
 }
 
 /* top nav bar with lambda logo on left side */
 .top-nav {
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
 header nav {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px 2%;
   font-size: 14px;
 }
 
@@ -172,7 +179,8 @@ header nav {
 }
 
 .top-nav img {
-  width: 100%;
+  width: 90%;
+  padding-bottom: 10%;
 }
 
 header nav a {
@@ -183,8 +191,10 @@ header nav a {
 /*Picture across top of page*/
 
 .jumbo-container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .jumbo-container img {
   width: 100%;
@@ -192,37 +202,146 @@ header nav a {
 }
 
 /* about section */
-
 .about-section {
+  width: 75%;
+  margin: 0 auto;
+  border-bottom: 1px dashed black;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-  width: 60%;
+  margin-bottom: 2%;
+}
+
+.about-section p {
+  padding-bottom: 2%;
 }
 
 /* middle section */
-.middle-section {
+.middle {
   margin-bottom: 2%;
-  border-bottom: 1px dashed black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.middle-section img {
+.middle img {
   display: flex;
   flex-wrap: wrap;
   padding-top: 2%;
   padding-bottom: 2%;
-  border-bottom: 1px dashed black;
+  width: 35vh;
+  margin-top: 5%;
 }
 
-.middle-section button {
+.middle button {
   margin-top: 2%;
 }
 
-.middle-section div img {
+.middle img {
   padding-bottom: 2%;
 }
 
+.strat {
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+.work {
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+/* bottom section */
+
+.bottom {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bottom img {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 35vh;
+  margin-top: 10%;
+}
+
+.bottom button {
+  margin-top: 2%;
+}
+
+.places {
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+.collab {
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+/* Together Section*/
+
+.together-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.together p {
+  align-content: center;
+}
+
+/* Footer Section */
+footer {
+  width: 80%;
+  background: black;
+  margin: 0 auto;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Button Section */
+button {
+  font-family: "Roboto", sans-serif;
+  padding: 2% 7%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+/* Debug Color Identifiers*/
+
 .debug {
   border: 1px solid gray;
+}
+
+.debug1 {
+  border: 1px solid red;
+}
+
+.debug2 {
+  border: 1px solid blue;
+}
+
+.debug3 {
+  border: 1px solid greenyellow;
 }
