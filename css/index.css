@@ -179,3 +179,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*---- ABOUT PAGE ----*/
+#bottom-border{
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+
+}
