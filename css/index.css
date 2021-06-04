@@ -70,7 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px auto;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+.jumbo{
+    width: auto;
+    margin: 25px auto;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
