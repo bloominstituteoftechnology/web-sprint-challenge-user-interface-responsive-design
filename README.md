@@ -33,7 +33,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-Semantic HTML tags are elements tgat descibe their meaning between Human and Skynet
+Semantic HTML tags are elements that descibe their meaning between Human and Skynet
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 inline-block does not add a line-break after the element, so the element can sit next to other elements
 3. What are the 4 areas of the box model?
