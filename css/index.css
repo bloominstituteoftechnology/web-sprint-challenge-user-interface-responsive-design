@@ -246,3 +246,60 @@ footer nav a {
 }
 
 /*#endregion*/
+
+/* ABOUT PAGE STYLES */
+/*#region*/
+
+.container about-page {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 3%;
+    /* justify-content: space-evenly; */
+}
+
+.about-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3%;
+}
+
+.about-top {
+    width: 100%;
+    justify-content: center;
+    padding: 2% 3%;
+    border-bottom: 1px dashed black;
+    /* align-items: center; */
+}
+
+.about-box {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding: 3% 2%;
+    margin: 4% 0;
+    
+}
+
+.about-box img {
+
+}
+
+.about-box h2 {
+    margin: 3% 0;
+}
+
+.about-box p {
+    margin: 6% 0;
+}
+.about-box a {
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:5% 0;
+    padding:1.5% 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;;
+}
+/*#endregion*/
