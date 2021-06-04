@@ -251,12 +251,13 @@ footer nav a {
 /*#region*/
 
 
+.container_about-page {
+    width: 100%;
+}
 
 .about-top {
-    width: 100%;
     padding: 2% 3%;
     border-bottom: 1px dashed black;
-    
 }
 
 .about-content {
@@ -264,16 +265,14 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     margin: 0 4%;
-    
-    
+    justify-content: space-evenly;
 }
 
 .about-content .about-box {
-    width: 50%;
+    width: 45%;
     border-bottom: 1px dashed black;
     padding: 5% 0;
     margin: 4% 0;
-    /* border: 1px solid gray; */
     
 }
 
@@ -285,7 +284,6 @@ footer nav a {
     margin: 6% 0;
 }
 .about-box a {
-    
     border: 2px solid black;
     border-radius: 10px;
     margin:5% 0;
