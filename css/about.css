@@ -327,21 +327,3 @@ button {
   background-color: white;
   margin-bottom: 5%;
 }
-
-/* Debug Color Identifiers*/
-
-.debug {
-  border: 1px solid gray;
-}
-
-.debug1 {
-  border: 1px solid red;
-}
-
-.debug2 {
-  border: 1px solid blue;
-}
-
-.debug3 {
-  border: 1px solid greenyellow;
-}
