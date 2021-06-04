@@ -56,6 +56,50 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    max: width 100%;
+    height:auto;
+}
+.lambda-logo{
+    display: flex;
+    align-items:left;
+    width: 860px;
+    max: width 100%;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin: 0 auto;
+}
+
+.lambda-navbar{
+    display: flex;
+    align-items:right;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 860px;
+    max: width 100%;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin: 0 auto;
+}
+
+.header-nav-list ul{
+    margin:1em 0 .5em;
+    text-align: center;
+}
+.header-nav-list li {
+    display:inline;
+}
+.header-nav-list a{
+    display:inline-block;
+    padding: .5em 1.5em;
+}
+
+.jumbo{
+    max: width 100%;
+    height:auto;
+    
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -82,7 +126,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    padding-top:20px; 
 }
 
 .middle-content {
