@@ -95,7 +95,7 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -105,24 +105,36 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 30px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-
-.about{
+.containeraboutpage{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10%;
+    border: 1px black;
+}
+
+.about, .container, .how, .places, .collab, .together{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 
 /*Fill the boxes*/
+.box1,.box2,.box3,.box4,.box5,.box6,.boxy7,.box8,.box9,.box10{
+    justify-self: auto;
+    flex-wrap: wrap;
+}
+
 .box1{
-    background-color:#008080;
+    background-color:#008080;1
+    padding: 10%;
 }
 
 .box2{
@@ -201,17 +213,23 @@ header nav a{
 }
 
 /*ABOUT SECTION*/
-.containeraboutpage{
-    width: 80%;
-    height: 10%;
-    padding: 10px;
+
+.containerAboutPage{
+    height: 50vh;
     background-image: url("img/jumbo-about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
     
 }
 
 .main{
     display: flex;
     justify-content: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*FOOTER*/
