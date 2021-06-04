@@ -56,42 +56,17 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-img{
-    max: width 100%;
-    height:auto;
-}
-.lambda-logo{
-    display: flex;
-    align-items:left;
-    width: 860px;
-    max: width 100%;
-    padding-top: 20px;
-    padding-bottom:20px;
-    margin: 0 auto;
+.header-nav-list {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 4em 0em 2em 0em;
+    width:800px;
 }
 
-.lambda-navbar{
-    display: flex;
-    align-items:right;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 860px;
-    max: width 100%;
-    padding-top: 20px;
-    padding-bottom:20px;
-    margin: 0 auto;
-}
-
-.header-nav-list ul{
-    margin:1em 0 .5em;
-    text-align: center;
-}
-.header-nav-list li {
-    display:inline;
-}
-.header-nav-list a{
-    display:inline-block;
-    padding: .5em 1.5em;
+a{
+    color:black;
+    text-decoration:none;
 }
 
 .jumbo{
@@ -146,15 +121,44 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color:gold;
+}
+.box3{
+    background-color:cadetblue;
+}
+.box4{
+    background-color:coral;
+}
+.box5{
+    background-color:crimson;
+}
+.box6{
+    background-color:forestgreen;
+}
+.box7{
+    background-color:darkorchid;
+}
+.box8{
+    background-color:hotpink;
+}
+.box9{
+    background-color:indigo;
+}
+.box10{
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -188,4 +192,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.section2 {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+button{
+    border-radius: 8px;
+    padding:8px;
+    background-color:white;
+    color:black;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.section3{
+    padding: 20px;
+
+}
+hr{
+    border-bottom:2px dotted;
+    margin-bottom:20px;
+}
+#about{
+    padding-top:20px;
 }
