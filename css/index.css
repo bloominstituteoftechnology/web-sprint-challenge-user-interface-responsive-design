@@ -144,3 +144,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;;
+}
+.logo{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    width:60%;
+    display:flex;
+    justify-content:space-evenly;
+}
