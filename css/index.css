@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -179,5 +179,88 @@ a{
     text-align:center;
     margin-top:1%;
     margin-bottom:2%
+}
+
+.top{
+    width:100%;
+    margin:4%;
+    
+}
+.top-middle,.top-bottom{
+    width:100%;
+    display:flex;
+    flex-flow: row;
+    margin-top:6%;
+}
+.one1,.two2,.three3,.four4 {
+    width:50%;  
+}
+.one1,.three3{
+    margin-right:1.7%;
+}
+
+.two2,.four4{
+    margin-left:1.7%;
+}
+
+.bottom{
+    margin-top:6%;
+    margin-bottom:5%;
+    margin-left:2%;   
+}
+h2{
+    margin-top:2.5%;
+}
+
+button{
+    margin:4%;
+    font-family: 'Roboto', sans-serif;
+    padding-left:6%;
+    padding-right:6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius:10px;
+    background-color:white;
+    font-size:1rem;   
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.pics{
+    margin:2%;
+}
+
+.boxes div:first-child{
+    background:teal;
+}
+.boxes div:last-child{
+    background:dodgerblue;
+}
+.boxes div:nth-child(2){
+    background:gold;
+}
+.boxes div:nth-child(3){
+    background:cadetblue;
+}
+.boxes div:nth-child(4){
+    background:coral;
+}
+.boxes div:nth-child(5){
+    background:crimson;
+}
+.boxes div:nth-child(6){
+    background:forestgreen;
+}
+.boxes div:nth-child(7){
+    background:darkorchid
+}
+.boxes div:nth-child(8){
+    background:hotpink;
+}
+.boxes div:nth-child(9){
+    background:indigo
 }
 
