@@ -39,6 +39,7 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin: 1rem 0 0;
 }
 nav {
     width: 100%;
@@ -56,6 +57,10 @@ a {
 .panel-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    border-top: dotted black 1px;
 }
 .panel {
     width: 100%;
