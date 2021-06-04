@@ -51,7 +51,7 @@ Align-items refers to the cross axis so align-items: center; will align items ce
 
 5. Explain why git is valuable to a team of developers.
 
-
+Git is valuable to a team of developers because it allows to them to keep track of history of changes made to files without the need to email each other back and forth. It saves time and allows teams to work together in their projects. Git is a distributed version control system meaning anyone can share updates without relying on a centralized system. If a server goes down, users can still syncronize work among each other. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

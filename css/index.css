@@ -402,3 +402,43 @@ button {
     border-radius: 8px;
     padding: 2%;
 }
+
+
+/* product page */
+
+.Products {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.productvideo {
+    
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;
+}
+
+ .buttonLast {
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;   
+} 
+
+.JoinButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 5px;
+    color: black
+}
+
