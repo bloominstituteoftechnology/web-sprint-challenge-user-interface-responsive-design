@@ -128,29 +128,28 @@ table {
   border-spacing: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
+/* CSS reset above this line*/
 
-html,
-body {
-  height: 100%;
-  font-family: "Roboto", sans-serif;
-}
+/* General Page Settings*/
 
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-size: 18px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 p {
   line-height: 1.4;
 }
+
+/* top nav bar with lambda logo on left side */
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -159,7 +158,7 @@ p {
 }
 
 header nav {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -167,10 +166,22 @@ header nav {
   font-size: 14px;
 }
 
+.logo-container {
+  width: 25%;
+  margin-top: 1%;
+}
+
+.top-nav img {
+  width: 100%;
+}
+
 header nav a {
   color: black;
   text-decoration: none;
 }
+
+/*Picture across top of page*/
+
 .jumbo-container {
   width: 60%;
   margin: 0 auto;
@@ -180,92 +191,36 @@ header nav a {
   margin-bottom: 1%;
 }
 
-.logo-container {
-  width: 20%;
-  margin-top: 1%;
-}
+/* about section */
 
-.top-nav img {
-  width: 100%;
-}
-
-.container {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.top-content {
+.about-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
-}
-
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
-}
-
-.bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
-}
-
-footer {
-  width: 100%;
-  background: black;
-}
-
-footer nav {
   width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
-  font-size: 14px;
 }
 
-footer nav a {
-  color: white;
-  text-decoration: none;
+/* middle section */
+.middle-section {
+  margin-bottom: 2%;
+  border-bottom: 1px dashed black;
+}
+
+.middle-section img {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px dashed black;
+}
+
+.middle-section button {
+  margin-top: 2%;
+}
+
+.middle-section div img {
+  padding-bottom: 2%;
 }
 
 .debug {
