@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+header{
+    width: 53%;
+    margin: auto;
+    display:flex;
+    justify-content: center;   
+}
+/*start of css webpage*/
+header nav {
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+/*first image displayed*/
+.jumbo, .jumbo-about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,15 +132,46 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*background colors for boxes*/
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +205,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page css*/
+.about{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.section1, .section2{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+button{
+    background-color: white;
+    border: black solid 2px;
+    padding: 1.5% 5%;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+.unit{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px dashed black;
+    border-width: 20%;
+}
+
+.section3{
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+}
+.section1 p, .section2 p{
+    padding-bottom: 20px;
 }
