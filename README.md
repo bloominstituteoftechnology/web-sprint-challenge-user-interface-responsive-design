@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+        I would tell them that Semantic HTML are tags that offer meaning to the browser as well as functionality. This meaning can be conveyed for SEO, or even just informing the browser the significance of a block of code. Such as, a p tag will not only aid you in the styling of that element, but lets the browser know that the element is a block of text which is useful for say SEO. A div, on the other hand, only relays a division for the purpose of styling a particular block of elements.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+        A block element will force a line break, and inline elements cannot accept a width or height
 
 3. What are the 4 areas of the box model?
 
+        Content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+        it works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+        Git allows for a lot of benefits. Version control not only stores the code in a central location for everyone, but it also helps keep everyone updated on the same code, and helps prevent merge conflicts.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
