@@ -297,3 +297,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+/* about page css */
+.topbg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}   
+
+.topAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+}
+
+/*divider*/
+.TwoBoxTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutBox1 {
+   
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+.aboutBox2 {
+    
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+
+/*divider*/
+.TwoBoxBottom {
+    display: flex;
+    justify-content: space-between;  
+}
+.aboutBox3 {
+   
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+.aboutBox4 {
+    
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+
+
+
+/*AboutBottom Section */
+
+.AboutBottom {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
