@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Answer: I would tell the next cohort of students that Semantic HTML should be used as much as possible for a number of reasons. Semantic HTML is helpful to later readers of your code to help make your intent more obvious. Semantic HTML should reinforce the meaning of the website, and in that, optimize the site for Search Engine Optimization.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Answer: display:block; has a line break before and after the element, whereas display:inline; has no line break before or after the element. A second differnce is that display:block; takes up the ful width of its container, whereas display:inline; only takes up as much width as it needs. 
 
 3. What are the 4 areas of the box model?
 
+Answer: (From innnermost to outermost): 1. Content 2. Padding 3. Border 4. Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Answer: align-items:center; works on the CROSS axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Answer: Git has a number of features or advantages that are important for a team of developers. Git is a version control system that maintains the integrity of the source code. A benefit of version control is that it allows multiple developers to be working on portions of code at the same time. As a team of developers are simultaneously working on it, it allows the creation of "branches" for indvividual developers to work on smaller portions of the code. Those portions can then be merged back in and merged once ready for production. Overall, Git allows a team to track the total history of changes to the code over time. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
