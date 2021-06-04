@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border:1px solid mistyrose;
+    /*border:1px solid mistyrose;*/
 }
 
 html, body {
@@ -71,21 +71,22 @@ header{
     display: flex;
     align-items: baseline;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 1.5% 9% 1.5% 9%;
-    max-width: 65%;
+   
 }
 
-nav{
+.nav1{
     display: flex;
     flex-flow: row nowrap;
-    /*justify-content: space-around;*/
+    margin: 0 20% 0 15%
 }
 
 a{
     margin: 0 10%;
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 .top-link{
     color: black;
@@ -135,7 +136,6 @@ a{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -207,7 +207,51 @@ footer nav a {
     text-decoration: none;
 }
 
-.about-mid{
+.text-1{
+    margin-left: 2.5%;
+    padding-bottom: 2.75%;
+    border-bottom: dotted black;
+}
+.main-content{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.content-1{
+    max-width: 45%;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-bottom: dotted black;
+}
+.content-2{
+    max-width: 45%;
+    margin-right: 2%;
+    margin-top: 3%;
+    border-bottom: dotted black;
+}
+.content-3{
+    max-width: 45%;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-bottom: dotted black;
+}
+.content-4{
+    max-width: 45%;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-bottom: dotted black;
+}
+button{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 2% 5%;
+    margin: 5% 0;
+}
+.end-text{
+    margin: 5% 2%;
+}
+
+.nav2{
+    margin-right: 50%;
 }
