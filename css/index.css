@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -57,18 +57,45 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.2rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: .9rem;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Header CSS Styling  */
+
+header {
+    display: flex;
+    margin: 2% 0%;
+}
+
+header nav {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: .8rem;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.topimage {
+    margin: 1% 0% 3% 0%;
+    width: 100%;
 }
 
 .top-content {
@@ -82,6 +109,12 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .text-container-about {
+    width: 100%;
+    padding: 0% 3%;
     padding-bottom: 20px;  
 }
 
@@ -104,7 +137,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -137,10 +169,88 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: .9rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.bottom-content-about .text-container-about {
+    width: 100%;
+    padding: 0% 3% 2% 3%;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+
+.middle-about .text-container {
+    width: 46%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+    margin: 2% 0% 4% 0%;
+}
+
+.middle-about h2 {
+    padding: 4% 0%;
+    margin-bottom: 0;
+}
+
+.middle-about button {
+    padding: 2% 5%;
+    margin: 4% 0% 1% 0%;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-size: .9rem;
+}
+.middle-about img{
+    width: 100%;
 }
