@@ -60,8 +60,9 @@ html, body {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    align-items:baseline;
     padding: 4em 0em 2em 0em;
-    width:800px;
+    width:800px
 }
 
 a{
@@ -220,4 +221,7 @@ hr{
 }
 #about{
     padding-top:20px;
+}
+.headers{
+    padding-top:10px;
 }
