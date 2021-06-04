@@ -153,9 +153,7 @@ footer nav a {
     max-width:100%;
 }
 
-.top{
-    align-items: center;
-}
+
 
 
 .logo{
@@ -174,10 +172,6 @@ nav a{
     display:inline;
     padding: 20px;
     color: black;
-}
-
-a:link{
-    color: black;
     text-decoration: none;
 }
 
@@ -187,6 +181,113 @@ nav a:hover{
 
 
 .jumbo{
-    text-align: center;
+    text-align:center;
     margin: 2%;
 }
+
+.boxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.boxes div{
+    margin: 2%;
+}
+
+.box1{
+    background-color: teal;
+    padding: 5%;
+}
+
+
+.box2{
+    background-color: gold;
+    padding: 5%;
+}
+
+.box3{
+    background-color: cadetblue;
+    padding: 5%;
+}
+
+
+.box4{
+    background-color: coral;
+    padding: 5%;
+}
+
+.box5{
+    background-color: crimson;
+    padding: 5%;
+}
+
+.box6{
+    background-color: forestgreen;
+    padding: 5%;
+}
+
+.box7{
+    background-color: darkorchid;
+    padding: 5%;
+}
+
+.box8{
+    background-color: hotpink;
+    padding: 5%;
+}
+
+.box9{
+    background-color: indigo;
+    padding: 5%;
+}
+
+.box10{
+    background-color: dodgerblue;
+    padding: 5%;
+}
+
+
+.jumbo-about{
+    text-align:center;
+    margin:2%;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.botMid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    margin: 5%;
+    padding: 5%;
+    border-style:solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: grey;
+    color: black;
+}
+
+.work{
+    margin-bottom: 5%;
+}
+
+
