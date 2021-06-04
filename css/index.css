@@ -181,8 +181,58 @@ footer nav a {
 }
 
 /*---- ABOUT PAGE ----*/
+#jumbo{
+    margin: 25px auto;
+    width: 90%;
+}
+#jumbo img{
+    width: 100%;
+    height: auto;
+}
+.bottom {
+    width: 90%;
+    margin: 0 auto;
+}
 #bottom-border{
-    border-bottom: 1px dashed black;
-    padding-bottom: 25px;
+    border-bottom: 1.75px dashed black;
+    padding-bottom: 40px;
 
+}
+.four-boxes #bottom-border{
+    margin: 15px auto;
+}
+.four-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+.box-one, .box-two, .box-three, .box-four{
+    width: 45%;
+    position: relative;
+    padding: 25px;
+}
+.four-boxes h2{
+    margin: 10px auto;
+    text-align: center;
+}
+.four-boxes p{
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+}
+.four-boxes a{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.four-boxes img{
+    width: 100%;
+}
+.last-section{
+    width: 90%;
+    margin: 25px auto;
 }
