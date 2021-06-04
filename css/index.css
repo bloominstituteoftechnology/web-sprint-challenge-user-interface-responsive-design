@@ -1,3 +1,8 @@
+/* table of contents */
+/* 1. boxes */
+/* 2. header */
+
+/* 1. boxes */
 .box:nth-child(1) {
     background-color: teal !important;
 }
@@ -27,4 +32,18 @@
 }
 .box:nth-child(10) {
     background-color: dodgerblue !important;
+}
+/* 2. header */
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.logo {
+    background-image: url(../img/lambda-black.png);
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    width: 10%;
+    height: 10%;
 }
