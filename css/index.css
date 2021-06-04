@@ -104,7 +104,8 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black;  */
+    /* remove to give boxes color */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,253 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.headerImg {
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 2%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: 24%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.logo a {
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+div .box1 {
+    background-color: teal;
+}
+
+div .box2 {
+    background-color: gold;
+}
+
+div .box3 {
+    background-color: cadetblue;
+}
+
+div .box4 {
+    background-color: coral;
+}
+
+div .box5 {
+    background-color: crimson;
+}
+
+div .box6 {
+    background-color: forestgreen;
+}
+
+div .box7 {
+    background-color: darkorchid;
+}
+
+div .box8 {
+    background-color: hotpink;
+}
+
+div .box9 {
+    background-color: indigo;
+}
+
+div .box10 {
+    background-color: dodgerblue;
+}
+
+/* IGNORE .aboutContainer { */
+    /* width: 50%; */
+    /* margin-left: 24%; */
+    /* margin-bottom: 4%; */
+
+
+/* .aboutLogo {
+    display: flex;
+    justify-content: space-between; */
+
+
+/* .aboutLogo a {
+    margin-top: 4%;
+    text-decoration: none;
+    color: black;
+} */
+
+/* .aboutLogo a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+} */
+
+.aboutImg {
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+.aboutLogo {
+    display: flex;
+    margin-left: 24%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.aboutLogo a {
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+.aboutLogo a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+
+
+.aboutImg {
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 2%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutPage {
+    margin-left: 24%;
+    margin-right: 24%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    margin: 2%;
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+}
+
+.about p{
+    margin-bottom: 2%;
+}
+
+.middleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: auto;
+}
+
+.mC1 {
+    margin-left: 2%;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-bottom: 1px dashed black;
+    padding: 2%
+}
+
+.mC1 p {
+    margin-bottom: 4%;
+}
+
+.mC1 a {
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%
+}
+
+
+.mC2 {
+    margin-left: 2%;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-bottom: 1px dashed black;
+    padding: 2%
+}
+
+.mC2 p {
+    margin-bottom: 4%;
+}
+
+.mC2 a {
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%
+}
+
+
+.mC3 {
+    margin-left: 2%;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-bottom: 1px dashed black;
+    padding: 2%
+}
+
+.mC3 p {
+    margin-bottom: 4%;
+}
+
+.mC3 a {
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%
+}
+
+
+.mC4 {
+    margin-left: 2%;
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-bottom: 1px dashed black;
+    padding: 2%
+}
+
+.mC4 p {
+    margin-bottom: 4%;
+}
+
+.mC4 a {
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2%
+}
+
+.bottom {
+    display: flex;
+    flex-direction: space-around;
+}
+
+.workTogether {
+    margin-left: 24%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.middleContainer {
+    
 }
