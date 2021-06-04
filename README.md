@@ -34,15 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic markup tells us what purpose the html element has, for example you can use nav instead of a generic div to make a navition bar. Semantic markup helps with SEO because crawlers have better access to more meaningful data. Lastly Semantic html makes it easier to maintain a website. You can pin point different areas of a website faster by searching for these meaningful html tags whem debuggin and coding.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block elements stack on top of each other. Block level elemnets will always force a new line of content, this is great for paragraphs. Also block elements take 100% of width.
+Inline elemnets stack next to each other. Inline element will always be it's own width. Also inline elements don't force new lines. 
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+Align-items refers to the cross axis so align-items: center; will align items centered vertically.
 
 5. Explain why git is valuable to a team of developers.
 
+
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
 
 ## Project Set Up
 
