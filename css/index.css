@@ -1,6 +1,7 @@
 /* table of contents */
 /* 1. boxes */
 /* 2. header */
+/* 3. about page */
 
 /* 1. boxes */
 .box:nth-child(1) {
@@ -49,4 +50,25 @@ a {
     text-decoration: none;
     color: black;
     padding: 1rem;
+}
+
+/* 3. about page */
+.panel-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.panel {
+    width: 100%;
+    border-bottom: dotted black 1px;
+    margin-bottom: 2rem;
+}
+button {
+    background-color: white;
+    border: black 2px solid;
+    padding: 1rem;
+    border-radius: 7px;
+    margin: 1rem 0;
+}
+footer {
+    margin-top: 2rem;
 }
