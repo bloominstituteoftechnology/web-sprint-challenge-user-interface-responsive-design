@@ -74,7 +74,7 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-Your finished project must include all of the following requirements:
+Your finished project must include all of the following requirements:d
 
 ### Home Page
 
