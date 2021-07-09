@@ -29,6 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    width:800px;
+    height:100vh ;
+    margin: 0 auto;
 	line-height: 1;
 }
 ol, ul {
@@ -70,12 +73,38 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header .logo {
+    display: flex;
+    margin-top: 2em;
+}
+header .logo img{
+    width: 200px;
+}
+header .nav a{
+    font-size: 22px;
+    color: black;    
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-left: 11em;
+    margin-top: -3.2em;
+    margin-bottom: 1em;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    
     border-bottom: 1px dashed black;
 }
 
@@ -101,17 +130,46 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box0 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    border: 1px solid black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box0{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +201,16 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container{
+    
+    margin-top: 12em;
+}
+
+.topImage{
+    display: flex;
+    position: absolute;
+    border: 1px solid black;
+    
 }
