@@ -46,9 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* reset ends here  */
 
 * {
     box-sizing: border-box;
+    border: 1px black;
+    text-decoration: none;
 }
 
 html, body {
@@ -104,7 +107,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +115,9 @@ p {
     justify-content: center;
 }
 
+.box1{
+	background-color: teal;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +150,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.logo{
+    padding: 25px;
+    /* width:25 ; */
+}
+ *> .boxes:nth-child(1){
+	background: teal;
+} 
+
+
+.nav1{
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+
+
+} 
+
+.nav1 a{
+    /* display: flex; */
+   color: black;
+    justify-content: space-between;
+    font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+  
+
+ 
+ .box2{
+	 background: gold;
+ }
+ .box3{ 
+	 background: cadetblue;
+ }
+
+ .box4{
+	 background: coral;
+ }
+ .box5{
+	 background: crimson;
+ }
+ .box6{
+	 background: forestgreen;
+ }
+
+ .box7{
+	 background: darkorchid;
+ }
+ .box8{
+	 background: hotpink;
+ }
+ .box9{
+     background: indigo;
+ }
+ .box10{
+    background: dodgerblue;
+ }
