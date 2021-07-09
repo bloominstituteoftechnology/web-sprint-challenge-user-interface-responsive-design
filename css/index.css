@@ -27,7 +27,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-    margin-left:40px;
 }
 
 header {
@@ -36,14 +35,13 @@ header {
     justify-content: space-evenly;
     width:800px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 header nav {
     width:100%;
     display:flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items:center;
     margin-left: 30px;
 
 }
@@ -52,14 +50,11 @@ header nav a{
     color: black;
     text-decoration:none;
 }
-.headimg {
-    margin-left: 40px;
-    width: 200px;
+header nav img{
+    display: inline-block;
+    margin-left: -32px;
 }
 
-body {
-	display: inline-block;
-}
 ol, ul {
 	list-style: none;
 }
@@ -189,22 +184,79 @@ p {
     justify-content: space-evenly;
     margin: 60px;
 }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container .dashed, .container .about-page{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2% 0;
+    margin: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.dashed{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2% 0;
+    margin: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.dashed {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40%;
+    margin: 15px;
+    padding-bottom: 2%;
+}
+
+.dashed img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashed a{
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
 footer {
-    width: 90%;
+    width: 100%;
     background: black;
-    margin-left: 60px;
 }
 
 footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    padding: 20px 2%;
+    align-items: center;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 30px;
 }
