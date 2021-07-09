@@ -56,19 +56,22 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 header{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:100%;
     height:10vh;
     margin-top: 20px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap:no-wrap;
+    
 }
 header nav{
     margin-left:0;
-
-    border:1px solid black;
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    width:80%
 }
 
 header nav a{
@@ -77,7 +80,7 @@ header nav a{
     text-decoration: none;
     color:black;
     text-align:top;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 header nav a:visited{ 
@@ -90,11 +93,11 @@ header nav a:visited{
 } */
 
 .logoimage{
-    border:1px solid black;
-    width: ;
+    /* border:1px solid black; */
+    width: 20%;
     height:63px;
-    margin:-45px;
-    /* margin-right:0 0; */
+    /* margin:-45px; */
+    /* margin-left:-34px; */
     padding: 0 0;
 }
 
@@ -109,7 +112,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container , .container-about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -274,15 +277,78 @@ footer nav a {
 
 /* ABOOUT PAGE CSS */
 
-.top-content .text-container {
-    width: 95%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content{
+.top-contents {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border:1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-container p{
+    margin-bottom: 25px;
+}
+/* .top-contents .text-container {
+    margin-bottom:30px;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+} */
+
+
+.middle-contents{
+    /* margin:10px;
+    padding:10px; */
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom:20px;
+    /* border:1px solid black; */
+}
+.middle-container{
+    /* border:solid 1px black; */
+    width:350px;
+    border-bottom: 1px dashed black;
+    padding:15px;
+    line-height: 30px;
+    
+}
+.middle-container img{
+    width:100%;
+}
+.middle-container h2{
+    /* border:1px solid black; */
+    text-align:start;
+    padding:0;
+}
+.button{
+    /* border:1px solid black; */
+    text-decoration:none; 
+}
+button{
+    border:solid 1px black;
+    width:100px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    height:30px;
+    font-size:15px;
+    color:black;
+    background:white;
+    border-radius:10px;
+}
+button a{
+    text-decoration: none; 
+}
+button a:visited{ 
+    color: black; 
+   }
+
+.top-container{
+    /* border:1px solid black; */
+    padding:20px;
+    margin-left:14px;
+    margin-bottom:10px;
+    margin-top:0;
 }
