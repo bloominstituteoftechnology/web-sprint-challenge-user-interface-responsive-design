@@ -33,6 +33,50 @@ body {
 	line-height: 1;
 }
 
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    justify-content:center;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    justify-content:center;
+    display:flex;
+}
+
 logo{
     display:flex;
     align-items:center;
@@ -70,47 +114,6 @@ nav a{
     background-size:cover;
 
 }
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +131,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding:0%;
+    margin:auto;
 }
 
 .middle-content h2 {
@@ -156,8 +161,8 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    padding:0%;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
@@ -169,6 +174,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    padding:10%;
 }
 
 footer nav {
@@ -176,11 +182,39 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    justify-content:space-between;
+    text-align:center;
 }
+
+*{
+    border:100px solid black;
+}
+
+
+.topsection logo{
+    display:inline-flex;
+    align-items:center;
+    height:100px;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding-top:10%;   
+}
+.toplinks nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    width:100%;
+    height:30px;
+    margin-top:-70px;
+    margin-left:70px;
+    padding-top:10px;
+}*/
+
