@@ -27,31 +27,33 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+    margin-left:40px;
 }
 
 header {
-    /* height:100px; */
-    width:800px;
-    margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    width:800px;
+    margin: 0 auto;
+    padding: 10px;
 }
+
 header nav {
     width:100%;
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:baseline;
 
-}
-header nav img{
-    display:inline-block;
 }
 
 header nav a{
     color: black;
     text-decoration:none;
+}
+.headimg {
+    margin-left: 40px;
+    width: 200px;
 }
 
 body {
@@ -127,17 +129,46 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10  {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+    background:teal;
+}
+.box2 {
+    background:gold;
+}
+.box3 {
+    background:cadetblue;
+}
+.box4 {
+    background:coral;
+}
+.box5 {
+    background:crimson;
+}
+.box6 {
+    background:forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background:hotpink;
+}
+.box9 {
+    background:indigo;
+}
+.box10 {
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -151,17 +182,23 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.bottom-content{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    margin: 60px;
+}
 footer {
-    width: 100%;
+    width: 90%;
     background: black;
+    margin-left: 60px;
 }
 
 footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     padding: 20px 2%;
     font-size: 14px;
 }
