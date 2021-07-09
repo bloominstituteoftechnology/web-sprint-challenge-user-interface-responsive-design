@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -71,6 +72,28 @@ p {
     margin: 0 auto;
 }
 
+/* Header */
+header nav{
+    width: 79%;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+header img:first-child{
+    width: 20%;
+    margin: 20px 0 0 0;
+}
+
+header img:nth-child(3){
+    margin: 40px 0 20px 0;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Section 1 */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +108,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Section 2 */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +136,18 @@ p {
     justify-content: center;
 }
 
+div.boxes div.box:nth-child(1){ background: teal; }
+div.boxes div.box:nth-child(2){ background: gold; }
+div.boxes div.box:nth-child(3){ background: cadetblue; }
+div.boxes div.box:nth-child(4){ background: coral; }
+div.boxes div.box:nth-child(5){ background: crimson; }
+div.boxes div.box:nth-child(6){ background: forestgreen; }
+div.boxes div.box:nth-child(7){ background: darkorchid; }
+div.boxes div.box:nth-child(8){ background: hotpink; }
+div.boxes div.box:nth-child(9){ background: indigo; }
+div.boxes div.box:nth-child(10){ background: dodgerblue; }
+
+/* Section 3 */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,12 +162,13 @@ p {
     padding-right: 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
 }
 
-footer nav {
+footer nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -143,4 +180,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About */
+
+/* Section 1 */
+.about-top-content{
+    padding: 0 20px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* Section 2 */
+.middle-top, .middle-bottom{
+    display: flex;
+}
+
+.middle-bottom{
+    margin-top: 60px;
+}
+
+.middle-top div, .middle-bottom div{
+    width: 46%;
+    margin: auto;
+    border-bottom: 1px dashed black;
+}
+
+.middle-top div a, .middle-bottom div a{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Section 3 */
+.bottom-section{
+    width: 95%;
+    margin: 60px auto 40px;
 }
