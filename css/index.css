@@ -64,16 +64,16 @@ header{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap:no-wrap;
+    text-align:bottom;
 }
-
 
 header nav a{
     padding:10px;
     margin: 20px;
     text-decoration: none;
-    color:black
+    color:black;
     border:1px solid black;
-
+    
 }
 
 header nav a:visited{ 
@@ -81,7 +81,12 @@ header nav a:visited{
     color: black; 
    }
 
-h1, h2, h3, h4, h5 {
+
+
+
+
+
+   h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
