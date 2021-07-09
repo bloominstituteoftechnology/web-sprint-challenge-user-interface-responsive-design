@@ -34,21 +34,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    If I were to describe semantic HTML to the next cohort of students, I would say that a semantic HTML element clearly describes its meaning to both the browser and the developer.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block and inline are two display values for HTML elements. 
+    A block-level element always starts on a new line. An inline element does not start on a new line.
+    A block-level element always takes up the full width available (stretches out to the left and right as far as it can). An inline element only takes up as much width as necessary.
+    A block level element has a top and a bottom margin, whereas an inline element does not.
 
 3. What are the 4 areas of the box model?
 
+    The four areas of the box model are: content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    While using flexbox, 'align-items' aligns on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is an Open Source Distributed Version Control System. 
+        Open Source means that the software made for the original source code is freely avaiable. The software may be redistributed among a team of developers and modified.
+        Git is used to store content. Being a version control system means that git is able to maintain a history of changes that happen.
+        Being a distributed version control system means that git stores a remote version on a server plus allows storage of a local version on each developer's computer. 
+    Git is valuable to a team of developers becaues it allows multiple people to work on the same project without getting in each other's way. Git allows each developer on the team to see new changes, download them, and contribute. Git stores changes that have occured, which allows the developer team to see old versions of files in their project and be able to restore to a previous point if needed.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
@@ -67,20 +84,20 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [X] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [X] box1: `teal`
+* [X] box2: `gold`
+* [X] box3: `cadetblue`
+* [X] box4: `coral`
+* [X] box5: `crimson`
+* [X] box6: `forestgreen`
+* [X] box7: `darkorchid`
+* [X] box8: `hotpink`
+* [X] box9: `indigo`
+* [X] box10: `dodgerblue`
 
 ### About Page
 
