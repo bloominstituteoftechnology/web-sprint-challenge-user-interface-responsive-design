@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -105,7 +104,8 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+
+.top-content, .strategy {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -114,10 +114,26 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-about-content{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2% 0;
+    margin: 3%;
+    border-bottom: 1px dashed black;
+
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-about-content .text-container p, .bottom-about-content .text-container p{
+ padding: 1% 0;
 }
 
 .middle-content {
@@ -136,10 +152,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     border: 1px solid black;
     margin: 20px 2.5%;
     color: white;
@@ -188,6 +203,47 @@ p {
     background: dodgerblue;
 }
 
+.strategy h2, p, a {
+    padding: 0 2%;
+    margin-bottom: 3%;
+}
+
+.strategy {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 45%;
+    margin: 15px;
+    padding-bottom: 2%;
+}
+
+.strategy img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strategy a{
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.strategy a:hover{
+    color:white;
+    background-color: black;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -199,6 +255,21 @@ p {
 }
 
 .bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+.bottom-about-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-about-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-about-content .text-container:last-child {
     padding-right: 0;
 }
 
