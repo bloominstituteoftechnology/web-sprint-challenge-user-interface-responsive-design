@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -31,9 +32,48 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+logo{
+    display:flex;
+    align-items:center;
+    height:100px;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding-top:10%;
+}
+nav{
+    display:inline;
+    align-items:center;
+    justify-content:space-evenly;
+    width:100%;
+    height:30px;
+    margin-top:-70px;
+    margin-left:70px;
+    padding-top:10px;
+}
+nav a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top:-70px;
+    margin-left:70px;
+    text-decoration:none;
+    font-family: sans-serif;
+    color: black;
+    font-size:15px;
+    padding:13px,30px;
+}
+.firstimage{
+    display:flex;
+    padding:1%;
+    background-size:cover;
+
+}
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
