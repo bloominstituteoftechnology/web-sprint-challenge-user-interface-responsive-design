@@ -79,7 +79,7 @@ div.styling {
     justify-content: center;
 }
 
-nav a {
+ a {
     text-decoration: none;
     color:black;
 }
@@ -234,18 +234,36 @@ About Page
 
 div.imgContainer {
     width: 350px;
+    box-sizing: border-box;
     display: flex; 
     flex-flow: wrap;
     justify-content: center;
-    margin: 15px;
+    margin: 0 15px 0 15px;
+    border-bottom: dashed black 1px;
+    padding: 30px;
+}
+
+.topStyling {
+    border-bottom: dashed black 1px;
+    padding: 5px;
 }
 
 div.imgContainer img {
     margin: 10px;
+    
 }
 
-.temp1 {
+section.imageRows {
     display: flex;
     flex-flow: row wrap;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
+.imageRows .imgContainer a {
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 0;
+    border: solid black 2px;
+    border-radius: 15px;
+}
