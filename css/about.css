@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    width:800px;
+    height:100vh ;
+    margin: 0 auto;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.topImage img{
+    width: 108%;
+    margin-top: 2em;
+}
+
+.top-content{
+    margin-top: 16em;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    margin-top: 4em;
+}
+
+header .logo img{
+    width: 200px;
+}
+
+header .nav a{
+    font-size: 22px;
+    background-color: white;
+    color:black;
+}
+
+header nav {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-left:15em;
+    margin-top: -18.2em;
+    background-color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.r1image1, .r1image2, .r2image1, .r2image2 p{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.r1image1Text, .r1image2Text, .r2image1Text, .r2image2Text{
+    flex-flow: column;
+    width: 75%;
+    height: 10em;
+    justify-content: center;
+    align-items: left;
+    align-content: center;
+    border-bottom: 2px dotted black;
+}
+.r1image1 {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    width: 25%;
+    margin-left: -27em;
+    margin-top: -40em;
+}
+
+.r1image1Text {
+    display: flex;
+    position: absolute;
+    margin-top: 25em;
+}
+
+.r1image2 {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    width: 25%;
+    margin-left: 34em;
+    margin-top: -40em;
+}
+
+.r1image2Text {
+    display: flex;
+    position: absolute;
+    margin-top: 25em;
+}
+
+.r2image1 {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    margin-top:25em;
+    margin-left: -27em;
+}
+
+.r2image1Text{
+    
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25em;
+}
+
+.r2image2 {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    margin-top:25em;
+    margin-left: 40em;
+}
+
+.r2image2Text {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15em;
+}
+
+.button {
+    width: 25%;
+    height:25%;
+    margin: 0 ;
+    border-radius: 8px;
+}
+
+.bottom-content{
+    font-size: 18px;
+    font-style: bold;
+    width: 45em;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: left;
+    flex-flow: column;
+    margin-top: 66em;
+    margin-left: 2em;
+}
+footer {
+    margin-top: 15em;
+    width: 110%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    background-color: black;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
