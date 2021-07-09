@@ -1,0 +1,54 @@
+header{
+    height:100px;
+    align-content:strech;
+  }
+  header .logo{
+    text-align:center;
+    height:30px;
+    margin: auto;
+    display: inline
+  }
+  header nav{
+    text-align:center;
+    padding left: 10%;
+    margin: auto;
+    display: inline
+  }
+  header nav a{
+    margin:5%;
+    text-decoration:none;
+    font-family:Roboto;
+    color:black;
+    font-size:14px;
+    padding:13px 30px;
+  }
+body {
+   
+}
+table {
+    
+}
+.top-content{
+  
+}
+.second-content{
+  
+}
+.third-content{
+  
+}
+.bottom-content{
+  
+}
+h2{
+  
+}
+p{
+  
+}
+footer{
+  
+}
+footer nav{
+  
+}
