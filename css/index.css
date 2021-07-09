@@ -232,6 +232,15 @@ footer nav a {
 About Page
 =======================*/
 
+.topStyling {
+    border-bottom: dashed black 1px;
+    padding: 5px;
+}
+
+/*=======================
+organizes the images and text
+=======================*/
+
 div.imgContainer {
     width: 350px;
     box-sizing: border-box;
@@ -241,11 +250,6 @@ div.imgContainer {
     margin: 0 15px 0 15px;
     border-bottom: dashed black 1px;
     padding: 30px;
-}
-
-.topStyling {
-    border-bottom: dashed black 1px;
-    padding: 5px;
 }
 
 div.imgContainer img {
@@ -259,6 +263,10 @@ section.imageRows {
     padding: 10px;
     margin-bottom: 30px;
 }
+
+/*=======================
+styles the "Learn More" links
+=======================*/
 
 .imageRows .imgContainer a {
     padding: 8px;
