@@ -62,9 +62,45 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 p {
     line-height: 1.4;
 }
+
+/*=======================
+Nav Bar/Main Image
+=======================*/
+
+div.styling {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+nav {
+    width: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 20px;
+}
+
+div.headerImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*=======================
+Top Text
+=======================*/
 
 .container {
     width: 800px;
@@ -84,6 +120,10 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*=======================
+Boxes
+=======================*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +152,45 @@ p {
     justify-content: center;
 }
 
+/*=======================
+Individual Box Colors
+=======================*/
+
+.middle-content .boxes .box#box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box#box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box#box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box#box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box#box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box#box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box#box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box#box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box#box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box#box10 {
+    background-color: dodgerblue;
+}
+
+/*=======================
+Bottom Text
+=======================*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +204,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*=======================
+Footer Nav Bar
+=======================*/
 
 footer {
     width: 100%;
