@@ -245,7 +245,7 @@ div.imgContainer {
     width: 350px;
     box-sizing: border-box;
     display: flex; 
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 0 15px 0 15px;
     border-bottom: dashed black 1px;
