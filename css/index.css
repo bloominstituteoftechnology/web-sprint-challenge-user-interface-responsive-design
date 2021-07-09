@@ -29,44 +29,38 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 
   header{
-    height:300px;
-    width:100%;
+    height:100px;
+    align-content:strech;
   }
-  .logo{
-    width:80px;
-    height:90px;
-    display:inline-block;
-  }
-  .logo img{
-    width:80px;
-  }
-  nav{
-    display:block;
-    width:100%;
+  header .logo{
     text-align:center;
     height:30px;
-    margin-top:-70px;
-    margin-left:70px;
-    padding-top:10px;
+    margin: auto;
+    display: inline
   }
-  nav a{
-    margin-right:10%;
+  header nav{
+    text-align:center;
+    padding left: 10%;
+    margin: auto;
+    display: inline
+  }
+  header nav a{
+    margin:5%;
     text-decoration:none;
-    font-family:sans-serif;
+    font-family:Roboto;
     color:black;
     font-size:14px;
     padding:13px 30px;
-    transition:.3s;
   }
   
   body {
-      line-height: 1;
+    line-height: 1;
   }
   
   }
   table {
-      border-collapse: collapse;
-      border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
   }
   
   * {
@@ -75,13 +69,13 @@ footer, header, hgroup, menu, nav, section {
   
   body {
       height: 100%;
-      font-family: 'Roboto', Rubik;
+      font-family: Roboto, Rubik;
   }
   
   h2 {
       font-size: 18px;
       margin-bottom: 15px;
-      font-family: 'Rubik', sans-serif;
+      font-family: Roboto, Rubik;
   }
   
   p {
