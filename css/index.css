@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+a{
+    transition: .3s;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +51,12 @@ header nav {
     font-size: 14px;
 }
 
+header nav a:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
 header nav img{
     display: inline-block;
     margin-left: -16px;
@@ -55,6 +65,7 @@ header nav img{
 header nav a{
     color: black;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
 body {
@@ -236,7 +247,6 @@ p {
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    transition: .3s;
 }
 
 .strategy a:hover{
@@ -283,11 +293,18 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    /* padding: 20px 2%; */
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
+}
+
+footer nav a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
