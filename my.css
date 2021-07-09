@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  header {
+    height: 100px;
+    width: 100px;
+  }
+  header nav {
+    width: 100%
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+  }
+  nav a{
+    color: black;
+    text-decoration: none;
+  }
+  html, body {
+    height: 100%;
+    font-family: "Otomanopee One" , sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  p {
+    line-height: 1.4;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .row .column {
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  button{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+  }
+  
+  .bottom-content .text-container{
+    text-align: left;
+    width: 100%vp;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  footer nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    background-color: black;
+  }
+  
+  footer nav a{
+    color: white;
+    text-decoration: none;
+  }
