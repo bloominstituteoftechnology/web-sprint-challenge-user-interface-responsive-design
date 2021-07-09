@@ -56,6 +56,47 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Header Section*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logoandnav{
+    display: flex;
+    width: 800px;
+}
+
+.lambdalogo{
+
+    width: 20%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 14px;
+    width: 80%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.mainimg{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+ }
+
+/*Main content*/
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -63,7 +104,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .container {
@@ -101,16 +142,50 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*Boxes*/
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold
+}
+.box3{
+    background-color: cadetblue
+}
+.box4{
+    background-color: coral
+}
+.box5{
+    background-color: crimson
+}
+.box6{
+    background-color: forestgreen
+}
+.box7{
+    background-color: darkorchid
+}
+.box8{
+    background-color: hotpink
+}
+.box9{
+    background-color: indigo
+}
+.box10{
+    background-color: dodgerblue
+}
+
+/*Bottom Content*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +200,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*Footer Section*/
 
 footer {
     width: 100%;
@@ -143,4 +220,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page*/
+
+.mainsection{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dashed gray;
+    max-width: 800px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 1%;
+    border-bottom: 1px dashed gray;
+    margin: 1%;
+}
+.contentheader{
+    margin-top: 10px;
+}
+.learnmore{
+    border-radius: 6px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.paragraph{
+    margin: 10px 0;
+}
+.footersubhead{
+    margin-top: 30px;
 }
