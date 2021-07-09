@@ -227,3 +227,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*=======================
+About Page
+=======================*/
+
+div.imgContainer {
+    width: 350px;
+    display: flex; 
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+
+div.imgContainer img {
+    margin: 10px;
+}
+
+.temp1 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
