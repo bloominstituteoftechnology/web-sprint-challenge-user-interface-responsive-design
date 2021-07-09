@@ -34,6 +34,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML is a hyper text markup language. The language that our internet browser reads (google chrome, firefox etc..). Semantic HTML is a type of HTML which gives meaning to your content. It provides accessibility, improves SEO (search engine optimization), help other developes to read other people's tags. A few examples are <header> element which is a container for introductory content like the heading or titles.<h1> through <h6> which are headings that goes in order of importance just like in an essay where there is an introduction, body, conclusion and references.<section> element tag helps to define a section in a document, <nav> element will contain a set of navigation links that takes you to mutliple links or websites or images throughout your webpage
+<footer> elements contains the footer information on the page like copyrights, contact information.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
