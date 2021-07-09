@@ -71,16 +71,16 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ ] box1: `teal`tealgoldcadetbluecoralcrimsonforestgreendarkorchidhotpinkindigododgerblue
+* [ ] box2: ``
+* [ ] box3: ``
+* [ ] box4: ``
+* [ ] box5: ``
+* [ ] box6: ``
+* [ ] box7: ``
+* [ ] box8: ``
+* [ ] box9: ``
+* [ ] box10: ``
 
 ### About Page
 
