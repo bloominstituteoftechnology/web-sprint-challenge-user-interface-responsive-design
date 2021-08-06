@@ -291,8 +291,13 @@ footer nav a {
     text-align: center;
     background-image: url('../img/jumbo-about.png');
     background-position: bottom;
-    margin-bottom: 2.5%;
     margin-top: 1%;
+}
+.abouttop, .verybottom{
+    width:100%;
+}
+.someinfo{
+    padding: 3%;
 }
 .aboutsection{
     display: flex;
@@ -321,4 +326,7 @@ footer nav a {
     background-color: white;
     border: 3px solid black;
     margin-bottom: 3%;
+}
+.verybottom p{
+    margin-bottom: 1%;
 }
