@@ -54,7 +54,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border:1px solid grey; /*  For Testing Only  */
+   
     
 }
 
@@ -106,9 +106,17 @@ p {
     max-width: 800px;
     width:auto;
     margin: 0 auto;
+    
+   
 }
 
 .container {
+    max-width: 800px;
+    width:auto;
+    margin: 0 auto;
+}
+.options-container{
+    padding:0rem 2rem;
     max-width: 800px;
     width:auto;
     margin: 0 auto;
@@ -150,6 +158,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 2rem;
     border-bottom: 1px dashed black;
 }
 
@@ -185,6 +194,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box{
+    font-size: 1.6rem;
 }
 
 .box-one{
@@ -227,6 +240,15 @@ nav{
     background-color: var(--box-ten);
 }
 
+.about-container{
+    display:flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    max-width: 800px;
+    width:auto;
+    margin:0 auto;
+    border-bottom: .1rem black dashed;
+}
 #about-options{
     display:flex;
     flex-flow: row wrap;
@@ -237,11 +259,30 @@ nav{
     display:flex;
     flex-direction: column;
     width: 45%;
-    margin: 5% 0;
-    padding: 2rem 0;
-    border-bottom: .2rem black dashed;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    border-bottom: .1rem black dashed;
+    align-items: flex-start;
+    
+}
+.about-box-container h2, .about-box-container p{
+    margin: 1rem 0;
+}
+.about-box-container img{
+    margin-top: 1rem;
 }
 
+.about-box-container button{
+    margin-top: 1rem;
+}
+
+button{
+    background-color:white;
+    border:.2rem black solid;
+    padding:.7rem 2rem;
+    border-radius: 10px;
+    
+}
 /* Bottom Section */
 
 .bottom-content {
@@ -258,9 +299,25 @@ nav{
     padding-right: 0;
 }
 
+.work-container{
+    display:flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    max-width: 800px;
+    width:auto;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0;
+    margin-bottom: 2rem;
+    
+}
 /* Footer Section */
 
 footer {
+    display: flex;
+    max-width: 800px;
+    width: auto;
+    margin: 0 auto;
     width: 100%;
     background: black;
 }
@@ -270,8 +327,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2rem 2%;
+    font-size: 1.6rem;
 }
 
 footer nav a {
