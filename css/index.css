@@ -72,11 +72,16 @@ header nav{
 header nav a{
     color: black;
     text-decoration: none;
+   
 }
 header img{
     display: flex;
 }
 
+.pic1{
+    display: flex;
+    justify-content: center;
+} /* centers image below header*/
 
 
 html, body {
@@ -92,11 +97,6 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-}
-
-.pic1{
-    display: flex;
-    justify-content: space-around;
 }
 
 .container {
