@@ -79,7 +79,6 @@ a:active { text-decoration: none; }
 
 
 .top{
-    border: solid 1px black;
     display: flex;
     justify-content: space-between;
     padding: 0px;
@@ -93,7 +92,6 @@ a:active { text-decoration: none; }
 }
 .top_nav{
     
-    border: solid 1px black;
     padding-left: 0rem;
   margin: auto;
 }
