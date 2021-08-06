@@ -110,6 +110,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .bottom-content {
@@ -143,4 +144,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+h6 {
+    width: 100%;
+    background: white;
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    
+}
+
+h6 nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+h6 nav a{
+    color: black;
+    text-decoration: none;
+}
+section{
+    text-align: center;
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+.class{
+    background-color: teal;
 }
