@@ -133,8 +133,9 @@ nav .links a{
 .bgimg{
     display: flex;
     justify-content: center;
-   
-    margin: auto;
+   background-color: white;
+    margin:auto
+
 }
 
 .top-content {
@@ -326,11 +327,16 @@ nav .links a{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
     padding-top: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ 
+   
   
 
 
@@ -347,12 +353,11 @@ footer {
     color: white;
     display: flex;
     justify-content:left;
-margin-top: 12rem;
   height: 5vh;
   font-size: smaller ;
-
-
-
-
 }
 
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+}
