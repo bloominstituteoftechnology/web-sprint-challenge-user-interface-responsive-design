@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+   
 }
 ol, ul {
 	list-style: none;
@@ -49,11 +50,23 @@ table {
 
 * {
     box-sizing: border-box;
-}
+    border: 1px solid gray;
 
+}
+html{
+    font-size: 62.5$;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: auto;
+    padding: 3%;
+    
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -144,3 +157,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.topinfo{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home, .about, .products, .blog, .contact{
+    text-decoration: none;
+    color:black;
+}
+.city{
+width: 200px;
+height: 300px;
+}
+
+
