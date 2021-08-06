@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -101,7 +100,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box0,.boxes .box1,.boxes .box2,.boxes .box3,.boxes .box4,.boxes .box5,.boxes .box6,.boxes .box7,.boxes .box8,.boxes .box9 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +142,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+*{
+    /* border: 1px solid grey; */
+}
+.header{
+    width: 100%;
+    height: 10vh;
+}
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.nav{
+    margin-left: 25rem;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 900;
+}
+.logo{
+    position: absolute;
+    width: 12.5%;
+    margin-left: 15rem;
+}
+.topImage{
+    margin-left: 15rem;
+}
+.box0{
+    background-color: teal;
 }
