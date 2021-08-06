@@ -135,7 +135,7 @@ nav{
 }
 .links a{
     text-decoration: none;
-    color: #4f4f4f;
+    color: var(--p-font);
     font-size: 1.5rem;
     
 }
