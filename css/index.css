@@ -106,6 +106,8 @@ p {
     max-width: 800px;
     width:auto;
     margin: 0 auto;
+    max-height: 10vh;
+    height: auto;
     
    
 }
