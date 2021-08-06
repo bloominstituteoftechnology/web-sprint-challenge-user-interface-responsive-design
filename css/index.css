@@ -55,6 +55,7 @@ table {
     margin: 0;
     max-width: 100%;
     border:1px solid grey; /*  For Testing Only  */
+    
 }
 
 
@@ -224,6 +225,21 @@ nav{
 
 .box-ten{
     background-color: var(--box-ten);
+}
+
+#about-options{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-box-container{
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 5% 0;
+    padding: 2rem 0;
+    border-bottom: .2rem black dashed;
 }
 
 /* Bottom Section */
