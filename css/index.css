@@ -111,7 +111,11 @@ a:active { text-decoration: none; }
     padding: 5rem 10rem;
 }
 
-
+.about-page {
+    border: solid 1px black;
+    width: 800px;
+    margin: 0 auto;
+}
 
 .container {
     width: 800px;
@@ -172,7 +176,26 @@ a:active { text-decoration: none; }
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/*----------about page--------------*/
 
+.gallory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallory p{
+    width: 370px;
+}
+.br-a_img{
+    background-image: url("../img/jumbo-about.png");
+    background-size: auto;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    padding: 5rem 10rem;
+}
+
+/*----------about page--------------*/
 footer {
     width: 100%;
     background: black;
