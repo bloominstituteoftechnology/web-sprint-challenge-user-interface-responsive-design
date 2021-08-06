@@ -132,14 +132,36 @@ h2 {
 
 .strategy {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 0 2% 0 15%;
 }
 
 .strategy-para {
     display: flex;
-    margin-right: 60%;
+    margin-right: 63%;
     align-items: flex-start;
+    margin-bottom: 2.5%;
+    flex-wrap: wrap;
+}
+
+.left-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 87%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+
+}
+.how-we-work {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 2% 0 15%;
+}
+
+.how-we-work-para {
+    margin-right: 15%;
 }
 
 .middle-content {
