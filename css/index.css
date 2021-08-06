@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey;
 }
 
 html, body {
@@ -71,41 +72,51 @@ p {
     margin: 0 auto;
 }
 
-.top{
-    display: flex;
-    justify-content: space-between;
-    padding: 5%;
-}
 
-.topBar{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+
+.bgimg{
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .logo{
-    background-image: url(../img/lambda-black.png);
-    background-size: cover;
     width: fit-content;
 }
 
 nav{
     display: flex;
-    justify-content: space-evenly;
-    width: 75%;
-    
+    justify-content: space-between;
+    width: 100%;
+    padding: 3% 0;
+ 
 }
 
 nav a{
-    font-size: large;
-    text-decoration: none ;
-    color: darkgrey;
+    text-decoration: none;
+    color: rgb(30, 27, 27);
+    font-size: 1rem;
 }
 
-.image-container{
-    background-image: url(../img/jumbo.jpg);
-    background-size: cover;
+.links{
+    display:flex;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
+
+
+
+.jumbo{
+    background-image: url("../img/jumbo.jpg");
+    background-size: cover;
+    height: 15vh;
+    margin-bottom: 3%;
+}
+
+
+
+
+
 
 .top-content {
     display: flex;
