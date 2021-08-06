@@ -55,17 +55,23 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-.links{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+
+header{
+    width:100%;
 }
-.links img{
-    image
+.links{
+    padding:20px 2%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
-
-
+}
+header nav a{
+    width: auto;
+    color:black;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
