@@ -202,3 +202,48 @@ footer nav a {
 .middle-content .boxes .box:nth-child(10){
     background: dodgerblue;
 }
+
+/* About */
+.top-section{
+    width: 100%;
+    border-bottom: 2px dotted black;
+    margin: 30px;
+    padding: 0 0 20px 0;
+}
+
+.top-section h2, .top-section p{
+    margin: 20px 0 0 20px;
+}
+
+.middle-content{
+    display: flex;
+    flex-flow: row;
+}
+
+.middle-section div{
+    display: inline-block;
+    width: 40%;
+    border-bottom: 2px dotted black;
+    margin: 0 30px 20px 40px;
+    padding: 0 0 20px 0;
+}
+
+.middle-section div h2{
+    margin: 10px 0 20px 0;
+}
+
+.middle-section div p{
+    margin: 0 0 20px 0;
+}
+
+.middle-section div a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 13px 0;
+    width: 40%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
