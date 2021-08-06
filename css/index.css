@@ -54,7 +54,7 @@ html {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html, body {
@@ -95,9 +95,16 @@ p {
     text-decoration: none;
 }
 
-/* Jumbo section styling */
+/* Banner section styling */
 .jumbo {
     background-image: url(/img/jumbo.jpg);
+}
+
+.jumbo-about {
+    background-image: url(/img/jumbo-about.png);
+}
+
+.banner-img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,7 +150,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
