@@ -55,6 +55,18 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.links img{
+    image
+
+
+
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
