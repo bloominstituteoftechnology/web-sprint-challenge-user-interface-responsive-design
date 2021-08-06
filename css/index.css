@@ -72,18 +72,10 @@ p {
     margin: 0 auto;
 }
 
-
-
-.bgimg{
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 /* index page styles */
 .logo{
     width: fit-content;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -91,33 +83,23 @@ nav{
     padding: 3% 0;
  
 }
-
 nav a{
     text-decoration: none;
     color: rgb(30, 27, 27);
     font-size: 1rem;
 }
-
 .links{
     display:flex;
     width: 85%;
     justify-content: space-evenly;
     align-items: flex-end;
 }
-
-
-
 .jumbo{
     background-image: url("../img/jumbo.jpg");
     background-size: cover;
     height: 15vh;
     margin-bottom: 3%;
 }
-
-
-
-
-
 
 .top-content {
     display: flex;
