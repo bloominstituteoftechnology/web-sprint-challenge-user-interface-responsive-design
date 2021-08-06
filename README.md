@@ -1,6 +1,6 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
+This challenge allows  you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
 ## Instructions
 
@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is descriptive. For example, "section" is more descriptive than "div." For accessibility purposes, screen readers and web crawlers need to know what your components are on your page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block takes up its own section and does not share space; display: inline will fit on the horizontal line with another element such as an image or a paragraph. Also with inline you can't set the width or height.
 
 3. What are the 4 areas of the box model?
 
+Content, padding, margin, border.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items works on the vertical axis. Justify pertains to the main axis, which by default is L to R. Align refers to the cross axis. Please note these are reversed when the map is flipped 90 degrees, as when the items are arranged by column and not row.
+
 5. Explain why git is valuable to a team of developers.
+
+Git enables the team to access each other's code and keep track of changes, as well as go back to previous versions if necessary.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
