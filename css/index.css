@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-size: 1.6rem;
 }
 ol, ul {
 	list-style: none;
@@ -46,11 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+/* General styling */
+html {
+    font-size: 62.5%;
+}
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
     border: 1px solid grey;
 }
 
@@ -69,10 +72,24 @@ p {
     line-height: 1.4;
 }
 
+/* Nav Section styling */
 .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 24%;
+}
+
+.logo {
     display: flex;
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Jumbo section styling */
 .jumbo {
     background-image: url(/img/jumbo.jpg);
     background-position: center;
