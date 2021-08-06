@@ -79,6 +79,7 @@ p {
     background-repeat: no-repeat;
 }
 
+/* index page styles */
 .logo{
     width: fit-content;
 }
@@ -231,4 +232,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page styles */
+
+
+.jumboAbout{
+    background-image: url("../img/jumbo-about.png");
+    background-size: cover;
+    height: 15vh;
+    margin-bottom: 3%;
+}
+
+.about{
+    width: 100%;
+    border-bottom: 2px dotted grey;
+    padding: 2%;
+    margin: 2% 0%;
+}
+
+/* section 2 styles */
+.section2{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.sec2box{
+    width: 45%;
+    border-bottom: 2px dotted grey;
+    margin: 2%;
+
+}
+.sec2button{
+    padding: 2%;
+    color: grey;
+    margin: 2% 0;
+    border-radius: 3%;
+    border: 2px solid grey;
+}
+
+/* section 3 styles */
+.section3{
+    margin: 2% 0;
+    padding: 1%;
 }
