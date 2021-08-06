@@ -65,6 +65,39 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Header Styles */
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 63%;
+    height: 60px;
+    margin: auto;
+    padding:1% 0;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding:;
+    margin: 0 0;
+    text-align: center;
+    font-size: 1.2rem;
+    align-items: baseline;
+}
+.jumbo{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+
+
 
 .container {
     width: 800px;
@@ -111,6 +144,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1{
+    background: teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +206,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ABOUT PAGE */
+.aboutmiddle{
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 0;
+    width: 60%;
+    border-top: 2px dotted black;
+}
+.aboutmiddle div{
+    width: 48%;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    height: 500px;
+    text-align:left;
+    border-bottom: 2px dotted black;
+}
+.aboutmiddle button{
+    width: 85px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 3%;
+    background-color: white;
+}
+.aboutmiddle h2{
+    padding-top: 2%;
+}
+.jumboabout{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+.aboutbottom{
+    width: 60%;
+    margin: auto;
+    padding: 2% 0;
+}
+h3{
+    font-size: 1.6rem;
+}
+footer{
+    width: 60%;
+    margin: auto;
 }
