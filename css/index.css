@@ -54,7 +54,7 @@ html {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -87,6 +87,12 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+}
+
+.links-text {
+    color: black;
+    text-decoration: none;
 }
 
 /* Jumbo section styling */
