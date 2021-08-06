@@ -144,3 +144,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Header*/
+header nav a{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1.5%;
+    font-size: 14px;
+}
+.logo{
+    width:0%;
+    padding: 1%;
+}
+.links{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*Image above middle*/
+.bigimage{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+/*Image on about section*/
+.skyimage{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
