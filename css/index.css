@@ -65,6 +65,55 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*--------------------*/
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+.top{
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.logo{
+    background-image: url("../img/lambda-black.png");
+    background-size: cover 60%;
+    background-repeat: no-repeat;
+    padding: 4% 10%;
+}
+.top_nav{
+    
+    border: solid 1px black;
+    padding-left: 0rem;
+  margin: auto;
+}
+.top_nav a{
+    color: rgb(12, 11, 11);
+    margin-right: 4.5rem;
+}
+.top .br_img{
+    
+    margin: auto;
+}
+.br_img{
+    background-image: url("../img/jumbo.jpg");
+    background-size: auto;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    padding: 5rem 10rem;
+}
+
+
 
 .container {
     width: 800px;
