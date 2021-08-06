@@ -65,7 +65,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 header nav a{
@@ -122,14 +122,13 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: rebeccapurple; */
     margin: 20px 2.5%;
-    color: white;
+    color: rebeccapurple;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
