@@ -73,6 +73,7 @@ table {
     --box-eight: hotpink;
     --box-nine: indigo;
     --box-ten: dodgerblue;
+    --p-font: #4f4f4f;
 }
 
 
@@ -94,6 +95,8 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 1.6rem;
+    color: var(--p-font);
 }
 
 /* Helper Class Styles */
@@ -259,3 +262,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
