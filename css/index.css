@@ -178,11 +178,30 @@ a:active { text-decoration: none; }
 }
 /*----------about page--------------*/
 
+
+    img{
+        margin-top: 50px;
+    }
 .gallory{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+button{
+    border: solid 2px black;
+    background-color: white;
+    font-weight : bold ;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dot{
+    border-bottom: 2px dashed black;
+    width: 370px;
+    margin: 5px;
+  } 
 
 .gallory p{
     width: 370px;
