@@ -294,3 +294,31 @@ footer nav a {
     margin-bottom: 2.5%;
     margin-top: 1%;
 }
+.aboutsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: dotted black;
+}
+.aboutbox{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black;
+    margin: 2%;
+    padding:1%;
+}
+.aboutbox h2{
+    margin-top: 3%;
+}
+.aboutbox p{
+    margin-bottom: 5%;
+}
+.aboutbox button{
+    width:40%;
+    padding: 2%;
+    border-radius: 12px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 3%;
+}
