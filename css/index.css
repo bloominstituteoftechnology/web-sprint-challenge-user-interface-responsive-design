@@ -54,6 +54,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
+    border:1px solid grey; /*  For Testing Only  */
 }
 
 
@@ -83,14 +84,25 @@ p {
 /* Helper Class Styles */
 
 .container {
-    width: 800px;
+    max-width: 800px;
+    width:auto;
     margin: 0 auto;
 }
 /* Headers Section */
 
 nav{
     display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.logo{
+    width:5%
+}
+
+.links{
+    width:60%;
 }
 
 /* Hero-Image Section */
