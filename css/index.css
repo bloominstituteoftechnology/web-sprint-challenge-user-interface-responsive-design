@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: white;
 }
 ol, ul {
 	list-style: none;
@@ -49,13 +49,18 @@ table {
 
 * {
     box-sizing: border-box;
-}
+    border:2px solid red}
+
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
 
+body{
+    background-color: black;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -66,9 +71,70 @@ p {
     line-height: 1.4;
 }
 
+nav{
+    display:flex;
+    justify-content: center;
+    width:64.6%; 
+	margin: auto;
+	padding-right:3rem;
+    background-color: white;
+
+
+}
+
+
+nav .logo{
+    display: flex;
+ justify-content: space-evenly;
+ margin:auto;
+ padding-right: 32.3%;
+ padding-bottom: 6%;
+ padding-top: 6%;
+ flex-wrap: nowrap;
+ align-items: center;
+ background-color: white;
+
+
+
+}
+nav .logo img{
+display: flex;
+margin-right:26%;
+background-color: white;
+
+}
+
+nav .links{
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    font-size: smaller;
+    background-color: white;
+
+
+
+
+   
+}
+nav .links a{
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 4%;
+    padding-left: 2%;
+    background-color: white;
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color: white;
+}
+.bgimg{
+    display: flex;
+    justify-content: center;
+   
+    margin: auto;
 }
 
 .top-content {
@@ -86,8 +152,9 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 10%x;
     border-bottom: 1px dashed black;
+    margin-bottom: 2%;
 }
 
 .middle-content h2 {
@@ -99,18 +166,161 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 2%;
 }
+
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+
+
 }
+/* All of the box coloring/formating */
+.middle-content .boxes .box1{
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: auto;
+    justify-content: center;
+}
+/* .middle-content .boxes .box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10{ */
+
+/* End of Box Styling */
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -120,6 +330,10 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    padding-top: 2%;
+  
+
+
 }
 
 .bottom-content .text-container:last-child {
@@ -128,19 +342,17 @@ p {
 
 footer {
     width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
+    background-color: black;
+    /* change to black^ */
     color: white;
-    text-decoration: none;
+    display: flex;
+    justify-content:left;
+margin-top: 12rem;
+  height: 5vh;
+  font-size: smaller ;
+
+
+
+
 }
+
