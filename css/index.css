@@ -130,6 +130,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 3%;
 }
 
 .top-content .text-container {
@@ -250,7 +251,7 @@ p {
 }
 
 footer {
-    width: 80%;
+    width: 100%;
     background: black;
 }
 
