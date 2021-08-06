@@ -258,10 +258,9 @@ footer nav a {
     justify-content: space-evenly;
 }
 .sec2box{
-    width: 50%;
+    width: 44%;
     border-bottom: 2px dotted grey;
-    margin-bottom: 2%;
-
+    margin: 2% 1%;
 }
 .sec2button{
     padding: 2% 5%;
@@ -275,6 +274,27 @@ footer nav a {
 .sec2box h2{
     padding: 3% 0;
 }
+.strategy-container{
+    background-image: url("../img/about-plan.png");
+    background-size: cover;
+    height: 23vh;
+}
+.how-container{
+    background-image: url("../img/about-working.png");
+    background-size: cover;
+    height: 23vh;
+}
+.places-container{
+    background-image: url("../img/about-office.png");
+    background-size: cover;
+    height: 23vh;
+}
+.collab-container{
+    background-image: url("../img/about-meeting.png");
+    background-size: cover;
+    height: 23vh;
+}
+
 
 /* section 3 styles */
 .section3{
