@@ -60,6 +60,21 @@ table {
 
 
 
+/* Color Pallet */
+
+:root{
+    --box-one: teal;
+    --box-two: gold;
+    --box-three: cadetblue;
+    --box-four: coral;
+    --box-five: crimson;
+    --box-six: forestgreen;
+    --box-seven: darkorchid;
+    --box-eight: hotpink;
+    --box-nine: indigo;
+    --box-ten: dodgerblue;
+}
+
 
 /* General Styles */
 html{
@@ -83,6 +98,12 @@ p {
 
 /* Helper Class Styles */
 
+.header-container{ /* Header container seperate to enable frame transitions  */
+    max-width: 800px;
+    width:auto;
+    margin: 0 auto;
+}
+
 .container {
     max-width: 800px;
     width:auto;
@@ -92,17 +113,28 @@ p {
 
 nav{
     display:flex;
-    justify-content: center;
+    justify-content:unset;
     align-items: center;
     text-align: center;
 }
 
 .logo{
-    width:5%
+    width:auto;
+    height: 10vh;
+    margin-top: 3rem;
 }
 
 .links{
-    width:60%;
+    width:90%;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.links a{
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: 1.5rem;
+    
 }
 
 /* Hero-Image Section */
@@ -144,12 +176,51 @@ nav{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-one{
+    background-color: var(--box-one);
+}
+
+.box-two{
+    background-color: var(--box-two);
+}
+
+.box-three{
+    background-color: var(--box-three);
+}
+
+.box-four{
+    background-color: var(--box-four);
+}
+
+.box-five{
+    background-color: var(--box-five);
+}
+
+.box-six{
+    background-color: var(--box-six);
+}
+
+.box-seven{
+    background-color: var(--box-seven);
+}
+
+.box-eight{
+    background-color: var(--box-eight);
+}
+
+.box-nine{
+    background-color: var(--box-nine);
+}
+
+.box-ten{
+    background-color: var(--box-ten);
 }
 
 /* Bottom Section */
