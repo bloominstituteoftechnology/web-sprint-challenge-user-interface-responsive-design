@@ -51,6 +51,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
+    border: solid;
 }
 
 header{
@@ -210,4 +211,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* begin about section*/
+
+.pic2{
+    display: flex;
+    justify-content: center;
 }
