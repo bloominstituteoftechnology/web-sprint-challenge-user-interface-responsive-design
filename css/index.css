@@ -89,8 +89,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -103,7 +103,7 @@ p {
 /* Helper Class Styles */
 
 .header-container{ /* Header container seperate to enable frame transitions  */
-    max-width: 800px;
+    max-width: 80rem;
     width:auto;
     margin: 0 auto;
     max-height: 10vh;
@@ -113,13 +113,13 @@ p {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 80rem;
     width:auto;
     margin: 0 auto;
 }
 .options-container{
     padding:0rem 2rem;
-    max-width: 800px;
+    max-width: 80rem;
     width:auto;
     margin: 0 auto;
 }
@@ -159,22 +159,22 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     margin-top: 2rem;
-    border-bottom: 1px dashed black;
+    border-bottom: .1rem dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2rem;  
 }
 
 /* Middle Section */
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .middle-content h2 {
@@ -190,8 +190,8 @@ nav{
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
+    height: 10rem;
+    margin: 2rem 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -200,6 +200,7 @@ nav{
 
 .box{
     font-size: 1.6rem;
+  
 }
 
 .box-one{
@@ -246,7 +247,7 @@ nav{
     display:flex;
     flex-direction: column;
     padding: 2rem 2rem;
-    max-width: 800px;
+    max-width: 80rem;
     width:auto;
     margin:0 auto;
     border-bottom: .1rem black dashed;
@@ -260,7 +261,7 @@ nav{
 .about-box-container{
     display:flex;
     flex-direction: column;
-    width: 45%;
+    width: 48%;
     margin-bottom: 2rem;
     padding: 1.5rem 0;
     border-bottom: .1rem black dashed;
@@ -282,14 +283,14 @@ button{
     background-color:white;
     border:.2rem black solid;
     padding:.7rem 2rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     
 }
 /* Bottom Section */
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2rem;
     justify-content: space-around;
 }
 
@@ -305,7 +306,7 @@ button{
     display:flex;
     flex-direction: column;
     padding: 2rem 2rem;
-    max-width: 800px;
+    max-width: 80rem;
     width:auto;
     margin-right:auto;
     margin-left:auto;
@@ -317,7 +318,7 @@ button{
 
 footer {
     display: flex;
-    max-width: 800px;
+    max-width: 80rem;
     width: auto;
     margin: 0 auto;
     width: 100%;
