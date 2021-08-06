@@ -91,53 +91,40 @@ ul {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+#middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+#middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box1 {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-}
-
-.middle-content .boxes .box2 {
+#middle-content .container {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
     display: flex;
-    align-items: center;
-    justify-content: center;   
+    justify-content: space-around;
 }
 
-.middle-content .boxes .box3 {
+#middle-content .container .strategy {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    display: flex;
     align-items: center;
     justify-content: center;   
 }
 
+#middle-content .container .work {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;   
+}
 
-
-.middle-content .boxes .box2 {
+#middle-content .container .locations {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -146,16 +133,7 @@ ul {
     justify-content: center;   
 }
 
-.middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-}
-
-.middle-content .boxes .box4 {
+#middle-content .container .collab {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -163,12 +141,9 @@ ul {
     align-items: center;
     justify-content: center;   
 }
-.box div {
-    color: white;
-  }
+
   
-  
-  .bottom-content {
+  .bottom-content 
       display: flex;
       margin: 0 2% 20px;
       justify-content: space-around;
