@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -248,27 +248,32 @@ footer nav a {
     width: 100%;
     border-bottom: 2px dotted grey;
     padding: 2%;
-    margin: 2% 0%;
+    margin: 2% 0% 4%;
 }
 
 /* section 2 styles */
 .section2{
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .sec2box{
-    width: 45%;
+    width: 50%;
     border-bottom: 2px dotted grey;
-    margin: 2%;
+    margin-bottom: 2%;
 
 }
 .sec2button{
-    padding: 2%;
-    color: grey;
-    margin: 2% 0;
-    border-radius: 3%;
-    border: 2px solid grey;
+    padding: 2% 5%;
+    color: rgb(86, 84, 84);
+    margin: 3% 0;
+    border-radius: 10px;
+    border: 2px solid rgb(86, 84, 84);
+    background-color: white;
+
+}
+.sec2box h2{
+    padding: 3% 0;
 }
 
 /* section 3 styles */
