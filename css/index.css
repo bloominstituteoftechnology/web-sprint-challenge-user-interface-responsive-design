@@ -110,8 +110,138 @@ p {
 
 button:hover{
     background-color:var(--black);
-    color:var(--white);
+    color:var(--white);  /* Button Animation */
 }
+
+.box-one:hover {                             /* Start of 1-10 Box Animations */
+    animation: pulseone 1s  infinite;      
+  }
+  
+  @keyframes pulseone {
+    0% {
+      background-color: var(--box-ten);
+    }
+    100% {
+      background-color: var(--box-one);
+    }
+  }
+
+  .box-two:hover {
+    animation: pulsetwo 1s  infinite;
+  }
+  
+  @keyframes pulsetwo {
+    0% {
+      background-color: var(--box-one);
+    }
+    100% {
+      background-color: var(--box-two);
+    }
+  }
+
+  .box-three:hover {
+    animation: pulsethree 1s  infinite;
+  }
+  
+  @keyframes pulsethree {
+    0% {
+      background-color: var(--box-two);
+    }
+    100% {
+      background-color: var(--box-three)
+    }
+  }
+
+  .box-four:hover {
+    animation: pulsefour 1s  infinite;
+  }
+  
+  @keyframes pulsefour {
+    0% {
+      background-color: var(--box-three);
+    }
+    100% {
+      background-color: var(--box-four);
+    }
+  }
+
+  .box-five:hover {
+    animation: pulsefive 1s  infinite;
+  }
+  
+  @keyframes pulsefive {
+    0% {
+      background-color: var(--box-four);
+    }
+    100% {
+      background-color: var(--box-five);
+    }
+  }
+
+  .box-six:hover {
+    animation: pulsesix 1s  infinite;
+  }
+  
+  @keyframes pulsesix {
+    0% {
+      background-color: var(--box-five);
+    }
+    100% {
+      background-color: var(--box-six);
+    }
+  }
+
+  .box-seven:hover {
+    animation: pulseseven 1s  infinite;
+  }
+  
+  @keyframes pulseseven {
+    0% {
+      background-color: var(--box-six);
+    }
+    100% {
+      background-color: var(--box-seven);
+    }
+  }
+
+  .box-eight:hover {
+    animation: pulseeight 1s  infinite;
+  }
+  
+  @keyframes pulseeight {
+    0% {
+      background-color: var(--box-seven);
+    }
+    100% {
+      background-color: var(--box-eight);
+    }
+  }
+
+  .box-nine:hover {
+    animation: pulsenine 1s  infinite;
+  }
+  
+  @keyframes pulsenine {
+    0% {
+      background-color: var(--box-eight);
+    }
+    100% {
+      background-color: var(--box-nine);
+    }
+  }
+
+  .box-ten:hover {
+    animation: pulseten 1s  infinite;
+  }
+  
+  @keyframes pulseten {
+    0% {
+      background-color: var(--box-nine);
+    }
+    100% {
+      background-color: var(--box-ten);  
+    }
+  }                                          /* End of 1-10 Box Animations */
 
 .header-container a:hover{
     color: var(--black);
