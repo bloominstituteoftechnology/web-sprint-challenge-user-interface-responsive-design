@@ -280,3 +280,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+#skyscrapers{
+    width: 100%;
+    height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../img/jumbo-about.png');
+    background-position: bottom;
+    margin-bottom: 2.5%;
+    margin-top: 1%;
+}
