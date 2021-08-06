@@ -1,12 +1,10 @@
 
 /* CSS Reset Section */
 
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,7 +25,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -53,17 +53,15 @@ table {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width: 100%;
-   
-    
+    max-width: 100%;  
 }
-
-
-
 
 /* Color Pallet */
 
 :root{
+    --black: black;
+    --white: white;
+    --whitesmoke: whitesmoke;
     --box-one: teal;
     --box-two: gold;
     --box-three: cadetblue;
@@ -77,10 +75,10 @@ table {
     --p-font: #4f4f4f;
 }
 
-
 /* General Styles */
+
 html{
-    font-size: 62.5%;
+    font-size: 62.5%; /* 10px = 1 rem*/
 }
 
 html, body {
@@ -102,27 +100,32 @@ p {
 
 /* Helper Class Styles */
 
-.header-container{ /* Header container seperate to enable frame transitions  */
-    max-width: 80rem;
-    width:auto;
-    margin: 0 auto;
-    max-height: 10vh;
-    height: auto;
-    
-   
-}
-
 .container {
     max-width: 80rem;
     width:auto;
     margin: 0 auto;
 }
-.options-container{
-    padding:0rem 2rem;
-    max-width: 80rem;
-    width:auto;
-    margin: 0 auto;
+
+/* Animations */
+
+button:hover{
+    background-color:var(--black);
+    color:var(--white);
 }
+
+.header-container a:hover{
+    color: var(--black);
+    text-shadow: .1rem .1rem var(--black);
+    
+}
+
+
+footer a:hover{
+    color: var(--whitesmoke);
+    text-shadow: .1rem .1rem var(--white);
+    
+}
+
 /* Headers Section */
 
 nav{
@@ -130,6 +133,14 @@ nav{
     justify-content:unset;
     align-items: center;
     text-align: center;
+}
+
+.header-container{ 
+    max-width: 80rem;
+    width:auto;
+    margin: 0 auto;
+    max-height: 10vh;
+    height: auto;
 }
 
 .logo{
@@ -147,11 +158,8 @@ nav{
 .links a{
     text-decoration: none;
     color: var(--p-font);
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
 }
-
-/* Hero-Image Section */
 
 /* Top Section */
 
@@ -161,7 +169,7 @@ nav{
     justify-content: space-evenly;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    border-bottom: .1rem dashed black;
+    border-bottom: .1rem dashed var(--black);
 }
 
 .top-content .text-container {
@@ -174,7 +182,7 @@ nav{
 
 .middle-content {
     margin-bottom: 2rem;
-    border-bottom: .1rem dashed black;
+    border-bottom: .1rem dashed var(--black);
 }
 
 .middle-content h2 {
@@ -192,10 +200,17 @@ nav{
     width: 12.5%;
     height: 10rem;
     margin: 2rem 2.5%;
-    color: white;
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.options-container{
+    padding:0rem 2rem;
+    max-width: 80rem;
+    width:auto;
+    margin: 0 auto;
 }
 
 .box{
@@ -250,7 +265,7 @@ nav{
     max-width: 80rem;
     width:auto;
     margin:0 auto;
-    border-bottom: .1rem black dashed;
+    border-bottom: .1rem var(--black) dashed;
 }
 #about-options{
     display:flex;
@@ -264,9 +279,8 @@ nav{
     width: 48%;
     margin-bottom: 2rem;
     padding: 1.5rem 0;
-    border-bottom: .1rem black dashed;
-    align-items: flex-start;
-    
+    border-bottom: .1rem var(--black) dashed;
+    align-items: flex-start; 
 }
 .about-box-container h2, .about-box-container p{
     margin: 1rem 0;
@@ -280,12 +294,12 @@ nav{
 }
 
 button{
-    background-color:white;
-    border:.2rem black solid;
+    background-color: var(--white);
+    border:.2rem var(--black) solid;
     padding:.7rem 2rem;
-    border-radius: 1rem;
-    
+    border-radius: 1rem;  
 }
+
 /* Bottom Section */
 
 .bottom-content {
@@ -311,9 +325,9 @@ button{
     margin-right:auto;
     margin-left:auto;
     margin-top:0;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;  
 }
+
 /* Footer Section */
 
 footer {
@@ -322,7 +336,7 @@ footer {
     width: auto;
     margin: 0 auto;
     width: 100%;
-    background: black;
+    background: var(--black);
 }
 
 footer nav {
@@ -335,8 +349,6 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
-
-
