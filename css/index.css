@@ -56,6 +56,24 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;  
+}
+
+header nav a{
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 25px;
+}
+
+header img{
+    margin: 0 0 25px 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
