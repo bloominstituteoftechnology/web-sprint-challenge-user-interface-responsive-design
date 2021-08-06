@@ -65,13 +65,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 header nav a{
     width: auto;
     color:black;
     text-decoration: none;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -82,6 +86,8 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 14px;
+    text-align: left;
 }
 
 .container {
@@ -118,13 +124,11 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: rebeccapurple; */
     margin: 20px 2.5%;
-    color: rebeccapurple;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
