@@ -34,12 +34,26 @@ footer, header, hgroup, menu, nav, section {
     border: 2px solid black;
 }
 
+.logo {
+    display: flex;
+    margin-bottom: 2.5%;
+}
+
 .navbar {
     display: flex;
-    text-decoration: none;
     color: black;
     justify-content: space-around;
-    margin: 20% 10% 5% 10%;
+    align-items: center;
+    margin: 20% 10% 2.5% 10%;
+   }
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2.5% 0;
+}
+   a {
+    text-decoration: none;
+    color: black;
    }
 
 body {
