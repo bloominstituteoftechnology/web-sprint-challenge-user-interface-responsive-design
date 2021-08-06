@@ -70,6 +70,27 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+ 
+
+header {
+    width: 100%;
+    background: white;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
 
 .top-content {
     display: flex;
@@ -104,13 +125,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.Boxes .box1{
+    background-color: teal;
+}
+
+.Boxes .box2{
+    background-color: gold;
+}
+
+.Boxes .box3{
+    background-color: cadetblue;
+}
+
+.Boxes .box4{
+    background-color: coral;
+}
+
+.Boxes .box5{
+    background-color: crimson;
+}
+
+.Boxes .box6{
+    background-color: forestgreen;
+}
+
+.Boxes .box7{
+    background-color: darkorchid;
+}
+
+.Boxes .box8{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;

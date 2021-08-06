@@ -1,0 +1,32 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+A semantic element clearly describes its meaning to both the browser and the developer.
+Examples of semantic elements: <form>, <table>, <article>, <aside>, <figure>, <footer>, <header>, 
+<main>, <mark>, <nav>, <section>, <summary>, and <time>- Clearly defines its content.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block; means that the element is displayed as a block, as paragraphs and headers have 
+always been. A block has some whitespace above and below it and tolerates no HTML elements next
+to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
+display: inline; means that the element is displayed inline, inside the current block on the 
+same line. Only when it's between two blocks does the element form an 'anonymous block', that 
+however has the smallest possible width.
+
+3. What are the 4 areas of the box model?
+
+content area, padding area, border area, and margin area.
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+The align-items property sets the align-self value on all direct children as a group. In Flexbox, 
+it controls the alignment of items on the Cross Axis, especially when using wrapping.
+
+5. Explain why git is valuable to a team of developers.
+
+Git offers the type of performance, functionality, security, and flexibility that most developers 
+and teams need to develop their projects.
+Git tracks the changes developers make to files, in any set of files, usually used for coordinating
+work among programmers collaboratively developing source code during software development.
+Git also makes collaboration easier, allowing changes by multiple people to all be merged into 
+one source.
