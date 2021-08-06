@@ -196,7 +196,22 @@ button{
     margin: 10px;
     padding: 10px;
 }
+.head_line{
+    margin-left: 30px;
+    width: 90%;
+}
+.end_line{
+    
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
 
+
+.dott{
+    border-bottom: 1px dashed black;
+    width: 100%;
+    margin-top: 10px;
+  } 
 .dot{
     border-bottom: 2px dashed black;
     width: 370px;
