@@ -123,7 +123,6 @@ button:hover{
 footer a:hover{
     color: var(--whitesmoke);
     text-shadow: .1rem .1rem var(--white);
-    
 }
 
 /* Headers Section */
@@ -267,6 +266,7 @@ nav{
     margin:0 auto;
     border-bottom: .1rem var(--black) dashed;
 }
+
 #about-options{
     display:flex;
     flex-flow: row wrap;
@@ -282,9 +282,11 @@ nav{
     border-bottom: .1rem var(--black) dashed;
     align-items: flex-start; 
 }
+
 .about-box-container h2, .about-box-container p{
     margin: 1rem 0;
 }
+
 .about-box-container img{
     margin-top: 1rem;
 }
