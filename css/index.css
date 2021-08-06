@@ -51,7 +51,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    border: solid;
+    
 }
 
 header{
@@ -103,6 +103,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    border-bottom: 1px dashed black;
 }
 
 .top-content {
@@ -215,27 +216,35 @@ footer nav a {
 
 /* begin about section*/
 
+
+
 .pic2{
     display: flex;
     justify-content: center;
+    
 }
 
 .mid2{
     display: flex;
     padding: 20px 2%;
     justify-content: center;
+       
 }
 
 .strategy{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .how{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .mid3{
@@ -248,11 +257,17 @@ footer nav a {
     width: 30%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
 }
 .collab{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+    
 }
 .end{
     display: flex;
