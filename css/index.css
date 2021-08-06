@@ -111,6 +111,7 @@ p {
 button:hover{
     background-color:var(--black);
     color:var(--white);  /* Button Animation */
+    transition: .2s
 }
 
 .box-one:hover {                             /* Start of 1-10 Box Animations */
@@ -246,13 +247,14 @@ button:hover{
 .header-container a:hover{
     color: var(--black);
     text-shadow: .1rem .1rem var(--black);
-    
+    transition: 0.5s;
 }
 
 
 footer a:hover{
     color: var(--whitesmoke);
     text-shadow: .1rem .1rem var(--white);
+    transition: 0.5s;
 }
 
 /* Headers Section */
