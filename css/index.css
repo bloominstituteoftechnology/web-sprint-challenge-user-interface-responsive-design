@@ -69,6 +69,19 @@ p {
     line-height: 1.4;
 }
 
+.header {
+    display: flex;
+}
+
+.jumbo {
+    background-image: url(/img/jumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin: 1% 24%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
