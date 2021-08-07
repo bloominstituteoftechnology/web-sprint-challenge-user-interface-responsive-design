@@ -85,7 +85,7 @@ header nav img{
     margin-left: auto;
     margin-right: auto;
     width:auto; */
-    
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -241,6 +241,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.options{
+    width: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu', sans-serif;
+}
+.options .card{
+    width:50%;
+    padding:10px;
+} 
+.options .card h2{
+padding-top:0;
+padding-bottom:0;
+}
+.options .card p{
+    padding-bottom:18px;
+}
+button{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    padding:10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:15px;
+    border-radius:12px ;
+
 }
 .bottom-content {
     display: flex;
