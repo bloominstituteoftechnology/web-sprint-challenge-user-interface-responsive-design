@@ -150,15 +150,21 @@ h5 {
 
 .topnav {
   display: flex;
+  justify-content: space-evenly;
+}
+.topnav.ahead {
+  display: flex;
   margin: auto;
 }
 .ahead {
+  display: flex;
   margin: auto;
-  margin-left: 0%;
-  justify-content: left;
 }
-.topnav .links {
-  justify-content: right;
+.plate {
+  display: flex;
+  align-items: center;
+
+  margin: auto;
 }
 p {
   line-height: 1.4;
@@ -239,6 +245,16 @@ footer nav {
 }
 
 footer nav a {
+  display: flex;
   color: white;
-  text-decoration: none;
+  text-decoration: black;
+  justify-content: space-evenly;
+}
+.comms {
+  display: flex;
+}
+
+.comms a {
+  display: flex;
+  justify-content: center;
 }
