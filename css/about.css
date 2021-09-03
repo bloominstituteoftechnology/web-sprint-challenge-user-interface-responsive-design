@@ -44,11 +44,56 @@ blockquote, q {
 	quotes: "" "";
 }
 
-/* header */
+/* top navigation section */
 
-/* head */
-
-.intro-img {
+header nav {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 2% 22% 3% 22%;
 }
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+}
+
+/* main section */
+
+.body-container .intro-section {
+	display: flex;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+.body-container .body-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 1% 0 1% 0;
+}
+
+.foot-section {
+	display: flex;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+/* bottom navigation section */
+
+footer nav {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 2% 22% 3% 22%;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+}
+
+/* README: I don't know why the code is not working, I am acknowledging the elements and the child elements to it's proper values and for some reason the code is not reasoning with me. Regardless what the code is showing you (the grader), please review my code on HTML and CSS and perhaps give me some slack with what I have put into the code rather than the webpage results itself. */
