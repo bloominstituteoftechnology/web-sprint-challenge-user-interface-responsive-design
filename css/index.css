@@ -40,7 +40,8 @@ blockquote, q {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	/* border: 1px solid red; */
+    /* make border for design purpose */
+	border: 1px solid red;
 }
 /* General styles */
 
@@ -55,9 +56,9 @@ body {
 	/* background-color: #DDB9A3; */
 }
 
-section {
+/* section {
 	padding: 4% 0;
-}
+} */
 
 a{
     text-decoration:none;
@@ -100,6 +101,10 @@ p {
     flex-wrap: wrap; */
 }
 
+.hide {
+    display: none;
+}
+
 /* Header Section styles*/
 
 header nav{
@@ -124,35 +129,50 @@ header nav{
 .logo{
     width: 32%;
     /* margin-left:3%; */
-    height: 7vh;
+    height: 6vh;
     margin-bottom: 2%;
     background-size:cover;
     background-repeat:no-repeat;
     background-image: url(/img/lambda-black.png);
 }
 
-.jumbo{
+
+.jumbo{   
+    width: 100%;
+    height: 10vh;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-image: url(/img/jumbo.jpg)
+}
+
+.jumbo-about{
     width: 100%;
     height: 10vh;
     background-size:cover;
     background-repeat:no-repeat;
     /* background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/barn.jpg?raw=true'); */
-    background-image: url(/img/jumbo.jpg)
+    background-image: url(/img/jumbo-about.png)
 }
 
 /* Top Section Styles */
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
+ .text-container {
+    /* width: 48%; */
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .middle-content {
@@ -255,3 +275,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page middle section */
+
+.about-middle{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+.about-middle div{
+    width:40%;
+    /* height:30vh; */
+    /* margin:4% 0; */
+    margin: 10px 0%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-bottom: 1px dashed black;
+    /* display:flex; */
+    /* align-items:flex-end; */
+}
+/* .about-middle div .hide{
+    width:70%;
+    height:10vh;
+    background-color:#fff;
+    display:none;
+} */
+/* .about-middle div .hide h2{
+        font-size:2.2rem;
+    } */
+/* .about-middle div:hover .hide{
+    display:block;
+} */
+
+ /* .farm{   
+    <img src="img/about-plan.png" alt="strategy"> ;
+     /* background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/barn.jpg?raw=true'); */
+} */
+/*
+.cook{
+    background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/cook.jpg?raw=true');
+}
+.produce{
+    background-image: url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/produce.jpg?raw=true');
+}
+.animals{
+    background-image: url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/sheep.jpg?raw=true');
+} */
