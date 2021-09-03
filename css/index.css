@@ -130,7 +130,7 @@ table {
 
 * {
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 200%;
 }
 
 html,
@@ -294,4 +294,78 @@ footer nav a {
   color: white;
   text-decoration: none;
   margin-right: 2.1rem;
+}
+
+
+
+
+/*  About.html style */
+
+/* Image config. styles */
+.jumbo-about img {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* About top-content */
+.top-content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.top-content2 .text-container {
+  width: 100%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+/* Middle section || 4 divs style */
+.about-middle-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-middle-section img {
+  width: 20rem;
+  height: 15rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.about-middle-section p {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  
+}
+
+.about-middle-section a {
+  text-decoration: none;
+  color: #292929;
+  border: 2px solid #292929;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: .6rem;
+  margin-bottom: 2rem;
+  font-size: 15px;
+  
+}
+
+.about-middle-section div {
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 40%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: flex-start;  
+  padding-top: 3rem;
+}
+
+.strategy {
+  
 }
