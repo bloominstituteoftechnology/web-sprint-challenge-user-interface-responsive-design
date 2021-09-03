@@ -147,6 +147,10 @@ h5 {
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
+. {
+  margin: 10%;
+  padding: 10%;
+}
 header img {
   margin-left: 20%;
 }
@@ -373,44 +377,88 @@ footer nav a {
 .container2-about-page {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .gallery1a {
   max-width: 25%;
   margin-bottom: 2%;
-  border-bottom: dotted;
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-direction: column;
 }
 .gallery1a p {
   text-align: center;
 }
+.gallery1a button {
+  background-color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80%;
+  height: 20%;
+  border-radius: 10%;
+}
 .gallery2a {
   max-width: 25%;
   margin-bottom: 2%;
-  border-bottom: dotted;
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-direction: column;
 }
 .gallery2a p {
   text-align: center;
 }
+.gallery2a button {
+  background-color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80%;
+  height: 20%;
+  border-radius: 10%;
+}
 .container3-about-page {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .gallery1b {
+  display: flex;
+  flex-flow: column;
+
   max-width: 25%;
   margin-bottom: 2%;
-  border-bottom: dotted;
+  border-bottom: 1px dashed black;
 }
 .gallery1b p {
   text-align: center;
 }
+.gallery1b button {
+  background-color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80%;
+  height: 20%;
+  border-radius: 10%;
+}
 .gallery2b {
+  display: flex;
+  flex-direction: column;
   max-width: 25%;
   margin-bottom: 2%;
-  border-bottom: dotted;
+  border-bottom: 1px dashed black;
 }
 .gallery2b p {
   text-align: center;
 }
-
+.gallery2b button {
+  background-color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80%;
+  height: 20%;
+  border-radius: 10%;
+}
 .bottom p {
   margin-top: 2%;
+  margin: 10%;
+  padding-left: 1%;
 }
