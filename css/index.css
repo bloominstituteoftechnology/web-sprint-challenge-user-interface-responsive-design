@@ -52,6 +52,7 @@ table {
     padding: 0;
     margin:0;
     max-width: 100%;
+    border: red solid 1px;
 }
 
 html, body {
@@ -134,7 +135,6 @@ header{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;  /* REMOVE THIS!!!*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -214,3 +214,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.body{
+    /* margin: 0 20%; */
+    padding: 0 20%;
+    border: 1px red solid;
+}
+
+.header2{
+    display: flex;
+    margin: 5% 0 0 5%;
+}
+/* Header, nav links, and banner img */
+
+.logo2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.headernav2{
+    text-decoration: none;
+    margin: 0 17%;
+    color: black;
+}
+.banner_pic2{
+    padding: 5% 5% 0 5% ;
+    
+}
+/* 
+.container_about-page{
+    display: flex;
+    justify-content: center;
+}
+
+.about_section{
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+    margin: 2% 8%;
+} */
+
+
+
+
+
+
