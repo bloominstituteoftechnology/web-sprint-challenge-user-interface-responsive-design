@@ -202,6 +202,7 @@ footer nav a {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* Header Styling */
@@ -287,6 +288,6 @@ header nav {
 
 .btn {
     border: solid 2px #333;
-    padding: 2%;
+    padding: 2% 5%;
     border-radius: 10px;
 }
