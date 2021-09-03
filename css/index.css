@@ -64,8 +64,7 @@ header{
 
 .top-page{
 
-margin:auto:
-width: 20%;
+margin:auto;
 display: flex;
 justify-content: center;
 align-items: baseline;
