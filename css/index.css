@@ -41,7 +41,7 @@ blockquote, q {
 	margin: 0;
 	max-width: 100%;
     /* make border for design purpose */
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 /* General styles */
 
