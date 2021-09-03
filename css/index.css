@@ -68,17 +68,24 @@ p {
 }
 
 /* Navbar Style */
-header nav {
-    margin: auto;
+nav {
     display: flex;
-    justify-content: space-around;
-    height: 5rem;
-    padding: 0 1%;
-    width: 800px;
+    padding-left: 0;
+    padding-bottom: 2rem;
+}
+
+nav a {
+    position: relative;
+    margin: 0;
 }
 
 nav img {
+    
+}
+
+header .top-right {
     display: flex;
+    justify-content: s
 }
 
 /* Image config. styles */
