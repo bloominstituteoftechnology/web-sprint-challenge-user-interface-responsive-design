@@ -31,16 +31,20 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
-
+ ****** Just a quick note to who ever may be grading this! I managed to get all of the css/html to match the design files at about 90% or so. I could not manage to figure out how to get the 1px dotted black lines to go across the length of the images on the about section, was hoping who ever reads this may be able to point me to the reason as to why? I attempted to attach it to the parent of strat info and was able to get the dotted lines but not the length of the pic? *******
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+semantic html is a way that to give meaning to things on our webpage. ie the main title on the page is an h1, h1 is a semantic element because it describes the text written.
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+display inline block can take a width and a height.
 3. What are the 4 areas of the box model?
+content, padding, border and margin?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+it is talking about the cross axis
 
 5. Explain why git is valuable to a team of developers.
+Git is an amazing tool I personally already love. It gives teams of devs the opportunity to all work on a project on their own and be able to share their versions without tampering with the original copy. It also allows devs to open a previous version if god forbid something happened to the current copy the dev was on. This is just a few examples :D
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

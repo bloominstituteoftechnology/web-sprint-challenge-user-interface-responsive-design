@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -61,7 +62,30 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10.5%;
+    width: 70%;
 
+ 
+}
+.navimg {
+    display: flex;
+    padding-left: 3%;
+}
+.jumbopic{
+    margin-bottom: 2%;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
 p {
     line-height: 1.4;
 }
@@ -70,13 +94,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.containerabout-page h2{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.aboutpara{
+    margin-right: 2%;
+    margin-left: 2%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .top-content .text-container {
@@ -100,7 +133,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,13 +143,114 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.box2{width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-}
+} 
 
 .bottom-content .text-container {
     padding-right: 4%;
@@ -143,4 +277,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page styles */
+
+
+.containerabout-page .aboutpara p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed black;
+}
+.aboutsect{
+display: flex;
+flex-direction: row;
+
+}
+.stratinfo{
+flex-direction: column;
+width:50%;
+border-bottom: 1px dashed black;
+margin-bottom: 2%;
+margin-top: 2%;
+padding-bottom: 2%;
+}
+
+
+.bottomsect h2 {
+ border-top: 1px dashed black;
+ margin: 2%;
+padding-top: 2%;
+ padding-bottom: 1%;
+ display: flex;
+}
+.bottomsect p{
+    margin: 2%;
+    padding-bottom: 2%;
 }
