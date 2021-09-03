@@ -30,21 +30,36 @@ footer, header, hgroup, menu, nav, section {
 } */
 
 *{
-    border: solid 5px purple;;
+    /* border: solid 1px purple; */
 }
 header{
     display: flex;
     justify-content: center;
+}
+header nav{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0 35px 0;
     
 }
-.headerdiv{
+.headerlinks{
     display: flex;
-    justify-content:center;
-}
-.headerdiv nav{
-    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+    flex-grow: 1;
 }
+.headerlinks a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 
 body {
 	line-height: 1;
