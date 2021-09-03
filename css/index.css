@@ -49,6 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 
 html, body {
@@ -143,4 +146,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Styling */
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    top: 0;
+}
+
+.logo {
+    background-image: url(/img/lambda-black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 5vh;
+    margin: 2%;
+    border: 2px solid grey;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-content {
+    display: flex;
+}
+
+.banner {
+    background-image: url(/img/jumbo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10vw;
 }
