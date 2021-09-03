@@ -197,3 +197,38 @@ footer nav a {
 }
 
 /* "about" page */
+.about {
+    width: 100%;
+    padding: 1%;
+    border-bottom: 1px dashed black;
+}
+.learn {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1%; 
+}
+.learn .box {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 1%;
+    /* line-height: 2; */
+    border-bottom: 1px dashed black;
+}
+.learn .box h2 {
+    margin: 5% 0%;
+}
+.learn .box p {
+    margin-bottom: 5%;
+}
+.box button {
+    font-size: 18px;
+    padding: 1% 5%;
+    align-self: flex-start;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.together {
+    padding: 5% 1%;
+}
