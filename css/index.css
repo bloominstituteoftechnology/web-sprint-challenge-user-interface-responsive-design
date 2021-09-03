@@ -122,9 +122,9 @@ header nav{
     justify-content:space-evenly;
 }
 .logo{
-    width: 26%;
+    width: 32%;
     /* margin-left:3%; */
-    height: 5vh;
+    height: 7vh;
     margin-bottom: 2%;
     background-size:cover;
     background-repeat:no-repeat;
