@@ -37,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 header{
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 /* header nav flex style */
 header nav{
@@ -210,7 +211,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
 }
 
@@ -219,3 +220,86 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
+/* About page styles */
+.aboutsection{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: dashed 1px black;
+}
+
+.aboutinfo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    ;
+    
+}
+
+.strategy{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+    
+}
+.howwework{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+    
+}
+.placeswework{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.collaboration{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.aboutbottomborder{
+    border-bottom: dashed 1px black;
+    padding-top: 20px;
+}
+.aboutinfo a{
+    display: flex;
+    max-width: 30%;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    border:solid 2px;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 5px;
+}
+.aboutinfo p{
+    padding-bottom: 20px;
+}
+.aboutinfo h3{
+    padding-top: 15px;
+}
+
+.bottomcontent{
+  padding-left: 30px;
+  padding-right: 30px;;
+}
+.bottomcontent h3{
+    padding-top: 20px;
+}
+.bottomcontent p{
+    padding: 10px 0 30px 0;
+}
