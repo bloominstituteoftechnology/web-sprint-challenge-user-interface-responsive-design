@@ -327,6 +327,7 @@ footer nav a {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+
 }
 
 .about-middle-section img {
@@ -344,7 +345,7 @@ footer nav a {
 
 .about-middle-section a {
   text-decoration: none;
-  color: #292929;
+  color: #292929; 
   border: 2px solid #292929;
   padding-top: .3rem;
   padding-bottom: .3rem;
@@ -367,5 +368,43 @@ footer nav a {
 }
 
 .strategy {
-  
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed black;
+}
+
+.how-we-work{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed black;
+}
+
+.places-we-work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed black;
+}
+
+.collab {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed black;
+}
+
+/*  Let's work together section style */
+.last-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 3rem;
+}
+
+.last-section, .lets-work-together {
+  width: 100%;
+  padding: 0 1%;
 }
