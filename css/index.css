@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* general styling */
+
 * {
     box-sizing: border-box;
 }
@@ -65,6 +67,29 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* header/nav styling */
+
+header {
+    width: 100%;
+    background: white;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* body styling */
 
 .container {
     width: 800px;
@@ -132,11 +157,11 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 4%;
     font-size: 14px;
 }
 
