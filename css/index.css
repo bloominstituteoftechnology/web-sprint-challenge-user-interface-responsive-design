@@ -162,7 +162,16 @@ nav {
 nav .btn {
   margin-left: 5%;
 }
-
+a:link {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+footer a:link {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
 p {
   line-height: 1.4;
 }
@@ -336,6 +345,15 @@ footer nav a {
   text-decoration: none;
 }
 /* about.html css stylings*/
+.aboutnav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20%;
+  margin-bottom: 0%;
+  margin-left: 14%;
+  margin-top: 0%;
+}
 .container1-about-page {
   display: flex;
   flex-wrap: wrap;
@@ -346,7 +364,7 @@ footer nav a {
   margin-bottom: 2%;
 }
 .container1-about-page p {
-  margin-top: 0%;
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
@@ -391,4 +409,8 @@ footer nav a {
 }
 .gallery2b p {
   text-align: center;
+}
+
+.bottom p {
+  margin-top: 2%;
 }
