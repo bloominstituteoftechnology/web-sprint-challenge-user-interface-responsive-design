@@ -121,7 +121,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content  .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -196,4 +196,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* about page */
+
+.container-about-page{ border: 5px solid black;
+display: block;
+flex-direction: row;
+margin-top: 1%;
+}
+
+#text-container{
+    border-bottom: ;
+    text-align: left;
+    width: 70%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
