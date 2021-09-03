@@ -97,16 +97,61 @@ p {
 }
 .boxes {
     display: flex;
-    flex-direction: row;
-    justify-content: center
+    flex-wrap: wrap;
+    flex: ;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0%;
-    ma
+    margin: 3%;
+    padding: 3%;
+
+    
+
 }
 
-.boxone {
+.box-one {
+    display: flex;
     background-color: teal;
+    border: 2px solid black;
+    padding: 3%;
+    
 }
+
+.box-two {
+    display: flex;
+    background-color: gold;
+    border: 2px solid black;
+    padding: 3%;
+}
+
+.box-three {
+    display: flex;
+    background-color: cadetblue;
+    border: 2px solid black;
+    padding: 3%;
+}
+
+.box-four {
+
+    display: flex;
+    background-color: coral;
+    border: 2px solid black;
+    padding: 3%;
+}
+ .box-five {
+    display: flex;
+    background-color: crimson;
+    border: 2px solid black;
+    padding: 5%;
+ }
+
+ .box-six {
+    display: flex;
+    background-color: crimson;
+    border: 2px solid black;
+    padding: 5%;
+
+ }
+
 
 .middle-content .boxes {
     display: flex;
