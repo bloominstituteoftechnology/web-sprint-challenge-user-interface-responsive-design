@@ -71,6 +71,7 @@ p {
     justify-content: space-evenly;
     line-height: 1.4;
     margin: 20px;
+    font-size: 50px;
     
 }
 
@@ -80,10 +81,18 @@ nav {
     display: flex;
     flex-direction: wrap;
     align-items: center;
-    margin-left: 20%;
-    padding: 3% 5%;
+    font-size: 50%;
    
 
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30%;
+    
+    
 }
 
 .menu {
@@ -91,29 +100,33 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 200%;
+    margin-left: 200%;
     border: 2px solid grey;
-    padding: 5%;
+ 
     font-size: 80px;
     
     
 }
-
-.left {
+.button {
     display: flex;
-    margin 15%;
-    padding: 10%;
+    margin: auto;
 }
 
-.home
+h2 {
+    font-size: 90px;
+    text-align: left;
+}
 
-img {
+
+.logo {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-left: auto;
+    
     margin-right: auto;
-    height: auto;
+    
    
     
 }
@@ -121,26 +134,46 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
 
 .container {
+    display:flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: baseline;
     width: 800px;
-    margin: 0 auto;
+    margin: 50%;
+    margin-top: 5%;
+    margin-bottom: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right:15px;
+
+    height: auto;
+    font-size: 50px;
+    text-align:left
 }
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: row;
     justify-content: space-evenly;
+    margin: 0%;
+    padding-right: 150px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 50px 75px 75px 50px;
+    padding: 20% 5% 5% 20%;
     padding-bottom: 20px;  
+    text-align: start;
 }
 
 /* boxes content*/
@@ -155,14 +188,12 @@ img {
 }
 .boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 15%;
-    margin-bottom: 15%;
-    padding: 3% ;
-
-    
+    margin: 55px;
+    padding: 3px 15px;
 
 }
 
@@ -252,6 +283,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10% 5% 5% 15%;
 }
 
 .bottom-content {
