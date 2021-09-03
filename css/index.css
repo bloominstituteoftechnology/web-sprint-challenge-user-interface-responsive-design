@@ -182,11 +182,13 @@ header nav a {
   align-items: flex-end;
   color: black;
   display: flex;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
 header .top-banner {
   display: flex;
+  margin: 5% 0 0;
 }
 
 /* footer  */
@@ -325,7 +327,7 @@ footer nav a {
 .about-page .top-content {
   flex-direction: column;
   justify-content: flex-start; /* could also just reset display to block */
-  padding: 0 2% 2%;
+  padding: 0.5% 2.5% 2.5%;
 }
 
 /* middle section */
@@ -376,6 +378,6 @@ footer nav a {
 .about-page .bottom-content {
   justify-content: flex-start; /* could also just reset display to block */
   flex-direction: column;
-  padding: 0 2% 2%;
+  padding: 0 2.5% 2%;
   margin: 0 0 3%;
 }
