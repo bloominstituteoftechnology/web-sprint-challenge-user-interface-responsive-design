@@ -50,7 +50,26 @@ table {
 * {
     box-sizing: border-box;
 }
-
+/* header */
+nav{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 2% 22% 3% 22%;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+/* body */
+.container img{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
+    margin-bottom: 2%;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -99,6 +118,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .middle-content .boxes .box {
@@ -112,7 +132,7 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
