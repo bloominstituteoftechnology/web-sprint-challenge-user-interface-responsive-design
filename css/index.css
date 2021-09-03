@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:3px solid grey;
 }
 
 html, body {
@@ -143,4 +144,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* .nav a{
+    display:flex;
+    justify: space-evenly;
+    margin:0 auto;
+    margin-left:15rem
+} */
+
+.right a{
+        margin: 6px;
+        /* border: 1px solid rgb(47, 46, 46); */
+        padding: 6px;
+        display: inline-flex;
+        /* border-radius: 20px; */
+        color: rgb(14, 14, 14);
+        text-decoration: none;
+        margin-bottom:20px;
+        Background:white;
+        /* align-items: center; */
+        margin-left: 25vh ;
+        margin-right:1rem ;
+}
+
+.container1 img{
+    display:flex;
+    margin: bottom 30px;
+    margin-left: 40vh;
+}
+
+.left img{
+    display:flex;
+    margin-left: 3vh;
+    margin-top:5px ;
 }
