@@ -159,6 +159,36 @@ p {
 
 /* header */
 
+header {
+  margin: 2% 0;
+}
+
+header .top-bar {
+  display: flex;
+  margin-bottom: 4%;
+}
+
+header .logo {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header nav a {
+  align-items: flex-end;
+  color: black;
+  display: flex;
+  text-decoration: none;
+}
+
+header .top-banner {
+  display: flex;
+}
+
 /* footer  */
 
 footer {
