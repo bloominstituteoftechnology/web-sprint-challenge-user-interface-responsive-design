@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -66,6 +67,26 @@ p {
     line-height: 1.4;
 }
 
+/* Navbar Style */
+header nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    padding: 0 1%;
+    width: 800px;
+}
+
+nav img {
+    display: flex;
+}
+
+/* Image config. styles */
+.jumbo img {
+    margin-bottom: 2rem;
+}
+
+/* General Styles */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -85,6 +106,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/* Boxes Style -- middle content*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -110,6 +133,47 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Boxes Color Change */
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
