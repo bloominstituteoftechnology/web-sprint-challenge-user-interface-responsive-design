@@ -64,6 +64,12 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+justify-content: center;
+align-items:center;
+display: inline-block;
+text-align: center;
+}
 
 .container {
     width: 800px;
@@ -96,8 +102,10 @@ p {
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .middle-content .boxes .box {
@@ -109,6 +117,57 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.box1{
+    background-color: teal;
+    height: 75px;
+    width:75px ;
+}
+.box2{
+    background-color:gold ;
+    height: 75px;
+    width:75px ;
+}
+.box3{
+    background-color:cadetblue ;
+    height: 75px;
+    width:75px ;
+}
+.box4{
+    background-color: coral;
+    height: 75px;
+    width:75px ;
+}
+.box5{
+    background-color: crimson;
+    height: 75px;
+    width:75px ;
+}
+.box6{
+    background-color: forestgreen;
+    height: 75px;
+    width:75px ;
+}
+.box7{
+    background-color: darkorchid;
+    height:75px ;
+    width:75px ;
+}
+.box8{
+    background-color: hotpink;
+    height: 75px;
+    width:75px ;
+}
+.box9{
+    background-color: indigo;
+    height: 75px;
+    width:75px ;
+}
+.box10{
+    background-color:dodgerblue ;
+    height: 75px;
+    width:75px ;
 }
 
 .bottom-content {
