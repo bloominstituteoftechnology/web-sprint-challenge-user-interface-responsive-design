@@ -49,6 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    max-width: 100%;
 }
 
 html, body {
@@ -66,6 +69,33 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    border:1px solid red;
+    /* margin-bottom: 10%; */
+}
+
+.logo{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.headernav{
+    text-decoration: none;
+    margin: 0 17%;
+    color: black;
+}
+.banner_pic{
+    padding: 5% 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +107,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border-top: solid 1px red;
 }
 
 .top-content .text-container {
