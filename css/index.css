@@ -319,3 +319,45 @@ footer nav a {
 }
 
 /* || page: /about.html */
+
+/* top section */
+
+.about-page .top-content {
+  justify-content: flex-start; /* could also just reset display to block */
+  flex-direction: column;
+  padding: 0 2% 2%;
+}
+
+/* middle section */
+.about-page .middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  margin: 0 2%;
+}
+
+.about-page .middle-content * {
+  border: 1px solid red;
+}
+
+.about-page .content-item {
+  width: 50%;
+}
+
+.about-page .content-item div {
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-page .content-item h2 {
+  padding: 3% 0;
+}
+
+/* bottom section */
+.about-page .bottom-content {
+  justify-content: flex-start; /* could also just reset display to block */
+  flex-direction: column;
+  padding: 0 2% 2%;
+  margin: 6% 0 3%;
+}
