@@ -147,25 +147,22 @@ h5 {
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
-
-.topnav {
+header img {
+  margin-left: 20%;
+}
+nav {
   display: flex;
   justify-content: space-evenly;
-}
-.topnav.ahead {
-  display: flex;
-  margin: auto;
-}
-.ahead {
-  display: flex;
-  margin: auto;
-}
-.plate {
-  display: flex;
   align-items: center;
-
-  margin: auto;
+  margin: 20%;
+  margin-bottom: 0%;
+  margin-left: 14%;
+  margin-top: 0%;
 }
+nav .btn {
+  margin-left: 5%;
+}
+
 p {
   line-height: 1.4;
 }
@@ -245,16 +242,6 @@ footer nav {
 }
 
 footer nav a {
-  display: flex;
   color: white;
-  text-decoration: black;
-  justify-content: space-evenly;
-}
-.comms {
-  display: flex;
-}
-
-.comms a {
-  display: flex;
-  justify-content: center;
+  text-decoration: none;
 }
