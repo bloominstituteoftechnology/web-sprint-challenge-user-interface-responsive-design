@@ -1,6 +1,8 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved. You will also create an additional web page that will be linked to from a navigation you will build.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint
+
+explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved. You will also create an additional web page that will be linked to from a navigation you will build.
 
 ## Instructions
 
@@ -8,7 +10,9 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
+You are not allowed to collaborate during the Sprint Challenge. Your work reflects your proficiency in user interface and your command of the
+
+concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
 
 ## Commits
 
@@ -59,6 +63,7 @@ You are expected to be able to answer all these questions. Your responses contri
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
@@ -100,7 +105,9 @@ You will also notice there are 10 boxes on the home page that need background co
 - [ ] Link the `Home` navigation item back to the `index.html` page.
 - [ ] Build the rest of the about page layout to match the design
 
-In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a
+
+challenge that meets MVP than one that attempts too much and does not.
 
 Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout.
 
