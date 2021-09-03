@@ -335,3 +335,60 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+/* about.html css stylings*/
+.container1-about-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container1-about-page img {
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+.container1-about-page p {
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+.container2-about-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+.gallery1a {
+  max-width: 25%;
+  margin-bottom: 2%;
+  border-bottom: dotted;
+}
+.gallery1a p {
+  text-align: center;
+}
+.gallery2a {
+  max-width: 25%;
+  margin-bottom: 2%;
+  border-bottom: dotted;
+}
+.gallery2a p {
+  text-align: center;
+}
+.container3-about-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+.gallery1b {
+  max-width: 25%;
+  margin-bottom: 2%;
+  border-bottom: dotted;
+}
+.gallery1b p {
+  text-align: center;
+}
+.gallery2b {
+  max-width: 25%;
+  margin-bottom: 2%;
+  border-bottom: dotted;
+}
+.gallery2b p {
+  text-align: center;
+}
