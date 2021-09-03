@@ -37,6 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
+4 areas  of box model are the following: 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
