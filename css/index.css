@@ -196,3 +196,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Me CSS */
+
+.container-about-page .about-block{
+    display: flex;
+}
