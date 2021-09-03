@@ -60,6 +60,29 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+
+}
+
+.header{
+    width: 100%;
+}
+.top-nav {
+    text-align:center
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 2%;
+    font-size: 14px;
+
+}
+
+.road{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57%;
+  margin-bottom: 2%;
 }
 
 p {
