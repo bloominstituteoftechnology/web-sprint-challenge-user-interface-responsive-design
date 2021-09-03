@@ -180,12 +180,14 @@ footer nav a {
   text-decoration: none;
 }
 
-/* || ()route: /index.html */
+/* || page: /index.html */
 
 .container {
   width: 800px;
   margin: 0 auto;
 }
+
+/* top section */
 
 .top-content {
   display: flex;
@@ -200,6 +202,8 @@ footer nav a {
   padding: 0 1%;
   padding-bottom: 20px;
 }
+
+/* middle section */
 
 .middle-content {
   margin-bottom: 20px;
@@ -228,6 +232,8 @@ footer nav a {
   justify-content: center;
 }
 
+/* bottom section */
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -242,4 +248,4 @@ footer nav a {
   padding-right: 0;
 }
 
-/* || ()route: /about.html */
+/* || page: /about.html */
