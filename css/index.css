@@ -74,7 +74,7 @@ font-size: 14px;
 
 .top-page nav{
     
-    width: 32%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +118,8 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed black ;
+
 }
 
 .top-content  .text-container {
@@ -202,17 +203,79 @@ footer nav a {
 
 /* about page */
 
-.container-about-page{ border: 5px solid black;
+.container-about-page{ 
 display: block;
 flex-direction: row;
 margin-top: 1%;
 }
 
+#top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black 20%;
+}
+
 #text-container{
-    border-bottom: ;
     text-align: left;
     width: 70%;
     padding: 0 1%;
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+#about-bottom{
+    
+    text-align: left;
+    width: 80%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin: auto;   
+    padding-top: 4%;
+}
+
+.about-bottom-nav{
+    text-align: left;
+    width: 80%;
+    padding: 0 1%;
+    padding-bottom: 5px; 
+    margin: auto; 
+}
+.learning{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#partone{
+    display: flex;
+    padding: 10%;
+
+}
+
+#parttwo{
+    display: flex;
+    padding: 10%;
+}
+figure{ 
+    
+    text-align: left;
+   padding: 2%;
+   padding-bottom: 3%;
+}
+
+figure img{
+    padding-bottom: 2%;
+}
+figure button{
+    border-radius: 40%;
+    background-color: white;
+    padding: 1%;
+    margin: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+hr{
+    border-top: dashed 3px; 
 }
