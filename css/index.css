@@ -283,6 +283,7 @@ header {
 footer {
   width: 100%;
   background: black;
+  padding-bottom: 2%;
 }
 
 footer nav {
@@ -334,20 +335,16 @@ footer nav a {
 #jumbo {
   width: 100%;
 }
+
 /* Main Body */
-.container-about-page {
-  /* margin: 10%; */
-}
 
 .about_section {
   padding: 2% 0;
   border-bottom: 1px dashed black;
   margin: 2% 5%;
-  /* border: red 1px solid; */
 }
 
 .main_body {
-  /* box-sizing: border-box; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -357,7 +354,6 @@ footer nav a {
   width: 40%;
   padding-bottom: 2%;
   margin: 5%;
-  /* border: 1px red solid; */
   border-bottom: dashed 1px black;
 }
 
@@ -381,7 +377,7 @@ footer nav a {
   margin: 5%;
 }
 
-footer {
+.footer_two {
   margin: 0 5%;
   padding-bottom: 1%;
   width: 90%;
