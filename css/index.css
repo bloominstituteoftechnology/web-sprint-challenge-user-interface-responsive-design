@@ -68,7 +68,7 @@ p {
 }
 
 /* Navbar Style */
-nav {
+/* nav {
     display: flex;
     padding-left: 0;
     padding-bottom: 2rem;
@@ -77,11 +77,11 @@ nav {
 nav a {
     position: relative;
     margin: 0;
-}
+} */
 
-nav img {
+/* nav img {
     
-}
+} */
 
 header .top-right {
     display: flex;
