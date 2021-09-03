@@ -33,16 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-Semantic HTML is 
+
+Semantic HTML is used to explain what the information on the page is about. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Display block is does not add a line break at the end of an element; while inline block respects the top/bottom margins and paddings. ( inline block is your friend)
+
+
 3. What are the 4 areas of the box model?
+
 4 areas  of box model are the following: 
+margin, border, padding, content 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+align-items: center axis work on the middle axis of the box
 
 5. Explain why git is valuable to a team of developers.
+
+It helps different developers add, delete, and/or talk about the code. It also helps many developers add input to new codes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -68,8 +77,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ x] Build the HTML and CSS to create the missing navigation and header.
+* [ x ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box (Note: inline styles are not acceptable. All styles should be written in your index.css file):
 
@@ -88,7 +97,7 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
+* [x ] Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
 * [ ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
