@@ -218,8 +218,6 @@ footer nav a {
 
 .body{
     margin: 0 20%;
-    /* padding: 0 20%; */
-    /* border: 1px red solid; */
 }
 
 .header2{
@@ -251,53 +249,57 @@ footer nav a {
 #jumbo{
     width: 100%
 }
-
+/* Main Body */
 .container-about-page{
     /* margin: 10%; */
 }
 
 .about_section{
-    padding-bottom: 2%;
+    padding: 2% 0;
     border-bottom: 1px dashed black;
-    margin: 2% 8%;
+    margin: 2% 5%;
+    /* border: red 1px solid; */
 }
 
 .main_body{
     /* box-sizing: border-box; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
 
+.main_body div {
+    width: 40%;
+    padding-bottom: 2%;
+    margin: 5%;
+    /* border: 1px red solid; */
+    border-bottom: dashed 1px black;
+}
+
+.main_body a {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: .5%;
+    
+}
+
+.main_body p{
+    margin-bottom: 5%;
 }
 
 .main_body img{
-    /* width: 100%; */
+    width: 100%
 }
 
-.strategy{
-    /* border: 1px solid red; */
-    width: 40%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-content: center; */
-    padding: 5%;
-    /* margin: 3% 5%; */
-}
 
-.how{
-    width: 40%;
-    padding: 5%;
-}
 
-.places{
-    width: 40%;
-    padding: 5%;
-}
 
-.colab{
-    width: 40%;
-    padding: 5%;
-}
+
+
+
+
 
 
 
