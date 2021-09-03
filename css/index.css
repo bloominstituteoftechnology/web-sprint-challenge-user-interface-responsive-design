@@ -16,9 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -144,3 +145,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* start of my CSS */
+ header{
+     display: flex;
+     justify-content: space-between;
+ }
+ .topNav{
+     padding: 65px;
+     text-decoration: none;
+     color: black;
+ }
+ .bgImg{
+    width: 100%;
+ }
+ .bgImg img{
+     width: 100%;
+ }
+
+ .topTwo{
+     display: flex;
+     padding-top: 20px;
+     border-bottom: 3px dotted black;
+     padding-bottom: 20px;
+ }
+ .bottomTwo{
+     display: flex;
+     padding-top: 20px;
+     border-bottom: 3px dotted black;
+     padding-bottom: 20px;
+ }
+.LearnMore{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    color: black;
+}
+/* css to index */
+.indexTopNav{
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+}
+
+
