@@ -228,9 +228,32 @@ button{
     padding: 5rem 10rem;
 }
 
+
+
+.about-footer {
+    width: 55%;
+    margin: auto;
+    background: black;
+}
+
+.about-footer nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.about-footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
 /*----------about page--------------*/
 footer {
-    width: 80%;
+    
     margin: auto;
     background: black;
 }
