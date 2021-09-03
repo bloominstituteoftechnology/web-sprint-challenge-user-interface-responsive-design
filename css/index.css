@@ -113,6 +113,10 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    color:teal;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -170,7 +174,7 @@ footer nav a {
 .container1 img{
     display:flex;
     margin: bottom 30px;
-    margin-left: 40vh;
+    margin-left: 60vh;
 }
 
 .left img{
@@ -178,3 +182,9 @@ footer nav a {
     margin-left: 3vh;
     margin-top:5px ;
 }
+
+.box{
+    background-color:teal !important;
+    display:flex;
+}
+
