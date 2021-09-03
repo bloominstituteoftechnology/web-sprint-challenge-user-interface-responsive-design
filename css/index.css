@@ -68,15 +68,16 @@ p {
     line-height: 1.4;
 }
 
-/* header/nav styling */
+/* home&about page styling */
 
 header {
-    width: 100%;
+    width: 43%;
     background: white;
+    margin: 0 auto;
 }
 
 header nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +90,6 @@ header nav a {
     text-decoration: none;
 }
 
-/* body styling */
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -102,6 +101,11 @@ header nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img{
+    margin-bottom: 15px;
+    /* border:tan solid 4px; */
 }
 
 .top-content .text-container {
@@ -129,7 +133,7 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -169,3 +173,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* .container .about-page {
+    width: 800px;
+    margin: 0 auto;
+} */
+
+.about-middle-content .info-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:
+    /* align-items: center; */
+}
+
