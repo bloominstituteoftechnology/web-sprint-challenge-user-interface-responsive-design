@@ -146,6 +146,35 @@ nav a{
     padding-right: 0;
 }
 
+/*ABOUT SECTION SPECIFICS*/
+
+
+
+.container-about-page .leverage{
+  
+    width: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;  
+}
+
+.boxes-about{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+
+    width:50%;
+}
+
+.boxes-about .boxab{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:50%;
+    align-items:center;
+}
+
+
 footer {
     width: 100%;
     background: black;
