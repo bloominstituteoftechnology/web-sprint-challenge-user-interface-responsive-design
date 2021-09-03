@@ -232,6 +232,46 @@ footer nav a {
   justify-content: center;
 }
 
+.boxes .box.one {
+  background: teal;
+}
+
+.boxes .box.two {
+  background: gold;
+}
+
+.boxes .box.three {
+  background: cadetblue;
+}
+
+.boxes .box.four {
+  background: coral;
+}
+
+.boxes .box.five {
+  background: crimson;
+}
+
+.boxes .box.six {
+  background: forestgreen;
+}
+
+.boxes .box.seven {
+  background: darkorchid;
+}
+
+.boxes .box.eight {
+  background: hotpink;
+}
+
+.boxes .box.nine {
+  background: indigo;
+}
+
+.boxes .box.ten {
+  background: dodgerblue;
+}
+
 /* bottom section */
 
 .bottom-content {
