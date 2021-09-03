@@ -46,7 +46,32 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.navbar {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2% auto;
+}
+.nav-links {
+    display:flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    list-style-type: none;
+    padding:0;
+}
+.nav-item a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.nav-item {
+    margin: 0 11%;
+}
+.bigpic {
+    margin: 3% 0;
+}
 * {
     box-sizing: border-box;
 }
@@ -55,6 +80,9 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+/* body {
+    border: 10vw solid white;
+} */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -111,6 +139,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +202,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-pic {
+    width: 800px;
+    margin: 3% auto;
+}
+.about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 2%;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 4% 0;
+}
+.gallery p {
+    padding: 5% 0;
+}
+/* .gallery section {
+    width: 45%;
+    padding: 2% 0;
+    margin: 4% 2%;
+    background-position: center;
+} */
+.gallery .card {
+    width: 45%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.gallery .card-img {
+    width: 100%;
+    height: auto;
+}
+.gallery .learn {
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 2% 5%;
+}
+.close {
+    padding: 2% 2%;
+    padding-bottom: 5%;
 }
