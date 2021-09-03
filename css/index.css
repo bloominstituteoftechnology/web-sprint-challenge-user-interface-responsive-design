@@ -199,3 +199,20 @@ footer nav a {
 
 /* About Me CSS */
 
+#strategy-block{
+    padding: 1% 10%;
+    border: 0;
+}
+
+#work-block{
+    padding: 1% 10%;
+    border: 0;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 2% 5%;
+    border-radius: 10px;
+}
