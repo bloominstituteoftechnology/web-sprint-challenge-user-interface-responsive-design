@@ -30,15 +30,16 @@ footer, header, hgroup, menu, nav, section {
 }
 /* nav styling */
 header{
-    border-style: solid;
-    border-width: 2px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 2% 
+    margin: 2% 20% 2% 11%;
+    font-size: .8rem;
+    font-weight: bold;
 
 }
 header a{
+    width: 50%;
     padding-top:2%;
     text-decoration: none;
     color: black;
@@ -46,10 +47,10 @@ header a{
 .lambda{
     margin-left: 11%;
 }
-.jumbo{
+.jumbo,.jumboabout{
  display: flex;
  justify-content: center;
- mar
+ margin-bottom: 2rem;
 }
 body {
 	line-height: 1;
@@ -275,7 +276,60 @@ footer nav {
     font-size: 14px;
 }
 
+
+/* about page styles */
+.allabout{
+    font-weight: bold;
+}
+/* top */
+.aboutpage1{
+    border-bottom: dotted;
+    margin-bottom: 2%;
+    padding: 0 2%;
+}
+/* middle1 */
+.middle1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.strategy{
+    text-align: start;
+    width: 50%;
+}
+.how-we-work{
+    width: 50%;
+    margin-bottom: 5%;
+}
+button{
+    font-weight: bold;
+    background-color: white;
+    border-radius: 7px;
+    margin: 2% 0;
+    padding: 3% 10%;
+}
+/* middle 2 */
+.middle2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h2{
+    margin-top: 1rem;
+}
+.places-we-work{
+    width: 50%;
+    border-bottom: dotted;
+}
+.collaboration{
+    width: 50%;
+    border-bottom: dotted;
+}
+.worktogether{
+    margin-bottom: 5%;
+}
+/* footer */
 footer nav a {
-    color: white;
+    color:#B3B3B3 ;
     text-decoration: none;
 }
