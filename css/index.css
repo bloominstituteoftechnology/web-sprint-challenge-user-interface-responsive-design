@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,24 +24,28 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+ article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-} */
+} 
 
-*{
-    /* border: solid 1px purple; */
-}
+
+
+/* Header style */
+
+/* main header flex */
 header{
     display: flex;
     justify-content: center;
 }
+/* header nav flex style */
 header nav{
     display: flex;
     align-items: flex-end;
     padding: 10px 0 35px 0;
     
 }
+/* headerlinks style */
 .headerlinks{
     display: flex;
     align-items: center;
@@ -128,6 +132,8 @@ p {
     margin-bottom: 0;
 }
 
+
+/* Box styles */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -144,6 +150,41 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* Individual box styles */
+
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color:gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
