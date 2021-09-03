@@ -66,6 +66,39 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20%;
+    padding: 1% 5%;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200%;
+    margin-left: 200%;
+    border: 2px solid grey;
+    
+    
+}
+
+img {
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .container {
     width: 800px;
