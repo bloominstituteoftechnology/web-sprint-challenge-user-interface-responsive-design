@@ -65,10 +65,75 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* header */
 
+/* header nav{
+    width: 800px;
+    margin: 0 auto;
+    height:10vh;
+    top: 0;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    position:fixed;
+} */
+header {
+    /* width: 100%; */
+    width: 800px;
+    height: 10vh;
+    background: white;
+    /* border:1px solid grey; */
+}
+
+
+
+header nav{
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    /* border:2px solid rgb(175, 66, 66); */
+}
+
+.logo{
+    width:20%;
+    margin-left:3%;
+    margin-bottom: 2%;
+    /* border:1px solid grey; */
+}
+header nav .links{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    /* border:3px solid blue; */
+}
+
+header nav .links a {
+    color: black;
+    text-decoration: none;
+}
+
+/* container style */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+/*blank section styles*/
+
+.home-image, .about-image{
+    height:20vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* border:3px solid blue; */
+}
+.home-image{
+    background-image:url('/img/jumbo.jpg');
+}
+.about-image{
+    background-image:url('/img/jumbo-about.png');
 }
 
 .top-content {
@@ -79,13 +144,18 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
+.top-content .text-container, .top-content .about-text-container{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
-.middle-content {
+.top-content .text-container{
+    width: 48%;
+}
+.top-content .about-text-container{
+    width: 99%;
+}
+/*     */
+.middle-content, .about-box{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -111,6 +181,90 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*     */
+
+/* .about-middle-content{
+    height: 100vh;
+} */
+.about-middle-content {
+    content: 2% 0;
+}
+.about-boxes {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border:3px solid red; */
+}
+.about-box{
+    margin: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    /* border:3px solid blue; */
+}
+.about-box img{
+    margin-bottom: 15px;
+}
+.about-box button {
+    /* margin: 5px 0; */
+    margin: 20px 0;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    /* margin: 4px 0%; */
+    /* border:1px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-box{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+.one{
+    background: teal;
+}
+.two{
+    background: gold;
+}
+.three{
+    background: cadetblue;
+}
+.four{
+    background: coral;
+}
+.five{
+    background: crimson;
+}
+.six{
+    background: forestgreen;
+}
+.seven{
+    background: darkorchid;
+}
+.eight{
+    background: hotpink;
+}
+.nine{
+    background: indigo;
+}
+.ten{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
