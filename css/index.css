@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border:1px solid grey; */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,7 +67,41 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header .top-nav {
+    width: 800px;
+    margin:0 auto;
+}
+.top-nav  {
+    width: 100%;
+    top:0%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;   
+}
+.top-nav .logo{
+    width: 30%;
+    padding-left: 3%;
+}
+.top-nav .links{
+    width: 70%;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5%;
+    
+}
+.links a{
+    text-decoration: none;
+    color: #4f4f4f;
 
+}
+.links a:hover{
+    color:red;
+}
+.bottom-nav{
+    width: 800px;
+    margin: 0 auto;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +140,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+/* Boxes styles
+* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue`
+ */
+.boxes .one{
+    background: teal;
+}
+.boxes .two{
+    background: gold;
+}
+.boxes .three{
+    background: cadetblue;
+}
+.boxes .four{
+    background: coral;
+}
+.boxes .five{
+    background: crimson;
+}
+.boxes .six{
+    background: forestgreen;
+}
+.boxes .seven{
+    background: darkorchid;
+}
+.boxes .eight{
+    background: hotpink;
+}
+.boxes .nine{
+    background: indigo;
+}
+.boxes .ten{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -126,11 +204,41 @@ p {
     padding-right: 0;
 }
 
+.container .about-page{
+    display:flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.about{
+    padding: 2%;
+}
+.middle-section-about{
+display: flex;
+flex-wrap: wrap;
+}
+.middle-section-about .part{
+    width:50%;
+    padding: 2%;
+}
+.learn-more{
+    width:35%;
+    padding:2%;
+    border: black 2px solid;
+    text-align: center;
+    margin-top:6%;
+    border-radius: 5px;
+}
+.learn-more:hover{
+    background: black;
+    color: white;
+}
+.lets-work-together{
+padding: 4% 2%;
+}
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
