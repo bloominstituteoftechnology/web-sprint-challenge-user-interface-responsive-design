@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    /* line-height: 1.4; */
+    line-height: 1.4;
 }
 
 .container {
@@ -110,18 +110,20 @@ p {
 header nav{
     /* position:fixed; */
     width:100%;
-    top:0;
+    top: 0;
     background-color:rgba(255, 255, 255, 0.8);
     align-items:center;
-    /* height:20vh; */
+    /* height: 7vh;  */
+    /* padding: 20px 2%; */
+    /* font-size: 14px; */
     /* z-index: 999; */
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 .links{
-    width:60%;
+    width:70%;
     align-items:center;
     display:flex;
     justify-content:space-evenly;
@@ -129,11 +131,10 @@ header nav{
 .logo{
     width: 30%;
     /* margin-left:3%; */
-    height: 6vh;
-    margin-bottom: 2%;
-    /* background-size:cover;
-    background-repeat:no-repeat;
-    background-image: url(/img/lambda-black.png); */
+    height: 10vh;
+    margin-top: 2%;
+    margin-bottom: 0;
+   
 }
 
 
@@ -150,7 +151,6 @@ header nav{
     height: 10vh;
     background-size:cover;
     background-repeat:no-repeat;
-    /* background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/barn.jpg?raw=true'); */
     background-image: url(/img/jumbo-about.png)
 }
 
@@ -160,6 +160,7 @@ header nav{
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
     justify-content: space-evenly;
+    margin-top: 2%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
