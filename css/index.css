@@ -44,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
     }
 
 body {
-    font-size: 1.8rem;
+    font-size: 5rem;
 	line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
@@ -84,7 +84,7 @@ p {
     justify-content: space-evenly;
     line-height: 1.4;
     margin: 20px;
-    font-size: 50px;
+    font-size: 60px;
     
 }
 
@@ -96,84 +96,84 @@ nav {
     flex-direction: row;
     justify-content:space-between;
     width: 100%;
-    position: fixed;
+    
     align-items: center;
     background-color: rgba(255, 255, 255, .08);
     z-index: 999;
 }
-.image2 {
+.center {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 5%;
+    height: 10%;
+}
 
-    height: 0%;
-    margin: 30%;
+.lights{
+    width:100%;
 }
 
 
 
-.logo {
-
-/* do not change*/
-}
 .links {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
    
 }
+   
 
 
-
-
-
-    
-    
-}
-
-.button {
+/* .button {
     display: flex;
     margin: auto;
+}*/
+
+h2 {
+    display: flex;
+    flex-direction: wrap;
+    font-size: 100px;
 }
-
-
-/*
-.container {
-    display:flex;
-    flex-flow: row;
-    justify-content: start
-    align-items: baseline;
-    width: 800px;
-    margin: 50%;
-    margin-top: 5%;
-    margin-bottom: auto;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right:15px;
-
-    height: auto;
-    font-size: 50px;
-    text-align:left
-}
-*/
 
 .top-content {
     display: flex;
-    flex-wrap: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 0%;
-    padding-right: 150px;
-    margin-bottom: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.connect {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 40%;
-    margin: 50px 75px 75px 50px;
-    padding: 20% 5% 5% 20%;
-    padding-bottom: 20px;  
-    text-align: start;
+    margin-left: 0%;
+    margin-right: 5%;
 }
+
+top-content .text-container {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 45px;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+
+
+
+
+
+
 
 /* boxes content*/
 .middle-content {
@@ -267,6 +267,8 @@ nav {
     padding: 5%;
  }
 
+ /* Last Section*/
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -311,6 +313,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    height: 50px;
 }
 
 footer nav a {
@@ -318,3 +321,6 @@ footer nav a {
     text-decoration: none;
 }
 
+.container about-page {
+    
+}
