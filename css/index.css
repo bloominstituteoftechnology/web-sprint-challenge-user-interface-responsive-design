@@ -323,35 +323,53 @@ footer nav a {
 /* top section */
 
 .about-page .top-content {
-  justify-content: flex-start; /* could also just reset display to block */
   flex-direction: column;
+  justify-content: flex-start; /* could also just reset display to block */
   padding: 0 2% 2%;
 }
 
 /* middle section */
 .about-page .middle-content {
+  border: none;
   display: flex;
   flex-wrap: wrap;
-  border: none;
+  justify-content: space-between;
   margin: 0 2%;
 }
 
-.about-page .middle-content * {
-  border: 1px solid red;
-}
-
 .about-page .content-item {
-  width: 50%;
+  width: 48%;
 }
 
-.about-page .content-item div {
+.about-page .content-item .card {
   border-bottom: 1px dashed black;
   display: flex;
   flex-direction: column;
+  margin: 4% 0 14%;
 }
 
 .about-page .content-item h2 {
   padding: 3% 0;
+}
+
+.about-page .content-item .card div {
+  display: flex;
+}
+
+.about-page .content-item .card a {
+  border: 2px solid black;
+  border-radius: 0.8rem;
+  color: black;
+  margin: 6% 0;
+  padding: 3% 0;
+  text-align: center;
+  text-decoration: none;
+  width: 35%;
+}
+
+.about-page .content-item .card a:hover {
+  background: black;
+  color: white;
 }
 
 /* bottom section */
@@ -359,5 +377,5 @@ footer nav a {
   justify-content: flex-start; /* could also just reset display to block */
   flex-direction: column;
   padding: 0 2% 2%;
-  margin: 6% 0 3%;
+  margin: 0 0 3%;
 }
