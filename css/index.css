@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+/* nav */
 .header-block nav{
     display: flex;
     justify-content: space-evenly;
@@ -78,6 +79,12 @@ p {
     color: black;
     margin-top: 25px;
 }
+
+.header-block .image-block img{
+    margin-left: 23% ;
+    padding-bottom: 2%;
+}
+/* till here */
 
 .container {
     width: 800px;
@@ -123,6 +130,38 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* color the boxes */
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
