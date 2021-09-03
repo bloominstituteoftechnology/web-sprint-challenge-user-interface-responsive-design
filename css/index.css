@@ -85,6 +85,7 @@ p {
 }
 .navigation {
     display: flex;
+    align-items: flex-end;
     margin-bottom: 20px;
     padding: 2%;
 }
@@ -197,13 +198,26 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content2, .middle-content2, .bottom-content2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
-.container-about-page .text-container {
-    width: 48%;
+.middle-content2, .bottom-content2 .text-container {
+    width: 47%;
     padding: 0 1%;
     margin-top: 2%;
     padding-bottom: 20px;  
 }
+.container-about-page .top-content2 .text-container p {
+    
+    width: 90%;
+    padding: 0 1%;
+    margin-top: 2%;
+    padding-bottom: 20px;  
+}    
 .button {
 
     border: black solid 2px;
