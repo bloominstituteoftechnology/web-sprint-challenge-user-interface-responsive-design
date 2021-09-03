@@ -52,7 +52,6 @@ table {
     padding: 0;
     margin:0;
     max-width: 100%;
-    border: red solid 1px;
 }
 
 html, body {
@@ -218,9 +217,9 @@ footer nav a {
 /* About Page */
 
 .body{
-    /* margin: 0 20%; */
-    padding: 0 20%;
-    border: 1px red solid;
+    margin: 0 20%;
+    /* padding: 0 20%; */
+    /* border: 1px red solid; */
 }
 
 .header2{
@@ -237,32 +236,68 @@ footer nav a {
 .nav2{
     display: flex;
     align-items: flex-end;
-    
+    justify-content: space-between;
 }
 
 .headernav2{
     text-decoration: none;
-    margin: 0 17%;
+    margin: 0 27%;
     color: black;
 }
 .banner_pic2{
-    padding: 5% 5% 0 5% ;
-    
+    margin: 5% 5% 0 5%;
 }
-/* 
-.container_about-page{
-    display: flex;
-    justify-content: center;
+
+#jumbo{
+    width: 100%
+}
+
+.container-about-page{
+    /* margin: 10%; */
 }
 
 .about_section{
     padding-bottom: 2%;
     border-bottom: 1px dashed black;
     margin: 2% 8%;
-} */
+}
 
+.main_body{
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
+}
 
+.main_body img{
+    /* width: 100%; */
+}
+
+.strategy{
+    /* border: 1px solid red; */
+    width: 40%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+    padding: 5%;
+    /* margin: 3% 5%; */
+}
+
+.how{
+    width: 40%;
+    padding: 5%;
+}
+
+.places{
+    width: 40%;
+    padding: 5%;
+}
+
+.colab{
+    width: 40%;
+    padding: 5%;
+}
 
 
 
