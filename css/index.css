@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,10 +24,28 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+} */
+
+*{
+    border: solid 5px purple;;
 }
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.headerdiv{
+    display: flex;
+    justify-content:center;
+}
+.headerdiv nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 body {
 	line-height: 1;
 }
@@ -144,3 +162,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
