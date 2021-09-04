@@ -52,6 +52,11 @@ table {
   padding:0;
   margin:0;
 }
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
 
 html, body {
     height: 100%;
@@ -99,14 +104,14 @@ nav{
     
 }
 
-/* .header{
+ .header{
     display: flex;
     justify-content: space-evenly;
     align-content: stretch;
     width: 90%;
     font-size: 20px;
     color: #4f4f4f;
-    margin-bottom: 2.5%; */
+    margin-bottom: 2.5%; 
 }
 .headerimg{
     display: flex;
@@ -115,7 +120,6 @@ nav{
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 .container {
     width: 800px;
@@ -152,15 +156,15 @@ nav{
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 100px;
+.middle-content .boxes .box .box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10{
+    width: 20%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .box1{
@@ -201,11 +205,32 @@ nav{
 
 }
 .box10{
-    display: flex;
-    justify-content: space-around;
-    
     background-color: dodgerblue;
     width: 20%;
+} 
+
+.about{
+    border-bottom: 1px dotted #4f4f4f;
+    margin-bottom: 10%;
+}
+.aboutcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width:100%;
+}
+.aboutbox{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px dotted #4f4f4f;
+
+}
+button{
+
 }
 
 .bottom-content {
