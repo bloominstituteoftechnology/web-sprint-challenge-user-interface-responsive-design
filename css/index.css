@@ -144,3 +144,99 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+*{
+  max-width:100%;
+  height:auto;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  
+}
+/*Header*/
+header{
+  
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:30px 10%;
+}
+.titles{
+  list-style:none;
+  display:flex;
+}
+.titles, li {
+  align-items:center;
+  display:inline-block;
+  margin-left:10%;
+}
+
+.headimg{
+  display:flex;
+  justify-content:center;
+  margin-bottom:2.5%;
+}
+
+.boxes{
+  
+  display:flex;
+  color:white;
+  flex-direction:row;
+  
+ 
+ 
+}
+.box1{
+  background-color:teal;
+  padding:40px;
+  margin:10px;
+;
+}
+.box2{
+  background-color:gold;
+  padding:40px;
+  margin:10px;
+ 
+}
+.box3{
+ background-color:cadetblue;
+  padding:40px;
+  margin:10px;
+}
+.box4{
+  background-color:coral;
+  
+ padding:40px;
+  margin:10px;
+
+}
+.box5{
+  background-color:crimson;
+  padding:40px;
+  margin:10px;
+  
+}
+.box6{
+  background-color:forestgreen;
+  padding:40px;
+  margin:10px;
+}
+.box7{
+  background-color:darkorchid;
+  padding:40px;
+  margin:10px;
+}
+.box8{
+  background-color:hotpink;
+  padding:40px;
+  margin:10px;
+}
+.box9{
+  background-color:indigo;
+  padding:40px;
+  margin:10px;
+}
+.box10{
+  background-color:dodgerblue;
+  padding:40px;
+  margin:10px;
+}
