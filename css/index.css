@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0%;
 	padding: 0%;
-	border: 2px solid black;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -302,8 +302,10 @@ top-content .text-container {
 }
 
 footer {
+    display: flex;
     width: 100%;
     background: black;
+    ;
 }
 
 footer nav {
@@ -313,7 +315,8 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    height: 50px;
+    height: 60px;
+    font-size: 80px;
 }
 
 footer nav a {
