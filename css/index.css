@@ -53,6 +53,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -199,74 +200,41 @@ top-content .text-container {
 }
 
 .box-one {
-    display: flex;
-    background-color: teal;
-    border: 2px solid black;
-    padding: 5%;
-    
+    background-color: teal; 
 }
 
 .box-two {
-    display: flex;
-    background-color: gold;
-    border: 2px solid black;
-    padding: 5%;
+    background-color: gold;  
 }
 
 .box-three {
-    display: flex;
     background-color: cadetblue;
-    border: 2px solid black;
-    padding: 5%;
 }
 
 .box-four {
-
-    display: flex;
-    background-color: coral;
-    border: 2px solid black;
-    padding: 5%;
+    background-color: coral;  
 }
  .box-five {
-    display: flex;
     background-color: crimson;
-    border: 2px solid black;
-    padding: 5%;
  }
 
  .box-six {
-    display: flex;
     background-color: forestgreen;
-    border: 2px solid black;
-    padding: 5%;
-
  }
  .box-seven {
-    display: flex;
     background-color: darkorchid;
-    border: 2px solid black;
-    padding: 5%;
  }
 
  .box-eight {
-    display: flex;
     background-color: hotpink;
-    border: 2px solid black;
-    padding: 5%;
  }
 
  .box-nine {
-    display: flex;
     background-color:indigo;
-    border: 2px solid black;
-    padding: 5%;
  }
 
  .box-ten {
-    display: flex;
     background-color: dodgerblue;
-    border: 2px solid black;
-    padding: 5%;
  }
 
  /* Last Section*/
@@ -280,13 +248,12 @@ top-content .text-container {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10% 5% 5% 15%;
+    padding:5%;
 }
 
 .bottom-content {
@@ -315,7 +282,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 65px 2%;
     font-size: 14px;
     height: 60px;
     font-size: 80px;
