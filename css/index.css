@@ -30,20 +30,6 @@ time, mark, audio, video {
     box-sizing: border-box;
     max-width:100%;
 }
-.one {
-    margin:1% 5% 1% 5%;
-    display:flex;
-    justify-content: space-between;
-    max-width: 80%;
-    position:relative;
-}
-
-.background {
-    max-width:100%;
-    display:flex;
-    justify-content:space-around;
-    margin-bottom:1%;
-}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -62,6 +48,33 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    margin: 2% 1% 4% 0%;
+}
+.lambda {
+    width:20%;
+}
+.nav1 {
+    display:flex;
+    width: 80%;
+    margin-top: 3%;
+}
+.nav1 nav a{
+    font-size:13px;
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.background {
+    margin:2% 0;
 }
 
 .top-content {
@@ -93,19 +106,108 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background:black;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.bottom-content {
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+.bottom-content 
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -136,4 +238,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page style */
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2% 1% 4% 0%;
+    width:100%;
+    
+}
+.lambda {
+    width:20%;
+}
+.nav1 {
+    display:flex;
+    width: 80%;
+    margin-top: 3%;
+}
+.nav1 nav a{
+    text-decoration: none;
+    font-size:13px;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    
+}
+.background {
+    margin:2% 0;
+}
+.begin {
+    border-bottom:2px dashed black;
+    margin-bottom:20px;
+    
+}
+.begin .about-page {
+    width:90%
+    padding-bottom:20px;
+}
+.mid {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.Learn {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.Learn div{
+    border-bottom: 2px dashed black;
+    margin: 2% 2%;
+    width:45%;
+}
+.info button {
+    margin:2%;
+    border-radius: 7px;
 }
