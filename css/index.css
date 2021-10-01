@@ -68,10 +68,11 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 1.5rem;
+    padding: 20px 0;
+    font-size: 1.2rem;
 }
-a {
+header a {
+    color: black;
     text-decoration: none;
 }
 
@@ -133,6 +134,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .one {
+    background: teal;
+}
+
+.middle-content .boxes .two {
+    background: gold;
+}
+
+.middle-content .boxes .three {
+    background: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background: coral;
+}
+
+.middle-content .boxes .five {
+    background: crimson;
+}
+
+.middle-content .boxes .six {
+    background: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background: indigo;
+}
+
+.middle-content .boxes .ten {
+    background: dodgerblue;
 }
 
 .bottom-content {
