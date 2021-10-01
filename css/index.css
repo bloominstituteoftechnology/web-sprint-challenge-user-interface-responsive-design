@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -276,3 +271,34 @@ nav a {
 .dodgerblue {
   background: dodgerblue;
 }
+.jumbo-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-about-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.photogallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+.photoitem {
+  width: 400px;
+  padding: 15px;
+}
+.button {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgb(42, 80, 250);
