@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+   align-items:center;
+    padding: 15px 1.9%;
+    font-size: 14px; 
+    margin:15px 18%;
+   
+   
+}
+header nav a{
+    margin-top:3%;
+    text-decoration: none;
+    color:black;
+    
+}
+.bigimg{
+    display:flex;
+    justify-content:center;
+    margin-bottom:30px ;
+}
+
