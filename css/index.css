@@ -78,7 +78,7 @@ nav{
     display:flex;
     justify-content: space-between;
     width:93%;
-    margin: 3% 0 0;
+    margin-top: 3%;
     align-items: flex-end;
     font-size: .88rem;
 }
@@ -280,4 +280,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about{
+    padding:3% ;
+    padding-bottom:20px;
+    border-bottom: 1px dashed black;
+}
+.parent1, .parent2 {
+    display:flex;
+    
+}
+.child1, .child2, .child3, .child4 {
+    border-bottom: 1px dashed black;
+    width:80%;
+    margin:2% 1%;
+}
+
+button{
+    border-color:1px solid black;
+    border-radius:10px;
+    padding: 2%;
+    margin:2% 0 7%;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    width:30%;
+    border-style: solid;
+    border-color:1px solid black;
+}
+.parent1 img{
+    margin:3% 0 5%;
+}
+.parent2 img{
+    margin:0 0 5%;
+}
+.bottom {
+    padding:3% ;
+    padding-bottom:20px;
 }
