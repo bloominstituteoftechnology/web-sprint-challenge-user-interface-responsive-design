@@ -214,3 +214,15 @@ footer nav a {
 .mainPage .collab{
     border-bottom: 1px dashed black;
 }
+button{
+    border-radius: 12px;
+    background-color: white;
+    padding:1% 3% 1% 3%;
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.bottomAbout{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
