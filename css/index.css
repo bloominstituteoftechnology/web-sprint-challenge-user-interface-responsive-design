@@ -89,7 +89,7 @@ nav a{
     color: black;
 }
 
-.highway{
+.toppic{
     margin: 3% 0;
 }
 
@@ -185,6 +185,55 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.top-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding:0 2%;
+    padding-bottom: 20px;
+}
+.about-middlecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.about-middlecontent h2{
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.content1, .content2, .content3, .content4{
+    width: 46.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+    margin: 1% 0 5% 0;
+    border-bottom: 1px dashed black; 
+}
+.about-middlecontent a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+.bottom{
+    
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+
+
+
+
+
 
 footer {
     width: 100%;
