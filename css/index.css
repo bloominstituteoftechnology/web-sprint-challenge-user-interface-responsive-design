@@ -121,12 +121,39 @@ header {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxes .box,.one {
+    background-color:teal;
+}
+.box.two{
+    background-color: gold;
+}
+.box.three{
+    background-color:cadetblue ;
+}
+.box.four{
+    background-color:coral ;
+}
+.box.five{
+    background-color:crimson ;
+}
+.box.six{
+    background-color:forestgreen ;
+}
+.box.seven{
+    background-color:darkorchid ;
+}
+.box.eight{
+    background-color:hotpink ;
+}.box.nine{
+    background-color: indigo;
+}.box.ten{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -165,9 +192,25 @@ footer nav a {
 
 
 /*Where the About Page CSS will begin*/
+.about{
+    margin: 2rem;
+}
+
 .top {
     display: flex;
 }
 .bottom {
-    display: flex;
+    display: flex ;
+    margin:1.5rem 0;
+}
+.top,.bottom,h3{
+    margin:0.5rem 0;
+}
+.top,.bottom,button {
+    border-width: 2px;
+    border-radius: 5px;
+    margin:0.5rem 0
+}
+.together{
+    margin: 1.5rem;
 }
