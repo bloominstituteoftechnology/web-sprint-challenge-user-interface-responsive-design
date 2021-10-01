@@ -70,6 +70,20 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin:5% 0;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.text-container {
+    margin: 3% 0;
+}
 
 .top-content {
     display: flex;
@@ -79,11 +93,12 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container{
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +127,48 @@ p {
     justify-content: center;
 }
 
+
+#box1 {
+    background-color:teal;
+}
+
+#box2 {
+    background-color:gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color:coral;
+}
+
+#box5 {
+    background-color:crimson;
+}
+
+#box6 {
+    background-color:forestgreen;
+}
+
+#box7 {
+    background-color:darkorchid;
+}
+
+#box8 {
+    background-color:hotpink;
+}
+
+#box9 {
+    background-color:indigo;
+}
+
+#box10 {
+    background-color:dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -134,7 +191,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +200,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about {
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
+}
+.mid-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mid-section .text-container { 
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+.mid-section .text-container img {
+    max-width: 100%;
+}
+.mid-section .text-container h2 {
+    padding:3% 0;
+}
+.text-container button {
+    padding: 2% 5%;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.bottom-section {
+    padding: 5% 0;
 }
