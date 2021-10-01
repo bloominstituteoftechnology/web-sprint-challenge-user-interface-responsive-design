@@ -49,11 +49,34 @@ table {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
 }
 
 h1, h2, h3, h4, h5 {
