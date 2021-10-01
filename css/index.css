@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +125,38 @@ p {
     padding-right: 0;
 }
 
+header {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-between;
+}
+
+header .left-header {
+    width: 20%;
+}
+header .right-header {
+    width: 70%;
+}
+
+.right-header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 2%;
+    font-size: 14px;
+}
+
+.right-header nav a {
+    text-decoration: none;
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
+.top-image {
+    margin: 0 2% 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -143,4 +174,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* box colors */
+.teal {
+    background-color: teal;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.crimson {
+    background-color: crimson;
+}
+
+.forestgreen {
+    background-color: forestgreen;
+}
+
+.darkorchid {
+    background-color: darkorchid;
+}
+
+.hotpink {
+    background-color: hotpink;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
 }
