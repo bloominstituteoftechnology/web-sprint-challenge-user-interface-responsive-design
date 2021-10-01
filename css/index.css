@@ -18,39 +18,32 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    
+
 }
 
 * {
     box-sizing: border-box;
+    max-width:100%;
+}
+.one {
+    margin:1% 5% 1% 5%;
+    display:flex;
+    justify-content: space-between;
+    max-width: 80%;
+    position:relative;
 }
 
+.background {
+    max-width:100%;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:1%;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -104,7 +97,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
