@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .bg-img{
-border: solid red;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -38,15 +38,18 @@ overflow:hidden;
 background-size: cover;
 background-size: 100%;
 }
-a.link{
-    color: black;
-    text-decoration: none;
+.ab-img{
+display: flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+background-size: cover;
+background-size: 100%;
 }
 
 .nav-link{
     display: flex; 
-    justify-content: space-around;
-    border: solid black;   
+    justify-content: space-around; 
     color: solid black; 
     text-decoration: none;
 }
@@ -166,12 +169,53 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.boxes{
-    background-color: "";
+ Boxes .Box1{
+     background-color: teal;
+}
+ Boxes .Box2{
+     background-color:gold;
+}
+ Boxes .Box3{
+     background-color:cadetblue;
+}
+ Boxes .Box4{
+     background-color:coral;
+}
+ Boxes .Box5{
+     background-color:crimson
+}
+ Boxes .Box6{
+     background-color:forestgreen;
+}
+ Boxes .Box7{
+     background-color:darkorchid;
+}
+ Boxes .Box8{
+     background-color:hotpink;
+}
+ Boxes .Box9{
+     background-color:indigo;
+}
+ Boxes .Box10{
+     background-color:dodgerblue;
+}
+.About-About{
+    display: block;
+    width: 80rem;
+    height: 60rem;
+    padding-top: 2rem;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black; 
 }
 
- 
-     
-     
-     
- 
+.About{
+    padding-bottom: 2rem;
+}
+
+.center-photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
