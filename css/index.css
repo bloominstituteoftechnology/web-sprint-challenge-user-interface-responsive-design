@@ -201,7 +201,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.about-page{
-    display:flex;
-    flex-wrap: wrap;
+
+.mainPage .strategy{
+    border-bottom: 1px dashed black;
+}
+.mainPage .how{
+    border-bottom: 1px dashed black;
+}
+.mainPage .places{
+    border-bottom: 1px dashed black;
+}
+.mainPage .collab{
+    border-bottom: 1px dashed black;
 }
