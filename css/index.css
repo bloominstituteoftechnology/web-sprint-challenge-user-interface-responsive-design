@@ -233,3 +233,7 @@ button{
     border: 2px solid black;
     border-radius: 10px;
 }
+
+.aboutBottom{
+    margin: 2% 2% 4% 2%;
+}
