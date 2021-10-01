@@ -65,7 +65,30 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* Header */
+*{
+    max-width: 100%;
+}
+header{
+    margin: auto;
+    width: 800px;
 
+}
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.headercontainer{
+    padding: 0 0 4% 0;
+}
+/* Body */
 .container {
     width: 800px;
     margin: 0 auto;
