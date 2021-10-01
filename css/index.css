@@ -144,3 +144,80 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1%;
+    width: 100%;
+}
+.plan{
+    width: 45%;
+    border-bottom: dotted 1px;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+.plan p{
+    padding-bottom: 3%;
+}
+.working{
+    width: 45%;
+    border-bottom: dotted 1px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.working p{
+    padding-bottom: 3%;
+}
+.office{
+    width: 45%;
+    border-bottom: dotted 1px;
+    padding-bottom: 3%;
+    padding-top: 4%;
+}
+.office p{
+    padding-bottom: 3%;
+}
+.meeting{
+    width: 45%;
+    border-bottom: dotted 1px;
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+.meeting p{
+    padding-bottom: 3%;
+}
+.about{
+    padding: 2%;
+    border-bottom: dotted 1px;
+}
+.button{
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 2% 3%;
+}
+.bottom{
+    padding-top: 1%;
+}
+h2{
+    padding-top: 2%;
+}
