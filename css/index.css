@@ -201,7 +201,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+.aboutPage{
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
 .mainPage .strategy{
     border-bottom: 1px dashed black;
 }
@@ -214,6 +217,18 @@ footer nav a {
 .mainPage .collab{
     border-bottom: 1px dashed black;
 }
+.mainPage .strategy img{
+    padding: 2% 0 1% 0;
+}
+.mainPage .how img{
+    padding: 2% 0 1% 0;
+}
+.mainPage .places img{
+    padding: 2% 0 1% 0;
+}
+.mainPage .collab img{
+    padding: 2% 0 1% 0;
+}
 button{
     border-radius: 12px;
     background-color: white;
@@ -222,6 +237,17 @@ button{
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.aboutContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.bg-img, .text {
+    width: 50%;
+}
+
 .bottomAbout{
     margin-top: 7%;
     margin-bottom: 7%;
