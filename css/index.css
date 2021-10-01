@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -27,24 +26,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 * {
@@ -201,6 +182,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About page */
+
 .about {
     padding: 2% 0;
     border-bottom: 1px dashed black;
@@ -212,7 +195,7 @@ footer nav a {
     
 }
 .mid-section .text-container { 
-    width: 48%;
+    width: 47%;
     padding-bottom: 20px; 
     border-bottom: 1px dashed black;
    
@@ -220,7 +203,6 @@ footer nav a {
 .mid-section .text-container img {
     max-width: 100%;
 }
-
 
 .mid-section .text-container h2 {
     padding:3% 0;
