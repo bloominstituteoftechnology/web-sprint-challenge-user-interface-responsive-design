@@ -69,8 +69,8 @@ p {
 .head {
     display: flex;
     margin: 1% 0 3% 0;
-    justify-content: center;
-    padding-right: 24%;
+    align-self: center;
+    padding-left: 26.3%;
 }
 .logo, .navbuttons{
     display: flex;
@@ -210,7 +210,48 @@ footer nav a {
 .abouttop p{
     margin: 2%;
 }
-.aboutmid1{
-    display: flex;
+
+
+.abouttop2 h3{
+    margin-left: 2%;
+    margin-top: 5%;
 }
 
+.abouttop2 p{
+    margin: 2%;
+    margin-bottom: 5%;
+}
+.aboutmid1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+
+.aboutmid1 .pix h3{
+    margin-top: 4%;
+}
+
+.aboutmid1 .pix .learn {
+    margin: 10% 0;
+}
+
+
+.aboutmid1 .pix .learn{
+    border: 3px solid black;
+    border-radius: 10%;
+    width: 30%;
+    height: 8%;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+.aboutmid1 .pix .learn a{
+    text-decoration: none;
+    color: black
+}
+
+.aboutmid1 .pix {
+    border-bottom: 1px dashed black;
+    margin: 2%;
+}
