@@ -60,12 +60,22 @@ html, body {
     display: flex;
     justify-content: center;
     padding-top: 1%;
-    border: 1px solid grey;
 }
-
-.topheader a {
-    text-align: center;
-    border: 1px solid grey;
+header nav {
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}    
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    padding: 120;
+    margin: 42;
 }
 .top{
     display: flex;
