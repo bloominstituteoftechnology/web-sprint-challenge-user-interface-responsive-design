@@ -259,6 +259,13 @@ header nav {
     padding-right: 0;
 }
 
+.container .about-page{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
 footer {
     width: 100%;
     background: black;
