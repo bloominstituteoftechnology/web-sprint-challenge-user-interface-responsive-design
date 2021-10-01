@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+When we are talking about building a webpage it helps to draw comparisons to building a physical house.
+HTML is the building materials, CSS puts it together and makes it pretty, and JavaScript is the plumbing,
+electrcity, and water. Semantic HTML is important because it lays out the building blocks for your website. It tells the computer what you are going to build. If you lay out the HTML right, the rest of the process will be a lot cleaner. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+With '''display: block''' a line break happens after the element so a block element doesn't sit right next to other elements. It makes it so that the width and height measurements put into CSS are respected in that element. '''display: inline''' doesn't have an element respect the height and width that are put in. This leads to lines overlapping with eachother and an overall lack of neat presentation.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model consist of the content edge, the padding edge, the border edge, and the margin edge. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+When using flex box the align-items property works on the vertical cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+git is a very valuable tool for a team of developers. While it sounds complicated at first, once you understand it better it is easy to see why it can be so useful. Essentially, when you are working on a section of code as a team you can all create your own branch and work on different sections of it without interfering with eachothers work. And then you can merge it all together ans see how it works. It is also valuable for storing code and being able to access it from anywhere. This is very useful, especially since so many people work from home now. Being able to store the origional code and modify it when needed is a neccessity for today's fast paced tech world. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
