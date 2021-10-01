@@ -46,7 +46,6 @@ overflow:hidden;
 background-size: cover;
 background-size: 100%;
 }
-
 .nav-link{
     display: flex; 
     justify-content: space-around; 
@@ -217,10 +216,16 @@ footer nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-evenly;
-    display: block;
     justify-content: center;
-    
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    border-top: 1px dashed black;
+}
+.first-photos{
+    margin: 2px;
 }
 .strategy{
     border-image: space;
