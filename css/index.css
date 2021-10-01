@@ -217,5 +217,11 @@ footer nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: space-evenly;
+    display: block;
+    justify-content: center;
+    
+}
+.strategy{
+    border-image: space;
 }
