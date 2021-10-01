@@ -144,3 +144,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav-link{
+    display: flex;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    row-gap: 10px;
+}
+        
