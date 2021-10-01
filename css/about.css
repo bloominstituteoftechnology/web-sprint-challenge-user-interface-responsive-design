@@ -105,25 +105,50 @@ header nav a {
 .middle-content img {
     margin-bottom:3%;
 }
+button {
+    padding:2% 6%;
+    margin-top:5%;
+    border-radius:10px;
+    background-color: ghostwhite;
+}
 .strategy {
-    width:45%;
+    width:48%;
     margin-bottom:3%;
     padding:2%;
     border-bottom: 1px dashed black;
 }
 .how-we-work {
-    width:45%;
+    width:48%;
     margin-bottom:3%;
     padding:2%;
     border-bottom: 1px dashed black;
 }
 .places {
-    width:45%;
+    width:48%;
     padding:2%;
     border-bottom: 1px dashed black;
 }
 .collaboration {
-    width:45%;
+    width:48%;
     padding:2%;
     border-bottom: 1px dashed black;
+}
+.bottom-content{
+    margin-bottom:4%;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
