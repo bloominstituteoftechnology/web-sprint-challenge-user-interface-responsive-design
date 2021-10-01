@@ -71,6 +71,7 @@ p {
 }
 header{
     margin: auto;
+    padding: 2% 0 0 0;
     width: 800px;
 
 }
@@ -78,15 +79,19 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
-    height: 15vh;
+    align-items:flex-end;
+    height: 5vh;
+    font-size: 14px;
 }
 nav a{
     text-decoration: none;
     color: black;
 }
+.link{
+    padding-right: 4%;
+}
 .headercontainer{
-    padding: 0 0 4% 0;
+    padding: 4% 0 3% 0;
 }
 /* Body */
 .container {
