@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +50,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border-color:solid black 2px;
 }
 
 html, body {
@@ -72,7 +72,6 @@ a{
     font-family: 'Rubik', sans-serif;
     color:black;
 }
-
 
 nav{
     display:flex;
@@ -116,8 +115,6 @@ nav{
     padding: 0 2%;
     margin-bottom: 0;
 }
-
-
 
 .box1{
     display: flex;
@@ -230,24 +227,11 @@ nav{
     align-items: center;
 }
 
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-/*
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 
 .bottom-content {
     display: flex;
@@ -276,20 +260,23 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
+/*About Page*/
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
 .about{
     padding:3% ;
     padding-bottom:20px;
     border-bottom: 1px dashed black;
 }
+
 .parent1, .parent2 {
     display:flex;
     
 }
+
 .child1, .child2, .child3, .child4 {
     border-bottom: 1px dashed black;
     width:80%;
@@ -297,7 +284,7 @@ footer nav a {
 }
 
 button{
-    border-color:1px solid black;
+    border:2px solid black;
     border-radius:10px;
     padding: 2%;
     margin:2% 0 7%;
@@ -307,12 +294,15 @@ button{
     border-style: solid;
     border-color:1px solid black;
 }
+
 .parent1 img{
     margin:3% 0 5%;
 }
+
 .parent2 img{
     margin:0 0 5%;
 }
+
 .bottom {
     padding:3% ;
     padding-bottom:20px;
