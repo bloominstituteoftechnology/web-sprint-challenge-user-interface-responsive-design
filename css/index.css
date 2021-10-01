@@ -208,17 +208,20 @@ footer nav a {
 .mid-section {
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 .mid-section .text-container { 
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px; 
     border-bottom: 1px dashed black;
+   
 }
 .mid-section .text-container img {
     max-width: 100%;
 }
+
+
 .mid-section .text-container h2 {
     padding:3% 0;
 }
@@ -231,3 +234,4 @@ footer nav a {
 .bottom-section {
     padding: 5% 0;
 }
+
