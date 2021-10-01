@@ -31,21 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 * {
     box-sizing: border-box;
@@ -60,7 +46,9 @@ html, body {
 header {
     display: flex;
     justify-content: space-around;
-    padding: 2em;
+    padding: 1em;
+    margin-left: 25%;
+    margin-right: 27%;
 }
 
 header nav {
@@ -72,6 +60,7 @@ header nav {
     font-size: 1.2rem;
 }
 header a {
+    margin-top: 2%;
     color: black;
     text-decoration: none;
 }
@@ -98,6 +87,7 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2%;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -207,4 +197,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about_info {
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+.about_mid {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .grid img{
+    width: 100%;
+}
+
+.grid {
+    text-align: left;
+    word-wrap:normal;
+    width: 48%;
+    padding: 2%;
+    margin: 1%;
+    border-bottom: 1px dashed black;
+
+}
+.bottom {
+    padding: 2%;
+    margin: 1%;
+}
+
+.grid h2 {
+    text-align: left;
+    padding-top: 2%;
+}
+
+button {
+    background: white;
+    border-radius: 10px;
+    padding: 2% 5%;
+    border: 2px solid black;
+    margin-top: 2%;
 }
