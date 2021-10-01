@@ -73,12 +73,14 @@ header {
 }
 header img {
     padding:2%;
-    margin-right:10%;
+    margin-right:3%;
+    justify-content:flex-start;
+
 }
 header nav {
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content:right;
+    justify-content:flex-end;
     justify-content:space-between;
     align-items:flex-end;
     padding: 20px 2%;

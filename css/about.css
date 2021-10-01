@@ -68,12 +68,13 @@ header {
 }
 header img {
     padding:2%;
-    margin-right:10%;
+    margin-right:3%;
+    justify-content:flex-start;
 }
 header nav {
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content:right;
+    justify-content:flex-end;
     justify-content:space-between;
     align-items:flex-end;
     padding: 20px 2%;
@@ -88,7 +89,7 @@ header nav a {
     margin: 0 auto;
 }
 .jumbo {
-    margin-bottom:3%;
+    margin-bottom:1%;
 }
 .about-container {
     margin-bottom:3%;
@@ -97,58 +98,61 @@ header nav a {
 }
 .middle-content {
     width:100%;
-    margin-bottom:3%;
+    margin-bottom:5%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.middile-content div {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
 }
 .middle-content img {
     margin-bottom:3%;
+    width:100%;
 }
 button {
     padding:2% 6%;
-    margin-top:5%;
+    margin:5% 1%;
     border-radius:10px;
     background-color: ghostwhite;
 }
 .strategy {
     width:48%;
     margin-bottom:3%;
-    padding:2%;
     border-bottom: 1px dashed black;
+
 }
 .how-we-work {
     width:48%;
     margin-bottom:3%;
-    padding:2%;
     border-bottom: 1px dashed black;
 }
 .places {
     width:48%;
-    padding:2%;
     border-bottom: 1px dashed black;
 }
 .collaboration {
     width:48%;
-    padding:2%;
     border-bottom: 1px dashed black;
 }
 .bottom-content{
     margin-bottom:4%;
 }
 footer {
-    width: 100%;
-    background: black;
+    width:100%;
+    background:black;
 }
 footer nav {
     width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 2%;
+    font-size:14px;
 }
 footer nav a {
-    color: white;
-    text-decoration: none;
+    color:white;
+    text-decoration:none;
 }
