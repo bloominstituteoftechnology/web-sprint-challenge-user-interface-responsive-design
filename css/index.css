@@ -28,7 +28,29 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+
+.bg-img{
+border: solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+background-size: cover;
+background-size: 100%;
+}
+a.link{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link{
+    display: flex; 
+    justify-content: space-around;
+    border: solid black;   
+    color: solid black; 
+    text-decoration: none;
+}
+body{
 	line-height: 1;
 }
 ol, ul {
@@ -72,7 +94,7 @@ p {
 }
 
 .top-content {
-    display: flex;
+    display: flex;   
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -144,18 +166,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-.nav-link{
-    display: flex;
-    padding: 3px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    row-gap: 10px;
+.boxes{
+    background-color: "";
 }
-        
+
+ 
+     
+     
+     
+ 
