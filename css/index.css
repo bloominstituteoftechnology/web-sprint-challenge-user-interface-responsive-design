@@ -203,3 +203,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About */
+.aboutTop{
+    padding: 0 2% 2% 2%;
+    border-bottom: 1px dashed black;
+}
+.aboutContent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.content-section{
+    width: 49%;
+    border-bottom: 1px dashed black;
+    padding: 3% 0;
+    margin-bottom: 4%;
+}
+
+
+.content-section h2{
+    margin-top: 4%;
+}
+
+button{
+    margin-top: 4%;
+    padding: 2% 4%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
