@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+header nav a {
+    color:#4f4f4f;
+    text-decoration: none;
+}
+
+.headerimg {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+.jumbo {
+    align-items: center;
+}
