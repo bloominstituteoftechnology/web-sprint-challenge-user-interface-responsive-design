@@ -289,16 +289,25 @@ nav a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 15px;
   margin-bottom: 20px;
-  border-bottom: 1px dashed black;
 }
 .photoitem {
-  width: 400px;
-  padding: 15px;
+  width: 380px;
+  padding-bottom: 15px;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+  margin-left: 20px;
 }
+
 .button {
-  background-color: orange;
-  padding: 10px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: rgb(42, 80, 250);
+  padding: 3% 3%;
+  border: 2px solid black;
+  transition: 2s;
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+}
