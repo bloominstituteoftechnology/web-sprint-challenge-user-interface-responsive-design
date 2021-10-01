@@ -207,7 +207,7 @@ nav{
     align-items: center;
     justify-content: center;
 }    
-.bottom-content 
+.bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -297,6 +297,22 @@ nav{
     width:45%;
 }
 .info button {
-    margin:2%;
+    margin:2% 0 4% 0;
+    padding: 1% 4%;
     border-radius: 7px;
+    background-color:white;
+    
+}
+.endinfo h3{
+    margin-top: 3%;
+}
+.endinfo {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+.endinfo div{
+    width:100%;
+    margin:2% 0 2% 0;
 }
