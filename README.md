@@ -25,7 +25,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions 
+## Self-Study Questions
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+    inline takes up the entire width of the page. you can give a block a width.
 3. What are the 4 areas of the box model?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
@@ -51,7 +51,7 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
@@ -93,8 +93,8 @@ You will also notice there are 10 boxes on the home page that need background co
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
-Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. 
+Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout.
 
-## Submission Instructions 
- 
+## Submission Instructions
+
 Please submit the url to your pull request in Canvas
