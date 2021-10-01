@@ -56,9 +56,15 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.topheader a {
+.topheader{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 1%;
+    border: 1px solid grey;
+}
+
+.topheader a {
+    text-align: center;
     border: 1px solid grey;
 }
 .top{
