@@ -70,7 +70,41 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* here starts my header nav a styles  */
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px dashed black;
+}
+header nav {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 1px solid rgb(194, 19, 48);
+}
+header nav a {
+    text-decoration: none;
+    padding: 0 0px;
+    text-align: center;
+    margin: 30px;
+    justify-content: space-around;
+    border: 2px dashed rgb(235, 231, 32);
+}
+header img {
+    margin-top:10px;
+    border: 2px solid orange;
+}
+ img {
+    max-width: fit-content;
+    margin-bottom: 20px;
+    border: 3px solid red;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +144,30 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}.middle-content .boxes .box:nth-child(6){
+    background: green;
+}.middle-content .boxes .box:nth-child(7){
+    background: blueviolet;
+}.middle-content .boxes .box:nth-child(8){
+    background: rgb(212, 91, 21);
+}.middle-content .boxes .box:nth-child(9){
+    background: navy;
+}.middle-content .boxes .box:nth-child(10){
+    background: hotpink;
 }
 
 .bottom-content {
