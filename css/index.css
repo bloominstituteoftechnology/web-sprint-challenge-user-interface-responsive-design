@@ -96,6 +96,9 @@ header nav a {
     justify-content: space-around;
     border: 2px dashed rgb(235, 231, 32);
 }
+header nav a:hover {
+    color: red;
+}
 header img {
     margin-top:10px;
     border: 2px solid orange;
@@ -201,4 +204,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT SECTION PAGE */
+.container about-page {
+        width: 800px;
+        margin: 0 auto;
+}
+.about-header {
+    border: 3px solid red;
+}
+.about-header nav a {
+    border: 3px solid red;
+}
+.about-header img {
+    border: 3px solid yellow;
+}
+.about-content {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+   
 }
