@@ -79,14 +79,14 @@ header {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 10px;
-    border: 1px dashed black;
+   
 }
 header nav {
     max-width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px;
-    border: 1px solid rgb(194, 19, 48);
+   
 }
 header nav a {
     text-decoration: none;
@@ -94,19 +94,19 @@ header nav a {
     text-align: center;
     margin: 30px;
     justify-content: space-around;
-    border: 2px dashed rgb(235, 231, 32);
+   
 }
 header nav a:hover {
     color: red;
 }
 header img {
     margin-top:10px;
-    border: 2px solid orange;
+   
 }
  img {
     max-width: fit-content;
     margin-bottom: 20px;
-    border: 3px solid red;
+    
 }
 .top-content {
     display: flex;
@@ -207,21 +207,70 @@ footer nav a {
 }
 
 /* ABOUT SECTION PAGE */
-.container about-page {
-        width: 800px;
-        margin: 0 auto;
-}
-.about-header {
-    border: 3px solid red;
-}
-.about-header nav a {
-    border: 3px solid red;
-}
-.about-header img {
-    border: 3px solid yellow;
-}
-.about-content {
-    margin-bottom: 10px;
+
+.top-content-about{
     border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.text-container-about{
+    width: 96%;
+    padding: 15px 1%;
+    padding-bottom: 20px;  
+}
+/* Middle content  */
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 46%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.card h3{
+    padding-top: 10px;
+}
+.card button{
+    padding: 9px 23px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    margin: 10spx 0;
    
 }
+/* Last two cards extra margin-top */
+.card:nth-last-child(-n+2){
+    margin-top: 30px;
+}
+
+/* Bottom content */
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-top: 50px;
+}
+.bottom-cta{
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+
+/* Blog styling */
+/* Top content */
+
+.top-content-blog img{
+    width: 100%;
+    height: 100%;
+}
+.top-content-blog h2{
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
