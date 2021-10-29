@@ -174,3 +174,14 @@ footer nav a {
 .box10{
     background-color: dodgerblue;
 }
+.about-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:50%;
+}
+button{
+    background-color: white;
+    color: black;
+}
