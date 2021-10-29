@@ -51,6 +51,18 @@ table {
     box-sizing: border-box;
 }
 
+header{
+    background-color: white; 
+    padding: 20px; 
+    margin-bottom: 15px;
+}
+
+.topsection{
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
