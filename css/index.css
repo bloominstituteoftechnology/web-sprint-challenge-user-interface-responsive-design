@@ -276,3 +276,16 @@ footer nav a {
     border-bottom: 0.2vh dashed black;
 }
 
+.bodyWrapper {
+    display:flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.bodyContainer1, .bodyContainer2, .bodyContainer3, .bodyContainer4 {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    max-width: 54vh;
+    margin:2vh;
+}
