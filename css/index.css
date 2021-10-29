@@ -51,7 +51,7 @@ table {
     box-sizing: border-box;
 }
 
-.header{
+.topsection{
     display: flex; 
     flex-direction: row;
     justify-content: space-evenly;
@@ -60,19 +60,6 @@ table {
     padding: 30px;
 }
 
-.navigation{
-    padding: 20px;
-    color:black;
-}
-
-/*
-.navigation{
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
-    margin-bottom: 15px;
-
-}*/
 
 
 
@@ -82,7 +69,8 @@ table {
 
 
 
-.topsection{
+
+.picture{
     display:flex; 
     flex-direction: row; 
     justify-content: center;
