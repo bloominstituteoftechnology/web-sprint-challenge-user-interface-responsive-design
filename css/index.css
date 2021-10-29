@@ -219,9 +219,6 @@ header .bottom{
     width:50%;
 }
 
-.infoPanel .middleRight *{
-    border: black solid 1px;
-}
 .infoPanel .middleRight{
     display: flex;
     flex-direction: column;
@@ -232,4 +229,36 @@ header .bottom{
 }
 .infoPanel .middleRight h3, p, a{
     margin: 4% 0;
+}
+
+.infoPanel .middleRight h3{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.infoPanel .middleRight p{
+    font-size: 1.2rem;
+}
+.infoPanel .middleRight a{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.bottom h3{
+    text-align: center;
+    padding: 3% 0;
+    margin-top: 5%;
+    font-size: 3rem;
+}
+
+.bottom p{
+    text-align: center;
+    padding: 0 5%;
+    font-size: 1.2rem;
+}
+
+.about h2{
+    font-size: 2.5rem;
+}
+.about p{
+    font-size: 1.2rem;
 }
