@@ -89,6 +89,7 @@ header nav a{
     flex-wrap:wrap;
     width: 800px;
     margin: 0 auto;
+    
 }
 
 
@@ -98,6 +99,7 @@ header nav a{
     padding: 0 1%;
     padding-bottom: 20px;
     flex-wrap: wrap; 
+    gap: 5.5%;
 }
 
 .layer3 {
@@ -106,7 +108,11 @@ header nav a{
     padding: 0 1%;
     padding-bottom: 20px;
     flex-wrap: wrap;  
+    gap: 5.5%;
 }
+
+.top, .layer2l, .layer2r, .layer3l, .layer3r{
+    margin: 2.5%;
 
 footer {
     width: 100%;
