@@ -71,9 +71,21 @@ header{
     justify-content: center;
     justify-content: space-evenly;
     margin-bottom: 2em;
-
 }
 
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+}
 
 .container {
     width: 800px;
@@ -119,6 +131,46 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one{
+    background:teal;
+}
+
+#two{
+    background:gold;
+}
+
+#three{
+    background:cadetblue;
+}
+
+#four{
+    background:coral;
+}
+
+#five{
+    background:crimson;
+}
+
+#six{
+    background:forestgreen;
+}
+
+#seven{
+    background:darkorchid;
+}
+
+#eight{
+    background:hotpink;
+}
+
+#nine{
+    background:indigo;
+}
+
+#ten{
+    background:dodgerblue;
 }
 
 .bottom-content {
