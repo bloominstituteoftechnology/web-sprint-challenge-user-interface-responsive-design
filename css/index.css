@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -27,6 +26,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+* {
+    box-sizing: border-box;
+    border: 1px solid grey;
+
 }
 body {
 	line-height: 1;
@@ -47,9 +51,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 html, body {
     height: 100%;
@@ -144,3 +145,125 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.jumbo {
+    padding-bottom: 20px;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+header nav{
+    object-fit: fill;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+}
+.navbuttons{
+    margin-top: 25px;
+    padding-left: 30px;
+}
+.navbuttons a{
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+.navbuttons a:hover{
+    color: cyan;
+}
+#boxone{
+    background-color: cyan;
+}
+#boxtwo{
+    background-color: gold;
+}
+#boxthree{
+    background-color: cadetblue;
+}
+#boxfour{
+    background-color: coral;
+}
+#boxfive{
+    background-color: crimson;
+}
+#boxsix{
+    background-color: forestgreen;
+}
+#boxseven{
+    background-color: darkorchid;
+}
+#boxeight{
+    background-color: hotpink;
+}
+#boxnine{
+    background-color: indigo;
+}
+#boxten{
+    background-color: dodgerblue;
+}
+.sectiontwo{
+
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+.sectionthree{
+    padding: 20px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-evenly;
+}
+.secthreediv{
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.secthreediv p{
+    padding-bottom: 15px;
+}
+.secthreediv2 p{
+    padding-bottom: 15px;
+}
+.secthreediv2{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.sectionfour{
+    padding: 20px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-evenly;
+}
+.secfourdiv{
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.secfourdiv2{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.secfourdiv p{
+    padding-bottom: 20px;
+}
+.secfourdiv2 p{
+    padding-bottom: 20px;
+}
+.lwk{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+.container button{
+    background-color: transparent;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
