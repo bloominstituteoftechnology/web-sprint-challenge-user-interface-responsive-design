@@ -70,6 +70,33 @@ header {
     width: 800px;
     margin: 0 auto;
     margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.containerNav {
+    display:flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-content: space-evenly;    
+}
+
+.containerNav a{
+
+    background-color:white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: #4f4f4f;
+    
+}
+
+header img{
+    /*remove this when everything is in place
+    border:1px solid grey;  */
+}
+
+header a{
+    /*remove this when everything is in place
+    border:1px solid grey;  */
 }
 
 .container {
