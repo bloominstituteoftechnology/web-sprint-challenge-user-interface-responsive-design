@@ -63,6 +63,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
 }
 nav{
     display: inline-block;
