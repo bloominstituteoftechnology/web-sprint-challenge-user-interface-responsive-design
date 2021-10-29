@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    
+    max-width: 800px;
+    margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -69,10 +70,9 @@ p {
 }
 header{
     padding-top: 4%;
-    padding-right: 4%;
-    padding-left: 2%;
 }
 .nav-container{
+    margin:0 auto;
     display: flex;
     align-items: baseline;
     align-content:center;
@@ -92,8 +92,6 @@ nav a{
     align-content: center;
 }
 .container {
-    width: 800px;
-    margin: 0 auto;
 }
 
 .top-content {
