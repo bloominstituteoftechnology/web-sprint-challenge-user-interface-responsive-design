@@ -125,7 +125,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .boxes{
+.middle-content .boxes *{
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
