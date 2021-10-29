@@ -172,3 +172,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* This is the about page beginning  */
+
+.bgi__about{
+    height: 25vh;
+    background-image: url(/img/jumbo-about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5%;
+
+}
