@@ -315,7 +315,27 @@ footer nav a {
     border-bottom: 1px dashed black;
 }
 
+.mainabout{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
 .stratnplaces{
+    width: 23%;
+    margin-bottom: 5px;
+}
+.strat, .how{
+    margin-bottom:70px;
+}
+.places, .colab{
+    margin-bottom:10px;
+}
+
+.howncolab{
+    width: 23%;
+}
+/*.stratnplaces{
     width:20%;
     height: 300px;
     display:flex;
@@ -338,7 +358,7 @@ footer nav a {
 }
 .how{
     column-gap: 50px;
-}
+}*/
 
 button{
     background-color: white;
@@ -348,7 +368,19 @@ button{
 .footnote{
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 0 4% 20px ;
-    padding-top: 10px;
+    justify-content: space-between;
+    margin-left:18%;
+    margin-right: 18%;
+    margin-bottom:3%;
+    padding-top: 3%;
+    padding-right: 30px;
+}
+
+.aboutfoot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+    background: black;
+    margin-left:17%
+    
 }
