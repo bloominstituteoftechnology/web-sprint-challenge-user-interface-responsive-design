@@ -177,7 +177,9 @@ nav a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.about-page{
+    border-bottom: 1px dashed black;
+}
 footer {
     width: 100%;
     background: black;
