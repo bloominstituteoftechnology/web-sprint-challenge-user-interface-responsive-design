@@ -48,10 +48,75 @@ header {
 
 }
 
+.lever {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.learn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    
+}
+
+.learn p {
+    padding-bottom:10px;
+}
+.learn2 p {
+    padding-bottom:10px;
+}
+.strategy {
+    border-bottom: 1px dashed black;
+    margin-right: 10%;
+    padding-bottom: 25px;
+}
+
+.how-we-work {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+
+.learn2 {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:25px;
+}
+
+.places-we-work {
+    border-bottom: 1px dashed black;
+    margin-right: 10%;
+    padding-bottom: 25px;
+}
+
+.collab {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+
+.lets-work {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
 .logo button {
     background: transparent;
-    border:none
+    border:none;
+    transition:.5s
+}
+.logo button:hover {
+    background-color:crimson;
+}
 
+.click {
+    padding:10px;
+    border-radius: 10%;
+    border: 2px solid black;
+    background: white;
+    font-family: 'Rubik', sans-serif;
+    
 }
 
 .header {
@@ -209,4 +274,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
 
