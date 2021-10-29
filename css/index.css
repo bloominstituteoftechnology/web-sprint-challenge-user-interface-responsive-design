@@ -290,3 +290,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Main CSS for about page*/
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMessage h2 {
+    margin-left: 4vh;
+    margin-right: 5.5vh;
+}
+.aboutMessage p {
+    margin-left: 4vh;
+    margin-right: 5.5vh;
+}
+
+.aboutMessage {
+    border-bottom: 2px dotted #4f4f4f;
+    margin-bottom: 3vh;
+}
+
+.middleSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vh;
+}
+.middleSection div {
+    width: 47%;
+    margin-bottom: 5vh;
+    margin-right: 2.5vh;
+}
+.middleSection div img {
+    width: 100%;
+}
+.middleSection div:nth-child(3),
+.middleSection div:nth-child(4) {
+    border-bottom: 2px dotted #4f4f4f;
+}
+
+.middleSection div button {
+    height: 4vh;
+    margin: 2vh;
+    margin-left: 0;
+    border-radius: 1vh;
+    width: 12vh;
+    border: 2px solid #4f4f4f;
+    background: #ffff;
+    font-weight: 700;
+    color: #4f4f4f;
+    cursor: pointer;
+}
+.bottomMessage h2 {
+    margin-left: 2vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-right: 2vh;
+}
+
+.bottomMessage p {
+    margin-left: 2vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-right: 2vh;
+}
