@@ -107,22 +107,12 @@ header nav a {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 2%;
-    /* margin-left: 29%;
-    background-image: url(../img/jumbo.jpg);
-    background-size: fill;
-    background-repeat: no-repeat;
-    height: 20vh; */
 }
 
-/* .bg-img {
-    margin-left: 29%;
-    background-image: url(../img/jumbo.jpg);
-    background-size: fill;
-    background-repeat: no-repeat;
-    height: 20vh;
-} */
+
 /* .................................................................................... */
 
+/* what was already here */
 
 .container, .about-page {
     width: 800px;
@@ -220,6 +210,8 @@ footer nav a {
 
 /* ................................................................................ */
 
+/* other general styles */
+
 .btn {
     border-radius: 10px;
     border: 2px solid black;
@@ -227,7 +219,11 @@ footer nav a {
     margin-top: 5%;
 }
 
-h2 .about-page {
+h2.about-page {
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.text-container.about-page {
+    border-bottom: none;
 }
