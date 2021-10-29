@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+.header{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    border: 2px solid red;
+}
+.header .img{
+    margin-left: 20%;
+    border: 2px solid blueviolet;
+}
+.header .nav{
+    width: 100%;
+    margin-left:0;
+    height: 100%;
+    font-size: 1.4rem;
+    border: 2px solid red;
+    align-items: center;
+}
+header .nav a{
+    padding-right: 2rem;
+    padding-left: 5rem;
+    text-decoration: none;
+    color: black;
+}
+header .nav a:hover{
+    color: blueviolet;
+}
 .container {
     width: 800px;
     margin: 0 auto;
