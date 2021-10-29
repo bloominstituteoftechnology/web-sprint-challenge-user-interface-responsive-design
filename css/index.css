@@ -137,34 +137,34 @@ nav a{
 
         /*colored boxes*/
 .one{
-    background-color: #29a3a3;
+    background-color: teal;
 }
 .two{
-    background-color: #ffff00;
+    background-color: gold;
 }
 .three{
-    background-color: #669999;
+    background-color: cadetblue;
 }
 .four{
-    background-color: #ff9933;
+    background-color: coral;
 }
 .five{
-    background-color: #990033;
+    background-color: crimson;
 }
 .six{
-    background-color: #2eb82e;
+    background-color: forestgreen;
 }
 .seven{
-    background-color: #6600cc;
+    background-color: darkorchid;
 }
 .eight{
-    background-color: #ff66d9;
+    background-color: hotpink;
 }
 .nine{
-    background-color: #5900b3;
+    background-color: indigo;
 }
 .ten{
-    background-color: #1a75ff;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -206,7 +206,7 @@ footer nav a {
 }
 
 .about-text{
-    margin: 2% 0;
+    margin: 2% 2%;
 }
 
 .dash{
@@ -216,31 +216,22 @@ footer nav a {
 
 button{
     border-radius: 10%;
-    border: 2px solid #000;
+    border: 2.5px solid #000;
     background-color: #fff;
     padding: 2%;
     margin: 2% 2%;
-}
-
-        /*dashed border*/
-.strategy{
-    border-bottom: 1px dashed #000;
-}
-.work{
-    border-bottom: 1px dashed #000;
-}
-.office{
-    border-bottom: 1px dashed #000;
-}
-.meeting{
-    border-bottom: 1px dashed #000;
 }
 
 .center .center-top, .center .center-bottom{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 20px 2.5%;
+    justify-content: center;
+    gap: 3rem;
+    margin: 20px 1%;
+}
+
+.about-bottom{
+    margin: 4.5% 2%;
 }
 
