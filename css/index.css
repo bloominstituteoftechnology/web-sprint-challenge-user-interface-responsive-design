@@ -166,6 +166,7 @@ header .nav a:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding-top: 2rem;
     border-bottom: 1px dashed black;
 }
 
