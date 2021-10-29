@@ -266,3 +266,13 @@ footer nav a {
 }
 /* Yes I know I know lol i could have just made another class I know I know lol */
 /* About page */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+.section1 p {
+    padding-bottom:4vh;
+    border-bottom: 0.2vh dashed black;
+}
+
