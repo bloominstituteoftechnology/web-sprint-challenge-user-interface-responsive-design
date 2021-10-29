@@ -51,11 +51,11 @@ You are expected to be able to answer all these questions. Your responses contri
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [X] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -98,4 +98,4 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 ## Submission Instructions 
  
-Please submit the url to your pull request in Canvas
+[X] Please submit the url to your pull request in Canvas

@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+.navbar{
+    position: fixed;
+    width: 85rem;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 20rem;
+    background-color: #fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-content img{
+    margin: 8% 0 0 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +103,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 2% 1%;
     padding-bottom: 20px;  
 }
 
@@ -104,12 +126,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.one{
+    background-color: #29a3a3;
+}
+.two{
+    background-color: #ffff00;
+}
+.three{
+    background-color: #669999;
+}
+.four{
+    background-color: #ff9933;
+}
+.five{
+    background-color: #990033;
+}
+.six{
+    background-color: #2eb82e;
+}
+.seven{
+    background-color: #6600cc;
+}
+.eight{
+    background-color: #ff66d9;
+}
+.nine{
+    background-color: #5900b3;
+}
+.ten{
+    background-color: #1a75ff;
 }
 
 .bottom-content {
