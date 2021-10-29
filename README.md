@@ -46,7 +46,7 @@ Border, Margin, Padding, Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-The main axis of the parent item
+The main axis of the parent item that the child item is nested in.
 
 5. Explain why git is valuable to a team of developers.
 
