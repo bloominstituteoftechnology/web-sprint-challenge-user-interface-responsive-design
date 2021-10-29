@@ -98,6 +98,56 @@ header .nav a:hover{
     background-repeat: no-repeat;
     background-position-x: center;
 }
+.header-img2{
+    background-image: url(../img/jumbo-about.png);
+    padding: 5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.about-page{
+    padding-top: 2rem;
+}
+.about-page p{
+    padding-bottom: 2rem;
+}
+.top-images{
+    padding-top: 2rem;
+    border-top:dashed black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bottom-images{
+    padding-top: 2rem;
+}
+.left-top-img{
+    padding-right: 2%;
+}
+.bottom-images{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.top-text{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.border{
+    padding-bottom: 2%;
+    padding-top: 3%;
+    border-bottom: dashed black;
+    border-width: 1px;
+    
+}
+.top-h2{
+    padding-top: 5%;
+}
+.bottom-h2{
+    padding-top: 5%;
+}
+.bottom-text{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .container {
     width: 800px;
     margin: 0 auto;
