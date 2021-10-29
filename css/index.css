@@ -51,15 +51,6 @@ table {
     box-sizing: border-box;
 }
 
-/*
-.topsection{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
-    justify-content: flex-start;
-    margin-left:200px;
-    padding: 30px;
-}*/
 
 .topsection{
     color:red;
@@ -77,13 +68,6 @@ table {
     display:flex; 
     justify-content: center;
 }
-
-
-
-
-
-
-
 
 
 .picture{

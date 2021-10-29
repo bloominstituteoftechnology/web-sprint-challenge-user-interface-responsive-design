@@ -51,11 +51,34 @@ table {
     box-sizing: border-box;
 }
 
+.topsection{
+    color:red;
+    background-color:white;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
 
-.container .middle-content{
+.navigation{
+    display:flex; 
+    justify-content: center;
+}
+
+
+
+.middle-content .pictures {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+.pictureOne, .pictureTwo{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
 
+}
