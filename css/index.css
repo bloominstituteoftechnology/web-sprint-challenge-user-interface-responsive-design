@@ -92,6 +92,11 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 article,
 aside,
 details,
@@ -305,6 +310,7 @@ footer nav a {
   margin: 10%;
   padding: 10%;
   flex-wrap: nowrap;
+  box-sizing: border-box;
 }
 .toppair img {
   padding: 5%;
@@ -313,6 +319,7 @@ footer nav a {
 .toppair p {
   display: flex;
   flex-flow: column;
+  margin-bottom:5%;
 }
 
 .bottompair {
@@ -320,6 +327,7 @@ footer nav a {
   margin: 10%;
   padding: 10%;
   flex-wrap: nowrap;
+  box-sizing: border-box;
 
 }
 
@@ -331,6 +339,7 @@ footer nav a {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  margin-bottom:5%;
 }
 .centerinfo {
   margin-right: 7%;
@@ -343,6 +352,7 @@ footer nav a {
   }
   button{
       width:100px;
+      border-radius: 8px;
   }
   
   .together{
@@ -354,4 +364,13 @@ footer nav a {
   .aboutfoot{
       width:800px;
       margin-left: 20%;
+  }
+  .indexhtml a {
+    color: black;
+    box-sizing: border-box;
+    margin: 0 32px;
+    padding: 2% 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
   }
