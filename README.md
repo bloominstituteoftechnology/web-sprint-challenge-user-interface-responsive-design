@@ -33,14 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+        Semantic HTML gives meaningful organization to a garble of text
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    - block takes up all of the space available to it with some white space around it
+    -inline only takes the amount of space it needs without pushing stuff around
 
 3. What are the 4 areas of the box model?
+    - content, padding, border, margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    - the cross axis
 
 5. Explain why git is valuable to a team of developers.
+    - it allows developers to simultaneously pull their own versions of master files and make their own changes without impacting    the master copy
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,8 +72,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ x] Build the HTML and CSS to create the missing navigation and header.
+* [x ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box (Note: inline styles are not acceptable. All styles should be written in your index.css file):
 

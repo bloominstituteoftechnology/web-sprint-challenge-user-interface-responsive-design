@@ -145,6 +145,20 @@ header a{
     justify-content: center;
 }
 
+.middle-content box1
+/*
+* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue`
+*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -177,3 +191,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.containerAbout{ 
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top .text-box{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.mid .content-box{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+}
+
+/*
+containerAbout
+    top 
+        text-box
+    mid
+        content-box
+            text-box
+    bot
+        text-box
+
+*/
+
