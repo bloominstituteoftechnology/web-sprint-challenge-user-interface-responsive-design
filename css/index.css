@@ -190,10 +190,21 @@ header nav a{
 .container2 {
     display: flex;
     flex-wrap:wrap;
-    width: 800px;
+    width: 75%;
     margin: 0 auto;
 }
 
+.top2 img{
+    width:100%;
+}
+button{
+    background-color: white;
+    border: solid black;
+    color: black;
+    font-family:'Roboto', sans-serif;
+    padding: 3px 5px;
+    font-size:62.5%;
+}
 
 .layer2 {
     display: flex;
