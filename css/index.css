@@ -185,3 +185,18 @@ button{
     background-color: white;
     color: black;
 }
+.jumbo{
+    width: 800px;
+    margin: 0 auto;
+}
+.indexhtml{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding:1% 0%;
+    justify-content: space-between;
+}
+
+
+
+
