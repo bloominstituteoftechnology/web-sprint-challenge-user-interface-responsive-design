@@ -321,7 +321,7 @@ footer nav a {
 .toppair p {
   display: flex;
   flex-flow: column;
-  margin: 0 auto;
+  margin: 5% auto;
 }
 
 .bottompair {
