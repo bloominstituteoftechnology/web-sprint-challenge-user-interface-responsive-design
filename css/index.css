@@ -124,7 +124,7 @@ header nav a {
 /* .................................................................................... */
 
 
-.container {
+.container, .about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -219,3 +219,15 @@ footer nav a {
 .box10 {background-color: dodgerblue;}
 
 /* ................................................................................ */
+
+.btn {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+h2 .about-page {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
