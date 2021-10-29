@@ -299,6 +299,10 @@ footer nav a {
     justify-content: center;
 }
 
+.about-page h2 {
+    font-weight: 990;
+}
+
 .aboutMessage h2 {
     margin-left: 4vh;
     margin-right: 5.5vh;
