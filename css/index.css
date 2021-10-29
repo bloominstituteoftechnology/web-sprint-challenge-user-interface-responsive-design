@@ -66,6 +66,12 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
