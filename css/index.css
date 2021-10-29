@@ -51,11 +51,36 @@ table {
     box-sizing: border-box;
 }
 
-header{
-    background-color: white; 
-    padding: 20px; 
-    margin-bottom: 15px;
+.header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    margin-left:90px;
+    padding: 30px;
 }
+
+.navigation{
+    padding: 20px;
+    color:black;
+}
+
+/*
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 15px;
+
+}*/
+
+
+
+
+
+
+
+
 
 .topsection{
     display:flex; 
@@ -124,6 +149,15 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box, box1
+{
+    background-color:teal;
+}
+
+
+
+
 
 .bottom-content {
     display: flex;
