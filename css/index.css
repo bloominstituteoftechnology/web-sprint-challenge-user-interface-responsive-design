@@ -66,6 +66,17 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+
+}
+.logo{
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
