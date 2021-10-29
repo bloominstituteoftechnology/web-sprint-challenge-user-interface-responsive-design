@@ -187,6 +187,30 @@ header nav a{
     padding-right: 0;
 }
 
+.container2 {
+    display: flex;
+    flex-wrap:wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.layer2 {
+    display: flex;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    flex-wrap: wrap; 
+}
+
+.layer3 {
+    display: flex;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    flex-wrap: wrap;  
+}
+
 footer {
     width: 100%;
     background: black;

@@ -82,6 +82,8 @@ header nav a{
     color:black;
 }
 
+
+
 .container2 {
     display: flex;
     flex-wrap:wrap;
@@ -94,12 +96,33 @@ header nav a{
     display: flex;
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    flex-wrap: wrap; 
 }
 
-.layer {
+.layer3 {
     display: flex;
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    flex-wrap: wrap;  
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
