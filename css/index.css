@@ -85,6 +85,7 @@ header{
 }
 .nav-container{
     margin:0 auto;
+    margin-right: 5%;
     display: flex;
     align-items: baseline;
     align-content:center;
@@ -193,7 +194,6 @@ nav a{
     border-bottom: 1px dashed black;
 }
 .learn-more{
-    padding-top: 4%;
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
@@ -205,9 +205,10 @@ nav a{
 .learn-more img{
     display: flex;
     width: 100%;
-    padding-top: 10%;
 }
+
 .plan{
+    padding-top: 4%;
     width: 50%;
     padding-right: 4%;
     /* border-bottom: 1px dashed black; */
@@ -216,10 +217,11 @@ nav a{
     content: "";
     display: flex;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 3%;
     border-bottom: 1px dashed black;
 }
 .how{
+    padding-top: 4%;
     width: 50%;
     padding-right: 4%;
 }
@@ -227,10 +229,11 @@ nav a{
     content: "";
     display: flex;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 3%;
     border-bottom: 1px dashed black;
 }
 .places{
+    padding-top: 8%;
     width: 50%;
     padding-right: 4%;
 }
@@ -238,10 +241,11 @@ nav a{
     content: "";
     display: flex;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 3%;
     border-bottom: 1px dashed black;
 }
 .collab{
+    padding-top: 8%;
     width: 50%;
     padding-right: 4%;
 }
@@ -249,13 +253,13 @@ nav a{
     content: "";
     display: flex;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 3%;
     border-bottom: 1px dashed black;
 }
 .together{
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 4%;
+    padding-top: 6%;
     padding-bottom: 4%;
 }
 footer {
