@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+
+
+
+/* This is the header  */
+
+.nav__links{
+    display: flex;
+    align-items: baseline;
+    padding-top: 2%;
+    justify-content: space-evenly;
+    
+}
+
+.nav__links a{
+    text-decoration: none;
+    color: black;
+}
+
+.bgi{
+    height: 25vh;
+    background-image: url(/img/jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4%;
+    
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
