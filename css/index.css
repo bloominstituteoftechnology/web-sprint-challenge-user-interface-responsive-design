@@ -67,18 +67,10 @@ p {
 }
 
 /*header section styles*/
-nav{
-    display: flex;
-    justify-content: space-between;
-    
-    width: 100%;
-    top: 0;
-    z-index: 999;
-    padding: 2%;
-}
 
 .logo {
     width: 80%;
+    margin-left: 28vw;
 }
 
 .links{
@@ -93,12 +85,16 @@ header {
 }
 
 header nav {
-    width: 75%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+}
+
+header a {
+    margin: 5%;
 }
 
 header nav a {
@@ -113,7 +109,10 @@ header nav a {
     margin: 0 auto;
 }
 
-
+.bg-img {
+    background-image: url(../img/jumbo.jpg);
+    background-size: auto;
+}
 
 .top-content {
     display: flex;
