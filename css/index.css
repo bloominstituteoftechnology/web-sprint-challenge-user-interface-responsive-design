@@ -47,13 +47,39 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    width: 47.5%;
+    margin: auto;
+    padding:5%;
+}
+header nav{
+    width: 52.5%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px 2%;
+    font-size: 17px;
+    margin:auto;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo{
+    width:52.5%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -74,8 +100,8 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    justify-content: space-around;
+    margin:auto;
     border-bottom: 1px dashed black;
 }
 
@@ -86,6 +112,7 @@ p {
 }
 
 .middle-content {
+    margin-top:15px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -104,9 +131,118 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box1{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background: dodgerblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,4 +279,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.abt-jumbo{
+    width:52.5%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    
+}
+
+.about-top{
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-middle .strategy{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .how-we-work{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .places-we-work{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding:10px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .collaboration{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    border-radius:5px;
+    background-color: white;
+    width: 140px;
+    height: 30px;
+}
+
+.about-bottom p{
+    padding-bottom:30px;
 }
