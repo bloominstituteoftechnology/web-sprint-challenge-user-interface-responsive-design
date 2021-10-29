@@ -71,12 +71,35 @@ p {
     margin: 0 auto;
 }
 
+/* Header Styles */
+header{
+    padding: 3% 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5%;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-container {
+    padding: 0 2% 2% 2%;
 }
 
 .top-content .text-container {
@@ -104,12 +127,75 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* About Page Styles */
+.middle-about-content{
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-item{
+    width: 48%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-item h2{
+    padding-top: 2%;
+}
+
+.about-item button{
+    margin-top: 3%;
+    padding: 7px 17px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bottom-about-content{
+    margin: 5% 2%;
+}
+
+/* Box colors */
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
