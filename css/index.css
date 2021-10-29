@@ -56,6 +56,27 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.head {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 12% 30px 12%;
+    background-color: white;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.imgs {
+    height: 30px;
+    width: 100px;
+    float: left;
+}
+.img2{
+    padding: 0 10% 2% 10%;
+}
+nav{
+    display: flex;
+
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -143,4 +164,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.box1 {
+    padding: 50px;
+    margin:5px;
+    background-color: teal;
+}
+.box2 {
+    padding: 50px;
+    margin:5px;
+    background-color: gold;
+}
+.box3 {
+    padding: 50px;
+    margin:5px;
+    background-color: cadetblue;
+}
+.box4 {
+    padding: 50px;
+    margin:5px;
+    background-color: coral;
+}
+.box5 {
+    padding: 50px;
+    margin:5px;
+    background-color: crimson;
+}
+.box6 {
+    padding: 50px;
+    margin:5px;
+    background-color: forestgreen;
+}
+.box7 {
+    padding: 50px;
+    margin:5px;
+    background-color: darkorchid;
+}
+.box8 {
+    padding: 50px;
+    margin:5px;
+    background-color: hotpink;
+}
+.box9 {
+    padding: 50px;
+    margin:5px;
+    background-color: indigo;
+}
+.box10 {
+    padding: 50px;
+    margin:5px;
+    background-color: dodgerblue;
+}
+.aboutimg {
+    display: flex;
+    flex-direction: row;
 }
