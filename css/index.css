@@ -27,34 +27,63 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    /* border: 1px solid grey; */
 }
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid grey; */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    /* border: 1px solid grey; */
 }
+
+header {
+   width:70%;
+   padding-left: 350px;
+
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-right: 90px;
+}
+
+div.logo {
+    width: 0;
+    padding-top: 40px;
+    padding-bottom:40px;
+
+}
+
+header nav {
+    width: 250%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+header nav a{
+  text-decoration: none;
+  color:black;
+  
+}
+
+#image-container {
+ display: flex;
+ justify-content: center;
+ padding-bottom: 25px;
+
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -110,6 +139,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box.box1{
+    background-color: teal;
+}
+.middle-content .boxes .box.box2{
+    background-color: gold;
+}
+.middle-content .boxes .box.box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box.box4{
+    background-color: coral;
+}
+.middle-content .boxes .box.box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box.box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box.box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box.box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
