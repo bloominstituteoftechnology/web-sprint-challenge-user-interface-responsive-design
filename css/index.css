@@ -144,7 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.container header{
-display: flex;
+ 
+    
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
 
+header{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 2% 20px;
+padding-left: 15%;
+background-color: white;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
 }
