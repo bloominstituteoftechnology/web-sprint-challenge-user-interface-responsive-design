@@ -65,7 +65,24 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 12px;
+}
+.jumbo{
+    padding-bottom: 3%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -103,15 +120,43 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
-    background: black;
+    height: 100px;;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +189,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page styling - 4 blocks*/
+
+.about {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.wordBox img{
+    padding-bottom: 2%;
+}
+.wordBox button{
+    border-radius: 6px;
+    background-color: white;
+    padding: 2% 3% 2% 3%;
+    margin-top: 4%;
+}
+.wordBox {
+    width: 50%;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.midCon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*about page footer/closing*/
+
+.closing{
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
