@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 ol, ul {
 	list-style: none;
 }
@@ -55,7 +59,16 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav{
+    display: inline-block;
+    padding-left: 2rem;
+    justify-content: space-between;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -65,7 +78,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.a{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
