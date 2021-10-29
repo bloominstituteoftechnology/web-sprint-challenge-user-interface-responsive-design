@@ -69,29 +69,34 @@ p {
 .header{
     width: 100%;
     display: flex;
-    /* justify-content: space-evenly; */
-    border: 2px solid red;
+    padding-bottom: 2rem;
 }
 .header .img{
     margin-left: 20%;
-    border: 2px solid blueviolet;
+    padding-top: 1rem;
 }
 .header .nav{
     width: 100%;
     margin-left:0;
     height: 100%;
     font-size: 1.4rem;
-    border: 2px solid red;
     align-items: center;
+    padding-top: 2rem;
 }
 header .nav a{
-    padding-right: 2rem;
-    padding-left: 5rem;
+    padding-left: 3.5rem;
     text-decoration: none;
     color: black;
 }
 header .nav a:hover{
     color: blueviolet;
+}
+.header-img{
+    background-image: url(../img/jumbo.jpg);
+    padding: 5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 .container {
     width: 800px;
@@ -137,6 +142,35 @@ header .nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+.boxes .box:nth-child(2){
+    background-color: gold;
+}.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+.boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
