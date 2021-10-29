@@ -102,21 +102,25 @@ header nav a {
     text-decoration: none;
 }
 
-.bg-img {
-    margin-left: 29%;
+.bg-imgc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    /* margin-left: 29%;
     background-image: url(../img/jumbo.jpg);
     background-size: fill;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 20vh; */
 }
 
-.bg-img {
+/* .bg-img {
     margin-left: 29%;
     background-image: url(../img/jumbo.jpg);
     background-size: fill;
     background-repeat: no-repeat;
     height: 20vh;
-}
+} */
 /* .................................................................................... */
 
 
