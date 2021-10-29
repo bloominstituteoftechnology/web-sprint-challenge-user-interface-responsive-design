@@ -286,50 +286,51 @@ footer nav a {
   display: flex;
   padding: 1% 0%;
   justify-content: space-between;
-  
-  
 }
-.bodyimage{
-    width:800;
-    margin:0 auto;
-    display: flex;
+.bodyimage {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
 }
-.about-top{
-    padding:0 1;
+.about-top {
+  padding: 0 1;
 }
-.toppair{
-    display:flex;
-    margin:10%;
-    padding:10%;
-    flex-wrap: nowrap;
+.about-top p {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
 }
-.toppair img{
-    padding:5%;
+.toppair {
+  display: flex;
+  margin: 10%;
+  padding: 10%;
+  flex-wrap: nowrap;
 }
-
-.toppair p{
-    display: flex;
-    flex-flow: column;
+.toppair img {
+  padding: 5%;
 }
 
-.bottompair{
-    display:flex;
-    margin:10%;
-    padding:10%;
-    flex-wrap: nowrap;
-    
+.toppair p {
+  display: flex;
+  flex-flow: column;
 }
 
-.bottompair img{
-    padding:5%;
+.bottompair {
+  display: flex;
+  margin: 10%;
+  padding: 10%;
+  flex-wrap: nowrap;
 }
 
-.bottompair p{
-    display: flex;
-    flex-flow: column;
-}
-section{
-    margin-right: 60%;
+.bottompair img {
+  padding: 5%;
 }
 
-
+.bottompair p {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.centerinfo {
+  margin-right: 7%;
+}
