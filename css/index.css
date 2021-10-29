@@ -115,9 +115,9 @@ header nav {
     margin-bottom: 0;
 }
 .top {
-    border-bottom: 2px dotted black;
+    border-bottom: 1px dashed black;
+    padding: 3%
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -132,21 +132,30 @@ header nav {
 .mid div {
     display: flex;
     flex-direction: column;
-    width:40%;
-    margin:5%;
-    border-bottom: 2px dotted black;
+    width:46%;
+    margin:2%;
+    border-bottom: 1px dashed black;
+}
+.mid div h2{
+    padding: 3%;
+    padding-left: 0;
+    padding-bottom: 0;
 }
 .mid div a {
     margin:3%;
     border: 2px solid black;
-    /* padding-right:  */
+    width: 35%;
+    text-align: center;
+    padding:2%;
+    border-radius: .5rem;
+    color:black;
+    text-decoration: none;
 }
 
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -196,7 +205,9 @@ header nav {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.bot{
+    padding: 2% 3% 3% 3%;
+}
 footer {
     width: 100%;
     background: black;
