@@ -165,6 +165,10 @@ header nav a {
     margin-top: 2vh;
 }
 
+header nav a:hover {
+    color: black;
+}
+
 .container {
     width: 50%;
     margin: 0 auto;
@@ -221,6 +225,37 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .box.b1 {
+    background: teal;
+}
+.middle-content .box.b2 {
+    background: gold;
+}
+.middle-content .box.b3 {
+    background: cadetblue;
+}
+.middle-content .box.b4 {
+    background: coral;
+}
+.middle-content .box.b5 {
+    background: crimson;
+}
+.middle-content .box.b6 {
+    background: forestgreen;
+}
+.middle-content .box.b7 {
+    background: darkorchid;
+}
+.middle-content .box.b8 {
+    background: hotpink;
+}
+.middle-content .box.b9 {
+    background: indigo;
+}
+.middle-content .box.b10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
