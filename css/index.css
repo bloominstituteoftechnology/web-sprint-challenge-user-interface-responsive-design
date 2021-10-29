@@ -192,8 +192,11 @@ header nav a{
     flex-wrap:wrap;
     width: 75%;
     margin: 0 auto;
+    gap: 20px;
 }
-
+.top2{
+    border-bottom: dotted black;
+}
 .top2 img{
     width:100%;
 }
@@ -212,14 +215,19 @@ button{
     padding: 0 1%;
     padding-bottom: 20px;
     flex-wrap: wrap; 
+    gap: 20px;
+    border-bottom: dotted black;
 }
+
 
 .layer3 {
     display: flex;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    gap: 20px; 
+    border-bottom: dotted black;
 }
 
 footer {
