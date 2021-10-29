@@ -320,6 +320,7 @@ footer nav a {
   margin: 10%;
   padding: 10%;
   flex-wrap: nowrap;
+
 }
 
 .bottompair img {
@@ -334,3 +335,23 @@ footer nav a {
 .centerinfo {
   margin-right: 7%;
 }
+.toppair div, .bottompair div {
+    border-bottom: 1px dashed black;
+    margin: 0 1%;
+    padding: 0 1%;
+    justify-content: space-between;
+  }
+  button{
+      width:100px;
+  }
+  
+  .together{
+      width:750px;
+      margin-bottom:3%;
+      margin-left: 22%;
+      
+  }
+  .aboutfoot{
+      width:800px;
+      margin-left: 20%;
+  }
