@@ -150,10 +150,29 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box, box1
-{
+.boxOne{
     background-color:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
 }
+
+.boxTwo{
+    background-color: yellow;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+}
+
+ 
 
 
 
