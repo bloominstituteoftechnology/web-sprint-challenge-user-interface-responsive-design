@@ -32,15 +32,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? - Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.  Semantic tags make it clear to the browser what the meaning of a page and its content is.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. - display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it. display: inline means that the element is displayed inline, inside the current block on the same line. display: block - a line break before and after the element
+display: inline - no line break before or after the element
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? - content, padding, border, and margin
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? - Cross (Y) axis
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. - Git allows multiple developers to work on and push their own version of the same project back up to the master branch without interfering with the master branch or any other team members branch.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
