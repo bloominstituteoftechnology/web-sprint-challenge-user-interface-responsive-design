@@ -103,8 +103,6 @@ nav a{
     align-items: center;
     align-content: center;
 }
-.container {
-}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -189,17 +187,9 @@ nav a{
     padding-right: 0;
 }
 .about{
-    /* padding-left: 2%;
+    padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
-    border-bottom: 1px dashed black; */
-}
-.about:after {
-    content: "";
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 20px;
     border-bottom: 1px dashed black;
 }
 .learn-more{
@@ -214,6 +204,8 @@ nav a{
 }
 .learn-more img{
     display: flex;
+    width: 100%;
+    padding-top: 10%;
 }
 .plan{
     width: 50%;
