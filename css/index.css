@@ -51,26 +51,41 @@ table {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.header-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin-left: 23.5%;
+    margin-right: 24%;
+}
+.links a{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+.top-pic{
+    padding-bottom: 2%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,33 +93,28 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box-one, .box-two, .box-three, .box-four, .box-five, .box-six, .box-seven, .box-eight, .box-nine, .box-ten {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
