@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 5px grey
 }
 
 html, body {
@@ -143,4 +144,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    
+}
+header .logo{
+   ;
 }
