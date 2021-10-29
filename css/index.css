@@ -62,6 +62,28 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+    padding: 3% 1%;
+
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.img {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+
+}
+
 p {
     line-height: 1.4;
 }
@@ -104,12 +126,16 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: red;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
 }
 
 .bottom-content {
@@ -143,4 +169,5 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    
 }
