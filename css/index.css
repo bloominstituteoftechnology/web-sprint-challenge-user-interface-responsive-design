@@ -193,6 +193,10 @@ footer nav a {
 
 }
 
+img{
+    width: 100%;
+}
+
 
 /* The First row  */
 
@@ -210,6 +214,14 @@ footer nav a {
 	padding-bottom: 3%;
 }
 
+.box__one h3{
+    padding-top: 3%;
+}
+
+.box__two h3{
+    padding-top: 3%;
+}
+
 .box__two{
 	border-bottom: 1px dotted black;
 	padding-bottom: 3%;
@@ -221,6 +233,7 @@ footer nav a {
 .row__one b{
 	display: inline-block;
 	border: 1px solid black;
+	border-radius: 10px;
 	margin-top: 4%;
 	padding: 2%;
 }
@@ -248,6 +261,13 @@ footer nav a {
 	padding-bottom: 3%;
 }
 
+.box__three h3{
+    padding-top: 3%;
+}
+.box__four h3{
+    padding-top: 3%;
+}
+
 .box__four{
 	border-bottom: 1px dotted black;
 	padding-bottom: 3%;
@@ -262,4 +282,8 @@ footer nav a {
 	border-radius: 10px;
 	margin-top: 4%;
 	padding: 2%;
+}
+
+.bottom{
+	margin-bottom: 5%;
 }
