@@ -51,3 +51,11 @@ table {
     box-sizing: border-box;
 }
 
+
+.container .middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
