@@ -51,16 +51,32 @@ table {
     box-sizing: border-box;
 }
 
+/*
 .topsection{
     display: flex; 
     flex-direction: row;
     justify-content: space-evenly;
     justify-content: flex-start;
-    margin-left:90px;
+    margin-left:200px;
     padding: 30px;
+}*/
+
+.topsection{
+    color:red;
+    background-color:white;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+    margin-left: 175px;
+    margin-right: 175px;
 }
 
-
+.navigation{
+    display:flex; 
+    justify-content: center;
+}
 
 
 
