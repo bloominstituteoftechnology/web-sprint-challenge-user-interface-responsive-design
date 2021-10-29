@@ -126,6 +126,10 @@ header .nav a:hover{
 .bottom-images{
     display: flex;
     flex-wrap: nowrap;
+    padding-top: 3rem;
+}
+.left-bottom-img{
+    padding-right: 2%;
 }
 .top-text{
     display: flex;
@@ -140,6 +144,10 @@ header .nav a:hover{
 }
 .top-h2{
     padding-top: 5%;
+}
+.footer2 h2 a{
+    text-decoration: none;
+    color: black;
 }
 .bottom-h2{
     padding-top: 5%;
@@ -241,6 +249,60 @@ footer {
     width: 100%;
     background: black;
 }
+.footer2{
+    padding-top: 5%;
+}
+.top-button{
+    padding: 10px 12px;
+}
+.bottom-button{
+    padding: 10px 12px;
+}
+.top-button button{
+    padding: 5px 12px;
+    border-radius: 10px;
+    background-color: white;
+}
+.bottom-button button{
+    padding: 5px 12px;
+    border-radius: 10px;
+    background-color: white;
+}
+button:visited{
+    color: purple;
+}
+button:focus{
+    color: royalblue;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    color: violet;
+}
+.footer2 h2 a:visited{
+    color: rgb(189, 27, 189);
+}
+.nav a:visited{
+    color: purple;
+}
+.nav a:hover{
+    background-color: black;
+    padding: 10px 12px;
+    border-radius: 20%;
+    color: white;
+}
+footer nav a:hover{
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 20%;
+    color: black;
+}
+footer nav a:visited{
+    color: purple;
+}
+
 
 footer nav {
     width: 60%;
