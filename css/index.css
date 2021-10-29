@@ -144,6 +144,10 @@ p {
     line-height: 1.4;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 header {
     height: 10vh;
     display: flex;
@@ -300,7 +304,7 @@ footer nav a {
 }
 
 .about-page h2 {
-    font-weight: 990;
+    font-weight: 900;
 }
 
 .aboutMessage h2 {
