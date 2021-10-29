@@ -176,6 +176,14 @@ footer nav a {
 
 /* This is the about page beginning  */
 
+
+/* This is the about page beginning  */
+
+.container{
+    
+    width: 80%;
+}
+
 .bgi__about{
     height: 25vh;
     background-image: url(/img/jumbo-about.png);
@@ -184,3 +192,38 @@ footer nav a {
     margin: 5%;
 
 }
+
+
+/* The First row  */
+
+.row__one{
+    border-top: 1px dotted black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+}
+
+.box__one{
+	border-bottom: 1px dotted black;
+	padding-bottom: 3%;
+}
+
+.box__two{
+	border-bottom: 1px dotted black;
+	padding-bottom: 3%;
+	margin-left: 3%
+
+}
+
+
+.row__one b{
+	display: inline-block;
+	border: 1px solid black;
+	margin-top: 4%;
+	padding: 2%;
+}
+
+
+/* End of the first row  */
