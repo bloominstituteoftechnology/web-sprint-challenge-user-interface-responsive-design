@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -74,21 +74,14 @@ p {
 .links{
     padding: 2em 0em;
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-between;
-    /* display:block; */
     width: 100%;
     padding-right: 1.5em;
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-    /* text-align: center; */
 }
 .links a {
     text-align: center;
     text-decoration: none;
-    /* margin: 0 auto; */
     display: flex;
-    /* justify-content: center; */
     align-items: flex-end;
 }
 .imgContainer{
@@ -99,9 +92,6 @@ p {
 jumbo{
     width: 80%;
 }
-
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -135,12 +125,42 @@ jumbo{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box:nth-child(1){
+    background-color: teal;
+}
+.box:nth-child(2){
+    background-color: gold;
+}
+.box:nth-child(3){
+    background-color: cadetblue;
+}
+.box:nth-child(4){
+    background-color: coral;
+}
+.box:nth-child(5){
+    background-color: crimson;
+}
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+.box:nth-child(8){
+    background-color: hotpink;
+}
+.box:nth-child(9){
+    background-color: indigo;
+}
+.box:nth-child(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
