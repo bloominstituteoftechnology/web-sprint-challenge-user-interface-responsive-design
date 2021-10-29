@@ -127,7 +127,11 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.top-content2 .text-container2 {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 .middle-content {
     margin-top: 20px;
     margin-bottom: 20px;
