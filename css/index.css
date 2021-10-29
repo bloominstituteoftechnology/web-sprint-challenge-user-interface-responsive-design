@@ -66,12 +66,13 @@ p {
     line-height: 1.4;
 }
 
+/*Index Styles*/
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-.navbar{
+.navbar{ /* Allows Nav Bar to always be seen when scrolling*/
     position: fixed;
     width: 85rem;
     top: 0;
@@ -89,8 +90,8 @@ nav a{
     color: black;
 }
 
-.top-content img{
-    margin: 8% 0 0 0;
+.top-content img{ /*Prevents navbar from being on top image at start of page*/
+    margin-top: 8%;
 }
 
 .top-content {
@@ -134,6 +135,7 @@ nav a{
     justify-content: center;
 }
 
+        /*colored boxes*/
 .one{
     background-color: #29a3a3;
 }
@@ -197,3 +199,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Styles*/
+.about-top{ 
+    margin-top: 8%;
+}
+
+.about-text{
+    margin: 2% 0;
+}
+
+.dash{
+    width: 100%;
+    border-bottom: 1px dashed #000;
+}
+
+button{
+    border-radius: 10%;
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 2%;
+    margin: 2% 2%;
+}
+
+        /*dashed border*/
+.strategy{
+    border-bottom: 1px dashed #000;
+}
+.work{
+    border-bottom: 1px dashed #000;
+}
+.office{
+    border-bottom: 1px dashed #000;
+}
+.meeting{
+    border-bottom: 1px dashed #000;
+}
+
+.center .center-top, .center .center-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 2.5%;
+}
+
