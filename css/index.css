@@ -141,7 +141,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.middle-content, .middle-content1, .middle-content2 h2 {
+.middle-content, .middle-content1, .middle-content2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -161,13 +161,13 @@ p {
     justify-content: center;
 }
 .middle-content1, .middle-content2{
-    width: 35%;
-    height: 10%;
-    margin: 20px 2.5%;
     display:flex;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content: center;  
+    margin: 0px 2% 20px;
+    justify-content: space-evenly; 
+    text-align: left;
+}
+.cards{
+
 }
 .box1{
     background-color: teal;
