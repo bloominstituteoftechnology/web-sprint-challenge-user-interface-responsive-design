@@ -182,6 +182,35 @@ header .buttons nav a {
     padding-right: 0;
 }
 
+/*Code Added for About Page*/
+
+.intro {
+    padding: 2%;
+    border-bottom: 2px black dotted;
+}
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+.first .second {
+
+}
+.third .fourth {
+    border-bottom: 2px black dotted;
+}
+.first {
+    width: 50%;
+}
+.second {
+    width:50%;
+}
+.third {
+    width:50%;
+}
+.fourth {
+    width:50%;
+}
+
 footer {
     width: 100%;
     background: black;
