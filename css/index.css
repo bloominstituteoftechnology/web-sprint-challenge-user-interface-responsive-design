@@ -115,7 +115,7 @@ p {
     margin: 3% auto;
 }
 
-.top-content {
+.top-content, .top-content2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -136,11 +136,12 @@ p {
 .text-container2{
     padding: 0%;
 }
-.middle-content {
+.middle-content, .middle-content2 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .middle-content h2 {
     padding: 0 2%;
