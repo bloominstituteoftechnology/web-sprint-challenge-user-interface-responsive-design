@@ -187,34 +187,60 @@ header .buttons nav a {
 .intro {
     padding: 2%;
     border-bottom: 2px black dotted;
+    align-items: center;
 }
 .middle {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.first .second {
-
-}
-.third .fourth {
-    border-bottom: 2px black dotted;
+.hold {
+align-items: center;
+padding: 2%;
 }
 .first {
-    width: 50%;
+    width: 48%;
+    border-bottom: 1px grey dotted;
+    margin: 1%;
 }
+
 .second {
-    width:50%;
+    width:48%;
+    border-bottom: 1px grey dotted;
+    margin: 1%;
 }
 .third {
-    width:50%;
+    width:48%;
+    border-bottom: 1px black dotted;
+    margin: 1%;
 }
 .fourth {
-    width:50%;
+    width:48%;
+    border-bottom: 1px black dotted;
+    margin: 1%;
+}
+
+.hold  a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px black solid;
+    border-radius:12%;
+    padding: 2% 4%;
+    background: white;
+    margin-top:4%;
+}
+.bottom {
+    padding: 4%;
+    margin-bottom:4%;
 }
 
 footer {
+    margin-top:4%;
     width: 100%;
     background: black;
 }
+
 
 footer nav {
     width: 60%;
