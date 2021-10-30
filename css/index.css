@@ -153,7 +153,6 @@ p {
 }
 
 .middle-content, .middle-content1 .middle-content2 .boxes .cards {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
