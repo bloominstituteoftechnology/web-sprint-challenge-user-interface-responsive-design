@@ -136,19 +136,17 @@ p {
 .text-container2{
     padding: 0%;
 }
-.middle-content, .middle-content2 {
+.middle-content, .middle-container1, .middle-container2 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-
-.middle-content h2 {
+.middle-content, .middle-content1, .middle-content2 h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content, .middle-content1 .middle-content2 .boxes .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -161,6 +159,15 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content1, .middle-content2{
+    width: 35%;
+    height: 10%;
+    margin: 20px 2.5%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;  
 }
 .box1{
     background-color: teal;
