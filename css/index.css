@@ -93,7 +93,8 @@ h1, h2, h3, h4, h5 {
     line-height: 5%;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    padding: 10% 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 h2{
     font-size: 20px;
@@ -129,8 +130,11 @@ p {
 }
 .top-content2 .text-container2 {
     width: 100%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 1%; 
+    margin-left: 2%;
+}
+.text-container2{
+    padding: 0%;
 }
 .middle-content {
     margin-top: 20px;
