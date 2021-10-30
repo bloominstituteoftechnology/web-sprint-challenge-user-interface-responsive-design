@@ -109,7 +109,9 @@ p {
     justify-content: space-evenly;
     width: 100%;
 }
-
+.card{
+    padding: 2%;
+}
 .container {
     width: 900px;
     margin: 3% auto;
@@ -166,9 +168,7 @@ p {
     justify-content: space-evenly; 
     text-align: left;
 }
-.cards{
 
-}
 .box1{
     background-color: teal;
 }
