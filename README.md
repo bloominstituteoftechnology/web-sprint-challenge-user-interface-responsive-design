@@ -36,11 +36,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+inline does not add a line break after the element while block does. inline takes only as width as the content needs while block takes up the full width available
+
 3. What are the 4 areas of the box model?
+
+the content, margin, border and padding
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+that means the flexbox items will align themselves at the center of the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+it keeps track of old versions and work done
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
