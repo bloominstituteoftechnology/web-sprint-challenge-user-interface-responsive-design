@@ -364,6 +364,8 @@ footer nav a {
     border-bottom: 1px dashed black;
 	width: 47%;
     margin: auto;
+    padding-bottom: 40px;
+    padding-top: 60px;
     
 }
 .contentbits a {
@@ -379,6 +381,7 @@ footer nav a {
 .wrapper p{
     margin-bottom: 50px;
 }
-.wrapper .contentbits a{
-    margin-bottom: ;
+.bottombit{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
