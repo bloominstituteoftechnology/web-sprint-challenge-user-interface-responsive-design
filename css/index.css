@@ -71,6 +71,9 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Header Styling */
+
 header{
     margin-top:20px;
 }
@@ -88,9 +91,11 @@ nav a{
     display:flex;
 }
 .header-image{
-    margin-top:20px;
+    margin-top:34px;
     margin-bottom:20px;
 }
+
+/*  Main Content Styling */
 
 .top-content {
     display: flex;
@@ -177,16 +182,6 @@ nav a{
     padding-right: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
 footer {
     width: 100%;
     background: black;
@@ -204,4 +199,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Specific Styling */
+
+button{
+    background-color:white;
+    width:25%;
+    height:4.5vh;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius:14px;
+    margin-top:15px;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+.top-content-about{
+    padding:15px;
+    border-bottom: 1px dashed black;
+}
+.top-content-about .text-container-about{
+    margin-bottom:8px;
+}
+.img-container-about{
+    border-bottom: 1px dashed black;
+    width:48%;
+}
+.img-container-about h2{
+    margin-top:10px
+}
+
+.row1-about{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    text-align: left;
+}
+.row2-about{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    text-align: left;
+}
+.bottom-content-about{
+    padding:15px;
+    margin-top:33px;
+    margin-bottom:20px;
 }
