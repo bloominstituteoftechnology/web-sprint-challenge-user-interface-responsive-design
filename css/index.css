@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 2%;
     font-family: 'Rubik', sans-serif;
 }
-
+section, footer{
+    padding:4% 0;
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -74,12 +76,14 @@ h1, h2, h3, h4, h5 {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
+    text-align: justify;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 35%;
     padding: 0 1%;
     padding-bottom: 4%;  
 }
@@ -89,19 +93,18 @@ h1, h2, h3, h4, h5 {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 2.5%;
+    margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
@@ -110,12 +113,11 @@ h1, h2, h3, h4, h5 {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    width:25%;
 }
 
 .bottom-content .text-container:last-child {
@@ -124,4 +126,5 @@ h1, h2, h3, h4, h5 {
 
 footer {
     width: 100%;
+    background-color: #ff4b00;
 }
