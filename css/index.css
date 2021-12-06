@@ -73,6 +73,8 @@ section, footer{
     margin: 0 auto;
 }
 
+/*Top Section Styles*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -88,6 +90,7 @@ section, footer{
     padding-bottom: 4%;  
 }
 
+/*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
 }
@@ -111,6 +114,7 @@ section, footer{
     justify-content: center;
 }
 
+/*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
@@ -124,7 +128,13 @@ section, footer{
     padding-right: 0;
 }
 
+/*Footer Styles*/
 footer {
     width: 100%;
     background-color: #ff4b00;
 }
+
+/*About Page Styles*/
+
+
+/*Responsive Styles*/
