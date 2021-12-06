@@ -51,23 +51,23 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html{
+    font-size:62.5%;
+}
+body {
     font-family: 'Roboto', sans-serif;
+    line-height:1.5;
+    font-size:1.6rem;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
     font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
-}
-
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -75,19 +75,17 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 4%;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
 }
 
 .middle-content h2 {
@@ -102,10 +100,8 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 4% 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -128,19 +124,4 @@ p {
 
 footer {
     width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
