@@ -51,96 +51,90 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html{
+    font-size:62.5%;
+}
+body {
     font-family: 'Roboto', sans-serif;
+    line-height:1.5;
+    font-size:1.6rem;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
     font-family: 'Rubik', sans-serif;
 }
-
-p {
-    line-height: 1.4;
+section, footer{
+    padding:4% 0;
 }
-
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
+
+/*Top Section Styles*/
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
+    text-align: justify;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 35%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 4%;  
 }
 
+/*Middle Section Styles*/
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*Bottom Section Styles*/
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    width:25%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
+/*Footer Styles*/
 footer {
     width: 100%;
-    background: black;
+    background-color: #ff4b00;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
+/*About Page Styles*/
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
+
+/*Responsive Styles*/
