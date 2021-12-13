@@ -88,3 +88,6 @@ Ensure your website is responsive at 500px such that your styles match the mobil
 ## Submission Instructions 
  
 Please submit the url to your pull request in Canvas
+ 
+## Extra Resources 
+[Sprint Study Guide](https://www.notion.so/bloomtech/b41259eac25944b6887a0418a6a4b6c6?v=555d6c33df854e38bc1307768e1483e8)
