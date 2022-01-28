@@ -73,6 +73,40 @@ section, footer{
     margin: 0 auto;
 }
 
+/* Header Section Styles */
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+}
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.bitLogo {
+    width: 70%;
+    margin-left:40%;
+    padding-right: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding-right: 30px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 2%;
+    gap: 15%;
+    margin-right: 30%;
+}
+
+
 /*Top Section Styles*/
 
 .top-content {
