@@ -82,17 +82,21 @@ section, footer{
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
+    position: relative;
+    top: -100px;
 }
 
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+    padding-bottom: 4%;
 }
 
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    position: relative;
+    top: -75px;
 }
 
 .middle-content h2 {
@@ -102,22 +106,27 @@ section, footer{
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    /* padding: 10%; */
 }
 
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 0;
+    margin: 2% 0;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 25vh;
+    width: 25vh;
 }
 
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: -100px;
 }
 
 .bottom-content .text-container {
@@ -134,6 +143,80 @@ footer {
     background-color: #ff4b00;
 }
 
+.about {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin-left: 30%;
+}
+
+.about2 {
+    display:flex;
+    justify-content: space-evenly;
+    /* padding: 1%; */
+}
+
+.about a {
+    color: black;
+    text-decoration: none;
+}
+
+.about2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.Top {
+    justify-content: space-evenly;
+}
+
+img {
+    max-width: 30%;
+    display: flex;
+    padding: 2%;
+    margin-left: 8%;
+    align-items: baseline;
+    position: relative;
+    top: -60px;;
+}
+
+.bg-image img {
+    max-width: 90%;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .text-container .toph2 {
+    position: relative;
+    justify-content: center;
+    display: flex;
+} */
+
+.container.about-page .row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.about-page .row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5%;
+}
+
+.aboutfooter {
+    display:flex;
+    justify-content: space-evenly;
+    /* padding: 1%; */
+}
+
+.aboutfooter a {
+    color: white;
+    text-decoration: none;
+}
 /*About Page Styles*/
 
 
