@@ -90,7 +90,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 HTML5 display-role reset for older browsers article,
 aside,
@@ -226,6 +226,7 @@ a {
 
 /*Middle Section Styles*/
 .middle-content {
+  height: 25%
   margin-bottom: 0%;
   display: flex;
   flex-direction: column;
@@ -238,6 +239,7 @@ a {
 }
 
 .middle-content .boxes {
+  height: 350px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -249,17 +251,18 @@ a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .boxes > div {
-  width: 140px;
-  height: 140px;
-  margin: 15px;
+  width: 18%;
+  height: 45%;
+  margin: 0%;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap:wrap;
 }
 .box1 {
   background-color: teal;
