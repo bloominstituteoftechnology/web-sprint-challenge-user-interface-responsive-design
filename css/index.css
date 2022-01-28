@@ -86,7 +86,7 @@ nav {
 }
 
 .bitLogo {
-    width: 70%;
+    width: 60%;
     margin-left:40%;
     padding-right: 20%;
 }
@@ -95,6 +95,7 @@ nav a {
     text-decoration: none;
     font-size: 2rem;
     padding-right: 30px;
+    color: black;
 }
 
 #links {
@@ -105,7 +106,11 @@ nav a {
     gap: 15%;
     margin-right: 30%;
 }
-
+.aboutImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /*Top Section Styles*/
 
@@ -124,6 +129,16 @@ nav a {
     padding-bottom: 4%;  
 }
 
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1%;
+    margin: 0 7%;
+    font-size: 2rem;
+}
+
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
@@ -136,7 +151,9 @@ nav a {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .middle-content .boxes .box {
@@ -146,6 +163,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
 /*Bottom Section Styles*/
@@ -162,12 +180,121 @@ nav a {
     padding-right: 0;
 }
 
+/* Boxes Styles Section */
+.boxOne {
+    background-color: teal;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+} 
+
+.boxTwo {
+    background-color: gold;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxThree {
+    background-color: cadetblue;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxFour {
+    background-color: coral;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxFive {
+    background-color: crimson;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxSix {
+    background-color: forestgreen;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxSeven {
+    background-color: darkorchid;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxEight {
+    background-color: hotpink;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxNine {
+    background-color: indigo;
+    padding: 5% 5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+.boxTen {
+    background-color: dodgerblue;
+    padding: 5% 4.5%;
+    margin: 1%;
+    color: white;
+    font-size:  1.5em;
+}
+
+/* Horizontal Line Style */
+
+hr {
+    border: 1px solid #ff4b00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4%;
+
+}
+
 /*Footer Styles*/
 footer {
     width: 100%;
     background-color: #ff4b00;
+    display: flex;
 }
 
+footer a {
+    color: white;
+    font-size: 1.8rem;
+}
+
+#footerNav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.footerLink {
+    padding-right: 70%;
+}
 /*About Page Styles*/
 
 
