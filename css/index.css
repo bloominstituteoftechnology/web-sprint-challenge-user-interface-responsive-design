@@ -73,6 +73,34 @@ section, footer{
     margin: 0 auto;
 }
 
+/*nav styles*/
+header {
+    margin: 0 10%;
+    width: 80%;
+}
+
+.logoImg {
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    
+}
+
 /*Top Section Styles*/
 
 .top-content {
