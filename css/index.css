@@ -368,4 +368,9 @@ footer nav a {
     .middle-item {
         width: 100%;
     }
+
+    .middle-item p {
+        text-align: justify;
+        font-size: 2.0rem;
+    }
 }
