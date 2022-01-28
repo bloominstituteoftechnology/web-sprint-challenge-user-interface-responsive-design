@@ -73,45 +73,168 @@ section, footer{
     margin: 0 auto;
 }
 
+
+
+/* header section */
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 5%;
+}
+
+header img{
+    margin: 0% 5%;
+    width: 7% auto;
+    height: 3.5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+    width: 100%;
+
+}
+
+nav button{
+    border: none;
+    /* padding: 4% 0; */
+    margin: 25% 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.jumbo{
+    background-image: url("/img/jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1.5% 10%;
+    height: 10vh;
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 /*Top Section Styles*/
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 4%;
+    margin-bottom: 1.5%;
     border-bottom: 2px solid #ff4b00;
-    text-align: justify;
+    text-align: left;
+}
+
+.top-content h2{
+    text-align: center;
 }
 
 .top-content .text-container {
-    width: 35%;
+    width: 45%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+    padding-bottom: 2%;  
 }
 
 /*Middle Section Styles*/
+/* holds h2 and boxes */
 .middle-content {
     margin-bottom: 4%;
+    height: 2% auto;
+    align-items: center;
 }
+
 
 .middle-content h2 {
     margin-bottom: 0;
 }
 
+/* vvv affects just what's in the boxes div not the boxes
+characteristics themselves */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
-    color: white;
+
+
+.box {
+    background: teal;
+    margin: 2% 1%;
+
+    width: 140px;
+    height: 125px;
+
+    /* center content */
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+}
+
+
+/* grid method */
+
+/* .main{
+    display: grid;
+    grid-template-columns: (5, 1fr;
+    minmax(150px, 1fr) );
+
+    /* give height with vv */
+    /* grid-auto-rows: 150px;
+    grid-gap: 10px; */
+
+
+/* every nth child, change the ..property */
+/* .box:nth-child(3n){
+    background-color: gold;
+} */
+
+
+
+.box2 {
+    background: gold;
+    
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}   
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 /*Bottom Section Styles*/
@@ -121,17 +244,39 @@ section, footer{
 }
 
 .bottom-content .text-container {
-    width:25%;
+    width:30%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+
 }
+
+.bottom-content .text-container p {
+    margin-top: 10%;
+    line-height: 1.8;
+    text-align: left;
+    
+}
+
 
 /*Footer Styles*/
 footer {
     width: 100%;
     background-color: #ff4b00;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a{
+    color: rgb(214, 206, 206);
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+    text-decoration: none;
+    font-size: 1.9rem;
 }
 
 /*About Page Styles*/
