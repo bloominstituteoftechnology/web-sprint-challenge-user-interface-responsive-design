@@ -223,12 +223,17 @@ footer a {
     text-decoration: none;
 }
 /*About Page Styles*/
-
-
+.container-about-page {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /*Responsive Styles*/
 @media screen and (max-width: 500px) { .top-content .middle-content .bottom-content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     flex-flow: column wrap;
     flex-direction: row;
