@@ -385,6 +385,10 @@ body {
 /*Responsive Styles*/
 
 @media (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -416,11 +420,28 @@ body {
   }
 
   .middle-content h2 {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  .middle-content .boxes {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .boxes > div {
+    width: 40%;
+    height: 45%;
+    margin: 3%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
 
   .bottom-content {
     display: flex;
@@ -428,8 +449,13 @@ body {
     align-items: center;
   }
 
+  .bottom-content {
+    display: flex;
+    flex-direction: column;
+   
+  }
   .bottom-content .text-container {
-    width: 90%;
+    width: 30%;
   }
 
   .bottom-content .text-container h2 {
@@ -445,8 +471,6 @@ body {
   }
 
   footer nav {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     margin: 0;
   }
