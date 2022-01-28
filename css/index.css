@@ -50,7 +50,6 @@ table {
 * {
     box-sizing: border-box;
 }
-
 html{
     font-size:62.5%;
 }
@@ -74,7 +73,29 @@ section, footer{
 }
 
 /*Top Section Styles*/
-
+header nav {
+    display: flex;
+    padding: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img {
+    height: 10%;
+    width: 20%;
+    padding: 1%;
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+.top-content-img {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.top-content-img img {
+    height: 30vh;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +104,6 @@ section, footer{
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
-
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
@@ -110,10 +130,71 @@ section, footer{
     margin: 4% 0;
     color: white;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-
+.box-one {
+    background-color: teal;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-two {
+    background-color: gold;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-three {
+    background-color: cadetblue;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-four {
+    background-color: coral;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-five {
+    background-color: crimson;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-six {
+    background-color: forestgreen;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-seven {
+    background-color: darkorchid;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-eight {
+    background-color: hotpink;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-nine {
+    background-color: indigo;
+    padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
+.box-ten {
+   background-color: dodgerblue; 
+   padding: 7%;
+    color: white;
+    margin: 2% 1%;
+}
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
@@ -127,14 +208,29 @@ section, footer{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 /*Footer Styles*/
 footer {
     width: 100%;
     background-color: #ff4b00;
 }
-
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
 /*About Page Styles*/
 
 
 /*Responsive Styles*/
+@media screen and (max-width: 500px) { .top-content .middle-content .bottom-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    flex-direction: row;
+    }
+}
