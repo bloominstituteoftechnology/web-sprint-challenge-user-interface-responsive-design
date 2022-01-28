@@ -297,5 +297,60 @@ footer a {
 }
 /*About Page Styles*/
 
+.aboutSection {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 23.5%;
+    padding-bottom: 2%;
+    width: 70%;
+}
 
+.aboutLine {
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: -3% 0% 1% 23%;
+}
+
+.strategy {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 23.5%;
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+.stratLine {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: -2% 0% 1% 20%;
+} 
+
+.work {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 20%;
+    margin: -30% 10% 0% 60%;
+}
+
+
+.workLine {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5% 0% 0% 60%;
+}
 /*Responsive Styles*/
