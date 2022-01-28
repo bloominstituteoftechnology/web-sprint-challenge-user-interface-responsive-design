@@ -75,6 +75,39 @@ section, footer{
 
 /*Top Section Styles*/
 
+header {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+}
+
+.bloomtechlogo{
+  height: 40%;
+  width:24%;
+}
+
+
+
+links {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
