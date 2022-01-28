@@ -73,6 +73,34 @@ section, footer{
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width:80%;
+    height: 7vh;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(2, 0, 1, 0.93);
+}
 /*Top Section Styles*/
 
 .top-content {
