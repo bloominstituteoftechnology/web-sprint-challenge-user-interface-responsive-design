@@ -121,6 +121,7 @@ nav {
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -133,6 +134,8 @@ nav {
     justify-content: space-between;
 }
 
+
+
 .middle-content .boxes .box {
     background: black;
     margin: 4% 0;
@@ -140,6 +143,47 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    ;
+}
+
+.middle-content .boxes .boxOne {
+    background: teal;
+}
+
+.middle-content .boxes .boxTwo {
+    background: gold;
+}
+
+.middle-content .boxes .boxThree {
+    background: cadetblue;
+}
+
+.middle-content .boxes .boxFour {
+    background: coral;
+}
+
+.middle-content .boxes .boxFive {
+    background: crimson;
+}
+
+.middle-content .boxes .boxSix {
+    background: forestgreen;
+}
+
+.middle-content .boxes .boxSeven {
+    background: darkorchid;
+}
+
+.middle-content .boxes .boxEight {
+    background: hotpink;
+}
+
+.middle-content .boxes .boxNine {
+    background: indigo;
+}
+
+.middle-content .boxes .boxTen {
+    background: dodgerblue;
 }
 
 /*Bottom Section Styles*/
