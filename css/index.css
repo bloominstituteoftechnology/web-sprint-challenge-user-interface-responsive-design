@@ -78,13 +78,13 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* position: fixed; */
 }
 .header-pic{
     display: flex;
-    justify-content: space-around;
-    margin: 0;
-    width: 100%;
+    margin-left: 11%;
+    object-fit: contain;
+    width: 480px;
+    height: 216px;
 }
  .logo {
     width: 30%;
@@ -101,14 +101,19 @@ nav {
     display: flex;
     justify-content: space-around;
     margin: 1% 7%;
-    align-items: baseline;
+    align-items: center;
+  }
+  .links a{
+      text-decoration: none;
+      color: black;
+      font-size: large;
   }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 4%;
+    margin-top: 1%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
@@ -118,10 +123,14 @@ nav {
     padding: 0 1%;
     padding-bottom: 4%;  
 }
+.top-content h2{
+    padding-left: 32.5%;
+}
 
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -207,6 +216,42 @@ footer nav a{
 }
 
 /*About Page Styles*/
+.top{
+    padding: 2%;
+    border-bottom: 2px solid #ff4b00;
+    margin-bottom: 4%;
+}
+.row1-img{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row1-text{
+    display:flex;
+    flex-wrap: wrap;
+    width: 35%;
+    border-bottom: 2px solid #ff4b00;
+    padding-bottom: 2%;
+}
+
+.row2-img{
+    display: flex;
+    justify-content: space-between;
+}
+.row2-text{
+    display:flex;
+    flex-wrap: wrap;
+    width: 35%;
+    border-bottom: 2px solid #ff4b00;
+    padding-bottom: 2%;
+}
+.bottom-text{
+    margin: 3% auto;
+}
 
 
 /*Responsive Styles*/
