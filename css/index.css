@@ -150,11 +150,53 @@ nav a {
 
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 0;
+    margin: 2% 1%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 6%
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+    font-size: 1.4rem;
 }
 
 /*Bottom Section Styles*/
@@ -165,6 +207,10 @@ nav a {
 
 .bottom-content .text-container {
     width:25%;
+}
+
+.bottom-content .text-container h2 {
+    margin-bottom: 20%;
 }
 
 .bottom-content .text-container:last-child {
