@@ -208,3 +208,26 @@ footer {
 
 
 /*Responsive Styles*/
+@media(max-width: 500px){
+    img {
+        max-width: 100%;
+    }
+    .top-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bottom-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-container{
+        max-width: 100%;
+    }
+}
