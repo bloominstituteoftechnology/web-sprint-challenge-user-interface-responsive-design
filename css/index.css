@@ -200,7 +200,6 @@ a {
   width: 100%;
 }
 
-
 .topsection > img {
   width: 100%;
 }
@@ -253,7 +252,7 @@ a {
   justify-content: space-around;
 }
 
-.boxes > div{
+.boxes > div {
   width: 140px;
   height: 140px;
   margin: 15px;
@@ -264,51 +263,41 @@ a {
 }
 .box1 {
   background-color: teal;
-  
 }
 
 .box2 {
   background-color: gold;
-  
 }
 
 .box3 {
   background-color: cadetblue;
-  
 }
 
 .box4 {
   background-color: coral;
-  
 }
 
 .box5 {
   background-color: crimson;
-  
 }
 
 .box6 {
   background-color: forestgreen;
-  
 }
 
 .box7 {
   background-color: darkorchid;
-  
 }
 
 .box8 {
   background-color: hotpink;
-  
 }
 
 .box9 {
   background-color: indigo;
-  
 }
 .box10 {
   background-color: dodgerblue;
-  
 }
 /*Bottom Section Styles*/
 .bottom-content {
@@ -347,26 +336,35 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw
+  width: 100vw;
 }
 
 .container-about {
   width: 80%;
   max-width: 900px;
-
 }
-.details{
+.details {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.details > div{
+.details > div {
   width: 45%;
 }
-.left-details{
+.left-details {
   margin-right: 10%;
+  border-bottom: 2px solid #ff4b00;
 }
-.intro{
+.left-details > img {
+  width: 100%;
+}
+.right-details {
+  border-bottom: 2px solid #ff4b00;
+}
+.right-details > img {
+  width: 100%;
+}
+.intro {
   border-bottom: 2px solid #ff4b00;
 }
 .container-about footer {
