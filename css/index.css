@@ -165,7 +165,7 @@ header {
 }
 
 header img {
-  width: 25%;
+  width: 20%;
   padding-top: 15px;
 }
 
@@ -197,9 +197,11 @@ a {
 .topsection {
   padding-bottom: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
-.topsection img {
+
+.topsection > img {
   width: 100%;
 }
 .top-content {
@@ -251,103 +253,62 @@ a {
   justify-content: space-around;
 }
 
-.box1 {
-  background-color: teal;
-  padding: 70px;
+.boxes > div{
+  width: 140px;
+  height: 140px;
   margin: 15px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.box1 {
+  background-color: teal;
+  
 }
 
 .box2 {
   background-color: gold;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box3 {
   background-color: cadetblue;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box4 {
   background-color: coral;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box5 {
   background-color: crimson;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box6 {
   background-color: forestgreen;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box7 {
   background-color: darkorchid;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box8 {
   background-color: hotpink;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box9 {
   background-color: indigo;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 .box10 {
   background-color: dodgerblue;
-  padding: 70px;
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 /*Bottom Section Styles*/
 .bottom-content {
@@ -382,14 +343,35 @@ footer nav a {
 
 /*About Page Styles*/
 
-/* .container-about {
-  width: 80%%;
-  margin: 0 auto;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw
 }
 
+.container-about {
+  width: 80%;
+  max-width: 900px;
+
+}
+.details{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.details > div{
+  width: 45%;
+}
+.left-details{
+  margin-right: 10%;
+}
+.intro{
+  border-bottom: 2px solid #ff4b00;
+}
 .container-about footer {
   padding: 50px;
-} */
+}
 
 /*Responsive Styles*/
 
