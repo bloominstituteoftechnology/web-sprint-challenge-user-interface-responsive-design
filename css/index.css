@@ -131,6 +131,8 @@ nav button{
     text-align: left;
 }
 
+/* ^^^ orange bar with spacing */
+
 .top-content h2{
     text-align: center;
 }
@@ -144,14 +146,13 @@ nav button{
 /*Middle Section Styles*/
 /* holds h2 and boxes */
 .middle-content {
-    margin-bottom: 4%;
-    height: 2% auto;
+    height: 1% auto;
     align-items: center;
 }
 
 
 .middle-content h2 {
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
 /* vvv affects just what's in the boxes div not the boxes
@@ -169,9 +170,9 @@ characteristics themselves */
 
 .box {
     background: teal;
-    margin: 2% 1%;
+    margin: 3% 1.2%;
 
-    width: 140px;
+    width: 130px;
     height: 125px;
 
     /* center content */
@@ -180,29 +181,8 @@ characteristics themselves */
     align-items: center;
 }
 
-
-/* grid method */
-
-/* .main{
-    display: grid;
-    grid-template-columns: (5, 1fr;
-    minmax(150px, 1fr) );
-
-    /* give height with vv */
-    /* grid-auto-rows: 150px;
-    grid-gap: 10px; */
-
-
-/* every nth child, change the ..property */
-/* .box:nth-child(3n){
-    background-color: gold;
-} */
-
-
-
 .box2 {
     background: gold;
-    
 }
 
 .box3 {
@@ -237,10 +217,16 @@ characteristics themselves */
     background: dodgerblue;
 }
 
+.divider{
+    margin-bottom: 1.5%;
+    border-bottom: 2px solid #ff4b00;
+}
+
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .bottom-content .text-container {
@@ -254,9 +240,9 @@ characteristics themselves */
 
 .bottom-content .text-container p {
     margin-top: 10%;
+    padding: 2% auto;
     line-height: 1.8;
     text-align: left;
-    
 }
 
 
@@ -280,6 +266,19 @@ footer a{
 }
 
 /*About Page Styles*/
+
+/* jumbo-about header img */
+
+.jumbo-about{
+    background-image: url("/img/jumbo-about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1.5% 10%;
+    height: 10vh;
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 
 
 /*Responsive Styles*/
