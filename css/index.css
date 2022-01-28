@@ -235,5 +235,36 @@ footer nav a {
 
 /*About Page Styles*/
 
+.about-top-content p {
+    font-size: 2.0rem;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    padding-bottom: 0;
+}
+
+.middle-item {
+    width: 40%;
+    margin: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.middle-item img {
+    width: 100%;
+}
+
+.about-bottom-content {
+    padding-top: 0;
+}
+
+.about-bottom-content p {
+    font-size: 2.0rem;
+}
 
 /*Responsive Styles*/
