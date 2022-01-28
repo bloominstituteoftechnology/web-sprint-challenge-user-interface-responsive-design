@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html{
@@ -66,14 +67,45 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 section, footer{
+    viewport-fit: 20%;
     padding:4% 0;
 }
-.container {
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    padding: 2% 10% 2% 10%;
+}
+.link-button{
     width: 80%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 90%;
+}
 /*Top Section Styles*/
+.header-img{
+    height: 10vh;
+    display: flex;
+    background-image: url(../img/jumbo.jpg);
+    background-size: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* width: 80%; */
+    margin: 0 10% 0 10%;
+}
 
 .top-content {
     display: flex;
@@ -84,8 +116,11 @@ section, footer{
     text-align: justify;
 }
 
+.text-container h2{
+    text-align: center;
+}
 .top-content .text-container {
-    width: 35%;
+    width: 45%;
     padding: 0 1%;
     padding-bottom: 4%;  
 }
@@ -93,31 +128,69 @@ section, footer{
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
-}
-
-.middle-content h2 {
-    margin-bottom: 0;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content .boxes {
+    /* height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .middle-content .boxes .box {
-    background: black;
+    width: 150px;
+    height: 125px;
+    /* background: black; */
     margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
 
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+
+}
+
+.bottom-content h2{
+    display: flex;
 }
 
 .bottom-content .text-container {
@@ -133,8 +206,109 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
-
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer nav a{
+    color: white;
+}
 /*About Page Styles*/
+.container-about-page{
+    width: 80%;
+    margin: 0 auto;
+}
+section footer{
+    display: flex;
+    justify-content: center;
+    padding:4% 0;
+}
+.top-img{
+    height: 20vh;
+    display: flex;
+    background-image: url(../img/jumbo-about.png);
+    background-size: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.middle{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.text{
+    padding-bottom: 10%
+}
+.how{
+    width: 370px;
+    margin: auto;
+    border-bottom: 2px solid #ff4b00;
+    padding-top: 10%;
+}
+.places{
+    width: 370px;
+    margin: auto;
+    border-bottom: 2px solid #ff4b00;
+    padding-top: 10%;
+}
+.collab{
+    width: 370px;
+    margin: auto;
+    border-bottom: 2px solid #ff4b00;
+    padding-top: 10%;
+}
+.strategy{
+    width: 370px;
+    margin: auto;
+    border-bottom: 2px solid #ff4b00;
+    padding-top: 10%;
+}
 
+.bottom{
+    margin: 4%;
+}
 /*Responsive Styles*/
+
+@media (max-width: 500px) {
+    nav{
+        /* padding: 0; */
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0; */
+    }
+    .logo{
+        width:40%;
+    }
+    .link-button{
+        display: flex;
+        flex-direction: row;
+    }
+    .top-content .text-container{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes{
+        justify-content: space-evenly;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        height: 40vh;
+    }
+    .bottom-content .text-container {
+        width:100%;
+    }
+    .bottom-content h2{
+        justify-content: center;
+    }
+    .container-about-page h2{
+        display: flex;
+        justify-content: center;
+    }
+}
