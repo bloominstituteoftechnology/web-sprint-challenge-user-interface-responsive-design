@@ -79,16 +79,21 @@ nav {
     justify-content: space-between;
     width: 100%;
 }
+nav img {
+    width: 30%;
+    margin: 1% auto;
+    margin-left: 10%;
+  }
+
 .header-pic{
     display: flex;
-    margin-left: 11%;
-    object-fit: contain;
-    width: 480px;
-    height: 216px;
+    justify-content: center;
+    background-image: url('jumbo.jpg');
+    /* margin-left: 11%; */
+    /* object-fit: contain; */
+    background-size:cover;
+    height: 31vh;
 }
-  .links img {
-    width: 30%;
-  }
   .links {
     width: 100%;
     display: flex;
@@ -214,31 +219,54 @@ footer nav a{
     border-bottom: 2px solid #ff4b00;
     margin-bottom: 4%;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+}
 .row1-img{
     display: flex;
-    justify-content: space-between;
-}
-.text{
-    display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+    margin-right: 5%;
+ }
 .row1-text{
     display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 35%;
+    justify-content: space-around;
+    width: 100%;
     border-bottom: 2px solid #ff4b00;
     padding-bottom: 2%;
 }
 
 .row2-img{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 5%;
+}
+.row3-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.row4-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
 }
 .row2-text{
     display:flex;
     flex-wrap: wrap;
-    width: 35%;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
     border-bottom: 2px solid #ff4b00;
     padding-bottom: 2%;
 }
@@ -252,24 +280,31 @@ footer nav a{
 @media(max-width: 500px) {
     
     header{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
     }
     
     nav{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
+
+    }
+    nav img{
+        display: flex;
+        justify-content: center;
     }
     .header-pic{
         display: flex;
-        width: auto;
-        height:20%;
-
+        height:20vh;
+        max-width: 100%;
+        margin-left:11%;
     }
       .links {
           display: flex;
           flex-direction: row;
-        width: 100%;
+          align-items: center;
+          width: 100%;
       }
       .links a{
           text-decoration: none;
@@ -278,4 +313,60 @@ footer nav a{
           display: flex;
           flex-direction: row;
       }
+      .top{
+        padding: 2%;
+        border-bottom: 2px solid #ff4b00;
+        margin-bottom: 4%;
+    }
+
+    .row{
+    display: flex;
+    flex-direction: column;
+    }
+    .row1-img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 4% auto;
+     }
+    .row1-text{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 2px solid #ff4b00;
+        padding-bottom: 2%;
+    }
+    
+    .row2-img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    .row2-text{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 2px solid #ff4b00;
+        padding-bottom: 2%;
+    }
+    .row3-img{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .row4-img{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
