@@ -192,6 +192,10 @@ a {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.topsection img {
+  width: 100%;
+}
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -202,7 +206,7 @@ a {
 }
 
 .top-content .text-container {
-  width: 47%;
+  width: 44%;
   padding: 0 1%;
   padding-bottom: 0%;
 }
@@ -219,10 +223,11 @@ a {
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #ff4b00;
+  padding-bottom: 70px;
 }
 
 .middle-content h2 {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .middle-content .boxes {
@@ -237,46 +242,106 @@ a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .box1 {
   background-color: teal;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box2 {
   background-color: gold;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box3 {
   background-color: cadetblue;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box4 {
   background-color: coral;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box5 {
   background-color: crimson;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box6 {
   background-color: forestgreen;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box7 {
   background-color: darkorchid;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box8 {
   background-color: hotpink;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box9 {
   background-color: indigo;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box10 {
   background-color: dodgerblue;
+  padding: 70px;
+  margin: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*Bottom Section Styles*/
 .bottom-content {
@@ -297,7 +362,55 @@ footer {
   width: 100%;
   background-color: #ff4b00;
 }
+footer nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer nav a {
+  color: white;
+}
 
 /*About Page Styles*/
 
+.container-about {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.topsection-about {
+  img {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+.topsection-about img {
+    width: 100%;
+}
 /*Responsive Styles*/
+
+@media (max-width: 500px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+      width: 100%    
+    }
+
+    header img {
+        width: 100%;
+        padding-top: 15px;
+      }
+      
+      header nav {
+        width: 90%;
+        display: flex;
+        padding-top: 10px;
+        padding-left: 50px;
+        justify-content: space-between;
+        align-items: center;
+      }
