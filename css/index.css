@@ -74,12 +74,46 @@ section, footer{
 }
 
 /*Top Section Styles*/
+header {
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed; */
+}
+.header-pic{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    width: 60%;
+  }
+  .links {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 4%;
+    margin-top: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
@@ -102,16 +136,48 @@ section, footer{
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
+    
+    margin: 4% 2%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 16%;
+    padding: 6.4rem;
+}
+.box-1{
+    background-color: teal;
+}
+.box-2{
+    background-color: gold;
+}
+.box-3{
+    background-color: cadetblue;
+}
+.box-4{
+    background-color: coral;
+}
+.box-5{
+    background-color: crimson;
+}
+.box-6{
+    background-color: forestgreen;
+}
+.box-7{
+    background-color: darkorchid;
+}
+.box-8{
+    background-color: hotpink;
+}
+.box-9{
+    background-color: indigo;
+}
+.box-10{
+    background-color: dodgerblue;
 }
 
 /*Bottom Section Styles*/
@@ -133,8 +199,46 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
+footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+}
 
 /*About Page Styles*/
 
 
 /*Responsive Styles*/
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 500px) {
+    .logo{
+        width: 100%;
+    }
+    .top-content{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .boxes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
