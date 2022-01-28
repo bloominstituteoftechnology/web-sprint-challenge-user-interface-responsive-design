@@ -356,12 +356,20 @@ body {
 }
 .left-details {
   margin-right: 10%;
+  padding-bottom: 1%;
+  padding-top: 3%;
   border-bottom: 2px solid #ff4b00;
 }
 .left-details > img {
   width: 100%;
 }
+
+.left-details p {
+  padding-bottom: 6%;
+}
 .right-details {
+  padding-bottom: 1%;
+  padding-top: 3%;
   border-bottom: 2px solid #ff4b00;
 }
 .right-details > img {
