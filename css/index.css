@@ -74,14 +74,6 @@ section, footer{
 }
 
 /*Top Section Styles*/
-header {
-    height: 20vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
 nav {
     display: flex;
     justify-content: space-between;
@@ -91,22 +83,25 @@ nav {
 .header-pic{
     display: flex;
     justify-content: space-around;
-    margin: 1%;
+    margin: 0;
+    width: 100%;
 }
-.logo {
+ .logo {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 6%;
   }
-  .logo img {
-    width: 60%;
+  .links img {
+    width: 30%;
   }
   .links {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    margin: 1% 7%;
+    align-items: baseline;
   }
 
 .top-content {
@@ -205,6 +200,10 @@ footer nav{
     justify-content: space-between;
     width: 100%;
     padding: 0 10%;
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
 }
 
 /*About Page Styles*/
