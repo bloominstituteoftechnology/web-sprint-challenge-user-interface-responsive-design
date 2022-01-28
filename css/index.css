@@ -73,6 +73,52 @@ section, footer{
     margin: 0 auto;
 }
 
+/* Nav Bar */
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* padding-left: 0; */
+}
+
+nav {
+    width: 100%;
+}
+
+.headerContainer img {
+    width: 250px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* Image below Header*/
+.jumboimg img {
+    width: 100%;
+}
+
+.jumboimg {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /*Top Section Styles*/
 
 .top-content {
@@ -93,25 +139,128 @@ section, footer{
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
     margin-bottom: 0;
 }
 
+* {
+    box-sizing: border-box;
+   }   
+
 .middle-content .boxes {
     display: flex;
+    margin-top: 2em;
+    display: flex;
+    margin-top: 2em;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
 .middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
+    padding: 10px;
+    font-size: 1.5em;
+    color: black;
+    height: calc(30vh - 30px);  
+}
+
+.middle-content .boxes .box {
+    flex-basis: calc(100%/5 - 10px);
+    margin-bottom: 20px;
+    /* background-color: lightCoral; */
+}
+
+.one {
+    background: teal;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 150px;
+}
+.two {
+    background: gold;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.three {
+    background: cadetblue;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.four {
+    background: coral;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.five {
+    background: crimson;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.six {
+    background: forestgreen;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.seven {
+    background: darkorchid;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.eight {
+    background: hotpink;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.nine {
+    background: indigo;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
+}
+.ten {
+    background: dodgerblue;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 150px;
 }
 
 /*Bottom Section Styles*/
@@ -133,8 +282,192 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;    
+}
 
 /*About Page Styles*/
+.jumboabout img {
+    width: 100%;
+}
+
+.jumboabout {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutsect {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ff4b00;
+    padding-bottom: 25px;
+}
+
+.imgwrap {
+    background-image: url("img/about-plan.png"); 
+}  
+
+.imgwraptwo {
+    background-image: url("img/about-working.png");
+}
+
+.containerStrategy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+.containerOne {
+    /* border-bottom: 2px solid #ff4b00; */
+    padding: 5px;
+    width: 100%;
+}
+
+.containerTwo {
+    /* border-bottom: 2px solid #ff4b00; */
+    padding: 5px;
+    /* width: 100%; */
+}
+
+.containerTxt {
+    width: 90%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.containerTxtOne{
+    display:flex;
+    flex-wrap: wrap;
+    width:fit-content;
+    border-bottom: 2px solid #ff4b00;
+
+}
+
+.lonecolumn {
+    display: flex;
+    flex-direction:column;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
 
 
 /*Responsive Styles*/
+
+
+
+@media(max-height: 500px) {
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-content h2 {
+        text-align:center;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    /* Boxes */
+    .middle-content .boxes {
+        display: flex;
+        margin-top: 1em;
+        flex-wrap: wrap;
+        justify-content: space-between;  
+    }
+    
+    .middle-content .boxes .box {
+        padding: 5px;
+        font-size: 1.5em;
+        height: calc(40vh - 5px);
+        width: 40%;  
+    }
+    
+    .middle-content .boxes .box {
+        flex-basis: calc(100%/2 - 45px);
+        margin-bottom: 20px;
+        /* background-color: lightCoral; */
+    }
+    /* Center text within boxes */
+    .one {
+        line-height: 120px;
+    }
+    .two {
+        line-height: 120px;
+    }
+    .three {
+        line-height: 120px;
+    }
+    .four {
+        line-height: 120px;
+    }
+    .five {
+        line-height: 120px;
+    }
+    .six {
+        line-height: 120px;
+    }
+    .seven {
+        line-height: 120px;
+    }
+    .eight {
+        line-height: 120px;
+    }
+    .nine {
+        line-height: 120px;
+    }
+    .ten {
+        line-height: 120px;
+    }
+    /*Second Last Section */
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-content h2 {
+        text-align:center;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    /*Footer Styles*/
+    footer {
+        width: 100%;
+        background-color:#ff4b00;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ABOUT PAGE */
+    .containerStrategy {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width:100%;
+         
+    }
+    .aboutsect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerTxt{
+        text-align: center;
+    }
+    .lonecolumn {
+        text-align: center;
+    }
+}
