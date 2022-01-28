@@ -73,6 +73,44 @@ section, footer{
     margin: 0 auto;
 }
 
+/*Header Styles*/
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0 5% 0;
+}
+
+.logo {
+    width: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.jumbo {
+    width: 100%;
+}
+
 /*Top Section Styles*/
 
 .top-content {
@@ -90,9 +128,14 @@ section, footer{
     padding-bottom: 4%;  
 }
 
+.top-content .text-container h2 {
+    text-align: center;
+}
+
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -132,6 +175,16 @@ section, footer{
 footer {
     width: 100%;
     background-color: #ff4b00;
+}
+
+footer nav {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+footer nav a {
+    color: white;
 }
 
 /*About Page Styles*/
