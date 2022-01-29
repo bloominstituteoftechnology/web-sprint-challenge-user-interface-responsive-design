@@ -324,15 +324,26 @@ footer nav a {
     justify-content: space-evenly;
     margin-top: 5%;
   }
+
+/* .containerStrategy p {
+    height: 50px;
+}
+
+.containerTxt p {
+    height: 5px;
+} */
+
 .containerOne {
-    /* border-bottom: 2px solid #ff4b00; */
     padding: 5px;
     width: 100%;
+    align-self: flex-end;
+
 }
 
 .containerTwo {
     /* border-bottom: 2px solid #ff4b00; */
     padding: 5px;
+    align-self: flex-end;
     /* width: 100%; */
 }
 
@@ -457,7 +468,6 @@ footer nav a {
         flex-direction: column;
         text-align: center;
         width:100%;
-         
     }
     .aboutsect{
         display: flex;
