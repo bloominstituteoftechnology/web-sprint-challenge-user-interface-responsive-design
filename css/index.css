@@ -316,6 +316,8 @@ footer a{
 }
 
 
+/* ---SUMMARY WEB ABOUT ---- */
+
 .summary{
     display: flex;
     flex-wrap: wrap;
@@ -523,6 +525,10 @@ footer a{
 
     /* ORANGE DIV BAR */
 
+    .divider{
+        width: 95%;
+    }
+
     /* BOTTOM SECTION */
 .bottom-content{
     display: flex;
@@ -545,6 +551,15 @@ footer a{
     text-align: center;
 }
 
+
+.bottom-content .text-container p{
+    width: 100%;
+    text-align: left;
+    font-size: 1.7;
+    padding-top: 1%;
+}
+
+
 /* footer section */
 
 footer nav {
@@ -555,10 +570,95 @@ footer nav {
 
 /* -------- ABOUT PAGE MOBILE DESIGN -------*/
 
+/* top picture */
+
 .jumbo-about{
     width: 90%;
     margin: 0 auto;
     height: 10vh;
+}
+
+/* about description */
+
+body .about h1{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+body .about p{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 4%;
+    padding: 0;
+}
+
+
+/* ORANGE DIVIDER */
+
+.aboutdiv{
+    width: 90%;
+}
+
+
+
+/* ------SUMMARY SECTION ------ */
+.summary{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    margin: 1% auto;
+}
+
+.summary div img{
+    padding: 3% 0;
+    margin-top: 2%;
+}
+
+.summary div h2{
+    margin-top: 2%;
+}
+
+.summary div p{
+    margin-top: 2%;
+    letter-spacing: .2rem;
+}
+
+/* CTA BOTTOM SECTION */
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h1{
+    text-align: center;
+    align-items: center;
+}
+
+.cta p{
+    padding: 0;
+    padding-bottom: 1%;
+    width: 100%;
+    letter-spacing: .2rem;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 2%;
+    align-items: baseline;
+    font-size: 1.65rem;
 }
 
 }
