@@ -375,8 +375,7 @@ body {
 .right-details > img {
   width: 100%;
 }
-.intro {
-  border-bottom: 2px solid #ff4b00;
+
 }
 .container-about footer {
   padding: 50px;
@@ -435,13 +434,14 @@ body {
   
   .boxes > div {
     width: 40%;
-    height: 45%;
+    padding: 70px;
     margin: 3%;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+  }
 
   .bottom-content {
     display: flex;
@@ -455,7 +455,7 @@ body {
    
   }
   .bottom-content .text-container {
-    width: 30%;
+    width: 70%;
   }
 
   .bottom-content .text-container h2 {
@@ -464,34 +464,65 @@ body {
     margin-bottom: 15px;
   }
 
-  footer {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
+  footer{
+    padding: 5px;
   }
 
   footer nav {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
     margin: 0;
   }
 
   footer nav a {
-    padding: 10px;
+    padding: 5px;
   }
 
 
-  /* .header img {
-    this is a test
-        width: 80%;
-        padding-top: 15px;
-      }
-      
-      header nav {
-        width: 90%;
-        display: flex;
-        padding-top: 10px;
-        padding-left: 50px;
-        justify-content: space-between;
-        align-items: center;
-      } */
+
+  .container-about{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-about{
+   width: 100%;
+  }
+  .header-about img{
+    width: 50%;
+  }
+ 
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #ff4b00;
+  }
+  .intro h2{
+    justify-content: center;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-details{
+    margin: 0
+  }
+  .left-details h4{
+    display: flex;
+    justify-content: center;
+  }
+  .right-details h4{
+    display: flex;
+    justify-content: center;
+  }
+  .work-together h4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+    
+  
+ 
 }
