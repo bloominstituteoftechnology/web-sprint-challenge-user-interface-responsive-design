@@ -74,6 +74,10 @@ section, footer{
 }
 
 
+section{
+    padding: 4%;
+    margin: 0 auto;
+}
 
 /* header section */
 
@@ -97,7 +101,6 @@ nav{
     padding: 2%;
     align-items: center;
     width: 100%;
-
 }
 
 nav button{
@@ -105,7 +108,7 @@ nav button{
     /* padding: 4% 0; */
     margin: 25% 0;
     font-family: 'Rubik', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -217,6 +220,7 @@ characteristics themselves */
     background: dodgerblue;
 }
 
+/* orange divider bar vv */
 .divider{
     margin-bottom: 1.5%;
     border-bottom: 2px solid #ff4b00;
@@ -225,7 +229,8 @@ characteristics themselves */
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 4%;
     
 }
 
@@ -240,7 +245,7 @@ characteristics themselves */
 
 .bottom-content .text-container p {
     margin-top: 10%;
-    padding: 2% auto;
+    padding: 4% auto;
     line-height: 1.8;
     text-align: left;
 }
@@ -248,9 +253,11 @@ characteristics themselves */
 
 /*Footer Styles*/
 footer {
+    clear: both;
+    /* margin-top: -100px; */
     width: 100%;
     background-color: #ff4b00;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -265,7 +272,7 @@ footer a{
     font-size: 1.9rem;
 }
 
-/*About Page Styles*/
+/*---------About Page Styles-------*/
 
 /* jumbo-about header img */
 
@@ -274,11 +281,284 @@ footer a{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 1.5% 10%;
-    height: 10vh;
+    height: 15vh;
     width: 0 auto;
     display: flex;
     justify-content: center;
 }
 
+.about{
+    width: 90%;
+    padding: 4% auto;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-/*Responsive Styles*/
+.about h1{
+    align-items: left;
+    text-align: left;
+}
+
+.about p{
+    font-size: 2rem;
+    margin: 2.5% 0;
+    align-items: center;
+    text-align: justify
+}
+
+/* orange divider bar */
+.aboutdiv{
+    width: 80%;
+    padding: 0 1%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+
+.summary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+}
+
+
+
+
+.summary div{
+    width: 45%;
+    padding: 2.8%;
+    margin: 0% auto;
+    /* align-items: center; */
+}
+
+.summary img{
+    padding-bottom: 3%;
+}
+
+
+.summary p{
+    font-size: 1.8rem;
+    padding-top: 1%;
+}
+
+
+.summary div a{
+    margin-top: 3%;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction:row ;
+    justify-content:start;
+}
+
+.summary a button{
+    
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgba(0, 0, 0, 0);
+}
+
+.summary a button:hover{
+    color: rgba(68, 68, 68, 0.534);
+}
+
+
+/* orange mini div :( */
+.summary div .bar{
+    width: 100%;
+    padding: 0 1.5%;
+    align-items: center;
+    margin: 0 1%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+
+
+
+/* Call to Action bottom section */
+
+.cta{
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    /* justify-content: center; */
+    align-items: left;
+    text-align: left;
+}
+
+.cta h1{
+    padding: 1% auto;
+    margin: 1% 3%;
+}
+
+.cta h1, a{
+    display: flex;
+    text-decoration: none;
+}
+
+.cta p{
+    padding-bottom: 1%;
+    margin: 1% 3%;
+}
+
+
+.cta div a{
+    margin: 0 3%;
+    padding: 0 1%;
+    text-decoration: none;
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+}
+
+
+.cta a button{
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgba(0, 0, 0, 0);
+}
+
+.cta a button:hover{
+    color: rgba(68, 68, 68, 0.534);
+}
+
+/*-------------Responsive Styles---------*/
+
+/* .summary, img, h2, p, a, div {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* HOME PAGE RESPONSIVE */
+@media(max-width:500px){
+
+   body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+
+
+/* HEADER vvvv */
+    header{
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header img{
+        margin-top: 5%;
+        width: 40% auto;
+    }
+
+    header nav a{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+/* IMAGE BORDER vvvv */
+
+    .jumbo{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .top-content h2, p{
+        padding: 2%;
+    }
+
+
+
+/* The Boxes Content vvvv */
+
+
+    .middle-content{
+        width: 100%;
+        padding: 1% auto;
+        margin: 0;
+    }
+
+    .middle-content h2{
+        align-items: center;
+        text-align: center;
+        margin-top: 1%;
+        
+    }
+
+    .middle-content .boxes{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .box{
+        width: 160px;
+        height: 145px;
+        margin: 4% auto;
+    }
+
+    /* ORANGE DIV BAR */
+
+    /* BOTTOM SECTION */
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bottom-content div{
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom-content .text-container{
+    width: 100%;
+}
+
+.bottom-content .text-container h2{
+    text-align: center;
+}
+
+/* footer section */
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* -------- ABOUT PAGE MOBILE DESIGN -------*/
+
+.jumbo-about{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+}
+
+}

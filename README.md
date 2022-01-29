@@ -39,7 +39,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 ## Minimum Viable Product
