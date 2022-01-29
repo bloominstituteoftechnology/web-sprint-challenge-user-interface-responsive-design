@@ -375,8 +375,7 @@ body {
 .right-details > img {
   width: 100%;
 }
-.intro {
-  border-bottom: 2px solid #ff4b00;
+
 }
 .container-about footer {
   padding: 50px;
@@ -385,6 +384,10 @@ body {
 /*Responsive Styles*/
 
 @media (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -416,10 +419,28 @@ body {
   }
 
   .middle-content h2 {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .middle-content .boxes {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .boxes > div {
+    width: 40%;
+    padding: 70px;
+    margin: 3%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
   }
 
   .bottom-content {
@@ -428,8 +449,13 @@ body {
     align-items: center;
   }
 
+  .bottom-content {
+    display: flex;
+    flex-direction: column;
+   
+  }
   .bottom-content .text-container {
-    width: 90%;
+    width: 70%;
   }
 
   .bottom-content .text-container h2 {
@@ -438,34 +464,81 @@ body {
     margin-bottom: 15px;
   }
 
-  footer {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
+  footer{
+    padding: 5px;
   }
 
   footer nav {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0;
     margin: 0;
   }
 
   footer nav a {
-    padding: 10px;
+    padding: 5px;
   }
 
-  /* .header img {
-        width: 80%;
-        padding-top: 15px;
-      }
-      
-      header nav {
-        width: 90%;
-        display: flex;
-        padding-top: 10px;
-        padding-left: 50px;
-        justify-content: space-between;
-        align-items: center;
-      } */
+
+
+  .container-about{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-about{
+   width: 100%;
+  }
+  .header-about img{
+    width: 50%;
+  }
+  .header nav{
+    font-size: 20px;
+  }
+ 
+  .intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #ff4b00;
+  }
+  .intro h2{
+    font-size: 30px;
+    justify-content: center;
+    padding: 5px;
+  }
+  .intro p{
+    font-size: 25px;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-details{
+    margin: 0
+    padding: 0
+    width: 90%;
+    margin: 0
+  }
+  .left-details h4{
+    display: flex;
+    justify-content: center;
+  }
+  
+  }
+  .right-details h4{
+    display: flex;
+    justify-content: center;
+  }
+  .work-together h4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+    
+  
+ 
 }
