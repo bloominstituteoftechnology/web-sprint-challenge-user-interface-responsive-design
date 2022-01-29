@@ -491,15 +491,26 @@ body {
   .header-about img{
     width: 50%;
   }
+  .header nav{
+    font-size: 20px;
+  }
  
   .intro {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 20px;
     align-items: center;
+    justify-content: center;
     border-bottom: 2px solid #ff4b00;
   }
   .intro h2{
+    font-size: 30px;
     justify-content: center;
+    padding: 5px;
+  }
+  .intro p{
+    font-size: 25px;
   }
   .details{
     display: flex;
@@ -508,10 +519,15 @@ body {
   }
   .left-details{
     margin: 0
+    padding: 0
+    width: 90%;
+    margin: 0
   }
   .left-details h4{
     display: flex;
     justify-content: center;
+  }
+  
   }
   .right-details h4{
     display: flex;
