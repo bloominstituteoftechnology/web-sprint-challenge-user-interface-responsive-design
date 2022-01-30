@@ -91,7 +91,6 @@ section, footer{
 
 #top{
     display: flex;
-    max-width: 1400px;
     width: 100%;
     height: 10vh;
 }
@@ -122,12 +121,25 @@ section, footer{
 
 /* Header Section END*/
 
+/* Hero Section START */
+
+.heroSection{
+    max-width: 1400px;
+    width: 100%;
+}
+
+.heroSection img{
+    width: 100%;
+}
+
+/* Hero Section END */
+
 /*Top Section Styles*/
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
@@ -136,7 +148,12 @@ section, footer{
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+    padding-bottom: 4%;
+    text-align: center;  
+}
+
+.top-content .text-container p{
+    text-align: left;
 }
 
 /*Middle Section Styles*/
@@ -155,16 +172,58 @@ section, footer{
 }
 
 .middle-content .boxes .box {
-    background: black;
     margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 18%;
+    height: 25vh;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.cadetblue{
+    background-color: cadetblue;
+}
+
+.coral{
+    background-color: coral;
+}
+
+.crimson{
+    background-color: crimson;
+}
+
+.forestgreen{
+    background-color: forestgreen;
+}
+
+.darkorchid{
+    background-color: darkorchid;
+}
+
+.hotpink{
+    background-color: hotpink;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.dodgerblue{
+    background-color: dodgerblue;
 }
 
 /*Bottom Section Styles*/
 .bottom-content {
+    border-top: 2px solid #ff4b00;    
     display: flex;
     justify-content: space-between;
 }
@@ -181,6 +240,20 @@ section, footer{
 footer {
     width: 100%;
     background-color: #ff4b00;
+}
+
+footer nav{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer nav a{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
 }
 
 /*About Page Styles*/
