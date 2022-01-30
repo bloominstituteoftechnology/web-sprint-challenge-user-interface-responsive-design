@@ -87,6 +87,41 @@ section, footer{
  footer and line color: #ff4b00
 */
 
+/* Header Section START*/
+
+#top{
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo{
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.logo img{
+    width: 80%;
+}
+
+#top nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top nav a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/* Header Section END*/
+
 /*Top Section Styles*/
 
 .top-content {
