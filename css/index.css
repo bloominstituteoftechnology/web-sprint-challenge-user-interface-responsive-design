@@ -86,6 +86,7 @@ header{
     margin-left: 11%;
  
 }
+
 nav {
     display: flex;
     width: 100%;
@@ -105,6 +106,9 @@ body {
     line-height:1.5;
     font-size:1.6rem;
 }
+body {
+    overflow-x: hidden;
+  }
 
 h1, h2, h3, h4, h5 {
     font-size: 2.5rem;
@@ -147,15 +151,13 @@ section, footer{
     margin-bottom: 4%;
 }
 
-.middle-content h2 {
-    margin-bottom: 0;
-}
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-evenly;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom: 2px solid #ff4b00;
+    padding-bottom: 10%;
 }
 
 /* .middle-content .boxes .box {
@@ -252,30 +254,218 @@ footer a{
 }
 
 /*About Page Styles*/
+.cityscape {
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 11%;
+}
+
+hr{
+    border:solid 1px #ff4b00;
+    width: 100%;
+    background-color: #ff4b00;
+    margin-left: 0;
+    margin-top: 10%;
+}
+p {
+    padding-right: 10%;
+}
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.about{
+    border-bottom: 2px solid #ff4b00;
+    padding-bottom:  5%;
+}
+ .together{
+     padding-top: 5%;
+     padding-bottom: 5%;
+ }
+
+ .wework {
+     margin-left: 30%;
+ }
+ .collaboration {
+    margin-left: 30%;
+ }
+img{
+    width: 80%;
+    padding-top: 5%;
+
+}
 
 
 /*Responsive Styles*/
+
 @media (max-width: 500px) {
     header{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-       
     }
     .logo {
-        width: 40%;
-        display: flex;
-        justify-content:center;
-        padding-left: 10%;
-        align-items:center;
-    }
-    .links{
-        width: 53%;
+        padding: 5%;
         display: flex;
         flex-direction: column;
+        justify-content:center;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .links{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         padding: 2%;
+        margin-left: auto;
+        margin-right: 38%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .lightstream {
+        width: 100%;
+        margin-left:auto;
+        
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 4%;
+        border-bottom: 2px solid #ff4b00;
+        text-align: justify;
+    }
+
+    .middle-content h2 {
+        text-align: center;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bottom-content .text-container {
+        width: 100%;
+    }
+    .bottom-content .text-container h2{
+        text-align: center;
+    }
+
+    footer a{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        margin-left: 40%;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        padding: 0 1%;
+        padding-bottom: 4%;
+    }
+
+    .box1 {
+        background:teal;
+        margin: 5%;
+        padding: 10%;
+    }
+    .box2 {
+        background: gold;
+        padding:10%;
+        margin: 5%;
+    }
+    .box3 {
+        background:cadetblue;
+        padding: 10%;
+        margin: 5%;
+    }
+    .box4 {
+        background:coral;
+        padding: 10%;
+        margin: 5%;
+    }
+    .box5 {
+        background:crimson;
+        padding: 10%;
+        margin: 5%;
+    }
+    .box6 {
+        background:forestgreen;
+        padding: 10%;
+        margin: 5%;
+    
+    }
+    .box7 {
+        background:darkorchid;
+        padding: 10%;
+        margin: 5%;
+    }
+    .box8 {
+        background:hotpink;
+        padding: 10%;
+        margin: 5%;
+    }
+    .box9 {
+        background:indigo;
+        padding: 10%;
+        margin: 5%;
+    }
+    .box10 {
+        background:dodgerblue;
+        padding: 10%;
+        margin: 5%;
+    }
+
+    .break {
+        display:none;
+      }
+
+    .about h2 {
+       text-align:center;
+    }
+    .strategy h2 {
+        text-align:center;
+    }
+    .wework h2{
+        text-align:center;
+    }
+
+    .places h2 {
+        text-align:center;
+    }
+
+    .collaboration h2 {
+        text-align:center;
+    }
+
+    .row1 {
+        display:flex;
+        flex-direction: column;
+    }
+    .row2 {
+        display:flex;
+        flex-direction: column;
     }
 
 
+    .wework img{
+        width: 100%;
+        align-items: left;
+        justify-content: left;
+    }
 }
