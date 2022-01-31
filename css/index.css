@@ -291,6 +291,7 @@ hr {
 }
 
 
+
 /*Footer Styles*/
 footer {
     width: 100%;
@@ -321,7 +322,6 @@ footer a {
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 4%;
     width: 100%;
 }
 
@@ -332,11 +332,11 @@ footer a {
     align-items: center;
     margin-left: 23.5%;
     padding-bottom: 2%;
-    width: 70%;
+    width: 55%;
 }
 
 .aboutLine {
-    width: 67%;
+    width: 55%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -355,7 +355,7 @@ footer a {
 }
 
 .stratLine {
-    width: 28%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -368,18 +368,19 @@ footer a {
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 30%;
-    margin: -28% 0% 1% 60%;
+    width: 25%;
+    margin: -27.5% 0% 1% 53%;
 }
 
 
+
 .workLine {
-    width: 30%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin: 5% 5% 0% 60%;
+    margin: 3% 0% 0% 53%;
 }
 
 .office {
@@ -387,18 +388,18 @@ footer a {
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    margin-left: 23.5%;
+    margin: -4% 23.5% 0% 23.5%;
     width: 28%;
     padding-bottom: 5%;
 }
 
 .officeLine {
-    width: 28%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin: -1% 0% 1% 22%;
+    margin: -2% 0% 1% 23%;
 }
 
 .meeting {
@@ -406,17 +407,17 @@ footer a {
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 30%;
-    margin: -28% 0% 1% 60%;
+    width: 28%;
+    margin: -27.5% 0% 1% 53%;
 }
 
 .meetingLine {
-    width: 30%;
+    width: 26%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin: 5% 0% 0% 60%;
+    margin: 3% 0% 0% 52%;
 }
 
 .together {
@@ -424,9 +425,11 @@ footer a {
     flex-flow: wrap;
     justify-content: flex-start;
     align-items: center;
+    margin-top: -4%;
     margin-left: 23.5%;
-    padding-bottom: 2%;
-    width: 70%;
+    padding-bottom: 1%;
+    width: 57%;
+    font-size: 2rem;
 }
 
 .footerNav {
