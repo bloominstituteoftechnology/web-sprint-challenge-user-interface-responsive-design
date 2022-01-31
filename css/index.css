@@ -226,7 +226,7 @@ a {
 
 /*Middle Section Styles*/
 .middle-content {
-  height: 25%
+  height: 25%;
   margin-bottom: 0%;
   display: flex;
   flex-direction: column;
