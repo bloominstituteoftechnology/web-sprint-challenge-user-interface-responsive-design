@@ -300,5 +300,48 @@ footer a {
 
 /*About Page Styles*/
 
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 4%;
+}
+
+.about-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    border: 4px solid purple;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    margin: 2%;
+}
+
+.about-pics {
+    border: 2px solid pink;
+    width: 70vh;
+}
+
+.description {
+    width: 70vh;
+    height: 32vh;
+    font-size: 20px;
+    padding: 0 1%;
+    padding-bottom: 4%;  
+    border: 3px solid blue;
+    border-bottom: 2px solid #ff4b00;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 
 /*Responsive Styles*/
