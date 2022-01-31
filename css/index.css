@@ -441,18 +441,14 @@ body {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .boxes > div {
     width: 40%;
     padding: 70px;
-    margin: 4%;
+    margin: 3%;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
   }
 
   .bottom-content {
