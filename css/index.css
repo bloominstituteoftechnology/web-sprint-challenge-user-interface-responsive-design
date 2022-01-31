@@ -538,6 +538,9 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .details > div{
+    width: 90%;
+  }
   .left-details{
     margin: 0
     padding: 0
@@ -547,15 +550,49 @@ body {
   .left-details h4{
     display: flex;
     justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .left-details p{
+    font-size: 2rem;
+  }
+  .right-details{
+    margin: 0
+    padding: 0
+    width: 90%;
+    margin: 0
+    padding-bottom: 5%;
   }
   .right-details h4{
     display: flex;
     justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
-  .work-together h4{
+  .right-details p{
+    font-size: 2rem;
+  }
+  .work-together{
     display: flex;
     justify-content: center;
+    padding-bottom: 15%;
+  }
+  .work-together .text-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .work-together h4{
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
     padding-bottom: 10px;
+  }
+  .work-together p{
+    font-size: 2rem;
   }
   
  
