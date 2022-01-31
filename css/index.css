@@ -104,14 +104,13 @@ links {
     justify-content: space-between;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
 
 .jumbopic {
-    border: 4px solid red;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -120,8 +119,6 @@ a {
 .jumbo {
     width: 100%;
     height: 28vh;
-    border: 3px solid blue;
-    
 }
 
 .top-content {
@@ -153,11 +150,11 @@ a {
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
     margin-bottom: 0;
-    border: 2px solid black;
 }
 
 
@@ -175,7 +172,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 4px solid black;
 }
 
 .row1, .row2{
@@ -194,7 +190,7 @@ a {
     justify-content: center;
 }
 .box2 {
-    background-color: teal;
+    background-color: gold;
     height: 20vh;
     width: 20vh;
     display: flex;
@@ -202,7 +198,7 @@ a {
     justify-content: center;
 }
 .box3 {
-    background-color: teal;
+    background-color: cadetblue;
     height: 20vh;
     width: 20vh;
     display: flex;
@@ -210,7 +206,7 @@ a {
     justify-content: center;
 }
 .box4 {
-    background-color: teal;
+    background-color: coral;
     height: 20vh;
     width: 20vh;
     display: flex;
@@ -218,7 +214,47 @@ a {
     justify-content: center;
 }
 .box5 {
-    background-color: teal;
+    background-color: crimson;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    background-color: forestgreen;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    background-color: darkorchid;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    background-color: hotpink;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    background-color: indigo;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    background-color: dodgerblue;
     height: 20vh;
     width: 20vh;
     display: flex;
@@ -235,7 +271,9 @@ a {
 }
 
 .bottom-content .text-container {
-    width:25%;
+    width:20%;
+    display: flex;
+    align-items:flex-start;
 }
 
 .bottom-content .text-container:last-child {
@@ -246,7 +284,19 @@ a {
 footer {
     width: 100%;
     background-color: #ff4b00;
+    display: flex;
+    justify-content: center;
 }
+
+footer nav {
+    width: 80%;
+}   
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /*About Page Styles*/
 
