@@ -245,15 +245,6 @@ a {
   justify-content: space-between;
 }
 
-/* .middle-content .boxes .box {
-  background: lime;
-  margin: 4% 0;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
 .boxes > div {
     display: flex;
     flex-wrap:wrap;
@@ -264,50 +255,20 @@ a {
     margin: 1%;
     background: teal;
     color: white;
-
-    li:first-child{
-      background: black;
-    }
+   
 }
 
-/* .box1 {
-  background-color: teal;
-}
+.box:nth-child(1) {background: teal;}
+.box:nth-child(2) {background: gold;}
+.box:nth-child(3) {background: cadetblue;}
+.box:nth-child(4) {background: coral;}
+.box:nth-child(5) {background: crimson;}
+.box:nth-child(6) {background: forestgreen;}
+.box:nth-child(7) {background: darkorchid;}
+.box:nth-child(8) {background: hotpink;}
+.box:nth-child(9) {background: indigo;}
+.box:nth-child(10) {background: dodgerblue;}
 
-.box2 {
-  background-color: gold;
-}
-
-.box3 {
-  background-color: cadetblue;
-}
-
-.box4 {
-  background-color: coral;
-}
-
-.box5 {
-  background-color: crimson;
-}
-
-.box6 {
-  background-color: forestgreen;
-}
-
-.box7 {
-  background-color: darkorchid;
-}
-
-.box8 {
-  background-color: hotpink;
-}
-
-.box9 {
-  background-color: indigo;
-}
-.box10 {
-  background-color: dodgerblue;
-} */
 /*Bottom Section Styles*/
 .bottom-content {
   display: flex;
@@ -413,6 +374,14 @@ body {
     margin-top: 10px;
   }
 
+  .topsection {
+    display: flex;
+    justify-content: center;
+  }
+  .topsection img{
+    width: 90%;
+  }
+
   .top-content {
     display: flex;
     flex-direction: column;
@@ -491,12 +460,7 @@ body {
     width: 100%;
     margin: 0 auto;
   }
-  .header-about{
-   width: 100%;
-  }
-  .header-about img{
-    width: 50%;
-  }
+ 
   .header nav{
     font-size: 20px;
   }
