@@ -309,6 +309,9 @@ body {
   width: 100vw;
 }
 
+.topsection-about{
+  padding-top: 4%;
+}
 .container-about {
   width: 80%;
   max-width: 900px;
