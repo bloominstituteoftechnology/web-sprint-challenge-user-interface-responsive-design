@@ -447,7 +447,7 @@ body {
   .boxes > div {
     width: 40%;
     padding: 70px;
-    margin: 3%;
+    margin: 4%;
     color: white;
     display: flex;
     justify-content: center;
@@ -473,12 +473,12 @@ body {
   .bottom-content .text-container h2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    padding: 2.5rem;
     font-size: 2.5rem;
     font-weight: bold;
   }
   .bottom-content .text-container p {
-    text-align: center;
+    text-align: justify;
     font-size: 2rem;
   }
   footer{
