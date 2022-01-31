@@ -190,7 +190,7 @@ a {
 
 .container {
   width: 80%;
-  margin: 0 auto;
+  max-width: 900px;
 }
 
 /*Top Section Styles*/
@@ -231,7 +231,7 @@ a {
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #ff4b00;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .middle-content h2 {
@@ -250,8 +250,8 @@ a {
     flex-wrap:wrap;
     align-items: center;
     justify-content: center;
-    width: 18%;
-    height: 45%;
+    width: 17%;
+    height: 38%;
     margin: 1%;
     background: teal;
     color: white;
@@ -308,14 +308,22 @@ body {
   align-items: center;
   width: 100vw;
 }
-
-.topsection-about{
-  padding-top: 4%;
-}
 .container-about {
   width: 80%;
   max-width: 900px;
 }
+.topsection-about{
+  padding-top: 4%;
+}
+
+.topsection-about img{
+  width: 100%
+}
+
+.intro{
+  border-bottom: 2px solid #ff4b00;
+}
+
 .details {
   width: 100%;
   display: flex;
