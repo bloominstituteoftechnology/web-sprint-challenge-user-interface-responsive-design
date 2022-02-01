@@ -320,7 +320,7 @@ body #img-container2  {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -329,19 +329,19 @@ body #img-container2 img {
     margin-bottom: 4%;
 }
 
-body #container-about-page {
+body .container-about-page {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
     margin: 0 auto;
-    
 }
 
 
 body #about-section {
     border-bottom: 2px solid #ff4b00;
-    margin: 4%;
-    padding-bottom: 4%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 body #strategy-section img {
@@ -349,13 +349,14 @@ body #strategy-section img {
 }
 
 body #strategy-section {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
     flex-wrap: wrap;
-    max-width: 25%;
+    max-width: 70vh;
     border-bottom: 2px solid #ff4b00;
-    align-items: center;
-    justify-content: center;
-    
+    margin: 5%;
+    /* padding: 4% 2%; */
 }
 
 body #how-work img {
@@ -363,12 +364,13 @@ body #how-work img {
 }
 
 body #how-work {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 25%;
+    max-width: 70vh;
     border-bottom: 2px solid #ff4b00;
-    margin-bottom: 4%;
-    padding-bottom: 4%;
+    margin: 5%;
 }
 
 body #places-work img {
@@ -376,24 +378,36 @@ body #places-work img {
 }
 
 body #places-work {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 25%;
+    max-width: 70vh;
     border-bottom: 2px solid #ff4b00;
-    margin-bottom: 4%;
-    padding-bottom: 4%;
+    margin: 5%;
+    
 }
 
 body #collaboration img {
     max-width: 100%;
+    
 }
 
 body #collaboration {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 25%;
+    max-width: 70vh;
     border-bottom: 2px solid #ff4b00;
-    margin-bottom: 4%;
-    padding-bottom: 4%;
+    margin: 5%;
 }
+   
+
+body #work-together {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
 /*Responsive Styles*/
