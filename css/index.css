@@ -221,14 +221,96 @@ nav a {
     color: white;
 }
 /*About Page Styles*/
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+p{
+    font-size: 1.8rem;
+}
 .about{
     display: flex;
     flex-wrap: wrap;
-    width:100%;
-    margin: 2% 2%;
+    margin: 2% 0;
+    padding: 3%;
+    
+
 }
 .about-img{
-    width:100%;
+    background-image: url(../img/jumbo-about.png);
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
     margin-bottom: 1%;
+    align-self: center;
+    object-fit: cover;
 }
+
+.about h1{ 
+    font-size: 3.5rem;
+    width: 100%;
+    padding: 1% 0;
+}
+.about p{
+    text-align: justify;
+    width: 100%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #ff4b00;
+}
+.small-squares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 5%;
+}
+.strategy{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 45%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.HWW {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 45%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.PWW {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width:45%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.collaboration {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width:45%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.cta{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    padding: 0 3%;
+    text-align: justify;
+}
+
 /*Responsive Styles*/
