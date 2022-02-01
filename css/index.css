@@ -316,6 +316,84 @@ footer nav {
     width: 100%;
 }
 /*About Page Styles*/
+body #img-container2  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+body #img-container2 img {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+body #container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
 
 
+body #about-section {
+    border-bottom: 2px solid #ff4b00;
+    margin: 4%;
+    padding-bottom: 4%;
+}
+
+body #strategy-section img {
+    max-width: 100%;
+}
+
+body #strategy-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    border-bottom: 2px solid #ff4b00;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body #how-work img {
+    max-width: 100%;
+}
+
+body #how-work {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    border-bottom: 2px solid #ff4b00;
+    margin-bottom: 4%;
+    padding-bottom: 4%;
+}
+
+body #places-work img {
+    max-width: 100%;
+}
+
+body #places-work {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    border-bottom: 2px solid #ff4b00;
+    margin-bottom: 4%;
+    padding-bottom: 4%;
+}
+
+body #collaboration img {
+    max-width: 100%;
+}
+
+body #collaboration {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    border-bottom: 2px solid #ff4b00;
+    margin-bottom: 4%;
+    padding-bottom: 4%;
+}
 /*Responsive Styles*/
