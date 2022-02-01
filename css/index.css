@@ -73,7 +73,30 @@ section, footer{
     margin: 0 auto;
 }
 
+
 /*Top Section Styles*/
+.navigation{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+    border-bottom: 2px;
+    margin-top: 4%;
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none;
+}
+.navigation img{
+    width:30%;
+}
+.image img{
+   display: flex;
+   justify-content: center; 
+   width: 100%;
+}
 
 .top-content {
     display: flex;
@@ -84,10 +107,15 @@ section, footer{
     text-align: justify;
 }
 
+
 .top-content .text-container {
-    width: 35%;
+    width: 40%;
     padding: 0 1%;
     padding-bottom: 4%;  
+}
+
+.top-content .text-container h2{
+    text-align: center;
 }
 
 /*Middle Section Styles*/
@@ -103,21 +131,116 @@ section, footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
-.middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
-    color: white;
+.middle-content .box {
+    
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+}
+.middle-content .box1{
+    color: white;
+    background: teal;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box2{
+    color: white;
+    background: gold;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box3{
+    color: white;
+    background: cadetblue;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box4{
+    color: white;
+    background: coral;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box5{
+    color: white;
+    background: crimson;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box6{
+    color: white;
+    background: forestgreen;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box7{
+    color: white;
+    background: darkorchid;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box8{
+    color: white;
+    background: hotpink;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box9{
+    color: white;
+    background: indigo;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
+}
+.middle-content .box10{
+    color: white;
+    background: dodgerblue;
+    justify-content: center;
+    width: 18.5%;
+    height: 18.5%;
+    padding: 5%;
+    margin: 4% 0;
 }
 
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    border-width: 2px;;
+    border-top: 2px solid #ff4b00;
 }
 
 .bottom-content .text-container {
@@ -133,8 +256,72 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
+footer nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+    border-bottom: 2px;
+    margin-top: 4%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
 
 /*About Page Styles*/
 
+.About-navigation{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+    border-bottom: 2px;
+    margin-top: 4%;
+}
+
+.About-navigation a{
+    color: black;
+    text-decoration: none;
+}
+
+.About-navigation img{
+    width:25%;
+}
+.about-image{
+   display: flex;
+   justify-content: center; 
+   margin: 0 5%;
+}
+
+
+.container .About{
+    padding: 4%;
+    padding-top: 4%;
+    border-bottom: 2px solid #ff4b00;
+    padding-bottom: 5%;
+}
+
+.container .about-grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+.about-grid .partofgrid{
+    width: 45%;
+    padding: 0 1%;
+    padding-bottom: 5%; 
+    padding-top: 5%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.container .Worktogether {
+    padding: 4%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
 
 /*Responsive Styles*/
