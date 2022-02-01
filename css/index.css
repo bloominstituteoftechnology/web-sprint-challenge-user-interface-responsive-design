@@ -221,6 +221,14 @@ nav a {
     color: white;
 }
 /*About Page Styles*/
-
-
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 2% 2%;
+}
+.about-img{
+    width:100%;
+    margin-bottom: 1%;
+}
 /*Responsive Styles*/
