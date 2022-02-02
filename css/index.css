@@ -312,9 +312,8 @@ footer ul {
     width: 100%;
 }
 
-footer nav {
-    width: 100%;
-}
+
+
 /*About Page Styles*/
 body #img-container2  {
     display: flex;
@@ -438,6 +437,12 @@ body #work-together {
         align-items: center;
     }
 
+    .top-content h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .top-content .text-container {
         width: 100%;
     }
@@ -497,6 +502,34 @@ body #work-together {
 
     .middle-content .boxes .box10 {
         padding: 12% 10.5%
+    }
+
+    .bottom-content {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-content .text-container {
+        width: 90%;
+    }
+
+    .bottom-content h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    footer ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
     }
     
     #about-section {
