@@ -346,6 +346,7 @@ body #about-section {
 
 body #strategy-section img {
     max-width: 100%;
+    height: 50vh;
 }
 
 body #strategy-section {
@@ -353,7 +354,7 @@ body #strategy-section {
     flex-direction: column;
     justify-content: left;
     flex-wrap: wrap;
-    max-width: 70vh;
+    max-width: 40%;
     border-bottom: 2px solid #ff4b00;
     margin: 5%;
     /* padding: 4% 2%; */
@@ -361,6 +362,7 @@ body #strategy-section {
 
 body #how-work img {
     max-width: 100%;
+    height: 50vh;
 }
 
 body #how-work {
@@ -368,13 +370,14 @@ body #how-work {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 70vh;
+    max-width: 40%;
     border-bottom: 2px solid #ff4b00;
     margin: 5%;
 }
 
 body #places-work img {
     max-width: 100%;
+    height: 50vh;
 }
 
 body #places-work {
@@ -382,7 +385,7 @@ body #places-work {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 70vh;
+    max-width: 40%;
     border-bottom: 2px solid #ff4b00;
     margin: 5%;
     
@@ -390,6 +393,7 @@ body #places-work {
 
 body #collaboration img {
     max-width: 100%;
+    height: 50vh;
     
 }
 
@@ -398,7 +402,7 @@ body #collaboration {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 70vh;
+    max-width: 40%;
     border-bottom: 2px solid #ff4b00;
     margin: 5%;
 }
@@ -411,3 +415,6 @@ body #work-together {
 }
 
 /*Responsive Styles*/
+@media(max-width: 500px) {
+    
+}
