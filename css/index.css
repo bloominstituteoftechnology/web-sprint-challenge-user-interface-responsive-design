@@ -87,19 +87,19 @@ header {
 .navBar {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 a {
     text-decoration: none;
     color: black;
     font-size: 2rem;
-    
 }
 
 
