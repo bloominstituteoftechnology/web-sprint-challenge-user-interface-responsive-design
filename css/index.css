@@ -81,6 +81,7 @@ header {
 
 .logoImg {
     box-sizing: border-box;
+    height: 2.5rem;
 }
 
 .navBar {
@@ -100,6 +101,7 @@ a {
     font-size: 2rem;
     
 }
+
 
 /*Top Section Styles*/
 
@@ -223,7 +225,6 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
     }
     .middle-content{
         display: flex;
@@ -236,6 +237,10 @@ footer {
         justify-content: center;
     }
     .text-container{
-       width: 100%;
+        width: fit-content;
+    }
+   
+    #text {
+        width:fit-content;
     }
 }
