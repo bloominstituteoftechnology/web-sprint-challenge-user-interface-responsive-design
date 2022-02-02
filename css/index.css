@@ -86,6 +86,7 @@ section, footer{
     top: -100px;
 }
 
+
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
@@ -222,8 +223,8 @@ footer {
 }
 
 .highwayimage img {
-    width: 145vh;
-    height: 32vh;
+    width: 100%;
+    height: 15%;
 }
 
 .aboutWrapper {
@@ -261,3 +262,97 @@ footer {
 
 /*Responsive Styles*/
 
+@media (max-width: 500px) {
+    .bg-image img {
+
+        height: 15vh;
+        
+    }
+    .top-content {
+        margin-bottom: 4%;
+        border-bottom: 2px solid #ff4b00;
+        padding-top: 10%;
+        /* top: -1%; */
+        /* justify-content: center; */
+        
+    }
+    .top-content .text-container {
+        width: 100%;
+        /* justify-content: center; */
+        padding-bottom: 2%;
+        
+    }
+
+    .top-content h2 {
+        text-align: center;
+        
+    }
+    .about {
+        margin-top: 5%;
+        padding: 2%;
+    }
+
+    .Top img {
+        position: relative;
+        left: 29%;
+        padding-bottom: 1%;
+    }
+
+    .Top .about {
+        justify-content: space-evenly;
+        position: relative;
+        right: 12%;
+        bottom: -10%;
+    }
+
+    .middle-content h2 {
+        text-align: center;
+        
+    }
+    
+    .bottom-content .text-container {
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .boxes {
+        width: 125%;
+        position: relative;
+        right: 12%;
+    }
+    
+    .highwayimage img {
+        height: 10vh;
+    }
+
+    .middle-section {
+        display: flex;
+        display: inline-flex;
+        /* max-width: 100%; */
+        /* width: 10%; */
+        /* width: 145vh; */
+        /* height: 32vh; */
+    }
+
+    
+}
