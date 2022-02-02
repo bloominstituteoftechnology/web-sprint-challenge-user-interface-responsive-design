@@ -498,7 +498,14 @@ body #work-together {
     .middle-content .boxes .box10 {
         padding: 12% 10.5%
     }
-
+    
+    #about-section {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+    }
 
     
 }
