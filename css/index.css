@@ -268,7 +268,7 @@ body #img-container img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7%;
+    padding: 6.5%;
 }
 /*Bottom Section Styles*/
 .bottom-content {
@@ -415,6 +415,90 @@ body #work-together {
 }
 
 /*Responsive Styles*/
-@media(max-width: 500px) {
+@media (max-width: 500px) {
+    
+    
+    
+    header {
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-nav li {
+        margin: 2%;
+    }
+
+    .top-content {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    
+
+    .middle-content {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-content .boxes {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 80%;
+    }
+
+    .middle-content .boxes .box1 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box2 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box3 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box4 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box5 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box6 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box7 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box8 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box9 {
+        padding: 12%
+    }
+
+    .middle-content .boxes .box10 {
+        padding: 12% 10.5%
+    }
+
+
     
 }
