@@ -76,14 +76,13 @@ section, footer{
 /*nav styles*/
 header {
     margin: 0 10%;
-    width: 80%;
 }
 
 .logoImg {
     box-sizing: border-box;
     height: 2.5rem;
 }
-
+/* check widths in these areas */
 .navBar {
     display: flex;
     justify-content: center;
@@ -93,6 +92,7 @@ header {
 }
 
 nav {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -100,6 +100,11 @@ a {
     text-decoration: none;
     color: black;
     font-size: 2rem;
+    display: flex;
+    margin: 5%;
+}
+.roadImg img {
+    width: 100%;
 }
 
 
@@ -108,21 +113,25 @@ a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
+    
 }
 
 .top-content .text-container {
-    width: 35%;
+    width: 90%;
     padding: 0 1%;
     padding-bottom: 4%;  
+    display: flex;
+    flex-direction: column;
+   
 }
-
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -132,8 +141,9 @@ a {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    border-bottom: 2px solid #ff4b00;
+    justify-content: space-around;
+   
+    width: 70%;
 }
 
 .middle-content .boxes .box {
@@ -209,19 +219,35 @@ a {
 
 /*Footer Styles*/
 footer {
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
     background-color: #ff4b00;
 }
 
 /*About Page Styles*/
 
+.top-content .text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /*Responsive Styles*/
 @media(max-width: 500px){
+    .navStack {
+        display: flex;
+        flex-direction: column;
+    }
     img {
         max-width: 100%;
     }
     .top-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-content .text-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -231,16 +257,30 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+    .middle-content .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .bottom-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bottom-content .text-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .text-container{
-        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
    
-    #text {
-        width:fit-content;
+    .middle-content {
+       margin-left: 15%;
+            
     }
 }
