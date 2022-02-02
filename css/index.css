@@ -375,7 +375,7 @@ footer a {
    }
 
    .jumbopic{
-       width: 110%;
+       width: 100%;
        margin-bottom: 2%;;
    }
    .jumbo {
@@ -386,10 +386,11 @@ footer a {
    }
 
    .bloomtechlogo{
-    height: 45%;
+    height: 35%;
     width: 50%; 
   }
-  links {
+  
+    links {
       display: flex;
       justify-content: space-between;
       width: 100%;
@@ -423,6 +424,7 @@ footer a {
 /* BOX SECTION */
 
 .middle-content {
+    max-width: 100%;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     justify-content: center;
@@ -437,8 +439,8 @@ footer a {
 
 .middle-content .boxes .box {
     color: white;
-    height: 35vh;
-    width: 35vh;
+    height: 24vh;
+    width: 24vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -563,8 +565,8 @@ footer a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 35vh;
-    width: 65vh;
+    height: 20vh;
+    width: 50vh;
 }
 .bottom-content{
     display: flex;
@@ -573,14 +575,9 @@ footer a {
     align-items: center;
     margin-left: 9%;
 }
-footer {
-    width: 110%;
-    height: 40vh;
-}
+
 footer nav {
     height: 30vh;
-    display: flex;
-    justify-content: space-around;
 }
 footer a {
     display: flex;
@@ -590,7 +587,10 @@ footer a {
 
 /* ABOUT PAGE */
 
-
+    body{
+        max-width: 90%;
+        margin: 0% 2%;
+    }
 
    header {  
        margin-bottom: 2%;
@@ -614,13 +614,32 @@ footer a {
    .about-text h2 {
        margin-left: 40%;
    }
+   .pic {
+       width: 100%;
+   }
+
+   .about-pics {
+       width: 100%;
+   }
 
   .about-sections {
-      width: 100%;
-      margin: 0% 5%;
+      width: 90%;
+      margin-left: 8%;
+      align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   .description{
       justify-content: center;
       align-items: center;
+      width: 100%;
+    
   }
+  .about-words {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+ 
 }
