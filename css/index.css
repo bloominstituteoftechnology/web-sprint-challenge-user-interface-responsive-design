@@ -232,6 +232,26 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+/* .strategy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.office{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.meeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 
 /*Responsive Styles*/
 @media(max-width: 500px){
@@ -282,5 +302,9 @@ footer {
     .middle-content {
        margin-left: 15%;
             
+    }
+    .strategy{
+        display: flex;
+        justify-content: center;
     }
 }
