@@ -74,6 +74,10 @@ section, footer{
     margin: 0 auto;
 }
 
+.container img{
+    margin-top: 3%;
+    width: 100%;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -296,3 +300,7 @@ p{
 }
 
 /*Responsive Styles*/
+
+@media(max-width: 500px){
+
+}
