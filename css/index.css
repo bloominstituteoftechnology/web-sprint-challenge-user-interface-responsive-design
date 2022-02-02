@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  /*  border: 0; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -159,6 +159,9 @@ footer {
   margin: 0 auto;
 }
 
+* {
+  border: 1px solid grey;
+}
 /*Header*/
 
 header {
@@ -179,6 +182,10 @@ header nav {
   display: flex;
   width: 50%;
   justify-content: space-between;
+}
+
+.navigation {
+  width: 65%;
 }
 
 header a {
@@ -206,6 +213,7 @@ header a {
 
 .text-container h2 {
   font-size: 45px;
+  text-align: center;
 }
 
 .top-content .text-container {
@@ -247,107 +255,46 @@ header a {
   height: 250px;
   width: 250px;
 }
-/*.middle-content .boxes .box1 {
-  background: teal;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.middle-content .boxes .box1 {
+  background-color: teal;
 }
+
 .middle-content .boxes .box2 {
-  background: gold;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: gold;
 }
+
 .middle-content .boxes .box3 {
-  background: cadetblue;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: cadetblue;
 }
+
 .middle-content .boxes .box4 {
-  background: coral;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: coral;
 }
+
 .middle-content .boxes .box5 {
-  background: crimson;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: crimson;
 }
+
 .middle-content .boxes .box6 {
-  background: forestgreen;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: forestgreen;
 }
+
 .middle-content .boxes .box7 {
-  background: darkorchid;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: darkorchid;
 }
+
 .middle-content .boxes .box8 {
-  background: hotpink;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: hotpink;
 }
+
 .middle-content .boxes .box9 {
-  background: indigo;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: indigo;
 }
+
 .middle-content .boxes .box10 {
-  background: dodgerblue;
-  margin: 4% 0;
-  color: white;
-  width: 130px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: dodgerblue;
 }
-*/
 
 /*Bottom Section Styles*/
 .bottom-content {
@@ -427,9 +374,27 @@ header a {
   padding: 4%;
 }
 
-.aboutdiv h2 {
-  display: flex;
-  text-align: right;
+.aboutdiv > * {
+  margin-left: 6%;
+  width: 70%;
 }
 
-/*Responsive Styles*/
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  background-color: pink;
+}
+
+.information .content-box {
+  background-color: blue;
+  width: 25%;
+  padding: 2%;
+}
+
+.information .content-box img {
+}
+
+.information/*Responsive Styles*/;
