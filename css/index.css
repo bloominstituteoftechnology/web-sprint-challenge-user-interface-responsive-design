@@ -49,11 +49,14 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
+    text-decoration: none;
 }
 
 html{
     font-size:62.5%;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height:1.5;
@@ -67,6 +70,7 @@ h1, h2, h3, h4, h5 {
 }
 section, footer{
     padding:4% 0;
+    justify-content: space-between;
 }
 .container {
     width: 80%;
@@ -74,14 +78,41 @@ section, footer{
 }
 
 /*Top Section Styles*/
+nav{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    
+}
+.logo{
+    width: 25%;
 
+}
+.logo img{
+    width: 60%;
+}
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.topimage img{
+    width: 100%;
+    text-align: center;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
-    text-align: justify;
+    text-align: center;
 }
 
 .top-content .text-container {
@@ -93,25 +124,135 @@ section, footer{
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-evenly; 
+    text-align: center;
+    white-space: nowrap;
 }
 
-.middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
+.boxes{
+   
+    margin-bottom: 20px;
+}
+.box1 {
+    background: teal;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
+}
+.box2{
+    background: gold;
+    
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    background: cadetblue;
+
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    background: coral;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box5{
+    background: crimson;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box6{
+    background: forestgreen;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box7{
+    background: darkorchid;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box8{
+    background: hotpink;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box9{
+    background: indigo;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box10{
+    background: dodgerblue;
+    width: 80px;
+    height: 80px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /*Bottom Section Styles*/
@@ -133,8 +274,49 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
-
+.f{
+color: white;
+justify-content: space-around;
+align-items: center;
+position: relative;
+width: 100%;
+}
 /*About Page Styles*/
 
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-direction: row;
+}
+.element{
+    border-bottom: 2px solid #ff4b00;
+}
+.row .element {
+    width: 35%;
+    padding: 0 1%;
+    padding-bottom: 4%;  
+}
+.top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
+    
+}
 
+.top-content2 .text-container2 {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 4%;  
+}
+.bottomsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-betweence;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 4%;
+}
 /*Responsive Styles*/
