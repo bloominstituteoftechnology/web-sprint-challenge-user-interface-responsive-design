@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html{
@@ -311,7 +312,7 @@ footer a {
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .about-sections .box{
@@ -586,4 +587,40 @@ footer a {
     justify-content: space-around;
     width: 30%;
 }
+
+/* ABOUT PAGE */
+
+
+
+   header {  
+       margin-bottom: 2%;
+   }
+   nav {
+       max-width: 100%;
+       margin-top: 2%;
+       flex-direction: column;
+   }
+
+   .jumbopic{
+       width: 110%;
+       margin-bottom: 2%;;
+   }
+   .jumbo {
+       height: 15vh;
+       width:100%;
+       display: flex;
+       justify-content: center;
+   }
+   .about-text h2 {
+       margin-left: 40%;
+   }
+
+  .about-sections {
+      width: 100%;
+      margin: 0% 5%;
+  }
+  .description{
+      justify-content: center;
+      align-items: center;
+  }
 }
