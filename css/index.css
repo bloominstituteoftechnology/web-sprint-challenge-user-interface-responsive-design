@@ -425,13 +425,9 @@ footer a {
 .middle-content {
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
-    border: 5px solid chartreuse;
-    
 }
 
 .middle-content h2 {
-    margin-bottom: 0;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
@@ -445,16 +441,13 @@ footer a {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    border: 4px solid black;
     padding: 2%;
-    font: 
 } 
 
 .box{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 4px solid orange;
 } 
 
 .row1, .row2{
@@ -463,7 +456,6 @@ footer a {
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 0%;
-    border: 4px solid pink;
 }
 
 .boxes {
@@ -564,12 +556,30 @@ footer a {
     font-size: 140%;
 }
 .bottom-content .text-container{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 65vh;
-    width: 30vh;
+    align-items: center;
+    height: 35vh;
+    width: 65vh;
 }
-
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    width: 110%;
+    height: 40vh;
+}
+footer nav {
+    margin-right: 8%;
+    height: 30vh;
+}
+footer a {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
 }
