@@ -301,6 +301,43 @@ p{
 
 /*Responsive Styles*/
 
-@media(max-width: 500px){
 
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 50%;
+    }
+    .links{
+        width: 100%;
+    }
+
+    .top-content .text-container{
+        width: 100%;
+    }
+
+    .middle-content .boxes .box {
+        width: 45%;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottom-content .text-container{
+        width: 100%;
+    }
+
+    .bottom-content .text-container h2{
+        text-align: center;
+    }
+
+    footer nav a {
+        width: 100%;
+    }
 }
