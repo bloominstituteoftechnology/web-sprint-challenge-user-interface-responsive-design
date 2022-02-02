@@ -189,42 +189,6 @@ section, footer{
     height: 25vh;
 }
 
-.middle-content-about{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.middle-content-about-boxes{
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-    margin: 2% 0;
-    width: 45%;
-    border-bottom: 2px solid red;
-}
-
-.middle-content-about-boxes h2,.middle-content-about-boxes p{
-    margin: 1% 0 2% 0;
-}
-
-.middle-content-about-boxes-image, .middle-content-about-boxes-image img{
-    width: 100%;
-}
-
-.middle-content-about-boxes button{
-        width: 20%;
-        text-align: center;
-        background-color: #ff4b00;
-        padding: 1% 2% 1% 1%;
-}
-
-.middle-content-about-boxes button a{
-    text-decoration: none;
-    color: #fff;
-}
-
-
 .teal{
     background-color: teal;
 }
@@ -302,5 +266,146 @@ footer nav a{
 
 /*About Page Styles*/
 
+/* Implemented Header styles from about page with Home page for less copying and pasting. */
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-content-about-boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    margin: 2% 0;
+    width: 45%;
+    border-bottom: 2px solid red;
+}
+
+.middle-content-about-boxes h2,.middle-content-about-boxes p{
+    margin: 1% 0 2% 0;
+}
+
+.middle-content-about-boxes-image, .middle-content-about-boxes-image img{
+    width: 100%;
+}
+
+.middle-content-about-boxes button{
+        width: 20%;
+        text-align: center;
+        background-color: #ff4b00;
+        padding: 1% 2% 1% 1%;
+}
+
+.middle-content-about-boxes button a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /*Responsive Styles*/
+
+@media only screen and (max-width: 500px){
+/* Header Styles START*/
+    #top,#top-about{
+        display: flex;
+        flex-wrap: wrap;
+        height: 15vh;
+    }
+    
+    .logo{
+        width: 100%;
+    }
+    
+    .logo img{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #top nav,#top-about nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .top-content .about-container h2{
+        text-align: center; 
+    }
+/* Header Styles END*/
+
+/* Top Content START */
+    .top-content {
+        flex-direction: column;
+    }
+    
+    .top-content .text-container {
+        width: 100%;
+        text-align: center;  
+    }
+
+/* Top Content END */
+
+/* Middle Content START */
+
+.middle-content .boxes .box {
+    width: 43%;
+}
+
+.middle-content-about{
+    flex-direction: column;
+}
+
+.middle-content-about-boxes{
+    width: 100%;
+}
+
+.middle-content-about-boxes h2,.middle-content-about-boxes p{
+    margin: 3% 0;
+}
+
+.middle-content-about-boxes button{
+    visibility: hidden;
+}
+
+.middle-content-about-boxes button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Middle Content END */
+
+/* Bottom Content START */
+
+.bottom-content {
+    align-content: center;
+    flex-direction: column;
+}
+
+.mobileTweak{
+    text-align: center;
+}
+
+.bottom-content .text-container {
+    width:100%;
+    margin-bottom: 4%;
+}
+
+.bottom-content .text-container h2,.bottom-content .text-container .p{
+    padding: 1% 0 5% 0;
+    margin: 3% 0;
+}
+
+/* Bottom Content END*/
+
+/* Footer Content START */
+footer nav{
+    flex-direction: column;
+}
+
+footer nav a{
+    width: 100%;
+    margin: 3% 0;
+}
+
+/* Footer Content END */
+
+}
