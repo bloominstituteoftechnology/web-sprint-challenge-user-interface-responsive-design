@@ -340,4 +340,24 @@ p{
     footer nav a {
         width: 100%;
     }
+    /* about page stlyes */
+    .about h1{
+        text-align: center;
+        width:100%;
+    }
+
+    .image-box{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .image-box h2{
+        text-align: center;
+        width:100%;
+    }
+
+    .cta h1{
+        text-align: center;
+        width:100%;
+    }
 }
