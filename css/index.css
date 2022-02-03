@@ -392,3 +392,29 @@ footer {
     padding-left:5%;
     padding-top:3.5%;
 }
+@media(max-width:500){
+    nav{
+        width:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    a, .a2{
+        width:100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        
+    }
+    a button, a{
+        margin: 1% 0;
+        width: 40%;
+        
+    }
+    .paragraph1-about, .paragraph2-about, .paragraph3-about, .paragraph4-about, .paragraph5-about {
+        width: 40%;
+    }
+    .container{
+        width: 40%;
+    }
+}
