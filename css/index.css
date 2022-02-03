@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  /*  border: 0; */
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -159,9 +159,9 @@ footer {
   margin: 0 auto;
 }
 
-* {
+/* * {
   border: 1px solid grey;
-}
+} */
 /*Header*/
 
 header {
@@ -372,6 +372,15 @@ header a {
   display: flex;
   flex-direction: column;
   padding: 4%;
+  border-bottom: 2px solid #ff4b00;
+}
+
+.aboutdiv h2 {
+  font-size: 45px;
+}
+
+.aboutdiv p {
+  font-size: 30px;
 }
 
 .aboutdiv > * {
@@ -385,16 +394,23 @@ header a {
   justify-content: space-around;
   align-items: center;
   text-align: left;
-  background-color: pink;
 }
 
 .information .content-box {
-  background-color: blue;
-  width: 25%;
+  width: 40%;
   padding: 2%;
+  border-bottom: 2px solid #ff4b00;
 }
 
 .information .content-box img {
+  display: flex;
+  height: 400px;
+}
+
+.closing-content {
+  text-align: left;
+  margin-left: 5%;
+  padding: 2%;
 }
 
 .information/*Responsive Styles*/;
