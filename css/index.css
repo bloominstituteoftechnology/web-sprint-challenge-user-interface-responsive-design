@@ -48,95 +48,318 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 html{
-    font-size:62.5%;
+    font-size:1vw;
+    max-width:100%;
+}
+header button {
+    background-color:white;
+    padding: 2.7rem;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border: none;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    line-height:1.5;
-    font-size:1.6rem;
+    line-height:1.7;
+    font-size:2rem;    
+}
+a {
+    font-size: 2.5vw;
+    justify-content:space-evenly;
+    padding: 45%;
+    color:black;
+    text-decoration:none;
+  
+}
+header {
+    margin-bottom:4.0%;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 2.5rem;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-family: 'Rubik', sans-serif;
+    text-align:center;
+}
+.h-home{
+    font-size: 3.5rem;
+    margin-bottom: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: 'Rubik', sans-serif;
+    text-align:left;
+    margin-left:2.7%;
 }
 section, footer{
     padding:4% 0;
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
+.container-home {
+    width: 100%;
+   
+}
+.jumbo{
+    margin-right:5%;
+
 }
 
 /*Top Section Styles*/
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 4%;
+    justify-content: space-evenly;
     border-bottom: 2px solid #ff4b00;
-    text-align: justify;
-}
+    margin-left:5%;
+    margin-right:5%;
+    text-align: left;
 
+}
 .top-content .text-container {
-    width: 35%;
-    padding: 0 1%;
-    padding-bottom: 4%;  
+    width: 42.5%;
+    text-align:justify;
 }
 
 /*Middle Section Styles*/
 .middle-content {
-    margin-bottom: 4%;
+ border-bottom: 2px solid #ff4b00;
+ margin-left:5%;
+ margin-right:5%;
 }
 
 .middle-content h2 {
     margin-bottom: 0;
+    text-align:left;
 }
-
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    color:rgb(255, 255, 255);
 }
 
-.middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .row {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-bottom:1vw;
 }
+.middle-content .row1 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+
+.middle-content .box {
+    padding: 45px;
+
+
+}
+
+.box1 {
+    background-color:teal;
+}
+
+.box2 {
+    background-color:gold;
+}
+
+.box3 {
+    background-color:cadetblue;
+}
+
+.box4 {
+    background-color:coral;
+}
+.box5 {
+    background-color:crimson;
+}
+.box6 {
+    background-color:forestgreen;
+}
+.box7 {
+    background-color:darkorchid;
+}
+.box8 {
+    background-color:hotpink;
+}
+.box9 {
+    background-color:indigo;
+}
+.box10 {
+    background-color:dodgerblue;
+}
+
+
+
+
+
 
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+
+    
 }
 
 .bottom-content .text-container {
     width:25%;
+    text-align:justify;
+    margin-left:    5%;
+    margin-right:5%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding-left: 0;
 }
 
 /*Footer Styles*/
 footer {
     width: 100%;
     background-color: #ff4b00;
+    padding-top: 10%;
+    text-align: center;
+}
+.a2 {
+    font-size: 2.5vw;
+    justify-content:space-evenly;
+    padding: 4%;
+    color:white;
+    text-decoration:none;
+  
+}
+/*About Page Styles*/
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:justify;
+    margin-top:5%;
 }
 
-/*About Page Styles*/
+.about-body{
+    display:flex;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2.5%;
+    display:block;
+    grid-auto-rows: 25%;
+    font-size:15px;
+    text-align:justify;
 
+}
+.h{
+    font-size: 3.5rem;
+    margin-bottom: 2.5%;
+  
+    font-family: 'Rubik', sans-serif;
+    text-align:left;
+}
 
+.toptext {  
+    width:100%;
+    align-self:justify;
+  
+}
+
+.about-body{
+    flex:wrap;
+
+}
+
+.about-p{
+    margin-right:5%;
+    margin-left:5%;
+    width:90%;
+    font-size:2rem;
+    padding-bottom:5%;
+    text-align:justify;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.bottomH{
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+    font-family: 'Rubik', sans-serif;
+    text-align:left;
+    margin-left:5%;
+}
+.gridp{
+    font-size:2rem;
+    justify-content:space-between;
+    margin: 5%;
+    padding-left:15%;
+    text-align:justify;
+    width:60%;
+}
+.responsive4{
+    width:90%;
+    height:50%;
+    margin-left:5%;
+    margin-right:5%;
+}
+.paragraph1-about{
+    text-align:center;
+    margin-bottom:2.5%;
+    margin-left:5%;
+    padding-bottom:2.5%;
+    border-bottom: 2px solid #ff4b00;
+    width:40%;
+}
+.paragraph2-about{
+    text-align:center;
+    margin-bottom:2.5%;
+    margin-left:5%;
+    padding-bottom:2.5%;
+    border-bottom: 2px solid #ff4b00;
+    width:40%;
+
+}
+.paragraph3-about{
+    text-align:center;
+    margin-bottom:2.5%;
+    margin-left:5%;
+    padding-bottom:2.5%;
+    border-bottom: 2px solid #ff4b00;
+    width:40%;
+
+}
+.paragraph4-about{
+    text-align:center;
+    margin-bottom:2.5%;
+    margin-left:5%;
+    padding-bottom:2.5%;
+    border-bottom: 2px solid #ff4b00;
+    width:40%;
+
+}
+.paragraph5-about{
+    text-align:center;
+    margin-bottom:2.5%;
+    margin-left:5%;
+    padding-bottom:2.5%;
+    border-bottom: 2px solid #ff4b00;
+    width:40%;
+}
+.bottomtext {
+    text-align:left;
+
+}
+
+.bottomtitle{
+    font-size: 2.5rem;
+    margin-bottom: 2.5%;
+    font-family: 'Rubik', sans-serif;
+  
+}
+.responsive3{
+    width:70%;
+    height:70%;
+    align-items:center;
+}
 /*Responsive Styles*/
 
 .parent {
@@ -155,3 +378,17 @@ footer {
     height: 100px;
     background: gray;
  }
+
+ .responsive {
+     width:20%;
+     height:20%;
+     padding-top:2.5%;
+     padding-left:5%
+ }
+
+.responsive2 {
+    width: 95%;
+    height: 25%;
+    padding-left:5%;
+    padding-top:3.5%;
+}
