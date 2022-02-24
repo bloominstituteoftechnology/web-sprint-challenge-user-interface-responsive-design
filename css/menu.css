@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1920px;
+    min-width: 428px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, i {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 7.5rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4rem;
+}
+
+p, a {
+    font-size: 3rem;
+}
+
+/* header section */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/menu-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* spacer */
+.spacer {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(0, 4, 17);
+}
+.spacer-sm {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 4, 17);
+}
+
+/* menu */
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-image: url('../img/staff-bartender.jpg');
+    background-color: rgb(0, 4, 17);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 15vh;
+    padding-top: 2.5vh;
+    font-size: 3rem;
+}
+
+/* mobile media query */
+@media (max-width: 428px) {
+    /* header section */
+    .header-title {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    /* menu */
+    .menu {
+        background-image: none;
+    }
+
+    /* footer section */
+    footer {
+        height: auto;
+        padding-top: 2.5vh;
+        font-size: 2rem;
+    }
+}
