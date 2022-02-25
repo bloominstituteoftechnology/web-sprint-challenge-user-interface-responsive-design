@@ -17,7 +17,7 @@
         "@babel/core": "^7.16.12"
     },
     "scripts": {
-        "test": "jest --watchAll --verbose --forceExit --silent=false",
+        "test": "jest --watchAll --verbose --forceExit --silent",
         "start": "serve src"
     },
     "repository": {
