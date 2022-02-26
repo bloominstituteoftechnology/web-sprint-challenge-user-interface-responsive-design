@@ -38,8 +38,8 @@ describe('index.html', () => {
         expect(headerTitleATag.href.includes('index.html')).toEqual(true);
     });
 
-    it('renders the correct four links in header nav', () => {
-        const headerNavLinks = container.querySelector('header nav');
+    it('renders the correct four links in header nav links div', () => {
+        const headerNavLinks = container.querySelector('header nav div');
         let headerNavLinkTextArr = headerNavLinks.innerHTML.split(/<a /i);
         // shift is to get rid of initial index that splits before the a tag
         headerNavLinkTextArr.shift();
@@ -81,7 +81,7 @@ describe('index.html', () => {
     });
 
     it('renders nine images in the OUR FOOD section', () => {
-        const foodPics = container.querySelector('.gallery-container');
+        const foodPics = container.querySelector('.gallery');
 
         let foodPicsArr = foodPics.innerHTML.split(/src=/i);
         // shift is to get rid of initial index that splits before the i tag
