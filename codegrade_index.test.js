@@ -81,14 +81,14 @@ describe('index.html', () => {
     });
 
     it('renders nine images in the OUR FOOD section', () => {
-        const foodPics = container.querySelector('.gallery-container');
+        const foodPics = container.querySelector('.gallery');
 
         let foodPicsArr = foodPics.innerHTML.split(/src=/i);
         // shift is to get rid of initial index that splits before the i tag
         foodPicsArr.shift();
 
         expect(foodPicsArr.length).toBe(9);
-    });
+});
 
     it('renders an input and button in footer nav with appropriate text', () => {
         const footerInput = container.querySelector('footer input');
