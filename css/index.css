@@ -49,6 +49,10 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 10px solid red; */
 }
 
 html {
@@ -80,7 +84,7 @@ h3 {
 }
 
 p, a {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* header section */
@@ -91,8 +95,19 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+    color: white;
 }
 
+header div{
+     background-color: rgb(0, 4, 17, .8);
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
 /* spacers */
 .spacer {
     width: 100%;
@@ -122,6 +137,7 @@ header {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    color: white;
 }
 
 .about-container {
@@ -143,18 +159,23 @@ header {
 
 /* contact us section */
 .contact {
+    display: flex;
     text-align: center;
+    color: white;
     background-image: url("../img/jumbo-restaurant.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    
 }
 
 .contact-container {
+    text-align: center;
     width: 100%;
     height: 100%;
     background-color: rgb(0, 4, 17, .8);
+    color: white;
 }
 
 .contact h2 {
@@ -173,6 +194,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 .address {
@@ -190,11 +212,28 @@ header {
 
 /* footer section */
 footer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 15vh;
+    height: 35vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17, .8);
+    color: white;
 }
+footer .nav{
+    float: right;
+}
+footer .label {
+    margin: 5%
+}
+
+.copyright h2{
+    font-size: 16px;
+    display: flex;
+    float: right;
+}
+
 
 /* mobile media query */
 @media (max-width: 428px) {
@@ -250,4 +289,5 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+
 }
