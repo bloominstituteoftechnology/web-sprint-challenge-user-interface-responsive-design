@@ -91,9 +91,23 @@ header {
     width: 100%;
     height: 100vh;
     background-image: url('../img/menu-header.jpg');
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(0, 4, 17, .8);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 5rem;
 }
 
 /* spacer */
@@ -109,16 +123,17 @@ header {
 }
 
 /* menu */
-
 .menu {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, 1);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
 
 /* footer section */
 footer {
