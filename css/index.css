@@ -134,7 +134,7 @@ header .div-social i{
 /* spacers */
 .spacer {
     width: 100%;
-    height: 10vh;
+    height: 40vh;
     background-color: rgb(0, 4, 17);
 }
 .spacer-sm {
@@ -147,6 +147,15 @@ header .div-social i{
 }
 
 /* gallery section */
+.gallery {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    padding: 2.5%;
+    padding-bottom: 2.5;
+}
 .gallery .gallery-pics{
     display: flex;
     flex-direction: row;
@@ -263,6 +272,7 @@ footer nav{
 footer .copyright{
     font-size: 2rem;
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: flex-end;
     padding-left: 60%;
