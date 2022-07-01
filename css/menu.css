@@ -158,7 +158,7 @@ header .div-social i{
     height: 240vh;
     background-image: url('../img/staff-bartender.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     color:rgb(225, 239, 230);
     display: flex;
@@ -190,7 +190,8 @@ header .div-social i{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 2.5% 2.5%;;
     padding: 5%;
     margin: 2% 2%;
 }
