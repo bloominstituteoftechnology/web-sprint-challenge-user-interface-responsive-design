@@ -20,17 +20,17 @@ describe('index.html', () => {
         container = dom.window.document.body;
     })
 
-    it('renders with an external stylesheet', () => {
+    it('renders with an external stylesheet, Review how to import files', () => {
         const cssLinkTag = dom.window.document.head.querySelector('link[href="css/index.css"]');
         expect(cssLinkTag).toBeInTheDocument();
     });
 
-    it('has a viewport tag', () => {
+    it('has a viewport tag, Review viewport tags', () => {
         const viewportTag = dom.window.document.head.querySelector('meta[content="width=device-width, initial-scale=1.0"]');
         expect(viewportTag).toBeInTheDocument();
     });
     
-    it('renders a header title that links to home page', () => {
+    it('renders a header title that links to home page, Review how to create a header tag', () => {
         const headerTitle = container.querySelector('h1').innerHTML;
         const headerTitleATag = container.querySelector('header a');
         const regex = /BLOOMTECH BAR AND GRILL/i;
@@ -38,7 +38,7 @@ describe('index.html', () => {
         expect(headerTitleATag.href.includes('index.html')).toEqual(true);
     });
 
-    it('renders the correct four links in header nav links div', () => {
+    it('renders the correct four links in header nav links div, Review how to create anchor tags', () => {
         const headerNavLinks = container.querySelector('header nav div');
         let headerNavLinkTextArr = headerNavLinks.innerHTML.split(/<a /i);
         // shift is to get rid of initial index that splits before the a tag
@@ -52,12 +52,12 @@ describe('index.html', () => {
         expect(getByText(headerNavLinks, /Contact/i)).toBeInTheDocument();
     });
 
-    it('menu link correctly links to new page', async () => {
+    it('menu link correctly links to new page, Review anchor tags and ensure your href is pointing to the right page!', async () => {
         const menuLink = container.querySelector('header nav a');
         expect(menuLink.href.includes('menu.html')).toEqual(true);
     });
 
-    it('renders the correct three social media icons in header nav', () => {
+    it('renders the correct three social media icons in header nav, Review image tags', () => {
         const headerNavLinks = container.querySelector('nav');
 
         let headerSMIconsArr = headerNavLinks.innerHTML.split(/<i /i);
@@ -80,7 +80,7 @@ describe('index.html', () => {
         }
     });
 
-    it('renders nine images in the OUR FOOD section', () => {
+    it('renders nine images in the OUR FOOD section, Review how to create image tags and ensure all 9 are there', () => {
         const foodPics = container.querySelector('.gallery');
 
         let foodPicsArr = foodPics.innerHTML.split(/src=/i);
@@ -90,7 +90,7 @@ describe('index.html', () => {
         expect(foodPicsArr.length).toBe(9);
     });
 
-    it('renders an input and button in footer nav with appropriate text', () => {
+    it('renders an input and button in footer nav with appropriate text, Review input tags and buttons', () => {
         const footerInput = container.querySelector('footer input');
         const footerButton = container.querySelector('footer button');
 
@@ -100,7 +100,7 @@ describe('index.html', () => {
         expect(footerButton.innerHTML.includes('Sign Up')).toBe(true);
     });
 
-    it('renders the correct four links in footer nav', () => {
+    it('renders the correct four links in footer nav, Review anchor tags', () => {
         const footerNavLinks = container.querySelector('footer nav');
         let footerNavLinkTextArr = footerNavLinks.innerHTML.split(/<a /i);
         // shift is to get rid of initial index that splits before the a tag
@@ -114,7 +114,7 @@ describe('index.html', () => {
         expect(getByText(footerNavLinks, /Contact/i)).toBeInTheDocument();
     });
 
-    it('footer menu link correctly links to new page', async () => {
+    it('footer menu link correctly links to new page, Review anchor tags and ensure you are linking to the correct page', async () => {
         const menuLink = container.querySelector('footer nav a');
         expect(menuLink.href.includes('menu.html')).toEqual(true);
     });
