@@ -87,13 +87,15 @@ p, a {
 }
 
 * {
-    color: white
+    color: white;
 }
 
-span.i {
-    font-style: italic;
+html {
+    font-size: 62.5%;
 }
- 
+
+
+
 /* header section */
 header {
     width: 100%;
@@ -102,6 +104,10 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.line {
+    display: none;
 }
 
 header div {
@@ -122,6 +128,7 @@ header nav .links{
     margin: 0 auto;
     /* align-items: center; */
 }
+
 /* spacer */
 .spacer {
     width: 100%;
@@ -136,15 +143,6 @@ header nav .links{
 
 /* menu */
 
-.menu .food, #container {
-    background: rgba(2, 7, 15, 0.7);
-}
-.menu .menu-price {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .menu {
     width: 100%;
     height: auto;
@@ -153,52 +151,49 @@ header nav .links{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
-.menu .one, .menu .two, .menu .three{
-    
+
+.menu-container, .menu h2{
+    background-color: rgb(0, 4, 17, .8);
+}
+
+.menu h2 {
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.row1, .row2, .row3{
     display: flex;
     flex-direction: row;
     align-items:baseline;
     justify-content:space-around;
-    margin: 5%;
     align-content: center;
     text-align: left;
     width: 100%;
     height: 100%;
 }
-#container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1%;
-}
 
-/* .menu section {
-    width: 100%;
+
+.menu-item {
+    margin: 2rem;
     display: flex;
     flex-direction: column;
-    margin: 3%;
-    
-} */
-
-.menu .food {
-    padding-top: 1%;
-    text-align: center;
+    padding: 2%;
+    font-size: 1;
 }
 
-.menu h4 {
+.menu-item .price {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.menu .three {
-    width: 65%;
-    margin: 0 auto;
+.menu-section {
+    margin: 1.5%;
 }
 
-.menu section div p{
-    margin: 0.5%;
+span.i {
+    font-style: italic;
 }
 
 /* footer section */
@@ -208,6 +203,7 @@ footer {
     height: 20vh;
     /* padding-top: 2.5vh; */
     font-size: 3rem;
+    color: ;
 }
 
 footer .bottom {
@@ -245,17 +241,34 @@ footer .navTable nav {
     width: 70rem;
 }
 
+
+/* tablet media query */
+@media (max-width: 1024px){
+    .row1, .row2, .row3 {
+        padding: 5%;
+    }
+    
+    footer .navTable nav {
+        margin-top: 7%;
+
+    }
+}
+
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
     .header-title {
-        width: 100%;
-        margin: 0 auto;
+        width: 75%;
+        /* margin: 0 auto; */
         text-align: center;
         font-size: 4rem;
     }
     h1 {
-        font-size: 6.5rem;
+        font-size: 6rem;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
     }
 
     header nav .links{
@@ -265,44 +278,50 @@ footer .navTable nav {
     }
 
     /* menu */
+    .line  {
+        display: block;
+        content: " ";
+        margin: 7% auto;
+        height: 5px;
+        width: 85%;
+        background-color: black;
+     }
+    
     .menu {
         background-image: none;
-        text-align: center;
-    }
-    .menu h2 {
-        background-color: white;
-        color: black;
-        padding-bottom: 3%;
-    }
-    .menu .one, .menu .two, .menu .three{
-        background-color: white;
+        display: flex;
         flex-direction: column;
-        margin: 0;
-        width: 100%;
-        text-align: center;
+        background-color: rgb(225, 239, 230);
     }
 
-    .menu h4 {
+    p , .menu h3, h4, span.i{
+        color: black;
+    }
+
+    .menu h3 {
+        border: 0.5rem solid black;
+    }
+    .row1, .row2, .row3{
         display: flex;
         flex-direction: column;
         text-align: center;
+        
     }
 
-    .menu .menu-item {
-        display: block;
+    .menu-item {
+        text-align: center;
+        color: black;
+    }
+    .menu .price {
+        flex-direction: column;
+        justify-content: baseline;
+        color: black;
     }
 
-    #container h2, #container p, #container h4 {
-        color: black
+    .menu-container, .menu h2{
+        color: black;
+        background-color: rgb(225, 239, 230);
     }
-
-    #container h2 {
-        font-size: 6rem;
-        width: 50% auto;
-        border: 4px solid black;
-    }
-
-
 
     /* footer section */
     footer {
@@ -328,3 +347,4 @@ footer .navTable nav {
         text-align: center;
     }
 }
+
