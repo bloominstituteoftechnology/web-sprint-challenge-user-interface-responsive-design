@@ -57,7 +57,7 @@ describe('menu.html', () => {
         expect(menuLink.href.includes('menu.html')).toEqual(true);
     });
 
-    it('renders the correct three social media icons in header nav', () => {
+    it('renders the correct three social media icons in header nav, review i tags from the Module 1 GP', () => {
         const headerNavLinks = container.querySelector('nav');
 
         let headerSMIconsArr = headerNavLinks.innerHTML.split(/<i /i);
