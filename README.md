@@ -1,12 +1,12 @@
 # Sprint Challenge: User Interface and Responsive Design
-​
+
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a realistic project- a static site for a restaurant. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Responsive Design. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved. You will also create an additional web page that will be linked to from a navigation you will build.
-​
-​
+
+
 ## Expectations
-​
+
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
-​
+
 This is an individual assessment. All work must be your own. Your Sprint Challenge score is a measure of your ability to work independently using the material covered this week. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days. As such, you are not allowed to collaborate. However, how can use any external resource or documentation you need including Guided Projects, Module Projects, or Google.
 
 Commit your code regularly and meaningfully. Check out this guide on how to make [meaningful commits](https://cbea.ms/git-commit/).
@@ -14,23 +14,23 @@ Commit your code regularly and meaningfully. Check out this guide on how to make
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work. Perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a Sprint Challenge that meets MVP than one that attempts too much and does not.
 
 **NOTE: Please make sure you are using Flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout and will not result in a passing Sprint Challenge score.**
-​
-​
+
+
 ## Description
-​
+
 In this challenge, you build a missing header and footer and update some CSS styling on the home page, then create an additional menu page which will link from the navigation you created. You will also make a mobile media query for each page. See further down for more specific instructions per page.
-​
+
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and menu pages:
-​
+
 [Click here for the home page example](https://i.ibb.co/SRcbcdH/home-desktop.png)
-​
+
 [Click here for home page mobile example](https://i.ibb.co/svmmXzn/home-mobile.png)
-​
+
 [Click here for the menu page example](https://i.ibb.co/NxLyLCH/menu-desktop.png)
-​
+
 [Click here for menu page mobile example](https://i.ibb.co/Wsc2vpz/menu-mobile.png)
-​
-​
+
+
 ## Project Set Up
 ​
 1. Fork the repository, then clone from your fork.
