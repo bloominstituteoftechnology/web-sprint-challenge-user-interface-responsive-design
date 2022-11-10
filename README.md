@@ -8,11 +8,11 @@ This challenge allows you to practice the concepts and techniques learned over t
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 ​
 This is an individual assessment. All work must be your own. Your Sprint Challenge score is a measure of your ability to work independently using the material covered this week. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days. As such, you are not allowed to collaborate. However, how can use any external resource or documentation you need including Guided Projects, Module Projects, or Google.
-​
+
 Commit your code regularly and meaningfully. Check out this guide on how to make [meaningful commits](https://cbea.ms/git-commit/).
-​
+
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work. Perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a Sprint Challenge that meets MVP than one that attempts too much and does not.
-​
+
 **NOTE: Please make sure you are using Flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout and will not result in a passing Sprint Challenge score.**
 ​
 ​
