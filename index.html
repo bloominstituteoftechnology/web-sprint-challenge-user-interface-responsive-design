@@ -4,11 +4,12 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -16,13 +17,21 @@
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
-
+				<a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<nav>
+					<div class="navlinks">
+						<a href="#contactsection">Reservations</a>
+						<a href="#">Special Offers</a>
+						<a href="#contactsection">Contact</a>
+						<a href="menu.html">Menu</a>
+					</div>
+					<div class="sociallinks">
+						<i class="fa-brands fa-square-facebook"></i>
+						<i class="fa-brands fa-square-twitter"></i>
+						<i class="fa-brands fa-square-instagram"></i>
+					</div>	
+				</nav>
 			</div>
 		</header>
 
@@ -82,7 +91,7 @@
 		<div class="spacer"></div>
 
 		<!-- contact section -->
-		<section class="contact">
+		<section class="contact" id="contactsection">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
 
