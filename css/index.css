@@ -104,10 +104,20 @@ nav{
     display: flex;
     flex-direction: column;
 }
+/* .navlinks{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+} */
 .navlinks{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
 }
+/* .solciallinks{
+    display: flex;
+    flex-direction: column;
+} */
 nav a{
     color: rgb(225, 239, 230);
 }
@@ -125,7 +135,7 @@ i{
     justify-content: space-evenly;
 }
 
-/* spacers */
+/* spacers
 .spacer {
     width: 100%;
     height: 20vh;
@@ -135,25 +145,34 @@ i{
     width: 100%;
     height: 10vh;
     background-color: rgb(0, 4, 17);
-}
+} */
 
 /* gallery section */
 .gallery {
-    width: 100%;
-    height: 100vh;
+    /* width: 70%; */
+    /* height: 90vh; */
     text-align: center;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.galleryimg{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
 }
 
 /* about us section */
 .about {
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
 }
 
 .about-container {
@@ -181,6 +200,7 @@ i{
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
 }
 
 .contact-container {
@@ -220,12 +240,42 @@ i{
     width: 25%;
 }
 
+.contacts a{
+    color: rgb(225, 239, 230);
+}
+
+
 /* footer section */
-footer {
+footer{
     width: 100%;
-    height: 15vh;
-    padding-top: 2.5vh;
-    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+}
+.maillist{
+    width: 35%;
+    text-align: center;
+}
+input{
+    padding: 10px 10px;
+    width: 70%;
+}
+button{
+    padding: 10px 20px;
+}
+.navrow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 0 100px;
+}
+.copyright p{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 /* mobile media query */
@@ -270,16 +320,8 @@ footer {
     .hours {
         width: 100%;
     }
-    
     .contacts {
         width: 100%;
         padding-bottom: 2.5vh;
-    }
-
-    /* footer section */
-    footer {
-        height: auto;
-        padding-top: 2.5vh;
-        font-size: 2rem;
     }
 }
