@@ -4,132 +4,174 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint Challenge - Menu</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/menu.css">
+
 </head>
 
 <body>
     <div>
         <!-- header -->
-        <header>
-            <h1>BLOOMTECH BAR AND GRILL</h1>
-
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </header>
+		<header>
+			<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+			<!-- nav -->
+			<nav>
+				<div class="navlinks">
+					<a href="menu.html">Menu</a>
+					<a href="#contactsection">Reservations</a>
+					<a href="#contactsection">Special Offers</a>
+					<a href="#contactsection">Contact</a>
+				</div>
+				<div class="sociallinks">
+					<i class="fa-brands fa-square-facebook"></i>
+					<i class="fa-brands fa-square-twitter"></i>
+					<i class="fa-brands fa-square-instagram"></i>
+				</div>	
+			</nav>
+		</header>
 
         <!-- spacer -->
         <div class="spacer"></div>
 
         <!-- menu -->
         <article class="menu">
-            Food & Drink
-
-                Drinks
-                    Soda
-                    $2
-                    Coke products
-
-                    Coffee
-                    $2
-                    Cream and sugar available upon request
-
-                    Beer
-                    $5
-                    Delicious and refreshing
-
-                    Wine
-                    $5
-                    Light and fruity
-
-                    Cocktail
-                    $10
-                    Ask about our specials
-
-                Appetizers
-                    Fried Pickles
-                    $6
-                    Golden and crispy with tang!
-                    (V)
-                    
-                    Buffalo Wings
-                    $10
-                    5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks
-                    (GF)
-
-                    Poutine
-                    $5
-                    Homemade fries topped with everything but the kitchen sink
-
-                Soup and Salad
-                    House Salad
-                    $8
-                    Spinach and arugala with all the good veggies; add chicken for $6
-                    (GF, V)
-                    
-                    French Onion Soup
-                    $4
-                    Served with a thick topping of cheese and delicious bread
-                    
-                    Cheddar Broccoli Soup
-                    $5
-                    Creamy and filling
-                    (GF)
-                    
-                Entrees
-                    Ribeye Steak
-                    $32
-                    Served with mashed potatoes and roasted asparagus
-
-                    Big Boy Burger
-                    $14
-                    Beef or black bean burger on homemade bun served with fries
-                    Black Bean Burger: (V)
-                    
-                    Pork Shortrib
-                    $18
-                    Melt off the bone finger food
-                    (GF)
-                    
-                Desserts
-                    Flourless Chocolate Cake
-                    $7
-                    Gooey and chocolatey heaven
-                    (GF)
-                    
-                    Cookies and Ice Cream
-                    $6
-                    Choose 2 cookies and 1 scoop of ice cream from an assortment
-                    
-                    Creme Brulee
-                    $8
-                    Crispy scorched top containing a perfect, smooth custard
-                    (GF)
+            <h2>Food & Drink</h2> 
+                <div class="menu-section">
+                    <h3>Drinks</h3>
+                    <div class="menu-item">
+                        <h4>Soda</h4>    
+                        <p>Coke products</p>
+                        <h4>$2</h4>   
+                    </div>
+                    <div class="menu-item">
+                        <h4>Coffee</h4>    
+                        <p>Cream and sugar available upon request</p>
+                        <h4>$2</h4>   
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Beer</h4>    
+                        <p>Delicious and refreshing</p>
+                        <h4>$5</h4>   
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Wine</h4>    
+                        <p>Light and fruity</p>
+                        <h4>$5</h4>   
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Cocktail</h4>    
+                        <p>Ask about our specials</p>
+                        <h4>$10</h4>   
+                    </div>  
+                </div>
+                <div class="menu-section">
+                    <h3>Appetizers</h3>
+                    <div class="menu-item">
+                        <h4>Fried Pickles</h4>    
+                        <p>Golden and crispy with tang!</p>
+                        <h4>$6</h4>   
+                        <p>(V)</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Buffalo Wings</h4>    
+                        <p>5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks</p>
+                        <h4>$10</h4>  
+                        <p>(GF)</p> 
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Poutine</h4>    
+                        <p>Homemade fries topped with everything but the kitchen sink</p>
+                        <h4>$5</h4>   
+                    </div>  
+                </div>
+                <div class="menu-section">
+                    <h3>Soup and Salad</h3>
+                    <div class="menu-item">
+                        <h4>House Salad</h4>    
+                        <p>Spinach and arugala with all the good veggies; add chicken for $6</p>
+                        <h4>$8</h4>   
+                        <p>(GF, V)</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>French Onion Soup</h4>    
+                        <p>Served with a thick topping of cheese and delicious bread</p>
+                        <h4>$4</h4>  
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Cheddar Broccoli Soupe</h4>    
+                        <p>Creamy and filling</p>
+                        <h4>$5</h4>   
+                        <p>(GF)</p>
+                    </div>  
+                </div>
+                <div class="menu-section">
+                    <h3>Entrees</h3>
+                    <div class="menu-item">
+                        <h4>Ribeye Steak</h4>    
+                        <p>Served with mashed potatoes and roasted asparagus</p>
+                        <h4>$32</h4>   
+                    </div>
+                    <div class="menu-item">
+                        <h4>Big Boy Burger</h4>    
+                        <p>Beef or black bean burger on homemade bun served with fries</p>
+                        <h4>$14</h4>  
+                        <p>Black Bean Burger: (V)</p>
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Pork Shortrib</h4>    
+                        <p>Melt off the bone finger food</p>
+                        <h4>$18</h4>   
+                        <p>(GF)</p>
+                    </div>  
+                </div>
+                <div class="menu-section">
+                    <h3>Desserts</h3>
+                    <div class="menu-item">
+                        <h4>Flourless Chocolate Cake</h4>    
+                        <p>Gooey and chocolatey heaven</p>
+                        <h4>$7</h4>   
+                        <p>(GF)</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Cookies and Ice Cream</h4>    
+                        <p>Choose 2 cookies and 1 scoop of ice cream from an assortment</p>
+                        <h4>$6</h4>  
+                    </div>  
+                    <div class="menu-item">
+                        <h4>Creme Brulee</h4>    
+                        <p>Crispy scorched top containing a perfect, smooth custard</p>
+                        <h4>$8</h4>   
+                        <p>(GF)</p>
+                    </div>  
+                </div>
         </article>
 
         <!-- spacer -->
         <div class="spacer-sm"></div>
 
         <!-- footer -->
-        <footer>
-            <!-- email signup -->
-            Join our mailing list!
-            Sign Up
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-            <!-- copyright -->
-            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </footer>
+		<footer>
+			<!-- email signup -->
+			<div class="maillist">
+				<p>Join our mailing list!</p>
+				<input type="email" placeholder="Email Address" name="email" id=""><button type="submit">Sign Up</button>
+			</div>
+			<div>
+				<nav class="navrow">
+					<a href="menu.html">Menu</a>
+					<a href="#contactsection">Reservations</a>
+					<a href="#contactsection">Special Offers</a>
+					<a href="#contactsection">Contact</a>
+				</nav>
+				<div class="copyright">
+					<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
     </div>
 </body>
 
