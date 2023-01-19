@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey;
 }
 
 html {
     max-width: 1920px;
     min-width: 428px;
+    width: 100%;
     font-size: 62.5%;
 }
 
@@ -67,23 +69,23 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
-}
-
-h2 {
     font-size: 6rem;
 }
 
-h3 {
-    font-size: 5rem;
-}
-
-h4 {
+h2 {
     font-size: 4rem;
 }
 
-p, a {
+h3 {
+    font-size: 3.5rem;
+}
+
+h4 {
     font-size: 3rem;
+}
+
+p, a {
+    font-size: 2rem;
 }
 
 /* header section */
@@ -96,6 +98,49 @@ header {
     background-repeat: no-repeat;
 }
 
+header h1 {
+    display: flex;
+    color: rgb(225, 239, 230);
+    background-color: rgb(0, 4, 17, .8);
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(225, 239, 230);
+}
+
+header nav {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    background-color: rgb(0, 4, 17, .8);
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(225, 239, 230);
+}
+
+.socials  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+i {
+    padding: 1%;
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+}
+
 /* spacer */
 .spacer {
     width: 100%;
@@ -106,18 +151,56 @@ header {
     width: 100%;
     height: 10vh;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    padding: 2.5%;
+    padding-bottom: 2.5;
 }
 
 /* menu */
 
 .menu {
     width: 100%;
-    height: auto;
+    height: 240vh;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    color: rgb(225, 239, 230);
+}
+
+.menu-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 30%;
+    margin: 4%;
+}
+
+.menu-item {
+    padding: 5%;
+}
+
+i {
+    font-style: italic;
 }
 
 /* footer section */
@@ -126,7 +209,40 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+footer a {
+    text-decoration: none;
+    color: rgb(225, 239, 230);
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+footer .copyright {
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 60%;
+}
+
 
 /* mobile media query */
 @media (max-width: 428px) {

@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid white; */
 }
 
 html {
@@ -68,19 +69,23 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
-}
-
-h2 {
     font-size: 6rem;
 }
 
+h2 {
+    font-size: 4rem;
+}
+
 h3 {
-    font-size: 5rem;
+    font-size: 3.5rem;
+}
+
+h4 {
+    font-size: 3rem;
 }
 
 p, a {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* header section */
@@ -93,16 +98,63 @@ header {
     background-repeat: no-repeat;
 }
 
+header h1 {
+    display: flex;
+    color: rgb(225, 239, 230);
+    background-color: rgb(0, 4, 17, .8);
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(225, 239, 230);
+}
+
+header nav {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    background-color: rgb(0, 4, 17, .8);
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(225, 239, 230);
+}
+
+.socials  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+i {
+    padding: 1%;
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+}
+
+
 /* spacers */
 .spacer {
     width: 100%;
-    height: 20vh;
+    height: 40vh;
     background-color: rgb(0, 4, 17);
 }
 .spacer-sm {
     width: 100%;
     height: 10vh;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    padding: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 /* gallery section */
@@ -111,17 +163,26 @@ header {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    padding: 1%;
+    padding-bottom: 2.5%;
+}
+
+img {
+    padding: 1% 1%;
+    width: 30%;
 }
 
 /* about us section */
 .about {
     width: 100%;
-    height: 75vh;
+    height: 90vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
 }
 
 .about-container {
@@ -131,6 +192,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
+    padding-top: 5%;
 }
 
 .about h2 {
@@ -138,7 +200,7 @@ header {
 }
 
 .about-container .text {
-    width: 50%;
+    width: 75%;
 }
 
 /* contact us section */
@@ -149,6 +211,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
 }
 
 .contact-container {
@@ -157,16 +220,26 @@ header {
     background-color: rgb(0, 4, 17, .8);
 }
 
+.contact a {
+    text-decoration: none;
+    justify-content: space-around;
+    color: rgb(225, 239, 230);
+    font-size: 3rem;
+}
+
 .contact h2 {
     padding-top: 5vh;
+    font-size: 5rem;
 }
 
 .contact h3 {
     padding-top: 2.5vh;
+    font-size: 4rem;
 }
 
 .contact p {
     padding: .5vh 0;
+    font-size: 3rem;
 }
 
 .info {
@@ -176,16 +249,17 @@ header {
 }
 
 .address {
-    width: 25%;
+    width: 30%;
 }
 
 .hours {
-    width: 25%;
+    width: 30%;
     padding-bottom: 2.5vh;
 }
 
 .contacts {
-    width: 25%;
+    width: 30%;
+    justify-content: center;
 }
 
 /* footer section */
@@ -194,11 +268,60 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(225, 239, 230);
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+footer .copyright {
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 60%;
 }
 
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    header {
+        width: 100%;
+        display: flex;
+    }
+    
+    header a {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header nav div {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
     
 
     /* gallery section */
