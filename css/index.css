@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 html {
@@ -77,17 +77,21 @@ h2 {
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 3.5rem;
+}
+
+h4 {
+    font-size: 3rem;
 }
 
 p, a {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* header section */
 header {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-image: url('../img/home-header.jpg');
     background-size: cover;
     background-position: center;
@@ -131,9 +135,10 @@ nav div {
 }
 
 i {
-    padding: 2.5%;
+    padding: 1%;
     height: auto;
     width: auto;
+    font-size: 2rem;
 }
 
 
@@ -159,8 +164,13 @@ i {
     text-align: center;
     background-color: rgb(0, 4, 17);
     color: rgb(225, 239, 230);
-    padding: 2.5%;
+    padding: 1%;
     padding-bottom: 2.5%;
+}
+
+img {
+    padding: 1% 1%;
+    width: 30%;
 }
 
 /* about us section */
@@ -214,18 +224,22 @@ i {
     text-decoration: none;
     justify-content: space-around;
     color: rgb(225, 239, 230);
+    font-size: 3rem;
 }
 
 .contact h2 {
     padding-top: 5vh;
+    font-size: 5rem;
 }
 
 .contact h3 {
     padding-top: 2.5vh;
+    font-size: 4rem;
 }
 
 .contact p {
     padding: .5vh 0;
+    font-size: 3rem;
 }
 
 .info {
