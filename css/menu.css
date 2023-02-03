@@ -142,6 +142,11 @@ footer {
     .menu {
         background-image: none;
     }
+    .v {
+        color: #EFE6E1;
+        background: #040011;
+        background-color: #000811;
+    }
 
     /* footer section */
     footer {
