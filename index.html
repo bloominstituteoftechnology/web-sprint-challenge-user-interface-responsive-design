@@ -41,12 +41,19 @@
 
       <!-- gallery section -->
       <section class="gallery">
-        <div>
-          <h2>OUR FOOD</h2>
-
-          img/food-avocadotoast.jpg img/food-burger.jpg img/food-poutine.jpg
-          img/food-ribs.jpg img/food-sandwich.jpg img/food-sausage.jpg
-          img/food-steak.jpg img/food-tacos.jpg img/food-wings.jpg
+        <div class="gallery-style">
+          <h2 class="gallery-style--title">OUR FOOD</h2>
+          <div class="gallery-style--boxes">
+            <img src="img/food-avocadotoast.jpg" alt="avocado toast" />
+            <img src="img/food-burger.jpg" alt="food burger" />
+            <img src="img/food-poutine.jpg" alt="poutine" />
+            <img src="img/food-ribs.jpg" alt="ribs" />
+            <img src="img/food-sandwich.jpg" alt="sandwich" />
+            <img src="img/food-sausage.jpg" alt="sausage" />
+            <img src="img/food-steak.jpg" alt="steak" />
+            <img src="img/food-tacos.jpg" alt="tacos" />
+            <img src="img/food-wings.jpg" alt="wings" />
+          </div>
         </div>
       </section>
 
@@ -56,11 +63,11 @@
       <!-- about section -->
       <section class="about">
         <div class="about-container">
-          <h2>ABOUT US</h2>
+          <h2 class="about-container--title">ABOUT US</h2>
 
           <div id="cooks" class="pic"></div>
 
-          <div class="text">
+          <div class="about-container--text">
             <h3>Good Food, Great People</h3>
             <p>
               Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short
@@ -109,9 +116,9 @@
             </div>
 
             <div class="contacts">
-              <h3>Contacts</h3>
+              <h3 class="contacts--title">Contacts</h3>
 
-              <div>
+              <div class="contacts--address">
                 <a id="phone" href="tel:999-999-9999">999-999-9999</a>
                 <a id="email" href="mailto:restaurant@bloomtech.com"
                   >restaurant@bloomtech.com</a
@@ -126,13 +133,35 @@
       <div class="spacer-sm"></div>
 
       <!-- footer -->
-      <footer>
-        <!-- email signup -->
-        Join our mailing list! Sign Up
-        <!-- nav -->
-        Menu Reservations Special Offers Contact
+      <footer class="footer-section">
+        <div class="footer-style">
+          <!-- email signup -->
+          <div class="footer-style--signup">
+            <p>Join our mailing list! Sign Up</p>
+            <form class="footer-style--form" action="">
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Address"
+                aria-placeholder="Email Address"
+              />
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
+          <!-- nav -->
+          <nav class="footer-style--links">
+            <a class="link" href="#"> Menu </a>
+            <a class="link" href="#"> Reservations </a>
+            <a class="link" href="#"> Special Offers </a>
+            <a class="link" href="#"> Contact </a>
+          </nav>
+        </div>
+        <div class="footer-section--copyright">
+          <p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+        </div>
         <!-- copyright -->
-        ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
       </footer>
     </div>
   </body>
