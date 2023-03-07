@@ -190,12 +190,16 @@ a {
   padding: 3rem;
 }
 
-.header-style--title {
+.header-style--title a {
   text-align: center;
   color: #fff;
   font-size: 5.8rem;
   margin-bottom: 2rem;
+  color: #fff;
 }
+
+/* .header-style--title a {
+} */
 
 .header-style--links {
   display: flex;
@@ -213,7 +217,7 @@ a {
   justify-content: center;
 }
 
-.header-style--icons span {
+.header-style--icons i {
   font-size: 3rem;
   margin: 0 3rem;
   color: #fff;
@@ -428,6 +432,10 @@ a {
     font-size: 4rem;
   }
 
+  .header-style--title a {
+    font-size: 4rem;
+  }
+
   .header-style--links {
     flex-flow: column wrap;
     align-items: center;
@@ -438,7 +446,12 @@ a {
   }
 
   .header-style--icons {
-    display: none;
+    /* display: none; */
+    font-size: 2rem;
+  }
+
+  .header-style--icons i {
+    margin: 0 1rem;
   }
 
   /* gallery section */
